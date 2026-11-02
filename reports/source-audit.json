@@ -1,0 +1,11 @@
+{
+  "executed_at": "2026-11-02T12:53:10.482Z",
+  "valid": true,
+  "rows_audited": 990,
+  "source_value_comparisons": 99990,
+  "errors": [],
+  "archive_audit_executed": true,
+  "original_advisory_documents_verified": 614,
+  "scope": "Independent real-version identity, timestamps, dependency counts, observed downloads and70 GHSA fields per row; captured source hashes and snapshot boundaries",
+  "limitations": "Verifies captured public source evidence, not historical immutability of npm or exact historical GitHub service state."
+}

@@ -1,0 +1,9 @@
+[project]
+name = "pcom01-homework3"
+version = "1.0.0"
+description = "Reproducible official-schema npm and historical GHSA training data"
+requires-python = ">=3.11"
+dependencies = []
+
+[tool.unittest]
+start-directory = "tests"

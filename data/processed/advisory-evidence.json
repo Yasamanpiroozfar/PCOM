@@ -1,0 +1,4882 @@
+{
+  "express": {
+    "package": "express",
+    "prediction_cutoff": "2026-07-01T00:00:00Z",
+    "outcome_end_exclusive": "2026-09-29T00:00:00Z",
+    "history_commit": "396e25aa0b5b10bdd44627834d156df57294adfd",
+    "outcome_commit": "4886121ecccc6041f8d20eca6cd9013786f5dae4",
+    "history": {
+      "low": [
+        "GHSA-jj78-5fmv-mv28",
+        "GHSA-qw6h-vgh9-j6wx"
+      ],
+      "moderate": [
+        "GHSA-cm5g-3pgc-8rg4",
+        "GHSA-gpvr-g6gh-9mc2",
+        "GHSA-rv95-896h-c2vc"
+      ],
+      "high": [],
+      "critical": [],
+      "unknown": []
+    },
+    "monthly": {
+      "M0": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M1": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M2": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M3": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M4": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M5": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M6": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M7": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M8": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M9": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M10": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M11": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      }
+    },
+    "targets": {
+      "low": [],
+      "moderate": [],
+      "high": [],
+      "critical": [],
+      "unknown": []
+    }
+  },
+  "fastify": {
+    "package": "fastify",
+    "prediction_cutoff": "2026-07-01T00:00:00Z",
+    "outcome_end_exclusive": "2026-09-29T00:00:00Z",
+    "history_commit": "396e25aa0b5b10bdd44627834d156df57294adfd",
+    "outcome_commit": "4886121ecccc6041f8d20eca6cd9013786f5dae4",
+    "history": {
+      "low": [
+        "GHSA-mrq3-vjjr-p77c"
+      ],
+      "moderate": [
+        "GHSA-3fjj-p79j-c9hh",
+        "GHSA-444r-cwp2-x5xf",
+        "GHSA-573f-x89g-hqp9",
+        "GHSA-xw5p-hw6r-2j98"
+      ],
+      "high": [
+        "GHSA-247c-9743-5963",
+        "GHSA-455w-c45v-86rg",
+        "GHSA-jx2c-rxcm-jvmq",
+        "GHSA-mg2h-6x62-wpwc",
+        "GHSA-mq6c-fh97-4gwv"
+      ],
+      "critical": [],
+      "unknown": []
+    },
+    "monthly": {
+      "M0": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M1": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M2": {
+        "low": [],
+        "moderate": [],
+        "high": [
+          "GHSA-247c-9743-5963"
+        ],
+        "critical": [],
+        "unknown": []
+      },
+      "M3": {
+        "low": [],
+        "moderate": [
+          "GHSA-444r-cwp2-x5xf",
+          "GHSA-573f-x89g-hqp9"
+        ],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M4": {
+        "low": [
+          "GHSA-mrq3-vjjr-p77c"
+        ],
+        "moderate": [],
+        "high": [
+          "GHSA-jx2c-rxcm-jvmq"
+        ],
+        "critical": [],
+        "unknown": []
+      },
+      "M5": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M6": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M7": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M8": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M9": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M10": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M11": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      }
+    },
+    "targets": {
+      "low": [],
+      "moderate": [
+        "GHSA-3m5p-2c4r-xxw2",
+        "GHSA-w2qp-rph6-63g4"
+      ],
+      "high": [],
+      "critical": [],
+      "unknown": []
+    }
+  },
+  "koa": {
+    "package": "koa",
+    "prediction_cutoff": "2026-07-01T00:00:00Z",
+    "outcome_end_exclusive": "2026-09-29T00:00:00Z",
+    "history_commit": "396e25aa0b5b10bdd44627834d156df57294adfd",
+    "outcome_commit": "4886121ecccc6041f8d20eca6cd9013786f5dae4",
+    "history": {
+      "low": [
+        "GHSA-jgmv-j7ww-jx2x"
+      ],
+      "moderate": [
+        "GHSA-g8mr-fgfg-5qpc",
+        "GHSA-x2rg-q646-7m2v"
+      ],
+      "high": [
+        "GHSA-7gcc-r8m5-44qm"
+      ],
+      "critical": [
+        "GHSA-593f-38f6-jp5m"
+      ],
+      "unknown": []
+    },
+    "monthly": {
+      "M0": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M1": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M2": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M3": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M4": {
+        "low": [],
+        "moderate": [],
+        "high": [
+          "GHSA-7gcc-r8m5-44qm"
+        ],
+        "critical": [],
+        "unknown": []
+      },
+      "M5": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M6": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M7": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M8": {
+        "low": [],
+        "moderate": [
+          "GHSA-g8mr-fgfg-5qpc"
+        ],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M9": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M10": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M11": {
+        "low": [
+          "GHSA-jgmv-j7ww-jx2x"
+        ],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      }
+    },
+    "targets": {
+      "low": [],
+      "moderate": [],
+      "high": [],
+      "critical": [],
+      "unknown": []
+    }
+  },
+  "@hapi/hapi": {
+    "package": "@hapi/hapi",
+    "prediction_cutoff": "2026-07-01T00:00:00Z",
+    "outcome_end_exclusive": "2026-09-29T00:00:00Z",
+    "history_commit": "396e25aa0b5b10bdd44627834d156df57294adfd",
+    "outcome_commit": "4886121ecccc6041f8d20eca6cd9013786f5dae4",
+    "history": {
+      "low": [],
+      "moderate": [],
+      "high": [
+        "GHSA-23vw-mhv5-grv5"
+      ],
+      "critical": [],
+      "unknown": []
+    },
+    "monthly": {
+      "M0": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M1": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M2": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M3": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M4": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M5": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M6": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M7": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M8": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M9": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M10": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M11": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      }
+    },
+    "targets": {
+      "low": [],
+      "moderate": [],
+      "high": [],
+      "critical": [],
+      "unknown": []
+    }
+  },
+  "@nestjs/core": {
+    "package": "@nestjs/core",
+    "prediction_cutoff": "2026-07-01T00:00:00Z",
+    "outcome_end_exclusive": "2026-09-29T00:00:00Z",
+    "history_commit": "396e25aa0b5b10bdd44627834d156df57294adfd",
+    "outcome_commit": "4886121ecccc6041f8d20eca6cd9013786f5dae4",
+    "history": {
+      "low": [],
+      "moderate": [
+        "GHSA-36xv-jgw5-4q75",
+        "GHSA-4jpv-8r57-pv7j"
+      ],
+      "high": [],
+      "critical": [],
+      "unknown": []
+    },
+    "monthly": {
+      "M0": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M1": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M2": {
+        "low": [],
+        "moderate": [
+          "GHSA-36xv-jgw5-4q75"
+        ],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M3": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M4": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M5": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M6": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M7": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M8": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M9": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M10": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M11": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      }
+    },
+    "targets": {
+      "low": [],
+      "moderate": [],
+      "high": [],
+      "critical": [],
+      "unknown": []
+    }
+  },
+  "react": {
+    "package": "react",
+    "prediction_cutoff": "2026-07-01T00:00:00Z",
+    "outcome_end_exclusive": "2026-09-29T00:00:00Z",
+    "history_commit": "396e25aa0b5b10bdd44627834d156df57294adfd",
+    "outcome_commit": "4886121ecccc6041f8d20eca6cd9013786f5dae4",
+    "history": {
+      "low": [],
+      "moderate": [
+        "GHSA-g53w-52xc-2j85"
+      ],
+      "high": [
+        "GHSA-hg79-j56m-fxgv"
+      ],
+      "critical": [],
+      "unknown": []
+    },
+    "monthly": {
+      "M0": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M1": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M2": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M3": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M4": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M5": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M6": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M7": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M8": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M9": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M10": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M11": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      }
+    },
+    "targets": {
+      "low": [],
+      "moderate": [],
+      "high": [],
+      "critical": [],
+      "unknown": []
+    }
+  },
+  "vue": {
+    "package": "vue",
+    "prediction_cutoff": "2026-07-01T00:00:00Z",
+    "outcome_end_exclusive": "2026-09-29T00:00:00Z",
+    "history_commit": "396e25aa0b5b10bdd44627834d156df57294adfd",
+    "outcome_commit": "4886121ecccc6041f8d20eca6cd9013786f5dae4",
+    "history": {
+      "low": [
+        "GHSA-5j4c-8p2g-v4jx"
+      ],
+      "moderate": [],
+      "high": [],
+      "critical": [],
+      "unknown": []
+    },
+    "monthly": {
+      "M0": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M1": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M2": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M3": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M4": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M5": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M6": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M7": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M8": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M9": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M10": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M11": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      }
+    },
+    "targets": {
+      "low": [],
+      "moderate": [],
+      "high": [],
+      "critical": [],
+      "unknown": []
+    }
+  },
+  "svelte": {
+    "package": "svelte",
+    "prediction_cutoff": "2026-07-01T00:00:00Z",
+    "outcome_end_exclusive": "2026-09-29T00:00:00Z",
+    "history_commit": "396e25aa0b5b10bdd44627834d156df57294adfd",
+    "outcome_commit": "4886121ecccc6041f8d20eca6cd9013786f5dae4",
+    "history": {
+      "low": [],
+      "moderate": [
+        "GHSA-6738-r8g5-qwp3",
+        "GHSA-8266-84wp-wv5c",
+        "GHSA-9rmh-mm8f-r9h6",
+        "GHSA-crpf-4hrx-3jrp",
+        "GHSA-f3cj-j4f6-wq85",
+        "GHSA-f7gr-6p89-r883",
+        "GHSA-h7h7-mm68-gmrc",
+        "GHSA-m56q-vw4c-c2cp",
+        "GHSA-phwv-c562-gvmh",
+        "GHSA-pr6f-5x2q-rwfp",
+        "GHSA-qgvg-pr8v-6rr3",
+        "GHSA-rcqx-6q8c-2c42",
+        "GHSA-wv8q-r932-8hc7"
+      ],
+      "high": [
+        "GHSA-gw32-9rmw-qwww"
+      ],
+      "critical": [],
+      "unknown": []
+    },
+    "monthly": {
+      "M0": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M1": {
+        "low": [],
+        "moderate": [
+          "GHSA-9rmh-mm8f-r9h6",
+          "GHSA-f3cj-j4f6-wq85",
+          "GHSA-pr6f-5x2q-rwfp",
+          "GHSA-rcqx-6q8c-2c42"
+        ],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M2": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M3": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M4": {
+        "low": [],
+        "moderate": [
+          "GHSA-crpf-4hrx-3jrp",
+          "GHSA-f7gr-6p89-r883",
+          "GHSA-h7h7-mm68-gmrc",
+          "GHSA-m56q-vw4c-c2cp",
+          "GHSA-phwv-c562-gvmh",
+          "GHSA-qgvg-pr8v-6rr3"
+        ],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M5": {
+        "low": [],
+        "moderate": [
+          "GHSA-6738-r8g5-qwp3"
+        ],
+        "high": [
+          "GHSA-gw32-9rmw-qwww"
+        ],
+        "critical": [],
+        "unknown": []
+      },
+      "M6": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M7": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M8": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M9": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M10": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M11": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      }
+    },
+    "targets": {
+      "low": [],
+      "moderate": [],
+      "high": [],
+      "critical": [],
+      "unknown": []
+    }
+  },
+  "next": {
+    "package": "next",
+    "prediction_cutoff": "2026-07-01T00:00:00Z",
+    "outcome_end_exclusive": "2026-09-29T00:00:00Z",
+    "history_commit": "396e25aa0b5b10bdd44627834d156df57294adfd",
+    "outcome_commit": "4886121ecccc6041f8d20eca6cd9013786f5dae4",
+    "history": {
+      "low": [
+        "GHSA-223j-4rm8-mrmf",
+        "GHSA-3g8h-86w9-wvmq",
+        "GHSA-3h52-269p-cp9r",
+        "GHSA-c59h-r6p8-q9wc",
+        "GHSA-jcc7-9wpm-mj36",
+        "GHSA-qpjv-v59x-3qc4",
+        "GHSA-r2fc-ccr8-96c4",
+        "GHSA-vfv6-92ff-j949"
+      ],
+      "moderate": [
+        "GHSA-3x4c-7xq6-9pq8",
+        "GHSA-4342-x723-ch2f",
+        "GHSA-5f7q-jpqc-wp7h",
+        "GHSA-7m27-7ghc-44w9",
+        "GHSA-9g9p-9gw9-jx7f",
+        "GHSA-ffhc-5mcf-pf4q",
+        "GHSA-fmvm-x8mv-47mj",
+        "GHSA-fq77-7p7r-83rj",
+        "GHSA-g5qg-72qw-gw5v",
+        "GHSA-g77x-44xx-532m",
+        "GHSA-ggv3-7p47-pfv8",
+        "GHSA-gx5p-jg67-6x7h",
+        "GHSA-h27x-g6w4-24gq",
+        "GHSA-h64f-5h5j-jqjh",
+        "GHSA-mq59-m269-xvcx",
+        "GHSA-qw96-mm2g-c8m7",
+        "GHSA-vxf5-wxwp-m7g9",
+        "GHSA-w37m-7fhw-fmv9",
+        "GHSA-wfc6-r584-vfw7",
+        "GHSA-wff4-fpwg-qqv3",
+        "GHSA-wr66-vrwm-5g5x",
+        "GHSA-x56p-c8cg-q435",
+        "GHSA-xv57-4mr9-wg8v"
+      ],
+      "high": [
+        "GHSA-25mp-g6fv-mqxx",
+        "GHSA-267c-6grr-h53f",
+        "GHSA-26hh-7cqf-hhc6",
+        "GHSA-36qx-fr4f-26g5",
+        "GHSA-3f5c-4qxj-vmpf",
+        "GHSA-492v-c6pp-mqqv",
+        "GHSA-5j59-xgg2-r9c4",
+        "GHSA-5vj8-3v2h-h38v",
+        "GHSA-67rr-84xm-4c7r",
+        "GHSA-77r5-gw3j-2mpf",
+        "GHSA-7gfc-8cq8-jh5f",
+        "GHSA-8h8q-6873-q5fj",
+        "GHSA-9gr3-7897-pp7m",
+        "GHSA-c4j6-fc7j-m34r",
+        "GHSA-fq54-2j52-jc42",
+        "GHSA-fr5h-rqp8-mj6g",
+        "GHSA-gp8f-8m3g-qvj9",
+        "GHSA-h25m-26qc-wcjf",
+        "GHSA-m34x-wgrh-g897",
+        "GHSA-mg66-mrh9-m8jx",
+        "GHSA-mwv6-3258-q52c",
+        "GHSA-q4gf-8mx6-v5v3"
+      ],
+      "critical": [
+        "GHSA-9qr9-h5gf-34mp",
+        "GHSA-f82v-jwr5-mffw"
+      ],
+      "unknown": []
+    },
+    "monthly": {
+      "M0": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M1": {
+        "low": [
+          "GHSA-3g8h-86w9-wvmq",
+          "GHSA-vfv6-92ff-j949"
+        ],
+        "moderate": [
+          "GHSA-ffhc-5mcf-pf4q",
+          "GHSA-gx5p-jg67-6x7h",
+          "GHSA-h64f-5h5j-jqjh",
+          "GHSA-wfc6-r584-vfw7"
+        ],
+        "high": [
+          "GHSA-267c-6grr-h53f",
+          "GHSA-26hh-7cqf-hhc6",
+          "GHSA-36qx-fr4f-26g5",
+          "GHSA-492v-c6pp-mqqv",
+          "GHSA-8h8q-6873-q5fj",
+          "GHSA-c4j6-fc7j-m34r",
+          "GHSA-mg66-mrh9-m8jx"
+        ],
+        "critical": [],
+        "unknown": []
+      },
+      "M2": {
+        "low": [],
+        "moderate": [],
+        "high": [
+          "GHSA-q4gf-8mx6-v5v3"
+        ],
+        "critical": [],
+        "unknown": []
+      },
+      "M3": {
+        "low": [
+          "GHSA-jcc7-9wpm-mj36"
+        ],
+        "moderate": [
+          "GHSA-3x4c-7xq6-9pq8",
+          "GHSA-ggv3-7p47-pfv8",
+          "GHSA-h27x-g6w4-24gq",
+          "GHSA-mq59-m269-xvcx"
+        ],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M4": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M5": {
+        "low": [],
+        "moderate": [
+          "GHSA-5f7q-jpqc-wp7h",
+          "GHSA-9g9p-9gw9-jx7f"
+        ],
+        "high": [
+          "GHSA-h25m-26qc-wcjf"
+        ],
+        "critical": [],
+        "unknown": []
+      },
+      "M6": {
+        "low": [],
+        "moderate": [
+          "GHSA-w37m-7fhw-fmv9"
+        ],
+        "high": [
+          "GHSA-5j59-xgg2-r9c4",
+          "GHSA-mwv6-3258-q52c"
+        ],
+        "critical": [
+          "GHSA-9qr9-h5gf-34mp"
+        ],
+        "unknown": []
+      },
+      "M7": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M8": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M9": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M10": {
+        "low": [],
+        "moderate": [
+          "GHSA-4342-x723-ch2f",
+          "GHSA-g5qg-72qw-gw5v",
+          "GHSA-xv57-4mr9-wg8v"
+        ],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M11": {
+        "low": [
+          "GHSA-r2fc-ccr8-96c4"
+        ],
+        "moderate": [],
+        "high": [
+          "GHSA-67rr-84xm-4c7r"
+        ],
+        "critical": [],
+        "unknown": []
+      }
+    },
+    "targets": {
+      "low": [],
+      "moderate": [
+        "GHSA-4633-3j49-mh5q",
+        "GHSA-4c39-4ccg-62r3",
+        "GHSA-68g3-v927-f742",
+        "GHSA-955p-x3mx-jcvp",
+        "GHSA-q8wf-6r8g-63ch"
+      ],
+      "high": [
+        "GHSA-6gpp-xcg3-4w24",
+        "GHSA-89xv-2m56-2m9x",
+        "GHSA-m99w-x7hq-7vfj",
+        "GHSA-p9j2-gv94-2wf4"
+      ],
+      "critical": [
+        "GHSA-2xp9-vwfh-vxw4",
+        "GHSA-p293-qw3h-jr36"
+      ],
+      "unknown": []
+    }
+  },
+  "@angular/core": {
+    "package": "@angular/core",
+    "prediction_cutoff": "2026-07-01T00:00:00Z",
+    "outcome_end_exclusive": "2026-09-29T00:00:00Z",
+    "history_commit": "396e25aa0b5b10bdd44627834d156df57294adfd",
+    "outcome_commit": "4886121ecccc6041f8d20eca6cd9013786f5dae4",
+    "history": {
+      "low": [],
+      "moderate": [
+        "GHSA-692r-grfm-v8x7",
+        "GHSA-c75v-2vq8-878f",
+        "GHSA-f3m7-gqxr-g87x"
+      ],
+      "high": [
+        "GHSA-g93w-mfhg-p222",
+        "GHSA-jrmj-c5cx-3cw6",
+        "GHSA-prjf-86w9-mfqv",
+        "GHSA-rgjc-h3x7-9mwg"
+      ],
+      "critical": [],
+      "unknown": []
+    },
+    "monthly": {
+      "M0": {
+        "low": [],
+        "moderate": [
+          "GHSA-692r-grfm-v8x7",
+          "GHSA-f3m7-gqxr-g87x"
+        ],
+        "high": [
+          "GHSA-rgjc-h3x7-9mwg"
+        ],
+        "critical": [],
+        "unknown": []
+      },
+      "M1": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M2": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M3": {
+        "low": [],
+        "moderate": [],
+        "high": [
+          "GHSA-g93w-mfhg-p222"
+        ],
+        "critical": [],
+        "unknown": []
+      },
+      "M4": {
+        "low": [],
+        "moderate": [],
+        "high": [
+          "GHSA-prjf-86w9-mfqv"
+        ],
+        "critical": [],
+        "unknown": []
+      },
+      "M5": {
+        "low": [],
+        "moderate": [],
+        "high": [
+          "GHSA-jrmj-c5cx-3cw6"
+        ],
+        "critical": [],
+        "unknown": []
+      },
+      "M6": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M7": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M8": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M9": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M10": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M11": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      }
+    },
+    "targets": {
+      "low": [],
+      "moderate": [
+        "GHSA-hh8m-fm6v-7cvg"
+      ],
+      "high": [
+        "GHSA-jj27-h5hq-8x99"
+      ],
+      "critical": [],
+      "unknown": []
+    }
+  },
+  "vite": {
+    "package": "vite",
+    "prediction_cutoff": "2026-07-01T00:00:00Z",
+    "outcome_end_exclusive": "2026-09-29T00:00:00Z",
+    "history_commit": "396e25aa0b5b10bdd44627834d156df57294adfd",
+    "outcome_commit": "4886121ecccc6041f8d20eca6cd9013786f5dae4",
+    "history": {
+      "low": [
+        "GHSA-g4jq-h2w9-997c",
+        "GHSA-jqfw-vq24-v9c3"
+      ],
+      "moderate": [
+        "GHSA-356w-63v5-8wf4",
+        "GHSA-4r4m-qw57-chr8",
+        "GHSA-4w7w-66w2-5vf9",
+        "GHSA-64vr-g452-qvp3",
+        "GHSA-859w-5945-r5v3",
+        "GHSA-8jhw-289h-jh2g",
+        "GHSA-92r3-m2mg-pj97",
+        "GHSA-93m4-6634-74q7",
+        "GHSA-9cwx-2883-4wfx",
+        "GHSA-v6wh-96g9-6wx3",
+        "GHSA-vg6x-rcgg-rjx6",
+        "GHSA-x574-m823-4x7w",
+        "GHSA-xcj6-pq6g-qj4x"
+      ],
+      "high": [
+        "GHSA-353f-5xf4-qw67",
+        "GHSA-c24v-8rfc-w8vw",
+        "GHSA-c27g-q93r-2cwf",
+        "GHSA-fx2h-pf6j-xcff",
+        "GHSA-mv48-hcvh-8jj8",
+        "GHSA-p9ff-h696-f583",
+        "GHSA-v2wj-q39q-566r"
+      ],
+      "critical": [],
+      "unknown": []
+    },
+    "monthly": {
+      "M0": {
+        "low": [],
+        "moderate": [
+          "GHSA-v6wh-96g9-6wx3"
+        ],
+        "high": [
+          "GHSA-c27g-q93r-2cwf",
+          "GHSA-fx2h-pf6j-xcff"
+        ],
+        "critical": [],
+        "unknown": []
+      },
+      "M1": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M2": {
+        "low": [],
+        "moderate": [
+          "GHSA-4w7w-66w2-5vf9"
+        ],
+        "high": [
+          "GHSA-p9ff-h696-f583",
+          "GHSA-v2wj-q39q-566r"
+        ],
+        "critical": [],
+        "unknown": []
+      },
+      "M3": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M4": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M5": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M6": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M7": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M8": {
+        "low": [],
+        "moderate": [
+          "GHSA-93m4-6634-74q7"
+        ],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M9": {
+        "low": [
+          "GHSA-g4jq-h2w9-997c",
+          "GHSA-jqfw-vq24-v9c3"
+        ],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M10": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M11": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      }
+    },
+    "targets": {
+      "low": [],
+      "moderate": [],
+      "high": [],
+      "critical": [],
+      "unknown": []
+    }
+  },
+  "webpack": {
+    "package": "webpack",
+    "prediction_cutoff": "2026-07-01T00:00:00Z",
+    "outcome_end_exclusive": "2026-09-29T00:00:00Z",
+    "history_commit": "396e25aa0b5b10bdd44627834d156df57294adfd",
+    "outcome_commit": "4886121ecccc6041f8d20eca6cd9013786f5dae4",
+    "history": {
+      "low": [
+        "GHSA-38r7-794h-5758",
+        "GHSA-8fgc-7cc6-rx7x"
+      ],
+      "moderate": [
+        "GHSA-4vvj-4cpr-p986"
+      ],
+      "high": [],
+      "critical": [
+        "GHSA-hc6q-2mpp-qw7j"
+      ],
+      "unknown": []
+    },
+    "monthly": {
+      "M0": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M1": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M2": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M3": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M4": {
+        "low": [
+          "GHSA-38r7-794h-5758",
+          "GHSA-8fgc-7cc6-rx7x"
+        ],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M5": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M6": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M7": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M8": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M9": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M10": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M11": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      }
+    },
+    "targets": {
+      "low": [],
+      "moderate": [],
+      "high": [],
+      "critical": [],
+      "unknown": []
+    }
+  },
+  "rollup": {
+    "package": "rollup",
+    "prediction_cutoff": "2026-07-01T00:00:00Z",
+    "outcome_end_exclusive": "2026-09-29T00:00:00Z",
+    "history_commit": "396e25aa0b5b10bdd44627834d156df57294adfd",
+    "outcome_commit": "4886121ecccc6041f8d20eca6cd9013786f5dae4",
+    "history": {
+      "low": [],
+      "moderate": [],
+      "high": [
+        "GHSA-gcx4-mw62-g8wm",
+        "GHSA-mw96-cpmx-2vgc"
+      ],
+      "critical": [],
+      "unknown": []
+    },
+    "monthly": {
+      "M0": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M1": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M2": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M3": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M4": {
+        "low": [],
+        "moderate": [],
+        "high": [
+          "GHSA-mw96-cpmx-2vgc"
+        ],
+        "critical": [],
+        "unknown": []
+      },
+      "M5": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M6": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M7": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M8": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M9": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M10": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M11": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      }
+    },
+    "targets": {
+      "low": [],
+      "moderate": [],
+      "high": [],
+      "critical": [],
+      "unknown": []
+    }
+  },
+  "esbuild": {
+    "package": "esbuild",
+    "prediction_cutoff": "2026-07-01T00:00:00Z",
+    "outcome_end_exclusive": "2026-09-29T00:00:00Z",
+    "history_commit": "396e25aa0b5b10bdd44627834d156df57294adfd",
+    "outcome_commit": "4886121ecccc6041f8d20eca6cd9013786f5dae4",
+    "history": {
+      "low": [
+        "GHSA-g7r4-m6w7-qqqr"
+      ],
+      "moderate": [
+        "GHSA-67mh-4wv8-2f99"
+      ],
+      "high": [],
+      "critical": [],
+      "unknown": []
+    },
+    "monthly": {
+      "M0": {
+        "low": [
+          "GHSA-g7r4-m6w7-qqqr"
+        ],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M1": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M2": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M3": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M4": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M5": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M6": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M7": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M8": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M9": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M10": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M11": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      }
+    },
+    "targets": {
+      "low": [],
+      "moderate": [],
+      "high": [],
+      "critical": [],
+      "unknown": []
+    }
+  },
+  "@babel/core": {
+    "package": "@babel/core",
+    "prediction_cutoff": "2026-07-01T00:00:00Z",
+    "outcome_end_exclusive": "2026-09-29T00:00:00Z",
+    "history_commit": "396e25aa0b5b10bdd44627834d156df57294adfd",
+    "outcome_commit": "4886121ecccc6041f8d20eca6cd9013786f5dae4",
+    "history": {
+      "low": [
+        "GHSA-4x5r-pxfx-6jf8"
+      ],
+      "moderate": [],
+      "high": [],
+      "critical": [],
+      "unknown": []
+    },
+    "monthly": {
+      "M0": {
+        "low": [
+          "GHSA-4x5r-pxfx-6jf8"
+        ],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M1": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M2": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M3": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M4": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M5": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M6": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M7": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M8": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M9": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M10": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M11": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      }
+    },
+    "targets": {
+      "low": [],
+      "moderate": [],
+      "high": [],
+      "critical": [],
+      "unknown": []
+    }
+  },
+  "typescript": {
+    "package": "typescript",
+    "prediction_cutoff": "2026-07-01T00:00:00Z",
+    "outcome_end_exclusive": "2026-09-29T00:00:00Z",
+    "history_commit": "396e25aa0b5b10bdd44627834d156df57294adfd",
+    "outcome_commit": "4886121ecccc6041f8d20eca6cd9013786f5dae4",
+    "history": {
+      "low": [],
+      "moderate": [],
+      "high": [],
+      "critical": [],
+      "unknown": []
+    },
+    "monthly": {
+      "M0": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M1": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M2": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M3": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M4": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M5": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M6": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M7": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M8": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M9": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M10": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M11": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      }
+    },
+    "targets": {
+      "low": [],
+      "moderate": [],
+      "high": [],
+      "critical": [],
+      "unknown": []
+    }
+  },
+  "lodash": {
+    "package": "lodash",
+    "prediction_cutoff": "2026-07-01T00:00:00Z",
+    "outcome_end_exclusive": "2026-09-29T00:00:00Z",
+    "history_commit": "396e25aa0b5b10bdd44627834d156df57294adfd",
+    "outcome_commit": "4886121ecccc6041f8d20eca6cd9013786f5dae4",
+    "history": {
+      "low": [],
+      "moderate": [
+        "GHSA-29mw-wpgm-hmr9",
+        "GHSA-f23m-r3pf-42rh",
+        "GHSA-fvqr-27wr-82fm",
+        "GHSA-x5rq-j2xg-h7qm",
+        "GHSA-xxjr-mmjv-4gpg"
+      ],
+      "high": [
+        "GHSA-35jh-r3h4-6jhm",
+        "GHSA-4xc9-xhrj-v574",
+        "GHSA-p6mc-m468-83gw",
+        "GHSA-r5fr-rjxr-66jc"
+      ],
+      "critical": [
+        "GHSA-jf85-cpcp-j695"
+      ],
+      "unknown": []
+    },
+    "monthly": {
+      "M0": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M1": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M2": {
+        "low": [],
+        "moderate": [
+          "GHSA-f23m-r3pf-42rh"
+        ],
+        "high": [
+          "GHSA-r5fr-rjxr-66jc"
+        ],
+        "critical": [],
+        "unknown": []
+      },
+      "M3": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M4": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M5": {
+        "low": [],
+        "moderate": [
+          "GHSA-xxjr-mmjv-4gpg"
+        ],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M6": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M7": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M8": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M9": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M10": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M11": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      }
+    },
+    "targets": {
+      "low": [],
+      "moderate": [],
+      "high": [],
+      "critical": [],
+      "unknown": []
+    }
+  },
+  "axios": {
+    "package": "axios",
+    "prediction_cutoff": "2026-07-01T00:00:00Z",
+    "outcome_end_exclusive": "2026-09-29T00:00:00Z",
+    "history_commit": "396e25aa0b5b10bdd44627834d156df57294adfd",
+    "outcome_commit": "4886121ecccc6041f8d20eca6cd9013786f5dae4",
+    "history": {
+      "low": [
+        "GHSA-654m-c8p4-x5fp",
+        "GHSA-xhjh-pmcv-23jw"
+      ],
+      "moderate": [
+        "GHSA-3p68-rc4w-qgx5",
+        "GHSA-3w6x-2g7m-8v23",
+        "GHSA-445q-vr5w-6q77",
+        "GHSA-4w2v-q235-vp99",
+        "GHSA-5c9x-8gcm-mpgx",
+        "GHSA-62hf-57xw-28j9",
+        "GHSA-898c-q2cr-xwhg",
+        "GHSA-fvcv-3m26-pcqx",
+        "GHSA-m7pr-hjqh-92cm",
+        "GHSA-qj83-cq47-w5f8",
+        "GHSA-vf2m-468p-8v99",
+        "GHSA-w9j2-pvgh-6h63",
+        "GHSA-wf5p-g6vw-rhxx",
+        "GHSA-xx6v-rp6x-q39c"
+      ],
+      "high": [
+        "GHSA-35jp-ww65-95wh",
+        "GHSA-3g43-6gmg-66jw",
+        "GHSA-42xw-2xvc-qx8m",
+        "GHSA-43fc-jf86-j433",
+        "GHSA-4hjh-wcwx-xvwj",
+        "GHSA-6chq-wfr3-2hj9",
+        "GHSA-777c-7fjr-54vf",
+        "GHSA-8hc4-vh64-cxmj",
+        "GHSA-cph5-m8f7-6c5x",
+        "GHSA-hfxv-24rg-xrqf",
+        "GHSA-j5f8-grm9-p9fc",
+        "GHSA-jr5f-v2jv-69x6",
+        "GHSA-p92q-9vqr-4j8v",
+        "GHSA-pf86-5x62-jrwf",
+        "GHSA-pjwm-pj3p-43mv",
+        "GHSA-pmwg-cvhr-8vh7",
+        "GHSA-q8qp-cvcw-x6jj"
+      ],
+      "critical": [],
+      "unknown": []
+    },
+    "monthly": {
+      "M0": {
+        "low": [],
+        "moderate": [],
+        "high": [
+          "GHSA-777c-7fjr-54vf",
+          "GHSA-hfxv-24rg-xrqf",
+          "GHSA-j5f8-grm9-p9fc",
+          "GHSA-p92q-9vqr-4j8v"
+        ],
+        "critical": [],
+        "unknown": []
+      },
+      "M1": {
+        "low": [
+          "GHSA-654m-c8p4-x5fp",
+          "GHSA-xhjh-pmcv-23jw"
+        ],
+        "moderate": [
+          "GHSA-3w6x-2g7m-8v23",
+          "GHSA-445q-vr5w-6q77",
+          "GHSA-5c9x-8gcm-mpgx",
+          "GHSA-62hf-57xw-28j9",
+          "GHSA-898c-q2cr-xwhg",
+          "GHSA-m7pr-hjqh-92cm",
+          "GHSA-vf2m-468p-8v99",
+          "GHSA-w9j2-pvgh-6h63",
+          "GHSA-xx6v-rp6x-q39c"
+        ],
+        "high": [
+          "GHSA-35jp-ww65-95wh",
+          "GHSA-3g43-6gmg-66jw",
+          "GHSA-6chq-wfr3-2hj9",
+          "GHSA-pf86-5x62-jrwf",
+          "GHSA-pjwm-pj3p-43mv",
+          "GHSA-pmwg-cvhr-8vh7",
+          "GHSA-q8qp-cvcw-x6jj"
+        ],
+        "critical": [],
+        "unknown": []
+      },
+      "M2": {
+        "low": [],
+        "moderate": [
+          "GHSA-3p68-rc4w-qgx5",
+          "GHSA-fvcv-3m26-pcqx",
+          "GHSA-qj83-cq47-w5f8"
+        ],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M3": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M4": {
+        "low": [],
+        "moderate": [],
+        "high": [
+          "GHSA-43fc-jf86-j433"
+        ],
+        "critical": [],
+        "unknown": []
+      },
+      "M5": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M6": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M7": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M8": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M9": {
+        "low": [],
+        "moderate": [],
+        "high": [
+          "GHSA-4hjh-wcwx-xvwj"
+        ],
+        "critical": [],
+        "unknown": []
+      },
+      "M10": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M11": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      }
+    },
+    "targets": {
+      "low": [],
+      "moderate": [
+        "GHSA-42h9-826w-cgv3",
+        "GHSA-7q8q-rj6j-mhjq",
+        "GHSA-f4gw-2p7v-4548",
+        "GHSA-hcpx-6fm6-wx23",
+        "GHSA-jqh4-m9w3-8hp9",
+        "GHSA-mmx7-hfxf-jppx",
+        "GHSA-mwf2-3pr3-8698",
+        "GHSA-pmv8-rq9r-6j72",
+        "GHSA-xj6q-8x83-jv6g"
+      ],
+      "high": [
+        "GHSA-gcfj-64vw-6mp9"
+      ],
+      "critical": [],
+      "unknown": []
+    }
+  },
+  "undici": {
+    "package": "undici",
+    "prediction_cutoff": "2026-07-01T00:00:00Z",
+    "outcome_end_exclusive": "2026-09-29T00:00:00Z",
+    "history_commit": "396e25aa0b5b10bdd44627834d156df57294adfd",
+    "outcome_commit": "4886121ecccc6041f8d20eca6cd9013786f5dae4",
+    "history": {
+      "low": [
+        "GHSA-35p6-xmwp-9g52",
+        "GHSA-3787-6prv-h9w3",
+        "GHSA-3g92-w8c5-73pq",
+        "GHSA-9qxr-qj54-h672",
+        "GHSA-cxrh-j4jr-qwg3",
+        "GHSA-g8m3-5g58-fq7m",
+        "GHSA-m4v8-wqvr-p9f7",
+        "GHSA-q768-x9m6-m9qp",
+        "GHSA-wqq4-5wpv-mx2g"
+      ],
+      "moderate": [
+        "GHSA-2mjp-6q6p-2qxm",
+        "GHSA-3cvr-822r-rqcc",
+        "GHSA-4992-7rv2-5pvq",
+        "GHSA-5r9g-qh6m-jxff",
+        "GHSA-8qr4-xgw6-wmr3",
+        "GHSA-9f24-jqhm-jfcw",
+        "GHSA-c76h-2ccp-4975",
+        "GHSA-f772-66g8-q5h3",
+        "GHSA-g9mf-h72j-4rw9",
+        "GHSA-p88m-4jfj-68fv",
+        "GHSA-phc3-fgpg-7m6h",
+        "GHSA-pr7r-676h-xcf6"
+      ],
+      "high": [
+        "GHSA-38rv-x7px-6hhq",
+        "GHSA-f269-vfmq-vjvj",
+        "GHSA-hm92-r4w5-c3mj",
+        "GHSA-pgw7-wx7w-2w33",
+        "GHSA-r6ch-mqf9-qc9w",
+        "GHSA-v9p9-hfj2-hcw8",
+        "GHSA-vmh5-mc38-953g",
+        "GHSA-vrm6-8vpv-qv8q",
+        "GHSA-vxpw-j846-p89q"
+      ],
+      "critical": [],
+      "unknown": []
+    },
+    "monthly": {
+      "M0": {
+        "low": [
+          "GHSA-35p6-xmwp-9g52",
+          "GHSA-g8m3-5g58-fq7m"
+        ],
+        "moderate": [
+          "GHSA-p88m-4jfj-68fv",
+          "GHSA-pr7r-676h-xcf6"
+        ],
+        "high": [
+          "GHSA-38rv-x7px-6hhq",
+          "GHSA-hm92-r4w5-c3mj",
+          "GHSA-vmh5-mc38-953g",
+          "GHSA-vxpw-j846-p89q"
+        ],
+        "critical": [],
+        "unknown": []
+      },
+      "M1": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M2": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M3": {
+        "low": [],
+        "moderate": [
+          "GHSA-2mjp-6q6p-2qxm",
+          "GHSA-4992-7rv2-5pvq",
+          "GHSA-phc3-fgpg-7m6h"
+        ],
+        "high": [
+          "GHSA-f269-vfmq-vjvj",
+          "GHSA-v9p9-hfj2-hcw8",
+          "GHSA-vrm6-8vpv-qv8q"
+        ],
+        "critical": [],
+        "unknown": []
+      },
+      "M4": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M5": {
+        "low": [],
+        "moderate": [
+          "GHSA-g9mf-h72j-4rw9"
+        ],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M6": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M7": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M8": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M9": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M10": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M11": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      }
+    },
+    "targets": {
+      "low": [],
+      "moderate": [
+        "GHSA-3wwx-pv8p-q78v",
+        "GHSA-8xcm-r25x-g524",
+        "GHSA-jr45-8vmc-qm54",
+        "GHSA-m8rv-5g2x-5cg5",
+        "GHSA-v3r7-h72x-cjcm"
+      ],
+      "high": [
+        "GHSA-4cwx-7wf7-3272"
+      ],
+      "critical": [],
+      "unknown": []
+    }
+  },
+  "got": {
+    "package": "got",
+    "prediction_cutoff": "2026-07-01T00:00:00Z",
+    "outcome_end_exclusive": "2026-09-29T00:00:00Z",
+    "history_commit": "396e25aa0b5b10bdd44627834d156df57294adfd",
+    "outcome_commit": "4886121ecccc6041f8d20eca6cd9013786f5dae4",
+    "history": {
+      "low": [],
+      "moderate": [
+        "GHSA-pfrx-2q88-qq97"
+      ],
+      "high": [],
+      "critical": [],
+      "unknown": []
+    },
+    "monthly": {
+      "M0": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M1": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M2": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M3": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M4": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M5": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M6": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M7": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M8": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M9": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M10": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M11": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      }
+    },
+    "targets": {
+      "low": [],
+      "moderate": [],
+      "high": [],
+      "critical": [],
+      "unknown": []
+    }
+  },
+  "zod": {
+    "package": "zod",
+    "prediction_cutoff": "2026-07-01T00:00:00Z",
+    "outcome_end_exclusive": "2026-09-29T00:00:00Z",
+    "history_commit": "396e25aa0b5b10bdd44627834d156df57294adfd",
+    "outcome_commit": "4886121ecccc6041f8d20eca6cd9013786f5dae4",
+    "history": {
+      "low": [],
+      "moderate": [
+        "GHSA-m95q-7qp3-xv42"
+      ],
+      "high": [],
+      "critical": [],
+      "unknown": []
+    },
+    "monthly": {
+      "M0": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M1": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M2": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M3": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M4": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M5": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M6": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M7": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M8": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M9": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M10": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M11": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      }
+    },
+    "targets": {
+      "low": [],
+      "moderate": [],
+      "high": [],
+      "critical": [],
+      "unknown": []
+    }
+  },
+  "joi": {
+    "package": "joi",
+    "prediction_cutoff": "2026-07-01T00:00:00Z",
+    "outcome_end_exclusive": "2026-09-29T00:00:00Z",
+    "history_commit": "396e25aa0b5b10bdd44627834d156df57294adfd",
+    "outcome_commit": "4886121ecccc6041f8d20eca6cd9013786f5dae4",
+    "history": {
+      "low": [],
+      "moderate": [
+        "GHSA-q7cg-457f-vx79"
+      ],
+      "high": [],
+      "critical": [],
+      "unknown": []
+    },
+    "monthly": {
+      "M0": {
+        "low": [],
+        "moderate": [
+          "GHSA-q7cg-457f-vx79"
+        ],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M1": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M2": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M3": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M4": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M5": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M6": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M7": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M8": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M9": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M10": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M11": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      }
+    },
+    "targets": {
+      "low": [
+        "GHSA-6w3j-5fw6-r9vr",
+        "GHSA-gg4h-3hg2-grpc"
+      ],
+      "moderate": [],
+      "high": [],
+      "critical": [],
+      "unknown": []
+    }
+  },
+  "ajv": {
+    "package": "ajv",
+    "prediction_cutoff": "2026-07-01T00:00:00Z",
+    "outcome_end_exclusive": "2026-09-29T00:00:00Z",
+    "history_commit": "396e25aa0b5b10bdd44627834d156df57294adfd",
+    "outcome_commit": "4886121ecccc6041f8d20eca6cd9013786f5dae4",
+    "history": {
+      "low": [],
+      "moderate": [
+        "GHSA-2g4f-4pwh-qvx6",
+        "GHSA-v88g-cgmw-v5xw"
+      ],
+      "high": [],
+      "critical": [],
+      "unknown": []
+    },
+    "monthly": {
+      "M0": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M1": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M2": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M3": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M4": {
+        "low": [],
+        "moderate": [
+          "GHSA-2g4f-4pwh-qvx6"
+        ],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M5": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M6": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M7": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M8": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M9": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M10": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M11": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      }
+    },
+    "targets": {
+      "low": [],
+      "moderate": [],
+      "high": [],
+      "critical": [],
+      "unknown": []
+    }
+  },
+  "commander": {
+    "package": "commander",
+    "prediction_cutoff": "2026-07-01T00:00:00Z",
+    "outcome_end_exclusive": "2026-09-29T00:00:00Z",
+    "history_commit": "396e25aa0b5b10bdd44627834d156df57294adfd",
+    "outcome_commit": "4886121ecccc6041f8d20eca6cd9013786f5dae4",
+    "history": {
+      "low": [],
+      "moderate": [],
+      "high": [],
+      "critical": [],
+      "unknown": []
+    },
+    "monthly": {
+      "M0": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M1": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M2": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M3": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M4": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M5": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M6": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M7": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M8": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M9": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M10": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M11": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      }
+    },
+    "targets": {
+      "low": [],
+      "moderate": [],
+      "high": [],
+      "critical": [],
+      "unknown": []
+    }
+  },
+  "yargs": {
+    "package": "yargs",
+    "prediction_cutoff": "2026-07-01T00:00:00Z",
+    "outcome_end_exclusive": "2026-09-29T00:00:00Z",
+    "history_commit": "396e25aa0b5b10bdd44627834d156df57294adfd",
+    "outcome_commit": "4886121ecccc6041f8d20eca6cd9013786f5dae4",
+    "history": {
+      "low": [],
+      "moderate": [],
+      "high": [],
+      "critical": [],
+      "unknown": []
+    },
+    "monthly": {
+      "M0": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M1": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M2": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M3": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M4": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M5": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M6": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M7": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M8": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M9": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M10": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M11": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      }
+    },
+    "targets": {
+      "low": [],
+      "moderate": [],
+      "high": [],
+      "critical": [],
+      "unknown": []
+    }
+  },
+  "chalk": {
+    "package": "chalk",
+    "prediction_cutoff": "2026-07-01T00:00:00Z",
+    "outcome_end_exclusive": "2026-09-29T00:00:00Z",
+    "history_commit": "396e25aa0b5b10bdd44627834d156df57294adfd",
+    "outcome_commit": "4886121ecccc6041f8d20eca6cd9013786f5dae4",
+    "history": {
+      "low": [],
+      "moderate": [],
+      "high": [],
+      "critical": [],
+      "unknown": []
+    },
+    "monthly": {
+      "M0": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M1": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M2": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M3": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M4": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M5": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M6": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M7": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M8": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M9": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M10": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M11": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      }
+    },
+    "targets": {
+      "low": [],
+      "moderate": [],
+      "high": [],
+      "critical": [],
+      "unknown": []
+    }
+  },
+  "jest": {
+    "package": "jest",
+    "prediction_cutoff": "2026-07-01T00:00:00Z",
+    "outcome_end_exclusive": "2026-09-29T00:00:00Z",
+    "history_commit": "396e25aa0b5b10bdd44627834d156df57294adfd",
+    "outcome_commit": "4886121ecccc6041f8d20eca6cd9013786f5dae4",
+    "history": {
+      "low": [],
+      "moderate": [],
+      "high": [],
+      "critical": [],
+      "unknown": []
+    },
+    "monthly": {
+      "M0": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M1": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M2": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M3": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M4": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M5": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M6": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M7": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M8": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M9": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M10": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M11": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      }
+    },
+    "targets": {
+      "low": [],
+      "moderate": [],
+      "high": [],
+      "critical": [],
+      "unknown": []
+    }
+  },
+  "vitest": {
+    "package": "vitest",
+    "prediction_cutoff": "2026-07-01T00:00:00Z",
+    "outcome_end_exclusive": "2026-09-29T00:00:00Z",
+    "history_commit": "396e25aa0b5b10bdd44627834d156df57294adfd",
+    "outcome_commit": "4886121ecccc6041f8d20eca6cd9013786f5dae4",
+    "history": {
+      "low": [],
+      "moderate": [],
+      "high": [],
+      "critical": [
+        "GHSA-5xrq-8626-4rwp",
+        "GHSA-9crc-q9x8-hgqq"
+      ],
+      "unknown": []
+    },
+    "monthly": {
+      "M0": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [
+          "GHSA-5xrq-8626-4rwp"
+        ],
+        "unknown": []
+      },
+      "M1": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M2": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M3": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M4": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M5": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M6": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M7": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M8": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M9": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M10": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M11": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      }
+    },
+    "targets": {
+      "low": [],
+      "moderate": [
+        "GHSA-82fw-gwwq-j7x9"
+      ],
+      "high": [],
+      "critical": [],
+      "unknown": []
+    }
+  },
+  "mocha": {
+    "package": "mocha",
+    "prediction_cutoff": "2026-07-01T00:00:00Z",
+    "outcome_end_exclusive": "2026-09-29T00:00:00Z",
+    "history_commit": "396e25aa0b5b10bdd44627834d156df57294adfd",
+    "outcome_commit": "4886121ecccc6041f8d20eca6cd9013786f5dae4",
+    "history": {
+      "low": [],
+      "moderate": [],
+      "high": [],
+      "critical": [],
+      "unknown": []
+    },
+    "monthly": {
+      "M0": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M1": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M2": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M3": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M4": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M5": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M6": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M7": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M8": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M9": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M10": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M11": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      }
+    },
+    "targets": {
+      "low": [],
+      "moderate": [],
+      "high": [],
+      "critical": [],
+      "unknown": []
+    }
+  },
+  "eslint": {
+    "package": "eslint",
+    "prediction_cutoff": "2026-07-01T00:00:00Z",
+    "outcome_end_exclusive": "2026-09-29T00:00:00Z",
+    "history_commit": "396e25aa0b5b10bdd44627834d156df57294adfd",
+    "outcome_commit": "4886121ecccc6041f8d20eca6cd9013786f5dae4",
+    "history": {
+      "low": [],
+      "moderate": [],
+      "high": [],
+      "critical": [],
+      "unknown": []
+    },
+    "monthly": {
+      "M0": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M1": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M2": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M3": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M4": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M5": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M6": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M7": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M8": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M9": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M10": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M11": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      }
+    },
+    "targets": {
+      "low": [],
+      "moderate": [],
+      "high": [],
+      "critical": [],
+      "unknown": []
+    }
+  },
+  "prettier": {
+    "package": "prettier",
+    "prediction_cutoff": "2026-07-01T00:00:00Z",
+    "outcome_end_exclusive": "2026-09-29T00:00:00Z",
+    "history_commit": "396e25aa0b5b10bdd44627834d156df57294adfd",
+    "outcome_commit": "4886121ecccc6041f8d20eca6cd9013786f5dae4",
+    "history": {
+      "low": [],
+      "moderate": [],
+      "high": [],
+      "critical": [],
+      "unknown": []
+    },
+    "monthly": {
+      "M0": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M1": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M2": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M3": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M4": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M5": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M6": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M7": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M8": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M9": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M10": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M11": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      }
+    },
+    "targets": {
+      "low": [],
+      "moderate": [],
+      "high": [],
+      "critical": [],
+      "unknown": []
+    }
+  },
+  "ws": {
+    "package": "ws",
+    "prediction_cutoff": "2026-07-01T00:00:00Z",
+    "outcome_end_exclusive": "2026-09-29T00:00:00Z",
+    "history_commit": "396e25aa0b5b10bdd44627834d156df57294adfd",
+    "outcome_commit": "4886121ecccc6041f8d20eca6cd9013786f5dae4",
+    "history": {
+      "low": [
+        "GHSA-2mhh-w6q8-5hxw"
+      ],
+      "moderate": [
+        "GHSA-58qx-3vcg-4xpx",
+        "GHSA-6fc8-4gx4-v693"
+      ],
+      "high": [
+        "GHSA-3h5v-q93c-6h6q",
+        "GHSA-5v72-xg48-5rpm",
+        "GHSA-6663-c963-2gqg",
+        "GHSA-96hv-2xvq-fx4p"
+      ],
+      "critical": [],
+      "unknown": []
+    },
+    "monthly": {
+      "M0": {
+        "low": [],
+        "moderate": [],
+        "high": [
+          "GHSA-96hv-2xvq-fx4p"
+        ],
+        "critical": [],
+        "unknown": []
+      },
+      "M1": {
+        "low": [],
+        "moderate": [
+          "GHSA-58qx-3vcg-4xpx"
+        ],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M2": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M3": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M4": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M5": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M6": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M7": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M8": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M9": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M10": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M11": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      }
+    },
+    "targets": {
+      "low": [],
+      "moderate": [],
+      "high": [],
+      "critical": [],
+      "unknown": []
+    }
+  },
+  "socket.io": {
+    "package": "socket.io",
+    "prediction_cutoff": "2026-07-01T00:00:00Z",
+    "outcome_end_exclusive": "2026-09-29T00:00:00Z",
+    "history_commit": "396e25aa0b5b10bdd44627834d156df57294adfd",
+    "outcome_commit": "4886121ecccc6041f8d20eca6cd9013786f5dae4",
+    "history": {
+      "low": [],
+      "moderate": [
+        "GHSA-25hc-qcg6-38wj",
+        "GHSA-fxwf-4rqh-v8g3"
+      ],
+      "high": [
+        "GHSA-qv2v-m59f-v5fw"
+      ],
+      "critical": [],
+      "unknown": []
+    },
+    "monthly": {
+      "M0": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M1": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M2": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M3": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M4": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M5": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M6": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M7": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M8": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M9": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M10": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M11": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      }
+    },
+    "targets": {
+      "low": [],
+      "moderate": [],
+      "high": [],
+      "critical": [],
+      "unknown": []
+    }
+  },
+  "tar": {
+    "package": "tar",
+    "prediction_cutoff": "2026-07-01T00:00:00Z",
+    "outcome_end_exclusive": "2026-09-29T00:00:00Z",
+    "history_commit": "396e25aa0b5b10bdd44627834d156df57294adfd",
+    "outcome_commit": "4886121ecccc6041f8d20eca6cd9013786f5dae4",
+    "history": {
+      "low": [],
+      "moderate": [
+        "GHSA-29xp-372q-xqph",
+        "GHSA-f5x3-32g6-xq36",
+        "GHSA-vmf3-w455-68vh"
+      ],
+      "high": [
+        "GHSA-34x7-hfp2-rc4v",
+        "GHSA-3jfq-g458-7qm9",
+        "GHSA-5955-9wpr-37jh",
+        "GHSA-83g3-92jg-28cx",
+        "GHSA-8qq5-rm4j-mr97",
+        "GHSA-9ppj-qmqm-q256",
+        "GHSA-9r2w-394v-53qc",
+        "GHSA-gfjr-3jmm-4g9v",
+        "GHSA-j44m-qm6p-hp7m",
+        "GHSA-qffp-2rhf-9h96",
+        "GHSA-qq89-hq3f-393p",
+        "GHSA-r628-mhmh-qjhw",
+        "GHSA-r6q2-hw4h-h46w"
+      ],
+      "critical": [],
+      "unknown": []
+    },
+    "monthly": {
+      "M0": {
+        "low": [],
+        "moderate": [
+          "GHSA-vmf3-w455-68vh"
+        ],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M1": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M2": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M3": {
+        "low": [],
+        "moderate": [],
+        "high": [
+          "GHSA-9ppj-qmqm-q256",
+          "GHSA-qffp-2rhf-9h96"
+        ],
+        "critical": [],
+        "unknown": []
+      },
+      "M4": {
+        "low": [],
+        "moderate": [],
+        "high": [
+          "GHSA-83g3-92jg-28cx"
+        ],
+        "critical": [],
+        "unknown": []
+      },
+      "M5": {
+        "low": [],
+        "moderate": [],
+        "high": [
+          "GHSA-34x7-hfp2-rc4v",
+          "GHSA-8qq5-rm4j-mr97",
+          "GHSA-r6q2-hw4h-h46w"
+        ],
+        "critical": [],
+        "unknown": []
+      },
+      "M6": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M7": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M8": {
+        "low": [],
+        "moderate": [
+          "GHSA-29xp-372q-xqph"
+        ],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M9": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M10": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M11": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      }
+    },
+    "targets": {
+      "low": [],
+      "moderate": [
+        "GHSA-gvwx-54wh-qm9j",
+        "GHSA-w8wr-v893-vjvp"
+      ],
+      "high": [
+        "GHSA-8x88-c5mf-7j5w",
+        "GHSA-r292-9mhp-454m"
+      ],
+      "critical": [
+        "GHSA-23hp-3jrh-7fpw"
+      ],
+      "unknown": []
+    }
+  },
+  "semver": {
+    "package": "semver",
+    "prediction_cutoff": "2026-07-01T00:00:00Z",
+    "outcome_end_exclusive": "2026-09-29T00:00:00Z",
+    "history_commit": "396e25aa0b5b10bdd44627834d156df57294adfd",
+    "outcome_commit": "4886121ecccc6041f8d20eca6cd9013786f5dae4",
+    "history": {
+      "low": [],
+      "moderate": [],
+      "high": [
+        "GHSA-c2qf-rxjj-qqgw",
+        "GHSA-x6fg-f45m-jf5q"
+      ],
+      "critical": [],
+      "unknown": []
+    },
+    "monthly": {
+      "M0": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M1": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M2": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M3": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M4": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M5": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M6": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M7": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M8": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M9": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M10": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M11": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      }
+    },
+    "targets": {
+      "low": [],
+      "moderate": [],
+      "high": [],
+      "critical": [],
+      "unknown": []
+    }
+  },
+  "minimist": {
+    "package": "minimist",
+    "prediction_cutoff": "2026-07-01T00:00:00Z",
+    "outcome_end_exclusive": "2026-09-29T00:00:00Z",
+    "history_commit": "396e25aa0b5b10bdd44627834d156df57294adfd",
+    "outcome_commit": "4886121ecccc6041f8d20eca6cd9013786f5dae4",
+    "history": {
+      "low": [],
+      "moderate": [
+        "GHSA-vh95-rmgr-6w4m"
+      ],
+      "high": [],
+      "critical": [
+        "GHSA-xvch-5gv4-984h"
+      ],
+      "unknown": []
+    },
+    "monthly": {
+      "M0": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M1": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M2": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M3": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M4": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M5": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M6": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M7": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M8": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M9": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M10": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M11": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      }
+    },
+    "targets": {
+      "low": [],
+      "moderate": [],
+      "high": [],
+      "critical": [],
+      "unknown": []
+    }
+  },
+  "qs": {
+    "package": "qs",
+    "prediction_cutoff": "2026-07-01T00:00:00Z",
+    "outcome_end_exclusive": "2026-09-29T00:00:00Z",
+    "history_commit": "396e25aa0b5b10bdd44627834d156df57294adfd",
+    "outcome_commit": "4886121ecccc6041f8d20eca6cd9013786f5dae4",
+    "history": {
+      "low": [
+        "GHSA-w7fw-mjwx-w883"
+      ],
+      "moderate": [
+        "GHSA-6rw7-vpxm-498p",
+        "GHSA-q8mj-m7cp-5q26"
+      ],
+      "high": [
+        "GHSA-f9cm-p3w6-xvr3",
+        "GHSA-gqgv-6jq5-jjj9",
+        "GHSA-hrpp-h998-j3pp",
+        "GHSA-jjv7-qpx3-h62q"
+      ],
+      "critical": [],
+      "unknown": []
+    },
+    "monthly": {
+      "M0": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M1": {
+        "low": [],
+        "moderate": [
+          "GHSA-q8mj-m7cp-5q26"
+        ],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M2": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M3": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M4": {
+        "low": [
+          "GHSA-w7fw-mjwx-w883"
+        ],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M5": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M6": {
+        "low": [],
+        "moderate": [
+          "GHSA-6rw7-vpxm-498p"
+        ],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M7": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M8": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M9": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M10": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M11": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      }
+    },
+    "targets": {
+      "low": [],
+      "moderate": [
+        "GHSA-4mjr-xmp4-gh2g",
+        "GHSA-x5fp-wj9c-mxmx"
+      ],
+      "high": [],
+      "critical": [],
+      "unknown": []
+    }
+  },
+  "yaml": {
+    "package": "yaml",
+    "prediction_cutoff": "2026-07-01T00:00:00Z",
+    "outcome_end_exclusive": "2026-09-29T00:00:00Z",
+    "history_commit": "396e25aa0b5b10bdd44627834d156df57294adfd",
+    "outcome_commit": "4886121ecccc6041f8d20eca6cd9013786f5dae4",
+    "history": {
+      "low": [],
+      "moderate": [
+        "GHSA-48c2-rrv3-qjmp"
+      ],
+      "high": [
+        "GHSA-f9xv-q969-pqx4"
+      ],
+      "critical": [],
+      "unknown": []
+    },
+    "monthly": {
+      "M0": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M1": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M2": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M3": {
+        "low": [],
+        "moderate": [
+          "GHSA-48c2-rrv3-qjmp"
+        ],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M4": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M5": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M6": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M7": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M8": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M9": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M10": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M11": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      }
+    },
+    "targets": {
+      "low": [],
+      "moderate": [],
+      "high": [],
+      "critical": [],
+      "unknown": []
+    }
+  },
+  "marked": {
+    "package": "marked",
+    "prediction_cutoff": "2026-07-01T00:00:00Z",
+    "outcome_end_exclusive": "2026-09-29T00:00:00Z",
+    "history_commit": "396e25aa0b5b10bdd44627834d156df57294adfd",
+    "outcome_commit": "4886121ecccc6041f8d20eca6cd9013786f5dae4",
+    "history": {
+      "low": [
+        "GHSA-ch52-vgq2-943f"
+      ],
+      "moderate": [
+        "GHSA-4r62-v4vq-hr96",
+        "GHSA-7px7-7xjx-hxm8",
+        "GHSA-9cw2-jqp5-7x39",
+        "GHSA-cfjh-p3g4-3q2f",
+        "GHSA-p9wx-2529-fp83",
+        "GHSA-vfvf-mqq8-rwqc",
+        "GHSA-xf5p-87ch-gxw2"
+      ],
+      "high": [
+        "GHSA-5v2h-r2cx-5xgj",
+        "GHSA-6v9c-7cg6-27q7",
+        "GHSA-hjcp-j389-59ff",
+        "GHSA-rrrm-qjm4-v8hf",
+        "GHSA-x5pg-88wf-qq4p"
+      ],
+      "critical": [],
+      "unknown": []
+    },
+    "monthly": {
+      "M0": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M1": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M2": {
+        "low": [],
+        "moderate": [],
+        "high": [
+          "GHSA-6v9c-7cg6-27q7"
+        ],
+        "critical": [],
+        "unknown": []
+      },
+      "M3": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M4": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M5": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M6": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M7": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M8": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M9": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M10": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M11": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      }
+    },
+    "targets": {
+      "low": [],
+      "moderate": [],
+      "high": [],
+      "critical": [],
+      "unknown": []
+    }
+  },
+  "nanoid": {
+    "package": "nanoid",
+    "prediction_cutoff": "2026-07-01T00:00:00Z",
+    "outcome_end_exclusive": "2026-09-29T00:00:00Z",
+    "history_commit": "396e25aa0b5b10bdd44627834d156df57294adfd",
+    "outcome_commit": "4886121ecccc6041f8d20eca6cd9013786f5dae4",
+    "history": {
+      "low": [],
+      "moderate": [
+        "GHSA-mwcw-c2x4-8c55",
+        "GHSA-qrpm-p2h7-hrv2"
+      ],
+      "high": [],
+      "critical": [],
+      "unknown": []
+    },
+    "monthly": {
+      "M0": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M1": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M2": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M3": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M4": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M5": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M6": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M7": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M8": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M9": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M10": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      },
+      "M11": {
+        "low": [],
+        "moderate": [],
+        "high": [],
+        "critical": [],
+        "unknown": []
+      }
+    },
+    "targets": {
+      "low": [],
+      "moderate": [],
+      "high": [
+        "GHSA-28wg-ghj8-5hjv",
+        "GHSA-2v37-7h3g-55p8",
+        "GHSA-xwg4-73v4-xw9w"
+      ],
+      "critical": [],
+      "unknown": []
+    }
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "method": "Read-only ZIP/XML inspection of every worksheet. Formula definitions and cached results read, not recalculated.",
+  "workbooks": [
+    {
+      "filename": "PCOM-01 Record Schema [Public].xlsx",
+      "sha256": "243a32bcd9e9b6d23cbde133a790f8e81ef518ece6e1e408adbb39815f033413",
+      "worksheets": [
+        {
+          "name": "Schema",
+          "visibility": "visible",
+          "nonempty_cell_count": 357,
+          "formula_cell_count": 0
+        },
+        {
+          "name": "Documentation",
+          "visibility": "visible",
+          "nonempty_cell_count": 7,
+          "formula_cell_count": 0
+        }
+      ]
+    },
+    {
+      "filename": "PCOM Organization [Public].xlsx",
+      "sha256": "923c27780695afe414069d36e441cd0e906bd9b4d670073b2c577cf864e1d4ed",
+      "worksheets": [
+        {
+          "name": "PCOM-01",
+          "visibility": "visible",
+          "nonempty_cell_count": 174,
+          "formula_cell_count": 27
+        }
+      ]
+    }
+  ],
+  "schedule": {
+    "assigned_date": "2026-10-26",
+    "source_cells": [
+      "PCOM-01!B14",
+      "PCOM-01!N14",
+      "PCOM-01!N11"
+    ],
+    "assignment": "Homework 3: Acquire training dataset",
+    "deadline_header": "To do; due next weeik",
+    "inferred_due_date": "2026-11-02",
+    "caveat": "Due date inferred from due-next-week header; no precise deadline time established."
+  },
+  "ambiguities": [
+    {
+      "source": "Schema!C5:H7",
+      "issue": "No prediction or collection timestamp is defined as a column; store run-level cutoffs and collection provenance separately."
+    },
+    {
+      "source": "Schema!F6:F7",
+      "issue": "Example package creation is 2026-07-01 but example publication is 2026-04-08; examples cannot form one chronological record."
+    },
+    {
+      "source": "Schema!C78:H82",
+      "issue": "Five severity targets include unknown, whereas worklog describes a four-tuple. Preserve all five contract columns."
+    },
+    {
+      "source": "Schema!H56:H82",
+      "issue": "At prediction and at outcome end require historical advisory state. Current metadata alone is not sufficient evidence."
+    },
+    {
+      "source": "Schema!H78:H82",
+      "issue": "Targets affect any version of the package, not necessarily the exact version named in the record PURL."
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+__pycache__/
+*.py[cod]
+.venv/
+.env
+.env.*
+data/cache/
+*.part
+reports/replay/
+reports/tests-current.txt
+*.egg-info/
+dist/
+build/
