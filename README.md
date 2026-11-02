@@ -6,8 +6,10 @@ PCOM-01 Prediction Competition. The submission follows the supplied official
 real npm metadata, recorded npm daily download observations, and historical
 GitHub-reviewed GHSA snapshots. Synthetic records exist only in automated tests.
 
-**Status:** local submission candidate; publication, the `initial-training-data`
-tag, and Google Form submission require the owner's explicit approval. See
+**Release:** [Yasamanpiroozfar/PCOM](https://github.com/Yasamanpiroozfar/PCOM),
+with the reviewed code and data identified by the exact `initial-training-data` tag.
+The owner approved public publication and tagging on November 2, 2026. The Google
+Form remains the owner's responsibility. See
 [`reports/final-audit.md`](reports/final-audit.md) for the final requirement audit
 and [`reports/results.md`](reports/results.md) for executed results. No grade is
 claimed or guaranteed.
@@ -129,11 +131,11 @@ source hashes and worksheet evidence are recorded under `schema/`.
 
 ## Submission steps
 
-After reviewing the final audit, approve the intended GitHub owner/repository and
-visibility. Publish the reviewed commit and create the exact annotated tag
-`initial-training-data` only after approval. Verify that both remote commit and
-tag resolve to the reviewed version, and that the instructor can access it.
-Then submit the repository URL through the official
+The approved destination is the public repository `Yasamanpiroozfar/PCOM`.
+The exact annotated tag is `initial-training-data`; resolve the final commit with
+`git rev-parse initial-training-data^{commit}`. The audit records pre-publication
+checks; public repository, tag and Actions results are verified after the push.
+The owner will submit the repository URL through the official
 [Homework 3 Google Form](https://forms.gle/SUjxnXAWQ99oDv8N8).
 Neither a prepared repository nor a successful push proves that the form was submitted.
 
