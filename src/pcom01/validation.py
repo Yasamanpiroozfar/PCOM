@@ -11,7 +11,7 @@ from pathlib import Path
 import re
 from urllib.parse import quote, unquote
 
-from .schema import (COLUMNS, FIELDS, HISTORY_END, MONTHS, REQUIRED_COLUMNS,
+from .schema import (COLUMNS, FIELDS, HISTORY_START, HISTORY_END, MONTHS, REQUIRED_COLUMNS,
                      OPTIONAL_COLUMNS, SEVERITIES)
 
 TIMESTAMP_PATTERN = re.compile(r"^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}\.\d{3}Z$")
@@ -119,6 +119,8 @@ def validate_record(record: dict, *, prediction_at: str | datetime | None = None
         if prediction:
             if prediction < HISTORY_END:
                 errors.append("prediction_at precedes the end of the required history window (temporal leakage)")
+            if times.get("published_at") and times["published_at"] < HISTORY_START:
+                errors.append("published_at precedes the required history window")
             if times.get("published_at") and times["published_at"] >= prediction:
                 errors.append("published_at must precede the end-exclusive prediction cutoff")
     except ValueError as exc:
@@ -132,8 +134,8 @@ def validate_record(record: dict, *, prediction_at: str | datetime | None = None
     for month in MONTHS:
         observed = record.get(f"package_download_days_observed_{month}")
         downloads = record.get(f"package_downloads_{month}")
-        if type(observed) is int and observed == 0 and type(downloads) is int and downloads > 0:
-            errors.append(f"package_downloads_{month}: positive downloads with zero observed days")
+        if type(observed) is int and observed == 0 and downloads is not None:
+            errors.append(f"package_downloads_{month}: must be missing with zero observed days")
         if type(observed) is int and observed > 0 and downloads is None:
             errors.append(f"package_downloads_{month}: observations counted but their sum is missing")
     return errors

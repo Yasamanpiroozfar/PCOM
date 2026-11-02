@@ -99,6 +99,24 @@ class ValidationTests(unittest.TestCase):
         row["ghsa_unknown_count"] = 2
         self.assertEqual(validate_record(row), [])
 
+    def test_pre_history_release_rejected_and_first_instant_included(self):
+        row = fixture()
+        row["published_at"] = "2025-06-30T23:59:59.999Z"
+        cutoff = "2026-07-01T00:00:00.000Z"
+        self.assertIn("published_at precedes the required history window",
+                      validate_record(row, prediction_at=cutoff))
+        row["published_at"] = "2025-07-01T00:00:00.000Z"
+        self.assertEqual(validate_record(row, prediction_at=cutoff), [])
+
+    def test_no_download_observations_cannot_establish_zero_downloads(self):
+        row = fixture()
+        row["package_download_days_observed_M0"] = 0
+        row["package_downloads_M0"] = 0
+        self.assertTrue(any("must be missing with zero observed days" in e
+                            for e in validate_record(row)))
+        row["package_downloads_M0"] = None
+        self.assertEqual(validate_record(row), [])
+
     def test_download_coverage_boundaries_and_zero_observations(self):
         row = fixture()
         row["package_downloads_M4"] = 0

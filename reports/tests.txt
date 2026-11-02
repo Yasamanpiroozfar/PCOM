@@ -134,12 +134,14 @@ test_example_creation_after_publication_rejected (test_validation.ValidationTest
 test_integer_type_and_signed64_boundaries (test_validation.ValidationTests.test_integer_type_and_signed64_boundaries) ... ok
 test_missing_extra_and_reordered_columns (test_validation.ValidationTests.test_missing_extra_and_reordered_columns) ... ok
 test_monthly_ghsa_cannot_exceed_lifetime (test_validation.ValidationTests.test_monthly_ghsa_cannot_exceed_lifetime) ... ok
+test_no_download_observations_cannot_establish_zero_downloads (test_validation.ValidationTests.test_no_download_observations_cannot_establish_zero_downloads) ... ok
+test_pre_history_release_rejected_and_first_instant_included (test_validation.ValidationTests.test_pre_history_release_rejected_and_first_instant_included) ... ok
 test_prediction_boundary_and_no_future_months (test_validation.ValidationTests.test_prediction_boundary_and_no_future_months) ... ok
 test_purl_scopes_build_metadata_and_invalid_identities (test_validation.ValidationTests.test_purl_scopes_build_metadata_and_invalid_identities) ... ok
 test_required_missing_and_optional_null (test_validation.ValidationTests.test_required_missing_and_optional_null) ... ok
 test_timestamp_invalid_dates_precision_and_offsets (test_validation.ValidationTests.test_timestamp_invalid_dates_precision_and_offsets) ... ok
 
 ----------------------------------------------------------------------
-Ran 108 tests in 0.887s
+Ran 110 tests in 0.811s
 
 OK

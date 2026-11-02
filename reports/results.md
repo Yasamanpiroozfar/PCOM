@@ -12,7 +12,7 @@ These figures are generated from recorded runs, not estimates. Dataset verificat
 | Required field coverage | 990/990 for every required field |
 | Optional fields fully populated / entirely NULL | 38 / 108 |
 | Structural validation errors | 0 |
-| Tests run / failures / errors / skips | 108 / 0 / 0 / 0 |
+| Tests run / failures / errors / skips | 110 / 0 / 0 / 0 |
 | Independent source comparisons | 99,990 |
 | Original advisory documents verified against archives | 614 |
 | Byte-identical processed artifacts | 9/9 |

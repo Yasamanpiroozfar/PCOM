@@ -63,13 +63,21 @@ def main():
                 errors.append(f"Original archive digest mismatch: {name}")
             wanted = {record["source_path"]: record for record in bundle["records"]}
             seen, scanned = set(), 0
+            original_ids, independently_selected = set(), set()
+            selected_names = set(bundle["provenance"]["selected_packages"])
             with tarfile.open(archive_path, "r|gz") as archive:
                 for member in archive:
-                    if "/advisories/github-reviewed/" in member.name and member.name.endswith(".json"):
-                        scanned += 1
+                    if "/advisories/github-reviewed/" not in member.name or not member.name.endswith(".json"):
+                        continue
+                    scanned += 1
+                    original = json.load(archive.extractfile(member))
+                    original_ids.add(original["id"])
+                    npm_names = {affected["package"]["name"] for affected in original.get("affected", [])
+                                 if affected.get("package", {}).get("ecosystem") == "npm"}
+                    if npm_names & selected_names or "*" in npm_names:
+                        independently_selected.add(member.name)
                     if member.name not in wanted:
                         continue
-                    original = json.load(archive.extractfile(member))
                     retained = wanted[member.name]
                     digest = hashlib.sha256(json.dumps(original, sort_keys=True, separators=(",", ":")).encode()).hexdigest()
                     if digest != retained["source_document_sha256"] or any(original.get(key) != value for key, value in retained["document"].items()):
@@ -79,6 +87,10 @@ def main():
                     seen.add(member.name)
             if seen != set(wanted) or scanned != bundle["provenance"]["reviewed_files_scanned"]:
                 errors.append(f"Original archive coverage mismatch: {name}")
+            if independently_selected != set(wanted):
+                errors.append(f"Selected-package advisory coverage mismatch: {name}")
+            if original_ids != set(bundle["provenance"]["all_ghsa_ids"]):
+                errors.append(f"Complete reviewed GHSA inventory mismatch: {name}")
     severities = ("low", "moderate", "high", "critical", "unknown")
     buckets = {name: defaultdict(set) for name in ("history", "outcome")}
     known_ids = set(snapshots["history"]["provenance"]["all_ghsa_ids"])
@@ -145,7 +157,7 @@ def main():
     report = {"executed_at": now(), "valid": not errors and bool(rows), "rows_audited": len(rows),
               "source_value_comparisons": comparisons, "errors": errors,
               "archive_audit_executed": args.archives, "original_advisory_documents_verified": source_documents_verified,
-              "scope": "Independent real-version identity, timestamps, dependency counts, observed downloads and70 GHSA fields per row; captured source hashes and snapshot boundaries",
+              "scope": "Independent real-version identity, timestamps, dependency counts, observed downloads and 70 GHSA fields per row; captured source hashes and snapshot boundaries. With --archives, independently compare complete GHSA inventories and selected-package coverage against original trees.",
               "limitations": "Verifies captured public source evidence, not historical immutability of npm or exact historical GitHub service state."}
     save_json(ROOT / "reports/source-audit.json", report)
     print(json.dumps(report, indent=2))

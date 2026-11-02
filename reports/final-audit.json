@@ -74,8 +74,8 @@
     {
       "category": "Instructor",
       "requirement": "Commit code and real data to repository",
-      "status": "PARTIAL",
-      "evidence": "Dedicated Git repository and reviewed files prepared",
+      "status": "PASS",
+      "evidence": "Local commit b18527ca82a33ad6c3ac16a994b65b494d5f14c3",
       "limitation": "Remote publication still awaits owner approval"
     },
     {
@@ -110,7 +110,7 @@
       "category": "User quality",
       "requirement": "Actually execute acquisition, validation and tests",
       "status": "PASS",
-      "evidence": "108 executed tests; 84 HTTP 200 responses; source audit",
+      "evidence": "110 executed tests; 84 HTTP 200 responses; source audit",
       "limitation": ""
     },
     {

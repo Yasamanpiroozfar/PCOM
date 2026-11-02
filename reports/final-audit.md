@@ -14,12 +14,12 @@ PASS means implemented and verified within the stated evidence scope. PARTIAL id
 | Instructor | Package-wide targets and exact 90-day interval | **PARTIAL** | Known expected counts; package-wide and boundary tests; labels through 2026-09-29 exclusive | Calculation verified under common-cutoff interpretation; instructor cutoff anchor remains unresolved |
 | Instructor | Optional unavailable measurements are NULL, not fabricated zeros | **PASS** | 146 optional fields retained; 108 GitHub event fields NULL; failure/null/zero tests |  |
 | Instructor | Keep required core while allowing extensions | **PASS** | No extra table columns; provenance and collection times in sidecars |  |
-| Instructor | Commit code and real data to repository | **PARTIAL** | Dedicated Git repository and reviewed files prepared | Remote publication still awaits owner approval |
+| Instructor | Commit code and real data to repository | **PASS** | Local commit b18527ca82a33ad6c3ac16a994b65b494d5f14c3 | Remote publication still awaits owner approval |
 | Instructor | Publish an instructor-accessible GitHub repository | **PARTIAL** | Dedicated local repository prepared; no remote publication yet | Owner/name/visibility/access require approval before creation or push |
 | Instructor | Exact tag initial-training-data | **FAIL** | No final submission tag created | Explicit owner approval required before tag creation |
 | Instructor | Submit repository URL through official form | **FAIL** | https://forms.gle/SUjxnXAWQ99oDv8N8 | No repository publication or form submission has been authorized or confirmed |
 | User quality | Preserve all original course and Homework 2 files | **PASS** | release-check.json compares all 5 source SHA-256 values |  |
-| User quality | Actually execute acquisition, validation and tests | **PASS** | 108 executed tests; 84 HTTP 200 responses; source audit |  |
+| User quality | Actually execute acquisition, validation and tests | **PASS** | 110 executed tests; 84 HTTP 200 responses; source audit |  |
 | User quality | Known results, negative cases, edge cases, temporal leakage prevention | **PASS** | Test names/transcript cover source failures, dates, IDs, types, cutoffs, revisions, duplicates and replay |  |
 | User quality | Reproducible dataset and clear dependency setup | **PASS** | Python 3.11+ standard library; README commands; nine byte-identical artifacts |  |
 | User quality | Explicit source failures, missingness and sampling biases | **PASS** | HTTP events; source failures/recovery; exclusions; docs/sources.md |  |
