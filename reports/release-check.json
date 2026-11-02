@@ -1,5 +1,5 @@
 {
-  "executed_at": "2026-11-02T13:09:32.717Z",
+  "executed_at": "2026-11-02T13:35:36.265Z",
   "files_scanned": 139,
   "credential_pattern_findings": [],
   "files_over_50_mib": [],
@@ -35,10 +35,10 @@
   "limitations": "Pattern scan plus explicit file inventory review is not proof that every conceivable secret format is absent.",
   "publication": {
     "github_owner_verified": "Yasamanpiroozfar",
-    "proposed_repository": "PCOM-01",
-    "visibility": "awaiting owner approval",
-    "published": false,
-    "submission_tag_created": false,
-    "form_submitted": false
+    "repository": "PCOM",
+    "visibility": "public",
+    "owner_approval_received": true,
+    "scope": "Pre-publication release-content check; remote state is verified after push",
+    "form_submission": "Reserved for owner; agent instructed not to submit"
   }
 }

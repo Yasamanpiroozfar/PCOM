@@ -73,8 +73,10 @@ def main():
               "original_file_integrity": originals,
               "local_checks_pass": not findings and not oversized and not copied_originals and all(v["unchanged"] is not False for v in originals.values()),
               "limitations": "Pattern scan plus explicit file inventory review is not proof that every conceivable secret format is absent.",
-              "publication": {"github_owner_verified": "Yasamanpiroozfar", "proposed_repository": "PCOM-01",
-                              "visibility": "awaiting owner approval", "published": False, "submission_tag_created": False, "form_submitted": False}}
+              "publication": {"github_owner_verified": "Yasamanpiroozfar", "repository": "PCOM",
+                              "visibility": "public", "owner_approval_received": True,
+                              "scope": "Pre-publication release-content check; remote state is verified after push",
+                              "form_submission": "Reserved for owner; agent instructed not to submit"}}
     save_json(ROOT / "reports/release-check.json", report)
     inventory = ROOT / "reports/file-inventory.txt"
     inventory.touch(exist_ok=True)

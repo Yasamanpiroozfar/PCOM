@@ -1,5 +1,5 @@
 {
-  "scope": "Local candidate; external submission incomplete",
+  "scope": "Pre-publication verification; public repository and tag authorized; form reserved for owner",
   "items": [
     {
       "category": "Instructor",
@@ -75,29 +75,29 @@
       "category": "Instructor",
       "requirement": "Commit code and real data to repository",
       "status": "PASS",
-      "evidence": "Local commit b18527ca82a33ad6c3ac16a994b65b494d5f14c3",
-      "limitation": "Remote publication still awaits owner approval"
+      "evidence": "The final release commit is identified by initial-training-data^{commit}; resolve with git rev-parse after tag creation",
+      "limitation": "A commit cannot embed its own hash; the release tag provides the stable reference"
     },
     {
       "category": "Instructor",
       "requirement": "Publish an instructor-accessible GitHub repository",
       "status": "PARTIAL",
-      "evidence": "Dedicated local repository prepared; no remote publication yet",
-      "limitation": "Owner/name/visibility/access require approval before creation or push"
+      "evidence": "Public destination approved: https://github.com/Yasamanpiroozfar/PCOM",
+      "limitation": "This audit records pre-publication checks; verify public access after the push"
     },
     {
       "category": "Instructor",
       "requirement": "Exact tag initial-training-data",
-      "status": "FAIL",
-      "evidence": "No final submission tag created",
-      "limitation": "Explicit owner approval required before tag creation"
+      "status": "PARTIAL",
+      "evidence": "Tag creation and push explicitly approved",
+      "limitation": "Verify the remote tag points to the final tested commit after publication"
     },
     {
       "category": "Instructor",
       "requirement": "Submit repository URL through official form",
       "status": "FAIL",
       "evidence": "https://forms.gle/SUjxnXAWQ99oDv8N8",
-      "limitation": "No repository publication or form submission has been authorized or confirmed"
+      "limitation": "The owner will submit the form separately; the agent must not submit it"
     },
     {
       "category": "User quality",
@@ -173,8 +173,8 @@
       "category": "Optional",
       "requirement": "GitHub Actions test/reproducibility workflow",
       "status": "PARTIAL",
-      "evidence": ".github/workflows/validate.yml prepared using official action versions",
-      "limitation": "Remote workflow cannot execute before approved publication"
+      "evidence": ".github/workflows/validate.yml; https://github.com/Yasamanpiroozfar/PCOM/actions",
+      "limitation": "Pre-publication snapshot; inspect the final commit's workflow results after push"
     },
     {
       "category": "Unresolved",
@@ -208,8 +208,8 @@
       "category": "Unresolved",
       "requirement": "Repository visibility and instructor access",
       "status": "PARTIAL",
-      "evidence": "Authenticated owner Yasamanpiroozfar; proposed PCOM-01 repository",
-      "limitation": "Awaiting approval of owner/name/visibility/access"
+      "evidence": "Owner approved public Yasamanpiroozfar/PCOM on 2026-11-02",
+      "limitation": "Verify anonymous access after publication; no collaborator invitation is needed for a public repository"
     }
   ]
 }

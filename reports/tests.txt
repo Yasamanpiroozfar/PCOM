@@ -142,6 +142,6 @@ test_required_missing_and_optional_null (test_validation.ValidationTests.test_re
 test_timestamp_invalid_dates_precision_and_offsets (test_validation.ValidationTests.test_timestamp_invalid_dates_precision_and_offsets) ... ok
 
 ----------------------------------------------------------------------
-Ran 110 tests in 0.811s
+Ran 110 tests in 0.837s
 
 OK
