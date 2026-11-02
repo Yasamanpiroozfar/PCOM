@@ -1,0 +1,1718 @@
+[
+  {
+    "url": "https://api.github.com/repos/github/advisory-database/commits?until=2026-06-30T23:59:59Z&per_page=1",
+    "fetched_at": "2026-11-02T12:22:41.099Z",
+    "status": 200,
+    "body_sha256": "57fc455cf4a01083843ecd76fbe3ba176d1bb458bd05011bad9665118bc2268f",
+    "bytes": 3800,
+    "headers": {
+      "date": "Mon, 02 Nov 2026 12:22:37 GMT",
+      "content-type": "application/json; charset=utf-8",
+      "etag": "W/\"617507c4408a1c186b832789ec139dc16c7cb75debcecc4b45b7ef950cab3f80\"",
+      "last-modified": "Tue, 30 Jun 2026 22:29:28 GMT",
+      "link": "<https://api.github.com/repositories/458364565/commits?until=2026-06-30T23%3A59%3A59Z&per_page=1&page=2>; rel=\"next\", <https://api.github.com/repositories/458364565/commits?until=2026-06-30T23%3A59%3A59Z&per_page=1&page=116616>; rel=\"last\"",
+      "x-ratelimit-remaining": "56",
+      "x-ratelimit-reset": "1793623864"
+    },
+    "attempt": 1
+  },
+  {
+    "url": "https://codeload.github.com/github/advisory-database/tar.gz/396e25aa0b5b10bdd44627834d156df57294adfd",
+    "fetched_at": "2026-11-02T12:22:41.573Z",
+    "status": 200,
+    "body_sha256": "88bdcb15ac117d84a0757981070329e466c3cd47313a3d5e781adeb86b97b498",
+    "bytes": 119632927,
+    "headers": {
+      "content-type": "application/x-gzip",
+      "etag": "\"a88acc098d34bac693b2f8dc5585fb48046d9366b6441e0ccf55e5289b8838c3\"",
+      "date": "Mon, 02 Nov 2026 12:22:40 GMT"
+    },
+    "attempt": 1
+  },
+  {
+    "url": "https://api.github.com/repos/github/advisory-database/commits?until=2026-09-28T23:59:59Z&per_page=1",
+    "fetched_at": "2026-11-02T12:23:19.678Z",
+    "status": 200,
+    "body_sha256": "c37b9e053786e7e4e18a505b34bc45c3217c754777583296b7a1e818c23c063e",
+    "bytes": 3800,
+    "headers": {
+      "date": "Mon, 02 Nov 2026 12:23:16 GMT",
+      "content-type": "application/json; charset=utf-8",
+      "etag": "W/\"5e729ceb5770acbdfa5e660f599fa33d641f682dcb39157ba4f5c332f0d11332\"",
+      "last-modified": "Mon, 28 Sep 2026 21:58:48 GMT",
+      "link": "<https://api.github.com/repositories/458364565/commits?until=2026-09-28T23%3A59%3A59Z&per_page=1&page=2>; rel=\"next\", <https://api.github.com/repositories/458364565/commits?until=2026-09-28T23%3A59%3A59Z&per_page=1&page=119412>; rel=\"last\"",
+      "x-ratelimit-remaining": "55",
+      "x-ratelimit-reset": "1793623864"
+    },
+    "attempt": 1
+  },
+  {
+    "url": "https://codeload.github.com/github/advisory-database/tar.gz/4886121ecccc6041f8d20eca6cd9013786f5dae4",
+    "fetched_at": "2026-11-02T12:23:20.063Z",
+    "status": 200,
+    "body_sha256": "42db8bc1c20950ab94d8b9465f881ee4796b876d82e9eb6f026862673f819396",
+    "bytes": 136897773,
+    "headers": {
+      "content-type": "application/x-gzip",
+      "etag": "\"3d2b9158ea99c6d476ab467607d1c7096127bde9bef6a7c2937693a934f75d83\"",
+      "date": "Mon, 02 Nov 2026 12:23:18 GMT"
+    },
+    "attempt": 1
+  },
+  {
+    "url": "https://registry.npmjs.org/express",
+    "fetched_at": "2026-11-02T12:24:02.626Z",
+    "status": 200,
+    "body_sha256": "963dfa43b1566fe9146f853fbaae88bdb58f4c085b29b8b23cd2fb0c0b4fc078",
+    "bytes": 823554,
+    "headers": {
+      "date": "Mon, 02 Nov 2026 12:23:58 GMT",
+      "content-type": "application/json",
+      "etag": "\"a7e7e37e8d99c297653049dff512289d\"",
+      "last-modified": "Fri, 09 Oct 2026 12:57:26 GMT"
+    },
+    "attempt": 1
+  },
+  {
+    "url": "https://api.npmjs.org/downloads/range/2025-07-01:2026-06-30/express",
+    "fetched_at": "2026-11-02T12:24:03.021Z",
+    "status": 200,
+    "body_sha256": "bc5a66994d5f6895a8c784a9db6970366eab8f13575eee4c87f9c5a00d9d8a04",
+    "bytes": 15169,
+    "headers": {
+      "date": "Mon, 02 Nov 2026 12:23:59 GMT",
+      "content-type": "application/json; charset=utf-8",
+      "last-modified": "Mon, 02 Nov 2026 12:16:08 GMT"
+    },
+    "attempt": 1
+  },
+  {
+    "url": "https://registry.npmjs.org/fastify",
+    "fetched_at": "2026-11-02T12:24:03.190Z",
+    "status": 200,
+    "body_sha256": "ba9932391830b428355b66e8eb0806afe65afbd32b09a9a316932e088fab8974",
+    "bytes": 1874389,
+    "headers": {
+      "date": "Mon, 02 Nov 2026 12:23:59 GMT",
+      "content-type": "application/json",
+      "etag": "\"417ca08bcd7963c395f40b63b86fc78e\"",
+      "last-modified": "Mon, 02 Nov 2026 10:46:41 GMT"
+    },
+    "attempt": 1
+  },
+  {
+    "url": "https://api.npmjs.org/downloads/range/2025-07-01:2026-06-30/fastify",
+    "fetched_at": "2026-11-02T12:24:03.568Z",
+    "status": 200,
+    "body_sha256": "db072e2ad2e2169887fb73e7b7e4f99b9fb17a3de6a1d6b4c555b52deec8c5a8",
+    "bytes": 14753,
+    "headers": {
+      "date": "Mon, 02 Nov 2026 12:24:00 GMT",
+      "content-type": "application/json; charset=utf-8",
+      "last-modified": "Mon, 02 Nov 2026 12:24:00 GMT"
+    },
+    "attempt": 1
+  },
+  {
+    "url": "https://registry.npmjs.org/koa",
+    "fetched_at": "2026-11-02T12:24:04.289Z",
+    "status": 200,
+    "body_sha256": "7d4021b0652445935635e68ff1479f035d8ac456e5fc7082aaade1e7b43a1d68",
+    "bytes": 1029829,
+    "headers": {
+      "date": "Mon, 02 Nov 2026 12:24:00 GMT",
+      "content-type": "application/json",
+      "etag": "\"d41e8c0cb1d5ac493314d93cc283a764\"",
+      "last-modified": "Wed, 28 Oct 2026 02:33:15 GMT"
+    },
+    "attempt": 1
+  },
+  {
+    "url": "https://api.npmjs.org/downloads/range/2025-07-01:2026-06-30/koa",
+    "fetched_at": "2026-11-02T12:24:04.646Z",
+    "status": 200,
+    "body_sha256": "04cf50c1f643a8d92c5a18b2215e3a39db5d9ce7fcc45d08011ed103dc51d88b",
+    "bytes": 14796,
+    "headers": {
+      "date": "Mon, 02 Nov 2026 12:24:01 GMT",
+      "content-type": "application/json; charset=utf-8",
+      "last-modified": "Mon, 02 Nov 2026 12:24:01 GMT"
+    },
+    "attempt": 1
+  },
+  {
+    "url": "https://registry.npmjs.org/%40hapi%2Fhapi",
+    "fetched_at": "2026-11-02T12:24:05.426Z",
+    "status": 200,
+    "body_sha256": "8948bd12344290c82e3a4b42e3a7ddd5b1ce188bdac8a43da9ee6f4cd2d9fa60",
+    "bytes": 196143,
+    "headers": {
+      "date": "Mon, 02 Nov 2026 12:24:01 GMT",
+      "content-type": "application/json",
+      "etag": "\"929681cec90afc29e68576feaa75f7d7\"",
+      "last-modified": "Wed, 28 Oct 2026 11:40:33 GMT"
+    },
+    "attempt": 1
+  },
+  {
+    "url": "https://api.npmjs.org/downloads/range/2025-07-01:2026-06-30/%40hapi%2Fhapi",
+    "fetched_at": "2026-11-02T12:24:05.732Z",
+    "status": 200,
+    "body_sha256": "9ba8cdc50c6956d41a9dbfb7557218ec0033e9f57dc30adbe399c75f5811ce49",
+    "bytes": 14571,
+    "headers": {
+      "date": "Mon, 02 Nov 2026 12:24:02 GMT",
+      "content-type": "application/json; charset=utf-8",
+      "last-modified": "Mon, 02 Nov 2026 12:24:02 GMT"
+    },
+    "attempt": 1
+  },
+  {
+    "url": "https://registry.npmjs.org/%40nestjs%2Fcore",
+    "fetched_at": "2026-11-02T12:24:06.020Z",
+    "status": 200,
+    "body_sha256": "4f156fb3dedfc8349332a61d55e55a72be4fbaa376b14973be7954d0aa7f1d0f",
+    "bytes": 1130838,
+    "headers": {
+      "date": "Mon, 02 Nov 2026 12:24:02 GMT",
+      "content-type": "application/json",
+      "etag": "\"4087ef1e4215cdaa3b2b95f0bafb090c\"",
+      "last-modified": "Tue, 27 Oct 2026 12:03:29 GMT"
+    },
+    "attempt": 1
+  },
+  {
+    "url": "https://api.npmjs.org/downloads/range/2025-07-01:2026-06-30/%40nestjs%2Fcore",
+    "fetched_at": "2026-11-02T12:24:06.335Z",
+    "status": 200,
+    "body_sha256": "3ec191e493b2ae0a053398d97dfdb0539918d5140d454e41df2b9066fb8bd2fc",
+    "bytes": 14845,
+    "headers": {
+      "date": "Mon, 02 Nov 2026 12:24:03 GMT",
+      "content-type": "application/json; charset=utf-8",
+      "last-modified": "Mon, 02 Nov 2026 12:24:03 GMT"
+    },
+    "attempt": 1
+  },
+  {
+    "url": "https://registry.npmjs.org/react",
+    "fetched_at": "2026-11-02T12:24:07.051Z",
+    "status": 200,
+    "body_sha256": "cf29eef5cf391e0a8c86f786684d440076afc6581e273688d6f983c9876e4a83",
+    "bytes": 7107539,
+    "headers": {
+      "date": "Mon, 02 Nov 2026 12:24:03 GMT",
+      "content-type": "application/json",
+      "etag": "\"d1423fe9078f775f8e1e932aecac7609\"",
+      "last-modified": "Sat, 31 Oct 2026 09:15:43 GMT"
+    },
+    "attempt": 1
+  },
+  {
+    "url": "https://api.npmjs.org/downloads/range/2025-07-01:2026-06-30/react",
+    "fetched_at": "2026-11-02T12:24:07.864Z",
+    "status": 200,
+    "body_sha256": "5ee412402e1cea492c8159bd3b3189493657108225ba49d7dd1387f538a0563e",
+    "bytes": 15195,
+    "headers": {
+      "date": "Mon, 02 Nov 2026 12:24:04 GMT",
+      "content-type": "application/json; charset=utf-8",
+      "last-modified": "Mon, 02 Nov 2026 12:24:04 GMT"
+    },
+    "attempt": 1
+  },
+  {
+    "url": "https://registry.npmjs.org/vue",
+    "fetched_at": "2026-11-02T12:24:08.598Z",
+    "status": 200,
+    "body_sha256": "cadd5720e06f21a39a320fbfceb1f7bc75f540f09eb3b5b2fbf1c6d1324aeab9",
+    "bytes": 2131124,
+    "headers": {
+      "date": "Mon, 02 Nov 2026 12:24:04 GMT",
+      "content-type": "application/json",
+      "etag": "\"44b3a0e53898c917daae90e38045b076\"",
+      "last-modified": "Fri, 30 Oct 2026 08:02:58 GMT"
+    },
+    "attempt": 1
+  },
+  {
+    "url": "https://api.npmjs.org/downloads/range/2025-07-01:2026-06-30/vue",
+    "fetched_at": "2026-11-02T12:24:08.957Z",
+    "status": 200,
+    "body_sha256": "32c42a04f00006291ee75172c83900b326fd01ea4b17ae72a05bf5401ad6880a",
+    "bytes": 14930,
+    "headers": {
+      "date": "Mon, 02 Nov 2026 12:24:05 GMT",
+      "content-type": "application/json; charset=utf-8",
+      "last-modified": "Mon, 02 Nov 2026 12:24:05 GMT"
+    },
+    "attempt": 1
+  },
+  {
+    "url": "https://registry.npmjs.org/svelte",
+    "fetched_at": "2026-11-02T12:24:09.248Z",
+    "status": 200,
+    "body_sha256": "1aa3e20a1c2a387fa2c3e8a2ff853d22d8d5f7c49e848f44c1b13da950742523",
+    "bytes": 4819398,
+    "headers": {
+      "date": "Mon, 02 Nov 2026 12:24:05 GMT",
+      "content-type": "application/json",
+      "etag": "\"a06f4a778013644fbef529512d7d9644\"",
+      "last-modified": "Mon, 26 Oct 2026 18:16:25 GMT"
+    },
+    "attempt": 1
+  },
+  {
+    "url": "https://api.npmjs.org/downloads/range/2025-07-01:2026-06-30/svelte",
+    "fetched_at": "2026-11-02T12:24:09.822Z",
+    "status": 200,
+    "body_sha256": "a6dc29642f86204890dfb624760da0caeb090fa39074ced410502201cee408da",
+    "bytes": 14676,
+    "headers": {
+      "date": "Mon, 02 Nov 2026 12:24:06 GMT",
+      "content-type": "application/json; charset=utf-8",
+      "last-modified": "Mon, 02 Nov 2026 12:10:24 GMT"
+    },
+    "attempt": 1
+  },
+  {
+    "url": "https://registry.npmjs.org/next",
+    "fetched_at": "2026-11-02T12:24:09.948Z",
+    "status": 200,
+    "body_sha256": "36a92f19202af29cf320b6055afd3d416d4b1dee2b99a9388c1ee1638b2219b2",
+    "bytes": 31504980,
+    "headers": {
+      "date": "Mon, 02 Nov 2026 12:24:06 GMT",
+      "content-type": "application/json",
+      "etag": "\"51cac1aadacb54a782e9e30f5bfb8dcd\"",
+      "last-modified": "Mon, 02 Nov 2026 10:50:00 GMT"
+    },
+    "attempt": 1
+  },
+  {
+    "url": "https://api.npmjs.org/downloads/range/2025-07-01:2026-06-30/next",
+    "fetched_at": "2026-11-02T12:24:12.731Z",
+    "status": 200,
+    "body_sha256": "e19345f740b42f6cbd149b769ae350ec547a2a4a4d660a28ad8e9ec21577ab9a",
+    "bytes": 15009,
+    "headers": {
+      "date": "Mon, 02 Nov 2026 12:24:09 GMT",
+      "content-type": "application/json; charset=utf-8",
+      "last-modified": "Mon, 02 Nov 2026 12:01:08 GMT"
+    },
+    "attempt": 1
+  },
+  {
+    "url": "https://registry.npmjs.org/%40angular%2Fcore",
+    "fetched_at": "2026-11-02T12:24:12.884Z",
+    "status": 200,
+    "body_sha256": "bf3f725c92b942e8bf875adc79ccf3f134409c88c093abbff4e23e0f82eb7af7",
+    "bytes": 3231414,
+    "headers": {
+      "date": "Mon, 02 Nov 2026 12:24:09 GMT",
+      "content-type": "application/json",
+      "etag": "\"8bc20fd4af737c3d3bd2006595e8a552\"",
+      "last-modified": "Thu, 29 Oct 2026 17:53:37 GMT"
+    },
+    "attempt": 1
+  },
+  {
+    "url": "https://api.npmjs.org/downloads/range/2025-07-01:2026-06-30/%40angular%2Fcore",
+    "fetched_at": "2026-11-02T12:24:13.389Z",
+    "status": 200,
+    "body_sha256": "6523d809edd59bc772da7624f3492255efa1ce409cffa2c2064aa952bb9509fb",
+    "bytes": 14711,
+    "headers": {
+      "date": "Mon, 02 Nov 2026 12:24:10 GMT",
+      "content-type": "application/json; charset=utf-8",
+      "last-modified": "Mon, 02 Nov 2026 12:24:10 GMT"
+    },
+    "attempt": 1
+  },
+  {
+    "url": "https://registry.npmjs.org/vite",
+    "fetched_at": "2026-11-02T12:24:14.133Z",
+    "status": 200,
+    "body_sha256": "e296b0e2b75aa85a434999e9317b145b51d4797dd09b402c6b98d86e64ed0b23",
+    "bytes": 38999531,
+    "headers": {
+      "date": "Mon, 02 Nov 2026 12:24:10 GMT",
+      "content-type": "application/json",
+      "etag": "\"6e30a8018c57beb89ee747de05f873a1\"",
+      "last-modified": "Wed, 21 Oct 2026 06:39:03 GMT"
+    },
+    "attempt": 1
+  },
+  {
+    "url": "https://api.npmjs.org/downloads/range/2025-07-01:2026-06-30/vite",
+    "fetched_at": "2026-11-02T12:24:16.999Z",
+    "status": 200,
+    "body_sha256": "0323ac535afbc40b9daaa7fc50a0ec8dd671b706a29cc05ce70c8b922b3b47b9",
+    "bytes": 15172,
+    "headers": {
+      "date": "Mon, 02 Nov 2026 12:24:13 GMT",
+      "content-type": "application/json; charset=utf-8",
+      "last-modified": "Mon, 02 Nov 2026 12:24:13 GMT"
+    },
+    "attempt": 1
+  },
+  {
+    "url": "https://registry.npmjs.org/webpack",
+    "fetched_at": "2026-11-02T12:24:17.316Z",
+    "status": 200,
+    "body_sha256": "3c16aca31307649e430c5fa74f01a2c62421b171ecd98e6a8b7acd1317e67897",
+    "bytes": 5246798,
+    "headers": {
+      "date": "Mon, 02 Nov 2026 12:24:13 GMT",
+      "content-type": "application/json",
+      "etag": "\"77ae627efe6e3e41a34ce1e372e5891d\"",
+      "last-modified": "Fri, 23 Oct 2026 12:18:15 GMT"
+    },
+    "attempt": 1
+  },
+  {
+    "url": "https://api.npmjs.org/downloads/range/2025-07-01:2026-06-30/webpack",
+    "fetched_at": "2026-11-02T12:24:17.995Z",
+    "status": 200,
+    "body_sha256": "df37c536cd07736108795b0ae786138b3d70d0dc86efd7de5929450ebac6d0dc",
+    "bytes": 15040,
+    "headers": {
+      "date": "Mon, 02 Nov 2026 12:24:14 GMT",
+      "content-type": "application/json; charset=utf-8",
+      "last-modified": "Mon, 02 Nov 2026 12:24:14 GMT"
+    },
+    "attempt": 1
+  },
+  {
+    "url": "https://registry.npmjs.org/rollup",
+    "fetched_at": "2026-11-02T12:24:18.739Z",
+    "status": 200,
+    "body_sha256": "e4702098cee970cd5701bf1a171aefc5a1606726b5c1e5a136e2b957cee5b9fd",
+    "bytes": 6631299,
+    "headers": {
+      "date": "Mon, 02 Nov 2026 12:24:15 GMT",
+      "content-type": "application/json",
+      "etag": "\"785a42d56b1e498a9badb9a85e4a1667\"",
+      "last-modified": "Sun, 01 Nov 2026 09:05:56 GMT"
+    },
+    "attempt": 1
+  },
+  {
+    "url": "https://api.npmjs.org/downloads/range/2025-07-01:2026-06-30/rollup",
+    "fetched_at": "2026-11-02T12:24:19.406Z",
+    "status": 200,
+    "body_sha256": "9343abf21e150124928f8c665fb80700e71ef13df5642e07430e8e0a4d7833de",
+    "bytes": 15184,
+    "headers": {
+      "date": "Mon, 02 Nov 2026 12:24:15 GMT",
+      "content-type": "application/json; charset=utf-8",
+      "last-modified": "Mon, 02 Nov 2026 12:24:15 GMT"
+    },
+    "attempt": 1
+  },
+  {
+    "url": "https://registry.npmjs.org/esbuild",
+    "fetched_at": "2026-11-02T12:24:19.705Z",
+    "status": 200,
+    "body_sha256": "04b9a374d0710d1771d08cb1fbed62e834621a689f116c87f7f514cdd0bb21c1",
+    "bytes": 1264676,
+    "headers": {
+      "date": "Mon, 02 Nov 2026 12:24:16 GMT",
+      "content-type": "application/json",
+      "etag": "\"55320e3b7a2e32a5326ccfa316fc7c14\"",
+      "last-modified": "Sat, 08 Aug 2026 20:00:58 GMT"
+    },
+    "attempt": 1
+  },
+  {
+    "url": "https://api.npmjs.org/downloads/range/2025-07-01:2026-06-30/esbuild",
+    "fetched_at": "2026-11-02T12:24:20.073Z",
+    "status": 200,
+    "body_sha256": "19854a3fc671bd01d472ea5e6f5235a6aaebc7bfb430a91ee18d9714284062d7",
+    "bytes": 15325,
+    "headers": {
+      "date": "Mon, 02 Nov 2026 12:24:17 GMT",
+      "content-type": "application/json; charset=utf-8",
+      "last-modified": "Mon, 02 Nov 2026 12:24:17 GMT"
+    },
+    "attempt": 1
+  },
+  {
+    "url": "https://registry.npmjs.org/%40babel%2Fcore",
+    "fetched_at": "2026-11-02T12:24:20.868Z",
+    "status": 200,
+    "body_sha256": "fedee893eaebc679bd3f91892949f4bfa40ff4fecb97bd5244149406e84bb07f",
+    "bytes": 815022,
+    "headers": {
+      "date": "Mon, 02 Nov 2026 12:24:17 GMT",
+      "content-type": "application/json",
+      "etag": "\"54443da81f8efb6443d578ee22d9ab0b\"",
+      "last-modified": "Mon, 02 Nov 2026 12:07:57 GMT"
+    },
+    "attempt": 1
+  },
+  {
+    "url": "https://api.npmjs.org/downloads/range/2025-07-01:2026-06-30/%40babel%2Fcore",
+    "fetched_at": "2026-11-02T12:24:21.154Z",
+    "status": 200,
+    "body_sha256": "2440a0e6000eee271efbab1bf041124175a1ad18f02acc357603a254b949b0d3",
+    "bytes": 15318,
+    "headers": {
+      "date": "Mon, 02 Nov 2026 12:24:17 GMT",
+      "content-type": "application/json; charset=utf-8",
+      "last-modified": "Mon, 02 Nov 2026 12:24:17 GMT"
+    },
+    "attempt": 1
+  },
+  {
+    "url": "https://registry.npmjs.org/typescript",
+    "fetched_at": "2026-11-02T12:24:21.450Z",
+    "status": 200,
+    "body_sha256": "f3094d8bbcac13dc4ce381aaf2ebd1998aec4b47eb1d0f6c1e6a3656a82a1cfe",
+    "bytes": 15881990,
+    "headers": {
+      "date": "Mon, 02 Nov 2026 12:24:17 GMT",
+      "content-type": "application/json",
+      "etag": "\"572ae3bc16f4e29d64eecce41278e273\"",
+      "last-modified": "Mon, 02 Nov 2026 08:16:39 GMT"
+    },
+    "attempt": 1
+  },
+  {
+    "url": "https://api.npmjs.org/downloads/range/2025-07-01:2026-06-30/typescript",
+    "fetched_at": "2026-11-02T12:24:22.915Z",
+    "status": 200,
+    "body_sha256": "77fb245942e6678788cb9165cec3ec7b2baafc0db9b056039ed84cdf2ceeeb1e",
+    "bytes": 15333,
+    "headers": {
+      "date": "Mon, 02 Nov 2026 12:24:19 GMT",
+      "content-type": "application/json; charset=utf-8",
+      "last-modified": "Mon, 02 Nov 2026 11:34:15 GMT"
+    },
+    "attempt": 1
+  },
+  {
+    "url": "https://registry.npmjs.org/lodash",
+    "fetched_at": "2026-11-02T12:24:23.077Z",
+    "status": 200,
+    "body_sha256": "654b3e7c3bd191a7c6c8e5c66171360153e0367cf9385aa5081b2fd5e7316668",
+    "bytes": 247678,
+    "headers": {
+      "date": "Mon, 02 Nov 2026 12:24:19 GMT",
+      "content-type": "application/json",
+      "etag": "\"232294c58a63e6e1ca02156cb50506bd\"",
+      "last-modified": "Mon, 02 Nov 2026 00:38:26 GMT"
+    },
+    "attempt": 1
+  },
+  {
+    "url": "https://api.npmjs.org/downloads/range/2025-07-01:2026-06-30/lodash",
+    "fetched_at": "2026-11-02T12:24:23.342Z",
+    "status": 200,
+    "body_sha256": "35274409726088b1c580f07332a6e2a2aa2ffc2d4cc9476373a741f7bb8b53d6",
+    "bytes": 15319,
+    "headers": {
+      "date": "Mon, 02 Nov 2026 12:24:19 GMT",
+      "content-type": "application/json; charset=utf-8",
+      "last-modified": "Mon, 02 Nov 2026 12:16:08 GMT"
+    },
+    "attempt": 1
+  },
+  {
+    "url": "https://registry.npmjs.org/axios",
+    "fetched_at": "2026-11-02T12:24:23.496Z",
+    "status": 200,
+    "body_sha256": "b3231087c6ca7a5e801aeb1656b6061111da7e7f5b50de8171a3652cab4c665a",
+    "bytes": 868092,
+    "headers": {
+      "date": "Mon, 02 Nov 2026 12:24:19 GMT",
+      "content-type": "application/json",
+      "etag": "\"6249bcc32ee0f0948ecb7af5f377523b\"",
+      "last-modified": "Tue, 27 Oct 2026 07:18:56 GMT"
+    },
+    "attempt": 1
+  },
+  {
+    "url": "https://api.npmjs.org/downloads/range/2025-07-01:2026-06-30/axios",
+    "fetched_at": "2026-11-02T12:24:23.765Z",
+    "status": 200,
+    "body_sha256": "501e36b4f5455e0590f243f5ef771fa7632d613ccc9cb9287e6f0cddd2bae795",
+    "bytes": 15287,
+    "headers": {
+      "date": "Mon, 02 Nov 2026 12:24:20 GMT",
+      "content-type": "application/json; charset=utf-8",
+      "last-modified": "Mon, 02 Nov 2026 12:24:20 GMT"
+    },
+    "attempt": 1
+  },
+  {
+    "url": "https://registry.npmjs.org/undici",
+    "fetched_at": "2026-11-02T12:24:24.491Z",
+    "status": 200,
+    "body_sha256": "b5b787ae9546ba7069ddba1f17f1c4bb86f3d9d092d44b8db66751452eeb3a28",
+    "bytes": 1635787,
+    "headers": {
+      "date": "Mon, 02 Nov 2026 12:24:20 GMT",
+      "content-type": "application/json",
+      "etag": "\"2d3a686e0a618990b857075f3cef2d9d\"",
+      "last-modified": "Mon, 19 Oct 2026 14:02:59 GMT"
+    },
+    "attempt": 1
+  },
+  {
+    "url": "https://api.npmjs.org/downloads/range/2025-07-01:2026-06-30/undici",
+    "fetched_at": "2026-11-02T12:24:24.847Z",
+    "status": 200,
+    "body_sha256": "911c34b007c3b881a052c6fe7305ddffe9c002033f13662f6d528f258e6804cc",
+    "bytes": 15135,
+    "headers": {
+      "date": "Mon, 02 Nov 2026 12:24:21 GMT",
+      "content-type": "application/json; charset=utf-8",
+      "last-modified": "Mon, 02 Nov 2026 12:24:21 GMT"
+    },
+    "attempt": 1
+  },
+  {
+    "url": "https://registry.npmjs.org/got",
+    "fetched_at": "2026-11-02T12:24:25.172Z",
+    "status": 200,
+    "body_sha256": "3e59d09f319b293b3a78909b5df7abd8d1e2acad820496268b059269a90db989",
+    "bytes": 708449,
+    "headers": {
+      "date": "Mon, 02 Nov 2026 12:24:21 GMT",
+      "content-type": "application/json",
+      "etag": "\"075370923e099f59400d1c78078f20dd\"",
+      "last-modified": "Fri, 30 Oct 2026 08:49:17 GMT"
+    },
+    "attempt": 1
+  },
+  {
+    "url": "https://api.npmjs.org/downloads/range/2025-07-01:2026-06-30/got",
+    "fetched_at": "2026-11-02T12:24:25.446Z",
+    "status": 200,
+    "body_sha256": "7ad2096950feb2b4989a3c9b7267843f589f2fec3dd25d38de8b3663ef271c5d",
+    "bytes": 15036,
+    "headers": {
+      "date": "Mon, 02 Nov 2026 12:24:22 GMT",
+      "content-type": "application/json; charset=utf-8",
+      "last-modified": "Mon, 02 Nov 2026 12:24:22 GMT"
+    },
+    "attempt": 1
+  },
+  {
+    "url": "https://registry.npmjs.org/zod",
+    "fetched_at": "2026-11-02T12:24:26.163Z",
+    "status": 200,
+    "body_sha256": "e96328b2e5019efc4071ecf6d04b565bde83669a387130496c36770f2f051017",
+    "bytes": 4183125,
+    "headers": {
+      "date": "Mon, 02 Nov 2026 12:24:22 GMT",
+      "content-type": "application/json",
+      "etag": "\"34f0c0e408aeda6744debcac60261ed1\"",
+      "last-modified": "Mon, 12 Oct 2026 16:29:41 GMT"
+    },
+    "attempt": 1
+  },
+  {
+    "url": "https://api.npmjs.org/downloads/range/2025-07-01:2026-06-30/zod",
+    "fetched_at": "2026-11-02T12:24:26.861Z",
+    "status": 200,
+    "body_sha256": "b6378758b3160d2ef41db4aa15faa62f0235de0741e13efd91e6e4fef56a82bb",
+    "bytes": 15213,
+    "headers": {
+      "date": "Mon, 02 Nov 2026 12:24:23 GMT",
+      "content-type": "application/json; charset=utf-8",
+      "last-modified": "Mon, 02 Nov 2026 12:24:23 GMT"
+    },
+    "attempt": 1
+  },
+  {
+    "url": "https://registry.npmjs.org/joi",
+    "fetched_at": "2026-11-02T12:24:27.143Z",
+    "status": 200,
+    "body_sha256": "3d2b2ea5700af691ca6e118d6a0a057121a6e34ec68951da370e9ad357d8fd50",
+    "bytes": 554795,
+    "headers": {
+      "date": "Mon, 02 Nov 2026 12:24:23 GMT",
+      "content-type": "application/json",
+      "etag": "\"bb8b19e2a62345a301f620984c2cab9e\"",
+      "last-modified": "Wed, 28 Oct 2026 10:04:28 GMT"
+    },
+    "attempt": 1
+  },
+  {
+    "url": "https://api.npmjs.org/downloads/range/2025-07-01:2026-06-30/joi",
+    "fetched_at": "2026-11-02T12:24:27.383Z",
+    "status": 429,
+    "attempt": 1,
+    "error_type": "HTTPError",
+    "error": "HTTP Error 429: Too Many Requests"
+  },
+  {
+    "url": "https://api.npmjs.org/downloads/range/2025-07-01:2026-06-30/joi",
+    "fetched_at": "2026-11-02T12:24:27.485Z",
+    "status": 429,
+    "attempt": 2,
+    "error_type": "HTTPError",
+    "error": "HTTP Error 429: Too Many Requests"
+  },
+  {
+    "url": "https://api.npmjs.org/downloads/range/2025-07-01:2026-06-30/joi",
+    "fetched_at": "2026-11-02T12:24:27.584Z",
+    "status": 429,
+    "attempt": 3,
+    "error_type": "HTTPError",
+    "error": "HTTP Error 429: Too Many Requests"
+  },
+  {
+    "url": "https://api.npmjs.org/downloads/range/2025-07-01:2026-06-30/joi",
+    "fetched_at": "2026-11-02T12:24:27.713Z",
+    "status": 429,
+    "attempt": 4,
+    "error_type": "HTTPError",
+    "error": "HTTP Error 429: Too Many Requests"
+  },
+  {
+    "url": "https://api.npmjs.org/downloads/range/2025-07-01:2026-06-30/joi",
+    "fetched_at": "2026-11-02T12:24:27.812Z",
+    "status": 429,
+    "attempt": 5,
+    "error_type": "HTTPError",
+    "error": "HTTP Error 429: Too Many Requests"
+  },
+  {
+    "url": "https://registry.npmjs.org/ajv",
+    "fetched_at": "2026-11-02T12:24:27.979Z",
+    "status": 200,
+    "body_sha256": "799734d4d891f673173149e92d3a25bfb8c25d24ced218f4e839c83757cfc238",
+    "bytes": 1142658,
+    "headers": {
+      "date": "Mon, 02 Nov 2026 12:24:24 GMT",
+      "content-type": "application/json",
+      "etag": "\"39d163d1b22ad8e492ff751c8274edc2\"",
+      "last-modified": "Fri, 24 Apr 2026 15:22:18 GMT"
+    },
+    "attempt": 1
+  },
+  {
+    "url": "https://api.npmjs.org/downloads/range/2025-07-01:2026-06-30/ajv",
+    "fetched_at": "2026-11-02T12:24:28.296Z",
+    "status": 429,
+    "attempt": 1,
+    "error_type": "HTTPError",
+    "error": "HTTP Error 429: Too Many Requests"
+  },
+  {
+    "url": "https://api.npmjs.org/downloads/range/2025-07-01:2026-06-30/ajv",
+    "fetched_at": "2026-11-02T12:24:28.424Z",
+    "status": 429,
+    "attempt": 2,
+    "error_type": "HTTPError",
+    "error": "HTTP Error 429: Too Many Requests"
+  },
+  {
+    "url": "https://api.npmjs.org/downloads/range/2025-07-01:2026-06-30/ajv",
+    "fetched_at": "2026-11-02T12:24:28.544Z",
+    "status": 429,
+    "attempt": 3,
+    "error_type": "HTTPError",
+    "error": "HTTP Error 429: Too Many Requests"
+  },
+  {
+    "url": "https://api.npmjs.org/downloads/range/2025-07-01:2026-06-30/ajv",
+    "fetched_at": "2026-11-02T12:24:28.644Z",
+    "status": 429,
+    "attempt": 4,
+    "error_type": "HTTPError",
+    "error": "HTTP Error 429: Too Many Requests"
+  },
+  {
+    "url": "https://api.npmjs.org/downloads/range/2025-07-01:2026-06-30/ajv",
+    "fetched_at": "2026-11-02T12:24:28.774Z",
+    "status": 429,
+    "attempt": 5,
+    "error_type": "HTTPError",
+    "error": "HTTP Error 429: Too Many Requests"
+  },
+  {
+    "url": "https://registry.npmjs.org/commander",
+    "fetched_at": "2026-11-02T12:24:28.878Z",
+    "status": 200,
+    "body_sha256": "85a20edd109d3430e27d90602c5aec26472a8f8dfedb9b7dfd87da6e7fc8342b",
+    "bytes": 353104,
+    "headers": {
+      "date": "Mon, 02 Nov 2026 12:24:25 GMT",
+      "content-type": "application/json",
+      "etag": "\"576bad5b25bd1e86283a2eb2fdacdc1b\"",
+      "last-modified": "Wed, 02 Sep 2026 19:31:27 GMT"
+    },
+    "attempt": 1
+  },
+  {
+    "url": "https://api.npmjs.org/downloads/range/2025-07-01:2026-06-30/commander",
+    "fetched_at": "2026-11-02T12:24:29.083Z",
+    "status": 429,
+    "attempt": 1,
+    "error_type": "HTTPError",
+    "error": "HTTP Error 429: Too Many Requests"
+  },
+  {
+    "url": "https://api.npmjs.org/downloads/range/2025-07-01:2026-06-30/commander",
+    "fetched_at": "2026-11-02T12:24:29.205Z",
+    "status": 429,
+    "attempt": 2,
+    "error_type": "HTTPError",
+    "error": "HTTP Error 429: Too Many Requests"
+  },
+  {
+    "url": "https://api.npmjs.org/downloads/range/2025-07-01:2026-06-30/commander",
+    "fetched_at": "2026-11-02T12:24:29.322Z",
+    "status": 429,
+    "attempt": 3,
+    "error_type": "HTTPError",
+    "error": "HTTP Error 429: Too Many Requests"
+  },
+  {
+    "url": "https://api.npmjs.org/downloads/range/2025-07-01:2026-06-30/commander",
+    "fetched_at": "2026-11-02T12:24:29.449Z",
+    "status": 429,
+    "attempt": 4,
+    "error_type": "HTTPError",
+    "error": "HTTP Error 429: Too Many Requests"
+  },
+  {
+    "url": "https://api.npmjs.org/downloads/range/2025-07-01:2026-06-30/commander",
+    "fetched_at": "2026-11-02T12:24:29.566Z",
+    "status": 429,
+    "attempt": 5,
+    "error_type": "HTTPError",
+    "error": "HTTP Error 429: Too Many Requests"
+  },
+  {
+    "url": "https://registry.npmjs.org/yargs",
+    "fetched_at": "2026-11-02T12:24:29.722Z",
+    "status": 200,
+    "body_sha256": "8d5fbe5f79677f445cd3bd5a96b737fd8f18f0f1efd43fad98b668283a9f4284",
+    "bytes": 763316,
+    "headers": {
+      "date": "Mon, 02 Nov 2026 12:24:26 GMT",
+      "content-type": "application/json",
+      "etag": "\"9866407209394b6f6fe70c39099b0ea0\"",
+      "last-modified": "Sat, 31 Oct 2026 05:21:17 GMT"
+    },
+    "attempt": 1
+  },
+  {
+    "url": "https://api.npmjs.org/downloads/range/2025-07-01:2026-06-30/yargs",
+    "fetched_at": "2026-11-02T12:24:29.991Z",
+    "status": 429,
+    "attempt": 1,
+    "error_type": "HTTPError",
+    "error": "HTTP Error 429: Too Many Requests"
+  },
+  {
+    "url": "https://api.npmjs.org/downloads/range/2025-07-01:2026-06-30/yargs",
+    "fetched_at": "2026-11-02T12:24:30.112Z",
+    "status": 429,
+    "attempt": 2,
+    "error_type": "HTTPError",
+    "error": "HTTP Error 429: Too Many Requests"
+  },
+  {
+    "url": "https://api.npmjs.org/downloads/range/2025-07-01:2026-06-30/yargs",
+    "fetched_at": "2026-11-02T12:24:30.219Z",
+    "status": 200,
+    "body_sha256": "5e049ed161691708f0524258d8121549c2378a946f9eb424174c8cb0b49d8973",
+    "bytes": 15337,
+    "headers": {
+      "date": "Mon, 02 Nov 2026 12:24:27 GMT",
+      "content-type": "application/json; charset=utf-8",
+      "last-modified": "Mon, 02 Nov 2026 12:24:27 GMT"
+    },
+    "attempt": 3
+  },
+  {
+    "url": "https://registry.npmjs.org/chalk",
+    "fetched_at": "2026-11-02T12:24:31.036Z",
+    "status": 200,
+    "body_sha256": "1a075db7a2f24e7893414f1a3afb5305d387256bf7195cc0f8c1922e97b9d0c9",
+    "bytes": 137439,
+    "headers": {
+      "date": "Mon, 02 Nov 2026 12:24:27 GMT",
+      "content-type": "application/json",
+      "etag": "\"f3a91dc854f5dc88c385bfa986b8d3cd\"",
+      "last-modified": "Sun, 27 Sep 2026 03:40:46 GMT"
+    },
+    "attempt": 1
+  },
+  {
+    "url": "https://api.npmjs.org/downloads/range/2025-07-01:2026-06-30/chalk",
+    "fetched_at": "2026-11-02T12:24:31.226Z",
+    "status": 429,
+    "attempt": 1,
+    "error_type": "HTTPError",
+    "error": "HTTP Error 429: Too Many Requests"
+  },
+  {
+    "url": "https://api.npmjs.org/downloads/range/2025-07-01:2026-06-30/chalk",
+    "fetched_at": "2026-11-02T12:24:31.355Z",
+    "status": 429,
+    "attempt": 2,
+    "error_type": "HTTPError",
+    "error": "HTTP Error 429: Too Many Requests"
+  },
+  {
+    "url": "https://api.npmjs.org/downloads/range/2025-07-01:2026-06-30/chalk",
+    "fetched_at": "2026-11-02T12:24:31.453Z",
+    "status": 429,
+    "attempt": 3,
+    "error_type": "HTTPError",
+    "error": "HTTP Error 429: Too Many Requests"
+  },
+  {
+    "url": "https://api.npmjs.org/downloads/range/2025-07-01:2026-06-30/chalk",
+    "fetched_at": "2026-11-02T12:24:31.554Z",
+    "status": 429,
+    "attempt": 4,
+    "error_type": "HTTPError",
+    "error": "HTTP Error 429: Too Many Requests"
+  },
+  {
+    "url": "https://api.npmjs.org/downloads/range/2025-07-01:2026-06-30/chalk",
+    "fetched_at": "2026-11-02T12:24:31.671Z",
+    "status": 429,
+    "attempt": 5,
+    "error_type": "HTTPError",
+    "error": "HTTP Error 429: Too Many Requests"
+  },
+  {
+    "url": "https://registry.npmjs.org/jest",
+    "fetched_at": "2026-11-02T12:24:31.785Z",
+    "status": 200,
+    "body_sha256": "3e883853c703ee6dcb83b72ec4aa628290b86fc2c880cfc42856686769968381",
+    "bytes": 870675,
+    "headers": {
+      "date": "Mon, 02 Nov 2026 12:24:28 GMT",
+      "content-type": "application/json",
+      "etag": "\"d291dc2548e79dc5586b689912152723\"",
+      "last-modified": "Fri, 18 Sep 2026 13:58:09 GMT"
+    },
+    "attempt": 1
+  },
+  {
+    "url": "https://api.npmjs.org/downloads/range/2025-07-01:2026-06-30/jest",
+    "fetched_at": "2026-11-02T12:24:32.110Z",
+    "status": 429,
+    "attempt": 1,
+    "error_type": "HTTPError",
+    "error": "HTTP Error 429: Too Many Requests"
+  },
+  {
+    "url": "https://api.npmjs.org/downloads/range/2025-07-01:2026-06-30/jest",
+    "fetched_at": "2026-11-02T12:24:32.235Z",
+    "status": 429,
+    "attempt": 2,
+    "error_type": "HTTPError",
+    "error": "HTTP Error 429: Too Many Requests"
+  },
+  {
+    "url": "https://api.npmjs.org/downloads/range/2025-07-01:2026-06-30/jest",
+    "fetched_at": "2026-11-02T12:24:32.401Z",
+    "status": 429,
+    "attempt": 3,
+    "error_type": "HTTPError",
+    "error": "HTTP Error 429: Too Many Requests"
+  },
+  {
+    "url": "https://api.npmjs.org/downloads/range/2025-07-01:2026-06-30/jest",
+    "fetched_at": "2026-11-02T12:24:32.497Z",
+    "status": 429,
+    "attempt": 4,
+    "error_type": "HTTPError",
+    "error": "HTTP Error 429: Too Many Requests"
+  },
+  {
+    "url": "https://api.npmjs.org/downloads/range/2025-07-01:2026-06-30/jest",
+    "fetched_at": "2026-11-02T12:24:32.595Z",
+    "status": 429,
+    "attempt": 5,
+    "error_type": "HTTPError",
+    "error": "HTTP Error 429: Too Many Requests"
+  },
+  {
+    "url": "https://registry.npmjs.org/vitest",
+    "fetched_at": "2026-11-02T12:24:32.695Z",
+    "status": 200,
+    "body_sha256": "e045b2b6bc9143a46df06ed48e514046b294582fa49bc1077e112868619926fa",
+    "bytes": 2297925,
+    "headers": {
+      "date": "Mon, 02 Nov 2026 12:24:29 GMT",
+      "content-type": "application/json",
+      "etag": "\"b6489dbff679e46ed9d1d43afd9e91ce\"",
+      "last-modified": "Mon, 19 Oct 2026 16:53:24 GMT"
+    },
+    "attempt": 1
+  },
+  {
+    "url": "https://api.npmjs.org/downloads/range/2025-07-01:2026-06-30/vitest",
+    "fetched_at": "2026-11-02T12:24:33.128Z",
+    "status": 429,
+    "attempt": 1,
+    "error_type": "HTTPError",
+    "error": "HTTP Error 429: Too Many Requests"
+  },
+  {
+    "url": "https://api.npmjs.org/downloads/range/2025-07-01:2026-06-30/vitest",
+    "fetched_at": "2026-11-02T12:24:33.225Z",
+    "status": 429,
+    "attempt": 2,
+    "error_type": "HTTPError",
+    "error": "HTTP Error 429: Too Many Requests"
+  },
+  {
+    "url": "https://api.npmjs.org/downloads/range/2025-07-01:2026-06-30/vitest",
+    "fetched_at": "2026-11-02T12:24:33.357Z",
+    "status": 429,
+    "attempt": 3,
+    "error_type": "HTTPError",
+    "error": "HTTP Error 429: Too Many Requests"
+  },
+  {
+    "url": "https://api.npmjs.org/downloads/range/2025-07-01:2026-06-30/vitest",
+    "fetched_at": "2026-11-02T12:24:33.456Z",
+    "status": 429,
+    "attempt": 4,
+    "error_type": "HTTPError",
+    "error": "HTTP Error 429: Too Many Requests"
+  },
+  {
+    "url": "https://api.npmjs.org/downloads/range/2025-07-01:2026-06-30/vitest",
+    "fetched_at": "2026-11-02T12:24:33.568Z",
+    "status": 429,
+    "attempt": 5,
+    "error_type": "HTTPError",
+    "error": "HTTP Error 429: Too Many Requests"
+  },
+  {
+    "url": "https://registry.npmjs.org/mocha",
+    "fetched_at": "2026-11-02T12:24:33.669Z",
+    "status": 200,
+    "body_sha256": "8c9e1c3f09008c08eb3e5cd647c314f04f1881f3ddd40d7bf582375a4da3ea75",
+    "bytes": 4173669,
+    "headers": {
+      "date": "Mon, 02 Nov 2026 12:24:29 GMT",
+      "content-type": "application/json",
+      "etag": "\"e521f933c9133fd7bdf9f97b0c818afa\"",
+      "last-modified": "Thu, 01 Oct 2026 04:38:00 GMT"
+    },
+    "attempt": 1
+  },
+  {
+    "url": "https://api.npmjs.org/downloads/range/2025-07-01:2026-06-30/mocha",
+    "fetched_at": "2026-11-02T12:24:34.531Z",
+    "status": 429,
+    "attempt": 1,
+    "error_type": "HTTPError",
+    "error": "HTTP Error 429: Too Many Requests"
+  },
+  {
+    "url": "https://api.npmjs.org/downloads/range/2025-07-01:2026-06-30/mocha",
+    "fetched_at": "2026-11-02T12:24:34.645Z",
+    "status": 429,
+    "attempt": 2,
+    "error_type": "HTTPError",
+    "error": "HTTP Error 429: Too Many Requests"
+  },
+  {
+    "url": "https://api.npmjs.org/downloads/range/2025-07-01:2026-06-30/mocha",
+    "fetched_at": "2026-11-02T12:24:34.742Z",
+    "status": 429,
+    "attempt": 3,
+    "error_type": "HTTPError",
+    "error": "HTTP Error 429: Too Many Requests"
+  },
+  {
+    "url": "https://api.npmjs.org/downloads/range/2025-07-01:2026-06-30/mocha",
+    "fetched_at": "2026-11-02T12:24:34.845Z",
+    "status": 429,
+    "attempt": 4,
+    "error_type": "HTTPError",
+    "error": "HTTP Error 429: Too Many Requests"
+  },
+  {
+    "url": "https://api.npmjs.org/downloads/range/2025-07-01:2026-06-30/mocha",
+    "fetched_at": "2026-11-02T12:24:34.952Z",
+    "status": 429,
+    "attempt": 5,
+    "error_type": "HTTPError",
+    "error": "HTTP Error 429: Too Many Requests"
+  },
+  {
+    "url": "https://registry.npmjs.org/eslint",
+    "fetched_at": "2026-11-02T12:24:35.066Z",
+    "status": 200,
+    "body_sha256": "82f33defb6ec458e2ed8ef00f05d49be747b0b3fc76a67c838608569fa5b26b8",
+    "bytes": 2107566,
+    "headers": {
+      "date": "Mon, 02 Nov 2026 12:24:31 GMT",
+      "content-type": "application/json",
+      "etag": "\"2e9b7088628b645133c8a820976bb967\"",
+      "last-modified": "Fri, 30 Oct 2026 14:12:30 GMT"
+    },
+    "attempt": 1
+  },
+  {
+    "url": "https://api.npmjs.org/downloads/range/2025-07-01:2026-06-30/eslint",
+    "fetched_at": "2026-11-02T12:24:35.541Z",
+    "status": 200,
+    "body_sha256": "e6717b5b1c6e42633af4ce00a1759326c163339a5239a188d30caab15d92b097",
+    "bytes": 15298,
+    "headers": {
+      "date": "Mon, 02 Nov 2026 12:24:32 GMT",
+      "content-type": "application/json; charset=utf-8",
+      "last-modified": "Mon, 02 Nov 2026 12:24:32 GMT"
+    },
+    "attempt": 1
+  },
+  {
+    "url": "https://registry.npmjs.org/prettier",
+    "fetched_at": "2026-11-02T12:24:35.856Z",
+    "status": 200,
+    "body_sha256": "e648460a7bebc1876bba418826c0f15a3a990f4ccd8a46a5b21b79428142139c",
+    "bytes": 740329,
+    "headers": {
+      "date": "Mon, 02 Nov 2026 12:24:32 GMT",
+      "content-type": "application/json",
+      "etag": "\"b83509788939125bf2b356d6f6b91b5f\"",
+      "last-modified": "Sat, 10 Oct 2026 08:35:30 GMT"
+    },
+    "attempt": 1
+  },
+  {
+    "url": "https://api.npmjs.org/downloads/range/2025-07-01:2026-06-30/prettier",
+    "fetched_at": "2026-11-02T12:24:36.196Z",
+    "status": 429,
+    "attempt": 1,
+    "error_type": "HTTPError",
+    "error": "HTTP Error 429: Too Many Requests"
+  },
+  {
+    "url": "https://api.npmjs.org/downloads/range/2025-07-01:2026-06-30/prettier",
+    "fetched_at": "2026-11-02T12:24:36.395Z",
+    "status": 429,
+    "attempt": 2,
+    "error_type": "HTTPError",
+    "error": "HTTP Error 429: Too Many Requests"
+  },
+  {
+    "url": "https://api.npmjs.org/downloads/range/2025-07-01:2026-06-30/prettier",
+    "fetched_at": "2026-11-02T12:24:36.567Z",
+    "status": 429,
+    "attempt": 3,
+    "error_type": "HTTPError",
+    "error": "HTTP Error 429: Too Many Requests"
+  },
+  {
+    "url": "https://api.npmjs.org/downloads/range/2025-07-01:2026-06-30/prettier",
+    "fetched_at": "2026-11-02T12:24:36.719Z",
+    "status": 429,
+    "attempt": 4,
+    "error_type": "HTTPError",
+    "error": "HTTP Error 429: Too Many Requests"
+  },
+  {
+    "url": "https://api.npmjs.org/downloads/range/2025-07-01:2026-06-30/prettier",
+    "fetched_at": "2026-11-02T12:24:36.905Z",
+    "status": 429,
+    "attempt": 5,
+    "error_type": "HTTPError",
+    "error": "HTTP Error 429: Too Many Requests"
+  },
+  {
+    "url": "https://registry.npmjs.org/ws",
+    "fetched_at": "2026-11-02T12:24:37.076Z",
+    "status": 200,
+    "body_sha256": "9e5deef864d8504cecea24dcf2ac25e0ea6f44f010795da45357673faad83f9e",
+    "bytes": 452774,
+    "headers": {
+      "date": "Mon, 02 Nov 2026 12:24:33 GMT",
+      "content-type": "application/json",
+      "etag": "\"336f390d5fac87afb50c72633c5d3aae\"",
+      "last-modified": "Sat, 31 Oct 2026 09:58:49 GMT"
+    },
+    "attempt": 1
+  },
+  {
+    "url": "https://api.npmjs.org/downloads/range/2025-07-01:2026-06-30/ws",
+    "fetched_at": "2026-11-02T12:24:37.402Z",
+    "status": 429,
+    "attempt": 1,
+    "error_type": "HTTPError",
+    "error": "HTTP Error 429: Too Many Requests"
+  },
+  {
+    "url": "https://api.npmjs.org/downloads/range/2025-07-01:2026-06-30/ws",
+    "fetched_at": "2026-11-02T12:24:37.501Z",
+    "status": 429,
+    "attempt": 2,
+    "error_type": "HTTPError",
+    "error": "HTTP Error 429: Too Many Requests"
+  },
+  {
+    "url": "https://api.npmjs.org/downloads/range/2025-07-01:2026-06-30/ws",
+    "fetched_at": "2026-11-02T12:24:37.601Z",
+    "status": 429,
+    "attempt": 3,
+    "error_type": "HTTPError",
+    "error": "HTTP Error 429: Too Many Requests"
+  },
+  {
+    "url": "https://api.npmjs.org/downloads/range/2025-07-01:2026-06-30/ws",
+    "fetched_at": "2026-11-02T12:24:37.708Z",
+    "status": 429,
+    "attempt": 4,
+    "error_type": "HTTPError",
+    "error": "HTTP Error 429: Too Many Requests"
+  },
+  {
+    "url": "https://api.npmjs.org/downloads/range/2025-07-01:2026-06-30/ws",
+    "fetched_at": "2026-11-02T12:24:37.814Z",
+    "status": 429,
+    "attempt": 5,
+    "error_type": "HTTPError",
+    "error": "HTTP Error 429: Too Many Requests"
+  },
+  {
+    "url": "https://registry.npmjs.org/socket.io",
+    "fetched_at": "2026-11-02T12:24:37.920Z",
+    "status": 200,
+    "body_sha256": "42365e7f0f0100291bb082b97767149861d959f62bd215f268be0390c5931106",
+    "bytes": 382121,
+    "headers": {
+      "date": "Mon, 02 Nov 2026 12:24:34 GMT",
+      "content-type": "application/json",
+      "etag": "\"c8c1306fe4100c5d1e10f91682cbe708\"",
+      "last-modified": "Fri, 25 Sep 2026 08:51:54 GMT"
+    },
+    "attempt": 1
+  },
+  {
+    "url": "https://api.npmjs.org/downloads/range/2025-07-01:2026-06-30/socket.io",
+    "fetched_at": "2026-11-02T12:24:38.146Z",
+    "status": 429,
+    "attempt": 1,
+    "error_type": "HTTPError",
+    "error": "HTTP Error 429: Too Many Requests"
+  },
+  {
+    "url": "https://api.npmjs.org/downloads/range/2025-07-01:2026-06-30/socket.io",
+    "fetched_at": "2026-11-02T12:24:38.249Z",
+    "status": 200,
+    "body_sha256": "8cb1f99300cce5ff6f05cc8b320d301737edaf20e603611b035a1f2baf2f2307",
+    "bytes": 14946,
+    "headers": {
+      "date": "Mon, 02 Nov 2026 12:24:35 GMT",
+      "content-type": "application/json; charset=utf-8",
+      "last-modified": "Mon, 02 Nov 2026 12:24:35 GMT"
+    },
+    "attempt": 2
+  },
+  {
+    "url": "https://registry.npmjs.org/tar",
+    "fetched_at": "2026-11-02T12:24:38.985Z",
+    "status": 200,
+    "body_sha256": "fbf8be9f493479f7388f5976968c3c42bee393146902806d52b6e24d74716e27",
+    "bytes": 591769,
+    "headers": {
+      "date": "Mon, 02 Nov 2026 12:24:35 GMT",
+      "content-type": "application/json",
+      "etag": "\"6545047abd61e7ebbecfda3d1b8b355e\"",
+      "last-modified": "Fri, 24 Jul 2026 15:48:53 GMT"
+    },
+    "attempt": 1
+  },
+  {
+    "url": "https://api.npmjs.org/downloads/range/2025-07-01:2026-06-30/tar",
+    "fetched_at": "2026-11-02T12:24:39.235Z",
+    "status": 429,
+    "attempt": 1,
+    "error_type": "HTTPError",
+    "error": "HTTP Error 429: Too Many Requests"
+  },
+  {
+    "url": "https://api.npmjs.org/downloads/range/2025-07-01:2026-06-30/tar",
+    "fetched_at": "2026-11-02T12:24:39.351Z",
+    "status": 429,
+    "attempt": 2,
+    "error_type": "HTTPError",
+    "error": "HTTP Error 429: Too Many Requests"
+  },
+  {
+    "url": "https://api.npmjs.org/downloads/range/2025-07-01:2026-06-30/tar",
+    "fetched_at": "2026-11-02T12:24:39.453Z",
+    "status": 429,
+    "attempt": 3,
+    "error_type": "HTTPError",
+    "error": "HTTP Error 429: Too Many Requests"
+  },
+  {
+    "url": "https://api.npmjs.org/downloads/range/2025-07-01:2026-06-30/tar",
+    "fetched_at": "2026-11-02T12:24:39.558Z",
+    "status": 429,
+    "attempt": 4,
+    "error_type": "HTTPError",
+    "error": "HTTP Error 429: Too Many Requests"
+  },
+  {
+    "url": "https://api.npmjs.org/downloads/range/2025-07-01:2026-06-30/tar",
+    "fetched_at": "2026-11-02T12:24:39.672Z",
+    "status": 429,
+    "attempt": 5,
+    "error_type": "HTTPError",
+    "error": "HTTP Error 429: Too Many Requests"
+  },
+  {
+    "url": "https://registry.npmjs.org/semver",
+    "fetched_at": "2026-11-02T12:24:39.825Z",
+    "status": 200,
+    "body_sha256": "deb454d04ba73a2f9250799926e62c38a0250891315ef9d12ab6ca54d6a15688",
+    "bytes": 246128,
+    "headers": {
+      "date": "Mon, 02 Nov 2026 12:24:36 GMT",
+      "content-type": "application/json",
+      "etag": "\"208b026b29ad96dceaf075a1a77d7df1\"",
+      "last-modified": "Wed, 09 Sep 2026 20:11:29 GMT"
+    },
+    "attempt": 1
+  },
+  {
+    "url": "https://api.npmjs.org/downloads/range/2025-07-01:2026-06-30/semver",
+    "fetched_at": "2026-11-02T12:24:40.031Z",
+    "status": 200,
+    "body_sha256": "b62b1633a12256d73268574a5465db89b517b6979f110f235bcc6544eec6825d",
+    "bytes": 15491,
+    "headers": {
+      "date": "Mon, 02 Nov 2026 12:24:37 GMT",
+      "content-type": "application/json; charset=utf-8",
+      "last-modified": "Mon, 02 Nov 2026 12:24:37 GMT"
+    },
+    "attempt": 1
+  },
+  {
+    "url": "https://registry.npmjs.org/minimist",
+    "fetched_at": "2026-11-02T12:24:40.851Z",
+    "status": 200,
+    "body_sha256": "8f090a1006b3fd55110ddf027e45d70c0dd754d258632203947d41752af29dcc",
+    "bytes": 77063,
+    "headers": {
+      "date": "Mon, 02 Nov 2026 12:24:37 GMT",
+      "content-type": "application/json",
+      "etag": "\"7b376d30e328cc8ce8d5781f735936ff\"",
+      "last-modified": "Fri, 06 Mar 2026 07:15:55 GMT"
+    },
+    "attempt": 1
+  },
+  {
+    "url": "https://api.npmjs.org/downloads/range/2025-07-01:2026-06-30/minimist",
+    "fetched_at": "2026-11-02T12:24:41.007Z",
+    "status": 429,
+    "attempt": 1,
+    "error_type": "HTTPError",
+    "error": "HTTP Error 429: Too Many Requests"
+  },
+  {
+    "url": "https://api.npmjs.org/downloads/range/2025-07-01:2026-06-30/minimist",
+    "fetched_at": "2026-11-02T12:24:41.124Z",
+    "status": 429,
+    "attempt": 2,
+    "error_type": "HTTPError",
+    "error": "HTTP Error 429: Too Many Requests"
+  },
+  {
+    "url": "https://api.npmjs.org/downloads/range/2025-07-01:2026-06-30/minimist",
+    "fetched_at": "2026-11-02T12:24:41.222Z",
+    "status": 429,
+    "attempt": 3,
+    "error_type": "HTTPError",
+    "error": "HTTP Error 429: Too Many Requests"
+  },
+  {
+    "url": "https://api.npmjs.org/downloads/range/2025-07-01:2026-06-30/minimist",
+    "fetched_at": "2026-11-02T12:24:41.367Z",
+    "status": 429,
+    "attempt": 4,
+    "error_type": "HTTPError",
+    "error": "HTTP Error 429: Too Many Requests"
+  },
+  {
+    "url": "https://api.npmjs.org/downloads/range/2025-07-01:2026-06-30/minimist",
+    "fetched_at": "2026-11-02T12:24:41.479Z",
+    "status": 200,
+    "body_sha256": "63cd265fd5ab19d97b5076794248de5f012a5efd83a6f3b590e2892b95926895",
+    "bytes": 15318,
+    "headers": {
+      "date": "Mon, 02 Nov 2026 12:24:38 GMT",
+      "content-type": "application/json; charset=utf-8",
+      "last-modified": "Mon, 02 Nov 2026 12:24:38 GMT"
+    },
+    "attempt": 5
+  },
+  {
+    "url": "https://registry.npmjs.org/qs",
+    "fetched_at": "2026-11-02T12:24:41.828Z",
+    "status": 200,
+    "body_sha256": "03261c517cdced57ef13a78a4ba239744bed17165505d3e11735eba43f0baf78",
+    "bytes": 397169,
+    "headers": {
+      "date": "Mon, 02 Nov 2026 12:24:38 GMT",
+      "content-type": "application/json",
+      "etag": "\"dc5a2ec47853044a4000d63a73067b19\"",
+      "last-modified": "Wed, 28 Oct 2026 23:41:49 GMT"
+    },
+    "attempt": 1
+  },
+  {
+    "url": "https://api.npmjs.org/downloads/range/2025-07-01:2026-06-30/qs",
+    "fetched_at": "2026-11-02T12:24:42.060Z",
+    "status": 429,
+    "attempt": 1,
+    "error_type": "HTTPError",
+    "error": "HTTP Error 429: Too Many Requests"
+  },
+  {
+    "url": "https://api.npmjs.org/downloads/range/2025-07-01:2026-06-30/qs",
+    "fetched_at": "2026-11-02T12:24:42.189Z",
+    "status": 429,
+    "attempt": 2,
+    "error_type": "HTTPError",
+    "error": "HTTP Error 429: Too Many Requests"
+  },
+  {
+    "url": "https://api.npmjs.org/downloads/range/2025-07-01:2026-06-30/qs",
+    "fetched_at": "2026-11-02T12:24:42.325Z",
+    "status": 429,
+    "attempt": 3,
+    "error_type": "HTTPError",
+    "error": "HTTP Error 429: Too Many Requests"
+  },
+  {
+    "url": "https://api.npmjs.org/downloads/range/2025-07-01:2026-06-30/qs",
+    "fetched_at": "2026-11-02T12:24:42.439Z",
+    "status": 429,
+    "attempt": 4,
+    "error_type": "HTTPError",
+    "error": "HTTP Error 429: Too Many Requests"
+  },
+  {
+    "url": "https://api.npmjs.org/downloads/range/2025-07-01:2026-06-30/qs",
+    "fetched_at": "2026-11-02T12:24:42.550Z",
+    "status": 429,
+    "attempt": 5,
+    "error_type": "HTTPError",
+    "error": "HTTP Error 429: Too Many Requests"
+  },
+  {
+    "url": "https://registry.npmjs.org/yaml",
+    "fetched_at": "2026-11-02T12:24:42.671Z",
+    "status": 200,
+    "body_sha256": "ad712932fc55443ad3c4e4033717553f8a90814f9eee776a706d852375dce964",
+    "bytes": 386415,
+    "headers": {
+      "date": "Mon, 02 Nov 2026 12:24:38 GMT",
+      "content-type": "application/json",
+      "etag": "\"2281872ef5c225ffa7fce335f6629ae1\"",
+      "last-modified": "Fri, 11 Sep 2026 23:20:33 GMT"
+    },
+    "attempt": 1
+  },
+  {
+    "url": "https://api.npmjs.org/downloads/range/2025-07-01:2026-06-30/yaml",
+    "fetched_at": "2026-11-02T12:24:42.880Z",
+    "status": 429,
+    "attempt": 1,
+    "error_type": "HTTPError",
+    "error": "HTTP Error 429: Too Many Requests"
+  },
+  {
+    "url": "https://api.npmjs.org/downloads/range/2025-07-01:2026-06-30/yaml",
+    "fetched_at": "2026-11-02T12:24:42.987Z",
+    "status": 429,
+    "attempt": 2,
+    "error_type": "HTTPError",
+    "error": "HTTP Error 429: Too Many Requests"
+  },
+  {
+    "url": "https://api.npmjs.org/downloads/range/2025-07-01:2026-06-30/yaml",
+    "fetched_at": "2026-11-02T12:24:43.108Z",
+    "status": 429,
+    "attempt": 3,
+    "error_type": "HTTPError",
+    "error": "HTTP Error 429: Too Many Requests"
+  },
+  {
+    "url": "https://api.npmjs.org/downloads/range/2025-07-01:2026-06-30/yaml",
+    "fetched_at": "2026-11-02T12:24:43.209Z",
+    "status": 429,
+    "attempt": 4,
+    "error_type": "HTTPError",
+    "error": "HTTP Error 429: Too Many Requests"
+  },
+  {
+    "url": "https://api.npmjs.org/downloads/range/2025-07-01:2026-06-30/yaml",
+    "fetched_at": "2026-11-02T12:24:43.304Z",
+    "status": 429,
+    "attempt": 5,
+    "error_type": "HTTPError",
+    "error": "HTTP Error 429: Too Many Requests"
+  },
+  {
+    "url": "https://registry.npmjs.org/marked",
+    "fetched_at": "2026-11-02T12:24:43.400Z",
+    "status": 200,
+    "body_sha256": "84b67504ef44e790fc03dcac8cde3c1d7536a296d821d2cf13240eba786a147e",
+    "bytes": 801375,
+    "headers": {
+      "date": "Mon, 02 Nov 2026 12:24:39 GMT",
+      "content-type": "application/json",
+      "etag": "\"92c9102a49e1cc7494b6979efb6b94c6\"",
+      "last-modified": "Mon, 26 Oct 2026 14:54:52 GMT"
+    },
+    "attempt": 1
+  },
+  {
+    "url": "https://api.npmjs.org/downloads/range/2025-07-01:2026-06-30/marked",
+    "fetched_at": "2026-11-02T12:24:43.687Z",
+    "status": 429,
+    "attempt": 1,
+    "error_type": "HTTPError",
+    "error": "HTTP Error 429: Too Many Requests"
+  },
+  {
+    "url": "https://api.npmjs.org/downloads/range/2025-07-01:2026-06-30/marked",
+    "fetched_at": "2026-11-02T12:24:43.786Z",
+    "status": 429,
+    "attempt": 2,
+    "error_type": "HTTPError",
+    "error": "HTTP Error 429: Too Many Requests"
+  },
+  {
+    "url": "https://api.npmjs.org/downloads/range/2025-07-01:2026-06-30/marked",
+    "fetched_at": "2026-11-02T12:24:43.884Z",
+    "status": 429,
+    "attempt": 3,
+    "error_type": "HTTPError",
+    "error": "HTTP Error 429: Too Many Requests"
+  },
+  {
+    "url": "https://api.npmjs.org/downloads/range/2025-07-01:2026-06-30/marked",
+    "fetched_at": "2026-11-02T12:24:43.988Z",
+    "status": 429,
+    "attempt": 4,
+    "error_type": "HTTPError",
+    "error": "HTTP Error 429: Too Many Requests"
+  },
+  {
+    "url": "https://api.npmjs.org/downloads/range/2025-07-01:2026-06-30/marked",
+    "fetched_at": "2026-11-02T12:24:44.133Z",
+    "status": 429,
+    "attempt": 5,
+    "error_type": "HTTPError",
+    "error": "HTTP Error 429: Too Many Requests"
+  },
+  {
+    "url": "https://registry.npmjs.org/nanoid",
+    "fetched_at": "2026-11-02T12:24:44.234Z",
+    "status": 200,
+    "body_sha256": "caee9c9b46d6f8df0b4887b7620058355830591fbc85a1c4fe743b527f969c79",
+    "bytes": 352791,
+    "headers": {
+      "date": "Mon, 02 Nov 2026 12:24:40 GMT",
+      "content-type": "application/json",
+      "etag": "\"0c98923d5ed92d16c09420d4bf22ab24\"",
+      "last-modified": "Mon, 05 Oct 2026 21:23:01 GMT"
+    },
+    "attempt": 1
+  },
+  {
+    "url": "https://api.npmjs.org/downloads/range/2025-07-01:2026-06-30/nanoid",
+    "fetched_at": "2026-11-02T12:24:44.463Z",
+    "status": 200,
+    "body_sha256": "aff47c59d5c4136fa4271ddc2c3b2b44ec67bc2613ea571d3951c5d12e71e366",
+    "bytes": 15315,
+    "headers": {
+      "date": "Mon, 02 Nov 2026 12:24:41 GMT",
+      "content-type": "application/json; charset=utf-8",
+      "last-modified": "Mon, 02 Nov 2026 12:24:41 GMT"
+    },
+    "attempt": 1
+  },
+  {
+    "url": "https://api.npmjs.org/downloads/range/2025-07-01:2026-06-30/joi",
+    "fetched_at": "2026-11-02T12:26:30.614Z",
+    "status": 200,
+    "body_sha256": "ebb6a0847b043f1be838ce5622a4b7829f680ea0097161f4c1e9e419e504227f",
+    "bytes": 14959,
+    "headers": {
+      "date": "Mon, 02 Nov 2026 12:26:27 GMT",
+      "content-type": "application/json; charset=utf-8",
+      "last-modified": "Mon, 02 Nov 2026 12:26:27 GMT"
+    },
+    "attempt": 1
+  },
+  {
+    "url": "https://api.npmjs.org/downloads/range/2025-07-01:2026-06-30/ajv",
+    "fetched_at": "2026-11-02T12:26:33.146Z",
+    "status": 200,
+    "body_sha256": "1c809ca5decc6d8a569ce0cb769348a0987b435bd778971a6f2a3658f311b0d7",
+    "bytes": 15359,
+    "headers": {
+      "date": "Mon, 02 Nov 2026 12:26:29 GMT",
+      "content-type": "application/json; charset=utf-8",
+      "last-modified": "Mon, 02 Nov 2026 12:26:29 GMT"
+    },
+    "attempt": 1
+  },
+  {
+    "url": "https://api.npmjs.org/downloads/range/2025-07-01:2026-06-30/commander",
+    "fetched_at": "2026-11-02T12:26:35.610Z",
+    "status": 200,
+    "body_sha256": "86d676f3cad7b66ebbf27f39ff7e1da8a4b04fae93d14b28bd0de67afb03b4e8",
+    "bytes": 15404,
+    "headers": {
+      "date": "Mon, 02 Nov 2026 12:26:31 GMT",
+      "content-type": "application/json; charset=utf-8",
+      "last-modified": "Mon, 02 Nov 2026 11:33:26 GMT"
+    },
+    "attempt": 1
+  },
+  {
+    "url": "https://api.npmjs.org/downloads/range/2025-07-01:2026-06-30/chalk",
+    "fetched_at": "2026-11-02T12:26:37.839Z",
+    "status": 200,
+    "body_sha256": "88a195ccb54c1e7c089380c7930a3e1507733421519584ab748974d8499c56cf",
+    "bytes": 15403,
+    "headers": {
+      "date": "Mon, 02 Nov 2026 12:26:34 GMT",
+      "content-type": "application/json; charset=utf-8",
+      "last-modified": "Mon, 02 Nov 2026 11:33:23 GMT"
+    },
+    "attempt": 1
+  },
+  {
+    "url": "https://api.npmjs.org/downloads/range/2025-07-01:2026-06-30/jest",
+    "fetched_at": "2026-11-02T12:26:40.089Z",
+    "status": 200,
+    "body_sha256": "06daf83c730ddfbd02211811c0b95276d19f7c163c9e2a094e492915a0022f68",
+    "bytes": 15037,
+    "headers": {
+      "date": "Mon, 02 Nov 2026 12:26:37 GMT",
+      "content-type": "application/json; charset=utf-8",
+      "last-modified": "Mon, 02 Nov 2026 12:26:37 GMT"
+    },
+    "attempt": 1
+  },
+  {
+    "url": "https://api.npmjs.org/downloads/range/2025-07-01:2026-06-30/vitest",
+    "fetched_at": "2026-11-02T12:26:42.956Z",
+    "status": 200,
+    "body_sha256": "10ee6c5d93dc4b22edceb6a255b10752e28dbc016b64c37cdc2274b1fe5735c8",
+    "bytes": 15032,
+    "headers": {
+      "date": "Mon, 02 Nov 2026 12:26:39 GMT",
+      "content-type": "application/json; charset=utf-8",
+      "last-modified": "Mon, 02 Nov 2026 12:26:39 GMT"
+    },
+    "attempt": 1
+  },
+  {
+    "url": "https://api.npmjs.org/downloads/range/2025-07-01:2026-06-30/mocha",
+    "fetched_at": "2026-11-02T12:26:45.782Z",
+    "status": 200,
+    "body_sha256": "87bae47e3e2bea1261beaf2096913d17d00272e91350c589b9e31cd28488994d",
+    "bytes": 14947,
+    "headers": {
+      "date": "Mon, 02 Nov 2026 12:26:42 GMT",
+      "content-type": "application/json; charset=utf-8",
+      "last-modified": "Mon, 02 Nov 2026 11:42:56 GMT"
+    },
+    "attempt": 1
+  },
+  {
+    "url": "https://api.npmjs.org/downloads/range/2025-07-01:2026-06-30/prettier",
+    "fetched_at": "2026-11-02T12:26:48.064Z",
+    "status": 200,
+    "body_sha256": "6569482db0869e841ff6f6112688b5ecf95b4f4993c84521a63422842c11e8c8",
+    "bytes": 15227,
+    "headers": {
+      "date": "Mon, 02 Nov 2026 12:26:44 GMT",
+      "content-type": "application/json; charset=utf-8",
+      "last-modified": "Mon, 02 Nov 2026 12:26:44 GMT"
+    },
+    "attempt": 1
+  },
+  {
+    "url": "https://api.npmjs.org/downloads/range/2025-07-01:2026-06-30/ws",
+    "fetched_at": "2026-11-02T12:26:50.571Z",
+    "status": 200,
+    "body_sha256": "64904292f075bb899400a1a48a3649ef51b9844c37d584481b2992b66ced0db1",
+    "bytes": 15339,
+    "headers": {
+      "date": "Mon, 02 Nov 2026 12:26:47 GMT",
+      "content-type": "application/json; charset=utf-8",
+      "last-modified": "Mon, 02 Nov 2026 12:26:47 GMT"
+    },
+    "attempt": 1
+  },
+  {
+    "url": "https://api.npmjs.org/downloads/range/2025-07-01:2026-06-30/tar",
+    "fetched_at": "2026-11-02T12:26:52.969Z",
+    "status": 200,
+    "body_sha256": "ef43be7803ae1ae20206911ec0ba8a77954aebc5d122a339d55f73a23f35f05a",
+    "bytes": 15139,
+    "headers": {
+      "date": "Mon, 02 Nov 2026 12:26:49 GMT",
+      "content-type": "application/json; charset=utf-8",
+      "last-modified": "Mon, 02 Nov 2026 12:26:49 GMT"
+    },
+    "attempt": 1
+  },
+  {
+    "url": "https://api.npmjs.org/downloads/range/2025-07-01:2026-06-30/qs",
+    "fetched_at": "2026-11-02T12:26:55.852Z",
+    "status": 200,
+    "body_sha256": "49a04f2ed0cfeac3a39606563791c90de6c3cf44cb297301eed1d45fe37fbb11",
+    "bytes": 15325,
+    "headers": {
+      "date": "Mon, 02 Nov 2026 12:26:52 GMT",
+      "content-type": "application/json; charset=utf-8",
+      "last-modified": "Mon, 02 Nov 2026 12:26:52 GMT"
+    },
+    "attempt": 1
+  },
+  {
+    "url": "https://api.npmjs.org/downloads/range/2025-07-01:2026-06-30/yaml",
+    "fetched_at": "2026-11-02T12:26:58.702Z",
+    "status": 200,
+    "body_sha256": "27afdf0de6777c24563ac4b2027b2c38ca1bb03c93d29bf24a4a814a74831e76",
+    "bytes": 15308,
+    "headers": {
+      "date": "Mon, 02 Nov 2026 12:26:55 GMT",
+      "content-type": "application/json; charset=utf-8",
+      "last-modified": "Mon, 02 Nov 2026 11:34:11 GMT"
+    },
+    "attempt": 1
+  },
+  {
+    "url": "https://api.npmjs.org/downloads/range/2025-07-01:2026-06-30/marked",
+    "fetched_at": "2026-11-02T12:27:00.948Z",
+    "status": 200,
+    "body_sha256": "97d64bf312a89cc6a82b2ee2c9055b316916b00cb2987a39c4a92c33065bb51c",
+    "bytes": 15011,
+    "headers": {
+      "date": "Mon, 02 Nov 2026 12:26:57 GMT",
+      "content-type": "application/json; charset=utf-8",
+      "last-modified": "Mon, 02 Nov 2026 12:26:57 GMT"
+    },
+    "attempt": 1
+  }
+]

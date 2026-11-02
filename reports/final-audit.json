@@ -1,0 +1,215 @@
+{
+  "scope": "Local candidate; external submission incomplete",
+  "items": [
+    {
+      "category": "Instructor",
+      "requirement": "Acquire a real public-source npm training dataset",
+      "status": "PASS",
+      "evidence": "data/raw; acquisition.json; source-audit.json; 990 source-backed version rows",
+      "limitation": ""
+    },
+    {
+      "category": "Instructor",
+      "requirement": "Exact official column names/order, all 224 fields",
+      "status": "PASS",
+      "evidence": "schema/record_schema.json; columns.txt; schema tests; validation.json",
+      "limitation": ""
+    },
+    {
+      "category": "Instructor",
+      "requirement": "All 78 required fields present with correct types",
+      "status": "PASS",
+      "evidence": "validation.json required_coverage and negative tests",
+      "limitation": ""
+    },
+    {
+      "category": "Instructor",
+      "requirement": "Exact-version npm PURLs; exclude prereleases",
+      "status": "PASS",
+      "evidence": "npm tests; validation tests; source-audit.json; exclusions.json",
+      "limitation": ""
+    },
+    {
+      "category": "Instructor",
+      "requirement": "Valid creation/publication timestamps and all 5 dependency counts",
+      "status": "PASS",
+      "evidence": "Independent source comparison and chronology tests",
+      "limitation": ""
+    },
+    {
+      "category": "Instructor",
+      "requirement": "July 2025–June 2026 history; correct M0–M11 mapping",
+      "status": "PASS",
+      "evidence": "Workbook Documentation sheet evidence; month-boundary tests; fixed source request dates",
+      "limitation": ""
+    },
+    {
+      "category": "Instructor",
+      "requirement": "Distinct reviewed GHSA history and five severity outcomes",
+      "status": "PASS",
+      "evidence": "Historical trees; per-package GHSA ID evidence; 70 GHSA fields independently compared",
+      "limitation": "Verified against historical Git mirror; exact service-state limitation is separately marked PARTIAL"
+    },
+    {
+      "category": "Instructor",
+      "requirement": "Package-wide targets and exact 90-day interval",
+      "status": "PARTIAL",
+      "evidence": "Known expected counts; package-wide and boundary tests; labels through 2026-09-29 exclusive",
+      "limitation": "Calculation verified under common-cutoff interpretation; instructor cutoff anchor remains unresolved"
+    },
+    {
+      "category": "Instructor",
+      "requirement": "Optional unavailable measurements are NULL, not fabricated zeros",
+      "status": "PASS",
+      "evidence": "146 optional fields retained; 108 GitHub event fields NULL; failure/null/zero tests",
+      "limitation": ""
+    },
+    {
+      "category": "Instructor",
+      "requirement": "Keep required core while allowing extensions",
+      "status": "PASS",
+      "evidence": "No extra table columns; provenance and collection times in sidecars",
+      "limitation": ""
+    },
+    {
+      "category": "Instructor",
+      "requirement": "Commit code and real data to repository",
+      "status": "PARTIAL",
+      "evidence": "Dedicated Git repository and reviewed files prepared",
+      "limitation": "Remote publication still awaits owner approval"
+    },
+    {
+      "category": "Instructor",
+      "requirement": "Publish an instructor-accessible GitHub repository",
+      "status": "PARTIAL",
+      "evidence": "Dedicated local repository prepared; no remote publication yet",
+      "limitation": "Owner/name/visibility/access require approval before creation or push"
+    },
+    {
+      "category": "Instructor",
+      "requirement": "Exact tag initial-training-data",
+      "status": "FAIL",
+      "evidence": "No final submission tag created",
+      "limitation": "Explicit owner approval required before tag creation"
+    },
+    {
+      "category": "Instructor",
+      "requirement": "Submit repository URL through official form",
+      "status": "FAIL",
+      "evidence": "https://forms.gle/SUjxnXAWQ99oDv8N8",
+      "limitation": "No repository publication or form submission has been authorized or confirmed"
+    },
+    {
+      "category": "User quality",
+      "requirement": "Preserve all original course and Homework 2 files",
+      "status": "PASS",
+      "evidence": "release-check.json compares all 5 source SHA-256 values",
+      "limitation": ""
+    },
+    {
+      "category": "User quality",
+      "requirement": "Actually execute acquisition, validation and tests",
+      "status": "PASS",
+      "evidence": "108 executed tests; 84 HTTP 200 responses; source audit",
+      "limitation": ""
+    },
+    {
+      "category": "User quality",
+      "requirement": "Known results, negative cases, edge cases, temporal leakage prevention",
+      "status": "PASS",
+      "evidence": "Test names/transcript cover source failures, dates, IDs, types, cutoffs, revisions, duplicates and replay",
+      "limitation": ""
+    },
+    {
+      "category": "User quality",
+      "requirement": "Reproducible dataset and clear dependency setup",
+      "status": "PASS",
+      "evidence": "Python 3.11+ standard library; README commands; nine byte-identical artifacts",
+      "limitation": ""
+    },
+    {
+      "category": "User quality",
+      "requirement": "Explicit source failures, missingness and sampling biases",
+      "status": "PASS",
+      "evidence": "HTTP events; source failures/recovery; exclusions; docs/sources.md",
+      "limitation": ""
+    },
+    {
+      "category": "User quality",
+      "requirement": "Secrets and irrelevant files checked",
+      "status": "PASS",
+      "evidence": "release-check.json; original course files and large caches excluded; signed narrative URLs omitted",
+      "limitation": "Pattern scan does not prove absence of all conceivable secret formats"
+    },
+    {
+      "category": "Decision",
+      "requirement": "40-package purposive selection, without outcome-based selection",
+      "status": "PASS",
+      "evidence": "Fixed config/packages.json; every package retained in reports",
+      "limitation": "Convenience/popularity/survivorship bias; not representative npm prevalence"
+    },
+    {
+      "category": "Decision",
+      "requirement": "Half-open UTC windows and withdrawn-advisory policy",
+      "status": "PASS",
+      "evidence": "docs/decisions.md; advisory-history.md; endpoint/withdrawal tests",
+      "limitation": "These interpretation choices are not separately confirmed by instructor"
+    },
+    {
+      "category": "Decision",
+      "requirement": "Highest semantic version identified without current dist-tags",
+      "status": "PASS",
+      "evidence": "Per-package reports and semantic-order tests",
+      "limitation": "No claim that this resolves the disputed cutoff anchor"
+    },
+    {
+      "category": "Optional",
+      "requirement": "Populate GitHub issue/PR historical measurements",
+      "status": "PARTIAL",
+      "evidence": "All 108 optional columns exist as NULL",
+      "limitation": "Reliable complete historical event reconstruction was not acquired"
+    },
+    {
+      "category": "Optional",
+      "requirement": "GitHub Actions test/reproducibility workflow",
+      "status": "PARTIAL",
+      "evidence": ".github/workflows/validate.yml prepared using official action versions",
+      "limitation": "Remote workflow cannot execute before approved publication"
+    },
+    {
+      "category": "Unresolved",
+      "requirement": "Common cutoff versus 90 days after latest version",
+      "status": "PARTIAL",
+      "evidence": "Worklog p.1 vs fixed workbook months; docs/decisions.md",
+      "limitation": "July 1 common cutoff is explicit and internally validated, not instructor-confirmed"
+    },
+    {
+      "category": "Unresolved",
+      "requirement": "Exact historical GitHub service state",
+      "status": "PARTIAL",
+      "evidence": "Immutable Git mirror snapshots; 614 original records verified",
+      "limitation": "Mirror/commit timing cannot certify exact service-state history"
+    },
+    {
+      "category": "Unresolved",
+      "requirement": "Historical immutability/completeness of npm metadata",
+      "status": "PARTIAL",
+      "evidence": "Authentic captured retrospective full registry responses",
+      "limitation": "Unpublishing or later source corrections cannot be ruled out"
+    },
+    {
+      "category": "Unresolved",
+      "requirement": "Four-output worklog versus five schema labels",
+      "status": "PARTIAL",
+      "evidence": "Five official schema fields preserved",
+      "limitation": "Future submission output format needs clarification; no required column dropped"
+    },
+    {
+      "category": "Unresolved",
+      "requirement": "Repository visibility and instructor access",
+      "status": "PARTIAL",
+      "evidence": "Authenticated owner Yasamanpiroozfar; proposed PCOM-01 repository",
+      "limitation": "Awaiting approval of owner/name/visibility/access"
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "executed_at": "2026-11-02T13:02:59.633Z",
+  "files_scanned": 138,
+  "credential_pattern_findings": [],
+  "files_over_50_mib": [],
+  "original_course_files_copied_into_repository": [],
+  "original_file_integrity": {
+    "PCOM Homework [Public].pdf": {
+      "expected_sha256": "3a6a6b1679090ef83678016fb5c33ac8284b0a246519c4c1765677815b47f5e7",
+      "actual_sha256": "3a6a6b1679090ef83678016fb5c33ac8284b0a246519c4c1765677815b47f5e7",
+      "unchanged": true
+    },
+    "PCOM Class Worklog [Public].pdf": {
+      "expected_sha256": "46e489fd04004966fbb8302836206cf080a5e3b20f0ef47b627a1e6314cd6b18",
+      "actual_sha256": "46e489fd04004966fbb8302836206cf080a5e3b20f0ef47b627a1e6314cd6b18",
+      "unchanged": true
+    },
+    "PCOM-01 Record Schema [Public].xlsx": {
+      "expected_sha256": "243a32bcd9e9b6d23cbde133a790f8e81ef518ece6e1e408adbb39815f033413",
+      "actual_sha256": "243a32bcd9e9b6d23cbde133a790f8e81ef518ece6e1e408adbb39815f033413",
+      "unchanged": true
+    },
+    "PCOM Organization [Public].xlsx": {
+      "expected_sha256": "923c27780695afe414069d36e441cd0e906bd9b4d670073b2c577cf864e1d4ed",
+      "actual_sha256": "923c27780695afe414069d36e441cd0e906bd9b4d670073b2c577cf864e1d4ed",
+      "unchanged": true
+    },
+    "PCOM_Exercise_2_Submission.zip": {
+      "expected_sha256": "437758f42cfb7fd9e24baa9614993ce0ede410f93c6ff6c9dde678808e998b99",
+      "actual_sha256": "437758f42cfb7fd9e24baa9614993ce0ede410f93c6ff6c9dde678808e998b99",
+      "unchanged": true
+    }
+  },
+  "local_checks_pass": true,
+  "limitations": "Pattern scan plus explicit file inventory review is not proof that every conceivable secret format is absent.",
+  "publication": {
+    "github_owner_verified": "Yasamanpiroozfar",
+    "proposed_repository": "PCOM-01",
+    "visibility": "awaiting owner approval",
+    "published": false,
+    "submission_tag_created": false,
+    "form_submitted": false
+  }
+}

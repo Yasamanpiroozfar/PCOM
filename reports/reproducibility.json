@@ -1,0 +1,51 @@
+{
+  "executed_at": "2026-11-02T12:52:24.388Z",
+  "all_identical": true,
+  "files": {
+    "advisory-evidence.json": {
+      "original_sha256": "5a9fabc6e3b6c7f6630041937ae9b57105853e4adcda8f4652e3ef5a1a5c1b76",
+      "replayed_sha256": "5a9fabc6e3b6c7f6630041937ae9b57105853e4adcda8f4652e3ef5a1a5c1b76",
+      "identical": true
+    },
+    "build-status.json": {
+      "original_sha256": "4aae67ca5613bb932962502702935b95680ab4af2f7c4eb12a4435f4d3f81710",
+      "replayed_sha256": "4aae67ca5613bb932962502702935b95680ab4af2f7c4eb12a4435f4d3f81710",
+      "identical": true
+    },
+    "build-validation.json": {
+      "original_sha256": "14e8499637ce4a6c7d280c31a6a11cb8cddcf3791e2dfb6b9af71ac53d10cea9",
+      "replayed_sha256": "14e8499637ce4a6c7d280c31a6a11cb8cddcf3791e2dfb6b9af71ac53d10cea9",
+      "identical": true
+    },
+    "exclusions.json": {
+      "original_sha256": "3adfb3272f269041fc2a91a6f7170760c7e992a5c0afceb8a2200b0ce950eec5",
+      "replayed_sha256": "3adfb3272f269041fc2a91a6f7170760c7e992a5c0afceb8a2200b0ce950eec5",
+      "identical": true
+    },
+    "exploratory.json": {
+      "original_sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+      "replayed_sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+      "identical": true
+    },
+    "package-reports.json": {
+      "original_sha256": "6776a03a766bcbd92e2d90fe0237be37a37d66578c2fc47b27044326fe229ccd",
+      "replayed_sha256": "6776a03a766bcbd92e2d90fe0237be37a37d66578c2fc47b27044326fe229ccd",
+      "identical": true
+    },
+    "statistics.json": {
+      "original_sha256": "b8c99370fc27fa198d05a5c8f3a9cd4a0115d6d6eae9b32ac74df6dcbcf9eb2d",
+      "replayed_sha256": "b8c99370fc27fa198d05a5c8f3a9cd4a0115d6d6eae9b32ac74df6dcbcf9eb2d",
+      "identical": true
+    },
+    "training.csv": {
+      "original_sha256": "c60de87951d20c911dc59581d01034d822c24e0a5cb88a7cd166dd2ffc0e1a50",
+      "replayed_sha256": "c60de87951d20c911dc59581d01034d822c24e0a5cb88a7cd166dd2ffc0e1a50",
+      "identical": true
+    },
+    "training.jsonl": {
+      "original_sha256": "3023382cabd7dec3e9a6a8091afd447850c31721974056fe579fc7f0ed4ac21b",
+      "replayed_sha256": "3023382cabd7dec3e9a6a8091afd447850c31721974056fe579fc7f0ed4ac21b",
+      "identical": true
+    }
+  }
+}

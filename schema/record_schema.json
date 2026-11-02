@@ -1,0 +1,4935 @@
+{
+  "contract_version": 1,
+  "source_file": "PCOM-01 Record Schema [Public].xlsx",
+  "source_sha256": "243a32bcd9e9b6d23cbde133a790f8e81ef518ece6e1e408adbb39815f033413",
+  "column_order_policy": "Workbook Schema sheet top-to-bottom; each M0 ... M11 range expanded in increasing index order.",
+  "months": {
+    "M0": "2026-06",
+    "M1": "2026-05",
+    "M2": "2026-04",
+    "M3": "2026-03",
+    "M4": "2026-02",
+    "M5": "2026-01",
+    "M6": "2025-12",
+    "M7": "2025-11",
+    "M8": "2025-10",
+    "M9": "2025-09",
+    "M10": "2025-08",
+    "M11": "2025-07"
+  },
+  "month_source": {
+    "sheet": "Documentation",
+    "cells": [
+      "B2",
+      "B3",
+      "B5"
+    ]
+  },
+  "field_count": 224,
+  "required_count": 78,
+  "optional_count": 146,
+  "fields": [
+    {
+      "name": "purl",
+      "type": "string",
+      "required": true,
+      "nullable": false,
+      "official_type": "String; Package URL (ECMA-427)",
+      "constraints": "Required; unique; npm type; exact version required; at most 2048 characters",
+      "origin": "npm package name and version",
+      "description": "Identifies the exact package version selected for this row.",
+      "source": {
+        "sheet": "Schema",
+        "rows": [
+          5,
+          5
+        ],
+        "field_cell": "C5",
+        "constraint_cell": "E5"
+      }
+    },
+    {
+      "name": "package_created_at",
+      "type": "timestamp",
+      "required": true,
+      "nullable": false,
+      "official_type": "Timestamp (RFC 3339; UTC; exactly three fractional digits)",
+      "constraints": "Required",
+      "origin": "npm: time.created",
+      "description": "Package creation timestamp recorded by npm. Shared across versions of the same package.",
+      "source": {
+        "sheet": "Schema",
+        "rows": [
+          6,
+          6
+        ],
+        "field_cell": "C6",
+        "constraint_cell": "E6"
+      }
+    },
+    {
+      "name": "published_at",
+      "type": "timestamp",
+      "required": true,
+      "nullable": false,
+      "official_type": "Timestamp (RFC 3339; UTC; exactly three fractional digits)",
+      "constraints": "Required",
+      "origin": "npm: time[version]",
+      "description": "When the exact package version identified by purl was published.",
+      "source": {
+        "sheet": "Schema",
+        "rows": [
+          7,
+          7
+        ],
+        "field_cell": "C7",
+        "constraint_cell": "E7"
+      }
+    },
+    {
+      "name": "unpacked_size",
+      "type": "integer",
+      "required": false,
+      "nullable": true,
+      "official_type": "Integer (64 bit signed)",
+      "constraints": "Optional; value >= 0; unknown values are NULL",
+      "origin": "npm: versions[version].dist.unpackedSize",
+      "description": "Total size in bytes of the unpacked files in this version's published tarball.",
+      "source": {
+        "sheet": "Schema",
+        "rows": [
+          10,
+          10
+        ],
+        "field_cell": "C10",
+        "constraint_cell": "E10"
+      },
+      "minimum": 0,
+      "maximum": 9223372036854775807
+    },
+    {
+      "name": "file_count",
+      "type": "integer",
+      "required": false,
+      "nullable": true,
+      "official_type": "Integer (64 bit signed)",
+      "constraints": "Optional; value >= 0; unknown values are NULL",
+      "origin": "npm: versions[version].dist.fileCount",
+      "description": "Number of files in this version's published tarball, excluding directories.",
+      "source": {
+        "sheet": "Schema",
+        "rows": [
+          11,
+          11
+        ],
+        "field_cell": "C11",
+        "constraint_cell": "E11"
+      },
+      "minimum": 0,
+      "maximum": 9223372036854775807
+    },
+    {
+      "name": "dependency_count",
+      "type": "integer",
+      "required": true,
+      "nullable": false,
+      "official_type": "Integer (64 bit signed)",
+      "constraints": "Required; value >= 0",
+      "origin": "Derived from npm:\ncount of keys in versions[version].dependencies",
+      "description": "Number of package names declared in this version's dependencies map.",
+      "source": {
+        "sheet": "Schema",
+        "rows": [
+          12,
+          12
+        ],
+        "field_cell": "C12",
+        "constraint_cell": "E12"
+      },
+      "minimum": 0,
+      "maximum": 9223372036854775807
+    },
+    {
+      "name": "optional_dependency_count",
+      "type": "integer",
+      "required": true,
+      "nullable": false,
+      "official_type": "Integer (64 bit signed)",
+      "constraints": "Required; value >= 0",
+      "origin": "Derived from npm:\ncount of keys in versions[version].optionalDependencies",
+      "description": "Number of package names declared in this version's optionalDependencies map.",
+      "source": {
+        "sheet": "Schema",
+        "rows": [
+          13,
+          13
+        ],
+        "field_cell": "C13",
+        "constraint_cell": "E13"
+      },
+      "minimum": 0,
+      "maximum": 9223372036854775807
+    },
+    {
+      "name": "peer_dependency_count",
+      "type": "integer",
+      "required": true,
+      "nullable": false,
+      "official_type": "Integer (64 bit signed)",
+      "constraints": "Required; value >= 0",
+      "origin": "Derived from npm:\ncount of keys in versions[version].peerDependencies",
+      "description": "Number of package names declared in this version's peerDependencies map, including peers marked optional in peerDependenciesMeta.",
+      "source": {
+        "sheet": "Schema",
+        "rows": [
+          14,
+          14
+        ],
+        "field_cell": "C14",
+        "constraint_cell": "E14"
+      },
+      "minimum": 0,
+      "maximum": 9223372036854775807
+    },
+    {
+      "name": "dev_dependency_count",
+      "type": "integer",
+      "required": true,
+      "nullable": false,
+      "official_type": "Integer (64 bit signed)",
+      "constraints": "Required; value >= 0",
+      "origin": "Derived from npm:\ncount of keys in versions[version].devDependencies",
+      "description": "Number of package names declared in this version's devDependencies map.",
+      "source": {
+        "sheet": "Schema",
+        "rows": [
+          15,
+          15
+        ],
+        "field_cell": "C15",
+        "constraint_cell": "E15"
+      },
+      "minimum": 0,
+      "maximum": 9223372036854775807
+    },
+    {
+      "name": "bundled_dependency_count",
+      "type": "integer",
+      "required": true,
+      "nullable": false,
+      "official_type": "Integer (64 bit signed)",
+      "constraints": "Required; value >= 0",
+      "origin": "Derived from npm: versions[version].bundle(d)Dependencies",
+      "description": "Number of distinct direct dependency names designated for bundling in this version's published tarball. \nThis measures the bundling declaration, not the tarball's actual contents.",
+      "source": {
+        "sheet": "Schema",
+        "rows": [
+          16,
+          16
+        ],
+        "field_cell": "C16",
+        "constraint_cell": "E16"
+      },
+      "minimum": 0,
+      "maximum": 9223372036854775807
+    },
+    {
+      "name": "package_downloads_M0",
+      "type": "integer",
+      "required": false,
+      "nullable": true,
+      "official_type": "Integer (64 bit signed)",
+      "constraints": "Optional; value >= 0; unavailable measurements are NULL",
+      "origin": "Derived from npm: daily package download counts",
+      "description": "Observed downloads across all versions of this package during M0. Sum only the daily observations available; no extrapolation.",
+      "source": {
+        "sheet": "Schema",
+        "rows": [
+          18,
+          20
+        ],
+        "field_cell": "C18",
+        "constraint_cell": "E18"
+      },
+      "month_index": 0,
+      "minimum": 0,
+      "maximum": 9223372036854775807
+    },
+    {
+      "name": "package_downloads_M1",
+      "type": "integer",
+      "required": false,
+      "nullable": true,
+      "official_type": "Integer (64 bit signed)",
+      "constraints": "Optional; value >= 0; unavailable measurements are NULL",
+      "origin": "Derived from npm: daily package download counts",
+      "description": "Observed downloads across all versions of this package during M1. Sum only the daily observations available; no extrapolation.",
+      "source": {
+        "sheet": "Schema",
+        "rows": [
+          18,
+          20
+        ],
+        "field_cell": "C18",
+        "constraint_cell": "E18"
+      },
+      "month_index": 1,
+      "minimum": 0,
+      "maximum": 9223372036854775807
+    },
+    {
+      "name": "package_downloads_M2",
+      "type": "integer",
+      "required": false,
+      "nullable": true,
+      "official_type": "Integer (64 bit signed)",
+      "constraints": "Optional; value >= 0; unavailable measurements are NULL",
+      "origin": "Derived from npm: daily package download counts",
+      "description": "Observed downloads across all versions of this package during M2. Sum only the daily observations available; no extrapolation.",
+      "source": {
+        "sheet": "Schema",
+        "rows": [
+          18,
+          20
+        ],
+        "field_cell": "C18",
+        "constraint_cell": "E18"
+      },
+      "month_index": 2,
+      "minimum": 0,
+      "maximum": 9223372036854775807
+    },
+    {
+      "name": "package_downloads_M3",
+      "type": "integer",
+      "required": false,
+      "nullable": true,
+      "official_type": "Integer (64 bit signed)",
+      "constraints": "Optional; value >= 0; unavailable measurements are NULL",
+      "origin": "Derived from npm: daily package download counts",
+      "description": "Observed downloads across all versions of this package during M3. Sum only the daily observations available; no extrapolation.",
+      "source": {
+        "sheet": "Schema",
+        "rows": [
+          18,
+          20
+        ],
+        "field_cell": "C18",
+        "constraint_cell": "E18"
+      },
+      "month_index": 3,
+      "minimum": 0,
+      "maximum": 9223372036854775807
+    },
+    {
+      "name": "package_downloads_M4",
+      "type": "integer",
+      "required": false,
+      "nullable": true,
+      "official_type": "Integer (64 bit signed)",
+      "constraints": "Optional; value >= 0; unavailable measurements are NULL",
+      "origin": "Derived from npm: daily package download counts",
+      "description": "Observed downloads across all versions of this package during M4. Sum only the daily observations available; no extrapolation.",
+      "source": {
+        "sheet": "Schema",
+        "rows": [
+          18,
+          20
+        ],
+        "field_cell": "C18",
+        "constraint_cell": "E18"
+      },
+      "month_index": 4,
+      "minimum": 0,
+      "maximum": 9223372036854775807
+    },
+    {
+      "name": "package_downloads_M5",
+      "type": "integer",
+      "required": false,
+      "nullable": true,
+      "official_type": "Integer (64 bit signed)",
+      "constraints": "Optional; value >= 0; unavailable measurements are NULL",
+      "origin": "Derived from npm: daily package download counts",
+      "description": "Observed downloads across all versions of this package during M5. Sum only the daily observations available; no extrapolation.",
+      "source": {
+        "sheet": "Schema",
+        "rows": [
+          18,
+          20
+        ],
+        "field_cell": "C18",
+        "constraint_cell": "E18"
+      },
+      "month_index": 5,
+      "minimum": 0,
+      "maximum": 9223372036854775807
+    },
+    {
+      "name": "package_downloads_M6",
+      "type": "integer",
+      "required": false,
+      "nullable": true,
+      "official_type": "Integer (64 bit signed)",
+      "constraints": "Optional; value >= 0; unavailable measurements are NULL",
+      "origin": "Derived from npm: daily package download counts",
+      "description": "Observed downloads across all versions of this package during M6. Sum only the daily observations available; no extrapolation.",
+      "source": {
+        "sheet": "Schema",
+        "rows": [
+          18,
+          20
+        ],
+        "field_cell": "C18",
+        "constraint_cell": "E18"
+      },
+      "month_index": 6,
+      "minimum": 0,
+      "maximum": 9223372036854775807
+    },
+    {
+      "name": "package_downloads_M7",
+      "type": "integer",
+      "required": false,
+      "nullable": true,
+      "official_type": "Integer (64 bit signed)",
+      "constraints": "Optional; value >= 0; unavailable measurements are NULL",
+      "origin": "Derived from npm: daily package download counts",
+      "description": "Observed downloads across all versions of this package during M7. Sum only the daily observations available; no extrapolation.",
+      "source": {
+        "sheet": "Schema",
+        "rows": [
+          18,
+          20
+        ],
+        "field_cell": "C18",
+        "constraint_cell": "E18"
+      },
+      "month_index": 7,
+      "minimum": 0,
+      "maximum": 9223372036854775807
+    },
+    {
+      "name": "package_downloads_M8",
+      "type": "integer",
+      "required": false,
+      "nullable": true,
+      "official_type": "Integer (64 bit signed)",
+      "constraints": "Optional; value >= 0; unavailable measurements are NULL",
+      "origin": "Derived from npm: daily package download counts",
+      "description": "Observed downloads across all versions of this package during M8. Sum only the daily observations available; no extrapolation.",
+      "source": {
+        "sheet": "Schema",
+        "rows": [
+          18,
+          20
+        ],
+        "field_cell": "C18",
+        "constraint_cell": "E18"
+      },
+      "month_index": 8,
+      "minimum": 0,
+      "maximum": 9223372036854775807
+    },
+    {
+      "name": "package_downloads_M9",
+      "type": "integer",
+      "required": false,
+      "nullable": true,
+      "official_type": "Integer (64 bit signed)",
+      "constraints": "Optional; value >= 0; unavailable measurements are NULL",
+      "origin": "Derived from npm: daily package download counts",
+      "description": "Observed downloads across all versions of this package during M9. Sum only the daily observations available; no extrapolation.",
+      "source": {
+        "sheet": "Schema",
+        "rows": [
+          18,
+          20
+        ],
+        "field_cell": "C18",
+        "constraint_cell": "E18"
+      },
+      "month_index": 9,
+      "minimum": 0,
+      "maximum": 9223372036854775807
+    },
+    {
+      "name": "package_downloads_M10",
+      "type": "integer",
+      "required": false,
+      "nullable": true,
+      "official_type": "Integer (64 bit signed)",
+      "constraints": "Optional; value >= 0; unavailable measurements are NULL",
+      "origin": "Derived from npm: daily package download counts",
+      "description": "Observed downloads across all versions of this package during M10. Sum only the daily observations available; no extrapolation.",
+      "source": {
+        "sheet": "Schema",
+        "rows": [
+          18,
+          20
+        ],
+        "field_cell": "C18",
+        "constraint_cell": "E18"
+      },
+      "month_index": 10,
+      "minimum": 0,
+      "maximum": 9223372036854775807
+    },
+    {
+      "name": "package_downloads_M11",
+      "type": "integer",
+      "required": false,
+      "nullable": true,
+      "official_type": "Integer (64 bit signed)",
+      "constraints": "Optional; value >= 0; unavailable measurements are NULL",
+      "origin": "Derived from npm: daily package download counts",
+      "description": "Observed downloads across all versions of this package during M11. Sum only the daily observations available; no extrapolation.",
+      "source": {
+        "sheet": "Schema",
+        "rows": [
+          18,
+          20
+        ],
+        "field_cell": "C18",
+        "constraint_cell": "E18"
+      },
+      "month_index": 11,
+      "minimum": 0,
+      "maximum": 9223372036854775807
+    },
+    {
+      "name": "package_download_days_observed_M0",
+      "type": "integer",
+      "required": false,
+      "nullable": true,
+      "official_type": "Integer (64 bit signed)",
+      "constraints": "Optional; 0 to the number of days in the month; unknown coverage is NULL",
+      "origin": "Derived from npm: daily package download coverage",
+      "description": "Number of distinct UTC days with a valid download observation included in package_downloads_M0; a reported zero-download day is observed.",
+      "source": {
+        "sheet": "Schema",
+        "rows": [
+          21,
+          23
+        ],
+        "field_cell": "C21",
+        "constraint_cell": "E21"
+      },
+      "month_index": 0,
+      "minimum": 0,
+      "maximum": 30
+    },
+    {
+      "name": "package_download_days_observed_M1",
+      "type": "integer",
+      "required": false,
+      "nullable": true,
+      "official_type": "Integer (64 bit signed)",
+      "constraints": "Optional; 0 to the number of days in the month; unknown coverage is NULL",
+      "origin": "Derived from npm: daily package download coverage",
+      "description": "Number of distinct UTC days with a valid download observation included in package_downloads_M0; a reported zero-download day is observed.",
+      "source": {
+        "sheet": "Schema",
+        "rows": [
+          21,
+          23
+        ],
+        "field_cell": "C21",
+        "constraint_cell": "E21"
+      },
+      "month_index": 1,
+      "minimum": 0,
+      "maximum": 31
+    },
+    {
+      "name": "package_download_days_observed_M2",
+      "type": "integer",
+      "required": false,
+      "nullable": true,
+      "official_type": "Integer (64 bit signed)",
+      "constraints": "Optional; 0 to the number of days in the month; unknown coverage is NULL",
+      "origin": "Derived from npm: daily package download coverage",
+      "description": "Number of distinct UTC days with a valid download observation included in package_downloads_M0; a reported zero-download day is observed.",
+      "source": {
+        "sheet": "Schema",
+        "rows": [
+          21,
+          23
+        ],
+        "field_cell": "C21",
+        "constraint_cell": "E21"
+      },
+      "month_index": 2,
+      "minimum": 0,
+      "maximum": 30
+    },
+    {
+      "name": "package_download_days_observed_M3",
+      "type": "integer",
+      "required": false,
+      "nullable": true,
+      "official_type": "Integer (64 bit signed)",
+      "constraints": "Optional; 0 to the number of days in the month; unknown coverage is NULL",
+      "origin": "Derived from npm: daily package download coverage",
+      "description": "Number of distinct UTC days with a valid download observation included in package_downloads_M0; a reported zero-download day is observed.",
+      "source": {
+        "sheet": "Schema",
+        "rows": [
+          21,
+          23
+        ],
+        "field_cell": "C21",
+        "constraint_cell": "E21"
+      },
+      "month_index": 3,
+      "minimum": 0,
+      "maximum": 31
+    },
+    {
+      "name": "package_download_days_observed_M4",
+      "type": "integer",
+      "required": false,
+      "nullable": true,
+      "official_type": "Integer (64 bit signed)",
+      "constraints": "Optional; 0 to the number of days in the month; unknown coverage is NULL",
+      "origin": "Derived from npm: daily package download coverage",
+      "description": "Number of distinct UTC days with a valid download observation included in package_downloads_M0; a reported zero-download day is observed.",
+      "source": {
+        "sheet": "Schema",
+        "rows": [
+          21,
+          23
+        ],
+        "field_cell": "C21",
+        "constraint_cell": "E21"
+      },
+      "month_index": 4,
+      "minimum": 0,
+      "maximum": 28
+    },
+    {
+      "name": "package_download_days_observed_M5",
+      "type": "integer",
+      "required": false,
+      "nullable": true,
+      "official_type": "Integer (64 bit signed)",
+      "constraints": "Optional; 0 to the number of days in the month; unknown coverage is NULL",
+      "origin": "Derived from npm: daily package download coverage",
+      "description": "Number of distinct UTC days with a valid download observation included in package_downloads_M0; a reported zero-download day is observed.",
+      "source": {
+        "sheet": "Schema",
+        "rows": [
+          21,
+          23
+        ],
+        "field_cell": "C21",
+        "constraint_cell": "E21"
+      },
+      "month_index": 5,
+      "minimum": 0,
+      "maximum": 31
+    },
+    {
+      "name": "package_download_days_observed_M6",
+      "type": "integer",
+      "required": false,
+      "nullable": true,
+      "official_type": "Integer (64 bit signed)",
+      "constraints": "Optional; 0 to the number of days in the month; unknown coverage is NULL",
+      "origin": "Derived from npm: daily package download coverage",
+      "description": "Number of distinct UTC days with a valid download observation included in package_downloads_M0; a reported zero-download day is observed.",
+      "source": {
+        "sheet": "Schema",
+        "rows": [
+          21,
+          23
+        ],
+        "field_cell": "C21",
+        "constraint_cell": "E21"
+      },
+      "month_index": 6,
+      "minimum": 0,
+      "maximum": 31
+    },
+    {
+      "name": "package_download_days_observed_M7",
+      "type": "integer",
+      "required": false,
+      "nullable": true,
+      "official_type": "Integer (64 bit signed)",
+      "constraints": "Optional; 0 to the number of days in the month; unknown coverage is NULL",
+      "origin": "Derived from npm: daily package download coverage",
+      "description": "Number of distinct UTC days with a valid download observation included in package_downloads_M0; a reported zero-download day is observed.",
+      "source": {
+        "sheet": "Schema",
+        "rows": [
+          21,
+          23
+        ],
+        "field_cell": "C21",
+        "constraint_cell": "E21"
+      },
+      "month_index": 7,
+      "minimum": 0,
+      "maximum": 30
+    },
+    {
+      "name": "package_download_days_observed_M8",
+      "type": "integer",
+      "required": false,
+      "nullable": true,
+      "official_type": "Integer (64 bit signed)",
+      "constraints": "Optional; 0 to the number of days in the month; unknown coverage is NULL",
+      "origin": "Derived from npm: daily package download coverage",
+      "description": "Number of distinct UTC days with a valid download observation included in package_downloads_M0; a reported zero-download day is observed.",
+      "source": {
+        "sheet": "Schema",
+        "rows": [
+          21,
+          23
+        ],
+        "field_cell": "C21",
+        "constraint_cell": "E21"
+      },
+      "month_index": 8,
+      "minimum": 0,
+      "maximum": 31
+    },
+    {
+      "name": "package_download_days_observed_M9",
+      "type": "integer",
+      "required": false,
+      "nullable": true,
+      "official_type": "Integer (64 bit signed)",
+      "constraints": "Optional; 0 to the number of days in the month; unknown coverage is NULL",
+      "origin": "Derived from npm: daily package download coverage",
+      "description": "Number of distinct UTC days with a valid download observation included in package_downloads_M0; a reported zero-download day is observed.",
+      "source": {
+        "sheet": "Schema",
+        "rows": [
+          21,
+          23
+        ],
+        "field_cell": "C21",
+        "constraint_cell": "E21"
+      },
+      "month_index": 9,
+      "minimum": 0,
+      "maximum": 30
+    },
+    {
+      "name": "package_download_days_observed_M10",
+      "type": "integer",
+      "required": false,
+      "nullable": true,
+      "official_type": "Integer (64 bit signed)",
+      "constraints": "Optional; 0 to the number of days in the month; unknown coverage is NULL",
+      "origin": "Derived from npm: daily package download coverage",
+      "description": "Number of distinct UTC days with a valid download observation included in package_downloads_M0; a reported zero-download day is observed.",
+      "source": {
+        "sheet": "Schema",
+        "rows": [
+          21,
+          23
+        ],
+        "field_cell": "C21",
+        "constraint_cell": "E21"
+      },
+      "month_index": 10,
+      "minimum": 0,
+      "maximum": 31
+    },
+    {
+      "name": "package_download_days_observed_M11",
+      "type": "integer",
+      "required": false,
+      "nullable": true,
+      "official_type": "Integer (64 bit signed)",
+      "constraints": "Optional; 0 to the number of days in the month; unknown coverage is NULL",
+      "origin": "Derived from npm: daily package download coverage",
+      "description": "Number of distinct UTC days with a valid download observation included in package_downloads_M0; a reported zero-download day is observed.",
+      "source": {
+        "sheet": "Schema",
+        "rows": [
+          21,
+          23
+        ],
+        "field_cell": "C21",
+        "constraint_cell": "E21"
+      },
+      "month_index": 11,
+      "minimum": 0,
+      "maximum": 31
+    },
+    {
+      "name": "package_stable_release_count_M0",
+      "type": "integer",
+      "required": false,
+      "nullable": true,
+      "official_type": "Integer (64 bit signed)",
+      "constraints": "Optional; value >= 0; unavailable measurements are NULL",
+      "origin": "Derived from npm: version names and publication timestamps",
+      "description": "Distinct stable versions of this package first published during M0, including maintenance releases and excluding prereleases.",
+      "source": {
+        "sheet": "Schema",
+        "rows": [
+          24,
+          26
+        ],
+        "field_cell": "C24",
+        "constraint_cell": "E24"
+      },
+      "month_index": 0,
+      "minimum": 0,
+      "maximum": 9223372036854775807
+    },
+    {
+      "name": "package_stable_release_count_M1",
+      "type": "integer",
+      "required": false,
+      "nullable": true,
+      "official_type": "Integer (64 bit signed)",
+      "constraints": "Optional; value >= 0; unavailable measurements are NULL",
+      "origin": "Derived from npm: version names and publication timestamps",
+      "description": "Distinct stable versions of this package first published during M1, including maintenance releases and excluding prereleases.",
+      "source": {
+        "sheet": "Schema",
+        "rows": [
+          24,
+          26
+        ],
+        "field_cell": "C24",
+        "constraint_cell": "E24"
+      },
+      "month_index": 1,
+      "minimum": 0,
+      "maximum": 9223372036854775807
+    },
+    {
+      "name": "package_stable_release_count_M2",
+      "type": "integer",
+      "required": false,
+      "nullable": true,
+      "official_type": "Integer (64 bit signed)",
+      "constraints": "Optional; value >= 0; unavailable measurements are NULL",
+      "origin": "Derived from npm: version names and publication timestamps",
+      "description": "Distinct stable versions of this package first published during M2, including maintenance releases and excluding prereleases.",
+      "source": {
+        "sheet": "Schema",
+        "rows": [
+          24,
+          26
+        ],
+        "field_cell": "C24",
+        "constraint_cell": "E24"
+      },
+      "month_index": 2,
+      "minimum": 0,
+      "maximum": 9223372036854775807
+    },
+    {
+      "name": "package_stable_release_count_M3",
+      "type": "integer",
+      "required": false,
+      "nullable": true,
+      "official_type": "Integer (64 bit signed)",
+      "constraints": "Optional; value >= 0; unavailable measurements are NULL",
+      "origin": "Derived from npm: version names and publication timestamps",
+      "description": "Distinct stable versions of this package first published during M3, including maintenance releases and excluding prereleases.",
+      "source": {
+        "sheet": "Schema",
+        "rows": [
+          24,
+          26
+        ],
+        "field_cell": "C24",
+        "constraint_cell": "E24"
+      },
+      "month_index": 3,
+      "minimum": 0,
+      "maximum": 9223372036854775807
+    },
+    {
+      "name": "package_stable_release_count_M4",
+      "type": "integer",
+      "required": false,
+      "nullable": true,
+      "official_type": "Integer (64 bit signed)",
+      "constraints": "Optional; value >= 0; unavailable measurements are NULL",
+      "origin": "Derived from npm: version names and publication timestamps",
+      "description": "Distinct stable versions of this package first published during M4, including maintenance releases and excluding prereleases.",
+      "source": {
+        "sheet": "Schema",
+        "rows": [
+          24,
+          26
+        ],
+        "field_cell": "C24",
+        "constraint_cell": "E24"
+      },
+      "month_index": 4,
+      "minimum": 0,
+      "maximum": 9223372036854775807
+    },
+    {
+      "name": "package_stable_release_count_M5",
+      "type": "integer",
+      "required": false,
+      "nullable": true,
+      "official_type": "Integer (64 bit signed)",
+      "constraints": "Optional; value >= 0; unavailable measurements are NULL",
+      "origin": "Derived from npm: version names and publication timestamps",
+      "description": "Distinct stable versions of this package first published during M5, including maintenance releases and excluding prereleases.",
+      "source": {
+        "sheet": "Schema",
+        "rows": [
+          24,
+          26
+        ],
+        "field_cell": "C24",
+        "constraint_cell": "E24"
+      },
+      "month_index": 5,
+      "minimum": 0,
+      "maximum": 9223372036854775807
+    },
+    {
+      "name": "package_stable_release_count_M6",
+      "type": "integer",
+      "required": false,
+      "nullable": true,
+      "official_type": "Integer (64 bit signed)",
+      "constraints": "Optional; value >= 0; unavailable measurements are NULL",
+      "origin": "Derived from npm: version names and publication timestamps",
+      "description": "Distinct stable versions of this package first published during M6, including maintenance releases and excluding prereleases.",
+      "source": {
+        "sheet": "Schema",
+        "rows": [
+          24,
+          26
+        ],
+        "field_cell": "C24",
+        "constraint_cell": "E24"
+      },
+      "month_index": 6,
+      "minimum": 0,
+      "maximum": 9223372036854775807
+    },
+    {
+      "name": "package_stable_release_count_M7",
+      "type": "integer",
+      "required": false,
+      "nullable": true,
+      "official_type": "Integer (64 bit signed)",
+      "constraints": "Optional; value >= 0; unavailable measurements are NULL",
+      "origin": "Derived from npm: version names and publication timestamps",
+      "description": "Distinct stable versions of this package first published during M7, including maintenance releases and excluding prereleases.",
+      "source": {
+        "sheet": "Schema",
+        "rows": [
+          24,
+          26
+        ],
+        "field_cell": "C24",
+        "constraint_cell": "E24"
+      },
+      "month_index": 7,
+      "minimum": 0,
+      "maximum": 9223372036854775807
+    },
+    {
+      "name": "package_stable_release_count_M8",
+      "type": "integer",
+      "required": false,
+      "nullable": true,
+      "official_type": "Integer (64 bit signed)",
+      "constraints": "Optional; value >= 0; unavailable measurements are NULL",
+      "origin": "Derived from npm: version names and publication timestamps",
+      "description": "Distinct stable versions of this package first published during M8, including maintenance releases and excluding prereleases.",
+      "source": {
+        "sheet": "Schema",
+        "rows": [
+          24,
+          26
+        ],
+        "field_cell": "C24",
+        "constraint_cell": "E24"
+      },
+      "month_index": 8,
+      "minimum": 0,
+      "maximum": 9223372036854775807
+    },
+    {
+      "name": "package_stable_release_count_M9",
+      "type": "integer",
+      "required": false,
+      "nullable": true,
+      "official_type": "Integer (64 bit signed)",
+      "constraints": "Optional; value >= 0; unavailable measurements are NULL",
+      "origin": "Derived from npm: version names and publication timestamps",
+      "description": "Distinct stable versions of this package first published during M9, including maintenance releases and excluding prereleases.",
+      "source": {
+        "sheet": "Schema",
+        "rows": [
+          24,
+          26
+        ],
+        "field_cell": "C24",
+        "constraint_cell": "E24"
+      },
+      "month_index": 9,
+      "minimum": 0,
+      "maximum": 9223372036854775807
+    },
+    {
+      "name": "package_stable_release_count_M10",
+      "type": "integer",
+      "required": false,
+      "nullable": true,
+      "official_type": "Integer (64 bit signed)",
+      "constraints": "Optional; value >= 0; unavailable measurements are NULL",
+      "origin": "Derived from npm: version names and publication timestamps",
+      "description": "Distinct stable versions of this package first published during M10, including maintenance releases and excluding prereleases.",
+      "source": {
+        "sheet": "Schema",
+        "rows": [
+          24,
+          26
+        ],
+        "field_cell": "C24",
+        "constraint_cell": "E24"
+      },
+      "month_index": 10,
+      "minimum": 0,
+      "maximum": 9223372036854775807
+    },
+    {
+      "name": "package_stable_release_count_M11",
+      "type": "integer",
+      "required": false,
+      "nullable": true,
+      "official_type": "Integer (64 bit signed)",
+      "constraints": "Optional; value >= 0; unavailable measurements are NULL",
+      "origin": "Derived from npm: version names and publication timestamps",
+      "description": "Distinct stable versions of this package first published during M11, including maintenance releases and excluding prereleases.",
+      "source": {
+        "sheet": "Schema",
+        "rows": [
+          24,
+          26
+        ],
+        "field_cell": "C24",
+        "constraint_cell": "E24"
+      },
+      "month_index": 11,
+      "minimum": 0,
+      "maximum": 9223372036854775807
+    },
+    {
+      "name": "issues_opened_M0",
+      "type": "integer",
+      "required": false,
+      "nullable": true,
+      "official_type": "Integer (64 bit signed)",
+      "constraints": "Optional; value >= 0; unavailable measurements are NULL",
+      "origin": "Derived from GitHub: non-PR issue creation timestamps",
+      "description": "Non-PR issues first created during M0. Reopenings are counted separately.",
+      "source": {
+        "sheet": "Schema",
+        "rows": [
+          27,
+          29
+        ],
+        "field_cell": "C27",
+        "constraint_cell": "E27"
+      },
+      "month_index": 0,
+      "minimum": 0,
+      "maximum": 9223372036854775807
+    },
+    {
+      "name": "issues_opened_M1",
+      "type": "integer",
+      "required": false,
+      "nullable": true,
+      "official_type": "Integer (64 bit signed)",
+      "constraints": "Optional; value >= 0; unavailable measurements are NULL",
+      "origin": "Derived from GitHub: non-PR issue creation timestamps",
+      "description": "Non-PR issues first created during M1. Reopenings are counted separately.",
+      "source": {
+        "sheet": "Schema",
+        "rows": [
+          27,
+          29
+        ],
+        "field_cell": "C27",
+        "constraint_cell": "E27"
+      },
+      "month_index": 1,
+      "minimum": 0,
+      "maximum": 9223372036854775807
+    },
+    {
+      "name": "issues_opened_M2",
+      "type": "integer",
+      "required": false,
+      "nullable": true,
+      "official_type": "Integer (64 bit signed)",
+      "constraints": "Optional; value >= 0; unavailable measurements are NULL",
+      "origin": "Derived from GitHub: non-PR issue creation timestamps",
+      "description": "Non-PR issues first created during M2. Reopenings are counted separately.",
+      "source": {
+        "sheet": "Schema",
+        "rows": [
+          27,
+          29
+        ],
+        "field_cell": "C27",
+        "constraint_cell": "E27"
+      },
+      "month_index": 2,
+      "minimum": 0,
+      "maximum": 9223372036854775807
+    },
+    {
+      "name": "issues_opened_M3",
+      "type": "integer",
+      "required": false,
+      "nullable": true,
+      "official_type": "Integer (64 bit signed)",
+      "constraints": "Optional; value >= 0; unavailable measurements are NULL",
+      "origin": "Derived from GitHub: non-PR issue creation timestamps",
+      "description": "Non-PR issues first created during M3. Reopenings are counted separately.",
+      "source": {
+        "sheet": "Schema",
+        "rows": [
+          27,
+          29
+        ],
+        "field_cell": "C27",
+        "constraint_cell": "E27"
+      },
+      "month_index": 3,
+      "minimum": 0,
+      "maximum": 9223372036854775807
+    },
+    {
+      "name": "issues_opened_M4",
+      "type": "integer",
+      "required": false,
+      "nullable": true,
+      "official_type": "Integer (64 bit signed)",
+      "constraints": "Optional; value >= 0; unavailable measurements are NULL",
+      "origin": "Derived from GitHub: non-PR issue creation timestamps",
+      "description": "Non-PR issues first created during M4. Reopenings are counted separately.",
+      "source": {
+        "sheet": "Schema",
+        "rows": [
+          27,
+          29
+        ],
+        "field_cell": "C27",
+        "constraint_cell": "E27"
+      },
+      "month_index": 4,
+      "minimum": 0,
+      "maximum": 9223372036854775807
+    },
+    {
+      "name": "issues_opened_M5",
+      "type": "integer",
+      "required": false,
+      "nullable": true,
+      "official_type": "Integer (64 bit signed)",
+      "constraints": "Optional; value >= 0; unavailable measurements are NULL",
+      "origin": "Derived from GitHub: non-PR issue creation timestamps",
+      "description": "Non-PR issues first created during M5. Reopenings are counted separately.",
+      "source": {
+        "sheet": "Schema",
+        "rows": [
+          27,
+          29
+        ],
+        "field_cell": "C27",
+        "constraint_cell": "E27"
+      },
+      "month_index": 5,
+      "minimum": 0,
+      "maximum": 9223372036854775807
+    },
+    {
+      "name": "issues_opened_M6",
+      "type": "integer",
+      "required": false,
+      "nullable": true,
+      "official_type": "Integer (64 bit signed)",
+      "constraints": "Optional; value >= 0; unavailable measurements are NULL",
+      "origin": "Derived from GitHub: non-PR issue creation timestamps",
+      "description": "Non-PR issues first created during M6. Reopenings are counted separately.",
+      "source": {
+        "sheet": "Schema",
+        "rows": [
+          27,
+          29
+        ],
+        "field_cell": "C27",
+        "constraint_cell": "E27"
+      },
+      "month_index": 6,
+      "minimum": 0,
+      "maximum": 9223372036854775807
+    },
+    {
+      "name": "issues_opened_M7",
+      "type": "integer",
+      "required": false,
+      "nullable": true,
+      "official_type": "Integer (64 bit signed)",
+      "constraints": "Optional; value >= 0; unavailable measurements are NULL",
+      "origin": "Derived from GitHub: non-PR issue creation timestamps",
+      "description": "Non-PR issues first created during M7. Reopenings are counted separately.",
+      "source": {
+        "sheet": "Schema",
+        "rows": [
+          27,
+          29
+        ],
+        "field_cell": "C27",
+        "constraint_cell": "E27"
+      },
+      "month_index": 7,
+      "minimum": 0,
+      "maximum": 9223372036854775807
+    },
+    {
+      "name": "issues_opened_M8",
+      "type": "integer",
+      "required": false,
+      "nullable": true,
+      "official_type": "Integer (64 bit signed)",
+      "constraints": "Optional; value >= 0; unavailable measurements are NULL",
+      "origin": "Derived from GitHub: non-PR issue creation timestamps",
+      "description": "Non-PR issues first created during M8. Reopenings are counted separately.",
+      "source": {
+        "sheet": "Schema",
+        "rows": [
+          27,
+          29
+        ],
+        "field_cell": "C27",
+        "constraint_cell": "E27"
+      },
+      "month_index": 8,
+      "minimum": 0,
+      "maximum": 9223372036854775807
+    },
+    {
+      "name": "issues_opened_M9",
+      "type": "integer",
+      "required": false,
+      "nullable": true,
+      "official_type": "Integer (64 bit signed)",
+      "constraints": "Optional; value >= 0; unavailable measurements are NULL",
+      "origin": "Derived from GitHub: non-PR issue creation timestamps",
+      "description": "Non-PR issues first created during M9. Reopenings are counted separately.",
+      "source": {
+        "sheet": "Schema",
+        "rows": [
+          27,
+          29
+        ],
+        "field_cell": "C27",
+        "constraint_cell": "E27"
+      },
+      "month_index": 9,
+      "minimum": 0,
+      "maximum": 9223372036854775807
+    },
+    {
+      "name": "issues_opened_M10",
+      "type": "integer",
+      "required": false,
+      "nullable": true,
+      "official_type": "Integer (64 bit signed)",
+      "constraints": "Optional; value >= 0; unavailable measurements are NULL",
+      "origin": "Derived from GitHub: non-PR issue creation timestamps",
+      "description": "Non-PR issues first created during M10. Reopenings are counted separately.",
+      "source": {
+        "sheet": "Schema",
+        "rows": [
+          27,
+          29
+        ],
+        "field_cell": "C27",
+        "constraint_cell": "E27"
+      },
+      "month_index": 10,
+      "minimum": 0,
+      "maximum": 9223372036854775807
+    },
+    {
+      "name": "issues_opened_M11",
+      "type": "integer",
+      "required": false,
+      "nullable": true,
+      "official_type": "Integer (64 bit signed)",
+      "constraints": "Optional; value >= 0; unavailable measurements are NULL",
+      "origin": "Derived from GitHub: non-PR issue creation timestamps",
+      "description": "Non-PR issues first created during M11. Reopenings are counted separately.",
+      "source": {
+        "sheet": "Schema",
+        "rows": [
+          27,
+          29
+        ],
+        "field_cell": "C27",
+        "constraint_cell": "E27"
+      },
+      "month_index": 11,
+      "minimum": 0,
+      "maximum": 9223372036854775807
+    },
+    {
+      "name": "issues_closed_M0",
+      "type": "integer",
+      "required": false,
+      "nullable": true,
+      "official_type": "Integer (64 bit signed)",
+      "constraints": "Optional; value >= 0; unavailable measurements are NULL",
+      "origin": "Derived from GitHub: non-PR issue lifecycle events",
+      "description": "Non-PR issue closure events during M0, including repeated closures after reopening.",
+      "source": {
+        "sheet": "Schema",
+        "rows": [
+          30,
+          32
+        ],
+        "field_cell": "C30",
+        "constraint_cell": "E30"
+      },
+      "month_index": 0,
+      "minimum": 0,
+      "maximum": 9223372036854775807
+    },
+    {
+      "name": "issues_closed_M1",
+      "type": "integer",
+      "required": false,
+      "nullable": true,
+      "official_type": "Integer (64 bit signed)",
+      "constraints": "Optional; value >= 0; unavailable measurements are NULL",
+      "origin": "Derived from GitHub: non-PR issue lifecycle events",
+      "description": "Non-PR issue closure events during M1, including repeated closures after reopening.",
+      "source": {
+        "sheet": "Schema",
+        "rows": [
+          30,
+          32
+        ],
+        "field_cell": "C30",
+        "constraint_cell": "E30"
+      },
+      "month_index": 1,
+      "minimum": 0,
+      "maximum": 9223372036854775807
+    },
+    {
+      "name": "issues_closed_M2",
+      "type": "integer",
+      "required": false,
+      "nullable": true,
+      "official_type": "Integer (64 bit signed)",
+      "constraints": "Optional; value >= 0; unavailable measurements are NULL",
+      "origin": "Derived from GitHub: non-PR issue lifecycle events",
+      "description": "Non-PR issue closure events during M2, including repeated closures after reopening.",
+      "source": {
+        "sheet": "Schema",
+        "rows": [
+          30,
+          32
+        ],
+        "field_cell": "C30",
+        "constraint_cell": "E30"
+      },
+      "month_index": 2,
+      "minimum": 0,
+      "maximum": 9223372036854775807
+    },
+    {
+      "name": "issues_closed_M3",
+      "type": "integer",
+      "required": false,
+      "nullable": true,
+      "official_type": "Integer (64 bit signed)",
+      "constraints": "Optional; value >= 0; unavailable measurements are NULL",
+      "origin": "Derived from GitHub: non-PR issue lifecycle events",
+      "description": "Non-PR issue closure events during M3, including repeated closures after reopening.",
+      "source": {
+        "sheet": "Schema",
+        "rows": [
+          30,
+          32
+        ],
+        "field_cell": "C30",
+        "constraint_cell": "E30"
+      },
+      "month_index": 3,
+      "minimum": 0,
+      "maximum": 9223372036854775807
+    },
+    {
+      "name": "issues_closed_M4",
+      "type": "integer",
+      "required": false,
+      "nullable": true,
+      "official_type": "Integer (64 bit signed)",
+      "constraints": "Optional; value >= 0; unavailable measurements are NULL",
+      "origin": "Derived from GitHub: non-PR issue lifecycle events",
+      "description": "Non-PR issue closure events during M4, including repeated closures after reopening.",
+      "source": {
+        "sheet": "Schema",
+        "rows": [
+          30,
+          32
+        ],
+        "field_cell": "C30",
+        "constraint_cell": "E30"
+      },
+      "month_index": 4,
+      "minimum": 0,
+      "maximum": 9223372036854775807
+    },
+    {
+      "name": "issues_closed_M5",
+      "type": "integer",
+      "required": false,
+      "nullable": true,
+      "official_type": "Integer (64 bit signed)",
+      "constraints": "Optional; value >= 0; unavailable measurements are NULL",
+      "origin": "Derived from GitHub: non-PR issue lifecycle events",
+      "description": "Non-PR issue closure events during M5, including repeated closures after reopening.",
+      "source": {
+        "sheet": "Schema",
+        "rows": [
+          30,
+          32
+        ],
+        "field_cell": "C30",
+        "constraint_cell": "E30"
+      },
+      "month_index": 5,
+      "minimum": 0,
+      "maximum": 9223372036854775807
+    },
+    {
+      "name": "issues_closed_M6",
+      "type": "integer",
+      "required": false,
+      "nullable": true,
+      "official_type": "Integer (64 bit signed)",
+      "constraints": "Optional; value >= 0; unavailable measurements are NULL",
+      "origin": "Derived from GitHub: non-PR issue lifecycle events",
+      "description": "Non-PR issue closure events during M6, including repeated closures after reopening.",
+      "source": {
+        "sheet": "Schema",
+        "rows": [
+          30,
+          32
+        ],
+        "field_cell": "C30",
+        "constraint_cell": "E30"
+      },
+      "month_index": 6,
+      "minimum": 0,
+      "maximum": 9223372036854775807
+    },
+    {
+      "name": "issues_closed_M7",
+      "type": "integer",
+      "required": false,
+      "nullable": true,
+      "official_type": "Integer (64 bit signed)",
+      "constraints": "Optional; value >= 0; unavailable measurements are NULL",
+      "origin": "Derived from GitHub: non-PR issue lifecycle events",
+      "description": "Non-PR issue closure events during M7, including repeated closures after reopening.",
+      "source": {
+        "sheet": "Schema",
+        "rows": [
+          30,
+          32
+        ],
+        "field_cell": "C30",
+        "constraint_cell": "E30"
+      },
+      "month_index": 7,
+      "minimum": 0,
+      "maximum": 9223372036854775807
+    },
+    {
+      "name": "issues_closed_M8",
+      "type": "integer",
+      "required": false,
+      "nullable": true,
+      "official_type": "Integer (64 bit signed)",
+      "constraints": "Optional; value >= 0; unavailable measurements are NULL",
+      "origin": "Derived from GitHub: non-PR issue lifecycle events",
+      "description": "Non-PR issue closure events during M8, including repeated closures after reopening.",
+      "source": {
+        "sheet": "Schema",
+        "rows": [
+          30,
+          32
+        ],
+        "field_cell": "C30",
+        "constraint_cell": "E30"
+      },
+      "month_index": 8,
+      "minimum": 0,
+      "maximum": 9223372036854775807
+    },
+    {
+      "name": "issues_closed_M9",
+      "type": "integer",
+      "required": false,
+      "nullable": true,
+      "official_type": "Integer (64 bit signed)",
+      "constraints": "Optional; value >= 0; unavailable measurements are NULL",
+      "origin": "Derived from GitHub: non-PR issue lifecycle events",
+      "description": "Non-PR issue closure events during M9, including repeated closures after reopening.",
+      "source": {
+        "sheet": "Schema",
+        "rows": [
+          30,
+          32
+        ],
+        "field_cell": "C30",
+        "constraint_cell": "E30"
+      },
+      "month_index": 9,
+      "minimum": 0,
+      "maximum": 9223372036854775807
+    },
+    {
+      "name": "issues_closed_M10",
+      "type": "integer",
+      "required": false,
+      "nullable": true,
+      "official_type": "Integer (64 bit signed)",
+      "constraints": "Optional; value >= 0; unavailable measurements are NULL",
+      "origin": "Derived from GitHub: non-PR issue lifecycle events",
+      "description": "Non-PR issue closure events during M10, including repeated closures after reopening.",
+      "source": {
+        "sheet": "Schema",
+        "rows": [
+          30,
+          32
+        ],
+        "field_cell": "C30",
+        "constraint_cell": "E30"
+      },
+      "month_index": 10,
+      "minimum": 0,
+      "maximum": 9223372036854775807
+    },
+    {
+      "name": "issues_closed_M11",
+      "type": "integer",
+      "required": false,
+      "nullable": true,
+      "official_type": "Integer (64 bit signed)",
+      "constraints": "Optional; value >= 0; unavailable measurements are NULL",
+      "origin": "Derived from GitHub: non-PR issue lifecycle events",
+      "description": "Non-PR issue closure events during M11, including repeated closures after reopening.",
+      "source": {
+        "sheet": "Schema",
+        "rows": [
+          30,
+          32
+        ],
+        "field_cell": "C30",
+        "constraint_cell": "E30"
+      },
+      "month_index": 11,
+      "minimum": 0,
+      "maximum": 9223372036854775807
+    },
+    {
+      "name": "issues_reopened_M0",
+      "type": "integer",
+      "required": false,
+      "nullable": true,
+      "official_type": "Integer (64 bit signed)",
+      "constraints": "Optional; value >= 0; unavailable measurements are NULL",
+      "origin": "Derived from GitHub: non-PR issue lifecycle events",
+      "description": "Non-PR issue reopening events during M0.",
+      "source": {
+        "sheet": "Schema",
+        "rows": [
+          33,
+          35
+        ],
+        "field_cell": "C33",
+        "constraint_cell": "E33"
+      },
+      "month_index": 0,
+      "minimum": 0,
+      "maximum": 9223372036854775807
+    },
+    {
+      "name": "issues_reopened_M1",
+      "type": "integer",
+      "required": false,
+      "nullable": true,
+      "official_type": "Integer (64 bit signed)",
+      "constraints": "Optional; value >= 0; unavailable measurements are NULL",
+      "origin": "Derived from GitHub: non-PR issue lifecycle events",
+      "description": "Non-PR issue reopening events during M1.",
+      "source": {
+        "sheet": "Schema",
+        "rows": [
+          33,
+          35
+        ],
+        "field_cell": "C33",
+        "constraint_cell": "E33"
+      },
+      "month_index": 1,
+      "minimum": 0,
+      "maximum": 9223372036854775807
+    },
+    {
+      "name": "issues_reopened_M2",
+      "type": "integer",
+      "required": false,
+      "nullable": true,
+      "official_type": "Integer (64 bit signed)",
+      "constraints": "Optional; value >= 0; unavailable measurements are NULL",
+      "origin": "Derived from GitHub: non-PR issue lifecycle events",
+      "description": "Non-PR issue reopening events during M2.",
+      "source": {
+        "sheet": "Schema",
+        "rows": [
+          33,
+          35
+        ],
+        "field_cell": "C33",
+        "constraint_cell": "E33"
+      },
+      "month_index": 2,
+      "minimum": 0,
+      "maximum": 9223372036854775807
+    },
+    {
+      "name": "issues_reopened_M3",
+      "type": "integer",
+      "required": false,
+      "nullable": true,
+      "official_type": "Integer (64 bit signed)",
+      "constraints": "Optional; value >= 0; unavailable measurements are NULL",
+      "origin": "Derived from GitHub: non-PR issue lifecycle events",
+      "description": "Non-PR issue reopening events during M3.",
+      "source": {
+        "sheet": "Schema",
+        "rows": [
+          33,
+          35
+        ],
+        "field_cell": "C33",
+        "constraint_cell": "E33"
+      },
+      "month_index": 3,
+      "minimum": 0,
+      "maximum": 9223372036854775807
+    },
+    {
+      "name": "issues_reopened_M4",
+      "type": "integer",
+      "required": false,
+      "nullable": true,
+      "official_type": "Integer (64 bit signed)",
+      "constraints": "Optional; value >= 0; unavailable measurements are NULL",
+      "origin": "Derived from GitHub: non-PR issue lifecycle events",
+      "description": "Non-PR issue reopening events during M4.",
+      "source": {
+        "sheet": "Schema",
+        "rows": [
+          33,
+          35
+        ],
+        "field_cell": "C33",
+        "constraint_cell": "E33"
+      },
+      "month_index": 4,
+      "minimum": 0,
+      "maximum": 9223372036854775807
+    },
+    {
+      "name": "issues_reopened_M5",
+      "type": "integer",
+      "required": false,
+      "nullable": true,
+      "official_type": "Integer (64 bit signed)",
+      "constraints": "Optional; value >= 0; unavailable measurements are NULL",
+      "origin": "Derived from GitHub: non-PR issue lifecycle events",
+      "description": "Non-PR issue reopening events during M5.",
+      "source": {
+        "sheet": "Schema",
+        "rows": [
+          33,
+          35
+        ],
+        "field_cell": "C33",
+        "constraint_cell": "E33"
+      },
+      "month_index": 5,
+      "minimum": 0,
+      "maximum": 9223372036854775807
+    },
+    {
+      "name": "issues_reopened_M6",
+      "type": "integer",
+      "required": false,
+      "nullable": true,
+      "official_type": "Integer (64 bit signed)",
+      "constraints": "Optional; value >= 0; unavailable measurements are NULL",
+      "origin": "Derived from GitHub: non-PR issue lifecycle events",
+      "description": "Non-PR issue reopening events during M6.",
+      "source": {
+        "sheet": "Schema",
+        "rows": [
+          33,
+          35
+        ],
+        "field_cell": "C33",
+        "constraint_cell": "E33"
+      },
+      "month_index": 6,
+      "minimum": 0,
+      "maximum": 9223372036854775807
+    },
+    {
+      "name": "issues_reopened_M7",
+      "type": "integer",
+      "required": false,
+      "nullable": true,
+      "official_type": "Integer (64 bit signed)",
+      "constraints": "Optional; value >= 0; unavailable measurements are NULL",
+      "origin": "Derived from GitHub: non-PR issue lifecycle events",
+      "description": "Non-PR issue reopening events during M7.",
+      "source": {
+        "sheet": "Schema",
+        "rows": [
+          33,
+          35
+        ],
+        "field_cell": "C33",
+        "constraint_cell": "E33"
+      },
+      "month_index": 7,
+      "minimum": 0,
+      "maximum": 9223372036854775807
+    },
+    {
+      "name": "issues_reopened_M8",
+      "type": "integer",
+      "required": false,
+      "nullable": true,
+      "official_type": "Integer (64 bit signed)",
+      "constraints": "Optional; value >= 0; unavailable measurements are NULL",
+      "origin": "Derived from GitHub: non-PR issue lifecycle events",
+      "description": "Non-PR issue reopening events during M8.",
+      "source": {
+        "sheet": "Schema",
+        "rows": [
+          33,
+          35
+        ],
+        "field_cell": "C33",
+        "constraint_cell": "E33"
+      },
+      "month_index": 8,
+      "minimum": 0,
+      "maximum": 9223372036854775807
+    },
+    {
+      "name": "issues_reopened_M9",
+      "type": "integer",
+      "required": false,
+      "nullable": true,
+      "official_type": "Integer (64 bit signed)",
+      "constraints": "Optional; value >= 0; unavailable measurements are NULL",
+      "origin": "Derived from GitHub: non-PR issue lifecycle events",
+      "description": "Non-PR issue reopening events during M9.",
+      "source": {
+        "sheet": "Schema",
+        "rows": [
+          33,
+          35
+        ],
+        "field_cell": "C33",
+        "constraint_cell": "E33"
+      },
+      "month_index": 9,
+      "minimum": 0,
+      "maximum": 9223372036854775807
+    },
+    {
+      "name": "issues_reopened_M10",
+      "type": "integer",
+      "required": false,
+      "nullable": true,
+      "official_type": "Integer (64 bit signed)",
+      "constraints": "Optional; value >= 0; unavailable measurements are NULL",
+      "origin": "Derived from GitHub: non-PR issue lifecycle events",
+      "description": "Non-PR issue reopening events during M10.",
+      "source": {
+        "sheet": "Schema",
+        "rows": [
+          33,
+          35
+        ],
+        "field_cell": "C33",
+        "constraint_cell": "E33"
+      },
+      "month_index": 10,
+      "minimum": 0,
+      "maximum": 9223372036854775807
+    },
+    {
+      "name": "issues_reopened_M11",
+      "type": "integer",
+      "required": false,
+      "nullable": true,
+      "official_type": "Integer (64 bit signed)",
+      "constraints": "Optional; value >= 0; unavailable measurements are NULL",
+      "origin": "Derived from GitHub: non-PR issue lifecycle events",
+      "description": "Non-PR issue reopening events during M11.",
+      "source": {
+        "sheet": "Schema",
+        "rows": [
+          33,
+          35
+        ],
+        "field_cell": "C33",
+        "constraint_cell": "E33"
+      },
+      "month_index": 11,
+      "minimum": 0,
+      "maximum": 9223372036854775807
+    },
+    {
+      "name": "pull_requests_opened_M0",
+      "type": "integer",
+      "required": false,
+      "nullable": true,
+      "official_type": "Integer (64 bit signed)",
+      "constraints": "Optional; value >= 0; unavailable measurements are NULL",
+      "origin": "Derived from GitHub: pull request creation timestamps",
+      "description": "Pull requests first created during M0, including drafts. Reopenings are counted separately.",
+      "source": {
+        "sheet": "Schema",
+        "rows": [
+          36,
+          38
+        ],
+        "field_cell": "C36",
+        "constraint_cell": "E36"
+      },
+      "month_index": 0,
+      "minimum": 0,
+      "maximum": 9223372036854775807
+    },
+    {
+      "name": "pull_requests_opened_M1",
+      "type": "integer",
+      "required": false,
+      "nullable": true,
+      "official_type": "Integer (64 bit signed)",
+      "constraints": "Optional; value >= 0; unavailable measurements are NULL",
+      "origin": "Derived from GitHub: pull request creation timestamps",
+      "description": "Pull requests first created during M1, including drafts. Reopenings are counted separately.",
+      "source": {
+        "sheet": "Schema",
+        "rows": [
+          36,
+          38
+        ],
+        "field_cell": "C36",
+        "constraint_cell": "E36"
+      },
+      "month_index": 1,
+      "minimum": 0,
+      "maximum": 9223372036854775807
+    },
+    {
+      "name": "pull_requests_opened_M2",
+      "type": "integer",
+      "required": false,
+      "nullable": true,
+      "official_type": "Integer (64 bit signed)",
+      "constraints": "Optional; value >= 0; unavailable measurements are NULL",
+      "origin": "Derived from GitHub: pull request creation timestamps",
+      "description": "Pull requests first created during M2, including drafts. Reopenings are counted separately.",
+      "source": {
+        "sheet": "Schema",
+        "rows": [
+          36,
+          38
+        ],
+        "field_cell": "C36",
+        "constraint_cell": "E36"
+      },
+      "month_index": 2,
+      "minimum": 0,
+      "maximum": 9223372036854775807
+    },
+    {
+      "name": "pull_requests_opened_M3",
+      "type": "integer",
+      "required": false,
+      "nullable": true,
+      "official_type": "Integer (64 bit signed)",
+      "constraints": "Optional; value >= 0; unavailable measurements are NULL",
+      "origin": "Derived from GitHub: pull request creation timestamps",
+      "description": "Pull requests first created during M3, including drafts. Reopenings are counted separately.",
+      "source": {
+        "sheet": "Schema",
+        "rows": [
+          36,
+          38
+        ],
+        "field_cell": "C36",
+        "constraint_cell": "E36"
+      },
+      "month_index": 3,
+      "minimum": 0,
+      "maximum": 9223372036854775807
+    },
+    {
+      "name": "pull_requests_opened_M4",
+      "type": "integer",
+      "required": false,
+      "nullable": true,
+      "official_type": "Integer (64 bit signed)",
+      "constraints": "Optional; value >= 0; unavailable measurements are NULL",
+      "origin": "Derived from GitHub: pull request creation timestamps",
+      "description": "Pull requests first created during M4, including drafts. Reopenings are counted separately.",
+      "source": {
+        "sheet": "Schema",
+        "rows": [
+          36,
+          38
+        ],
+        "field_cell": "C36",
+        "constraint_cell": "E36"
+      },
+      "month_index": 4,
+      "minimum": 0,
+      "maximum": 9223372036854775807
+    },
+    {
+      "name": "pull_requests_opened_M5",
+      "type": "integer",
+      "required": false,
+      "nullable": true,
+      "official_type": "Integer (64 bit signed)",
+      "constraints": "Optional; value >= 0; unavailable measurements are NULL",
+      "origin": "Derived from GitHub: pull request creation timestamps",
+      "description": "Pull requests first created during M5, including drafts. Reopenings are counted separately.",
+      "source": {
+        "sheet": "Schema",
+        "rows": [
+          36,
+          38
+        ],
+        "field_cell": "C36",
+        "constraint_cell": "E36"
+      },
+      "month_index": 5,
+      "minimum": 0,
+      "maximum": 9223372036854775807
+    },
+    {
+      "name": "pull_requests_opened_M6",
+      "type": "integer",
+      "required": false,
+      "nullable": true,
+      "official_type": "Integer (64 bit signed)",
+      "constraints": "Optional; value >= 0; unavailable measurements are NULL",
+      "origin": "Derived from GitHub: pull request creation timestamps",
+      "description": "Pull requests first created during M6, including drafts. Reopenings are counted separately.",
+      "source": {
+        "sheet": "Schema",
+        "rows": [
+          36,
+          38
+        ],
+        "field_cell": "C36",
+        "constraint_cell": "E36"
+      },
+      "month_index": 6,
+      "minimum": 0,
+      "maximum": 9223372036854775807
+    },
+    {
+      "name": "pull_requests_opened_M7",
+      "type": "integer",
+      "required": false,
+      "nullable": true,
+      "official_type": "Integer (64 bit signed)",
+      "constraints": "Optional; value >= 0; unavailable measurements are NULL",
+      "origin": "Derived from GitHub: pull request creation timestamps",
+      "description": "Pull requests first created during M7, including drafts. Reopenings are counted separately.",
+      "source": {
+        "sheet": "Schema",
+        "rows": [
+          36,
+          38
+        ],
+        "field_cell": "C36",
+        "constraint_cell": "E36"
+      },
+      "month_index": 7,
+      "minimum": 0,
+      "maximum": 9223372036854775807
+    },
+    {
+      "name": "pull_requests_opened_M8",
+      "type": "integer",
+      "required": false,
+      "nullable": true,
+      "official_type": "Integer (64 bit signed)",
+      "constraints": "Optional; value >= 0; unavailable measurements are NULL",
+      "origin": "Derived from GitHub: pull request creation timestamps",
+      "description": "Pull requests first created during M8, including drafts. Reopenings are counted separately.",
+      "source": {
+        "sheet": "Schema",
+        "rows": [
+          36,
+          38
+        ],
+        "field_cell": "C36",
+        "constraint_cell": "E36"
+      },
+      "month_index": 8,
+      "minimum": 0,
+      "maximum": 9223372036854775807
+    },
+    {
+      "name": "pull_requests_opened_M9",
+      "type": "integer",
+      "required": false,
+      "nullable": true,
+      "official_type": "Integer (64 bit signed)",
+      "constraints": "Optional; value >= 0; unavailable measurements are NULL",
+      "origin": "Derived from GitHub: pull request creation timestamps",
+      "description": "Pull requests first created during M9, including drafts. Reopenings are counted separately.",
+      "source": {
+        "sheet": "Schema",
+        "rows": [
+          36,
+          38
+        ],
+        "field_cell": "C36",
+        "constraint_cell": "E36"
+      },
+      "month_index": 9,
+      "minimum": 0,
+      "maximum": 9223372036854775807
+    },
+    {
+      "name": "pull_requests_opened_M10",
+      "type": "integer",
+      "required": false,
+      "nullable": true,
+      "official_type": "Integer (64 bit signed)",
+      "constraints": "Optional; value >= 0; unavailable measurements are NULL",
+      "origin": "Derived from GitHub: pull request creation timestamps",
+      "description": "Pull requests first created during M10, including drafts. Reopenings are counted separately.",
+      "source": {
+        "sheet": "Schema",
+        "rows": [
+          36,
+          38
+        ],
+        "field_cell": "C36",
+        "constraint_cell": "E36"
+      },
+      "month_index": 10,
+      "minimum": 0,
+      "maximum": 9223372036854775807
+    },
+    {
+      "name": "pull_requests_opened_M11",
+      "type": "integer",
+      "required": false,
+      "nullable": true,
+      "official_type": "Integer (64 bit signed)",
+      "constraints": "Optional; value >= 0; unavailable measurements are NULL",
+      "origin": "Derived from GitHub: pull request creation timestamps",
+      "description": "Pull requests first created during M11, including drafts. Reopenings are counted separately.",
+      "source": {
+        "sheet": "Schema",
+        "rows": [
+          36,
+          38
+        ],
+        "field_cell": "C36",
+        "constraint_cell": "E36"
+      },
+      "month_index": 11,
+      "minimum": 0,
+      "maximum": 9223372036854775807
+    },
+    {
+      "name": "pull_requests_closed_unmerged_M0",
+      "type": "integer",
+      "required": false,
+      "nullable": true,
+      "official_type": "Integer (64 bit signed)",
+      "constraints": "Optional; value >= 0; unavailable measurements are NULL",
+      "origin": "Derived from GitHub: pull request closure and merge events",
+      "description": "Pull request closure events during M0 without a merge at that event. A later merge does not erase an earlier unmerged closure.",
+      "source": {
+        "sheet": "Schema",
+        "rows": [
+          39,
+          41
+        ],
+        "field_cell": "C39",
+        "constraint_cell": "E39"
+      },
+      "month_index": 0,
+      "minimum": 0,
+      "maximum": 9223372036854775807
+    },
+    {
+      "name": "pull_requests_closed_unmerged_M1",
+      "type": "integer",
+      "required": false,
+      "nullable": true,
+      "official_type": "Integer (64 bit signed)",
+      "constraints": "Optional; value >= 0; unavailable measurements are NULL",
+      "origin": "Derived from GitHub: pull request closure and merge events",
+      "description": "Pull request closure events during M1 without a merge at that event. A later merge does not erase an earlier unmerged closure.",
+      "source": {
+        "sheet": "Schema",
+        "rows": [
+          39,
+          41
+        ],
+        "field_cell": "C39",
+        "constraint_cell": "E39"
+      },
+      "month_index": 1,
+      "minimum": 0,
+      "maximum": 9223372036854775807
+    },
+    {
+      "name": "pull_requests_closed_unmerged_M2",
+      "type": "integer",
+      "required": false,
+      "nullable": true,
+      "official_type": "Integer (64 bit signed)",
+      "constraints": "Optional; value >= 0; unavailable measurements are NULL",
+      "origin": "Derived from GitHub: pull request closure and merge events",
+      "description": "Pull request closure events during M2 without a merge at that event. A later merge does not erase an earlier unmerged closure.",
+      "source": {
+        "sheet": "Schema",
+        "rows": [
+          39,
+          41
+        ],
+        "field_cell": "C39",
+        "constraint_cell": "E39"
+      },
+      "month_index": 2,
+      "minimum": 0,
+      "maximum": 9223372036854775807
+    },
+    {
+      "name": "pull_requests_closed_unmerged_M3",
+      "type": "integer",
+      "required": false,
+      "nullable": true,
+      "official_type": "Integer (64 bit signed)",
+      "constraints": "Optional; value >= 0; unavailable measurements are NULL",
+      "origin": "Derived from GitHub: pull request closure and merge events",
+      "description": "Pull request closure events during M3 without a merge at that event. A later merge does not erase an earlier unmerged closure.",
+      "source": {
+        "sheet": "Schema",
+        "rows": [
+          39,
+          41
+        ],
+        "field_cell": "C39",
+        "constraint_cell": "E39"
+      },
+      "month_index": 3,
+      "minimum": 0,
+      "maximum": 9223372036854775807
+    },
+    {
+      "name": "pull_requests_closed_unmerged_M4",
+      "type": "integer",
+      "required": false,
+      "nullable": true,
+      "official_type": "Integer (64 bit signed)",
+      "constraints": "Optional; value >= 0; unavailable measurements are NULL",
+      "origin": "Derived from GitHub: pull request closure and merge events",
+      "description": "Pull request closure events during M4 without a merge at that event. A later merge does not erase an earlier unmerged closure.",
+      "source": {
+        "sheet": "Schema",
+        "rows": [
+          39,
+          41
+        ],
+        "field_cell": "C39",
+        "constraint_cell": "E39"
+      },
+      "month_index": 4,
+      "minimum": 0,
+      "maximum": 9223372036854775807
+    },
+    {
+      "name": "pull_requests_closed_unmerged_M5",
+      "type": "integer",
+      "required": false,
+      "nullable": true,
+      "official_type": "Integer (64 bit signed)",
+      "constraints": "Optional; value >= 0; unavailable measurements are NULL",
+      "origin": "Derived from GitHub: pull request closure and merge events",
+      "description": "Pull request closure events during M5 without a merge at that event. A later merge does not erase an earlier unmerged closure.",
+      "source": {
+        "sheet": "Schema",
+        "rows": [
+          39,
+          41
+        ],
+        "field_cell": "C39",
+        "constraint_cell": "E39"
+      },
+      "month_index": 5,
+      "minimum": 0,
+      "maximum": 9223372036854775807
+    },
+    {
+      "name": "pull_requests_closed_unmerged_M6",
+      "type": "integer",
+      "required": false,
+      "nullable": true,
+      "official_type": "Integer (64 bit signed)",
+      "constraints": "Optional; value >= 0; unavailable measurements are NULL",
+      "origin": "Derived from GitHub: pull request closure and merge events",
+      "description": "Pull request closure events during M6 without a merge at that event. A later merge does not erase an earlier unmerged closure.",
+      "source": {
+        "sheet": "Schema",
+        "rows": [
+          39,
+          41
+        ],
+        "field_cell": "C39",
+        "constraint_cell": "E39"
+      },
+      "month_index": 6,
+      "minimum": 0,
+      "maximum": 9223372036854775807
+    },
+    {
+      "name": "pull_requests_closed_unmerged_M7",
+      "type": "integer",
+      "required": false,
+      "nullable": true,
+      "official_type": "Integer (64 bit signed)",
+      "constraints": "Optional; value >= 0; unavailable measurements are NULL",
+      "origin": "Derived from GitHub: pull request closure and merge events",
+      "description": "Pull request closure events during M7 without a merge at that event. A later merge does not erase an earlier unmerged closure.",
+      "source": {
+        "sheet": "Schema",
+        "rows": [
+          39,
+          41
+        ],
+        "field_cell": "C39",
+        "constraint_cell": "E39"
+      },
+      "month_index": 7,
+      "minimum": 0,
+      "maximum": 9223372036854775807
+    },
+    {
+      "name": "pull_requests_closed_unmerged_M8",
+      "type": "integer",
+      "required": false,
+      "nullable": true,
+      "official_type": "Integer (64 bit signed)",
+      "constraints": "Optional; value >= 0; unavailable measurements are NULL",
+      "origin": "Derived from GitHub: pull request closure and merge events",
+      "description": "Pull request closure events during M8 without a merge at that event. A later merge does not erase an earlier unmerged closure.",
+      "source": {
+        "sheet": "Schema",
+        "rows": [
+          39,
+          41
+        ],
+        "field_cell": "C39",
+        "constraint_cell": "E39"
+      },
+      "month_index": 8,
+      "minimum": 0,
+      "maximum": 9223372036854775807
+    },
+    {
+      "name": "pull_requests_closed_unmerged_M9",
+      "type": "integer",
+      "required": false,
+      "nullable": true,
+      "official_type": "Integer (64 bit signed)",
+      "constraints": "Optional; value >= 0; unavailable measurements are NULL",
+      "origin": "Derived from GitHub: pull request closure and merge events",
+      "description": "Pull request closure events during M9 without a merge at that event. A later merge does not erase an earlier unmerged closure.",
+      "source": {
+        "sheet": "Schema",
+        "rows": [
+          39,
+          41
+        ],
+        "field_cell": "C39",
+        "constraint_cell": "E39"
+      },
+      "month_index": 9,
+      "minimum": 0,
+      "maximum": 9223372036854775807
+    },
+    {
+      "name": "pull_requests_closed_unmerged_M10",
+      "type": "integer",
+      "required": false,
+      "nullable": true,
+      "official_type": "Integer (64 bit signed)",
+      "constraints": "Optional; value >= 0; unavailable measurements are NULL",
+      "origin": "Derived from GitHub: pull request closure and merge events",
+      "description": "Pull request closure events during M10 without a merge at that event. A later merge does not erase an earlier unmerged closure.",
+      "source": {
+        "sheet": "Schema",
+        "rows": [
+          39,
+          41
+        ],
+        "field_cell": "C39",
+        "constraint_cell": "E39"
+      },
+      "month_index": 10,
+      "minimum": 0,
+      "maximum": 9223372036854775807
+    },
+    {
+      "name": "pull_requests_closed_unmerged_M11",
+      "type": "integer",
+      "required": false,
+      "nullable": true,
+      "official_type": "Integer (64 bit signed)",
+      "constraints": "Optional; value >= 0; unavailable measurements are NULL",
+      "origin": "Derived from GitHub: pull request closure and merge events",
+      "description": "Pull request closure events during M11 without a merge at that event. A later merge does not erase an earlier unmerged closure.",
+      "source": {
+        "sheet": "Schema",
+        "rows": [
+          39,
+          41
+        ],
+        "field_cell": "C39",
+        "constraint_cell": "E39"
+      },
+      "month_index": 11,
+      "minimum": 0,
+      "maximum": 9223372036854775807
+    },
+    {
+      "name": "pull_requests_merged_M0",
+      "type": "integer",
+      "required": false,
+      "nullable": true,
+      "official_type": "Integer (64 bit signed)",
+      "constraints": "Optional; value >= 0; unavailable measurements are NULL",
+      "origin": "Derived from GitHub: pull request merge events",
+      "description": "Pull requests merged during M0. A merge is excluded from the unmerged-closure count.",
+      "source": {
+        "sheet": "Schema",
+        "rows": [
+          42,
+          44
+        ],
+        "field_cell": "C42",
+        "constraint_cell": "E42"
+      },
+      "month_index": 0,
+      "minimum": 0,
+      "maximum": 9223372036854775807
+    },
+    {
+      "name": "pull_requests_merged_M1",
+      "type": "integer",
+      "required": false,
+      "nullable": true,
+      "official_type": "Integer (64 bit signed)",
+      "constraints": "Optional; value >= 0; unavailable measurements are NULL",
+      "origin": "Derived from GitHub: pull request merge events",
+      "description": "Pull requests merged during M1. A merge is excluded from the unmerged-closure count.",
+      "source": {
+        "sheet": "Schema",
+        "rows": [
+          42,
+          44
+        ],
+        "field_cell": "C42",
+        "constraint_cell": "E42"
+      },
+      "month_index": 1,
+      "minimum": 0,
+      "maximum": 9223372036854775807
+    },
+    {
+      "name": "pull_requests_merged_M2",
+      "type": "integer",
+      "required": false,
+      "nullable": true,
+      "official_type": "Integer (64 bit signed)",
+      "constraints": "Optional; value >= 0; unavailable measurements are NULL",
+      "origin": "Derived from GitHub: pull request merge events",
+      "description": "Pull requests merged during M2. A merge is excluded from the unmerged-closure count.",
+      "source": {
+        "sheet": "Schema",
+        "rows": [
+          42,
+          44
+        ],
+        "field_cell": "C42",
+        "constraint_cell": "E42"
+      },
+      "month_index": 2,
+      "minimum": 0,
+      "maximum": 9223372036854775807
+    },
+    {
+      "name": "pull_requests_merged_M3",
+      "type": "integer",
+      "required": false,
+      "nullable": true,
+      "official_type": "Integer (64 bit signed)",
+      "constraints": "Optional; value >= 0; unavailable measurements are NULL",
+      "origin": "Derived from GitHub: pull request merge events",
+      "description": "Pull requests merged during M3. A merge is excluded from the unmerged-closure count.",
+      "source": {
+        "sheet": "Schema",
+        "rows": [
+          42,
+          44
+        ],
+        "field_cell": "C42",
+        "constraint_cell": "E42"
+      },
+      "month_index": 3,
+      "minimum": 0,
+      "maximum": 9223372036854775807
+    },
+    {
+      "name": "pull_requests_merged_M4",
+      "type": "integer",
+      "required": false,
+      "nullable": true,
+      "official_type": "Integer (64 bit signed)",
+      "constraints": "Optional; value >= 0; unavailable measurements are NULL",
+      "origin": "Derived from GitHub: pull request merge events",
+      "description": "Pull requests merged during M4. A merge is excluded from the unmerged-closure count.",
+      "source": {
+        "sheet": "Schema",
+        "rows": [
+          42,
+          44
+        ],
+        "field_cell": "C42",
+        "constraint_cell": "E42"
+      },
+      "month_index": 4,
+      "minimum": 0,
+      "maximum": 9223372036854775807
+    },
+    {
+      "name": "pull_requests_merged_M5",
+      "type": "integer",
+      "required": false,
+      "nullable": true,
+      "official_type": "Integer (64 bit signed)",
+      "constraints": "Optional; value >= 0; unavailable measurements are NULL",
+      "origin": "Derived from GitHub: pull request merge events",
+      "description": "Pull requests merged during M5. A merge is excluded from the unmerged-closure count.",
+      "source": {
+        "sheet": "Schema",
+        "rows": [
+          42,
+          44
+        ],
+        "field_cell": "C42",
+        "constraint_cell": "E42"
+      },
+      "month_index": 5,
+      "minimum": 0,
+      "maximum": 9223372036854775807
+    },
+    {
+      "name": "pull_requests_merged_M6",
+      "type": "integer",
+      "required": false,
+      "nullable": true,
+      "official_type": "Integer (64 bit signed)",
+      "constraints": "Optional; value >= 0; unavailable measurements are NULL",
+      "origin": "Derived from GitHub: pull request merge events",
+      "description": "Pull requests merged during M6. A merge is excluded from the unmerged-closure count.",
+      "source": {
+        "sheet": "Schema",
+        "rows": [
+          42,
+          44
+        ],
+        "field_cell": "C42",
+        "constraint_cell": "E42"
+      },
+      "month_index": 6,
+      "minimum": 0,
+      "maximum": 9223372036854775807
+    },
+    {
+      "name": "pull_requests_merged_M7",
+      "type": "integer",
+      "required": false,
+      "nullable": true,
+      "official_type": "Integer (64 bit signed)",
+      "constraints": "Optional; value >= 0; unavailable measurements are NULL",
+      "origin": "Derived from GitHub: pull request merge events",
+      "description": "Pull requests merged during M7. A merge is excluded from the unmerged-closure count.",
+      "source": {
+        "sheet": "Schema",
+        "rows": [
+          42,
+          44
+        ],
+        "field_cell": "C42",
+        "constraint_cell": "E42"
+      },
+      "month_index": 7,
+      "minimum": 0,
+      "maximum": 9223372036854775807
+    },
+    {
+      "name": "pull_requests_merged_M8",
+      "type": "integer",
+      "required": false,
+      "nullable": true,
+      "official_type": "Integer (64 bit signed)",
+      "constraints": "Optional; value >= 0; unavailable measurements are NULL",
+      "origin": "Derived from GitHub: pull request merge events",
+      "description": "Pull requests merged during M8. A merge is excluded from the unmerged-closure count.",
+      "source": {
+        "sheet": "Schema",
+        "rows": [
+          42,
+          44
+        ],
+        "field_cell": "C42",
+        "constraint_cell": "E42"
+      },
+      "month_index": 8,
+      "minimum": 0,
+      "maximum": 9223372036854775807
+    },
+    {
+      "name": "pull_requests_merged_M9",
+      "type": "integer",
+      "required": false,
+      "nullable": true,
+      "official_type": "Integer (64 bit signed)",
+      "constraints": "Optional; value >= 0; unavailable measurements are NULL",
+      "origin": "Derived from GitHub: pull request merge events",
+      "description": "Pull requests merged during M9. A merge is excluded from the unmerged-closure count.",
+      "source": {
+        "sheet": "Schema",
+        "rows": [
+          42,
+          44
+        ],
+        "field_cell": "C42",
+        "constraint_cell": "E42"
+      },
+      "month_index": 9,
+      "minimum": 0,
+      "maximum": 9223372036854775807
+    },
+    {
+      "name": "pull_requests_merged_M10",
+      "type": "integer",
+      "required": false,
+      "nullable": true,
+      "official_type": "Integer (64 bit signed)",
+      "constraints": "Optional; value >= 0; unavailable measurements are NULL",
+      "origin": "Derived from GitHub: pull request merge events",
+      "description": "Pull requests merged during M10. A merge is excluded from the unmerged-closure count.",
+      "source": {
+        "sheet": "Schema",
+        "rows": [
+          42,
+          44
+        ],
+        "field_cell": "C42",
+        "constraint_cell": "E42"
+      },
+      "month_index": 10,
+      "minimum": 0,
+      "maximum": 9223372036854775807
+    },
+    {
+      "name": "pull_requests_merged_M11",
+      "type": "integer",
+      "required": false,
+      "nullable": true,
+      "official_type": "Integer (64 bit signed)",
+      "constraints": "Optional; value >= 0; unavailable measurements are NULL",
+      "origin": "Derived from GitHub: pull request merge events",
+      "description": "Pull requests merged during M11. A merge is excluded from the unmerged-closure count.",
+      "source": {
+        "sheet": "Schema",
+        "rows": [
+          42,
+          44
+        ],
+        "field_cell": "C42",
+        "constraint_cell": "E42"
+      },
+      "month_index": 11,
+      "minimum": 0,
+      "maximum": 9223372036854775807
+    },
+    {
+      "name": "pull_requests_reopened_M0",
+      "type": "integer",
+      "required": false,
+      "nullable": true,
+      "official_type": "Integer (64 bit signed)",
+      "constraints": "Optional; value >= 0; unavailable measurements are NULL",
+      "origin": "Derived from GitHub: pull request lifecycle events",
+      "description": "Pull request reopening events during M0.",
+      "source": {
+        "sheet": "Schema",
+        "rows": [
+          45,
+          47
+        ],
+        "field_cell": "C45",
+        "constraint_cell": "E45"
+      },
+      "month_index": 0,
+      "minimum": 0,
+      "maximum": 9223372036854775807
+    },
+    {
+      "name": "pull_requests_reopened_M1",
+      "type": "integer",
+      "required": false,
+      "nullable": true,
+      "official_type": "Integer (64 bit signed)",
+      "constraints": "Optional; value >= 0; unavailable measurements are NULL",
+      "origin": "Derived from GitHub: pull request lifecycle events",
+      "description": "Pull request reopening events during M1.",
+      "source": {
+        "sheet": "Schema",
+        "rows": [
+          45,
+          47
+        ],
+        "field_cell": "C45",
+        "constraint_cell": "E45"
+      },
+      "month_index": 1,
+      "minimum": 0,
+      "maximum": 9223372036854775807
+    },
+    {
+      "name": "pull_requests_reopened_M2",
+      "type": "integer",
+      "required": false,
+      "nullable": true,
+      "official_type": "Integer (64 bit signed)",
+      "constraints": "Optional; value >= 0; unavailable measurements are NULL",
+      "origin": "Derived from GitHub: pull request lifecycle events",
+      "description": "Pull request reopening events during M2.",
+      "source": {
+        "sheet": "Schema",
+        "rows": [
+          45,
+          47
+        ],
+        "field_cell": "C45",
+        "constraint_cell": "E45"
+      },
+      "month_index": 2,
+      "minimum": 0,
+      "maximum": 9223372036854775807
+    },
+    {
+      "name": "pull_requests_reopened_M3",
+      "type": "integer",
+      "required": false,
+      "nullable": true,
+      "official_type": "Integer (64 bit signed)",
+      "constraints": "Optional; value >= 0; unavailable measurements are NULL",
+      "origin": "Derived from GitHub: pull request lifecycle events",
+      "description": "Pull request reopening events during M3.",
+      "source": {
+        "sheet": "Schema",
+        "rows": [
+          45,
+          47
+        ],
+        "field_cell": "C45",
+        "constraint_cell": "E45"
+      },
+      "month_index": 3,
+      "minimum": 0,
+      "maximum": 9223372036854775807
+    },
+    {
+      "name": "pull_requests_reopened_M4",
+      "type": "integer",
+      "required": false,
+      "nullable": true,
+      "official_type": "Integer (64 bit signed)",
+      "constraints": "Optional; value >= 0; unavailable measurements are NULL",
+      "origin": "Derived from GitHub: pull request lifecycle events",
+      "description": "Pull request reopening events during M4.",
+      "source": {
+        "sheet": "Schema",
+        "rows": [
+          45,
+          47
+        ],
+        "field_cell": "C45",
+        "constraint_cell": "E45"
+      },
+      "month_index": 4,
+      "minimum": 0,
+      "maximum": 9223372036854775807
+    },
+    {
+      "name": "pull_requests_reopened_M5",
+      "type": "integer",
+      "required": false,
+      "nullable": true,
+      "official_type": "Integer (64 bit signed)",
+      "constraints": "Optional; value >= 0; unavailable measurements are NULL",
+      "origin": "Derived from GitHub: pull request lifecycle events",
+      "description": "Pull request reopening events during M5.",
+      "source": {
+        "sheet": "Schema",
+        "rows": [
+          45,
+          47
+        ],
+        "field_cell": "C45",
+        "constraint_cell": "E45"
+      },
+      "month_index": 5,
+      "minimum": 0,
+      "maximum": 9223372036854775807
+    },
+    {
+      "name": "pull_requests_reopened_M6",
+      "type": "integer",
+      "required": false,
+      "nullable": true,
+      "official_type": "Integer (64 bit signed)",
+      "constraints": "Optional; value >= 0; unavailable measurements are NULL",
+      "origin": "Derived from GitHub: pull request lifecycle events",
+      "description": "Pull request reopening events during M6.",
+      "source": {
+        "sheet": "Schema",
+        "rows": [
+          45,
+          47
+        ],
+        "field_cell": "C45",
+        "constraint_cell": "E45"
+      },
+      "month_index": 6,
+      "minimum": 0,
+      "maximum": 9223372036854775807
+    },
+    {
+      "name": "pull_requests_reopened_M7",
+      "type": "integer",
+      "required": false,
+      "nullable": true,
+      "official_type": "Integer (64 bit signed)",
+      "constraints": "Optional; value >= 0; unavailable measurements are NULL",
+      "origin": "Derived from GitHub: pull request lifecycle events",
+      "description": "Pull request reopening events during M7.",
+      "source": {
+        "sheet": "Schema",
+        "rows": [
+          45,
+          47
+        ],
+        "field_cell": "C45",
+        "constraint_cell": "E45"
+      },
+      "month_index": 7,
+      "minimum": 0,
+      "maximum": 9223372036854775807
+    },
+    {
+      "name": "pull_requests_reopened_M8",
+      "type": "integer",
+      "required": false,
+      "nullable": true,
+      "official_type": "Integer (64 bit signed)",
+      "constraints": "Optional; value >= 0; unavailable measurements are NULL",
+      "origin": "Derived from GitHub: pull request lifecycle events",
+      "description": "Pull request reopening events during M8.",
+      "source": {
+        "sheet": "Schema",
+        "rows": [
+          45,
+          47
+        ],
+        "field_cell": "C45",
+        "constraint_cell": "E45"
+      },
+      "month_index": 8,
+      "minimum": 0,
+      "maximum": 9223372036854775807
+    },
+    {
+      "name": "pull_requests_reopened_M9",
+      "type": "integer",
+      "required": false,
+      "nullable": true,
+      "official_type": "Integer (64 bit signed)",
+      "constraints": "Optional; value >= 0; unavailable measurements are NULL",
+      "origin": "Derived from GitHub: pull request lifecycle events",
+      "description": "Pull request reopening events during M9.",
+      "source": {
+        "sheet": "Schema",
+        "rows": [
+          45,
+          47
+        ],
+        "field_cell": "C45",
+        "constraint_cell": "E45"
+      },
+      "month_index": 9,
+      "minimum": 0,
+      "maximum": 9223372036854775807
+    },
+    {
+      "name": "pull_requests_reopened_M10",
+      "type": "integer",
+      "required": false,
+      "nullable": true,
+      "official_type": "Integer (64 bit signed)",
+      "constraints": "Optional; value >= 0; unavailable measurements are NULL",
+      "origin": "Derived from GitHub: pull request lifecycle events",
+      "description": "Pull request reopening events during M10.",
+      "source": {
+        "sheet": "Schema",
+        "rows": [
+          45,
+          47
+        ],
+        "field_cell": "C45",
+        "constraint_cell": "E45"
+      },
+      "month_index": 10,
+      "minimum": 0,
+      "maximum": 9223372036854775807
+    },
+    {
+      "name": "pull_requests_reopened_M11",
+      "type": "integer",
+      "required": false,
+      "nullable": true,
+      "official_type": "Integer (64 bit signed)",
+      "constraints": "Optional; value >= 0; unavailable measurements are NULL",
+      "origin": "Derived from GitHub: pull request lifecycle events",
+      "description": "Pull request reopening events during M11.",
+      "source": {
+        "sheet": "Schema",
+        "rows": [
+          45,
+          47
+        ],
+        "field_cell": "C45",
+        "constraint_cell": "E45"
+      },
+      "month_index": 11,
+      "minimum": 0,
+      "maximum": 9223372036854775807
+    },
+    {
+      "name": "issues_open_at_month_end_M0",
+      "type": "integer",
+      "required": false,
+      "nullable": true,
+      "official_type": "Integer (64 bit signed)",
+      "constraints": "Optional; value >= 0; unavailable measurements are NULL",
+      "origin": "Derived from GitHub: reconstructed non-PR issue history",
+      "description": "Non-PR issues open immediately before the end-exclusive boundary of M0, including issues created before the history window.",
+      "source": {
+        "sheet": "Schema",
+        "rows": [
+          48,
+          50
+        ],
+        "field_cell": "C48",
+        "constraint_cell": "E48"
+      },
+      "month_index": 0,
+      "minimum": 0,
+      "maximum": 9223372036854775807
+    },
+    {
+      "name": "issues_open_at_month_end_M1",
+      "type": "integer",
+      "required": false,
+      "nullable": true,
+      "official_type": "Integer (64 bit signed)",
+      "constraints": "Optional; value >= 0; unavailable measurements are NULL",
+      "origin": "Derived from GitHub: reconstructed non-PR issue history",
+      "description": "Non-PR issues open immediately before the end-exclusive boundary of M1, including issues created before the history window.",
+      "source": {
+        "sheet": "Schema",
+        "rows": [
+          48,
+          50
+        ],
+        "field_cell": "C48",
+        "constraint_cell": "E48"
+      },
+      "month_index": 1,
+      "minimum": 0,
+      "maximum": 9223372036854775807
+    },
+    {
+      "name": "issues_open_at_month_end_M2",
+      "type": "integer",
+      "required": false,
+      "nullable": true,
+      "official_type": "Integer (64 bit signed)",
+      "constraints": "Optional; value >= 0; unavailable measurements are NULL",
+      "origin": "Derived from GitHub: reconstructed non-PR issue history",
+      "description": "Non-PR issues open immediately before the end-exclusive boundary of M2, including issues created before the history window.",
+      "source": {
+        "sheet": "Schema",
+        "rows": [
+          48,
+          50
+        ],
+        "field_cell": "C48",
+        "constraint_cell": "E48"
+      },
+      "month_index": 2,
+      "minimum": 0,
+      "maximum": 9223372036854775807
+    },
+    {
+      "name": "issues_open_at_month_end_M3",
+      "type": "integer",
+      "required": false,
+      "nullable": true,
+      "official_type": "Integer (64 bit signed)",
+      "constraints": "Optional; value >= 0; unavailable measurements are NULL",
+      "origin": "Derived from GitHub: reconstructed non-PR issue history",
+      "description": "Non-PR issues open immediately before the end-exclusive boundary of M3, including issues created before the history window.",
+      "source": {
+        "sheet": "Schema",
+        "rows": [
+          48,
+          50
+        ],
+        "field_cell": "C48",
+        "constraint_cell": "E48"
+      },
+      "month_index": 3,
+      "minimum": 0,
+      "maximum": 9223372036854775807
+    },
+    {
+      "name": "issues_open_at_month_end_M4",
+      "type": "integer",
+      "required": false,
+      "nullable": true,
+      "official_type": "Integer (64 bit signed)",
+      "constraints": "Optional; value >= 0; unavailable measurements are NULL",
+      "origin": "Derived from GitHub: reconstructed non-PR issue history",
+      "description": "Non-PR issues open immediately before the end-exclusive boundary of M4, including issues created before the history window.",
+      "source": {
+        "sheet": "Schema",
+        "rows": [
+          48,
+          50
+        ],
+        "field_cell": "C48",
+        "constraint_cell": "E48"
+      },
+      "month_index": 4,
+      "minimum": 0,
+      "maximum": 9223372036854775807
+    },
+    {
+      "name": "issues_open_at_month_end_M5",
+      "type": "integer",
+      "required": false,
+      "nullable": true,
+      "official_type": "Integer (64 bit signed)",
+      "constraints": "Optional; value >= 0; unavailable measurements are NULL",
+      "origin": "Derived from GitHub: reconstructed non-PR issue history",
+      "description": "Non-PR issues open immediately before the end-exclusive boundary of M5, including issues created before the history window.",
+      "source": {
+        "sheet": "Schema",
+        "rows": [
+          48,
+          50
+        ],
+        "field_cell": "C48",
+        "constraint_cell": "E48"
+      },
+      "month_index": 5,
+      "minimum": 0,
+      "maximum": 9223372036854775807
+    },
+    {
+      "name": "issues_open_at_month_end_M6",
+      "type": "integer",
+      "required": false,
+      "nullable": true,
+      "official_type": "Integer (64 bit signed)",
+      "constraints": "Optional; value >= 0; unavailable measurements are NULL",
+      "origin": "Derived from GitHub: reconstructed non-PR issue history",
+      "description": "Non-PR issues open immediately before the end-exclusive boundary of M6, including issues created before the history window.",
+      "source": {
+        "sheet": "Schema",
+        "rows": [
+          48,
+          50
+        ],
+        "field_cell": "C48",
+        "constraint_cell": "E48"
+      },
+      "month_index": 6,
+      "minimum": 0,
+      "maximum": 9223372036854775807
+    },
+    {
+      "name": "issues_open_at_month_end_M7",
+      "type": "integer",
+      "required": false,
+      "nullable": true,
+      "official_type": "Integer (64 bit signed)",
+      "constraints": "Optional; value >= 0; unavailable measurements are NULL",
+      "origin": "Derived from GitHub: reconstructed non-PR issue history",
+      "description": "Non-PR issues open immediately before the end-exclusive boundary of M7, including issues created before the history window.",
+      "source": {
+        "sheet": "Schema",
+        "rows": [
+          48,
+          50
+        ],
+        "field_cell": "C48",
+        "constraint_cell": "E48"
+      },
+      "month_index": 7,
+      "minimum": 0,
+      "maximum": 9223372036854775807
+    },
+    {
+      "name": "issues_open_at_month_end_M8",
+      "type": "integer",
+      "required": false,
+      "nullable": true,
+      "official_type": "Integer (64 bit signed)",
+      "constraints": "Optional; value >= 0; unavailable measurements are NULL",
+      "origin": "Derived from GitHub: reconstructed non-PR issue history",
+      "description": "Non-PR issues open immediately before the end-exclusive boundary of M8, including issues created before the history window.",
+      "source": {
+        "sheet": "Schema",
+        "rows": [
+          48,
+          50
+        ],
+        "field_cell": "C48",
+        "constraint_cell": "E48"
+      },
+      "month_index": 8,
+      "minimum": 0,
+      "maximum": 9223372036854775807
+    },
+    {
+      "name": "issues_open_at_month_end_M9",
+      "type": "integer",
+      "required": false,
+      "nullable": true,
+      "official_type": "Integer (64 bit signed)",
+      "constraints": "Optional; value >= 0; unavailable measurements are NULL",
+      "origin": "Derived from GitHub: reconstructed non-PR issue history",
+      "description": "Non-PR issues open immediately before the end-exclusive boundary of M9, including issues created before the history window.",
+      "source": {
+        "sheet": "Schema",
+        "rows": [
+          48,
+          50
+        ],
+        "field_cell": "C48",
+        "constraint_cell": "E48"
+      },
+      "month_index": 9,
+      "minimum": 0,
+      "maximum": 9223372036854775807
+    },
+    {
+      "name": "issues_open_at_month_end_M10",
+      "type": "integer",
+      "required": false,
+      "nullable": true,
+      "official_type": "Integer (64 bit signed)",
+      "constraints": "Optional; value >= 0; unavailable measurements are NULL",
+      "origin": "Derived from GitHub: reconstructed non-PR issue history",
+      "description": "Non-PR issues open immediately before the end-exclusive boundary of M10, including issues created before the history window.",
+      "source": {
+        "sheet": "Schema",
+        "rows": [
+          48,
+          50
+        ],
+        "field_cell": "C48",
+        "constraint_cell": "E48"
+      },
+      "month_index": 10,
+      "minimum": 0,
+      "maximum": 9223372036854775807
+    },
+    {
+      "name": "issues_open_at_month_end_M11",
+      "type": "integer",
+      "required": false,
+      "nullable": true,
+      "official_type": "Integer (64 bit signed)",
+      "constraints": "Optional; value >= 0; unavailable measurements are NULL",
+      "origin": "Derived from GitHub: reconstructed non-PR issue history",
+      "description": "Non-PR issues open immediately before the end-exclusive boundary of M11, including issues created before the history window.",
+      "source": {
+        "sheet": "Schema",
+        "rows": [
+          48,
+          50
+        ],
+        "field_cell": "C48",
+        "constraint_cell": "E48"
+      },
+      "month_index": 11,
+      "minimum": 0,
+      "maximum": 9223372036854775807
+    },
+    {
+      "name": "pull_requests_open_at_month_end_M0",
+      "type": "integer",
+      "required": false,
+      "nullable": true,
+      "official_type": "Integer (64 bit signed)",
+      "constraints": "Optional; value >= 0; unavailable measurements are NULL",
+      "origin": "Derived from GitHub: reconstructed pull request history",
+      "description": "Pull requests open immediately before the end-exclusive boundary of M0, including drafts and pull requests created before the history window.",
+      "source": {
+        "sheet": "Schema",
+        "rows": [
+          51,
+          53
+        ],
+        "field_cell": "C51",
+        "constraint_cell": "E51"
+      },
+      "month_index": 0,
+      "minimum": 0,
+      "maximum": 9223372036854775807
+    },
+    {
+      "name": "pull_requests_open_at_month_end_M1",
+      "type": "integer",
+      "required": false,
+      "nullable": true,
+      "official_type": "Integer (64 bit signed)",
+      "constraints": "Optional; value >= 0; unavailable measurements are NULL",
+      "origin": "Derived from GitHub: reconstructed pull request history",
+      "description": "Pull requests open immediately before the end-exclusive boundary of M1, including drafts and pull requests created before the history window.",
+      "source": {
+        "sheet": "Schema",
+        "rows": [
+          51,
+          53
+        ],
+        "field_cell": "C51",
+        "constraint_cell": "E51"
+      },
+      "month_index": 1,
+      "minimum": 0,
+      "maximum": 9223372036854775807
+    },
+    {
+      "name": "pull_requests_open_at_month_end_M2",
+      "type": "integer",
+      "required": false,
+      "nullable": true,
+      "official_type": "Integer (64 bit signed)",
+      "constraints": "Optional; value >= 0; unavailable measurements are NULL",
+      "origin": "Derived from GitHub: reconstructed pull request history",
+      "description": "Pull requests open immediately before the end-exclusive boundary of M2, including drafts and pull requests created before the history window.",
+      "source": {
+        "sheet": "Schema",
+        "rows": [
+          51,
+          53
+        ],
+        "field_cell": "C51",
+        "constraint_cell": "E51"
+      },
+      "month_index": 2,
+      "minimum": 0,
+      "maximum": 9223372036854775807
+    },
+    {
+      "name": "pull_requests_open_at_month_end_M3",
+      "type": "integer",
+      "required": false,
+      "nullable": true,
+      "official_type": "Integer (64 bit signed)",
+      "constraints": "Optional; value >= 0; unavailable measurements are NULL",
+      "origin": "Derived from GitHub: reconstructed pull request history",
+      "description": "Pull requests open immediately before the end-exclusive boundary of M3, including drafts and pull requests created before the history window.",
+      "source": {
+        "sheet": "Schema",
+        "rows": [
+          51,
+          53
+        ],
+        "field_cell": "C51",
+        "constraint_cell": "E51"
+      },
+      "month_index": 3,
+      "minimum": 0,
+      "maximum": 9223372036854775807
+    },
+    {
+      "name": "pull_requests_open_at_month_end_M4",
+      "type": "integer",
+      "required": false,
+      "nullable": true,
+      "official_type": "Integer (64 bit signed)",
+      "constraints": "Optional; value >= 0; unavailable measurements are NULL",
+      "origin": "Derived from GitHub: reconstructed pull request history",
+      "description": "Pull requests open immediately before the end-exclusive boundary of M4, including drafts and pull requests created before the history window.",
+      "source": {
+        "sheet": "Schema",
+        "rows": [
+          51,
+          53
+        ],
+        "field_cell": "C51",
+        "constraint_cell": "E51"
+      },
+      "month_index": 4,
+      "minimum": 0,
+      "maximum": 9223372036854775807
+    },
+    {
+      "name": "pull_requests_open_at_month_end_M5",
+      "type": "integer",
+      "required": false,
+      "nullable": true,
+      "official_type": "Integer (64 bit signed)",
+      "constraints": "Optional; value >= 0; unavailable measurements are NULL",
+      "origin": "Derived from GitHub: reconstructed pull request history",
+      "description": "Pull requests open immediately before the end-exclusive boundary of M5, including drafts and pull requests created before the history window.",
+      "source": {
+        "sheet": "Schema",
+        "rows": [
+          51,
+          53
+        ],
+        "field_cell": "C51",
+        "constraint_cell": "E51"
+      },
+      "month_index": 5,
+      "minimum": 0,
+      "maximum": 9223372036854775807
+    },
+    {
+      "name": "pull_requests_open_at_month_end_M6",
+      "type": "integer",
+      "required": false,
+      "nullable": true,
+      "official_type": "Integer (64 bit signed)",
+      "constraints": "Optional; value >= 0; unavailable measurements are NULL",
+      "origin": "Derived from GitHub: reconstructed pull request history",
+      "description": "Pull requests open immediately before the end-exclusive boundary of M6, including drafts and pull requests created before the history window.",
+      "source": {
+        "sheet": "Schema",
+        "rows": [
+          51,
+          53
+        ],
+        "field_cell": "C51",
+        "constraint_cell": "E51"
+      },
+      "month_index": 6,
+      "minimum": 0,
+      "maximum": 9223372036854775807
+    },
+    {
+      "name": "pull_requests_open_at_month_end_M7",
+      "type": "integer",
+      "required": false,
+      "nullable": true,
+      "official_type": "Integer (64 bit signed)",
+      "constraints": "Optional; value >= 0; unavailable measurements are NULL",
+      "origin": "Derived from GitHub: reconstructed pull request history",
+      "description": "Pull requests open immediately before the end-exclusive boundary of M7, including drafts and pull requests created before the history window.",
+      "source": {
+        "sheet": "Schema",
+        "rows": [
+          51,
+          53
+        ],
+        "field_cell": "C51",
+        "constraint_cell": "E51"
+      },
+      "month_index": 7,
+      "minimum": 0,
+      "maximum": 9223372036854775807
+    },
+    {
+      "name": "pull_requests_open_at_month_end_M8",
+      "type": "integer",
+      "required": false,
+      "nullable": true,
+      "official_type": "Integer (64 bit signed)",
+      "constraints": "Optional; value >= 0; unavailable measurements are NULL",
+      "origin": "Derived from GitHub: reconstructed pull request history",
+      "description": "Pull requests open immediately before the end-exclusive boundary of M8, including drafts and pull requests created before the history window.",
+      "source": {
+        "sheet": "Schema",
+        "rows": [
+          51,
+          53
+        ],
+        "field_cell": "C51",
+        "constraint_cell": "E51"
+      },
+      "month_index": 8,
+      "minimum": 0,
+      "maximum": 9223372036854775807
+    },
+    {
+      "name": "pull_requests_open_at_month_end_M9",
+      "type": "integer",
+      "required": false,
+      "nullable": true,
+      "official_type": "Integer (64 bit signed)",
+      "constraints": "Optional; value >= 0; unavailable measurements are NULL",
+      "origin": "Derived from GitHub: reconstructed pull request history",
+      "description": "Pull requests open immediately before the end-exclusive boundary of M9, including drafts and pull requests created before the history window.",
+      "source": {
+        "sheet": "Schema",
+        "rows": [
+          51,
+          53
+        ],
+        "field_cell": "C51",
+        "constraint_cell": "E51"
+      },
+      "month_index": 9,
+      "minimum": 0,
+      "maximum": 9223372036854775807
+    },
+    {
+      "name": "pull_requests_open_at_month_end_M10",
+      "type": "integer",
+      "required": false,
+      "nullable": true,
+      "official_type": "Integer (64 bit signed)",
+      "constraints": "Optional; value >= 0; unavailable measurements are NULL",
+      "origin": "Derived from GitHub: reconstructed pull request history",
+      "description": "Pull requests open immediately before the end-exclusive boundary of M10, including drafts and pull requests created before the history window.",
+      "source": {
+        "sheet": "Schema",
+        "rows": [
+          51,
+          53
+        ],
+        "field_cell": "C51",
+        "constraint_cell": "E51"
+      },
+      "month_index": 10,
+      "minimum": 0,
+      "maximum": 9223372036854775807
+    },
+    {
+      "name": "pull_requests_open_at_month_end_M11",
+      "type": "integer",
+      "required": false,
+      "nullable": true,
+      "official_type": "Integer (64 bit signed)",
+      "constraints": "Optional; value >= 0; unavailable measurements are NULL",
+      "origin": "Derived from GitHub: reconstructed pull request history",
+      "description": "Pull requests open immediately before the end-exclusive boundary of M11, including drafts and pull requests created before the history window.",
+      "source": {
+        "sheet": "Schema",
+        "rows": [
+          51,
+          53
+        ],
+        "field_cell": "C51",
+        "constraint_cell": "E51"
+      },
+      "month_index": 11,
+      "minimum": 0,
+      "maximum": 9223372036854775807
+    },
+    {
+      "name": "ghsa_low_count",
+      "type": "integer",
+      "required": true,
+      "nullable": false,
+      "official_type": "Integer (64 bit signed)",
+      "constraints": "Required; value >= 0",
+      "origin": "Derived from historical GitHub-reviewed advisories: publication, npm package mapping, and severity",
+      "description": "Distinct qualifying GHSAs naming this package, published before prediction across its full history, with low severity at prediction.",
+      "source": {
+        "sheet": "Schema",
+        "rows": [
+          56,
+          56
+        ],
+        "field_cell": "C56",
+        "constraint_cell": "E56"
+      },
+      "minimum": 0,
+      "maximum": 9223372036854775807
+    },
+    {
+      "name": "ghsa_moderate_count",
+      "type": "integer",
+      "required": true,
+      "nullable": false,
+      "official_type": "Integer (64 bit signed)",
+      "constraints": "Required; value >= 0",
+      "origin": "Derived from historical GitHub-reviewed advisories: publication, npm package mapping, and severity",
+      "description": "Distinct qualifying GHSAs naming this package, published before prediction across its full history, with moderate severity at prediction.",
+      "source": {
+        "sheet": "Schema",
+        "rows": [
+          57,
+          57
+        ],
+        "field_cell": "C57",
+        "constraint_cell": "E57"
+      },
+      "minimum": 0,
+      "maximum": 9223372036854775807
+    },
+    {
+      "name": "ghsa_high_count",
+      "type": "integer",
+      "required": true,
+      "nullable": false,
+      "official_type": "Integer (64 bit signed)",
+      "constraints": "Required; value >= 0",
+      "origin": "Derived from historical GitHub-reviewed advisories: publication, npm package mapping, and severity",
+      "description": "Distinct qualifying GHSAs naming this package, published before prediction across its full history, with high severity at prediction.",
+      "source": {
+        "sheet": "Schema",
+        "rows": [
+          58,
+          58
+        ],
+        "field_cell": "C58",
+        "constraint_cell": "E58"
+      },
+      "minimum": 0,
+      "maximum": 9223372036854775807
+    },
+    {
+      "name": "ghsa_critical_count",
+      "type": "integer",
+      "required": true,
+      "nullable": false,
+      "official_type": "Integer (64 bit signed)",
+      "constraints": "Required; value >= 0",
+      "origin": "Derived from historical GitHub-reviewed advisories: publication, npm package mapping, and severity",
+      "description": "Distinct qualifying GHSAs naming this package, published before prediction across its full history, with critical severity at prediction.",
+      "source": {
+        "sheet": "Schema",
+        "rows": [
+          59,
+          59
+        ],
+        "field_cell": "C59",
+        "constraint_cell": "E59"
+      },
+      "minimum": 0,
+      "maximum": 9223372036854775807
+    },
+    {
+      "name": "ghsa_unknown_count",
+      "type": "integer",
+      "required": true,
+      "nullable": false,
+      "official_type": "Integer (64 bit signed)",
+      "constraints": "Required; value >= 0",
+      "origin": "Derived from historical GitHub-reviewed advisories: publication, npm package mapping, and severity",
+      "description": "Distinct qualifying GHSAs naming this package, published before prediction across its full history, whose severity is unknown at prediction.",
+      "source": {
+        "sheet": "Schema",
+        "rows": [
+          60,
+          60
+        ],
+        "field_cell": "C60",
+        "constraint_cell": "E60"
+      },
+      "minimum": 0,
+      "maximum": 9223372036854775807
+    },
+    {
+      "name": "ghsa_low_count_M0",
+      "type": "integer",
+      "required": true,
+      "nullable": false,
+      "official_type": "Integer (64 bit signed)",
+      "constraints": "Required; value >= 0",
+      "origin": "Derived from historical GitHub-reviewed advisories: publication, npm package mapping, and severity",
+      "description": "Distinct qualifying GHSAs naming this package, published during M0, with low severity at prediction.",
+      "source": {
+        "sheet": "Schema",
+        "rows": [
+          62,
+          64
+        ],
+        "field_cell": "C62",
+        "constraint_cell": "E62"
+      },
+      "month_index": 0,
+      "minimum": 0,
+      "maximum": 9223372036854775807
+    },
+    {
+      "name": "ghsa_low_count_M1",
+      "type": "integer",
+      "required": true,
+      "nullable": false,
+      "official_type": "Integer (64 bit signed)",
+      "constraints": "Required; value >= 0",
+      "origin": "Derived from historical GitHub-reviewed advisories: publication, npm package mapping, and severity",
+      "description": "Distinct qualifying GHSAs naming this package, published during M1, with low severity at prediction.",
+      "source": {
+        "sheet": "Schema",
+        "rows": [
+          62,
+          64
+        ],
+        "field_cell": "C62",
+        "constraint_cell": "E62"
+      },
+      "month_index": 1,
+      "minimum": 0,
+      "maximum": 9223372036854775807
+    },
+    {
+      "name": "ghsa_low_count_M2",
+      "type": "integer",
+      "required": true,
+      "nullable": false,
+      "official_type": "Integer (64 bit signed)",
+      "constraints": "Required; value >= 0",
+      "origin": "Derived from historical GitHub-reviewed advisories: publication, npm package mapping, and severity",
+      "description": "Distinct qualifying GHSAs naming this package, published during M2, with low severity at prediction.",
+      "source": {
+        "sheet": "Schema",
+        "rows": [
+          62,
+          64
+        ],
+        "field_cell": "C62",
+        "constraint_cell": "E62"
+      },
+      "month_index": 2,
+      "minimum": 0,
+      "maximum": 9223372036854775807
+    },
+    {
+      "name": "ghsa_low_count_M3",
+      "type": "integer",
+      "required": true,
+      "nullable": false,
+      "official_type": "Integer (64 bit signed)",
+      "constraints": "Required; value >= 0",
+      "origin": "Derived from historical GitHub-reviewed advisories: publication, npm package mapping, and severity",
+      "description": "Distinct qualifying GHSAs naming this package, published during M3, with low severity at prediction.",
+      "source": {
+        "sheet": "Schema",
+        "rows": [
+          62,
+          64
+        ],
+        "field_cell": "C62",
+        "constraint_cell": "E62"
+      },
+      "month_index": 3,
+      "minimum": 0,
+      "maximum": 9223372036854775807
+    },
+    {
+      "name": "ghsa_low_count_M4",
+      "type": "integer",
+      "required": true,
+      "nullable": false,
+      "official_type": "Integer (64 bit signed)",
+      "constraints": "Required; value >= 0",
+      "origin": "Derived from historical GitHub-reviewed advisories: publication, npm package mapping, and severity",
+      "description": "Distinct qualifying GHSAs naming this package, published during M4, with low severity at prediction.",
+      "source": {
+        "sheet": "Schema",
+        "rows": [
+          62,
+          64
+        ],
+        "field_cell": "C62",
+        "constraint_cell": "E62"
+      },
+      "month_index": 4,
+      "minimum": 0,
+      "maximum": 9223372036854775807
+    },
+    {
+      "name": "ghsa_low_count_M5",
+      "type": "integer",
+      "required": true,
+      "nullable": false,
+      "official_type": "Integer (64 bit signed)",
+      "constraints": "Required; value >= 0",
+      "origin": "Derived from historical GitHub-reviewed advisories: publication, npm package mapping, and severity",
+      "description": "Distinct qualifying GHSAs naming this package, published during M5, with low severity at prediction.",
+      "source": {
+        "sheet": "Schema",
+        "rows": [
+          62,
+          64
+        ],
+        "field_cell": "C62",
+        "constraint_cell": "E62"
+      },
+      "month_index": 5,
+      "minimum": 0,
+      "maximum": 9223372036854775807
+    },
+    {
+      "name": "ghsa_low_count_M6",
+      "type": "integer",
+      "required": true,
+      "nullable": false,
+      "official_type": "Integer (64 bit signed)",
+      "constraints": "Required; value >= 0",
+      "origin": "Derived from historical GitHub-reviewed advisories: publication, npm package mapping, and severity",
+      "description": "Distinct qualifying GHSAs naming this package, published during M6, with low severity at prediction.",
+      "source": {
+        "sheet": "Schema",
+        "rows": [
+          62,
+          64
+        ],
+        "field_cell": "C62",
+        "constraint_cell": "E62"
+      },
+      "month_index": 6,
+      "minimum": 0,
+      "maximum": 9223372036854775807
+    },
+    {
+      "name": "ghsa_low_count_M7",
+      "type": "integer",
+      "required": true,
+      "nullable": false,
+      "official_type": "Integer (64 bit signed)",
+      "constraints": "Required; value >= 0",
+      "origin": "Derived from historical GitHub-reviewed advisories: publication, npm package mapping, and severity",
+      "description": "Distinct qualifying GHSAs naming this package, published during M7, with low severity at prediction.",
+      "source": {
+        "sheet": "Schema",
+        "rows": [
+          62,
+          64
+        ],
+        "field_cell": "C62",
+        "constraint_cell": "E62"
+      },
+      "month_index": 7,
+      "minimum": 0,
+      "maximum": 9223372036854775807
+    },
+    {
+      "name": "ghsa_low_count_M8",
+      "type": "integer",
+      "required": true,
+      "nullable": false,
+      "official_type": "Integer (64 bit signed)",
+      "constraints": "Required; value >= 0",
+      "origin": "Derived from historical GitHub-reviewed advisories: publication, npm package mapping, and severity",
+      "description": "Distinct qualifying GHSAs naming this package, published during M8, with low severity at prediction.",
+      "source": {
+        "sheet": "Schema",
+        "rows": [
+          62,
+          64
+        ],
+        "field_cell": "C62",
+        "constraint_cell": "E62"
+      },
+      "month_index": 8,
+      "minimum": 0,
+      "maximum": 9223372036854775807
+    },
+    {
+      "name": "ghsa_low_count_M9",
+      "type": "integer",
+      "required": true,
+      "nullable": false,
+      "official_type": "Integer (64 bit signed)",
+      "constraints": "Required; value >= 0",
+      "origin": "Derived from historical GitHub-reviewed advisories: publication, npm package mapping, and severity",
+      "description": "Distinct qualifying GHSAs naming this package, published during M9, with low severity at prediction.",
+      "source": {
+        "sheet": "Schema",
+        "rows": [
+          62,
+          64
+        ],
+        "field_cell": "C62",
+        "constraint_cell": "E62"
+      },
+      "month_index": 9,
+      "minimum": 0,
+      "maximum": 9223372036854775807
+    },
+    {
+      "name": "ghsa_low_count_M10",
+      "type": "integer",
+      "required": true,
+      "nullable": false,
+      "official_type": "Integer (64 bit signed)",
+      "constraints": "Required; value >= 0",
+      "origin": "Derived from historical GitHub-reviewed advisories: publication, npm package mapping, and severity",
+      "description": "Distinct qualifying GHSAs naming this package, published during M10, with low severity at prediction.",
+      "source": {
+        "sheet": "Schema",
+        "rows": [
+          62,
+          64
+        ],
+        "field_cell": "C62",
+        "constraint_cell": "E62"
+      },
+      "month_index": 10,
+      "minimum": 0,
+      "maximum": 9223372036854775807
+    },
+    {
+      "name": "ghsa_low_count_M11",
+      "type": "integer",
+      "required": true,
+      "nullable": false,
+      "official_type": "Integer (64 bit signed)",
+      "constraints": "Required; value >= 0",
+      "origin": "Derived from historical GitHub-reviewed advisories: publication, npm package mapping, and severity",
+      "description": "Distinct qualifying GHSAs naming this package, published during M11, with low severity at prediction.",
+      "source": {
+        "sheet": "Schema",
+        "rows": [
+          62,
+          64
+        ],
+        "field_cell": "C62",
+        "constraint_cell": "E62"
+      },
+      "month_index": 11,
+      "minimum": 0,
+      "maximum": 9223372036854775807
+    },
+    {
+      "name": "ghsa_moderate_count_M0",
+      "type": "integer",
+      "required": true,
+      "nullable": false,
+      "official_type": "Integer (64 bit signed)",
+      "constraints": "Required; value >= 0",
+      "origin": "Derived from historical GitHub-reviewed advisories: publication, npm package mapping, and severity",
+      "description": "Distinct qualifying GHSAs naming this package, published during M0, with moderate severity at prediction.",
+      "source": {
+        "sheet": "Schema",
+        "rows": [
+          65,
+          67
+        ],
+        "field_cell": "C65",
+        "constraint_cell": "E65"
+      },
+      "month_index": 0,
+      "minimum": 0,
+      "maximum": 9223372036854775807
+    },
+    {
+      "name": "ghsa_moderate_count_M1",
+      "type": "integer",
+      "required": true,
+      "nullable": false,
+      "official_type": "Integer (64 bit signed)",
+      "constraints": "Required; value >= 0",
+      "origin": "Derived from historical GitHub-reviewed advisories: publication, npm package mapping, and severity",
+      "description": "Distinct qualifying GHSAs naming this package, published during M1, with moderate severity at prediction.",
+      "source": {
+        "sheet": "Schema",
+        "rows": [
+          65,
+          67
+        ],
+        "field_cell": "C65",
+        "constraint_cell": "E65"
+      },
+      "month_index": 1,
+      "minimum": 0,
+      "maximum": 9223372036854775807
+    },
+    {
+      "name": "ghsa_moderate_count_M2",
+      "type": "integer",
+      "required": true,
+      "nullable": false,
+      "official_type": "Integer (64 bit signed)",
+      "constraints": "Required; value >= 0",
+      "origin": "Derived from historical GitHub-reviewed advisories: publication, npm package mapping, and severity",
+      "description": "Distinct qualifying GHSAs naming this package, published during M2, with moderate severity at prediction.",
+      "source": {
+        "sheet": "Schema",
+        "rows": [
+          65,
+          67
+        ],
+        "field_cell": "C65",
+        "constraint_cell": "E65"
+      },
+      "month_index": 2,
+      "minimum": 0,
+      "maximum": 9223372036854775807
+    },
+    {
+      "name": "ghsa_moderate_count_M3",
+      "type": "integer",
+      "required": true,
+      "nullable": false,
+      "official_type": "Integer (64 bit signed)",
+      "constraints": "Required; value >= 0",
+      "origin": "Derived from historical GitHub-reviewed advisories: publication, npm package mapping, and severity",
+      "description": "Distinct qualifying GHSAs naming this package, published during M3, with moderate severity at prediction.",
+      "source": {
+        "sheet": "Schema",
+        "rows": [
+          65,
+          67
+        ],
+        "field_cell": "C65",
+        "constraint_cell": "E65"
+      },
+      "month_index": 3,
+      "minimum": 0,
+      "maximum": 9223372036854775807
+    },
+    {
+      "name": "ghsa_moderate_count_M4",
+      "type": "integer",
+      "required": true,
+      "nullable": false,
+      "official_type": "Integer (64 bit signed)",
+      "constraints": "Required; value >= 0",
+      "origin": "Derived from historical GitHub-reviewed advisories: publication, npm package mapping, and severity",
+      "description": "Distinct qualifying GHSAs naming this package, published during M4, with moderate severity at prediction.",
+      "source": {
+        "sheet": "Schema",
+        "rows": [
+          65,
+          67
+        ],
+        "field_cell": "C65",
+        "constraint_cell": "E65"
+      },
+      "month_index": 4,
+      "minimum": 0,
+      "maximum": 9223372036854775807
+    },
+    {
+      "name": "ghsa_moderate_count_M5",
+      "type": "integer",
+      "required": true,
+      "nullable": false,
+      "official_type": "Integer (64 bit signed)",
+      "constraints": "Required; value >= 0",
+      "origin": "Derived from historical GitHub-reviewed advisories: publication, npm package mapping, and severity",
+      "description": "Distinct qualifying GHSAs naming this package, published during M5, with moderate severity at prediction.",
+      "source": {
+        "sheet": "Schema",
+        "rows": [
+          65,
+          67
+        ],
+        "field_cell": "C65",
+        "constraint_cell": "E65"
+      },
+      "month_index": 5,
+      "minimum": 0,
+      "maximum": 9223372036854775807
+    },
+    {
+      "name": "ghsa_moderate_count_M6",
+      "type": "integer",
+      "required": true,
+      "nullable": false,
+      "official_type": "Integer (64 bit signed)",
+      "constraints": "Required; value >= 0",
+      "origin": "Derived from historical GitHub-reviewed advisories: publication, npm package mapping, and severity",
+      "description": "Distinct qualifying GHSAs naming this package, published during M6, with moderate severity at prediction.",
+      "source": {
+        "sheet": "Schema",
+        "rows": [
+          65,
+          67
+        ],
+        "field_cell": "C65",
+        "constraint_cell": "E65"
+      },
+      "month_index": 6,
+      "minimum": 0,
+      "maximum": 9223372036854775807
+    },
+    {
+      "name": "ghsa_moderate_count_M7",
+      "type": "integer",
+      "required": true,
+      "nullable": false,
+      "official_type": "Integer (64 bit signed)",
+      "constraints": "Required; value >= 0",
+      "origin": "Derived from historical GitHub-reviewed advisories: publication, npm package mapping, and severity",
+      "description": "Distinct qualifying GHSAs naming this package, published during M7, with moderate severity at prediction.",
+      "source": {
+        "sheet": "Schema",
+        "rows": [
+          65,
+          67
+        ],
+        "field_cell": "C65",
+        "constraint_cell": "E65"
+      },
+      "month_index": 7,
+      "minimum": 0,
+      "maximum": 9223372036854775807
+    },
+    {
+      "name": "ghsa_moderate_count_M8",
+      "type": "integer",
+      "required": true,
+      "nullable": false,
+      "official_type": "Integer (64 bit signed)",
+      "constraints": "Required; value >= 0",
+      "origin": "Derived from historical GitHub-reviewed advisories: publication, npm package mapping, and severity",
+      "description": "Distinct qualifying GHSAs naming this package, published during M8, with moderate severity at prediction.",
+      "source": {
+        "sheet": "Schema",
+        "rows": [
+          65,
+          67
+        ],
+        "field_cell": "C65",
+        "constraint_cell": "E65"
+      },
+      "month_index": 8,
+      "minimum": 0,
+      "maximum": 9223372036854775807
+    },
+    {
+      "name": "ghsa_moderate_count_M9",
+      "type": "integer",
+      "required": true,
+      "nullable": false,
+      "official_type": "Integer (64 bit signed)",
+      "constraints": "Required; value >= 0",
+      "origin": "Derived from historical GitHub-reviewed advisories: publication, npm package mapping, and severity",
+      "description": "Distinct qualifying GHSAs naming this package, published during M9, with moderate severity at prediction.",
+      "source": {
+        "sheet": "Schema",
+        "rows": [
+          65,
+          67
+        ],
+        "field_cell": "C65",
+        "constraint_cell": "E65"
+      },
+      "month_index": 9,
+      "minimum": 0,
+      "maximum": 9223372036854775807
+    },
+    {
+      "name": "ghsa_moderate_count_M10",
+      "type": "integer",
+      "required": true,
+      "nullable": false,
+      "official_type": "Integer (64 bit signed)",
+      "constraints": "Required; value >= 0",
+      "origin": "Derived from historical GitHub-reviewed advisories: publication, npm package mapping, and severity",
+      "description": "Distinct qualifying GHSAs naming this package, published during M10, with moderate severity at prediction.",
+      "source": {
+        "sheet": "Schema",
+        "rows": [
+          65,
+          67
+        ],
+        "field_cell": "C65",
+        "constraint_cell": "E65"
+      },
+      "month_index": 10,
+      "minimum": 0,
+      "maximum": 9223372036854775807
+    },
+    {
+      "name": "ghsa_moderate_count_M11",
+      "type": "integer",
+      "required": true,
+      "nullable": false,
+      "official_type": "Integer (64 bit signed)",
+      "constraints": "Required; value >= 0",
+      "origin": "Derived from historical GitHub-reviewed advisories: publication, npm package mapping, and severity",
+      "description": "Distinct qualifying GHSAs naming this package, published during M11, with moderate severity at prediction.",
+      "source": {
+        "sheet": "Schema",
+        "rows": [
+          65,
+          67
+        ],
+        "field_cell": "C65",
+        "constraint_cell": "E65"
+      },
+      "month_index": 11,
+      "minimum": 0,
+      "maximum": 9223372036854775807
+    },
+    {
+      "name": "ghsa_high_count_M0",
+      "type": "integer",
+      "required": true,
+      "nullable": false,
+      "official_type": "Integer (64 bit signed)",
+      "constraints": "Required; value >= 0",
+      "origin": "Derived from historical GitHub-reviewed advisories: publication, npm package mapping, and severity",
+      "description": "Distinct qualifying GHSAs naming this package, published during M0, with high severity at prediction.",
+      "source": {
+        "sheet": "Schema",
+        "rows": [
+          68,
+          70
+        ],
+        "field_cell": "C68",
+        "constraint_cell": "E68"
+      },
+      "month_index": 0,
+      "minimum": 0,
+      "maximum": 9223372036854775807
+    },
+    {
+      "name": "ghsa_high_count_M1",
+      "type": "integer",
+      "required": true,
+      "nullable": false,
+      "official_type": "Integer (64 bit signed)",
+      "constraints": "Required; value >= 0",
+      "origin": "Derived from historical GitHub-reviewed advisories: publication, npm package mapping, and severity",
+      "description": "Distinct qualifying GHSAs naming this package, published during M1, with high severity at prediction.",
+      "source": {
+        "sheet": "Schema",
+        "rows": [
+          68,
+          70
+        ],
+        "field_cell": "C68",
+        "constraint_cell": "E68"
+      },
+      "month_index": 1,
+      "minimum": 0,
+      "maximum": 9223372036854775807
+    },
+    {
+      "name": "ghsa_high_count_M2",
+      "type": "integer",
+      "required": true,
+      "nullable": false,
+      "official_type": "Integer (64 bit signed)",
+      "constraints": "Required; value >= 0",
+      "origin": "Derived from historical GitHub-reviewed advisories: publication, npm package mapping, and severity",
+      "description": "Distinct qualifying GHSAs naming this package, published during M2, with high severity at prediction.",
+      "source": {
+        "sheet": "Schema",
+        "rows": [
+          68,
+          70
+        ],
+        "field_cell": "C68",
+        "constraint_cell": "E68"
+      },
+      "month_index": 2,
+      "minimum": 0,
+      "maximum": 9223372036854775807
+    },
+    {
+      "name": "ghsa_high_count_M3",
+      "type": "integer",
+      "required": true,
+      "nullable": false,
+      "official_type": "Integer (64 bit signed)",
+      "constraints": "Required; value >= 0",
+      "origin": "Derived from historical GitHub-reviewed advisories: publication, npm package mapping, and severity",
+      "description": "Distinct qualifying GHSAs naming this package, published during M3, with high severity at prediction.",
+      "source": {
+        "sheet": "Schema",
+        "rows": [
+          68,
+          70
+        ],
+        "field_cell": "C68",
+        "constraint_cell": "E68"
+      },
+      "month_index": 3,
+      "minimum": 0,
+      "maximum": 9223372036854775807
+    },
+    {
+      "name": "ghsa_high_count_M4",
+      "type": "integer",
+      "required": true,
+      "nullable": false,
+      "official_type": "Integer (64 bit signed)",
+      "constraints": "Required; value >= 0",
+      "origin": "Derived from historical GitHub-reviewed advisories: publication, npm package mapping, and severity",
+      "description": "Distinct qualifying GHSAs naming this package, published during M4, with high severity at prediction.",
+      "source": {
+        "sheet": "Schema",
+        "rows": [
+          68,
+          70
+        ],
+        "field_cell": "C68",
+        "constraint_cell": "E68"
+      },
+      "month_index": 4,
+      "minimum": 0,
+      "maximum": 9223372036854775807
+    },
+    {
+      "name": "ghsa_high_count_M5",
+      "type": "integer",
+      "required": true,
+      "nullable": false,
+      "official_type": "Integer (64 bit signed)",
+      "constraints": "Required; value >= 0",
+      "origin": "Derived from historical GitHub-reviewed advisories: publication, npm package mapping, and severity",
+      "description": "Distinct qualifying GHSAs naming this package, published during M5, with high severity at prediction.",
+      "source": {
+        "sheet": "Schema",
+        "rows": [
+          68,
+          70
+        ],
+        "field_cell": "C68",
+        "constraint_cell": "E68"
+      },
+      "month_index": 5,
+      "minimum": 0,
+      "maximum": 9223372036854775807
+    },
+    {
+      "name": "ghsa_high_count_M6",
+      "type": "integer",
+      "required": true,
+      "nullable": false,
+      "official_type": "Integer (64 bit signed)",
+      "constraints": "Required; value >= 0",
+      "origin": "Derived from historical GitHub-reviewed advisories: publication, npm package mapping, and severity",
+      "description": "Distinct qualifying GHSAs naming this package, published during M6, with high severity at prediction.",
+      "source": {
+        "sheet": "Schema",
+        "rows": [
+          68,
+          70
+        ],
+        "field_cell": "C68",
+        "constraint_cell": "E68"
+      },
+      "month_index": 6,
+      "minimum": 0,
+      "maximum": 9223372036854775807
+    },
+    {
+      "name": "ghsa_high_count_M7",
+      "type": "integer",
+      "required": true,
+      "nullable": false,
+      "official_type": "Integer (64 bit signed)",
+      "constraints": "Required; value >= 0",
+      "origin": "Derived from historical GitHub-reviewed advisories: publication, npm package mapping, and severity",
+      "description": "Distinct qualifying GHSAs naming this package, published during M7, with high severity at prediction.",
+      "source": {
+        "sheet": "Schema",
+        "rows": [
+          68,
+          70
+        ],
+        "field_cell": "C68",
+        "constraint_cell": "E68"
+      },
+      "month_index": 7,
+      "minimum": 0,
+      "maximum": 9223372036854775807
+    },
+    {
+      "name": "ghsa_high_count_M8",
+      "type": "integer",
+      "required": true,
+      "nullable": false,
+      "official_type": "Integer (64 bit signed)",
+      "constraints": "Required; value >= 0",
+      "origin": "Derived from historical GitHub-reviewed advisories: publication, npm package mapping, and severity",
+      "description": "Distinct qualifying GHSAs naming this package, published during M8, with high severity at prediction.",
+      "source": {
+        "sheet": "Schema",
+        "rows": [
+          68,
+          70
+        ],
+        "field_cell": "C68",
+        "constraint_cell": "E68"
+      },
+      "month_index": 8,
+      "minimum": 0,
+      "maximum": 9223372036854775807
+    },
+    {
+      "name": "ghsa_high_count_M9",
+      "type": "integer",
+      "required": true,
+      "nullable": false,
+      "official_type": "Integer (64 bit signed)",
+      "constraints": "Required; value >= 0",
+      "origin": "Derived from historical GitHub-reviewed advisories: publication, npm package mapping, and severity",
+      "description": "Distinct qualifying GHSAs naming this package, published during M9, with high severity at prediction.",
+      "source": {
+        "sheet": "Schema",
+        "rows": [
+          68,
+          70
+        ],
+        "field_cell": "C68",
+        "constraint_cell": "E68"
+      },
+      "month_index": 9,
+      "minimum": 0,
+      "maximum": 9223372036854775807
+    },
+    {
+      "name": "ghsa_high_count_M10",
+      "type": "integer",
+      "required": true,
+      "nullable": false,
+      "official_type": "Integer (64 bit signed)",
+      "constraints": "Required; value >= 0",
+      "origin": "Derived from historical GitHub-reviewed advisories: publication, npm package mapping, and severity",
+      "description": "Distinct qualifying GHSAs naming this package, published during M10, with high severity at prediction.",
+      "source": {
+        "sheet": "Schema",
+        "rows": [
+          68,
+          70
+        ],
+        "field_cell": "C68",
+        "constraint_cell": "E68"
+      },
+      "month_index": 10,
+      "minimum": 0,
+      "maximum": 9223372036854775807
+    },
+    {
+      "name": "ghsa_high_count_M11",
+      "type": "integer",
+      "required": true,
+      "nullable": false,
+      "official_type": "Integer (64 bit signed)",
+      "constraints": "Required; value >= 0",
+      "origin": "Derived from historical GitHub-reviewed advisories: publication, npm package mapping, and severity",
+      "description": "Distinct qualifying GHSAs naming this package, published during M11, with high severity at prediction.",
+      "source": {
+        "sheet": "Schema",
+        "rows": [
+          68,
+          70
+        ],
+        "field_cell": "C68",
+        "constraint_cell": "E68"
+      },
+      "month_index": 11,
+      "minimum": 0,
+      "maximum": 9223372036854775807
+    },
+    {
+      "name": "ghsa_critical_count_M0",
+      "type": "integer",
+      "required": true,
+      "nullable": false,
+      "official_type": "Integer (64 bit signed)",
+      "constraints": "Required; value >= 0",
+      "origin": "Derived from historical GitHub-reviewed advisories: publication, npm package mapping, and severity",
+      "description": "Distinct qualifying GHSAs naming this package, published during M0, with critical severity at prediction.",
+      "source": {
+        "sheet": "Schema",
+        "rows": [
+          71,
+          73
+        ],
+        "field_cell": "C71",
+        "constraint_cell": "E71"
+      },
+      "month_index": 0,
+      "minimum": 0,
+      "maximum": 9223372036854775807
+    },
+    {
+      "name": "ghsa_critical_count_M1",
+      "type": "integer",
+      "required": true,
+      "nullable": false,
+      "official_type": "Integer (64 bit signed)",
+      "constraints": "Required; value >= 0",
+      "origin": "Derived from historical GitHub-reviewed advisories: publication, npm package mapping, and severity",
+      "description": "Distinct qualifying GHSAs naming this package, published during M1, with critical severity at prediction.",
+      "source": {
+        "sheet": "Schema",
+        "rows": [
+          71,
+          73
+        ],
+        "field_cell": "C71",
+        "constraint_cell": "E71"
+      },
+      "month_index": 1,
+      "minimum": 0,
+      "maximum": 9223372036854775807
+    },
+    {
+      "name": "ghsa_critical_count_M2",
+      "type": "integer",
+      "required": true,
+      "nullable": false,
+      "official_type": "Integer (64 bit signed)",
+      "constraints": "Required; value >= 0",
+      "origin": "Derived from historical GitHub-reviewed advisories: publication, npm package mapping, and severity",
+      "description": "Distinct qualifying GHSAs naming this package, published during M2, with critical severity at prediction.",
+      "source": {
+        "sheet": "Schema",
+        "rows": [
+          71,
+          73
+        ],
+        "field_cell": "C71",
+        "constraint_cell": "E71"
+      },
+      "month_index": 2,
+      "minimum": 0,
+      "maximum": 9223372036854775807
+    },
+    {
+      "name": "ghsa_critical_count_M3",
+      "type": "integer",
+      "required": true,
+      "nullable": false,
+      "official_type": "Integer (64 bit signed)",
+      "constraints": "Required; value >= 0",
+      "origin": "Derived from historical GitHub-reviewed advisories: publication, npm package mapping, and severity",
+      "description": "Distinct qualifying GHSAs naming this package, published during M3, with critical severity at prediction.",
+      "source": {
+        "sheet": "Schema",
+        "rows": [
+          71,
+          73
+        ],
+        "field_cell": "C71",
+        "constraint_cell": "E71"
+      },
+      "month_index": 3,
+      "minimum": 0,
+      "maximum": 9223372036854775807
+    },
+    {
+      "name": "ghsa_critical_count_M4",
+      "type": "integer",
+      "required": true,
+      "nullable": false,
+      "official_type": "Integer (64 bit signed)",
+      "constraints": "Required; value >= 0",
+      "origin": "Derived from historical GitHub-reviewed advisories: publication, npm package mapping, and severity",
+      "description": "Distinct qualifying GHSAs naming this package, published during M4, with critical severity at prediction.",
+      "source": {
+        "sheet": "Schema",
+        "rows": [
+          71,
+          73
+        ],
+        "field_cell": "C71",
+        "constraint_cell": "E71"
+      },
+      "month_index": 4,
+      "minimum": 0,
+      "maximum": 9223372036854775807
+    },
+    {
+      "name": "ghsa_critical_count_M5",
+      "type": "integer",
+      "required": true,
+      "nullable": false,
+      "official_type": "Integer (64 bit signed)",
+      "constraints": "Required; value >= 0",
+      "origin": "Derived from historical GitHub-reviewed advisories: publication, npm package mapping, and severity",
+      "description": "Distinct qualifying GHSAs naming this package, published during M5, with critical severity at prediction.",
+      "source": {
+        "sheet": "Schema",
+        "rows": [
+          71,
+          73
+        ],
+        "field_cell": "C71",
+        "constraint_cell": "E71"
+      },
+      "month_index": 5,
+      "minimum": 0,
+      "maximum": 9223372036854775807
+    },
+    {
+      "name": "ghsa_critical_count_M6",
+      "type": "integer",
+      "required": true,
+      "nullable": false,
+      "official_type": "Integer (64 bit signed)",
+      "constraints": "Required; value >= 0",
+      "origin": "Derived from historical GitHub-reviewed advisories: publication, npm package mapping, and severity",
+      "description": "Distinct qualifying GHSAs naming this package, published during M6, with critical severity at prediction.",
+      "source": {
+        "sheet": "Schema",
+        "rows": [
+          71,
+          73
+        ],
+        "field_cell": "C71",
+        "constraint_cell": "E71"
+      },
+      "month_index": 6,
+      "minimum": 0,
+      "maximum": 9223372036854775807
+    },
+    {
+      "name": "ghsa_critical_count_M7",
+      "type": "integer",
+      "required": true,
+      "nullable": false,
+      "official_type": "Integer (64 bit signed)",
+      "constraints": "Required; value >= 0",
+      "origin": "Derived from historical GitHub-reviewed advisories: publication, npm package mapping, and severity",
+      "description": "Distinct qualifying GHSAs naming this package, published during M7, with critical severity at prediction.",
+      "source": {
+        "sheet": "Schema",
+        "rows": [
+          71,
+          73
+        ],
+        "field_cell": "C71",
+        "constraint_cell": "E71"
+      },
+      "month_index": 7,
+      "minimum": 0,
+      "maximum": 9223372036854775807
+    },
+    {
+      "name": "ghsa_critical_count_M8",
+      "type": "integer",
+      "required": true,
+      "nullable": false,
+      "official_type": "Integer (64 bit signed)",
+      "constraints": "Required; value >= 0",
+      "origin": "Derived from historical GitHub-reviewed advisories: publication, npm package mapping, and severity",
+      "description": "Distinct qualifying GHSAs naming this package, published during M8, with critical severity at prediction.",
+      "source": {
+        "sheet": "Schema",
+        "rows": [
+          71,
+          73
+        ],
+        "field_cell": "C71",
+        "constraint_cell": "E71"
+      },
+      "month_index": 8,
+      "minimum": 0,
+      "maximum": 9223372036854775807
+    },
+    {
+      "name": "ghsa_critical_count_M9",
+      "type": "integer",
+      "required": true,
+      "nullable": false,
+      "official_type": "Integer (64 bit signed)",
+      "constraints": "Required; value >= 0",
+      "origin": "Derived from historical GitHub-reviewed advisories: publication, npm package mapping, and severity",
+      "description": "Distinct qualifying GHSAs naming this package, published during M9, with critical severity at prediction.",
+      "source": {
+        "sheet": "Schema",
+        "rows": [
+          71,
+          73
+        ],
+        "field_cell": "C71",
+        "constraint_cell": "E71"
+      },
+      "month_index": 9,
+      "minimum": 0,
+      "maximum": 9223372036854775807
+    },
+    {
+      "name": "ghsa_critical_count_M10",
+      "type": "integer",
+      "required": true,
+      "nullable": false,
+      "official_type": "Integer (64 bit signed)",
+      "constraints": "Required; value >= 0",
+      "origin": "Derived from historical GitHub-reviewed advisories: publication, npm package mapping, and severity",
+      "description": "Distinct qualifying GHSAs naming this package, published during M10, with critical severity at prediction.",
+      "source": {
+        "sheet": "Schema",
+        "rows": [
+          71,
+          73
+        ],
+        "field_cell": "C71",
+        "constraint_cell": "E71"
+      },
+      "month_index": 10,
+      "minimum": 0,
+      "maximum": 9223372036854775807
+    },
+    {
+      "name": "ghsa_critical_count_M11",
+      "type": "integer",
+      "required": true,
+      "nullable": false,
+      "official_type": "Integer (64 bit signed)",
+      "constraints": "Required; value >= 0",
+      "origin": "Derived from historical GitHub-reviewed advisories: publication, npm package mapping, and severity",
+      "description": "Distinct qualifying GHSAs naming this package, published during M11, with critical severity at prediction.",
+      "source": {
+        "sheet": "Schema",
+        "rows": [
+          71,
+          73
+        ],
+        "field_cell": "C71",
+        "constraint_cell": "E71"
+      },
+      "month_index": 11,
+      "minimum": 0,
+      "maximum": 9223372036854775807
+    },
+    {
+      "name": "ghsa_unknown_count_M0",
+      "type": "integer",
+      "required": true,
+      "nullable": false,
+      "official_type": "Integer (64 bit signed)",
+      "constraints": "Required; value >= 0",
+      "origin": "Derived from historical GitHub-reviewed advisories: publication, npm package mapping, and severity",
+      "description": "Distinct qualifying GHSAs naming this package, published during M0, whose severity is unknown at prediction.",
+      "source": {
+        "sheet": "Schema",
+        "rows": [
+          74,
+          76
+        ],
+        "field_cell": "C74",
+        "constraint_cell": "E74"
+      },
+      "month_index": 0,
+      "minimum": 0,
+      "maximum": 9223372036854775807
+    },
+    {
+      "name": "ghsa_unknown_count_M1",
+      "type": "integer",
+      "required": true,
+      "nullable": false,
+      "official_type": "Integer (64 bit signed)",
+      "constraints": "Required; value >= 0",
+      "origin": "Derived from historical GitHub-reviewed advisories: publication, npm package mapping, and severity",
+      "description": "Distinct qualifying GHSAs naming this package, published during M1, whose severity is unknown at prediction.",
+      "source": {
+        "sheet": "Schema",
+        "rows": [
+          74,
+          76
+        ],
+        "field_cell": "C74",
+        "constraint_cell": "E74"
+      },
+      "month_index": 1,
+      "minimum": 0,
+      "maximum": 9223372036854775807
+    },
+    {
+      "name": "ghsa_unknown_count_M2",
+      "type": "integer",
+      "required": true,
+      "nullable": false,
+      "official_type": "Integer (64 bit signed)",
+      "constraints": "Required; value >= 0",
+      "origin": "Derived from historical GitHub-reviewed advisories: publication, npm package mapping, and severity",
+      "description": "Distinct qualifying GHSAs naming this package, published during M2, whose severity is unknown at prediction.",
+      "source": {
+        "sheet": "Schema",
+        "rows": [
+          74,
+          76
+        ],
+        "field_cell": "C74",
+        "constraint_cell": "E74"
+      },
+      "month_index": 2,
+      "minimum": 0,
+      "maximum": 9223372036854775807
+    },
+    {
+      "name": "ghsa_unknown_count_M3",
+      "type": "integer",
+      "required": true,
+      "nullable": false,
+      "official_type": "Integer (64 bit signed)",
+      "constraints": "Required; value >= 0",
+      "origin": "Derived from historical GitHub-reviewed advisories: publication, npm package mapping, and severity",
+      "description": "Distinct qualifying GHSAs naming this package, published during M3, whose severity is unknown at prediction.",
+      "source": {
+        "sheet": "Schema",
+        "rows": [
+          74,
+          76
+        ],
+        "field_cell": "C74",
+        "constraint_cell": "E74"
+      },
+      "month_index": 3,
+      "minimum": 0,
+      "maximum": 9223372036854775807
+    },
+    {
+      "name": "ghsa_unknown_count_M4",
+      "type": "integer",
+      "required": true,
+      "nullable": false,
+      "official_type": "Integer (64 bit signed)",
+      "constraints": "Required; value >= 0",
+      "origin": "Derived from historical GitHub-reviewed advisories: publication, npm package mapping, and severity",
+      "description": "Distinct qualifying GHSAs naming this package, published during M4, whose severity is unknown at prediction.",
+      "source": {
+        "sheet": "Schema",
+        "rows": [
+          74,
+          76
+        ],
+        "field_cell": "C74",
+        "constraint_cell": "E74"
+      },
+      "month_index": 4,
+      "minimum": 0,
+      "maximum": 9223372036854775807
+    },
+    {
+      "name": "ghsa_unknown_count_M5",
+      "type": "integer",
+      "required": true,
+      "nullable": false,
+      "official_type": "Integer (64 bit signed)",
+      "constraints": "Required; value >= 0",
+      "origin": "Derived from historical GitHub-reviewed advisories: publication, npm package mapping, and severity",
+      "description": "Distinct qualifying GHSAs naming this package, published during M5, whose severity is unknown at prediction.",
+      "source": {
+        "sheet": "Schema",
+        "rows": [
+          74,
+          76
+        ],
+        "field_cell": "C74",
+        "constraint_cell": "E74"
+      },
+      "month_index": 5,
+      "minimum": 0,
+      "maximum": 9223372036854775807
+    },
+    {
+      "name": "ghsa_unknown_count_M6",
+      "type": "integer",
+      "required": true,
+      "nullable": false,
+      "official_type": "Integer (64 bit signed)",
+      "constraints": "Required; value >= 0",
+      "origin": "Derived from historical GitHub-reviewed advisories: publication, npm package mapping, and severity",
+      "description": "Distinct qualifying GHSAs naming this package, published during M6, whose severity is unknown at prediction.",
+      "source": {
+        "sheet": "Schema",
+        "rows": [
+          74,
+          76
+        ],
+        "field_cell": "C74",
+        "constraint_cell": "E74"
+      },
+      "month_index": 6,
+      "minimum": 0,
+      "maximum": 9223372036854775807
+    },
+    {
+      "name": "ghsa_unknown_count_M7",
+      "type": "integer",
+      "required": true,
+      "nullable": false,
+      "official_type": "Integer (64 bit signed)",
+      "constraints": "Required; value >= 0",
+      "origin": "Derived from historical GitHub-reviewed advisories: publication, npm package mapping, and severity",
+      "description": "Distinct qualifying GHSAs naming this package, published during M7, whose severity is unknown at prediction.",
+      "source": {
+        "sheet": "Schema",
+        "rows": [
+          74,
+          76
+        ],
+        "field_cell": "C74",
+        "constraint_cell": "E74"
+      },
+      "month_index": 7,
+      "minimum": 0,
+      "maximum": 9223372036854775807
+    },
+    {
+      "name": "ghsa_unknown_count_M8",
+      "type": "integer",
+      "required": true,
+      "nullable": false,
+      "official_type": "Integer (64 bit signed)",
+      "constraints": "Required; value >= 0",
+      "origin": "Derived from historical GitHub-reviewed advisories: publication, npm package mapping, and severity",
+      "description": "Distinct qualifying GHSAs naming this package, published during M8, whose severity is unknown at prediction.",
+      "source": {
+        "sheet": "Schema",
+        "rows": [
+          74,
+          76
+        ],
+        "field_cell": "C74",
+        "constraint_cell": "E74"
+      },
+      "month_index": 8,
+      "minimum": 0,
+      "maximum": 9223372036854775807
+    },
+    {
+      "name": "ghsa_unknown_count_M9",
+      "type": "integer",
+      "required": true,
+      "nullable": false,
+      "official_type": "Integer (64 bit signed)",
+      "constraints": "Required; value >= 0",
+      "origin": "Derived from historical GitHub-reviewed advisories: publication, npm package mapping, and severity",
+      "description": "Distinct qualifying GHSAs naming this package, published during M9, whose severity is unknown at prediction.",
+      "source": {
+        "sheet": "Schema",
+        "rows": [
+          74,
+          76
+        ],
+        "field_cell": "C74",
+        "constraint_cell": "E74"
+      },
+      "month_index": 9,
+      "minimum": 0,
+      "maximum": 9223372036854775807
+    },
+    {
+      "name": "ghsa_unknown_count_M10",
+      "type": "integer",
+      "required": true,
+      "nullable": false,
+      "official_type": "Integer (64 bit signed)",
+      "constraints": "Required; value >= 0",
+      "origin": "Derived from historical GitHub-reviewed advisories: publication, npm package mapping, and severity",
+      "description": "Distinct qualifying GHSAs naming this package, published during M10, whose severity is unknown at prediction.",
+      "source": {
+        "sheet": "Schema",
+        "rows": [
+          74,
+          76
+        ],
+        "field_cell": "C74",
+        "constraint_cell": "E74"
+      },
+      "month_index": 10,
+      "minimum": 0,
+      "maximum": 9223372036854775807
+    },
+    {
+      "name": "ghsa_unknown_count_M11",
+      "type": "integer",
+      "required": true,
+      "nullable": false,
+      "official_type": "Integer (64 bit signed)",
+      "constraints": "Required; value >= 0",
+      "origin": "Derived from historical GitHub-reviewed advisories: publication, npm package mapping, and severity",
+      "description": "Distinct qualifying GHSAs naming this package, published during M11, whose severity is unknown at prediction.",
+      "source": {
+        "sheet": "Schema",
+        "rows": [
+          74,
+          76
+        ],
+        "field_cell": "C74",
+        "constraint_cell": "E74"
+      },
+      "month_index": 11,
+      "minimum": 0,
+      "maximum": 9223372036854775807
+    },
+    {
+      "name": "target_ghsa_low_count_90d",
+      "type": "integer",
+      "required": true,
+      "nullable": false,
+      "official_type": "Integer (64 bit signed)",
+      "constraints": "Required; value >= 0",
+      "origin": "Derived from GitHub-reviewed advisory records at the outcome window's end",
+      "description": "Observed number of distinct qualifying new GHSA IDs published during the 90 days after prediction and affecting any version of the package, classified as low severity at the outcome window's end.",
+      "source": {
+        "sheet": "Schema",
+        "rows": [
+          78,
+          78
+        ],
+        "field_cell": "C78",
+        "constraint_cell": "E78"
+      },
+      "minimum": 0,
+      "maximum": 9223372036854775807
+    },
+    {
+      "name": "target_ghsa_moderate_count_90d",
+      "type": "integer",
+      "required": true,
+      "nullable": false,
+      "official_type": "Integer (64 bit signed)",
+      "constraints": "Required; value >= 0",
+      "origin": "Derived from GitHub-reviewed advisory records at the outcome window's end",
+      "description": "Observed number of distinct qualifying new GHSA IDs published during the 90 days after prediction and affecting any version of the package, classified as moderate severity at the outcome window's end.",
+      "source": {
+        "sheet": "Schema",
+        "rows": [
+          79,
+          79
+        ],
+        "field_cell": "C79",
+        "constraint_cell": "E79"
+      },
+      "minimum": 0,
+      "maximum": 9223372036854775807
+    },
+    {
+      "name": "target_ghsa_high_count_90d",
+      "type": "integer",
+      "required": true,
+      "nullable": false,
+      "official_type": "Integer (64 bit signed)",
+      "constraints": "Required; value >= 0",
+      "origin": "Derived from GitHub-reviewed advisory records at the outcome window's end",
+      "description": "Observed number of distinct qualifying new GHSA IDs published during the 90 days after prediction and affecting any version of the package, classified as high severity at the outcome window's end.",
+      "source": {
+        "sheet": "Schema",
+        "rows": [
+          80,
+          80
+        ],
+        "field_cell": "C80",
+        "constraint_cell": "E80"
+      },
+      "minimum": 0,
+      "maximum": 9223372036854775807
+    },
+    {
+      "name": "target_ghsa_critical_count_90d",
+      "type": "integer",
+      "required": true,
+      "nullable": false,
+      "official_type": "Integer (64 bit signed)",
+      "constraints": "Required; value >= 0",
+      "origin": "Derived from GitHub-reviewed advisory records at the outcome window's end",
+      "description": "Observed number of distinct qualifying new GHSA IDs published during the 90 days after prediction and affecting any version of the package, classified as critical severity at the outcome window's end.",
+      "source": {
+        "sheet": "Schema",
+        "rows": [
+          81,
+          81
+        ],
+        "field_cell": "C81",
+        "constraint_cell": "E81"
+      },
+      "minimum": 0,
+      "maximum": 9223372036854775807
+    },
+    {
+      "name": "target_ghsa_unknown_count_90d",
+      "type": "integer",
+      "required": true,
+      "nullable": false,
+      "official_type": "Integer (64 bit signed)",
+      "constraints": "Required; value >= 0",
+      "origin": "Derived from GitHub-reviewed advisory records at the outcome window's end",
+      "description": "Observed number of distinct qualifying new GHSA IDs published during the 90 days after prediction and affecting any version of the package, with missing or unrecognized severity at the outcome window's end.",
+      "source": {
+        "sheet": "Schema",
+        "rows": [
+          82,
+          82
+        ],
+        "field_cell": "C82",
+        "constraint_cell": "E82"
+      },
+      "minimum": 0,
+      "maximum": 9223372036854775807
+    }
+  ]
+}

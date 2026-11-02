@@ -1,0 +1,145 @@
+test_all_recognized_severities_and_unknown (test_advisories.AdvisoryTests.test_all_recognized_severities_and_unknown) ... ok
+test_conflicting_duplicate_refuses_snapshot (test_advisories.AdvisoryTests.test_conflicting_duplicate_refuses_snapshot) ... ok
+test_duplicate_documents_and_affected_entries_count_once (test_advisories.AdvisoryTests.test_duplicate_documents_and_affected_entries_count_once) ... ok
+test_empty_archive_fails (test_advisories.AdvisoryTests.test_empty_archive_fails) ... ok
+test_end_boundary_advisory_is_future_information (test_advisories.AdvisoryTests.test_end_boundary_advisory_is_future_information) ... ok
+test_exact_90_day_window (test_advisories.AdvisoryTests.test_exact_90_day_window) ... ok
+test_export_omits_narrative_but_preserves_measurements_and_source_hash (test_advisories.AdvisoryTests.test_export_omits_narrative_but_preserves_measurements_and_source_hash) ... ok
+test_future_mapping_cannot_leak_into_history (test_advisories.AdvisoryTests.test_future_mapping_cannot_leak_into_history) ... ok
+test_future_modified_timestamp_blocks_counts (test_advisories.AdvisoryTests.test_future_modified_timestamp_blocks_counts) ... ok
+test_future_review_timestamp_blocks_counts (test_advisories.AdvisoryTests.test_future_review_timestamp_blocks_counts) ... ok
+test_future_severity_revision_does_not_change_features (test_advisories.AdvisoryTests.test_future_severity_revision_does_not_change_features) ... ok
+test_known_counts_and_seventy_columns (test_advisories.AdvisoryTests.test_known_counts_and_seventy_columns) ... ok
+test_later_withdrawal_does_not_erase_historical_count (test_advisories.AdvisoryTests.test_later_withdrawal_does_not_erase_historical_count) ... ok
+test_malformed_mapping_prevents_false_complete_scan (test_advisories.AdvisoryTests.test_malformed_mapping_prevents_false_complete_scan) ... ok
+test_missing_publication_blocks_selected_package (test_advisories.AdvisoryTests.test_missing_publication_blocks_selected_package) ... ok
+test_modified_before_publication_is_a_preserved_source_warning (test_advisories.AdvisoryTests.test_modified_before_publication_is_a_preserved_source_warning) ... ok
+test_month_mapping_and_cross_year (test_advisories.AdvisoryTests.test_month_mapping_and_cross_year) ... ok
+test_package_wide_not_exact_version_matching (test_advisories.AdvisoryTests.test_package_wide_not_exact_version_matching) ... ok
+test_rejected_record_is_retained_for_independent_audit (test_advisories.AdvisoryTests.test_rejected_record_is_retained_for_independent_audit) ... ok
+test_replay_reproduces_counts_and_inventory (test_advisories.AdvisoryTests.test_replay_reproduces_counts_and_inventory) ... ok
+test_revised_publication_does_not_make_known_id_new (test_advisories.AdvisoryTests.test_revised_publication_does_not_make_known_id_new) ... ok
+test_same_cve_two_distinct_ghsas_count_twice (test_advisories.AdvisoryTests.test_same_cve_two_distinct_ghsas_count_twice) ... ok
+test_snapshot_after_cutoff_rejected (test_advisories.AdvisoryTests.test_snapshot_after_cutoff_rejected) ... ok
+test_timezone_required (test_advisories.AdvisoryTests.test_timezone_required) ... ok
+test_unknown_package_fails_instead_of_zero (test_advisories.AdvisoryTests.test_unknown_package_fails_instead_of_zero) ... ok
+test_unreviewed_record_cannot_be_silently_counted_as_zero (test_advisories.AdvisoryTests.test_unreviewed_record_cannot_be_silently_counted_as_zero) ... ok
+test_withdrawn_records_excluded_as_of_own_snapshot (test_advisories.AdvisoryTests.test_withdrawn_records_excluded_as_of_own_snapshot) ... ok
+test_wrong_archive_commit_root_fails (test_advisories.AdvisoryTests.test_wrong_archive_commit_root_fails) ... ok
+test_wrong_outcome_boundary_rejected (test_advisories.AdvisoryTests.test_wrong_outcome_boundary_rejected) ... ok
+test_zero_advisory_selection_replays_with_complete_scan_evidence (test_advisories.AdvisoryTests.test_zero_advisory_selection_replays_with_complete_scan_evidence) ... ok
+test_duplicate_days_rejected_even_identical (test_downloads.DownloadsTests.test_duplicate_days_rejected_even_identical) ... ok
+test_empty_response_has_known_zero_coverage_and_unknown_totals (test_downloads.DownloadsTests.test_empty_response_has_known_zero_coverage_and_unknown_totals) ... ok
+test_int64_overflow_rejected (test_downloads.DownloadsTests.test_int64_overflow_rejected) ... ok
+test_invalid_count_types_rejected (test_downloads.DownloadsTests.test_invalid_count_types_rejected) ... ok
+test_invalid_dates_rejected (test_downloads.DownloadsTests.test_invalid_dates_rejected) ... ok
+test_known_sums_month_mapping_and_zero_observed_day (test_downloads.DownloadsTests.test_known_sums_month_mapping_and_zero_observed_day) ... ok
+test_malformed_observation (test_downloads.DownloadsTests.test_malformed_observation) ... ok
+test_outside_input_window_rejected (test_downloads.DownloadsTests.test_outside_input_window_rejected) ... ok
+test_package_mismatch_and_missing_array (test_downloads.DownloadsTests.test_package_mismatch_and_missing_array) ... ok
+test_reported_zero_is_not_missing (test_downloads.DownloadsTests.test_reported_zero_is_not_missing) ... ok
+test_429_retry_after_then_success (test_io.HttpTests.test_429_retry_after_then_success) ... ok
+test_body_hash_and_download_file (test_io.HttpTests.test_body_hash_and_download_file) ... ok
+test_hard_404_is_not_retried (test_io.HttpTests.test_hard_404_is_not_retried) ... ok
+test_http_date_retry_after (test_io.HttpTests.test_http_date_retry_after) ... ok
+test_invalid_json_is_an_explicit_error (test_io.HttpTests.test_invalid_json_is_an_explicit_error) ... ok
+test_long_rate_wait_fails_explicitly (test_io.HttpTests.test_long_rate_wait_fails_explicitly) ... ok
+test_non_https_and_embedded_credentials_rejected (test_io.HttpTests.test_non_https_and_embedded_credentials_rejected) ... ok
+test_nonstandard_nonfinite_json_is_rejected (test_io.HttpTests.test_nonstandard_nonfinite_json_is_rejected) ... ok
+test_rate_limit_reset_then_success (test_io.HttpTests.test_rate_limit_reset_then_success) ... ok
+test_retries_are_bounded (test_io.HttpTests.test_retries_are_bounded) ... ok
+test_token_echoed_in_error_is_not_logged (test_io.HttpTests.test_token_echoed_in_error_is_not_logged) ... ok
+test_token_only_sent_to_github_and_not_provenance (test_io.HttpTests.test_token_only_sent_to_github_and_not_provenance) ... ok
+test_unprivileged_403_is_not_retried (test_io.HttpTests.test_unprivileged_403_is_not_retried) ... ok
+test_zero_retry_after_still_uses_backoff (test_io.HttpTests.test_zero_retry_after_still_uses_backoff) ... ok
+test_cross_host_rejected (test_io.PaginationTests.test_cross_host_rejected) ... ok
+test_cycle_rejected (test_io.PaginationTests.test_cycle_rejected) ... ok
+test_limit_is_not_silent_truncation (test_io.PaginationTests.test_limit_is_not_silent_truncation) ... ok
+test_nonarray_response_rejected (test_io.PaginationTests.test_nonarray_response_rejected) ... ok
+test_same_hostname_different_port_rejected (test_io.PaginationTests.test_same_hostname_different_port_rejected) ... ok
+test_sequential_pages (test_io.PaginationTests.test_sequential_pages) ... ok
+test_deterministic_gzip_and_roundtrip (test_io.StorageTests.test_deterministic_gzip_and_roundtrip) ... ok
+test_plain_json_roundtrip (test_io.StorageTests.test_plain_json_roundtrip) ... ok
+test_serialization_rejects_nonfinite_numbers (test_io.StorageTests.test_serialization_rejects_nonfinite_numbers) ... ok
+test_absent_maps_are_verified_empty_in_full_manifest (test_npm.DependencyTests.test_absent_maps_are_verified_empty_in_full_manifest) ... ok
+test_bundling_alias_and_boolean (test_npm.DependencyTests.test_bundling_alias_and_boolean) ... ok
+test_conflicting_aliases_rejected (test_npm.DependencyTests.test_conflicting_aliases_rejected) ... ok
+test_equivalent_alias_lists (test_npm.DependencyTests.test_equivalent_alias_lists) ... ok
+test_independent_maps_and_optional_peers (test_npm.DependencyTests.test_independent_maps_and_optional_peers) ... ok
+test_malformed_maps_not_zero (test_npm.DependencyTests.test_malformed_maps_not_zero) ... ok
+test_build_metadata_ignored (test_npm.SemverTests.test_build_metadata_ignored) ... ok
+test_invalid_and_prerelease_versions (test_npm.SemverTests.test_invalid_and_prerelease_versions) ... ok
+test_numeric_precedence_not_lexical (test_npm.SemverTests.test_numeric_precedence_not_lexical) ... ok
+test_purls (test_npm.SemverTests.test_purls) ... ok
+test_invalid_calendar_and_no_timezone (test_npm.TimestampTests.test_invalid_calendar_and_no_timezone) ... ok
+test_normalize_timezone_and_milliseconds (test_npm.TimestampTests.test_normalize_timezone_and_milliseconds) ... ok
+test_build_metadata_ties_are_reported (test_npm.TransformationTests.test_build_metadata_ties_are_reported) ... ok
+test_chronological_inconsistency_excludes_record (test_npm.TransformationTests.test_chronological_inconsistency_excludes_record) ... ok
+test_determinism_and_no_source_mutation (test_npm.TransformationTests.test_determinism_and_no_source_mutation) ... ok
+test_highest_semver_not_publication_timestamp_or_dist_tag (test_npm.TransformationTests.test_highest_semver_not_publication_timestamp_or_dist_tag) ... ok
+test_identity_mismatch_and_abbreviated_document (test_npm.TransformationTests.test_identity_mismatch_and_abbreviated_document) ... ok
+test_malformed_registry_map_key_is_reported (test_npm.TransformationTests.test_malformed_registry_map_key_is_reported) ... ok
+test_missing_timestamp_does_not_create_false_zero_counts (test_npm.TransformationTests.test_missing_timestamp_does_not_create_false_zero_counts) ... ok
+test_null_dependency_excludes_record (test_npm.TransformationTests.test_null_dependency_excludes_record) ... ok
+test_optional_invalid_not_coerced (test_npm.TransformationTests.test_optional_invalid_not_coerced) ... ok
+test_reject_wrong_history_length (test_npm.TransformationTests.test_reject_wrong_history_length) ... ok
+test_timestamp_only_release_counted_but_no_fabricated_record (test_npm.TransformationTests.test_timestamp_only_release_counted_but_no_fabricated_record) ... ok
+test_window_boundaries_and_month_mapping (test_npm.TransformationTests.test_window_boundaries_and_month_mapping) ... ok
+test_zero_is_preserved_for_observed_optional_metadata (test_npm.TransformationTests.test_zero_is_preserved_for_observed_optional_metadata) ... ok
+test_build_real_shape_from_synthetic_sources_and_package_count_unit (test_pipeline.PipelineIntegrationTests.test_build_real_shape_from_synthetic_sources_and_package_count_unit) ... {
+  "packages_considered": 1,
+  "packages_with_final_records": 1,
+  "valid_records": 2,
+  "schema_columns": 224,
+  "dataset_sha256": "ff23f440040ca2e70d40e425d3589532e8e2f4a94cf54a2f4eca9bb24903951c",
+  "exploratory_record_count": 0
+}
+ok
+test_failed_optional_source_remains_null_and_reported (test_pipeline.PipelineIntegrationTests.test_failed_optional_source_remains_null_and_reported) ... {
+  "packages_considered": 1,
+  "packages_with_final_records": 1,
+  "valid_records": 2,
+  "schema_columns": 224,
+  "dataset_sha256": "6386462b503a6afd6ac6b672551110fd31d06b02426982c3eca79190564e8c33",
+  "exploratory_record_count": 0
+}
+ok
+test_full_offline_rebuild_is_byte_identical (test_pipeline.PipelineIntegrationTests.test_full_offline_rebuild_is_byte_identical) ... {
+  "packages_considered": 1,
+  "packages_with_final_records": 1,
+  "valid_records": 2,
+  "schema_columns": 224,
+  "dataset_sha256": "ff23f440040ca2e70d40e425d3589532e8e2f4a94cf54a2f4eca9bb24903951c",
+  "exploratory_record_count": 0
+}
+{
+  "packages_considered": 1,
+  "packages_with_final_records": 1,
+  "valid_records": 2,
+  "schema_columns": 224,
+  "dataset_sha256": "ff23f440040ca2e70d40e425d3589532e8e2f4a94cf54a2f4eca9bb24903951c",
+  "exploratory_record_count": 0
+}
+ok
+test_source_hash_mismatch_prevents_final_dataset (test_pipeline.PipelineIntegrationTests.test_source_hash_mismatch_prevents_final_dataset) ... ok
+test_unverified_historical_counts_never_enter_final_training_data (test_pipeline.PipelineIntegrationTests.test_unverified_historical_counts_never_enter_final_training_data) ... ok
+test_exact_names_and_order_from_workbook (test_schema.SchemaTests.test_exact_names_and_order_from_workbook) ... ok
+test_initial_values_are_unknown_not_fabricated_zero (test_schema.SchemaTests.test_initial_values_are_unknown_not_fabricated_zero) ... ok
+test_month_direction_and_calendar_boundaries (test_schema.SchemaTests.test_month_direction_and_calendar_boundaries) ... ok
+test_complete_required_core_and_null_optional_valid (test_validation.ValidationTests.test_complete_required_core_and_null_optional_valid) ... ok
+test_coverage_reports_nulls_separately_from_zero (test_validation.ValidationTests.test_coverage_reports_nulls_separately_from_zero) ... ok
+test_download_coverage_boundaries_and_zero_observations (test_validation.ValidationTests.test_download_coverage_boundaries_and_zero_observations) ... ok
+test_duplicate_and_empty_datasets_rejected (test_validation.ValidationTests.test_duplicate_and_empty_datasets_rejected) ... ok
+test_example_creation_after_publication_rejected (test_validation.ValidationTests.test_example_creation_after_publication_rejected) ... ok
+test_integer_type_and_signed64_boundaries (test_validation.ValidationTests.test_integer_type_and_signed64_boundaries) ... ok
+test_missing_extra_and_reordered_columns (test_validation.ValidationTests.test_missing_extra_and_reordered_columns) ... ok
+test_monthly_ghsa_cannot_exceed_lifetime (test_validation.ValidationTests.test_monthly_ghsa_cannot_exceed_lifetime) ... ok
+test_prediction_boundary_and_no_future_months (test_validation.ValidationTests.test_prediction_boundary_and_no_future_months) ... ok
+test_purl_scopes_build_metadata_and_invalid_identities (test_validation.ValidationTests.test_purl_scopes_build_metadata_and_invalid_identities) ... ok
+test_required_missing_and_optional_null (test_validation.ValidationTests.test_required_missing_and_optional_null) ... ok
+test_timestamp_invalid_dates_precision_and_offsets (test_validation.ValidationTests.test_timestamp_invalid_dates_precision_and_offsets) ... ok
+
+----------------------------------------------------------------------
+Ran 108 tests in 0.887s
+
+OK

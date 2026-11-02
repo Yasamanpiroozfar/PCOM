@@ -1,0 +1,29 @@
+name: Validate data and reproducibility
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  offline-validation:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@v7
+        with:
+          python-version: '3.12'
+      - name: Unit and integration tests
+        run: python -B run.py test
+      - name: Validate committed records
+        run: python -B run.py validate
+      - name: Independently audit captured source facts
+        run: python -B tools/audit_sources.py
+      - name: Reproduce every processed artifact offline
+        run: python -B run.py reproduce
