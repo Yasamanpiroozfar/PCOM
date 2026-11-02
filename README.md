@@ -22,6 +22,7 @@ Run these commands from this project's directory:
 python -B run.py test
 python -B run.py build
 python -B run.py validate
+python -B tools/audit_sources.py
 python -B run.py reproduce
 ```
 
@@ -50,6 +51,8 @@ can change; reacquisition is not a promise of byte-identical upstream responses.
 Exact reproduction uses the committed, hashed captures. GitHub archives are
 identified by immutable commit SHAs; the acquisition manifest records their hashes.
 The large full archives are local cache files and are intentionally not committed.
+After acquiring those archives, `python -B tools/audit_sources.py --archives`
+also verifies retained advisory measurements against the complete original documents.
 
 GitHub's public API normally works without a token. If rate-limited, wait for the
 reported reset or set `GITHUB_TOKEN` in your environment. Never place it in a file,
@@ -111,6 +114,7 @@ their observed-day counts distinguish complete and partial coverage.
 - [Historical advisory reconstruction](docs/advisory-history.md)
 - [Data sources and sampling limitations](docs/sources.md)
 - [Final requirement audit](reports/final-audit.md)
+- [Independent review and its evidence scope](reports/independent-review.md)
 
 Course source files and the previous Homework 2 submission are preserved outside
 this dedicated project and excluded from its repository. To regenerate the

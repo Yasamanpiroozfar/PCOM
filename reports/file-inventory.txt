@@ -104,6 +104,7 @@ README.md
 reports/file-inventory.txt
 reports/final-audit.json
 reports/final-audit.md
+reports/independent-review.md
 reports/release-check.json
 reports/reproducibility.json
 reports/results.md
