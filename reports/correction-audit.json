@@ -1,0 +1,823 @@
+{
+  "checked_at": "2026-11-08T23:46:07.925Z",
+  "branch": "correction/release-origin-audit",
+  "verification_passed": true,
+  "errors": [],
+  "ready_for_submission": true,
+  "remote_ref_check_performed": true,
+  "corrected_export": {
+    "manifest_path": "data/corrected/manifest.json",
+    "manifest_sha256": "756caa01822690fcc15791684a33520f049956e2cae788942f51da4b5d7c9c6d",
+    "dataset_sha256": "ca796670ce7a4953e9e82feb46c356a678334826ac98cbc7246a246b28909462",
+    "records": 989,
+    "packages": 39
+  },
+  "original_tag": {
+    "commit": "7f3606886865302cbcb25a3151a299ea113c2b59",
+    "annotation": "ef8ff18c9fdc8116de8f2e080e12f15140dc80c0",
+    "object_type": "tag"
+  },
+  "protected_original_files": [
+    {
+      "path": "data/processed/advisory-evidence.json",
+      "initial_sha256": "5a9fabc6e3b6c7f6630041937ae9b57105853e4adcda8f4652e3ef5a1a5c1b76",
+      "current_sha256": "5a9fabc6e3b6c7f6630041937ae9b57105853e4adcda8f4652e3ef5a1a5c1b76",
+      "unchanged": true,
+      "owner_authorized_documentation_revision": false
+    },
+    {
+      "path": "data/processed/build-status.json",
+      "initial_sha256": "4aae67ca5613bb932962502702935b95680ab4af2f7c4eb12a4435f4d3f81710",
+      "current_sha256": "4aae67ca5613bb932962502702935b95680ab4af2f7c4eb12a4435f4d3f81710",
+      "unchanged": true,
+      "owner_authorized_documentation_revision": false
+    },
+    {
+      "path": "data/processed/build-validation.json",
+      "initial_sha256": "14e8499637ce4a6c7d280c31a6a11cb8cddcf3791e2dfb6b9af71ac53d10cea9",
+      "current_sha256": "14e8499637ce4a6c7d280c31a6a11cb8cddcf3791e2dfb6b9af71ac53d10cea9",
+      "unchanged": true,
+      "owner_authorized_documentation_revision": false
+    },
+    {
+      "path": "data/processed/exclusions.json",
+      "initial_sha256": "3adfb3272f269041fc2a91a6f7170760c7e992a5c0afceb8a2200b0ce950eec5",
+      "current_sha256": "3adfb3272f269041fc2a91a6f7170760c7e992a5c0afceb8a2200b0ce950eec5",
+      "unchanged": true,
+      "owner_authorized_documentation_revision": false
+    },
+    {
+      "path": "data/processed/exploratory.json",
+      "initial_sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+      "current_sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+      "unchanged": true,
+      "owner_authorized_documentation_revision": false
+    },
+    {
+      "path": "data/processed/package-reports.json",
+      "initial_sha256": "6776a03a766bcbd92e2d90fe0237be37a37d66578c2fc47b27044326fe229ccd",
+      "current_sha256": "6776a03a766bcbd92e2d90fe0237be37a37d66578c2fc47b27044326fe229ccd",
+      "unchanged": true,
+      "owner_authorized_documentation_revision": false
+    },
+    {
+      "path": "data/processed/statistics.json",
+      "initial_sha256": "b8c99370fc27fa198d05a5c8f3a9cd4a0115d6d6eae9b32ac74df6dcbcf9eb2d",
+      "current_sha256": "b8c99370fc27fa198d05a5c8f3a9cd4a0115d6d6eae9b32ac74df6dcbcf9eb2d",
+      "unchanged": true,
+      "owner_authorized_documentation_revision": false
+    },
+    {
+      "path": "data/processed/training.csv",
+      "initial_sha256": "c60de87951d20c911dc59581d01034d822c24e0a5cb88a7cd166dd2ffc0e1a50",
+      "current_sha256": "c60de87951d20c911dc59581d01034d822c24e0a5cb88a7cd166dd2ffc0e1a50",
+      "unchanged": true,
+      "owner_authorized_documentation_revision": false
+    },
+    {
+      "path": "data/processed/training.jsonl",
+      "initial_sha256": "3023382cabd7dec3e9a6a8091afd447850c31721974056fe579fc7f0ed4ac21b",
+      "current_sha256": "3023382cabd7dec3e9a6a8091afd447850c31721974056fe579fc7f0ed4ac21b",
+      "unchanged": true,
+      "owner_authorized_documentation_revision": false
+    },
+    {
+      "path": "data/provenance/acquisition.json",
+      "initial_sha256": "d3d3fdce16c4e5d2d64fba1aa000074e091348abbb2eed9309acf7f77a2475c7",
+      "current_sha256": "d3d3fdce16c4e5d2d64fba1aa000074e091348abbb2eed9309acf7f77a2475c7",
+      "unchanged": true,
+      "owner_authorized_documentation_revision": false
+    },
+    {
+      "path": "data/provenance/http-events.json",
+      "initial_sha256": "71be79c2c1dad3005ba509ba81ec369d61d0774ec90533ec38bec03fd8fa0c8e",
+      "current_sha256": "71be79c2c1dad3005ba509ba81ec369d61d0774ec90533ec38bec03fd8fa0c8e",
+      "unchanged": true,
+      "owner_authorized_documentation_revision": false
+    },
+    {
+      "path": "data/raw/advisories-history.json.gz",
+      "initial_sha256": "55c84047033650e749516ad63abeca2589af64d2b178d0a51c33ce17ffa2d2df",
+      "current_sha256": "55c84047033650e749516ad63abeca2589af64d2b178d0a51c33ce17ffa2d2df",
+      "unchanged": true,
+      "owner_authorized_documentation_revision": false
+    },
+    {
+      "path": "data/raw/advisories-outcome.json.gz",
+      "initial_sha256": "de538aa5d540c84bf217fe981d93408008c2279e3c748f58e5c2ba692eff99bd",
+      "current_sha256": "de538aa5d540c84bf217fe981d93408008c2279e3c748f58e5c2ba692eff99bd",
+      "unchanged": true,
+      "owner_authorized_documentation_revision": false
+    },
+    {
+      "path": "data/raw/downloads/%40angular%2Fcore.json.gz",
+      "initial_sha256": "6d4dcdfb6ddea47b408dcd73000b90f591a2da7b45e68250f86df33306323886",
+      "current_sha256": "6d4dcdfb6ddea47b408dcd73000b90f591a2da7b45e68250f86df33306323886",
+      "unchanged": true,
+      "owner_authorized_documentation_revision": false
+    },
+    {
+      "path": "data/raw/downloads/%40babel%2Fcore.json.gz",
+      "initial_sha256": "778d9e0d5c7853c8d368793d84ae8729a408d58593d497b21f36f49dea4ea619",
+      "current_sha256": "778d9e0d5c7853c8d368793d84ae8729a408d58593d497b21f36f49dea4ea619",
+      "unchanged": true,
+      "owner_authorized_documentation_revision": false
+    },
+    {
+      "path": "data/raw/downloads/%40hapi%2Fhapi.json.gz",
+      "initial_sha256": "c0c12cc5ed7ed3db1d9febe459e06193923c8aeacb38249c6a524bbed884855e",
+      "current_sha256": "c0c12cc5ed7ed3db1d9febe459e06193923c8aeacb38249c6a524bbed884855e",
+      "unchanged": true,
+      "owner_authorized_documentation_revision": false
+    },
+    {
+      "path": "data/raw/downloads/%40nestjs%2Fcore.json.gz",
+      "initial_sha256": "a267ef6ff0f82b4e3e4188387c74391e4f1592e58d3b3e0ebd965c0220fab410",
+      "current_sha256": "a267ef6ff0f82b4e3e4188387c74391e4f1592e58d3b3e0ebd965c0220fab410",
+      "unchanged": true,
+      "owner_authorized_documentation_revision": false
+    },
+    {
+      "path": "data/raw/downloads/ajv.json.gz",
+      "initial_sha256": "bf9dbccdc6e987ab3cfb70d3116adbd0cbae019114f57c78dfd837265447a277",
+      "current_sha256": "bf9dbccdc6e987ab3cfb70d3116adbd0cbae019114f57c78dfd837265447a277",
+      "unchanged": true,
+      "owner_authorized_documentation_revision": false
+    },
+    {
+      "path": "data/raw/downloads/axios.json.gz",
+      "initial_sha256": "6e69f52e9a4b95e9d4aa39a2ea6452b57fdd9223e5e90854907b17853dd1322a",
+      "current_sha256": "6e69f52e9a4b95e9d4aa39a2ea6452b57fdd9223e5e90854907b17853dd1322a",
+      "unchanged": true,
+      "owner_authorized_documentation_revision": false
+    },
+    {
+      "path": "data/raw/downloads/chalk.json.gz",
+      "initial_sha256": "1925cda08a75f8e872a4bd14b80c4f5774d0f96f45e65f21e1d3682321eeca0c",
+      "current_sha256": "1925cda08a75f8e872a4bd14b80c4f5774d0f96f45e65f21e1d3682321eeca0c",
+      "unchanged": true,
+      "owner_authorized_documentation_revision": false
+    },
+    {
+      "path": "data/raw/downloads/commander.json.gz",
+      "initial_sha256": "37938db2855663f1a81192db2db73cd01924521296861498b854360df4205fd4",
+      "current_sha256": "37938db2855663f1a81192db2db73cd01924521296861498b854360df4205fd4",
+      "unchanged": true,
+      "owner_authorized_documentation_revision": false
+    },
+    {
+      "path": "data/raw/downloads/esbuild.json.gz",
+      "initial_sha256": "1394b1ea7c8ad6322a2205ded9263456371049ea16e11031281ce2519475207e",
+      "current_sha256": "1394b1ea7c8ad6322a2205ded9263456371049ea16e11031281ce2519475207e",
+      "unchanged": true,
+      "owner_authorized_documentation_revision": false
+    },
+    {
+      "path": "data/raw/downloads/eslint.json.gz",
+      "initial_sha256": "c8f99e72c41084af50af9c872dad2cf348645ce44237801a1d2997b39771e75c",
+      "current_sha256": "c8f99e72c41084af50af9c872dad2cf348645ce44237801a1d2997b39771e75c",
+      "unchanged": true,
+      "owner_authorized_documentation_revision": false
+    },
+    {
+      "path": "data/raw/downloads/express.json.gz",
+      "initial_sha256": "7141ab5c9675eae14eeea36eeb476aa2cf4e4e20e03955583534c085ad910b9d",
+      "current_sha256": "7141ab5c9675eae14eeea36eeb476aa2cf4e4e20e03955583534c085ad910b9d",
+      "unchanged": true,
+      "owner_authorized_documentation_revision": false
+    },
+    {
+      "path": "data/raw/downloads/fastify.json.gz",
+      "initial_sha256": "8feb9d9a6358bc954e80d802cb4ab1686df3d5484429f27cc496ef8d967f71ec",
+      "current_sha256": "8feb9d9a6358bc954e80d802cb4ab1686df3d5484429f27cc496ef8d967f71ec",
+      "unchanged": true,
+      "owner_authorized_documentation_revision": false
+    },
+    {
+      "path": "data/raw/downloads/got.json.gz",
+      "initial_sha256": "25c3a9a94dd3df492d8e89957d7173e08b2544532a2b37cda88a902da2d888e1",
+      "current_sha256": "25c3a9a94dd3df492d8e89957d7173e08b2544532a2b37cda88a902da2d888e1",
+      "unchanged": true,
+      "owner_authorized_documentation_revision": false
+    },
+    {
+      "path": "data/raw/downloads/jest.json.gz",
+      "initial_sha256": "5577664345c8e9c31b7a744d8bfeca085a7b37b0944b75ec7d4cbefccdf97298",
+      "current_sha256": "5577664345c8e9c31b7a744d8bfeca085a7b37b0944b75ec7d4cbefccdf97298",
+      "unchanged": true,
+      "owner_authorized_documentation_revision": false
+    },
+    {
+      "path": "data/raw/downloads/joi.json.gz",
+      "initial_sha256": "138bc75de45c62320b8ba8db3573f9509215b2188a37859fadcdd83d8ca26f47",
+      "current_sha256": "138bc75de45c62320b8ba8db3573f9509215b2188a37859fadcdd83d8ca26f47",
+      "unchanged": true,
+      "owner_authorized_documentation_revision": false
+    },
+    {
+      "path": "data/raw/downloads/koa.json.gz",
+      "initial_sha256": "13d26178a97ab98bb893565bf91db2f2dc341a020bc7e9204697c170e505edc3",
+      "current_sha256": "13d26178a97ab98bb893565bf91db2f2dc341a020bc7e9204697c170e505edc3",
+      "unchanged": true,
+      "owner_authorized_documentation_revision": false
+    },
+    {
+      "path": "data/raw/downloads/lodash.json.gz",
+      "initial_sha256": "270f3c8767fbcf90efbc8f38a5d44fac17e18cc038cd72c26747c0a8dd580b76",
+      "current_sha256": "270f3c8767fbcf90efbc8f38a5d44fac17e18cc038cd72c26747c0a8dd580b76",
+      "unchanged": true,
+      "owner_authorized_documentation_revision": false
+    },
+    {
+      "path": "data/raw/downloads/marked.json.gz",
+      "initial_sha256": "fca55d31fea5576a7213e16202733a4d61d52e86caffcd2f675e7f3700c43155",
+      "current_sha256": "fca55d31fea5576a7213e16202733a4d61d52e86caffcd2f675e7f3700c43155",
+      "unchanged": true,
+      "owner_authorized_documentation_revision": false
+    },
+    {
+      "path": "data/raw/downloads/minimist.json.gz",
+      "initial_sha256": "0ca6047c49f51c1c653e10294265c30e53809eae37a5988839b46677b59379bd",
+      "current_sha256": "0ca6047c49f51c1c653e10294265c30e53809eae37a5988839b46677b59379bd",
+      "unchanged": true,
+      "owner_authorized_documentation_revision": false
+    },
+    {
+      "path": "data/raw/downloads/mocha.json.gz",
+      "initial_sha256": "173cdfdaede7e604bef058bbabdcc2a72b953cee81679b7a3e3c044184dcf7a0",
+      "current_sha256": "173cdfdaede7e604bef058bbabdcc2a72b953cee81679b7a3e3c044184dcf7a0",
+      "unchanged": true,
+      "owner_authorized_documentation_revision": false
+    },
+    {
+      "path": "data/raw/downloads/nanoid.json.gz",
+      "initial_sha256": "0a78d7428587686577c4538c35bb299ebbca641f30fe91c6d4eb3254c6adab64",
+      "current_sha256": "0a78d7428587686577c4538c35bb299ebbca641f30fe91c6d4eb3254c6adab64",
+      "unchanged": true,
+      "owner_authorized_documentation_revision": false
+    },
+    {
+      "path": "data/raw/downloads/next.json.gz",
+      "initial_sha256": "199b7f146aefdd2a655f0b8f0cef58151980f4ab4e2f218c0622f49c87ccd15b",
+      "current_sha256": "199b7f146aefdd2a655f0b8f0cef58151980f4ab4e2f218c0622f49c87ccd15b",
+      "unchanged": true,
+      "owner_authorized_documentation_revision": false
+    },
+    {
+      "path": "data/raw/downloads/prettier.json.gz",
+      "initial_sha256": "93d7ac2a5625c6e307985e4027de2870bb7ab566d733377745245deb1230a0b4",
+      "current_sha256": "93d7ac2a5625c6e307985e4027de2870bb7ab566d733377745245deb1230a0b4",
+      "unchanged": true,
+      "owner_authorized_documentation_revision": false
+    },
+    {
+      "path": "data/raw/downloads/qs.json.gz",
+      "initial_sha256": "c3425df6409f48ff67b4f7fe1dbf84be0004f6249c20373e3f411f42808392b2",
+      "current_sha256": "c3425df6409f48ff67b4f7fe1dbf84be0004f6249c20373e3f411f42808392b2",
+      "unchanged": true,
+      "owner_authorized_documentation_revision": false
+    },
+    {
+      "path": "data/raw/downloads/react.json.gz",
+      "initial_sha256": "3260d3ce234a398dc08572bdd881ef0a577cd4ccc908f8be6d5ad03f9d9cf007",
+      "current_sha256": "3260d3ce234a398dc08572bdd881ef0a577cd4ccc908f8be6d5ad03f9d9cf007",
+      "unchanged": true,
+      "owner_authorized_documentation_revision": false
+    },
+    {
+      "path": "data/raw/downloads/rollup.json.gz",
+      "initial_sha256": "56aa3c2f50d08877ccf9d4ea62de95c31da68f7821bc242f1fd5ae446f3959e1",
+      "current_sha256": "56aa3c2f50d08877ccf9d4ea62de95c31da68f7821bc242f1fd5ae446f3959e1",
+      "unchanged": true,
+      "owner_authorized_documentation_revision": false
+    },
+    {
+      "path": "data/raw/downloads/semver.json.gz",
+      "initial_sha256": "56aeeb3d5a985ea06bd2fe1a71fc97387d6575bdd18111fb9780128c02dab715",
+      "current_sha256": "56aeeb3d5a985ea06bd2fe1a71fc97387d6575bdd18111fb9780128c02dab715",
+      "unchanged": true,
+      "owner_authorized_documentation_revision": false
+    },
+    {
+      "path": "data/raw/downloads/socket.io.json.gz",
+      "initial_sha256": "d55993e2c0150f6751976279b0efa34bcf90be4b6ca93fb93e30918586affc9f",
+      "current_sha256": "d55993e2c0150f6751976279b0efa34bcf90be4b6ca93fb93e30918586affc9f",
+      "unchanged": true,
+      "owner_authorized_documentation_revision": false
+    },
+    {
+      "path": "data/raw/downloads/svelte.json.gz",
+      "initial_sha256": "8c119f0f3abe1e07fe653b1475b79748a33fc82e8c03861d160e3512e3ea3e8c",
+      "current_sha256": "8c119f0f3abe1e07fe653b1475b79748a33fc82e8c03861d160e3512e3ea3e8c",
+      "unchanged": true,
+      "owner_authorized_documentation_revision": false
+    },
+    {
+      "path": "data/raw/downloads/tar.json.gz",
+      "initial_sha256": "785e0fa2ae8a66cae75d3edb956806428c54f678c82a2f36d14d4df021b9cf5a",
+      "current_sha256": "785e0fa2ae8a66cae75d3edb956806428c54f678c82a2f36d14d4df021b9cf5a",
+      "unchanged": true,
+      "owner_authorized_documentation_revision": false
+    },
+    {
+      "path": "data/raw/downloads/typescript.json.gz",
+      "initial_sha256": "a8525c73b9ac5eaacdcdb705bc8b3ccbf708202b9f4f0dc8218e13644d97a7f7",
+      "current_sha256": "a8525c73b9ac5eaacdcdb705bc8b3ccbf708202b9f4f0dc8218e13644d97a7f7",
+      "unchanged": true,
+      "owner_authorized_documentation_revision": false
+    },
+    {
+      "path": "data/raw/downloads/undici.json.gz",
+      "initial_sha256": "93af35958c15a36f6ac7895f4d341585c12726417ab4d3914ce1d34577c20f2d",
+      "current_sha256": "93af35958c15a36f6ac7895f4d341585c12726417ab4d3914ce1d34577c20f2d",
+      "unchanged": true,
+      "owner_authorized_documentation_revision": false
+    },
+    {
+      "path": "data/raw/downloads/vite.json.gz",
+      "initial_sha256": "39e4a854846dd47a26bcc4c633fde97ce379176820d1b2f361820cb4dab806e4",
+      "current_sha256": "39e4a854846dd47a26bcc4c633fde97ce379176820d1b2f361820cb4dab806e4",
+      "unchanged": true,
+      "owner_authorized_documentation_revision": false
+    },
+    {
+      "path": "data/raw/downloads/vitest.json.gz",
+      "initial_sha256": "1137b9f2824d4c5d10703c579a99014515cb8eaecb46c605f56b17b928c8d693",
+      "current_sha256": "1137b9f2824d4c5d10703c579a99014515cb8eaecb46c605f56b17b928c8d693",
+      "unchanged": true,
+      "owner_authorized_documentation_revision": false
+    },
+    {
+      "path": "data/raw/downloads/vue.json.gz",
+      "initial_sha256": "2aa2f83662b64eb07da1b38d4c1c778f776acc174c169954f6b5b566a0f44c4f",
+      "current_sha256": "2aa2f83662b64eb07da1b38d4c1c778f776acc174c169954f6b5b566a0f44c4f",
+      "unchanged": true,
+      "owner_authorized_documentation_revision": false
+    },
+    {
+      "path": "data/raw/downloads/webpack.json.gz",
+      "initial_sha256": "f0703f7536956646b7bec1a31be88880d0124b912e9508db40acbdf5f599a7ed",
+      "current_sha256": "f0703f7536956646b7bec1a31be88880d0124b912e9508db40acbdf5f599a7ed",
+      "unchanged": true,
+      "owner_authorized_documentation_revision": false
+    },
+    {
+      "path": "data/raw/downloads/ws.json.gz",
+      "initial_sha256": "1d18d21dff2065df4a61c2d72dc161ba96814ee8d5a1cf261f5eb863110b8676",
+      "current_sha256": "1d18d21dff2065df4a61c2d72dc161ba96814ee8d5a1cf261f5eb863110b8676",
+      "unchanged": true,
+      "owner_authorized_documentation_revision": false
+    },
+    {
+      "path": "data/raw/downloads/yaml.json.gz",
+      "initial_sha256": "205e2074a01765cf57b9701352fba86a8edcd48818842dc60ba0d5a151e87151",
+      "current_sha256": "205e2074a01765cf57b9701352fba86a8edcd48818842dc60ba0d5a151e87151",
+      "unchanged": true,
+      "owner_authorized_documentation_revision": false
+    },
+    {
+      "path": "data/raw/downloads/yargs.json.gz",
+      "initial_sha256": "f8620e0ec651dbe9de69f62d50a3dcb98fff76889738cc8ebbc2eaa364270cb9",
+      "current_sha256": "f8620e0ec651dbe9de69f62d50a3dcb98fff76889738cc8ebbc2eaa364270cb9",
+      "unchanged": true,
+      "owner_authorized_documentation_revision": false
+    },
+    {
+      "path": "data/raw/downloads/zod.json.gz",
+      "initial_sha256": "6c293a0b5ba42a54331dec80c5b75c3693ea4d7096a0586e1441263e3180edb8",
+      "current_sha256": "6c293a0b5ba42a54331dec80c5b75c3693ea4d7096a0586e1441263e3180edb8",
+      "unchanged": true,
+      "owner_authorized_documentation_revision": false
+    },
+    {
+      "path": "data/raw/registry/%40angular%2Fcore.json.gz",
+      "initial_sha256": "325820026e3530b9a8224e3974f4966c736bdfe72f3f557d72da59c7eae432a2",
+      "current_sha256": "325820026e3530b9a8224e3974f4966c736bdfe72f3f557d72da59c7eae432a2",
+      "unchanged": true,
+      "owner_authorized_documentation_revision": false
+    },
+    {
+      "path": "data/raw/registry/%40babel%2Fcore.json.gz",
+      "initial_sha256": "0b5b18653e9c55bea9597813ce52ec017297a0f1d1d91ccc2c18e26508235df7",
+      "current_sha256": "0b5b18653e9c55bea9597813ce52ec017297a0f1d1d91ccc2c18e26508235df7",
+      "unchanged": true,
+      "owner_authorized_documentation_revision": false
+    },
+    {
+      "path": "data/raw/registry/%40hapi%2Fhapi.json.gz",
+      "initial_sha256": "2a103cbc6fccb4c78b064eef31198bfc9b3ca7fff320582758e2da83255d2036",
+      "current_sha256": "2a103cbc6fccb4c78b064eef31198bfc9b3ca7fff320582758e2da83255d2036",
+      "unchanged": true,
+      "owner_authorized_documentation_revision": false
+    },
+    {
+      "path": "data/raw/registry/%40nestjs%2Fcore.json.gz",
+      "initial_sha256": "f79d4bf3ece14fca0c55de9f1d0717df3d63ed616660cc5f64efdc385ec4875d",
+      "current_sha256": "f79d4bf3ece14fca0c55de9f1d0717df3d63ed616660cc5f64efdc385ec4875d",
+      "unchanged": true,
+      "owner_authorized_documentation_revision": false
+    },
+    {
+      "path": "data/raw/registry/ajv.json.gz",
+      "initial_sha256": "c0ee9be3237475f75bb4ea71d3e0f58163dc7fae5776b313b1311cdf08928619",
+      "current_sha256": "c0ee9be3237475f75bb4ea71d3e0f58163dc7fae5776b313b1311cdf08928619",
+      "unchanged": true,
+      "owner_authorized_documentation_revision": false
+    },
+    {
+      "path": "data/raw/registry/axios.json.gz",
+      "initial_sha256": "6831b0a47ae6fd467ebd2a2cf8677cab80eb3cf7b6f1d12397c06ebb2e7ae272",
+      "current_sha256": "6831b0a47ae6fd467ebd2a2cf8677cab80eb3cf7b6f1d12397c06ebb2e7ae272",
+      "unchanged": true,
+      "owner_authorized_documentation_revision": false
+    },
+    {
+      "path": "data/raw/registry/chalk.json.gz",
+      "initial_sha256": "581c04330e6bacba337a0efdfe791478e2f3c6f01a1cd028c408bcc6ef55b34b",
+      "current_sha256": "581c04330e6bacba337a0efdfe791478e2f3c6f01a1cd028c408bcc6ef55b34b",
+      "unchanged": true,
+      "owner_authorized_documentation_revision": false
+    },
+    {
+      "path": "data/raw/registry/commander.json.gz",
+      "initial_sha256": "949977ac9f0696ffb7914b251901090c19ac1201202208dd682558e49ca48c1c",
+      "current_sha256": "949977ac9f0696ffb7914b251901090c19ac1201202208dd682558e49ca48c1c",
+      "unchanged": true,
+      "owner_authorized_documentation_revision": false
+    },
+    {
+      "path": "data/raw/registry/esbuild.json.gz",
+      "initial_sha256": "8dc8485d1b621b0af13b6fd0bd89601b9c3a4b5fc516d97346cc193217d6a9e0",
+      "current_sha256": "8dc8485d1b621b0af13b6fd0bd89601b9c3a4b5fc516d97346cc193217d6a9e0",
+      "unchanged": true,
+      "owner_authorized_documentation_revision": false
+    },
+    {
+      "path": "data/raw/registry/eslint.json.gz",
+      "initial_sha256": "6ff046bd5a32027ea17a7fbb08a239f1a8e3ba48270d05307cb9502a5489fee1",
+      "current_sha256": "6ff046bd5a32027ea17a7fbb08a239f1a8e3ba48270d05307cb9502a5489fee1",
+      "unchanged": true,
+      "owner_authorized_documentation_revision": false
+    },
+    {
+      "path": "data/raw/registry/express.json.gz",
+      "initial_sha256": "87e57d0fd46e4a71ce212adb25f79283ce4ed9f8ab466e5d12b780ce61b962a9",
+      "current_sha256": "87e57d0fd46e4a71ce212adb25f79283ce4ed9f8ab466e5d12b780ce61b962a9",
+      "unchanged": true,
+      "owner_authorized_documentation_revision": false
+    },
+    {
+      "path": "data/raw/registry/fastify.json.gz",
+      "initial_sha256": "a5642453f5373730b7affe4ca0b0ba04c2a0af56b360b1892fa0f04afbb75fe2",
+      "current_sha256": "a5642453f5373730b7affe4ca0b0ba04c2a0af56b360b1892fa0f04afbb75fe2",
+      "unchanged": true,
+      "owner_authorized_documentation_revision": false
+    },
+    {
+      "path": "data/raw/registry/got.json.gz",
+      "initial_sha256": "af4b32eb0bc023d587135176ae1a73a574dfd59d946724032a9d5e02297f5906",
+      "current_sha256": "af4b32eb0bc023d587135176ae1a73a574dfd59d946724032a9d5e02297f5906",
+      "unchanged": true,
+      "owner_authorized_documentation_revision": false
+    },
+    {
+      "path": "data/raw/registry/jest.json.gz",
+      "initial_sha256": "9364d33cdb61cc63679358c2f18a17854ffad7b475ce411a4e00d3faf9270e15",
+      "current_sha256": "9364d33cdb61cc63679358c2f18a17854ffad7b475ce411a4e00d3faf9270e15",
+      "unchanged": true,
+      "owner_authorized_documentation_revision": false
+    },
+    {
+      "path": "data/raw/registry/joi.json.gz",
+      "initial_sha256": "c2cd6b17813bd6d8ddbad94fa1ebf32b4aed40b133442abc055f39bf5ab19551",
+      "current_sha256": "c2cd6b17813bd6d8ddbad94fa1ebf32b4aed40b133442abc055f39bf5ab19551",
+      "unchanged": true,
+      "owner_authorized_documentation_revision": false
+    },
+    {
+      "path": "data/raw/registry/koa.json.gz",
+      "initial_sha256": "543c91087c833ddd7c8c3f8edce0801c4dff9296b6e8efd872a9a392637f80cf",
+      "current_sha256": "543c91087c833ddd7c8c3f8edce0801c4dff9296b6e8efd872a9a392637f80cf",
+      "unchanged": true,
+      "owner_authorized_documentation_revision": false
+    },
+    {
+      "path": "data/raw/registry/lodash.json.gz",
+      "initial_sha256": "cf01858c782bfa59cc8b92af3502787f5353fc56452a68bb1183857bb736aa4d",
+      "current_sha256": "cf01858c782bfa59cc8b92af3502787f5353fc56452a68bb1183857bb736aa4d",
+      "unchanged": true,
+      "owner_authorized_documentation_revision": false
+    },
+    {
+      "path": "data/raw/registry/marked.json.gz",
+      "initial_sha256": "9be5c584b545c66ca1aee53fbd37ba6eb372bcbccef6742c8cb16ed74acf16c4",
+      "current_sha256": "9be5c584b545c66ca1aee53fbd37ba6eb372bcbccef6742c8cb16ed74acf16c4",
+      "unchanged": true,
+      "owner_authorized_documentation_revision": false
+    },
+    {
+      "path": "data/raw/registry/minimist.json.gz",
+      "initial_sha256": "11063273afac77e9259dc3589a96283d5dac219b57f0959c1fd9d34dfb3860e0",
+      "current_sha256": "11063273afac77e9259dc3589a96283d5dac219b57f0959c1fd9d34dfb3860e0",
+      "unchanged": true,
+      "owner_authorized_documentation_revision": false
+    },
+    {
+      "path": "data/raw/registry/mocha.json.gz",
+      "initial_sha256": "d7d578c736ecb1f9ef18b9e612d54ba90a5a295dbb9de9ac77595e732d0f6661",
+      "current_sha256": "d7d578c736ecb1f9ef18b9e612d54ba90a5a295dbb9de9ac77595e732d0f6661",
+      "unchanged": true,
+      "owner_authorized_documentation_revision": false
+    },
+    {
+      "path": "data/raw/registry/nanoid.json.gz",
+      "initial_sha256": "0b4254fc15af126c9becd05c6767163115c8369f8f26f1b333050aa22bb57b8c",
+      "current_sha256": "0b4254fc15af126c9becd05c6767163115c8369f8f26f1b333050aa22bb57b8c",
+      "unchanged": true,
+      "owner_authorized_documentation_revision": false
+    },
+    {
+      "path": "data/raw/registry/next.json.gz",
+      "initial_sha256": "6f1387bef3d6d369df008af5285eb29db9f643a7b552cb508fb669e1c9866eaa",
+      "current_sha256": "6f1387bef3d6d369df008af5285eb29db9f643a7b552cb508fb669e1c9866eaa",
+      "unchanged": true,
+      "owner_authorized_documentation_revision": false
+    },
+    {
+      "path": "data/raw/registry/prettier.json.gz",
+      "initial_sha256": "facdc14b4edf83078a95240f62389c4e9616b133b7adbbfc5fad08b7f4580a2b",
+      "current_sha256": "facdc14b4edf83078a95240f62389c4e9616b133b7adbbfc5fad08b7f4580a2b",
+      "unchanged": true,
+      "owner_authorized_documentation_revision": false
+    },
+    {
+      "path": "data/raw/registry/qs.json.gz",
+      "initial_sha256": "a4718052982da243f774b8166b75c371bff11988a932e2d85ddced5a5c620b86",
+      "current_sha256": "a4718052982da243f774b8166b75c371bff11988a932e2d85ddced5a5c620b86",
+      "unchanged": true,
+      "owner_authorized_documentation_revision": false
+    },
+    {
+      "path": "data/raw/registry/react.json.gz",
+      "initial_sha256": "971fa0554ea92df07b59e272191c4fec20ea24f501ef2336e5ec494b46c4206b",
+      "current_sha256": "971fa0554ea92df07b59e272191c4fec20ea24f501ef2336e5ec494b46c4206b",
+      "unchanged": true,
+      "owner_authorized_documentation_revision": false
+    },
+    {
+      "path": "data/raw/registry/rollup.json.gz",
+      "initial_sha256": "13c2e5d54a6cac59e2559b69a1d7c965242484821532898fd00d7d7040b2f519",
+      "current_sha256": "13c2e5d54a6cac59e2559b69a1d7c965242484821532898fd00d7d7040b2f519",
+      "unchanged": true,
+      "owner_authorized_documentation_revision": false
+    },
+    {
+      "path": "data/raw/registry/semver.json.gz",
+      "initial_sha256": "b9ef2944170a2c2f180e8c897d19ab1afe0989ef642f0198f64dfad4401ae47f",
+      "current_sha256": "b9ef2944170a2c2f180e8c897d19ab1afe0989ef642f0198f64dfad4401ae47f",
+      "unchanged": true,
+      "owner_authorized_documentation_revision": false
+    },
+    {
+      "path": "data/raw/registry/socket.io.json.gz",
+      "initial_sha256": "931d70f7fb7766f7bb5542b83d54aea23722a3d1d010697ed2f058ed6efb0f9d",
+      "current_sha256": "931d70f7fb7766f7bb5542b83d54aea23722a3d1d010697ed2f058ed6efb0f9d",
+      "unchanged": true,
+      "owner_authorized_documentation_revision": false
+    },
+    {
+      "path": "data/raw/registry/svelte.json.gz",
+      "initial_sha256": "367865e6b50fccb43f141d4be7178463807f7f2da826599221724f3722fa9764",
+      "current_sha256": "367865e6b50fccb43f141d4be7178463807f7f2da826599221724f3722fa9764",
+      "unchanged": true,
+      "owner_authorized_documentation_revision": false
+    },
+    {
+      "path": "data/raw/registry/tar.json.gz",
+      "initial_sha256": "ef5dc79aa62f184e6e2c7345747c191d0089f17a802564f6ea7a6f34b0d907c9",
+      "current_sha256": "ef5dc79aa62f184e6e2c7345747c191d0089f17a802564f6ea7a6f34b0d907c9",
+      "unchanged": true,
+      "owner_authorized_documentation_revision": false
+    },
+    {
+      "path": "data/raw/registry/typescript.json.gz",
+      "initial_sha256": "8837168a9f952068b4cf2a279b00febc4d6774012faf55c3f5d47ab3c70edfac",
+      "current_sha256": "8837168a9f952068b4cf2a279b00febc4d6774012faf55c3f5d47ab3c70edfac",
+      "unchanged": true,
+      "owner_authorized_documentation_revision": false
+    },
+    {
+      "path": "data/raw/registry/undici.json.gz",
+      "initial_sha256": "5cdc5f81214c187dc645367ab316772d439fa7b18e14f8cc3e4a348214d4863b",
+      "current_sha256": "5cdc5f81214c187dc645367ab316772d439fa7b18e14f8cc3e4a348214d4863b",
+      "unchanged": true,
+      "owner_authorized_documentation_revision": false
+    },
+    {
+      "path": "data/raw/registry/vite.json.gz",
+      "initial_sha256": "b48840ae622778ede1b6c7b6db35dd218c8390ab40dbf3ba5eeb7f8383f62516",
+      "current_sha256": "b48840ae622778ede1b6c7b6db35dd218c8390ab40dbf3ba5eeb7f8383f62516",
+      "unchanged": true,
+      "owner_authorized_documentation_revision": false
+    },
+    {
+      "path": "data/raw/registry/vitest.json.gz",
+      "initial_sha256": "14af5b5f986d798d6caaf31cfe53375945a0b4a6fb6443f52a259ad9b281fdae",
+      "current_sha256": "14af5b5f986d798d6caaf31cfe53375945a0b4a6fb6443f52a259ad9b281fdae",
+      "unchanged": true,
+      "owner_authorized_documentation_revision": false
+    },
+    {
+      "path": "data/raw/registry/vue.json.gz",
+      "initial_sha256": "9ae9a274b5844776ee971c00877cfd264bd147fb8626eb54a3e8a29a1c0e8520",
+      "current_sha256": "9ae9a274b5844776ee971c00877cfd264bd147fb8626eb54a3e8a29a1c0e8520",
+      "unchanged": true,
+      "owner_authorized_documentation_revision": false
+    },
+    {
+      "path": "data/raw/registry/webpack.json.gz",
+      "initial_sha256": "5889f556017111a726a554ef5c67c5fc454b3cf7a5a4800933590736516f34aa",
+      "current_sha256": "5889f556017111a726a554ef5c67c5fc454b3cf7a5a4800933590736516f34aa",
+      "unchanged": true,
+      "owner_authorized_documentation_revision": false
+    },
+    {
+      "path": "data/raw/registry/ws.json.gz",
+      "initial_sha256": "f6c5e68b645caabcb6184aa07d1fe6eb82a1554eba5901271c0339bbea02d048",
+      "current_sha256": "f6c5e68b645caabcb6184aa07d1fe6eb82a1554eba5901271c0339bbea02d048",
+      "unchanged": true,
+      "owner_authorized_documentation_revision": false
+    },
+    {
+      "path": "data/raw/registry/yaml.json.gz",
+      "initial_sha256": "931b6cac094039c3f015a21cf433ba49e858a1cf762e3a1f25616be6e92401eb",
+      "current_sha256": "931b6cac094039c3f015a21cf433ba49e858a1cf762e3a1f25616be6e92401eb",
+      "unchanged": true,
+      "owner_authorized_documentation_revision": false
+    },
+    {
+      "path": "data/raw/registry/yargs.json.gz",
+      "initial_sha256": "0c02045921faebdff991606c1533672a56a033140790b1332d83ff950b92d5f8",
+      "current_sha256": "0c02045921faebdff991606c1533672a56a033140790b1332d83ff950b92d5f8",
+      "unchanged": true,
+      "owner_authorized_documentation_revision": false
+    },
+    {
+      "path": "data/raw/registry/zod.json.gz",
+      "initial_sha256": "5a161820a2862dabd5b2af457258db394c874a1de98b786695849fc7b3c93569",
+      "current_sha256": "5a161820a2862dabd5b2af457258db394c874a1de98b786695849fc7b3c93569",
+      "unchanged": true,
+      "owner_authorized_documentation_revision": false
+    },
+    {
+      "path": "reports/file-inventory.txt",
+      "initial_sha256": "2df87ba5fb6659cacb289ce697e5e328c31c00f6f4787885ea97dadb2bee87e2",
+      "current_sha256": "2df87ba5fb6659cacb289ce697e5e328c31c00f6f4787885ea97dadb2bee87e2",
+      "unchanged": true,
+      "owner_authorized_documentation_revision": false
+    },
+    {
+      "path": "reports/final-audit.json",
+      "initial_sha256": "02bfebee7170d924acc7860b5350f05c76a199be2e0fd1086fadcf07301ce846",
+      "current_sha256": "02bfebee7170d924acc7860b5350f05c76a199be2e0fd1086fadcf07301ce846",
+      "unchanged": true,
+      "owner_authorized_documentation_revision": true
+    },
+    {
+      "path": "reports/final-audit.md",
+      "initial_sha256": "1e2a2d7237593f7020ced15f069ddf4debc2a0b3d05be89743391fdb238ab59f",
+      "current_sha256": "1e2a2d7237593f7020ced15f069ddf4debc2a0b3d05be89743391fdb238ab59f",
+      "unchanged": true,
+      "owner_authorized_documentation_revision": true
+    },
+    {
+      "path": "reports/independent-review.md",
+      "initial_sha256": "1cdf08b7023ac02b1d3aa35f24a46279947c3d570ba15e535a52cdacb24e7c49",
+      "current_sha256": "1cdf08b7023ac02b1d3aa35f24a46279947c3d570ba15e535a52cdacb24e7c49",
+      "unchanged": true,
+      "owner_authorized_documentation_revision": true
+    },
+    {
+      "path": "reports/release-check.json",
+      "initial_sha256": "c93545f3835f0d94f28c446d86b8f8ef40780d4d3422d3782a21c4ed296a83bd",
+      "current_sha256": "c93545f3835f0d94f28c446d86b8f8ef40780d4d3422d3782a21c4ed296a83bd",
+      "unchanged": true,
+      "owner_authorized_documentation_revision": true
+    },
+    {
+      "path": "reports/reproducibility.json",
+      "initial_sha256": "deb968bc8c5f56ea9f725a3f6324899fcf950fea08b802e08d60cd33585311e5",
+      "current_sha256": "deb968bc8c5f56ea9f725a3f6324899fcf950fea08b802e08d60cd33585311e5",
+      "unchanged": true,
+      "owner_authorized_documentation_revision": false
+    },
+    {
+      "path": "reports/results.md",
+      "initial_sha256": "dd8ca2930613c7f28544854b61f7fdd9421907bf826e4dca9a39a21b837d3c18",
+      "current_sha256": "dd8ca2930613c7f28544854b61f7fdd9421907bf826e4dca9a39a21b837d3c18",
+      "unchanged": true,
+      "owner_authorized_documentation_revision": false
+    },
+    {
+      "path": "reports/source-audit.json",
+      "initial_sha256": "deba77a0251ffa6446f0cdff54a74a92c6274567265a66173e5962e2ce79b91c",
+      "current_sha256": "deba77a0251ffa6446f0cdff54a74a92c6274567265a66173e5962e2ce79b91c",
+      "unchanged": true,
+      "owner_authorized_documentation_revision": false
+    },
+    {
+      "path": "reports/tests.json",
+      "initial_sha256": "d44dbc66b9a93d8040f37956d27ce3152edfa4abfa23d19625b107009118df46",
+      "current_sha256": "d44dbc66b9a93d8040f37956d27ce3152edfa4abfa23d19625b107009118df46",
+      "unchanged": true,
+      "owner_authorized_documentation_revision": false
+    },
+    {
+      "path": "reports/tests.txt",
+      "initial_sha256": "793a0cc616ac572e50faed71ce4620903a614677597cd41db1cd2508732835a4",
+      "current_sha256": "793a0cc616ac572e50faed71ce4620903a614677597cd41db1cd2508732835a4",
+      "unchanged": true,
+      "owner_authorized_documentation_revision": false
+    },
+    {
+      "path": "reports/validation.json",
+      "initial_sha256": "14e8499637ce4a6c7d280c31a6a11cb8cddcf3791e2dfb6b9af71ac53d10cea9",
+      "current_sha256": "14e8499637ce4a6c7d280c31a6a11cb8cddcf3791e2dfb6b9af71ac53d10cea9",
+      "unchanged": true,
+      "owner_authorized_documentation_revision": false
+    },
+    {
+      "path": "schema/course_evidence.json",
+      "initial_sha256": "437c122995f4cd031ff53e6f41bb56ca01e2387952bf18d657379b6a0a4cd437",
+      "current_sha256": "437c122995f4cd031ff53e6f41bb56ca01e2387952bf18d657379b6a0a4cd437",
+      "unchanged": true,
+      "owner_authorized_documentation_revision": false
+    }
+  ],
+  "remote_evidence_checked_at": "2026-11-08 23:37:58 UTC",
+  "checks": {
+    "correction-tests.json": {
+      "sha256": "654b4d9946d1b13bab3228f11f34f697c1272dd76ce04944f41c817dead9af8d",
+      "check": "successful",
+      "passed": true
+    },
+    "correction-source-audit.json": {
+      "sha256": "daaa3dbf90c6375f2b62e02993c75ba020209530b3a45b0ca44cbc99e1109501",
+      "check": "valid_candidate_derivation",
+      "passed": true
+    },
+    "correction-reproducibility-supplied.json": {
+      "sha256": "e550bb06ccb0126b5ff829786bbe83158f41cdc1726d44549a41214ca6753a93",
+      "check": "all_identical",
+      "passed": true
+    },
+    "correction-reproducibility-all-precutoff.json": {
+      "sha256": "427a9c54faccc5cbcfb40bc2468ce9bce94c45521839bb88e513cb6057246899",
+      "check": "all_identical",
+      "passed": true
+    },
+    "correction-reproducibility-primary.json": {
+      "sha256": "d3eaeb7512a53ae1eb54e0eecb6822b435c77b088fcc293d4b42175dea5334a2",
+      "check": "all_identical",
+      "passed": true
+    },
+    "correction-legacy-reproducibility.json": {
+      "sha256": "a28470888c16129677f2af75ab4d13ebd6b034deed73609548935e0798efc423",
+      "check": "all_identical",
+      "passed": true
+    },
+    "correction-legacy-source-audit.json": {
+      "sha256": "34a7958bebf859238f11ae6b27d6af46ee34c239a950debce9fee36d2d3b530e",
+      "check": "valid",
+      "passed": true
+    }
+  },
+  "scopes": {
+    "supplied": {
+      "candidate_records": 989,
+      "represented_packages": 39,
+      "structurally_valid_candidates": 989,
+      "source_verified_ghsa_packages": 39,
+      "candidate_sha256": "ca796670ce7a4953e9e82feb46c356a678334826ac98cbc7246a246b28909462",
+      "ready_for_submission": true
+    },
+    "all-precutoff": {
+      "candidate_records": 987,
+      "represented_packages": 38,
+      "structurally_valid_candidates": 987,
+      "source_verified_ghsa_packages": 39,
+      "candidate_sha256": "c8f5ca5eec22daa87955e08914995e6c34a2d365f6eb3de6c5eb739a40b4a127",
+      "ready_for_submission": false
+    }
+  },
+  "acquired_snapshot_count": 80,
+  "requested_snapshot_count": 80,
+  "requested_sources_complete": true,
+  "supplemental_source_sha256": "7ac8d92a3cdf75795bd6e0b3b1788eb5b554c0f24e5cb68b4626ce3d7eb76396",
+  "recovered_version_manifests": [
+    "axios@0.30.4",
+    "axios@1.14.1",
+    "chalk@5.6.1"
+  ],
+  "scope": "Retained sources and artifacts; historical service synchronization and mutable registry metadata are not independently established."
+}

@@ -43,5 +43,5 @@ TARGET_COLUMNS = tuple(f"target_ghsa_{severity}_count_90d" for severity in SEVER
 
 
 def blank_record() -> dict:
-    """All fields start unknown; callers must provide evidence before writing zero."""
+    """Return a schema-ordered record initialized to None."""
     return dict.fromkeys(COLUMNS, None)

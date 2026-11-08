@@ -1,9 +1,10 @@
 # Interpretation register
 
-Authority order: official Record Schema; current Homework 3 instructions; latest
-Class Worklog decisions; course schedule; older introductory proposals. This
-register distinguishes requirements from implementation choices. It does not
-claim instructor approval of unresolved choices.
+**Historical record of the original July 1 experiment. Superseded for new
+release-origin work by [the correction contract](correction-contract.md).**
+The common cutoff below was an unconfirmed choice and did not implement the
+Worklog's release anchor. No source-priority rule settles that conflict. The
+table discloses original reasoning, not current instructor approval.
 
 | Item | Evidence | Interpretation implemented | Remaining uncertainty |
 |---|---|---|---|

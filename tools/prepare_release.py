@@ -1,4 +1,4 @@
-"""Inspect the dedicated local submission; does not publish, commit, or tag."""
+"""Check submission inventory, source integrity and credential patterns."""
 from __future__ import annotations
 import gzip
 import hashlib
@@ -59,7 +59,7 @@ def main():
         for kind, expression in patterns.items():
             matches = list(re.finditer(expression, raw))
             if matches:
-                # Never copy a suspected secret into a report or terminal.
+                # Report match counts without matched credential values.
                 findings.append({"path": relative, "kind": kind, "count": len(matches)})
     originals = {}
     for name, expected in ORIGINALS.items():

@@ -1,4 +1,4 @@
-"""Write human-readable results from executed evidence; never invent success."""
+"""Summarize recorded validation and test results."""
 from pathlib import Path
 from collections import Counter
 import json

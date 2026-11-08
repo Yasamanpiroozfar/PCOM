@@ -1,7 +1,6 @@
-"""Rebuild compact replay bundles from already recorded, hash-checked archives.
+"""Rebuild replay bundles offline from hash-checked source archives.
 
-No network access and no changes to source archives. Useful after parser fixes.
-The acquisition manifest's stored bundle hashes are updated; rebuild the dataset.
+Updates acquisition-manifest bundle hashes; the dataset must then be rebuilt.
 """
 from pathlib import Path
 import sys

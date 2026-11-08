@@ -1,0 +1,114 @@
+{
+  "schema_version": 1,
+  "complete": true,
+  "fetched_at": "2026-11-08T22:14:33.449Z",
+  "selection_sha256": "feff0b03048de3285c9255f4c6a75cbf5bacf0e5c45b7ae0c8d8b1d3b0bd0d0e",
+  "original_acquisition_sha256": "d3d3fdce16c4e5d2d64fba1aa000074e091348abbb2eed9309acf7f77a2475c7",
+  "manifests": {
+    "axios": {
+      "0.30.4": {
+        "package": "axios",
+        "version": "0.30.4",
+        "published_at": "2026-03-31T01:00:57.285Z",
+        "url": "https://registry.npmmirror.com/axios/0.30.4",
+        "final_url": "https://registry.npmmirror.com/axios/0.30.4",
+        "fetched_at": "2026-11-08T22:14:35.351Z",
+        "http_status": 200,
+        "content_type": "application/json; charset=utf-8",
+        "path": "data/raw/release-manifests/axios@0.30.4.json.gz",
+        "stored_sha256": "3e22770c04d0f22d1a0bd9ee19c95b17f7d74a277062bcda81541cd4f0e35824",
+        "response_sha256": "7a22d4731588bbca9daba80978bbb0a6d1e52f346e4dbee5b21c6db3be49a721",
+        "response_bytes": 44233,
+        "source_kind": "retained_npm_mirror_version_metadata"
+      },
+      "1.14.1": {
+        "package": "axios",
+        "version": "1.14.1",
+        "published_at": "2026-03-31T00:21:58.168Z",
+        "url": "https://registry.npmmirror.com/axios/1.14.1",
+        "final_url": "https://registry.npmmirror.com/axios/1.14.1",
+        "fetched_at": "2026-11-08T22:14:35.892Z",
+        "http_status": 200,
+        "content_type": "application/json; charset=utf-8",
+        "path": "data/raw/release-manifests/axios@1.14.1.json.gz",
+        "stored_sha256": "ce67f9b2768a242bb9bafe1e92d0ced12d312d61ef2c92c2c47910a9d8d8fa54",
+        "response_sha256": "6520b45009673a68f64db59e51ecd61a400cc1f180fd4298ca4e5e0d98f79804",
+        "response_bytes": 88089,
+        "source_kind": "retained_npm_mirror_version_metadata"
+      }
+    },
+    "chalk": {
+      "5.6.1": {
+        "package": "chalk",
+        "version": "5.6.1",
+        "published_at": "2025-09-08T13:13:05.239Z",
+        "url": "https://registry.npmmirror.com/chalk/5.6.1",
+        "final_url": "https://registry.npmmirror.com/chalk/5.6.1",
+        "fetched_at": "2026-11-08T22:14:36.597Z",
+        "http_status": 200,
+        "content_type": "application/json; charset=utf-8",
+        "path": "data/raw/release-manifests/chalk@5.6.1.json.gz",
+        "stored_sha256": "98cc438c4e121549d09a2373b596342d684ba603ce0c2ca816607c9f1e528b5c",
+        "response_sha256": "e40dc66d4388b45597122a0f1a04f592d07b03cd787d19b0d10d76f2fc8852aa",
+        "response_bytes": 14673,
+        "source_kind": "retained_npm_mirror_version_metadata"
+      }
+    }
+  },
+  "requests": [
+    {
+      "package": "axios",
+      "version": "0.30.4",
+      "url": "https://registry.npmjs.org/axios/0.30.4",
+      "requested_at": "2026-11-08T22:14:34.919Z",
+      "status": 404,
+      "error_body_sha256": "6087faf9aca9ba32ffdc86d26b13e05d142d4baaf09853935f8f9b3ac409ac04",
+      "error_body_prefix": "\"version not found: 0.30.4\""
+    },
+    {
+      "package": "axios",
+      "version": "0.30.4",
+      "url": "https://registry.npmmirror.com/axios/0.30.4",
+      "requested_at": "2026-11-08T22:14:35.351Z",
+      "status": 200,
+      "response_sha256": "7a22d4731588bbca9daba80978bbb0a6d1e52f346e4dbee5b21c6db3be49a721"
+    },
+    {
+      "package": "axios",
+      "version": "1.14.1",
+      "url": "https://registry.npmjs.org/axios/1.14.1",
+      "requested_at": "2026-11-08T22:14:35.530Z",
+      "status": 404,
+      "error_body_sha256": "612d0af1977901eff71f0122904c8b573240f5e554554c3681278c377bfbe637",
+      "error_body_prefix": "\"version not found: 1.14.1\""
+    },
+    {
+      "package": "axios",
+      "version": "1.14.1",
+      "url": "https://registry.npmmirror.com/axios/1.14.1",
+      "requested_at": "2026-11-08T22:14:35.892Z",
+      "status": 200,
+      "response_sha256": "6520b45009673a68f64db59e51ecd61a400cc1f180fd4298ca4e5e0d98f79804"
+    },
+    {
+      "package": "chalk",
+      "version": "5.6.1",
+      "url": "https://registry.npmjs.org/chalk/5.6.1",
+      "requested_at": "2026-11-08T22:14:36.259Z",
+      "status": 404,
+      "error_body_sha256": "35e0d5dba88fc2e4d82947be2d63ecc0e852f869891a0a082ef89500bfef8f3c",
+      "error_body_prefix": "\"version not found: 5.6.1\""
+    },
+    {
+      "package": "chalk",
+      "version": "5.6.1",
+      "url": "https://registry.npmmirror.com/chalk/5.6.1",
+      "requested_at": "2026-11-08T22:14:36.597Z",
+      "status": 200,
+      "response_sha256": "e40dc66d4388b45597122a0f1a04f592d07b03cd787d19b0d10d76f2fc8852aa"
+    }
+  ],
+  "missing": [],
+  "source_type": "retained_public_registry_mirror_metadata",
+  "limitations": "A retained third-party registry mirror capture, not an immutable origin-time npm service response. Original publication timestamps remain sourced exclusively from the original npm registry capture."
+}

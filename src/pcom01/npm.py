@@ -1,8 +1,7 @@
-"""Pure transformations of full npm registry metadata; no network or execution.
+"""Transform full npm registry metadata fetched with Accept: application/json.
 
-The registry document must be fetched with ``Accept: application/json``.  The
-absence of a dependency map in that *full*, successfully fetched document means
-that no dependencies of that kind were declared. A null/malformed map does not.
+An absent dependency map denotes no declarations; null or malformed maps are
+invalid. Abbreviated registry responses cannot establish this distinction.
 """
 
 from __future__ import annotations
@@ -113,12 +112,11 @@ def _bundle_names(value: object, direct_names: set[str]) -> set[str]:
 
 
 def count_dependencies(manifest: Mapping) -> dict[str, int]:
-    """Count declared maps independently, including optional peers and overlap.
+    """Count declared dependency maps independently, preserving overlaps.
 
-    The bundle count measures distinct designated direct names, never installed
-    or transitive tarball contents. ``true`` designates ordinary and optional
-    runtime dependencies; ``false`` designates none. Both npm spellings work.
-    Conflicting aliases are rejected instead of guessing a precedence rule.
+    Bundles count distinct declared direct names. A true declaration includes
+    runtime and optional dependencies; false includes none. Conflicting npm
+    bundling aliases are invalid.
     """
     if not isinstance(manifest, Mapping):
         raise MetadataError("version manifest must be an object")
@@ -155,16 +153,12 @@ def transform(
     history_start: str = HISTORY_START,
     cutoff: str = CUTOFF,
 ) -> dict:
-    """Transform authentic registry metadata, with explicit exclusions.
+    """Transform stable versions published in [history_start, cutoff).
 
-    Returns ``records``, ``excluded``, ``warnings``, ``latest_semver``,
-    ``latest_semver_candidates`` (ties ignoring build metadata), and statistics.
-    Rows cover stable versions published in [history_start, cutoff); npm's
-    current dist-tags are never used. Latest is evaluated over all timestamped
-    stable versions published before cutoff, including older versions.
-
-    Output rows are intentionally partial: the caller adds independently
-    acquired GHSA/download data and all remaining optional schema fields.
+    Return partial records, exclusions, warnings and version statistics.
+    ``latest_semver`` uses all timestamped stable releases before cutoff,
+    including older releases, and reports build-metadata ties. GHSA and
+    download features are added by the caller.
     """
     if not isinstance(packument, Mapping) or packument.get("name") != package_name:
         raise MetadataError("packument name does not match the requested package")
@@ -244,8 +238,7 @@ def transform(
         warnings.append({"reason": "highest_semver_build_metadata_tie", "versions": latest_candidates})
     if not stable_count_complete:
         warnings.append({"reason": "stable_release_counts_unavailable_due_to_invalid_publication_time"})
-    # Lexical tie-break only makes the manifest deterministic. It does not assert
-    # that one build-metadata variant has higher semantic precedence.
+    # Build-metadata ties use lexical order only for deterministic output.
     latest = latest_candidates[0] if latest_candidates else None
     records.sort(key=lambda item: (stable_semver_key(item[0]), item[0]))
     record_versions = {version for version, _ in records}

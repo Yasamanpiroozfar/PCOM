@@ -1,0 +1,50 @@
+{
+  "valid_candidate_derivation": true,
+  "ready_for_submission": true,
+  "publication_permitted": false,
+  "scopes": {
+    "supplied": {
+      "valid_candidate_derivation": true,
+      "role": "primary_corrected",
+      "ready_for_submission": true,
+      "publication_permitted": false,
+      "eligible_records": 989,
+      "corrected_training_records": 989,
+      "schema_contract_verified": true,
+      "required_sources_complete": true,
+      "candidate_records_audited": 989,
+      "source_value_comparisons": 221536,
+      "errors": [],
+      "candidate_sha256": "ca796670ce7a4953e9e82feb46c356a678334826ac98cbc7246a246b28909462",
+      "structurally_valid_candidates": 989,
+      "complete_ghsa_evidence_packages": 39,
+      "history_ghsa_evidence_packages": 39,
+      "evidence_count_scope": "All source-inspected packages; includes diagnostics for packages with zero surviving rows.",
+      "represented_complete_ghsa_evidence_packages": 39
+    },
+    "all-precutoff": {
+      "valid_candidate_derivation": true,
+      "role": "sensitivity",
+      "ready_for_submission": false,
+      "publication_permitted": false,
+      "eligible_records": 987,
+      "corrected_training_records": 0,
+      "schema_contract_verified": true,
+      "required_sources_complete": true,
+      "candidate_records_audited": 987,
+      "source_value_comparisons": 221088,
+      "errors": [],
+      "candidate_sha256": "c8f5ca5eec22daa87955e08914995e6c34a2d365f6eb3de6c5eb739a40b4a127",
+      "structurally_valid_candidates": 987,
+      "complete_ghsa_evidence_packages": 39,
+      "history_ghsa_evidence_packages": 39,
+      "evidence_count_scope": "All source-inspected packages; includes diagnostics for packages with zero surviving rows.",
+      "represented_complete_ghsa_evidence_packages": 38
+    }
+  },
+  "original_acquisition_sha256": "d3d3fdce16c4e5d2d64fba1aa000074e091348abbb2eed9309acf7f77a2475c7",
+  "supplemental_source_sha256": "7ac8d92a3cdf75795bd6e0b3b1788eb5b554c0f24e5cb68b4626ce3d7eb76396",
+  "release_acquisition_sha256": "5210445420c36c559f39ce4b1260c1422e16e2c5f08223dd5943c8c83d63422a",
+  "scope": "Independent raw-source recount of every candidate field, anchor selection, exact publication timing, GHSA ID membership, CSV parity, source bindings and quarantine status; no calls to build/transform/derive.",
+  "limitations": "Authenticity is bounded by recorded hashes and historical Git mirror provenance; this does not certify exact historical GitHub service state or immutable npm metadata. Known-ID exclusion covers the earlier reviewed corpus, not all review statuses or independent first-publication history. Readiness refers to the documented supplied-version interpretation, not instructor endorsement or permission to publish."
+}

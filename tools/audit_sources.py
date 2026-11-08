@@ -1,9 +1,6 @@
-"""Independent row-by-row audit against captured raw sources, not the builders.
+"""Audit rows against captured sources with independent GHSA membership counts.
 
-This auditor deliberately does not call npm.transform or advisory.derive_features.
-It checks the produced records against source identities and independently counts
-GHSA membership. It cannot prove that a mutable public source was historically
-immutable; that limitation remains in the report.
+Does not reuse npm.transform or advisory.derive_features.
 """
 from collections import defaultdict
 from datetime import datetime, timedelta, timezone

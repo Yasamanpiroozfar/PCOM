@@ -1,9 +1,4 @@
-"""Count package-wide GHSAs from immutable historical advisory-database trees.
-
-No live advisory response is accepted as a historical snapshot. Source timestamps
-are checked in addition to the commit boundary; unknown evidence raises instead
-of being silently represented as a count of zero. See docs/advisory-history.md.
-"""
+"""Count package-wide GHSAs from validated, commit-pinned reviewed snapshots."""
 
 from __future__ import annotations
 
@@ -47,7 +42,7 @@ def iso(value: datetime) -> str:
 
 
 def severity_category(value: Any) -> str:
-    """Use GitHub's qualitative category, without inventing a CVSS conversion."""
+    """Normalize GitHub's qualitative severity; unmapped values are unknown."""
     category = value.strip().lower() if isinstance(value, str) else "unknown"
     return category if category in SEVERITIES[:-1] else "unknown"
 
@@ -98,8 +93,7 @@ class Advisory:
     document: dict[str, Any] = field(repr=False)
 
     def active_before(self, boundary: datetime) -> bool:
-        # All boundaries are exclusive; a withdrawal at the boundary is not
-        # present in the permitted strictly-earlier snapshot.
+        # A withdrawal at the exclusive boundary is outside the snapshot.
         return self.withdrawn is None or self.withdrawn >= boundary
 
 
@@ -195,7 +189,7 @@ def _build_snapshot(
         names = _npm_packages(document)
         matched = names & selected
         if "*" in names:
-            # Explicit wildcard is not silently treated as an exact name.
+            # Wildcard mappings require interpretation for every selected package.
             matched = selected
         if not matched:
             continue
@@ -213,9 +207,8 @@ def _build_snapshot(
                 if timestamp is not None and timestamp >= boundary:
                     raise HistoricalEvidenceError(f"{label} is not before snapshot boundary")
             if modified < published:
-                # OSV defines these independently and does not require this
-                # ordering. The pinned pre-boundary tree establishes existence;
-                # neither field supplies future information. Preserve the fact.
+                # OSV does not require modified >= published; both timestamps
+                # still precede the snapshot boundary.
                 snapshot.warnings.append(f"{ghsa_id}: modified={iso(modified)} precedes published={iso(published)}; both precede boundary; historical Git tree retained without changing timestamps")
             if reviewed_at is None:
                 snapshot.warnings.append(f"{ghsa_id}: review timestamp absent; reviewed flag and historical tree establish review state")
@@ -241,7 +234,7 @@ def load_snapshot_archive(
     commit_sha: str,
     committed_at: str | datetime,
 ) -> AdvisorySnapshot:
-    """Stream a complete GitHub tar/tar.gz archive; never extract its paths."""
+    """Stream a complete GitHub archive without filesystem extraction."""
     archive_path = Path(path)
     with archive_path.open("rb") as handle:
         digest = hashlib.file_digest(handle, "sha256").hexdigest()
@@ -273,10 +266,10 @@ def load_snapshot_archive(
 
 
 def restore_snapshot(records: list[dict[str, Any]], provenance: Mapping[str, Any]) -> AdvisorySnapshot:
-    """Replay retained source records with the complete-scan provenance manifest.
+    """Restore hash-verified records and the complete reviewed-corpus inventory.
 
-    The caller must verify committed file hashes before trusting this manifest.
-    It preserves the original full corpus's ID set to distinguish truly new IDs.
+    The caller verifies file hashes. The retained inventory excludes IDs already
+    present in the earlier reviewed corpus from newly published outcomes.
     """
     snapshot = _build_snapshot(
         ((item["source_path"], item["document"]) for item in records),

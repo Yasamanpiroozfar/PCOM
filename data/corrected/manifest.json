@@ -1,0 +1,54 @@
+{
+  "complete": true,
+  "role": "primary_corrected",
+  "scope": "supplied",
+  "measurement_policy": "origin-known-fixed-calendar",
+  "ready_for_submission": true,
+  "publication_permitted": false,
+  "readiness_meaning": "Source-audited local dataset under the documented supplied-version interpretation; no claim of personal instructor approval or permission to publish.",
+  "records": 989,
+  "packages": 39,
+  "schema_columns": 224,
+  "dataset_sha256": "ca796670ce7a4953e9e82feb46c356a678334826ac98cbc7246a246b28909462",
+  "artifact_sha256": {
+    "training-records.jsonl": "ca796670ce7a4953e9e82feb46c356a678334826ac98cbc7246a246b28909462",
+    "training-records.csv": "3a493204cc17626803c61af8fe0811452c10000a9fb1e8c5940c9383b399cb66",
+    "row-metadata.json": "51b3f77a64d6d0d87cc7d5bfcd2dd758661775439dbdf2483032e801bea08969",
+    "package-decisions.json": "e2905c5360f0cc816c00864ab6c3cecda43021c6051be99b2a97c9abf0105f0a",
+    "exclusions.json": "483f7376b685acbfa70e3f42f4562907421397fc39f8978876073315f816e2f8",
+    "advisory-evidence.json": "876befedce238f480a88d4d866e5feb662014a7405bcf663e94168aabaf97967",
+    "validation.json": "2a26e439ebb7f458b1b40a916ecb675abb922c357c082fff66b9bb64bb8d7b5c",
+    "report.json": "85fade19b0cf868dbd07a68d2dfaa795eff734528451751a616942c2623e3fdf",
+    "source-audit.json": "b542b14e4eff06645c5a93caa97b490d68d75de45d5b3363cff7a81d3b522243"
+  },
+  "derivation_artifact_map": {
+    "training-records.jsonl": "candidate-records.jsonl",
+    "training-records.csv": "candidate-records.csv",
+    "row-metadata.json": "row-metadata.json",
+    "package-decisions.json": "package-decisions.json",
+    "exclusions.json": "exclusions.json",
+    "advisory-evidence.json": "advisory-evidence.json",
+    "validation.json": "validation.json",
+    "report.json": "report.json"
+  },
+  "source_sha256": {
+    "data/provenance/acquisition.json": "d3d3fdce16c4e5d2d64fba1aa000074e091348abbb2eed9309acf7f77a2475c7",
+    "data/provenance/release-acquisition.json": "5210445420c36c559f39ce4b1260c1422e16e2c5f08223dd5943c8c83d63422a",
+    "schema/record_schema.json": "bc5cca550897c5a42b80ee187b2b4f07e104471d770b77008db68f6fd572325a",
+    "data/corrections/supplied/build-status.json": "c36511340019103154cde4bf622243d9a3b83b3d6827567bf4e6a0ac0482c113",
+    "data/provenance/release-manifests.json": "7ac8d92a3cdf75795bd6e0b3b1788eb5b554c0f24e5cb68b4626ce3d7eb76396"
+  },
+  "original_submission": {
+    "path": "data/processed",
+    "tag": "initial-training-data",
+    "commit": "7f3606886865302cbcb25a3151a299ea113c2b59"
+  },
+  "successor_tag_proposal": "release-origin-training-v2",
+  "limitations": [
+    "Retrospective npm registry and downloads do not prove historical immutability or publication availability latency.",
+    "Where an original timestamped version manifest was absent, separately hashed public registry/mirror metadata supplements it in memory; mirror provenance is explicit and original sources are unchanged.",
+    "Historical GHSA reconstruction verifies a pinned public Git mirror, not exact GitHub service state.",
+    "Known-ID exclusion covers the earlier reviewed corpus, not every advisory review status or an independent first-publication history.",
+    "Highest version selected from the end-of-window inventory is a retrospective cohort definition; it does not prove future releases were predictable at the chosen origin."
+  ]
+}

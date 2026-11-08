@@ -1,0 +1,21 @@
+{
+  "complete": true,
+  "scope": "supplied",
+  "role": "primary_corrected",
+  "ready_for_submission": true,
+  "candidate_sha256": "ca796670ce7a4953e9e82feb46c356a678334826ac98cbc7246a246b28909462",
+  "original_acquisition_sha256": "d3d3fdce16c4e5d2d64fba1aa000074e091348abbb2eed9309acf7f77a2475c7",
+  "supplemental_source_sha256": "7ac8d92a3cdf75795bd6e0b3b1788eb5b554c0f24e5cb68b4626ce3d7eb76396",
+  "release_acquisition_sha256": "5210445420c36c559f39ce4b1260c1422e16e2c5f08223dd5943c8c83d63422a",
+  "schema_contract_sha256": "bc5cca550897c5a42b80ee187b2b4f07e104471d770b77008db68f6fd572325a",
+  "artifact_sha256": {
+    "candidate-records.jsonl": "ca796670ce7a4953e9e82feb46c356a678334826ac98cbc7246a246b28909462",
+    "candidate-records.csv": "3a493204cc17626803c61af8fe0811452c10000a9fb1e8c5940c9383b399cb66",
+    "package-decisions.json": "e2905c5360f0cc816c00864ab6c3cecda43021c6051be99b2a97c9abf0105f0a",
+    "exclusions.json": "483f7376b685acbfa70e3f42f4562907421397fc39f8978876073315f816e2f8",
+    "row-metadata.json": "51b3f77a64d6d0d87cc7d5bfcd2dd758661775439dbdf2483032e801bea08969",
+    "advisory-evidence.json": "876befedce238f480a88d4d866e5feb662014a7405bcf663e94168aabaf97967",
+    "validation.json": "2a26e439ebb7f458b1b40a916ecb675abb922c357c082fff66b9bb64bb8d7b5c",
+    "report.json": "85fade19b0cf868dbd07a68d2dfaa795eff734528451751a616942c2623e3fdf"
+  }
+}

@@ -1,0 +1,1965 @@
+{
+  "audit_date": "2026-11-08",
+  "release_reference_updated": "2026-11-09",
+  "status": "PRIMARY_SUPPLIED_INTERPRETATION_DOCUMENTED",
+  "sources": [
+    {
+      "filename": "PCOM Class Worklog [Public].pdf",
+      "sha256": "4227e00f8869daecbdfa83ce6c19530b777315a0319b41e0afdad273aadc6bec",
+      "quotes": [
+        {
+          "page": 1,
+          "quote": "For each prediction, input will be a time series of package version data",
+          "normalization": "whitespace collapsed only"
+        },
+        {
+          "page": 1,
+          "quote": "Always the same package",
+          "normalization": "whitespace collapsed only"
+        },
+        {
+          "page": 1,
+          "quote": "One record for each package version",
+          "normalization": "whitespace collapsed only"
+        },
+        {
+          "page": 1,
+          "quote": "Excluding prerelease versions",
+          "normalization": "whitespace collapsed only"
+        },
+        {
+          "page": 1,
+          "quote": "Over the previous 12 months (July 2025 to June 2026)",
+          "normalization": "whitespace collapsed only"
+        },
+        {
+          "page": 1,
+          "quote": "Expected output is a s four tuple",
+          "normalization": "whitespace collapsed only"
+        },
+        {
+          "page": 1,
+          "quote": "Count of vulnerabilities for CVSS score low, moderate, high, critical",
+          "normalization": "whitespace collapsed only"
+        },
+        {
+          "page": 1,
+          "quote": "Expected time frame is 90 days after the latest package version",
+          "normalization": "whitespace collapsed only"
+        },
+        {
+          "page": 1,
+          "quote": "Latest = highest semantic version (not timestamp)",
+          "normalization": "whitespace collapsed only"
+        }
+      ]
+    },
+    {
+      "filename": "PCOM Homework [Public].pdf",
+      "sha256": "b4299c1e0b6f8c68a540db3b377b82eb99aa197803dd5b405677cc906a660bea",
+      "quotes": [
+        {
+          "page": 1,
+          "quote": "Please use the PCOM-01 record schema",
+          "normalization": "whitespace collapsed only"
+        },
+        {
+          "page": 1,
+          "quote": "Homework 3: Acquire training dataset",
+          "normalization": "whitespace collapsed only"
+        },
+        {
+          "page": 1,
+          "quote": "Create training dataset from public sources",
+          "normalization": "whitespace collapsed only"
+        },
+        {
+          "page": 2,
+          "quote": "Commit code and data to your repository",
+          "normalization": "whitespace collapsed only"
+        },
+        {
+          "page": 2,
+          "quote": "Tag homework version with initial-training-data",
+          "normalization": "whitespace collapsed only"
+        },
+        {
+          "page": 2,
+          "quote": "You can (should!) keep updating the data after this",
+          "normalization": "whitespace collapsed only"
+        },
+        {
+          "page": 2,
+          "quote": "As long as you keep the required core, you can extend the data you download",
+          "normalization": "whitespace collapsed only"
+        },
+        {
+          "page": 2,
+          "quote": "You can add to the data and make it as large as you like",
+          "normalization": "whitespace collapsed only"
+        }
+      ]
+    },
+    {
+      "filename": "PCOM-01 Record Schema [Public].xlsx",
+      "sha256": "e06448e85a1bf2a2494636cef86b10890e7528bae7520dac70177a8eef95e966",
+      "field_count": 224,
+      "required_count": 78,
+      "nullable_count": 146,
+      "quotes": [
+        {
+          "cell": "Schema!H5",
+          "quote": "Identifies the exact package version selected for this row."
+        },
+        {
+          "cell": "Schema!H7",
+          "quote": "When the exact package version identified by purl was published."
+        },
+        {
+          "cell": "Schema!H18",
+          "quote": "Observed downloads across all versions of this package during M0. Sum only the daily observations available; no extrapolation."
+        },
+        {
+          "cell": "Schema!H21",
+          "quote": "Number of distinct UTC days with a valid download observation included in package_downloads_M0; a reported zero-download day is observed."
+        },
+        {
+          "cell": "Schema!H24",
+          "quote": "Distinct stable versions of this package first published during M0, including maintenance releases and excluding prereleases."
+        },
+        {
+          "cell": "Schema!H56",
+          "quote": "Distinct qualifying GHSAs naming this package, published before prediction across its full lifetime, with low severity at prediction."
+        },
+        {
+          "cell": "Schema!H57",
+          "quote": "Distinct qualifying GHSAs naming this package, published before prediction across its full lifetime, with moderate severity at prediction."
+        },
+        {
+          "cell": "Schema!H58",
+          "quote": "Distinct qualifying GHSAs naming this package, published before prediction across its full lifetime, with high severity at prediction."
+        },
+        {
+          "cell": "Schema!H59",
+          "quote": "Distinct qualifying GHSAs naming this package, published before prediction across its full lifetime, with critical severity at prediction."
+        },
+        {
+          "cell": "Schema!H60",
+          "quote": "Distinct qualifying GHSAs naming this package, published before prediction across its full lifetime, whose severity is unknown at prediction."
+        },
+        {
+          "cell": "Schema!H62",
+          "quote": "Distinct qualifying GHSAs naming this package, published during M0, with low severity at prediction."
+        },
+        {
+          "cell": "Schema!H65",
+          "quote": "Distinct qualifying GHSAs naming this package, published during M0, with moderate severity at prediction."
+        },
+        {
+          "cell": "Schema!H68",
+          "quote": "Distinct qualifying GHSAs naming this package, published during M0, with high severity at prediction."
+        },
+        {
+          "cell": "Schema!H71",
+          "quote": "Distinct qualifying GHSAs naming this package, published during M0, with critical severity at prediction."
+        },
+        {
+          "cell": "Schema!H74",
+          "quote": "Distinct qualifying GHSAs naming this package, published during M0, whose severity is unknown at prediction."
+        },
+        {
+          "cell": "Schema!H78",
+          "quote": "Observed number of distinct qualifying new GHSA IDs published during the 90 days after prediction and affecting any version of the package, classified as low severity at the outcome window's end."
+        },
+        {
+          "cell": "Schema!H79",
+          "quote": "Observed number of distinct qualifying new GHSA IDs published during the 90 days after prediction and affecting any version of the package, classified as moderate severity at the outcome window's end."
+        },
+        {
+          "cell": "Schema!H80",
+          "quote": "Observed number of distinct qualifying new GHSA IDs published during the 90 days after prediction and affecting any version of the package, classified as high severity at the outcome window's end."
+        },
+        {
+          "cell": "Schema!H81",
+          "quote": "Observed number of distinct qualifying new GHSA IDs published during the 90 days after prediction and affecting any version of the package, classified as critical severity at the outcome window's end."
+        },
+        {
+          "cell": "Schema!H82",
+          "quote": "Observed number of distinct qualifying new GHSA IDs published during the 90 days after prediction and affecting any version of the package, with missing or unrecognized severity at the outcome window's end."
+        },
+        {
+          "cell": "Documentation!A1",
+          "quote": "M0 ... M11"
+        },
+        {
+          "cell": "Documentation!B2",
+          "quote": "M0 = June 2026"
+        },
+        {
+          "cell": "Documentation!B3",
+          "quote": "M1 = May 2026"
+        },
+        {
+          "cell": "Documentation!B4",
+          "quote": "..."
+        },
+        {
+          "cell": "Documentation!B5",
+          "quote": "M11 = July 2025"
+        },
+        {
+          "cell": "Documentation!A7",
+          "quote": "CVSS score categories according to GHSA"
+        },
+        {
+          "cell": "Documentation!B8",
+          "quote": "https://docs.github.com/en/graphql/reference/security-advisories#enum-securityadvisoryseverity"
+        }
+      ]
+    },
+    {
+      "source": "User-supplied screenshot of Worklog prediction-task section, 2026-11-08",
+      "sha256": "17832b4ddd518f71fe1cf9134725c2ccb3e25e050b8465415d4d48f6def9f7cd",
+      "inspection": "Viewed directly; displayed wording agrees with quoted Worklog p1 requirements.",
+      "redistributed": false,
+      "limitation": "Does not establish the online document's revision time."
+    },
+    {
+      "source": "User-supplied forum screenshot: Clarification Regarding GHSA Attributes and Package Versions",
+      "sha256": "55b60aafff175cffa611b5e766e53c34e49ac5268120faf1484f72910e8fa5f8",
+      "redistributed": false,
+      "question_author_displayed": "Mohamed Slimane",
+      "question_timestamp_displayed": "Sunday, 1 November 2026, 9:38 PM",
+      "question_scope": "GHSA-related attributes and target attributes: entire npm package regardless of affected version versus specific package version",
+      "reply_author_displayed": "Prof Riehle",
+      "reply_timestamp_displayed": "Monday, 2 November 2026, 12:35 PM",
+      "reply_quote": "This is your choice, because your goal is to make as good a prediction as possible. If the data is imprecise, please find ways of dealing with it.",
+      "inspection": "Viewed directly; times transcribed as displayed, timezone not shown; original forum page not independently accessed.",
+      "interpretation": "Package-wide versus specific-version scope is an allowed methodological choice; retained package-wide convention is consistent with schema wording. Reply does not specify highest-SemVer universe or resolve fixed-calendar versus earlier-release timing.",
+      "resolves_package_wide_choice": true,
+      "resolves_forecast_timing": false
+    }
+  ],
+  "online_access_attempts": [
+    {
+      "source": "Worklog",
+      "url": "https://docs.google.com/document/d/1GcgKTUZRKKr99PWYqBe5FF1lrkwwl4jw8Dm5epnwwKs/edit?tab=t.0",
+      "method": "read-only web open",
+      "result": "Read request returned an access error; online content not verified",
+      "date": "2026-11-08"
+    },
+    {
+      "source": "Worklog text export",
+      "url": "https://docs.google.com/document/d/1GcgKTUZRKKr99PWYqBe5FF1lrkwwl4jw8Dm5epnwwKs/export?format=txt",
+      "method": "read-only web open",
+      "result": "Read request returned an access error; online content not verified",
+      "date": "2026-11-08"
+    },
+    {
+      "source": "Record schema",
+      "url": "https://docs.google.com/spreadsheets/d/1VDAhqsKuVsOaqCYo70yG-zmbtBmE9hv1KjhszUqZOiQ/edit?usp=sharing",
+      "method": "read-only web open",
+      "result": "Read request returned an access error; online content not verified",
+      "date": "2026-11-08"
+    },
+    {
+      "source": "Record schema HTML",
+      "url": "https://docs.google.com/spreadsheets/d/1VDAhqsKuVsOaqCYo70yG-zmbtBmE9hv1KjhszUqZOiQ/htmlview",
+      "method": "read-only web open",
+      "result": "Read request returned an access error; online content not verified",
+      "date": "2026-11-08"
+    },
+    {
+      "source": "Homework",
+      "url": "https://docs.google.com/document/d/1_iN7B5wTyFZRyTBeg9Emgu9bltCqAR2Cj_6PJ_xYsFE/edit?tab=t.0",
+      "method": "read-only web open",
+      "result": "Read request returned an access error; online content not verified",
+      "date": "2026-11-08"
+    }
+  ],
+  "online_currentness_verified": false,
+  "original_release": {
+    "tag": "initial-training-data",
+    "tag_object_sha": "ef8ff18c9fdc8116de8f2e080e12f15140dc80c0",
+    "commit_sha": "7f3606886865302cbcb25a3151a299ea113c2b59",
+    "original_data_preserved_unchanged": true,
+    "reference_scope": "Canonical annotated initial-data release as of 2026-11-09"
+  },
+  "schema_delta": {
+    "original_source_sha256": "243a32bcd9e9b6d23cbde133a790f8e81ef518ece6e1e408adbb39815f033413",
+    "current_source_sha256": "e06448e85a1bf2a2494636cef86b10890e7528bae7520dac70177a8eef95e966",
+    "names_order_types_constraints_unchanged": true,
+    "changes": [
+      {
+        "field": "ghsa_low_count",
+        "changes": {
+          "description": {
+            "before": "Distinct qualifying GHSAs naming this package, published before prediction across its full history, with low severity at prediction.",
+            "after": "Distinct qualifying GHSAs naming this package, published before prediction across its full lifetime, with low severity at prediction."
+          }
+        }
+      },
+      {
+        "field": "ghsa_moderate_count",
+        "changes": {
+          "description": {
+            "before": "Distinct qualifying GHSAs naming this package, published before prediction across its full history, with moderate severity at prediction.",
+            "after": "Distinct qualifying GHSAs naming this package, published before prediction across its full lifetime, with moderate severity at prediction."
+          }
+        }
+      },
+      {
+        "field": "ghsa_high_count",
+        "changes": {
+          "description": {
+            "before": "Distinct qualifying GHSAs naming this package, published before prediction across its full history, with high severity at prediction.",
+            "after": "Distinct qualifying GHSAs naming this package, published before prediction across its full lifetime, with high severity at prediction."
+          }
+        }
+      },
+      {
+        "field": "ghsa_critical_count",
+        "changes": {
+          "description": {
+            "before": "Distinct qualifying GHSAs naming this package, published before prediction across its full history, with critical severity at prediction.",
+            "after": "Distinct qualifying GHSAs naming this package, published before prediction across its full lifetime, with critical severity at prediction."
+          }
+        }
+      },
+      {
+        "field": "ghsa_unknown_count",
+        "changes": {
+          "description": {
+            "before": "Distinct qualifying GHSAs naming this package, published before prediction across its full history, whose severity is unknown at prediction.",
+            "after": "Distinct qualifying GHSAs naming this package, published before prediction across its full lifetime, whose severity is unknown at prediction."
+          }
+        }
+      }
+    ]
+  },
+  "original_experiment": {
+    "history_start": "2025-07-01T00:00:00.000Z",
+    "origin": "2026-07-01T00:00:00.000Z",
+    "end_90d_exclusive": "2026-09-29T00:00:00.000Z",
+    "release_origin_compliance": false
+  },
+  "cohort_summary": {
+    "sampled_packages": 40,
+    "represented_packages": 39,
+    "original_rows": 990,
+    "represented_packages_with_fixed_history_after_release_origin": 39,
+    "supplied_rows_after_selected_origin": 4,
+    "scope_disagreement_in_represented_packages": [
+      "yargs"
+    ],
+    "no_supplied_records": [
+      "minimist"
+    ]
+  },
+  "package_origin_comparison": [
+    {
+      "package": "@angular/core",
+      "source_path": "data/raw/registry/%40angular%2Fcore.json.gz",
+      "source_sha256": "325820026e3530b9a8224e3974f4966c736bdfe72f3f557d72da59c7eae432a2",
+      "original_record_count": 93,
+      "supplied_records": {
+        "candidate_count": 93,
+        "highest_semver_ties": [
+          "22.0.4"
+        ],
+        "origins": [
+          {
+            "version": "22.0.4",
+            "published_at": "2026-06-26T17:04:45.416Z",
+            "end_90d_exclusive": "2026-09-24T17:04:45.416Z",
+            "full_fixed_history_extends_after_origin": true,
+            "later_supplied_records": []
+          }
+        ]
+      },
+      "all_pre_cutoff_stable": {
+        "candidate_count": 553,
+        "highest_semver_ties": [
+          "22.0.4"
+        ],
+        "origins": [
+          {
+            "version": "22.0.4",
+            "published_at": "2026-06-26T17:04:45.416Z",
+            "end_90d_exclusive": "2026-09-24T17:04:45.416Z",
+            "full_fixed_history_extends_after_origin": true,
+            "later_supplied_records": []
+          }
+        ]
+      }
+    },
+    {
+      "package": "@babel/core",
+      "source_path": "data/raw/registry/%40babel%2Fcore.json.gz",
+      "source_sha256": "0b5b18653e9c55bea9597813ce52ec017297a0f1d1d91ccc2c18e26508235df7",
+      "original_record_count": 10,
+      "supplied_records": {
+        "candidate_count": 10,
+        "highest_semver_ties": [
+          "8.0.1"
+        ],
+        "origins": [
+          {
+            "version": "8.0.1",
+            "published_at": "2026-06-17T09:44:07.576Z",
+            "end_90d_exclusive": "2026-09-15T09:44:07.576Z",
+            "full_fixed_history_extends_after_origin": true,
+            "later_supplied_records": []
+          }
+        ]
+      },
+      "all_pre_cutoff_stable": {
+        "candidate_count": 161,
+        "highest_semver_ties": [
+          "8.0.1"
+        ],
+        "origins": [
+          {
+            "version": "8.0.1",
+            "published_at": "2026-06-17T09:44:07.576Z",
+            "end_90d_exclusive": "2026-09-15T09:44:07.576Z",
+            "full_fixed_history_extends_after_origin": true,
+            "later_supplied_records": []
+          }
+        ]
+      }
+    },
+    {
+      "package": "@hapi/hapi",
+      "source_path": "data/raw/registry/%40hapi%2Fhapi.json.gz",
+      "source_sha256": "2a103cbc6fccb4c78b064eef31198bfc9b3ca7fff320582758e2da83255d2036",
+      "original_record_count": 9,
+      "supplied_records": {
+        "candidate_count": 9,
+        "highest_semver_ties": [
+          "21.4.9"
+        ],
+        "origins": [
+          {
+            "version": "21.4.9",
+            "published_at": "2026-05-06T10:38:26.287Z",
+            "end_90d_exclusive": "2026-08-04T10:38:26.287Z",
+            "full_fixed_history_extends_after_origin": true,
+            "later_supplied_records": []
+          }
+        ]
+      },
+      "all_pre_cutoff_stable": {
+        "candidate_count": 58,
+        "highest_semver_ties": [
+          "21.4.9"
+        ],
+        "origins": [
+          {
+            "version": "21.4.9",
+            "published_at": "2026-05-06T10:38:26.287Z",
+            "end_90d_exclusive": "2026-08-04T10:38:26.287Z",
+            "full_fixed_history_extends_after_origin": true,
+            "later_supplied_records": []
+          }
+        ]
+      }
+    },
+    {
+      "package": "@nestjs/core",
+      "source_path": "data/raw/registry/%40nestjs%2Fcore.json.gz",
+      "source_sha256": "f79d4bf3ece14fca0c55de9f1d0717df3d63ed616660cc5f64efdc385ec4875d",
+      "original_record_count": 27,
+      "supplied_records": {
+        "candidate_count": 27,
+        "highest_semver_ties": [
+          "11.1.27"
+        ],
+        "origins": [
+          {
+            "version": "11.1.27",
+            "published_at": "2026-06-15T09:16:25.179Z",
+            "end_90d_exclusive": "2026-09-13T09:16:25.179Z",
+            "full_fixed_history_extends_after_origin": true,
+            "later_supplied_records": []
+          }
+        ]
+      },
+      "all_pre_cutoff_stable": {
+        "candidate_count": 394,
+        "highest_semver_ties": [
+          "11.1.27"
+        ],
+        "origins": [
+          {
+            "version": "11.1.27",
+            "published_at": "2026-06-15T09:16:25.179Z",
+            "end_90d_exclusive": "2026-09-13T09:16:25.179Z",
+            "full_fixed_history_extends_after_origin": true,
+            "later_supplied_records": []
+          }
+        ]
+      }
+    },
+    {
+      "package": "ajv",
+      "source_path": "data/raw/registry/ajv.json.gz",
+      "source_sha256": "c0ee9be3237475f75bb4ea71d3e0f58163dc7fae5776b313b1311cdf08928619",
+      "original_record_count": 4,
+      "supplied_records": {
+        "candidate_count": 4,
+        "highest_semver_ties": [
+          "8.20.0"
+        ],
+        "origins": [
+          {
+            "version": "8.20.0",
+            "published_at": "2026-04-24T15:22:16.529Z",
+            "end_90d_exclusive": "2026-07-23T15:22:16.529Z",
+            "full_fixed_history_extends_after_origin": true,
+            "later_supplied_records": []
+          }
+        ]
+      },
+      "all_pre_cutoff_stable": {
+        "candidate_count": 317,
+        "highest_semver_ties": [
+          "8.20.0"
+        ],
+        "origins": [
+          {
+            "version": "8.20.0",
+            "published_at": "2026-04-24T15:22:16.529Z",
+            "end_90d_exclusive": "2026-07-23T15:22:16.529Z",
+            "full_fixed_history_extends_after_origin": true,
+            "later_supplied_records": []
+          }
+        ]
+      }
+    },
+    {
+      "package": "axios",
+      "source_path": "data/raw/registry/axios.json.gz",
+      "source_sha256": "6831b0a47ae6fd467ebd2a2cf8677cab80eb3cf7b6f1d12397c06ebb2e7ae272",
+      "original_record_count": 27,
+      "supplied_records": {
+        "candidate_count": 27,
+        "highest_semver_ties": [
+          "1.18.1"
+        ],
+        "origins": [
+          {
+            "version": "1.18.1",
+            "published_at": "2026-06-22T18:28:17.985Z",
+            "end_90d_exclusive": "2026-09-20T18:28:17.985Z",
+            "full_fixed_history_extends_after_origin": true,
+            "later_supplied_records": []
+          }
+        ]
+      },
+      "all_pre_cutoff_stable": {
+        "candidate_count": 137,
+        "highest_semver_ties": [
+          "1.18.1"
+        ],
+        "origins": [
+          {
+            "version": "1.18.1",
+            "published_at": "2026-06-22T18:28:17.985Z",
+            "end_90d_exclusive": "2026-09-20T18:28:17.985Z",
+            "full_fixed_history_extends_after_origin": true,
+            "later_supplied_records": []
+          }
+        ]
+      }
+    },
+    {
+      "package": "chalk",
+      "source_path": "data/raw/registry/chalk.json.gz",
+      "source_sha256": "581c04330e6bacba337a0efdfe791478e2f3c6f01a1cd028c408bcc6ef55b34b",
+      "original_record_count": 3,
+      "supplied_records": {
+        "candidate_count": 3,
+        "highest_semver_ties": [
+          "5.6.2"
+        ],
+        "origins": [
+          {
+            "version": "5.6.2",
+            "published_at": "2025-09-08T14:47:54.486Z",
+            "end_90d_exclusive": "2025-12-07T14:47:54.486Z",
+            "full_fixed_history_extends_after_origin": true,
+            "later_supplied_records": []
+          }
+        ]
+      },
+      "all_pre_cutoff_stable": {
+        "candidate_count": 42,
+        "highest_semver_ties": [
+          "5.6.2"
+        ],
+        "origins": [
+          {
+            "version": "5.6.2",
+            "published_at": "2025-09-08T14:47:54.486Z",
+            "end_90d_exclusive": "2025-12-07T14:47:54.486Z",
+            "full_fixed_history_extends_after_origin": true,
+            "later_supplied_records": []
+          }
+        ]
+      }
+    },
+    {
+      "package": "commander",
+      "source_path": "data/raw/registry/commander.json.gz",
+      "source_sha256": "949977ac9f0696ffb7914b251901090c19ac1201202208dd682558e49ca48c1c",
+      "original_record_count": 4,
+      "supplied_records": {
+        "candidate_count": 4,
+        "highest_semver_ties": [
+          "15.0.0"
+        ],
+        "origins": [
+          {
+            "version": "15.0.0",
+            "published_at": "2026-05-29T09:16:23.076Z",
+            "end_90d_exclusive": "2026-08-27T09:16:23.076Z",
+            "full_fixed_history_extends_after_origin": true,
+            "later_supplied_records": []
+          }
+        ]
+      },
+      "all_pre_cutoff_stable": {
+        "candidate_count": 104,
+        "highest_semver_ties": [
+          "15.0.0"
+        ],
+        "origins": [
+          {
+            "version": "15.0.0",
+            "published_at": "2026-05-29T09:16:23.076Z",
+            "end_90d_exclusive": "2026-08-27T09:16:23.076Z",
+            "full_fixed_history_extends_after_origin": true,
+            "later_supplied_records": []
+          }
+        ]
+      }
+    },
+    {
+      "package": "esbuild",
+      "source_path": "data/raw/registry/esbuild.json.gz",
+      "source_sha256": "8dc8485d1b621b0af13b6fd0bd89601b9c3a4b5fc516d97346cc193217d6a9e0",
+      "original_record_count": 17,
+      "supplied_records": {
+        "candidate_count": 17,
+        "highest_semver_ties": [
+          "0.28.1"
+        ],
+        "origins": [
+          {
+            "version": "0.28.1",
+            "published_at": "2026-06-11T22:47:05.085Z",
+            "end_90d_exclusive": "2026-09-09T22:47:05.085Z",
+            "full_fixed_history_extends_after_origin": true,
+            "later_supplied_records": []
+          }
+        ]
+      },
+      "all_pre_cutoff_stable": {
+        "candidate_count": 481,
+        "highest_semver_ties": [
+          "0.28.1"
+        ],
+        "origins": [
+          {
+            "version": "0.28.1",
+            "published_at": "2026-06-11T22:47:05.085Z",
+            "end_90d_exclusive": "2026-09-09T22:47:05.085Z",
+            "full_fixed_history_extends_after_origin": true,
+            "later_supplied_records": []
+          }
+        ]
+      }
+    },
+    {
+      "package": "eslint",
+      "source_path": "data/raw/registry/eslint.json.gz",
+      "source_sha256": "6ff046bd5a32027ea17a7fbb08a239f1a8e3ba48270d05307cb9502a5489fee1",
+      "original_record_count": 26,
+      "supplied_records": {
+        "candidate_count": 26,
+        "highest_semver_ties": [
+          "10.6.0"
+        ],
+        "origins": [
+          {
+            "version": "10.6.0",
+            "published_at": "2026-06-26T20:09:18.001Z",
+            "end_90d_exclusive": "2026-09-24T20:09:18.001Z",
+            "full_fixed_history_extends_after_origin": true,
+            "later_supplied_records": []
+          }
+        ]
+      },
+      "all_pre_cutoff_stable": {
+        "candidate_count": 371,
+        "highest_semver_ties": [
+          "10.6.0"
+        ],
+        "origins": [
+          {
+            "version": "10.6.0",
+            "published_at": "2026-06-26T20:09:18.001Z",
+            "end_90d_exclusive": "2026-09-24T20:09:18.001Z",
+            "full_fixed_history_extends_after_origin": true,
+            "later_supplied_records": []
+          }
+        ]
+      }
+    },
+    {
+      "package": "express",
+      "source_path": "data/raw/registry/express.json.gz",
+      "source_sha256": "87e57d0fd46e4a71ce212adb25f79283ce4ed9f8ab466e5d12b780ce61b962a9",
+      "original_record_count": 5,
+      "supplied_records": {
+        "candidate_count": 5,
+        "highest_semver_ties": [
+          "5.2.1"
+        ],
+        "origins": [
+          {
+            "version": "5.2.1",
+            "published_at": "2025-12-01T20:49:43.268Z",
+            "end_90d_exclusive": "2026-03-01T20:49:43.268Z",
+            "full_fixed_history_extends_after_origin": true,
+            "later_supplied_records": [
+              {
+                "purl": "pkg:npm/express@4.22.1",
+                "published_at": "2025-12-01T20:50:41.122Z"
+              },
+              {
+                "purl": "pkg:npm/express@4.22.2",
+                "published_at": "2026-05-11T18:50:00.007Z"
+              }
+            ]
+          }
+        ]
+      },
+      "all_pre_cutoff_stable": {
+        "candidate_count": 245,
+        "highest_semver_ties": [
+          "5.2.1"
+        ],
+        "origins": [
+          {
+            "version": "5.2.1",
+            "published_at": "2025-12-01T20:49:43.268Z",
+            "end_90d_exclusive": "2026-03-01T20:49:43.268Z",
+            "full_fixed_history_extends_after_origin": true,
+            "later_supplied_records": [
+              {
+                "purl": "pkg:npm/express@4.22.1",
+                "published_at": "2025-12-01T20:50:41.122Z"
+              },
+              {
+                "purl": "pkg:npm/express@4.22.2",
+                "published_at": "2026-05-11T18:50:00.007Z"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "package": "fastify",
+      "source_path": "data/raw/registry/fastify.json.gz",
+      "source_sha256": "a5642453f5373730b7affe4ca0b0ba04c2a0af56b360b1892fa0f04afbb75fe2",
+      "original_record_count": 16,
+      "supplied_records": {
+        "candidate_count": 16,
+        "highest_semver_ties": [
+          "5.9.0"
+        ],
+        "origins": [
+          {
+            "version": "5.9.0",
+            "published_at": "2026-06-28T08:13:34.555Z",
+            "end_90d_exclusive": "2026-09-26T08:13:34.555Z",
+            "full_fixed_history_extends_after_origin": true,
+            "later_supplied_records": []
+          }
+        ]
+      },
+      "all_pre_cutoff_stable": {
+        "candidate_count": 287,
+        "highest_semver_ties": [
+          "5.9.0"
+        ],
+        "origins": [
+          {
+            "version": "5.9.0",
+            "published_at": "2026-06-28T08:13:34.555Z",
+            "end_90d_exclusive": "2026-09-26T08:13:34.555Z",
+            "full_fixed_history_extends_after_origin": true,
+            "later_supplied_records": []
+          }
+        ]
+      }
+    },
+    {
+      "package": "got",
+      "source_path": "data/raw/registry/got.json.gz",
+      "source_sha256": "af4b32eb0bc023d587135176ae1a73a574dfd59d946724032a9d5e02297f5906",
+      "original_record_count": 18,
+      "supplied_records": {
+        "candidate_count": 18,
+        "highest_semver_ties": [
+          "15.0.7"
+        ],
+        "origins": [
+          {
+            "version": "15.0.7",
+            "published_at": "2026-06-28T09:47:50.776Z",
+            "end_90d_exclusive": "2026-09-26T09:47:50.776Z",
+            "full_fixed_history_extends_after_origin": true,
+            "later_supplied_records": []
+          }
+        ]
+      },
+      "all_pre_cutoff_stable": {
+        "candidate_count": 184,
+        "highest_semver_ties": [
+          "15.0.7"
+        ],
+        "origins": [
+          {
+            "version": "15.0.7",
+            "published_at": "2026-06-28T09:47:50.776Z",
+            "end_90d_exclusive": "2026-09-26T09:47:50.776Z",
+            "full_fixed_history_extends_after_origin": true,
+            "later_supplied_records": []
+          }
+        ]
+      }
+    },
+    {
+      "package": "jest",
+      "source_path": "data/raw/registry/jest.json.gz",
+      "source_sha256": "9364d33cdb61cc63679358c2f18a17854ffad7b475ce411a4e00d3faf9270e15",
+      "original_record_count": 11,
+      "supplied_records": {
+        "candidate_count": 11,
+        "highest_semver_ties": [
+          "30.4.2"
+        ],
+        "origins": [
+          {
+            "version": "30.4.2",
+            "published_at": "2026-05-09T00:31:21.036Z",
+            "end_90d_exclusive": "2026-08-07T00:31:21.036Z",
+            "full_fixed_history_extends_after_origin": true,
+            "later_supplied_records": []
+          }
+        ]
+      },
+      "all_pre_cutoff_stable": {
+        "candidate_count": 235,
+        "highest_semver_ties": [
+          "30.4.2"
+        ],
+        "origins": [
+          {
+            "version": "30.4.2",
+            "published_at": "2026-05-09T00:31:21.036Z",
+            "end_90d_exclusive": "2026-08-07T00:31:21.036Z",
+            "full_fixed_history_extends_after_origin": true,
+            "later_supplied_records": []
+          }
+        ]
+      }
+    },
+    {
+      "package": "joi",
+      "source_path": "data/raw/registry/joi.json.gz",
+      "source_sha256": "c2cd6b17813bd6d8ddbad94fa1ebf32b4aed40b133442abc055f39bf5ab19551",
+      "original_record_count": 11,
+      "supplied_records": {
+        "candidate_count": 11,
+        "highest_semver_ties": [
+          "18.2.3"
+        ],
+        "origins": [
+          {
+            "version": "18.2.3",
+            "published_at": "2026-06-17T16:54:59.526Z",
+            "end_90d_exclusive": "2026-09-15T16:54:59.526Z",
+            "full_fixed_history_extends_after_origin": true,
+            "later_supplied_records": []
+          }
+        ]
+      },
+      "all_pre_cutoff_stable": {
+        "candidate_count": 243,
+        "highest_semver_ties": [
+          "18.2.3"
+        ],
+        "origins": [
+          {
+            "version": "18.2.3",
+            "published_at": "2026-06-17T16:54:59.526Z",
+            "end_90d_exclusive": "2026-09-15T16:54:59.526Z",
+            "full_fixed_history_extends_after_origin": true,
+            "later_supplied_records": []
+          }
+        ]
+      }
+    },
+    {
+      "package": "koa",
+      "source_path": "data/raw/registry/koa.json.gz",
+      "source_sha256": "543c91087c833ddd7c8c3f8edce0801c4dff9296b6e8efd872a9a392637f80cf",
+      "original_record_count": 11,
+      "supplied_records": {
+        "candidate_count": 11,
+        "highest_semver_ties": [
+          "3.2.1"
+        ],
+        "origins": [
+          {
+            "version": "3.2.1",
+            "published_at": "2026-05-21T07:25:34.368Z",
+            "end_90d_exclusive": "2026-08-19T07:25:34.368Z",
+            "full_fixed_history_extends_after_origin": true,
+            "later_supplied_records": []
+          }
+        ]
+      },
+      "all_pre_cutoff_stable": {
+        "candidate_count": 112,
+        "highest_semver_ties": [
+          "3.2.1"
+        ],
+        "origins": [
+          {
+            "version": "3.2.1",
+            "published_at": "2026-05-21T07:25:34.368Z",
+            "end_90d_exclusive": "2026-08-19T07:25:34.368Z",
+            "full_fixed_history_extends_after_origin": true,
+            "later_supplied_records": []
+          }
+        ]
+      }
+    },
+    {
+      "package": "lodash",
+      "source_path": "data/raw/registry/lodash.json.gz",
+      "source_sha256": "cf01858c782bfa59cc8b92af3502787f5353fc56452a68bb1183857bb736aa4d",
+      "original_record_count": 3,
+      "supplied_records": {
+        "candidate_count": 3,
+        "highest_semver_ties": [
+          "4.18.1"
+        ],
+        "origins": [
+          {
+            "version": "4.18.1",
+            "published_at": "2026-04-01T21:01:20.458Z",
+            "end_90d_exclusive": "2026-06-30T21:01:20.458Z",
+            "full_fixed_history_extends_after_origin": true,
+            "later_supplied_records": []
+          }
+        ]
+      },
+      "all_pre_cutoff_stable": {
+        "candidate_count": 113,
+        "highest_semver_ties": [
+          "4.18.1"
+        ],
+        "origins": [
+          {
+            "version": "4.18.1",
+            "published_at": "2026-04-01T21:01:20.458Z",
+            "end_90d_exclusive": "2026-06-30T21:01:20.458Z",
+            "full_fixed_history_extends_after_origin": true,
+            "later_supplied_records": []
+          }
+        ]
+      }
+    },
+    {
+      "package": "marked",
+      "source_path": "data/raw/registry/marked.json.gz",
+      "source_sha256": "9be5c584b545c66ca1aee53fbd37ba6eb372bcbccef6742c8cb16ed74acf16c4",
+      "original_record_count": 22,
+      "supplied_records": {
+        "candidate_count": 22,
+        "highest_semver_ties": [
+          "18.0.5"
+        ],
+        "origins": [
+          {
+            "version": "18.0.5",
+            "published_at": "2026-06-04T14:17:47.684Z",
+            "end_90d_exclusive": "2026-09-02T14:17:47.684Z",
+            "full_fixed_history_extends_after_origin": true,
+            "later_supplied_records": []
+          }
+        ]
+      },
+      "all_pre_cutoff_stable": {
+        "candidate_count": 214,
+        "highest_semver_ties": [
+          "18.0.5"
+        ],
+        "origins": [
+          {
+            "version": "18.0.5",
+            "published_at": "2026-06-04T14:17:47.684Z",
+            "end_90d_exclusive": "2026-09-02T14:17:47.684Z",
+            "full_fixed_history_extends_after_origin": true,
+            "later_supplied_records": []
+          }
+        ]
+      }
+    },
+    {
+      "package": "minimist",
+      "source_path": "data/raw/registry/minimist.json.gz",
+      "source_sha256": "11063273afac77e9259dc3589a96283d5dac219b57f0959c1fd9d34dfb3860e0",
+      "original_record_count": 0,
+      "supplied_records": {
+        "candidate_count": 0,
+        "highest_semver_ties": [],
+        "origins": []
+      },
+      "all_pre_cutoff_stable": {
+        "candidate_count": 31,
+        "highest_semver_ties": [
+          "1.2.8"
+        ],
+        "origins": [
+          {
+            "version": "1.2.8",
+            "published_at": "2023-02-09T20:59:49.233Z",
+            "end_90d_exclusive": "2023-05-10T20:59:49.233Z",
+            "full_fixed_history_extends_after_origin": true,
+            "later_supplied_records": []
+          }
+        ]
+      }
+    },
+    {
+      "package": "mocha",
+      "source_path": "data/raw/registry/mocha.json.gz",
+      "source_sha256": "d7d578c736ecb1f9ef18b9e612d54ba90a5a295dbb9de9ac77595e732d0f6661",
+      "original_record_count": 5,
+      "supplied_records": {
+        "candidate_count": 5,
+        "highest_semver_ties": [
+          "11.7.6"
+        ],
+        "origins": [
+          {
+            "version": "11.7.6",
+            "published_at": "2026-05-21T11:11:59.551Z",
+            "end_90d_exclusive": "2026-08-19T11:11:59.551Z",
+            "full_fixed_history_extends_after_origin": true,
+            "later_supplied_records": []
+          }
+        ]
+      },
+      "all_pre_cutoff_stable": {
+        "candidate_count": 208,
+        "highest_semver_ties": [
+          "11.7.6"
+        ],
+        "origins": [
+          {
+            "version": "11.7.6",
+            "published_at": "2026-05-21T11:11:59.551Z",
+            "end_90d_exclusive": "2026-08-19T11:11:59.551Z",
+            "full_fixed_history_extends_after_origin": true,
+            "later_supplied_records": []
+          }
+        ]
+      }
+    },
+    {
+      "package": "nanoid",
+      "source_path": "data/raw/registry/nanoid.json.gz",
+      "source_sha256": "0b4254fc15af126c9becd05c6767163115c8369f8f26f1b333050aa22bb57b8c",
+      "original_record_count": 15,
+      "supplied_records": {
+        "candidate_count": 15,
+        "highest_semver_ties": [
+          "5.1.16"
+        ],
+        "origins": [
+          {
+            "version": "5.1.16",
+            "published_at": "2026-06-24T18:37:08.221Z",
+            "end_90d_exclusive": "2026-09-22T18:37:08.221Z",
+            "full_fixed_history_extends_after_origin": true,
+            "later_supplied_records": []
+          }
+        ]
+      },
+      "all_pre_cutoff_stable": {
+        "candidate_count": 127,
+        "highest_semver_ties": [
+          "5.1.16"
+        ],
+        "origins": [
+          {
+            "version": "5.1.16",
+            "published_at": "2026-06-24T18:37:08.221Z",
+            "end_90d_exclusive": "2026-09-22T18:37:08.221Z",
+            "full_fixed_history_extends_after_origin": true,
+            "later_supplied_records": []
+          }
+        ]
+      }
+    },
+    {
+      "package": "next",
+      "source_path": "data/raw/registry/next.json.gz",
+      "source_sha256": "6f1387bef3d6d369df008af5285eb29db9f643a7b552cb508fb669e1c9866eaa",
+      "original_record_count": 82,
+      "supplied_records": {
+        "candidate_count": 82,
+        "highest_semver_ties": [
+          "16.2.9"
+        ],
+        "origins": [
+          {
+            "version": "16.2.9",
+            "published_at": "2026-06-09T23:02:22.464Z",
+            "end_90d_exclusive": "2026-09-07T23:02:22.464Z",
+            "full_fixed_history_extends_after_origin": true,
+            "later_supplied_records": []
+          }
+        ]
+      },
+      "all_pre_cutoff_stable": {
+        "candidate_count": 399,
+        "highest_semver_ties": [
+          "16.2.9"
+        ],
+        "origins": [
+          {
+            "version": "16.2.9",
+            "published_at": "2026-06-09T23:02:22.464Z",
+            "end_90d_exclusive": "2026-09-07T23:02:22.464Z",
+            "full_fixed_history_extends_after_origin": true,
+            "later_supplied_records": []
+          }
+        ]
+      }
+    },
+    {
+      "package": "prettier",
+      "source_path": "data/raw/registry/prettier.json.gz",
+      "source_sha256": "facdc14b4edf83078a95240f62389c4e9616b133b7adbbfc5fad08b7f4580a2b",
+      "original_record_count": 16,
+      "supplied_records": {
+        "candidate_count": 16,
+        "highest_semver_ties": [
+          "3.9.4"
+        ],
+        "origins": [
+          {
+            "version": "3.9.4",
+            "published_at": "2026-06-30T01:11:17.630Z",
+            "end_90d_exclusive": "2026-09-28T01:11:17.630Z",
+            "full_fixed_history_extends_after_origin": true,
+            "later_supplied_records": []
+          }
+        ]
+      },
+      "all_pre_cutoff_stable": {
+        "candidate_count": 163,
+        "highest_semver_ties": [
+          "3.9.4"
+        ],
+        "origins": [
+          {
+            "version": "3.9.4",
+            "published_at": "2026-06-30T01:11:17.630Z",
+            "end_90d_exclusive": "2026-09-28T01:11:17.630Z",
+            "full_fixed_history_extends_after_origin": true,
+            "later_supplied_records": []
+          }
+        ]
+      }
+    },
+    {
+      "package": "qs",
+      "source_path": "data/raw/registry/qs.json.gz",
+      "source_sha256": "a4718052982da243f774b8166b75c371bff11988a932e2d85ddced5a5c620b86",
+      "original_record_count": 34,
+      "supplied_records": {
+        "candidate_count": 34,
+        "highest_semver_ties": [
+          "6.15.3"
+        ],
+        "origins": [
+          {
+            "version": "6.15.3",
+            "published_at": "2026-06-24T20:03:49.752Z",
+            "end_90d_exclusive": "2026-09-22T20:03:49.752Z",
+            "full_fixed_history_extends_after_origin": true,
+            "later_supplied_records": []
+          }
+        ]
+      },
+      "all_pre_cutoff_stable": {
+        "candidate_count": 149,
+        "highest_semver_ties": [
+          "6.15.3"
+        ],
+        "origins": [
+          {
+            "version": "6.15.3",
+            "published_at": "2026-06-24T20:03:49.752Z",
+            "end_90d_exclusive": "2026-09-22T20:03:49.752Z",
+            "full_fixed_history_extends_after_origin": true,
+            "later_supplied_records": []
+          }
+        ]
+      }
+    },
+    {
+      "package": "react",
+      "source_path": "data/raw/registry/react.json.gz",
+      "source_sha256": "971fa0554ea92df07b59e272191c4fec20ea24f501ef2336e5ec494b46c4206b",
+      "original_record_count": 23,
+      "supplied_records": {
+        "candidate_count": 23,
+        "highest_semver_ties": [
+          "19.2.7"
+        ],
+        "origins": [
+          {
+            "version": "19.2.7",
+            "published_at": "2026-06-01T18:00:48.323Z",
+            "end_90d_exclusive": "2026-08-30T18:00:48.323Z",
+            "full_fixed_history_extends_after_origin": true,
+            "later_supplied_records": []
+          }
+        ]
+      },
+      "all_pre_cutoff_stable": {
+        "candidate_count": 135,
+        "highest_semver_ties": [
+          "19.2.7"
+        ],
+        "origins": [
+          {
+            "version": "19.2.7",
+            "published_at": "2026-06-01T18:00:48.323Z",
+            "end_90d_exclusive": "2026-08-30T18:00:48.323Z",
+            "full_fixed_history_extends_after_origin": true,
+            "later_supplied_records": []
+          }
+        ]
+      }
+    },
+    {
+      "package": "rollup",
+      "source_path": "data/raw/registry/rollup.json.gz",
+      "source_sha256": "13c2e5d54a6cac59e2559b69a1d7c965242484821532898fd00d7d7040b2f519",
+      "original_record_count": 52,
+      "supplied_records": {
+        "candidate_count": 52,
+        "highest_semver_ties": [
+          "4.62.2"
+        ],
+        "origins": [
+          {
+            "version": "4.62.2",
+            "published_at": "2026-06-19T14:57:23.529Z",
+            "end_90d_exclusive": "2026-09-17T14:57:23.529Z",
+            "full_fixed_history_extends_after_origin": true,
+            "later_supplied_records": []
+          }
+        ]
+      },
+      "all_pre_cutoff_stable": {
+        "candidate_count": 857,
+        "highest_semver_ties": [
+          "4.62.2"
+        ],
+        "origins": [
+          {
+            "version": "4.62.2",
+            "published_at": "2026-06-19T14:57:23.529Z",
+            "end_90d_exclusive": "2026-09-17T14:57:23.529Z",
+            "full_fixed_history_extends_after_origin": true,
+            "later_supplied_records": []
+          }
+        ]
+      }
+    },
+    {
+      "package": "semver",
+      "source_path": "data/raw/registry/semver.json.gz",
+      "source_sha256": "b9ef2944170a2c2f180e8c897d19ab1afe0989ef642f0198f64dfad4401ae47f",
+      "original_record_count": 8,
+      "supplied_records": {
+        "candidate_count": 8,
+        "highest_semver_ties": [
+          "7.8.5"
+        ],
+        "origins": [
+          {
+            "version": "7.8.5",
+            "published_at": "2026-06-19T18:32:48.972Z",
+            "end_90d_exclusive": "2026-09-17T18:32:48.972Z",
+            "full_fixed_history_extends_after_origin": true,
+            "later_supplied_records": []
+          }
+        ]
+      },
+      "all_pre_cutoff_stable": {
+        "candidate_count": 117,
+        "highest_semver_ties": [
+          "7.8.5"
+        ],
+        "origins": [
+          {
+            "version": "7.8.5",
+            "published_at": "2026-06-19T18:32:48.972Z",
+            "end_90d_exclusive": "2026-09-17T18:32:48.972Z",
+            "full_fixed_history_extends_after_origin": true,
+            "later_supplied_records": []
+          }
+        ]
+      }
+    },
+    {
+      "package": "socket.io",
+      "source_path": "data/raw/registry/socket.io.json.gz",
+      "source_sha256": "931d70f7fb7766f7bb5542b83d54aea23722a3d1d010697ed2f058ed6efb0f9d",
+      "original_record_count": 2,
+      "supplied_records": {
+        "candidate_count": 2,
+        "highest_semver_ties": [
+          "4.8.3"
+        ],
+        "origins": [
+          {
+            "version": "4.8.3",
+            "published_at": "2025-12-23T16:42:13.022Z",
+            "end_90d_exclusive": "2026-03-23T16:42:13.022Z",
+            "full_fixed_history_extends_after_origin": true,
+            "later_supplied_records": []
+          }
+        ]
+      },
+      "all_pre_cutoff_stable": {
+        "candidate_count": 150,
+        "highest_semver_ties": [
+          "4.8.3"
+        ],
+        "origins": [
+          {
+            "version": "4.8.3",
+            "published_at": "2025-12-23T16:42:13.022Z",
+            "end_90d_exclusive": "2026-03-23T16:42:13.022Z",
+            "full_fixed_history_extends_after_origin": true,
+            "later_supplied_records": []
+          }
+        ]
+      }
+    },
+    {
+      "package": "svelte",
+      "source_path": "data/raw/registry/svelte.json.gz",
+      "source_sha256": "367865e6b50fccb43f141d4be7178463807f7f2da826599221724f3722fa9764",
+      "original_record_count": 152,
+      "supplied_records": {
+        "candidate_count": 152,
+        "highest_semver_ties": [
+          "5.56.4"
+        ],
+        "origins": [
+          {
+            "version": "5.56.4",
+            "published_at": "2026-06-23T18:48:39.984Z",
+            "end_90d_exclusive": "2026-09-21T18:48:39.984Z",
+            "full_fixed_history_extends_after_origin": true,
+            "later_supplied_records": []
+          }
+        ]
+      },
+      "all_pre_cutoff_stable": {
+        "candidate_count": 759,
+        "highest_semver_ties": [
+          "5.56.4"
+        ],
+        "origins": [
+          {
+            "version": "5.56.4",
+            "published_at": "2026-06-23T18:48:39.984Z",
+            "end_90d_exclusive": "2026-09-21T18:48:39.984Z",
+            "full_fixed_history_extends_after_origin": true,
+            "later_supplied_records": []
+          }
+        ]
+      }
+    },
+    {
+      "package": "tar",
+      "source_path": "data/raw/registry/tar.json.gz",
+      "source_sha256": "ef5dc79aa62f184e6e2c7345747c191d0089f17a802564f6ea7a6f34b0d907c9",
+      "original_record_count": 21,
+      "supplied_records": {
+        "candidate_count": 21,
+        "highest_semver_ties": [
+          "7.5.19"
+        ],
+        "origins": [
+          {
+            "version": "7.5.19",
+            "published_at": "2026-06-27T22:59:56.668Z",
+            "end_90d_exclusive": "2026-09-25T22:59:56.668Z",
+            "full_fixed_history_extends_after_origin": true,
+            "later_supplied_records": []
+          }
+        ]
+      },
+      "all_pre_cutoff_stable": {
+        "candidate_count": 151,
+        "highest_semver_ties": [
+          "7.5.19"
+        ],
+        "origins": [
+          {
+            "version": "7.5.19",
+            "published_at": "2026-06-27T22:59:56.668Z",
+            "end_90d_exclusive": "2026-09-25T22:59:56.668Z",
+            "full_fixed_history_extends_after_origin": true,
+            "later_supplied_records": []
+          }
+        ]
+      }
+    },
+    {
+      "package": "typescript",
+      "source_path": "data/raw/registry/typescript.json.gz",
+      "source_sha256": "8837168a9f952068b4cf2a279b00febc4d6774012faf55c3f5d47ab3c70edfac",
+      "original_record_count": 4,
+      "supplied_records": {
+        "candidate_count": 4,
+        "highest_semver_ties": [
+          "6.0.3"
+        ],
+        "origins": [
+          {
+            "version": "6.0.3",
+            "published_at": "2026-04-16T23:38:27.905Z",
+            "end_90d_exclusive": "2026-07-15T23:38:27.905Z",
+            "full_fixed_history_extends_after_origin": true,
+            "later_supplied_records": []
+          }
+        ]
+      },
+      "all_pre_cutoff_stable": {
+        "candidate_count": 169,
+        "highest_semver_ties": [
+          "6.0.3"
+        ],
+        "origins": [
+          {
+            "version": "6.0.3",
+            "published_at": "2026-04-16T23:38:27.905Z",
+            "end_90d_exclusive": "2026-07-15T23:38:27.905Z",
+            "full_fixed_history_extends_after_origin": true,
+            "later_supplied_records": []
+          }
+        ]
+      }
+    },
+    {
+      "package": "undici",
+      "source_path": "data/raw/registry/undici.json.gz",
+      "source_sha256": "5cdc5f81214c187dc645367ab316772d439fa7b18e14f8cc3e4a348214d4863b",
+      "original_record_count": 48,
+      "supplied_records": {
+        "candidate_count": 48,
+        "highest_semver_ties": [
+          "8.5.0"
+        ],
+        "origins": [
+          {
+            "version": "8.5.0",
+            "published_at": "2026-06-15T15:50:42.140Z",
+            "end_90d_exclusive": "2026-09-13T15:50:42.140Z",
+            "full_fixed_history_extends_after_origin": true,
+            "later_supplied_records": [
+              {
+                "purl": "pkg:npm/undici@6.27.0",
+                "published_at": "2026-06-15T15:51:25.559Z"
+              },
+              {
+                "purl": "pkg:npm/undici@7.28.0",
+                "published_at": "2026-06-15T15:51:12.886Z"
+              }
+            ]
+          }
+        ]
+      },
+      "all_pre_cutoff_stable": {
+        "candidate_count": 262,
+        "highest_semver_ties": [
+          "8.5.0"
+        ],
+        "origins": [
+          {
+            "version": "8.5.0",
+            "published_at": "2026-06-15T15:50:42.140Z",
+            "end_90d_exclusive": "2026-09-13T15:50:42.140Z",
+            "full_fixed_history_extends_after_origin": true,
+            "later_supplied_records": [
+              {
+                "purl": "pkg:npm/undici@6.27.0",
+                "published_at": "2026-06-15T15:51:25.559Z"
+              },
+              {
+                "purl": "pkg:npm/undici@7.28.0",
+                "published_at": "2026-06-15T15:51:12.886Z"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "package": "vite",
+      "source_path": "data/raw/registry/vite.json.gz",
+      "source_sha256": "b48840ae622778ede1b6c7b6db35dd218c8390ab40dbf3ba5eeb7f8383f62516",
+      "original_record_count": 62,
+      "supplied_records": {
+        "candidate_count": 62,
+        "highest_semver_ties": [
+          "8.1.2"
+        ],
+        "origins": [
+          {
+            "version": "8.1.2",
+            "published_at": "2026-06-30T16:46:39.800Z",
+            "end_90d_exclusive": "2026-09-28T16:46:39.800Z",
+            "full_fixed_history_extends_after_origin": true,
+            "later_supplied_records": []
+          }
+        ]
+      },
+      "all_pre_cutoff_stable": {
+        "candidate_count": 423,
+        "highest_semver_ties": [
+          "8.1.2"
+        ],
+        "origins": [
+          {
+            "version": "8.1.2",
+            "published_at": "2026-06-30T16:46:39.800Z",
+            "end_90d_exclusive": "2026-09-28T16:46:39.800Z",
+            "full_fixed_history_extends_after_origin": true,
+            "later_supplied_records": []
+          }
+        ]
+      }
+    },
+    {
+      "package": "vitest",
+      "source_path": "data/raw/registry/vitest.json.gz",
+      "source_sha256": "14af5b5f986d798d6caaf31cfe53375945a0b4a6fb6443f52a259ad9b281fdae",
+      "original_record_count": 31,
+      "supplied_records": {
+        "candidate_count": 31,
+        "highest_semver_ties": [
+          "4.1.9"
+        ],
+        "origins": [
+          {
+            "version": "4.1.9",
+            "published_at": "2026-06-15T07:23:00.326Z",
+            "end_90d_exclusive": "2026-09-13T07:23:00.326Z",
+            "full_fixed_history_extends_after_origin": true,
+            "later_supplied_records": []
+          }
+        ]
+      },
+      "all_pre_cutoff_stable": {
+        "candidate_count": 406,
+        "highest_semver_ties": [
+          "4.1.9"
+        ],
+        "origins": [
+          {
+            "version": "4.1.9",
+            "published_at": "2026-06-15T07:23:00.326Z",
+            "end_90d_exclusive": "2026-09-13T07:23:00.326Z",
+            "full_fixed_history_extends_after_origin": true,
+            "later_supplied_records": []
+          }
+        ]
+      }
+    },
+    {
+      "package": "vue",
+      "source_path": "data/raw/registry/vue.json.gz",
+      "source_sha256": "9ae9a274b5844776ee971c00877cfd264bd147fb8626eb54a3e8a29a1c0e8520",
+      "original_record_count": 22,
+      "supplied_records": {
+        "candidate_count": 22,
+        "highest_semver_ties": [
+          "3.5.39"
+        ],
+        "origins": [
+          {
+            "version": "3.5.39",
+            "published_at": "2026-06-25T09:44:00.706Z",
+            "end_90d_exclusive": "2026-09-23T09:44:00.706Z",
+            "full_fixed_history_extends_after_origin": true,
+            "later_supplied_records": []
+          }
+        ]
+      },
+      "all_pre_cutoff_stable": {
+        "candidate_count": 336,
+        "highest_semver_ties": [
+          "3.5.39"
+        ],
+        "origins": [
+          {
+            "version": "3.5.39",
+            "published_at": "2026-06-25T09:44:00.706Z",
+            "end_90d_exclusive": "2026-09-23T09:44:00.706Z",
+            "full_fixed_history_extends_after_origin": true,
+            "later_supplied_records": []
+          }
+        ]
+      }
+    },
+    {
+      "package": "webpack",
+      "source_path": "data/raw/registry/webpack.json.gz",
+      "source_sha256": "5889f556017111a726a554ef5c67c5fc454b3cf7a5a4800933590736516f34aa",
+      "original_record_count": 27,
+      "supplied_records": {
+        "candidate_count": 27,
+        "highest_semver_ties": [
+          "5.108.3"
+        ],
+        "origins": [
+          {
+            "version": "5.108.3",
+            "published_at": "2026-06-29T22:00:19.579Z",
+            "end_90d_exclusive": "2026-09-27T22:00:19.579Z",
+            "full_fixed_history_extends_after_origin": true,
+            "later_supplied_records": []
+          }
+        ]
+      },
+      "all_pre_cutoff_stable": {
+        "candidate_count": 572,
+        "highest_semver_ties": [
+          "5.108.3"
+        ],
+        "origins": [
+          {
+            "version": "5.108.3",
+            "published_at": "2026-06-29T22:00:19.579Z",
+            "end_90d_exclusive": "2026-09-27T22:00:19.579Z",
+            "full_fixed_history_extends_after_origin": true,
+            "later_supplied_records": []
+          }
+        ]
+      }
+    },
+    {
+      "package": "ws",
+      "source_path": "data/raw/registry/ws.json.gz",
+      "source_sha256": "f6c5e68b645caabcb6184aa07d1fe6eb82a1554eba5901271c0339bbea02d048",
+      "original_record_count": 7,
+      "supplied_records": {
+        "candidate_count": 7,
+        "highest_semver_ties": [
+          "8.21.0"
+        ],
+        "origins": [
+          {
+            "version": "8.21.0",
+            "published_at": "2026-05-22T17:59:59.453Z",
+            "end_90d_exclusive": "2026-08-20T17:59:59.453Z",
+            "full_fixed_history_extends_after_origin": true,
+            "later_supplied_records": []
+          }
+        ]
+      },
+      "all_pre_cutoff_stable": {
+        "candidate_count": 174,
+        "highest_semver_ties": [
+          "8.21.0"
+        ],
+        "origins": [
+          {
+            "version": "8.21.0",
+            "published_at": "2026-05-22T17:59:59.453Z",
+            "end_90d_exclusive": "2026-08-20T17:59:59.453Z",
+            "full_fixed_history_extends_after_origin": true,
+            "later_supplied_records": []
+          }
+        ]
+      }
+    },
+    {
+      "package": "yaml",
+      "source_path": "data/raw/registry/yaml.json.gz",
+      "source_sha256": "931b6cac094039c3f015a21cf433ba49e858a1cf762e3a1f25616be6e92401eb",
+      "original_record_count": 6,
+      "supplied_records": {
+        "candidate_count": 6,
+        "highest_semver_ties": [
+          "2.9.0"
+        ],
+        "origins": [
+          {
+            "version": "2.9.0",
+            "published_at": "2026-05-11T10:16:24.045Z",
+            "end_90d_exclusive": "2026-08-09T10:16:24.045Z",
+            "full_fixed_history_extends_after_origin": true,
+            "later_supplied_records": []
+          }
+        ]
+      },
+      "all_pre_cutoff_stable": {
+        "candidate_count": 68,
+        "highest_semver_ties": [
+          "2.9.0"
+        ],
+        "origins": [
+          {
+            "version": "2.9.0",
+            "published_at": "2026-05-11T10:16:24.045Z",
+            "end_90d_exclusive": "2026-08-09T10:16:24.045Z",
+            "full_fixed_history_extends_after_origin": true,
+            "later_supplied_records": []
+          }
+        ]
+      }
+    },
+    {
+      "package": "yargs",
+      "source_path": "data/raw/registry/yargs.json.gz",
+      "source_sha256": "0c02045921faebdff991606c1533672a56a033140790b1332d83ff950b92d5f8",
+      "original_record_count": 2,
+      "supplied_records": {
+        "candidate_count": 2,
+        "highest_semver_ties": [
+          "17.7.3"
+        ],
+        "origins": [
+          {
+            "version": "17.7.3",
+            "published_at": "2026-06-19T02:08:41.275Z",
+            "end_90d_exclusive": "2026-09-17T02:08:41.275Z",
+            "full_fixed_history_extends_after_origin": true,
+            "later_supplied_records": []
+          }
+        ]
+      },
+      "all_pre_cutoff_stable": {
+        "candidate_count": 179,
+        "highest_semver_ties": [
+          "18.0.0"
+        ],
+        "origins": [
+          {
+            "version": "18.0.0",
+            "published_at": "2025-05-27T14:27:19.495Z",
+            "end_90d_exclusive": "2025-08-25T14:27:19.495Z",
+            "full_fixed_history_extends_after_origin": true,
+            "later_supplied_records": [
+              {
+                "purl": "pkg:npm/yargs@16.2.2",
+                "published_at": "2026-06-19T01:52:16.361Z"
+              },
+              {
+                "purl": "pkg:npm/yargs@17.7.3",
+                "published_at": "2026-06-19T02:08:41.275Z"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "package": "zod",
+      "source_path": "data/raw/registry/zod.json.gz",
+      "source_sha256": "5a161820a2862dabd5b2af457258db394c874a1de98b786695849fc7b3c93569",
+      "original_record_count": 54,
+      "supplied_records": {
+        "candidate_count": 54,
+        "highest_semver_ties": [
+          "4.4.3"
+        ],
+        "origins": [
+          {
+            "version": "4.4.3",
+            "published_at": "2026-05-04T07:06:40.819Z",
+            "end_90d_exclusive": "2026-08-02T07:06:40.819Z",
+            "full_fixed_history_extends_after_origin": true,
+            "later_supplied_records": []
+          }
+        ]
+      },
+      "all_pre_cutoff_stable": {
+        "candidate_count": 290,
+        "highest_semver_ties": [
+          "4.4.3"
+        ],
+        "origins": [
+          {
+            "version": "4.4.3",
+            "published_at": "2026-05-04T07:06:40.819Z",
+            "end_90d_exclusive": "2026-08-02T07:06:40.819Z",
+            "full_fixed_history_extends_after_origin": true,
+            "later_supplied_records": []
+          }
+        ]
+      }
+    }
+  ],
+  "ghsa_scope_choice": {
+    "choice": "package-wide for features and targets",
+    "instructor_discretion_evidence": "User-supplied Prof Riehle reply displayed 2026-11-02 12:35 PM",
+    "exclusive_package_wide_mandate_claimed": false,
+    "remaining_blocker": false
+  },
+  "primary_policy": {
+    "scope": "supplied",
+    "selection": "Highest stable semantic version among eligible supplied July2025-June2026 records before outcome-based exclusions",
+    "basis": "The Worklog describes the supplied prediction input immediately before defining latest as highest semantic version; applying latest to that input is the strongest contextual reading",
+    "forecast_origin": "Publication timestamp of that highest supplied stable version",
+    "calendar": "Fixed M0=June2026 through M11=July2025 with origin-known observations",
+    "later_manifests": "Exclude versions published after the selected origin from release-time input; preserve them in original data",
+    "primary_records": 989,
+    "primary_packages": 39,
+    "schema_columns": 224,
+    "sensitivity_scope": "all-precutoff",
+    "sensitivity_records": 987,
+    "sensitivity_packages": 38,
+    "sensitivity_is_default_or_blocker": false,
+    "primary_count_verified": true,
+    "primary_export_complete": true,
+    "primary_export_dataset_sha256": "ca796670ce7a4953e9e82feb46c356a678334826ac98cbc7246a246b28909462",
+    "sensitivity_count_verified": true,
+    "local_export_files": [
+      "data/corrected/training-records.jsonl",
+      "data/corrected/training-records.csv",
+      "data/corrected/manifest.json"
+    ],
+    "validation_status_source": "data/corrected/manifest.json and reports/correction-source-audit.json"
+  },
+  "executed_verification": {
+    "verification_date": "2026-11-08",
+    "tests_passed": 197,
+    "test_failures": 0,
+    "test_errors": 0,
+    "test_skips": 0,
+    "historical_boundary_snapshots": 80,
+    "distinct_historical_commit_trees": 78,
+    "primary_source_field_comparisons": 221536,
+    "sensitivity_source_field_comparisons": 221088,
+    "total_source_field_comparisons": 442624,
+    "source_comparison_errors": [],
+    "primary_export_replay_files": 10,
+    "derivation_replay_files_per_scope": 9,
+    "all_replayed_files_byte_identical": true,
+    "preservation_verification_passed": true,
+    "primary_local_readiness": true,
+    "evidence_reports": [
+      "reports/correction-tests.json",
+      "reports/correction-source-audit.json",
+      "reports/correction-reproducibility-primary.json",
+      "reports/correction-reproducibility-supplied.json",
+      "reports/correction-reproducibility-all-precutoff.json",
+      "reports/correction-audit.json"
+    ]
+  },
+  "supplemental_manifest_recovery": {
+    "versions": [
+      "axios@0.30.4",
+      "axios@1.14.1",
+      "chalk@5.6.1"
+    ],
+    "reason": "Publication timestamps exist in the original frozen npm captures but version manifests are missing",
+    "collector": "tools/acquire_release_manifests.py",
+    "provenance_path": "data/provenance/release-manifests.json",
+    "provenance_sha256": "7ac8d92a3cdf75795bd6e0b3b1788eb5b554c0f24e5cb68b4626ce3d7eb76396",
+    "source_inventory_complete": true,
+    "missing_manifests": [],
+    "capture_verification": "All three compressed-file and decompressed HTTP-response SHA-256 values matched the recorded inventory; direct npm lookups recorded HTTP 404 and public mirror captures recorded HTTP 200",
+    "retained_response_paths": [
+      "data/raw/release-manifests/axios@0.30.4.json.gz",
+      "data/raw/release-manifests/axios@1.14.1.json.gz",
+      "data/raw/release-manifests/chalk@5.6.1.json.gz"
+    ],
+    "source_role": "Public npm mirror supplies missing manifests; original npm captures alone supply publication timestamps",
+    "original_fixed_window_records": 990,
+    "reconstructed_fixed_window_records_before_temporal_filter": 993,
+    "primary_later_manifest_exclusions": 4,
+    "sensitivity_additional_yargs_exclusions": 2,
+    "verified_independent_field_comparisons_both_scopes": 442624,
+    "source_binding_key": "supplemental_source_sha256",
+    "original_captures_modified": false,
+    "tarballs_downloaded_or_packages_installed": false,
+    "limitation": "Retained mirror metadata is authentic to its recorded source response, not proof of immutable original npm metadata at release"
+  },
+  "calendar_semantics": {
+    "explicit_month_identity": "M0 is June 2026; M11 is July 2025",
+    "complete_eventual_monthly_observations_explicitly_required": false,
+    "overlap_finding": "All 39 represented packages have an origin before the end of June 2026.",
+    "source_basis": "Workbook H18 permits observed daily download sums, H21 records coverage, and H56/H62 define GHSA state at prediction.",
+    "conditional_incompatibility": "Complete eventual July2025-June2026 aggregates cannot all be known at an earlier release origin. Origin-known partial observations in those same calendar buckets can coexist with that origin.",
+    "ghsa_monthly_meaning": "Distinct qualifying origin-snapshot IDs published before the origin, partitioned by fixed publication calendar month, with severity at prediction",
+    "future_ghsa_bucket_zero_meaning": "No qualifying pre-origin IDs in that future calendar bucket; not zero eventual advisories. Verified snapshot evidence is required before claiming measured values.",
+    "missing_ghsa_snapshot_behavior": "Unknown required measurements remain NULL; no verified zero inferred from unavailable or invalid evidence",
+    "download_policy": "Sum only valid observed UTC days whose end is at or before origin, with observed-day count; no full intraday release-day observation or extrapolation",
+    "stable_release_policy": "Count valid timestamped stable publications at or before origin within fixed calendar buckets, including anchor release; not eventual full-month totals",
+    "temporal_availability_rule": "Four later express/undici manifests are excluded from the primary release-time input; both yargs supplied manifests are additionally excluded only in the all-precutoff sensitivity view. Original records remain accessible."
+  },
+  "output_interfaces": {
+    "training_targets": [
+      "low",
+      "moderate",
+      "high",
+      "critical",
+      "unknown"
+    ],
+    "prediction_outputs": [
+      "low",
+      "moderate",
+      "high",
+      "critical"
+    ],
+    "resolution": "Retain all five training targets and expose the four requested prediction outputs separately; do not redistribute unknown",
+    "remaining_blocker": false
+  },
+  "unresolved_instruction_blockers_for_primary_policy": [],
+  "interpretive_notes": [
+    "Supplied versions are the explicitly selected primary universe based on immediate Worklog context; all-precutoff is retained as sensitivity analysis",
+    "Features use origin-known fixed-calendar observations, explicit download coverage and exclusion of later manifests",
+    "Complete eventual calendar aggregates after an earlier release would leak; the source does not require complete eventual monthly observation"
+  ],
+  "limits": [
+    "Maximum selection over the supplied full window is retrospective cohort selection, not knowledge available prospectively at the release instant",
+    "Retrospective npm captures do not prove unchanged origin-time registry contents or coverage of unpublished versions",
+    "Git snapshots establish preserved mirror state, not exact historical GitHub service synchronization",
+    "Publication-date revision guard excludes IDs already in the origin reviewed corpus; prior unreviewed, malware or deleted presence is not reconstructed and globally first-ever publication is not proven",
+    "Half-open [origin, origin+90d) endpoint convention is an implementation choice"
+  ]
+}

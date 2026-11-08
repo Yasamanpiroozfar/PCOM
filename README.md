@@ -1,144 +1,83 @@
-# PCOM-01 Homework 3 — Initial npm training data
+# PCOM-01 Homework 3: npm vulnerability training data
 
-A reproducible acquisition and validation project for FAU Erlangen–Nürnberg's
-PCOM-01 Prediction Competition. The submission follows the supplied official
-224-column record schema: 78 required fields and 146 nullable fields. It uses
-real npm metadata, recorded npm daily download observations, and historical
-GitHub-reviewed GHSA snapshots. Synthetic records exist only in automated tests.
+The dataset contains **989 version records from 39 packages**, using
+all **224 official schema columns**. Each package's forecast starts at the release
+of its highest stable semantic version among the supplied July 2025-June 2026
+records and covers the following 90 days.
 
-**Release:** [Yasamanpiroozfar/PCOM](https://github.com/Yasamanpiroozfar/PCOM),
-with the reviewed code and data identified by the exact `initial-training-data` tag.
-The owner approved public publication and tagging on November 2, 2026. The Google
-Form remains the owner's responsibility. See
-[`reports/final-audit.md`](reports/final-audit.md) for the final requirement audit
-and [`reports/results.md`](reports/results.md) for executed results. No grade is
-claimed or guaranteed.
+## Dataset and evidence
 
-## Quick reproduction
-
-Requirements: Python **3.11 or newer**, with its standard library. No npm install,
-package execution, API credentials, or third-party Python packages are needed.
-Run these commands from this project's directory:
-
-```text
-python -B run.py test
-python -B run.py build
-python -B run.py validate
-python -B tools/audit_sources.py
-python -B run.py reproduce
-```
-
-`build` verifies hashes of the committed source captures and rebuilds all processed
-artifacts. `reproduce` builds separately in `reports/replay/` and compares every
-processed file byte for byte. Tests report both their transcript and machine-readable
-outcome under `reports/`. Some Windows sandboxes deny temporary-directory access;
-that is an execution-environment failure, not a passing test. Run in a normal
-terminal if necessary.
-
-To acquire public sources in a **fresh checkout**:
-
-```text
-python -B run.py acquire
-python -B run.py build
-python -B run.py validate
-python -B run.py test
-python -B run.py reproduce
-```
-
-The committed captures are reused after hash verification. To independently
-re-download sources, make a separate copy/checkout and run
-`python -B run.py acquire --refresh` there. Do not overwrite your archived release.
-The fixed historical dates remain unchanged. Live npm metadata/download responses
-can change; reacquisition is not a promise of byte-identical upstream responses.
-Exact reproduction uses the committed, hashed captures. GitHub archives are
-identified by immutable commit SHAs; the acquisition manifest records their hashes.
-The large full archives are local cache files and are intentionally not committed.
-After acquiring those archives, `python -B tools/audit_sources.py --archives`
-also verifies retained advisory measurements against the complete original documents.
-
-GitHub's public API normally works without a token. If rate-limited, wait for the
-reported reset or set `GITHUB_TOKEN` in your environment. Never place it in a file,
-command argument, source URL, or Git commit. The client uses bounded retries,
-explicit failure reporting, npm download pacing, and validated pagination.
-
-## Experimental contract and its limits
-
-- History: **2025-07-01 inclusive to 2026-07-01 exclusive**, UTC.
-- `M0` is June 2026; `M11` is July 2025, exactly as the workbook specifies.
-- Working prediction cutoff: **2026-07-01T00:00:00.000Z**.
-- Outcomes: **2026-07-01 inclusive to 2026-09-29 exclusive**, exactly 90 days.
-- All five outcome fields, including unknown severity, are preserved.
-- Every row identifies one exact stable npm version published in the history
-  window. Package-wide measurements and labels repeat across its versions.
-
-The common cutoff is an **explicit interpretation**, not a confirmed instructor
-clarification. The worklog also says 90 days after the highest-semantic-version
-release, which cannot silently replace the fixed monthly schema. The per-package
-reports identify that highest stable version without using today's `dist-tags`.
-Read [`docs/decisions.md`](docs/decisions.md) before using the dataset.
-
-**Do not randomly split version rows into train/test sets.** Multiple versions of
-one package share the same target and many features. Split/group by package, and
-use additional time windows for temporal evaluation. This one-cutoff initial
-dataset is neither a representative npm survey nor evidence of model performance.
-
-## Data and provenance
-
-| Location | Purpose |
+| File | Contents |
 |---|---|
-| `config/packages.json` | Frozen 40-package selection by software role; no outcome-based selection |
-| `schema/record_schema.json` | Ordered contract, source cells, constraints, and workbook SHA-256 |
-| `schema/columns.txt` | Exact 224 column names in submission order |
-| `data/raw/registry/*.json.gz` | Full recorded npm registry documents |
-| `data/raw/downloads/*.json.gz` | Recorded daily download responses |
-| `data/raw/advisories-*.json.gz` | Historical OSV measurement fields, original-document hashes, and complete-scan inventories |
-| `data/provenance/acquisition.json` | URLs, acquisition times, cutoffs, commit identifiers, source hashes |
-| `data/provenance/http-events.json` | Actual successes, retries, and failures, without credentials |
-| `data/processed/training.jsonl` | Primary typed dataset; JSON `null` means missing |
-| `data/processed/training.csv` | Same ordered dataset; empty cell means missing, `0` means zero |
-| `data/processed/advisory-evidence.json` | Exact GHSA IDs behind each severity/time bucket |
-| `data/processed/package-reports.json` | Per-package version selection, warnings, and highest SemVer |
-| `data/processed/exclusions.json` | Every recorded exclusion and its reason |
-| `data/processed/exploratory.json` | Quarantined partial records, never mixed into final training data |
-| `data/processed/statistics.json` | Coverage and label distributions at both row and package levels |
-| `reports/` | Actual validation, tests, reproducibility evidence, and final audit |
+| [Training JSONL](data/corrected/training-records.jsonl) | Typed primary dataset |
+| [Training CSV](data/corrected/training-records.csv) | Same records in official column order |
+| [Export manifest](data/corrected/manifest.json) | File hashes, sources and validation bindings |
+| [Method](docs/correction-contract.md) | Course requirements and measurement definitions |
+| [Validation](reports/correction-audit.md) | Tests, independent source checks and reproduction |
 
-Optional GitHub issue/pull-request histories are left NULL where a complete
-historical reconstruction has not been acquired. Current counters are not used
-as historical measurements. No missing measurement is converted to zero.
-Historical download totals are sums over reported days only, without extrapolation;
-their observed-day counts distinguish complete and partial coverage.
+## Method
 
-## Methodology and source documentation
+- Select the highest stable SemVer **within the supplied records**, rather than
+  the most recently published version. Its publication timestamp is origin `T`.
+- Keep the fixed calendar: **M0 = June 2026 through M11 = July 2025**. Features
+  use observations available by `T`; months are not shifted to rolling offsets.
+- Count package-wide GHSA IDs from the historical reviewed snapshot at `T`,
+  using publication before `T` and severity at `T`. Monthly counts group those
+  IDs by their fixed publication month. Future buckets represent zero known IDs,
+  not zero eventual advisories; unavailable source evidence remains missing.
+- Sum download observations only for UTC days ending by `T`, retaining the
+  observed-day coverage. Exclude version manifests published after `T`.
+- Derive targets from a separate historical snapshot at `T + 90 days`, counting
+  qualifying new IDs published in **[T, T + 90 days)**, with severity at the end.
+- Retain all five training targets, including unknown severity. The course
+  requires four prediction outputs: low, moderate, high and critical counts.
 
-- [Decisions, uncertainty, and requirement priority](docs/decisions.md)
-- [npm metadata and dependency methodology](docs/npm-methodology.md)
-- [Historical advisory reconstruction](docs/advisory-history.md)
-- [Data sources and sampling limitations](docs/sources.md)
-- [Final requirement audit](reports/final-audit.md)
-- [Review scope and evidence](reports/independent-review.md)
+## Reproduction
 
-Course source files and the previous Homework 2 submission are preserved outside
-this dedicated project and excluded from its repository. To regenerate the
-schema contract when those original files are available in the parent folder:
+Requires Python 3.11+ and its standard library. Run from the repository directory:
 
 ```text
-python -B tools/extract_course_contract.py
+python -B run.py test
+python -B run.py build-corrected
+python -B run.py validate-corrected
+python -B run.py reproduce-corrected
 ```
 
-This reads the workbooks as ZIP/XML without saving or modifying them. The exact
-source hashes and worksheet evidence are recorded under `schema/`.
+The build independently audits the derivation before export. Validation recounts
+source evidence and checks exported bytes; reproduction compares all ten export
+artifacts. Detailed derivation checks use `validate-release` and
+`reproduce-release`, both defaulting to the supplied-version policy.
 
-## Submission steps
+A broader all-precutoff SemVer scope is retained as sensitivity analysis:
 
-The approved destination is the public repository `Yasamanpiroozfar/PCOM`.
-The exact annotated tag is `initial-training-data`; resolve the final commit with
-`git rev-parse initial-training-data^{commit}`. The audit records pre-publication
-checks; public repository, tag and Actions results are verified after the push.
-The owner will submit the repository URL through the official
-[Homework 3 Google Form](https://forms.gle/SUjxnXAWQ99oDv8N8).
-Neither a prepared repository nor a successful push proves that the form was submitted.
+```text
+python -B run.py build-release --scope all-precutoff
+python -B run.py reproduce-release --scope all-precutoff
+```
 
-The recorded data,
-source provenance, and executed tests are provided for independent verification;
-the student should be able to explain the methodological choices and limitations.
+This produces 987 records from 38 packages. For yargs, the primary anchor is
+17.7.3 (June 19, 2026); the broader scope selects 18.0.0 (May 27, 2025), before
+both supplied yargs records. Full dates and windows are in the method document.
+
+## Verification and source limits
+
+**197 tests pass.** Independent audits compare **221,536 primary fields** and
+**442,624 fields across both scopes**, with zero disagreements. All ten primary
+export files and nine derivation files per scope reproduce byte for byte.
+The historical sources cover 80 boundary snapshots from 78 distinct Git trees.
+
+Retained source responses and hashes support exact reproduction. npm metadata
+and downloads are retrospective captures, not immutable release-time exports.
+The three recovered manifests are attributed to a public npm mirror; timestamps
+come from the original npm captures. GHSA trees preserve Git mirror state, subject
+to synchronization delay. The new-ID guard covers earlier reviewed IDs, not every
+historical unreviewed, malware or deleted entry. Cohort selection is retrospective.
+Optional unacquired issue/PR fields remain NULL; evaluation should group by package.
+
+## Releases
+
+[GitHub Actions](https://github.com/Yasamanpiroozfar/PCOM/actions) records validation
+and reproduction runs. The annotated
+[`initial-training-data`](https://github.com/Yasamanpiroozfar/PCOM/tree/initial-training-data)
+tag identifies the initial submission. Its data and source captures remain
+available separately from the current export.

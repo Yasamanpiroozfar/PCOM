@@ -1,7 +1,7 @@
 {
   "contract_version": 1,
   "source_file": "PCOM-01 Record Schema [Public].xlsx",
-  "source_sha256": "243a32bcd9e9b6d23cbde133a790f8e81ef518ece6e1e408adbb39815f033413",
+  "source_sha256": "e06448e85a1bf2a2494636cef86b10890e7528bae7520dac70177a8eef95e966",
   "column_order_policy": "Workbook Schema sheet top-to-bottom; each M0 ... M11 range expanded in increasing index order.",
   "months": {
     "M0": "2026-06",
@@ -3409,7 +3409,7 @@
       "official_type": "Integer (64 bit signed)",
       "constraints": "Required; value >= 0",
       "origin": "Derived from historical GitHub-reviewed advisories: publication, npm package mapping, and severity",
-      "description": "Distinct qualifying GHSAs naming this package, published before prediction across its full history, with low severity at prediction.",
+      "description": "Distinct qualifying GHSAs naming this package, published before prediction across its full lifetime, with low severity at prediction.",
       "source": {
         "sheet": "Schema",
         "rows": [
@@ -3430,7 +3430,7 @@
       "official_type": "Integer (64 bit signed)",
       "constraints": "Required; value >= 0",
       "origin": "Derived from historical GitHub-reviewed advisories: publication, npm package mapping, and severity",
-      "description": "Distinct qualifying GHSAs naming this package, published before prediction across its full history, with moderate severity at prediction.",
+      "description": "Distinct qualifying GHSAs naming this package, published before prediction across its full lifetime, with moderate severity at prediction.",
       "source": {
         "sheet": "Schema",
         "rows": [
@@ -3451,7 +3451,7 @@
       "official_type": "Integer (64 bit signed)",
       "constraints": "Required; value >= 0",
       "origin": "Derived from historical GitHub-reviewed advisories: publication, npm package mapping, and severity",
-      "description": "Distinct qualifying GHSAs naming this package, published before prediction across its full history, with high severity at prediction.",
+      "description": "Distinct qualifying GHSAs naming this package, published before prediction across its full lifetime, with high severity at prediction.",
       "source": {
         "sheet": "Schema",
         "rows": [
@@ -3472,7 +3472,7 @@
       "official_type": "Integer (64 bit signed)",
       "constraints": "Required; value >= 0",
       "origin": "Derived from historical GitHub-reviewed advisories: publication, npm package mapping, and severity",
-      "description": "Distinct qualifying GHSAs naming this package, published before prediction across its full history, with critical severity at prediction.",
+      "description": "Distinct qualifying GHSAs naming this package, published before prediction across its full lifetime, with critical severity at prediction.",
       "source": {
         "sheet": "Schema",
         "rows": [
@@ -3493,7 +3493,7 @@
       "official_type": "Integer (64 bit signed)",
       "constraints": "Required; value >= 0",
       "origin": "Derived from historical GitHub-reviewed advisories: publication, npm package mapping, and severity",
-      "description": "Distinct qualifying GHSAs naming this package, published before prediction across its full history, whose severity is unknown at prediction.",
+      "description": "Distinct qualifying GHSAs naming this package, published before prediction across its full lifetime, whose severity is unknown at prediction.",
       "source": {
         "sheet": "Schema",
         "rows": [

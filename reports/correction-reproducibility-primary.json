@@ -1,0 +1,57 @@
+{
+  "file_sets_equal": true,
+  "all_identical": true,
+  "files": {
+    "advisory-evidence.json": {
+      "original_sha256": "876befedce238f480a88d4d866e5feb662014a7405bcf663e94168aabaf97967",
+      "replayed_sha256": "876befedce238f480a88d4d866e5feb662014a7405bcf663e94168aabaf97967",
+      "identical": true
+    },
+    "exclusions.json": {
+      "original_sha256": "483f7376b685acbfa70e3f42f4562907421397fc39f8978876073315f816e2f8",
+      "replayed_sha256": "483f7376b685acbfa70e3f42f4562907421397fc39f8978876073315f816e2f8",
+      "identical": true
+    },
+    "manifest.json": {
+      "original_sha256": "756caa01822690fcc15791684a33520f049956e2cae788942f51da4b5d7c9c6d",
+      "replayed_sha256": "756caa01822690fcc15791684a33520f049956e2cae788942f51da4b5d7c9c6d",
+      "identical": true
+    },
+    "package-decisions.json": {
+      "original_sha256": "e2905c5360f0cc816c00864ab6c3cecda43021c6051be99b2a97c9abf0105f0a",
+      "replayed_sha256": "e2905c5360f0cc816c00864ab6c3cecda43021c6051be99b2a97c9abf0105f0a",
+      "identical": true
+    },
+    "report.json": {
+      "original_sha256": "85fade19b0cf868dbd07a68d2dfaa795eff734528451751a616942c2623e3fdf",
+      "replayed_sha256": "85fade19b0cf868dbd07a68d2dfaa795eff734528451751a616942c2623e3fdf",
+      "identical": true
+    },
+    "row-metadata.json": {
+      "original_sha256": "51b3f77a64d6d0d87cc7d5bfcd2dd758661775439dbdf2483032e801bea08969",
+      "replayed_sha256": "51b3f77a64d6d0d87cc7d5bfcd2dd758661775439dbdf2483032e801bea08969",
+      "identical": true
+    },
+    "source-audit.json": {
+      "original_sha256": "b542b14e4eff06645c5a93caa97b490d68d75de45d5b3363cff7a81d3b522243",
+      "replayed_sha256": "b542b14e4eff06645c5a93caa97b490d68d75de45d5b3363cff7a81d3b522243",
+      "identical": true
+    },
+    "training-records.csv": {
+      "original_sha256": "3a493204cc17626803c61af8fe0811452c10000a9fb1e8c5940c9383b399cb66",
+      "replayed_sha256": "3a493204cc17626803c61af8fe0811452c10000a9fb1e8c5940c9383b399cb66",
+      "identical": true
+    },
+    "training-records.jsonl": {
+      "original_sha256": "ca796670ce7a4953e9e82feb46c356a678334826ac98cbc7246a246b28909462",
+      "replayed_sha256": "ca796670ce7a4953e9e82feb46c356a678334826ac98cbc7246a246b28909462",
+      "identical": true
+    },
+    "validation.json": {
+      "original_sha256": "2a26e439ebb7f458b1b40a916ecb675abb922c357c082fff66b9bb64bb8d7b5c",
+      "replayed_sha256": "2a26e439ebb7f458b1b40a916ecb675abb922c357c082fff66b9bb64bb8d7b5c",
+      "identical": true
+    }
+  },
+  "publication_permitted": false
+}

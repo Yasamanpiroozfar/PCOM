@@ -1,0 +1,53 @@
+{
+  "scope": "all-precutoff",
+  "file_sets_equal": true,
+  "all_identical": true,
+  "files": {
+    "advisory-evidence.json": {
+      "original_sha256": "290eabd3a396d0e278d0e95fa36e24f31cc6328d830de17f69011193de41d919",
+      "replayed_sha256": "290eabd3a396d0e278d0e95fa36e24f31cc6328d830de17f69011193de41d919",
+      "identical": true
+    },
+    "build-status.json": {
+      "original_sha256": "2269c888f703d9e78c891a857df72b23dd1bd82d03f8f0187ccaabb03ef1ddd1",
+      "replayed_sha256": "2269c888f703d9e78c891a857df72b23dd1bd82d03f8f0187ccaabb03ef1ddd1",
+      "identical": true
+    },
+    "candidate-records.csv": {
+      "original_sha256": "2d4b7b27b573227e76f0ab590b68a29f4cf3da71cf59fdf6649f08e7cadd6acc",
+      "replayed_sha256": "2d4b7b27b573227e76f0ab590b68a29f4cf3da71cf59fdf6649f08e7cadd6acc",
+      "identical": true
+    },
+    "candidate-records.jsonl": {
+      "original_sha256": "c8f5ca5eec22daa87955e08914995e6c34a2d365f6eb3de6c5eb739a40b4a127",
+      "replayed_sha256": "c8f5ca5eec22daa87955e08914995e6c34a2d365f6eb3de6c5eb739a40b4a127",
+      "identical": true
+    },
+    "exclusions.json": {
+      "original_sha256": "0519515d83b40e7ce595b7fba8e243a1f8a1fdcc8c357541fe7ed687e7ee55ce",
+      "replayed_sha256": "0519515d83b40e7ce595b7fba8e243a1f8a1fdcc8c357541fe7ed687e7ee55ce",
+      "identical": true
+    },
+    "package-decisions.json": {
+      "original_sha256": "b7c59129f33723490c2c9514e62839aadf65780493d70d5929dbfcd50f484deb",
+      "replayed_sha256": "b7c59129f33723490c2c9514e62839aadf65780493d70d5929dbfcd50f484deb",
+      "identical": true
+    },
+    "report.json": {
+      "original_sha256": "6f74870dc9c8cc760d212e34aa25e6dd82631d0204fc5ee574946a43ff2c94dc",
+      "replayed_sha256": "6f74870dc9c8cc760d212e34aa25e6dd82631d0204fc5ee574946a43ff2c94dc",
+      "identical": true
+    },
+    "row-metadata.json": {
+      "original_sha256": "5b406eae9a706af2550ebc5663c1e54686caa48dbae41e9942c15f1d46ff899a",
+      "replayed_sha256": "5b406eae9a706af2550ebc5663c1e54686caa48dbae41e9942c15f1d46ff899a",
+      "identical": true
+    },
+    "validation.json": {
+      "original_sha256": "cd3ce0e830dde90630a23b83129e8c0fabe24463675ccba572fb5e51106d60f0",
+      "replayed_sha256": "cd3ce0e830dde90630a23b83129e8c0fabe24463675ccba572fb5e51106d60f0",
+      "identical": true
+    }
+  },
+  "ready_for_submission": false
+}

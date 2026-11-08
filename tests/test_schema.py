@@ -1,4 +1,6 @@
 """Independent expected contract values transcribed from the course workbook."""
+import json
+from pathlib import Path
 import unittest
 
 from pcom01.schema import (COLUMNS, REQUIRED_COLUMNS, OPTIONAL_COLUMNS, MONTHS,
@@ -42,8 +44,21 @@ class SchemaTests(unittest.TestCase):
         row = blank_record()
         self.assertEqual(tuple(row), COLUMNS)
         self.assertTrue(all(value is None for value in row.values()))
+        # Re-read source supplied on 2026-11-08: only five descriptions changed
+        # from "full history" to "full lifetime"; the column contract is intact.
         self.assertEqual(CONTRACT["source_sha256"],
-                         "243a32bcd9e9b6d23cbde133a790f8e81ef518ece6e1e408adbb39815f033413")
+                         "e06448e85a1bf2a2494636cef86b10890e7528bae7520dac70177a8eef95e966")
+
+    def test_original_and_current_schema_provenance_are_distinct(self):
+        directory = Path(__file__).resolve().parents[1] / "schema"
+        original = json.loads((directory / "course_evidence.json").read_text(encoding="utf-8"))
+        correction = json.loads((directory / "correction-evidence.json").read_text(encoding="utf-8"))
+        old_hash = "243a32bcd9e9b6d23cbde133a790f8e81ef518ece6e1e408adbb39815f033413"
+        self.assertEqual(original["workbooks"][0]["sha256"], old_hash)
+        self.assertEqual(correction["schema_delta"]["original_source_sha256"], old_hash)
+        self.assertEqual(correction["schema_delta"]["current_source_sha256"], CONTRACT["source_sha256"])
+        self.assertEqual(correction["original_release"]["commit_sha"],
+                         "7f3606886865302cbcb25a3151a299ea113c2b59")
 
 
 if __name__ == "__main__":

@@ -1,4 +1,7 @@
-"""Acquire pinned sources, deterministically rebuild, and validate course data."""
+"""Build release-origin data or reproduce the archived common-cutoff experiment.
+
+Archived commands require --legacy-cutoff.
+"""
 from __future__ import annotations
 
 import argparse
@@ -233,9 +236,81 @@ def build(root=ROOT, *, output=None):
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("command", choices=("acquire", "build", "validate", "reproduce", "test"))
+    parser.add_argument("command", choices=("acquire", "build", "validate", "reproduce", "test",
+                                           "release-plan", "build-release", "reproduce-release", "validate-release",
+                                           "build-corrected", "validate-corrected", "reproduce-corrected"))
     parser.add_argument("--refresh", action="store_true", help="Explicitly start a new acquisition; keep existing project as archival release")
+    parser.add_argument("--legacy-cutoff", action="store_true", help="Explicitly reproduce the original unconfirmed July 1 experiment")
+    parser.add_argument("--scope", choices=("supplied", "all-precutoff"), default="supplied",
+                        help="Primary: supplied stable input versions (default); all-precutoff is sensitivity analysis")
     args = parser.parse_args()
+    if args.command in ("acquire", "build", "validate", "reproduce") and not args.legacy_cutoff:
+        parser.error("The common July 1 experiment is superseded for release-origin use. Use release-plan / build-release --scope, or explicitly --legacy-cutoff for archival reproduction.")
+    if args.command.endswith("-corrected"):
+        if args.scope != "supplied":
+            parser.error("Corrected deliverables use supplied versions; all-precutoff is sensitivity analysis only")
+        from pcom01.corrected import build_corrected, verify_corrected
+        if args.command == "build-corrected":
+            manifest = build_corrected(ROOT)
+        elif args.command == "validate-corrected":
+            manifest = verify_corrected(ROOT)
+        else:
+            replay = ROOT / "reports/replay/corrected"
+            build_corrected(ROOT, output=replay)
+            original_dir = ROOT / "data/corrected"
+            original_names = {p.name for p in original_dir.iterdir() if p.is_file()}
+            replay_names = {p.name for p in replay.iterdir() if p.is_file()}
+            compared = {name: {"original_sha256": sha256(original_dir / name),
+                               "replayed_sha256": sha256(replay / name),
+                               "identical": (original_dir / name).read_bytes() == (replay / name).read_bytes()}
+                        for name in sorted(original_names & replay_names)}
+            report = {"file_sets_equal": original_names == replay_names,
+                      "all_identical": bool(compared) and original_names == replay_names and all(item["identical"] for item in compared.values()),
+                      "files": compared, "publication_permitted": False}
+            save_json(ROOT / "reports/correction-reproducibility-primary.json", report)
+            print(json.dumps({"all_identical": report["all_identical"], "files": len(compared)}, indent=2))
+            return 0 if report["all_identical"] else 1
+        print(json.dumps({key: manifest[key] for key in ("complete", "records", "packages", "schema_columns", "dataset_sha256", "ready_for_submission", "publication_permitted")}, indent=2))
+        return 0
+    if args.command == "release-plan":
+        from pcom01.release import plan
+        report = plan(ROOT)
+        save_json(ROOT / "reports/release-plan.json", report)
+        print(json.dumps({scope: {"packages": len(value["packages"]), "required_snapshot_boundaries": len(value["snapshot_boundaries"])}
+                          for scope, value in report["scopes"].items()}, indent=2))
+        return 0
+    if args.command in ("build-release", "reproduce-release"):
+        from pcom01.release import build_release
+        if args.command == "build-release":
+            report = build_release(ROOT, args.scope)
+            print(json.dumps({key: report[key] for key in ("scope", "candidate_records", "represented_packages", "source_verified_ghsa_packages", "corrected_training_records", "ready_for_submission")}, indent=2))
+            return 0  # Derivation completion is separate from independent export checks.
+        replay = ROOT / "reports/replay/release" / args.scope
+        rebuilt = build_release(ROOT, args.scope, output=replay)
+        original_dir = ROOT / "data/corrections" / args.scope
+        originals = {p.name for p in original_dir.iterdir() if p.is_file()}
+        regenerated = {p.name for p in replay.iterdir() if p.is_file()}
+        compared = {name: {"original_sha256": sha256(original_dir / name),
+                           "replayed_sha256": sha256(replay / name),
+                           "identical": (original_dir / name).read_bytes() == (replay / name).read_bytes()}
+                    for name in sorted(originals & regenerated)}
+        report = {"scope": args.scope, "file_sets_equal": originals == regenerated,
+                  "all_identical": bool(compared) and originals == regenerated and all(v["identical"] for v in compared.values()),
+                  "files": compared, "ready_for_submission": rebuilt["ready_for_submission"]}
+        save_json(ROOT / f"reports/correction-reproducibility-{args.scope}.json", report)
+        print(json.dumps({"scope": args.scope, "all_identical": report["all_identical"], "files": len(compared)}, indent=2))
+        return 0 if report["all_identical"] else 1
+    if args.command == "validate-release":
+        # Recount source values independently after rebuilding.
+        from pcom01.release import build_release
+        from tools.audit_release import audit
+        report = build_release(ROOT, args.scope)
+        checked = audit(ROOT, scopes=(args.scope,))
+        ready = report["ready_for_submission"] and checked["scopes"][args.scope]["ready_for_submission"]
+        print(json.dumps({"scope": args.scope, "ready_for_submission": ready,
+                          "valid_derivation": checked["valid_candidate_derivation"],
+                          "publication_permitted": False}, indent=2))
+        return 0 if ready and checked["valid_candidate_derivation"] else 2
     if args.command == "test":
         import io
         import unittest
@@ -247,12 +322,12 @@ def main():
             result = unittest.TextTestRunner(stream=stream, verbosity=2).run(suite)
         transcript = stream.getvalue()
         (ROOT / "reports").mkdir(exist_ok=True)
-        (ROOT / "reports/tests.txt").write_text(transcript, encoding="utf-8", newline="\n")
+        (ROOT / "reports/correction-tests.txt").write_text(transcript, encoding="utf-8", newline="\n")
         report = {"started_at": started, "completed_at": now(),
                   "python": platform.python_version(), "tests_run": result.testsRun,
                   "successful": result.wasSuccessful(), "failures": len(result.failures),
                   "errors": len(result.errors), "skipped": len(result.skipped)}
-        save_json(ROOT / "reports/tests.json", report)
+        save_json(ROOT / "reports/correction-tests.json", report)
         print(json.dumps(report, indent=2))
         return 0 if result.wasSuccessful() else 1
     elif args.command == "acquire":

@@ -1,4 +1,4 @@
-"""Observed daily npm download counts; absent days are never invented."""
+"""Aggregate observed daily npm downloads with explicit coverage counts."""
 from collections import defaultdict
 from datetime import date
 

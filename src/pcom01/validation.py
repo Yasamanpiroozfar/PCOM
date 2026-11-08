@@ -1,8 +1,4 @@
-"""Strict structural/consistency validation; source evidence is audited separately.
-
-A structurally valid row is not proof that historical source coverage was complete.
-This module deliberately never converts missing counts into zero.
-"""
+"""Validate schema structure and consistency; source evidence is audited separately."""
 from __future__ import annotations
 
 from datetime import datetime, timezone
@@ -33,11 +29,9 @@ def parse_timestamp(value: str) -> datetime:
 
 
 def parse_npm_purl(value: str) -> tuple[str, str]:
-    """Validate our canonical exact stable-version npm PURL serialization.
+    """Validate exact stable-version npm PURLs without qualifiers or subpaths.
 
-    npm scopes are encoded as %40scope; package separators remain literal '/'.
-    Query/fragment qualifiers are not part of this submission's record identity.
-    Stable SemVer follows the worklog's prerelease exclusion, not a new column.
+    Scopes use %40scope encoding; package separators remain literal '/'.
     """
     if not isinstance(value, str) or len(value) > 2048 or not value.startswith("pkg:npm/"):
         raise ValueError("must be an npm PURL of at most 2048 characters")

@@ -21,9 +21,19 @@ jobs:
           python-version: '3.12'
       - name: Unit and integration tests
         run: python -B run.py test
+      - name: Validate committed corrected primary export
+        run: python -B run.py validate-corrected
       - name: Validate committed records
-        run: python -B run.py validate
+        run: python -B run.py validate --legacy-cutoff
       - name: Independently audit captured source facts
         run: python -B tools/audit_sources.py
       - name: Reproduce every processed artifact offline
-        run: python -B run.py reproduce
+        run: python -B run.py reproduce --legacy-cutoff
+      - name: Reproduce release-origin derivations
+        run: |
+          python -B run.py reproduce-release --scope supplied
+          python -B run.py reproduce-release --scope all-precutoff
+      - name: Reproduce corrected primary export
+        run: python -B run.py reproduce-corrected
+      - name: Independently audit release-origin candidates
+        run: python -B tools/audit_release.py

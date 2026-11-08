@@ -1,0 +1,42 @@
+[
+  {
+    "package": "express",
+    "purl": "pkg:npm/express@4.22.1",
+    "reason": "version_published_after_release_origin",
+    "origin": "2025-12-01T20:49:43.268Z"
+  },
+  {
+    "package": "express",
+    "purl": "pkg:npm/express@4.22.2",
+    "reason": "version_published_after_release_origin",
+    "origin": "2025-12-01T20:49:43.268Z"
+  },
+  {
+    "package": "undici",
+    "purl": "pkg:npm/undici@6.27.0",
+    "reason": "version_published_after_release_origin",
+    "origin": "2026-06-15T15:50:42.140Z"
+  },
+  {
+    "package": "undici",
+    "purl": "pkg:npm/undici@7.28.0",
+    "reason": "version_published_after_release_origin",
+    "origin": "2026-06-15T15:50:42.140Z"
+  },
+  {
+    "package": "yargs",
+    "purl": "pkg:npm/yargs@16.2.2",
+    "reason": "version_published_after_release_origin",
+    "origin": "2025-05-27T14:27:19.495Z"
+  },
+  {
+    "package": "yargs",
+    "purl": "pkg:npm/yargs@17.7.3",
+    "reason": "version_published_after_release_origin",
+    "origin": "2025-05-27T14:27:19.495Z"
+  },
+  {
+    "package": "minimist",
+    "reason": "no_supplied_stable_records"
+  }
+]

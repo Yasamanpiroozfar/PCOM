@@ -1,0 +1,2894 @@
+{
+  "started_at": "2026-11-08T18:11:13.989Z",
+  "selection_sha256": "feff0b03048de3285c9255f4c6a75cbf5bacf0e5c45b7ae0c8d8b1d3b0bd0d0e",
+  "original_acquisition_sha256": "d3d3fdce16c4e5d2d64fba1aa000074e091348abbb2eed9309acf7f77a2475c7",
+  "snapshots": {
+    "2025-05-27T14:27:19.495Z": {
+      "boundary": "2025-05-27T14:27:19.495Z",
+      "commit": {
+        "sha": "6f38b4133d8d067c59f444ac3afc9674bca78e7d",
+        "committed_at": "2025-05-27T12:32:07Z",
+        "html_url": "https://github.com/github/advisory-database/commit/6f38b4133d8d067c59f444ac3afc9674bca78e7d"
+      },
+      "resolution": {
+        "url": "https://api.github.com/repos/github/advisory-database/commits?until=2025-05-27T14:27:19Z&per_page=1",
+        "fetched_at": "2026-11-08T18:11:13.989Z",
+        "status": 200,
+        "body_sha256": "badb58792b14fcbd7f2883e08ae62e73144fa6e1eb3b738d165813f525536537",
+        "bytes": 3835,
+        "headers": {
+          "date": "Sun, 08 Nov 2026 18:11:14 GMT",
+          "content-type": "application/json; charset=utf-8",
+          "etag": "W/\"b924491a4cf014152eb7cd9159d9d527994f00c16ca6f1a872af14e645fb05f2\"",
+          "last-modified": "Tue, 27 May 2025 12:32:07 GMT",
+          "link": "<https://api.github.com/repositories/458364565/commits?until=2025-05-27T14%3A27%3A19Z&per_page=1&page=2>; rel=\"next\", <https://api.github.com/repositories/458364565/commits?until=2025-05-27T14%3A27%3A19Z&per_page=1&page=106556>; rel=\"last\"",
+          "x-ratelimit-remaining": "58",
+          "x-ratelimit-reset": "1794164960"
+        },
+        "attempt": 1
+      },
+      "download": {
+        "url": "https://codeload.github.com/github/advisory-database/tar.gz/6f38b4133d8d067c59f444ac3afc9674bca78e7d",
+        "fetched_at": "2026-11-08T18:11:14.445Z",
+        "status": 200,
+        "body_sha256": "42aab47208aaf2dc1ad1fc925e9db3a8d5ed437cf63a23da352d88b131de236c",
+        "bytes": 88632179,
+        "headers": {
+          "content-type": "application/x-gzip",
+          "etag": "\"2496657c00b4315fb236137718795a2b846938023f1d819025cc6ad95d36116e\"",
+          "date": "Sun, 08 Nov 2026 18:11:16 GMT"
+        },
+        "attempt": 1
+      },
+      "archive_sha256": "42aab47208aaf2dc1ad1fc925e9db3a8d5ed437cf63a23da352d88b131de236c",
+      "bundle_path": "data/raw/release-advisories/12393cd7c8b168b48989d10d.json.gz",
+      "bundle_sha256": "0773283c007fa2de16119eec87784c38ada7fb30a22e170557e5f89db616da99"
+    },
+    "2025-08-25T14:27:19.495Z": {
+      "boundary": "2025-08-25T14:27:19.495Z",
+      "commit": {
+        "sha": "aac347d1224a84beb6f55186464a00a4abdf17e4",
+        "committed_at": "2025-08-25T12:31:39Z",
+        "html_url": "https://github.com/github/advisory-database/commit/aac347d1224a84beb6f55186464a00a4abdf17e4"
+      },
+      "resolution": {
+        "url": "https://api.github.com/repos/github/advisory-database/commits?until=2025-08-25T14:27:19Z&per_page=1",
+        "fetched_at": "2026-11-08T18:11:46.219Z",
+        "status": 200,
+        "body_sha256": "53638748037162a77e42bba0acdc291d83209772cca2a1c348e5f1559cf3515b",
+        "bytes": 3856,
+        "headers": {
+          "date": "Sun, 08 Nov 2026 18:11:46 GMT",
+          "content-type": "application/json; charset=utf-8",
+          "etag": "W/\"17b6de16671bf7c3cffb39d52d6dcb748c854acc3c318f9c8baa971c3aa29dc9\"",
+          "last-modified": "Mon, 25 Aug 2025 12:31:39 GMT",
+          "link": "<https://api.github.com/repositories/458364565/commits?until=2025-08-25T14%3A27%3A19Z&per_page=1&page=2>; rel=\"next\", <https://api.github.com/repositories/458364565/commits?until=2025-08-25T14%3A27%3A19Z&per_page=1&page=108446>; rel=\"last\"",
+          "x-ratelimit-remaining": "57",
+          "x-ratelimit-reset": "1794164960"
+        },
+        "attempt": 1
+      },
+      "download": {
+        "url": "https://codeload.github.com/github/advisory-database/tar.gz/aac347d1224a84beb6f55186464a00a4abdf17e4",
+        "fetched_at": "2026-11-08T18:11:46.628Z",
+        "status": 200,
+        "body_sha256": "9b97038a51b53244c53429b07b678c58fc76524bf3258ed87a8d5af53d6879f1",
+        "bytes": 92632643,
+        "headers": {
+          "content-type": "application/x-gzip",
+          "etag": "\"316454a82d5f709a52b302f8c7393959218363c41a2bbce7761dfbdde489a9b9\"",
+          "date": "Sun, 08 Nov 2026 18:11:49 GMT"
+        },
+        "attempt": 1
+      },
+      "archive_sha256": "9b97038a51b53244c53429b07b678c58fc76524bf3258ed87a8d5af53d6879f1",
+      "bundle_path": "data/raw/release-advisories/13e24cca70c9a07713dd0f61.json.gz",
+      "bundle_sha256": "fe8a962c77882a06d64f030482c9f82c2f9ffc32fdee9e0eb3c38f98e53b4411"
+    },
+    "2026-06-19T02:08:41.275Z": {
+      "boundary": "2026-06-19T02:08:41.275Z",
+      "commit": {
+        "sha": "f84ebcaa9f4670e1622d7068cbbe48df458e794f",
+        "committed_at": "2026-06-19T00:33:25Z",
+        "html_url": "https://github.com/github/advisory-database/commit/f84ebcaa9f4670e1622d7068cbbe48df458e794f"
+      },
+      "resolution": {
+        "url": "https://api.github.com/repos/github/advisory-database/commits?until=2026-06-19T02:08:41Z&per_page=1",
+        "fetched_at": "2026-11-08T18:12:21.081Z",
+        "status": 200,
+        "body_sha256": "da1369bcf65fea294ad4f432db6a298547313c7ab2847944306dab7a964dab1d",
+        "bytes": 4297,
+        "headers": {
+          "date": "Sun, 08 Nov 2026 18:12:21 GMT",
+          "content-type": "application/json; charset=utf-8",
+          "etag": "W/\"202151649771969fc6ba91601790b1aa996ed436555fb1edb0765d054f5001bb\"",
+          "last-modified": "Fri, 19 Jun 2026 00:33:25 GMT",
+          "link": "<https://api.github.com/repositories/458364565/commits?until=2026-06-19T02%3A08%3A41Z&per_page=1&page=2>; rel=\"next\", <https://api.github.com/repositories/458364565/commits?until=2026-06-19T02%3A08%3A41Z&per_page=1&page=116197>; rel=\"last\"",
+          "x-ratelimit-remaining": "56",
+          "x-ratelimit-reset": "1794164960"
+        },
+        "attempt": 1
+      },
+      "download": {
+        "url": "https://codeload.github.com/github/advisory-database/tar.gz/f84ebcaa9f4670e1622d7068cbbe48df458e794f",
+        "fetched_at": "2026-11-08T18:12:21.420Z",
+        "status": 200,
+        "body_sha256": "32e3ee3c4e0d3b1958a43719c2fccbeec8dddb86e1d50b360e1bef755e27a5bc",
+        "bytes": 117848104,
+        "headers": {
+          "content-type": "application/x-gzip",
+          "etag": "\"b98e14f2871d9b75da884986c1263465501fc43424a0e94c6857178cc230db1d\"",
+          "date": "Sun, 08 Nov 2026 18:12:23 GMT"
+        },
+        "attempt": 1
+      },
+      "archive_sha256": "32e3ee3c4e0d3b1958a43719c2fccbeec8dddb86e1d50b360e1bef755e27a5bc",
+      "bundle_path": "data/raw/release-advisories/51a6ca15d09b3f9812feed21.json.gz",
+      "bundle_sha256": "f8d2264288e2c2081662e46cd6becd1ee7032991ef5a81a05c4aa64c09b8e3db"
+    },
+    "2026-09-17T02:08:41.275Z": {
+      "boundary": "2026-09-17T02:08:41.275Z",
+      "commit": {
+        "sha": "05b74b54fe8c965f68daadc42228362b56ac5524",
+        "committed_at": "2026-09-17T00:36:45Z",
+        "html_url": "https://github.com/github/advisory-database/commit/05b74b54fe8c965f68daadc42228362b56ac5524"
+      },
+      "resolution": {
+        "url": "https://api.github.com/repos/github/advisory-database/commits?until=2026-09-17T02:08:41Z&per_page=1",
+        "fetched_at": "2026-11-08T18:13:01.911Z",
+        "status": 200,
+        "body_sha256": "d103a555e8108b6a0170076f4fbe369afc3c051ef176de08b453bb068cb8a956",
+        "bytes": 3795,
+        "headers": {
+          "date": "Sun, 08 Nov 2026 18:13:02 GMT",
+          "content-type": "application/json; charset=utf-8",
+          "etag": "W/\"1c9033c035b49674f8dc6c6cabc4c0df4a496aea272c9126856b62eea00eff7c\"",
+          "last-modified": "Thu, 17 Sep 2026 00:36:45 GMT",
+          "link": "<https://api.github.com/repositories/458364565/commits?until=2026-09-17T02%3A08%3A41Z&per_page=1&page=2>; rel=\"next\", <https://api.github.com/repositories/458364565/commits?until=2026-09-17T02%3A08%3A41Z&per_page=1&page=119049>; rel=\"last\"",
+          "x-ratelimit-remaining": "55",
+          "x-ratelimit-reset": "1794164960"
+        },
+        "attempt": 1
+      },
+      "download": {
+        "url": "https://codeload.github.com/github/advisory-database/tar.gz/05b74b54fe8c965f68daadc42228362b56ac5524",
+        "fetched_at": "2026-11-08T18:13:02.537Z",
+        "status": 200,
+        "body_sha256": "0e09d0d5b1778d6edf0d0ad74cc91c927591faed7893bcdbd0bf1fc2265eebc1",
+        "bytes": 134335954,
+        "headers": {
+          "content-type": "application/x-gzip",
+          "etag": "\"0a7ed7746a224d440389e87a70e71bdc183efc69030bdd35178198526e57e6f1\"",
+          "date": "Sun, 08 Nov 2026 18:13:05 GMT"
+        },
+        "attempt": 1
+      },
+      "archive_sha256": "0e09d0d5b1778d6edf0d0ad74cc91c927591faed7893bcdbd0bf1fc2265eebc1",
+      "bundle_path": "data/raw/release-advisories/76bd5c41705db933ac2d569c.json.gz",
+      "bundle_sha256": "3f1f9f6b726540239ceb746e2c4f76b3021ce15e070cefd13463d84b529434ab"
+    },
+    "2025-12-23T16:42:13.022Z": {
+      "boundary": "2025-12-23T16:42:13.022Z",
+      "commit": {
+        "sha": "afd1f956a8d89bf40081caf17d16ac2fe8e2cbc1",
+        "committed_at": "2025-12-23T16:03:33Z",
+        "html_url": "https://github.com/github/advisory-database/commit/afd1f956a8d89bf40081caf17d16ac2fe8e2cbc1"
+      },
+      "resolution": {
+        "url": "https://api.github.com/repos/github/advisory-database/commits?until=2025-12-23T16:42:13Z&per_page=1",
+        "fetched_at": "2026-11-08T18:17:36.709Z",
+        "status": 200,
+        "body_sha256": "2162ed0e26bdb95d3db8fa8a8a560b97df5dca9f2e7426eecc0010cea5235c09",
+        "bytes": 3940,
+        "headers": {
+          "date": "Sun, 08 Nov 2026 18:17:37 GMT",
+          "content-type": "application/json; charset=utf-8",
+          "etag": "W/\"92a92060d6a840c4fe67567646d09d025b483bf283e3a1106049b34d2fd727fc\"",
+          "last-modified": "Tue, 23 Dec 2025 16:03:33 GMT",
+          "link": "<https://api.github.com/repositories/458364565/commits?until=2025-12-23T16%3A42%3A13Z&per_page=1&page=2>; rel=\"next\", <https://api.github.com/repositories/458364565/commits?until=2025-12-23T16%3A42%3A13Z&per_page=1&page=110971>; rel=\"last\"",
+          "x-ratelimit-remaining": "51",
+          "x-ratelimit-reset": "1794164960"
+        },
+        "attempt": 1
+      },
+      "download": {
+        "url": "https://codeload.github.com/github/advisory-database/tar.gz/afd1f956a8d89bf40081caf17d16ac2fe8e2cbc1",
+        "fetched_at": "2026-11-08T18:17:37.148Z",
+        "status": 200,
+        "body_sha256": "cdcc733b3130bd71f09b444b2cfbec77cde40f38838e0f5e78fc1a78dde8f6d9",
+        "bytes": 99691913,
+        "headers": {
+          "content-type": "application/x-gzip",
+          "etag": "\"a90056eb82aaec35db5c1a6aa553c34eb70f9dc99d582d4ce289d5effef185fc\"",
+          "date": "Sun, 08 Nov 2026 18:17:39 GMT"
+        },
+        "attempt": 1
+      },
+      "archive_sha256": "cdcc733b3130bd71f09b444b2cfbec77cde40f38838e0f5e78fc1a78dde8f6d9",
+      "bundle_path": "data/raw/release-advisories/52fe3a50330e35631c4c7e27.json.gz",
+      "bundle_sha256": "8a872da1e3745f55acbeeb7be15c94c96269818ef593f9e990e4e5fb875b05e4"
+    },
+    "2025-09-08T14:47:54.486Z": {
+      "boundary": "2025-09-08T14:47:54.486Z",
+      "commit": {
+        "sha": "2ab8b10053927626d4c022898463b91331fb3288",
+        "committed_at": "2025-09-08T12:31:51Z",
+        "html_url": "https://github.com/github/advisory-database/commit/2ab8b10053927626d4c022898463b91331fb3288"
+      },
+      "resolution": {
+        "url": "https://api.github.com/repos/github/advisory-database/commits?until=2025-09-08T14:47:54Z&per_page=1",
+        "fetched_at": "2026-11-08T18:17:36.707Z",
+        "status": 200,
+        "body_sha256": "0fe3b8280ebd92ada0878d6e4e5530b9db01dc9bfac61925ff2c0c8370eed7ad",
+        "bytes": 4087,
+        "headers": {
+          "date": "Sun, 08 Nov 2026 18:17:36 GMT",
+          "content-type": "application/json; charset=utf-8",
+          "etag": "W/\"20266f5d8417518d8d036ee07fe2068413e6edba62f31f691ae16e04b3658a7f\"",
+          "last-modified": "Mon, 08 Sep 2025 12:31:51 GMT",
+          "link": "<https://api.github.com/repositories/458364565/commits?until=2025-09-08T14%3A47%3A54Z&per_page=1&page=2>; rel=\"next\", <https://api.github.com/repositories/458364565/commits?until=2025-09-08T14%3A47%3A54Z&per_page=1&page=108706>; rel=\"last\"",
+          "x-ratelimit-remaining": "52",
+          "x-ratelimit-reset": "1794164960"
+        },
+        "attempt": 1
+      },
+      "download": {
+        "url": "https://codeload.github.com/github/advisory-database/tar.gz/2ab8b10053927626d4c022898463b91331fb3288",
+        "fetched_at": "2026-11-08T18:17:37.133Z",
+        "status": 200,
+        "body_sha256": "507f150c2b9d8e087cbd21c17e24fcf291858e5df4863e46b86d1d41855ffaa2",
+        "bytes": 93230350,
+        "headers": {
+          "content-type": "application/x-gzip",
+          "etag": "\"010cff28ed24c28db8a809a8c944b82a1b477e8b37d7d5a788709cc263eff37a\"",
+          "date": "Sun, 08 Nov 2026 18:17:39 GMT"
+        },
+        "attempt": 1
+      },
+      "archive_sha256": "507f150c2b9d8e087cbd21c17e24fcf291858e5df4863e46b86d1d41855ffaa2",
+      "bundle_path": "data/raw/release-advisories/07a406d0cfc5dc8e9d4d7aef.json.gz",
+      "bundle_sha256": "d20d585067ee7c79df624b1ca158001a504ec86259459a6dbcd622e5b84aa5b1"
+    },
+    "2025-12-01T20:49:43.268Z": {
+      "boundary": "2025-12-01T20:49:43.268Z",
+      "commit": {
+        "sha": "898bfffe533704cbc990a727879d108691b71a5c",
+        "committed_at": "2025-12-01T20:48:53Z",
+        "html_url": "https://github.com/github/advisory-database/commit/898bfffe533704cbc990a727879d108691b71a5c"
+      },
+      "resolution": {
+        "url": "https://api.github.com/repos/github/advisory-database/commits?until=2025-12-01T20:49:43Z&per_page=1",
+        "fetched_at": "2026-11-08T18:17:36.708Z",
+        "status": 200,
+        "body_sha256": "46a2b83b527c1f122629fe34685c882e0b323e13578347e2adbd5599e2d4be28",
+        "bytes": 3835,
+        "headers": {
+          "date": "Sun, 08 Nov 2026 18:17:36 GMT",
+          "content-type": "application/json; charset=utf-8",
+          "etag": "W/\"4fb260d6d6f8e1d2e8345da4ef720b24a6ee9d5ee711e32cf544d6846efa5c17\"",
+          "last-modified": "Mon, 01 Dec 2025 20:48:53 GMT",
+          "link": "<https://api.github.com/repositories/458364565/commits?until=2025-12-01T20%3A49%3A43Z&per_page=1&page=2>; rel=\"next\", <https://api.github.com/repositories/458364565/commits?until=2025-12-01T20%3A49%3A43Z&per_page=1&page=110480>; rel=\"last\"",
+          "x-ratelimit-remaining": "54",
+          "x-ratelimit-reset": "1794164960"
+        },
+        "attempt": 1
+      },
+      "download": {
+        "url": "https://codeload.github.com/github/advisory-database/tar.gz/898bfffe533704cbc990a727879d108691b71a5c",
+        "fetched_at": "2026-11-08T18:17:37.136Z",
+        "status": 200,
+        "body_sha256": "24f2bdc211bcc18eb0bef2ddca76f311f0970538150a6301ba5fa30912171c85",
+        "bytes": 98206593,
+        "headers": {
+          "content-type": "application/x-gzip",
+          "etag": "\"d6283a3e81623c053d7d5e1b19584dc577df35e2a583b8d55e94a5d46b85ce85\"",
+          "date": "Sun, 08 Nov 2026 18:17:39 GMT"
+        },
+        "attempt": 1
+      },
+      "archive_sha256": "24f2bdc211bcc18eb0bef2ddca76f311f0970538150a6301ba5fa30912171c85",
+      "bundle_path": "data/raw/release-advisories/1a28b14c5652c5bad24621e5.json.gz",
+      "bundle_sha256": "a472fe883b3d07bd8561a7c790a2b0b841e844b4fa5e46d59c019ba15962c153"
+    },
+    "2025-12-07T14:47:54.486Z": {
+      "boundary": "2025-12-07T14:47:54.486Z",
+      "commit": {
+        "sha": "c57280b35848d35aeed7ed1e98f6ba170c3ad062",
+        "committed_at": "2025-12-07T12:32:29Z",
+        "html_url": "https://github.com/github/advisory-database/commit/c57280b35848d35aeed7ed1e98f6ba170c3ad062"
+      },
+      "resolution": {
+        "url": "https://api.github.com/repos/github/advisory-database/commits?until=2025-12-07T14:47:54Z&per_page=1",
+        "fetched_at": "2026-11-08T18:17:36.709Z",
+        "status": 200,
+        "body_sha256": "517fadadcd3cf16b08bd5178b20019a4898a8a6f34823ae448e3f03bd23b1233",
+        "bytes": 3835,
+        "headers": {
+          "date": "Sun, 08 Nov 2026 18:17:37 GMT",
+          "content-type": "application/json; charset=utf-8",
+          "etag": "W/\"71721a2d2e04a35217c0788749b91fddea59861e04edec6b5bbf4b1b57d2f601\"",
+          "last-modified": "Sun, 07 Dec 2025 12:32:29 GMT",
+          "link": "<https://api.github.com/repositories/458364565/commits?until=2025-12-07T14%3A47%3A54Z&per_page=1&page=2>; rel=\"next\", <https://api.github.com/repositories/458364565/commits?until=2025-12-07T14%3A47%3A54Z&per_page=1&page=110602>; rel=\"last\"",
+          "x-ratelimit-remaining": "53",
+          "x-ratelimit-reset": "1794164960"
+        },
+        "attempt": 1
+      },
+      "download": {
+        "url": "https://codeload.github.com/github/advisory-database/tar.gz/c57280b35848d35aeed7ed1e98f6ba170c3ad062",
+        "fetched_at": "2026-11-08T18:17:37.166Z",
+        "status": 200,
+        "body_sha256": "30e11f5d6e451089a8b3a1dd5c84741d2772f9cdc67ef6e1f19248f4ad042870",
+        "bytes": 98472353,
+        "headers": {
+          "content-type": "application/x-gzip",
+          "etag": "\"94fcda5d5750704e5335821aa08509e44e80bac2ddc0d1c594f6284a12939c9a\"",
+          "date": "Sun, 08 Nov 2026 18:17:39 GMT"
+        },
+        "attempt": 1
+      },
+      "archive_sha256": "30e11f5d6e451089a8b3a1dd5c84741d2772f9cdc67ef6e1f19248f4ad042870",
+      "bundle_path": "data/raw/release-advisories/dbe4df935e3590ab55db471c.json.gz",
+      "bundle_sha256": "6d897741aef8f7522c031bd87ce370e821ce342949a3f89f5b0257f02a03d252"
+    },
+    "2026-03-01T20:49:43.268Z": {
+      "boundary": "2026-03-01T20:49:43.268Z",
+      "commit": {
+        "sha": "2e029c9fe0db0339ae7ebc3e1aeae33acb8f9201",
+        "committed_at": "2026-03-01T00:31:30Z",
+        "html_url": "https://github.com/github/advisory-database/commit/2e029c9fe0db0339ae7ebc3e1aeae33acb8f9201"
+      },
+      "resolution": {
+        "url": "https://api.github.com/repos/github/advisory-database/commits?until=2026-03-01T20:49:43Z&per_page=1",
+        "fetched_at": "2026-11-08T18:19:33.510Z",
+        "status": 200,
+        "body_sha256": "40e627b7afb2fb77191d3f04cd79a065b1a4075dc8a81c2f4bbf2d9fb4f75208",
+        "bytes": 4024,
+        "headers": {
+          "date": "Sun, 08 Nov 2026 18:19:33 GMT",
+          "content-type": "application/json; charset=utf-8",
+          "etag": "W/\"ecb85027f5d8bac98f76a1c4c7859c6c154ddf757ad19972f0c5a135ff5c7e5e\"",
+          "last-modified": "Sun, 01 Mar 2026 00:31:30 GMT",
+          "link": "<https://api.github.com/repositories/458364565/commits?until=2026-03-01T20%3A49%3A43Z&per_page=1&page=2>; rel=\"next\", <https://api.github.com/repositories/458364565/commits?until=2026-03-01T20%3A49%3A43Z&per_page=1&page=112713>; rel=\"last\"",
+          "x-ratelimit-remaining": "50",
+          "x-ratelimit-reset": "1794164960"
+        },
+        "attempt": 1
+      },
+      "download": {
+        "url": "https://codeload.github.com/github/advisory-database/tar.gz/2e029c9fe0db0339ae7ebc3e1aeae33acb8f9201",
+        "fetched_at": "2026-11-08T18:19:33.916Z",
+        "status": 200,
+        "body_sha256": "1c8989177fb77bdc80e8eb5796517c6a2d3cc3d29b4785c0b50df7fa9e4c1443",
+        "bytes": 104319285,
+        "headers": {
+          "content-type": "application/x-gzip",
+          "etag": "\"2ec5b42d0f6f9d36a2d0caa83da271a2e98705a24faf97af4fd040ba95d6888f\"",
+          "date": "Sun, 08 Nov 2026 18:19:36 GMT"
+        },
+        "attempt": 1
+      },
+      "archive_sha256": "1c8989177fb77bdc80e8eb5796517c6a2d3cc3d29b4785c0b50df7fa9e4c1443",
+      "bundle_path": "data/raw/release-advisories/d451c73a7d8960d54a37b0c0.json.gz",
+      "bundle_sha256": "10400e0c3c2f7d767c7102ee38a0bffb8ff10eeede80680a21408e7d4b5b04d9"
+    },
+    "2026-04-01T21:01:20.458Z": {
+      "boundary": "2026-04-01T21:01:20.458Z",
+      "commit": {
+        "sha": "2b959372cfeebf62db51704a80f1179c31a422dc",
+        "committed_at": "2026-04-01T21:00:51Z",
+        "html_url": "https://github.com/github/advisory-database/commit/2b959372cfeebf62db51704a80f1179c31a422dc"
+      },
+      "resolution": {
+        "url": "https://api.github.com/repos/github/advisory-database/commits?until=2026-04-01T21:01:20Z&per_page=1",
+        "fetched_at": "2026-11-08T18:19:42.650Z",
+        "status": 200,
+        "body_sha256": "11c38e54cd98a9b6613fddbaf3a15882535cab1af69ecc940ac1efb6e5cc60b8",
+        "bytes": 3800,
+        "headers": {
+          "date": "Sun, 08 Nov 2026 18:19:42 GMT",
+          "content-type": "application/json; charset=utf-8",
+          "etag": "W/\"d3c97437cb00fa929b19746582826779c6da1cffd85f73c1797f27ca7452cc46\"",
+          "last-modified": "Wed, 01 Apr 2026 21:00:51 GMT",
+          "link": "<https://api.github.com/repositories/458364565/commits?until=2026-04-01T21%3A01%3A20Z&per_page=1&page=2>; rel=\"next\", <https://api.github.com/repositories/458364565/commits?until=2026-04-01T21%3A01%3A20Z&per_page=1&page=113841>; rel=\"last\"",
+          "x-ratelimit-remaining": "48",
+          "x-ratelimit-reset": "1794164960"
+        },
+        "attempt": 1
+      },
+      "download": {
+        "url": "https://codeload.github.com/github/advisory-database/tar.gz/2b959372cfeebf62db51704a80f1179c31a422dc",
+        "fetched_at": "2026-11-08T18:19:43.014Z",
+        "status": 200,
+        "body_sha256": "b7d8b01c5dc788ca0b90fd1ca007869cd910ea12e6f81c8b059d367e1791bed0",
+        "bytes": 107758677,
+        "headers": {
+          "content-type": "application/x-gzip",
+          "etag": "\"dc992e25e75973ef477dc50b9e47475a86578bc0fb9690e4cb150ebfc5a6ba6a\"",
+          "date": "Sun, 08 Nov 2026 18:19:45 GMT"
+        },
+        "attempt": 1
+      },
+      "archive_sha256": "b7d8b01c5dc788ca0b90fd1ca007869cd910ea12e6f81c8b059d367e1791bed0",
+      "bundle_path": "data/raw/release-advisories/1208343df04f0b9519f844ca.json.gz",
+      "bundle_sha256": "10a1acd4480e6e7d4f3b0a4f81a19c8ab83fbd3aa73b613fa3ae290925de6615"
+    },
+    "2026-03-23T16:42:13.022Z": {
+      "boundary": "2026-03-23T16:42:13.022Z",
+      "commit": {
+        "sha": "e37f0f2237a925be050dfd7fe7a30b3b9765e668",
+        "committed_at": "2026-03-23T15:32:12Z",
+        "html_url": "https://github.com/github/advisory-database/commit/e37f0f2237a925be050dfd7fe7a30b3b9765e668"
+      },
+      "resolution": {
+        "url": "https://api.github.com/repos/github/advisory-database/commits?until=2026-03-23T16:42:13Z&per_page=1",
+        "fetched_at": "2026-11-08T18:19:39.041Z",
+        "status": 200,
+        "body_sha256": "964d7c126f93a18e8fe055a9b90631fb2f341e3f7e92550273182f321ba38ae6",
+        "bytes": 3795,
+        "headers": {
+          "date": "Sun, 08 Nov 2026 18:19:39 GMT",
+          "content-type": "application/json; charset=utf-8",
+          "etag": "W/\"b378405d4f5a33be19121dec4918bf85032223d48a4de1e7bf201a0200c3485f\"",
+          "last-modified": "Mon, 23 Mar 2026 15:32:12 GMT",
+          "link": "<https://api.github.com/repositories/458364565/commits?until=2026-03-23T16%3A42%3A13Z&per_page=1&page=2>; rel=\"next\", <https://api.github.com/repositories/458364565/commits?until=2026-03-23T16%3A42%3A13Z&per_page=1&page=113333>; rel=\"last\"",
+          "x-ratelimit-remaining": "49",
+          "x-ratelimit-reset": "1794164960"
+        },
+        "attempt": 1
+      },
+      "download": {
+        "url": "https://codeload.github.com/github/advisory-database/tar.gz/e37f0f2237a925be050dfd7fe7a30b3b9765e668",
+        "fetched_at": "2026-11-08T18:19:39.401Z",
+        "status": 200,
+        "body_sha256": "43e4a4230d6c4153cfe7434b1da89c68525017840d0d407a2ade9e53ee6224ff",
+        "bytes": 106529580,
+        "headers": {
+          "content-type": "application/x-gzip",
+          "etag": "\"429b18553eaeb0a4e8cab5151c1889a7fecfb0f1f2c08c941e30e2c5801c5189\"",
+          "date": "Sun, 08 Nov 2026 18:19:41 GMT"
+        },
+        "attempt": 1
+      },
+      "archive_sha256": "43e4a4230d6c4153cfe7434b1da89c68525017840d0d407a2ade9e53ee6224ff",
+      "bundle_path": "data/raw/release-advisories/1431c027d708170a35229c9a.json.gz",
+      "bundle_sha256": "069be2991911e1cbb54fa3738c0829187659e523d71487e4355012ab20b879ea"
+    },
+    "2026-04-16T23:38:27.905Z": {
+      "boundary": "2026-04-16T23:38:27.905Z",
+      "commit": {
+        "sha": "e669840a3c688dbdc33d628dd76c12be3ae82ef6",
+        "committed_at": "2026-04-16T23:01:12Z",
+        "html_url": "https://github.com/github/advisory-database/commit/e669840a3c688dbdc33d628dd76c12be3ae82ef6"
+      },
+      "resolution": {
+        "url": "https://api.github.com/repos/github/advisory-database/commits?until=2026-04-16T23:38:27Z&per_page=1",
+        "fetched_at": "2026-11-08T18:19:44.881Z",
+        "status": 200,
+        "body_sha256": "363c83f49e0908b3673e7baa761ff0ec3fffbf0e94257df8a67822e84208cc42",
+        "bytes": 3919,
+        "headers": {
+          "date": "Sun, 08 Nov 2026 18:19:45 GMT",
+          "content-type": "application/json; charset=utf-8",
+          "etag": "W/\"cca9f55bb05d462da5808fa98a67a482d17e57d1447507c0f087dbd03538a450\"",
+          "last-modified": "Thu, 16 Apr 2026 23:01:12 GMT",
+          "link": "<https://api.github.com/repositories/458364565/commits?until=2026-04-16T23%3A38%3A27Z&per_page=1&page=2>; rel=\"next\", <https://api.github.com/repositories/458364565/commits?until=2026-04-16T23%3A38%3A27Z&per_page=1&page=114395>; rel=\"last\"",
+          "x-ratelimit-remaining": "47",
+          "x-ratelimit-reset": "1794164960"
+        },
+        "attempt": 1
+      },
+      "download": {
+        "url": "https://codeload.github.com/github/advisory-database/tar.gz/e669840a3c688dbdc33d628dd76c12be3ae82ef6",
+        "fetched_at": "2026-11-08T18:19:45.225Z",
+        "status": 200,
+        "body_sha256": "71c45a36b8dcd08d64d0c5961b08d0fafe98779ad9e60f1c305801dad800db6b",
+        "bytes": 109690504,
+        "headers": {
+          "content-type": "application/x-gzip",
+          "etag": "\"4aaa2df69c854cd9fed1d2fa1678f717c8519ce5be517eced83bd3b4a7cc0094\"",
+          "date": "Sun, 08 Nov 2026 18:19:47 GMT"
+        },
+        "attempt": 1
+      },
+      "archive_sha256": "71c45a36b8dcd08d64d0c5961b08d0fafe98779ad9e60f1c305801dad800db6b",
+      "bundle_path": "data/raw/release-advisories/06f7334b01b345f389e201e0.json.gz",
+      "bundle_sha256": "cb7c8178368880485bd410a76fef3121f09b21990ee26bd5a1388e98b2584049"
+    },
+    "2026-04-24T15:22:16.529Z": {
+      "boundary": "2026-04-24T15:22:16.529Z",
+      "commit": {
+        "sha": "439cff0e0515e9e3fa6abd2eb6c420171d12e228",
+        "committed_at": "2026-04-24T15:22:01Z",
+        "html_url": "https://github.com/github/advisory-database/commit/439cff0e0515e9e3fa6abd2eb6c420171d12e228"
+      },
+      "resolution": {
+        "url": "https://api.github.com/repos/github/advisory-database/commits?until=2026-04-24T15:22:16Z&per_page=1",
+        "fetched_at": "2026-11-08T18:20:32.056Z",
+        "status": 200,
+        "body_sha256": "2d2e122f5d639e90a4eaa143d4bc3b94dab10d45fdcb096ad5654109cc471ed6",
+        "bytes": 3800,
+        "headers": {
+          "date": "Sun, 08 Nov 2026 18:20:32 GMT",
+          "content-type": "application/json; charset=utf-8",
+          "etag": "W/\"e472d85a48a94459a9d135be4ac70b0b980aea1f15c531f1fe7bed25b9adc08d\"",
+          "last-modified": "Fri, 24 Apr 2026 15:22:01 GMT",
+          "link": "<https://api.github.com/repositories/458364565/commits?until=2026-04-24T15%3A22%3A16Z&per_page=1&page=2>; rel=\"next\", <https://api.github.com/repositories/458364565/commits?until=2026-04-24T15%3A22%3A16Z&per_page=1&page=114598>; rel=\"last\"",
+          "x-ratelimit-remaining": "46",
+          "x-ratelimit-reset": "1794164960"
+        },
+        "attempt": 1
+      },
+      "download": {
+        "url": "https://codeload.github.com/github/advisory-database/tar.gz/439cff0e0515e9e3fa6abd2eb6c420171d12e228",
+        "fetched_at": "2026-11-08T18:20:32.522Z",
+        "status": 200,
+        "body_sha256": "e8f084ce8c5a2ba53fb4854bc29cb688f1c939af7ac617253b34ce93083fb58c",
+        "bytes": 110407845,
+        "headers": {
+          "content-type": "application/x-gzip",
+          "etag": "\"c1221bf9281378bdae29b9498ada51c4772a1b420dbd46a5c315b66b1dabd312\"",
+          "date": "Sun, 08 Nov 2026 18:20:35 GMT"
+        },
+        "attempt": 1
+      },
+      "archive_sha256": "e8f084ce8c5a2ba53fb4854bc29cb688f1c939af7ac617253b34ce93083fb58c",
+      "bundle_path": "data/raw/release-advisories/b213cbc051c8748c52b8e74a.json.gz",
+      "bundle_sha256": "6aa154ce65e07bfb68a29c22cb519193e76df6e2495a5aaf24f0605dbe943983"
+    },
+    "2026-05-04T07:06:40.819Z": {
+      "boundary": "2026-05-04T07:06:40.819Z",
+      "commit": {
+        "sha": "189c2cd4b5fbebfc67fe17fc42882bed189e996e",
+        "committed_at": "2026-04-30T05:03:17Z",
+        "html_url": "https://github.com/github/advisory-database/commit/189c2cd4b5fbebfc67fe17fc42882bed189e996e"
+      },
+      "resolution": {
+        "url": "https://api.github.com/repos/github/advisory-database/commits?until=2026-05-04T07:06:40Z&per_page=1",
+        "fetched_at": "2026-11-08T18:21:35.933Z",
+        "status": 200,
+        "body_sha256": "1dfe9356c8716028d6681f7b1ebd80cfb02a69a2bf9bddae5bc878c8f58cb4c0",
+        "bytes": 3800,
+        "headers": {
+          "date": "Sun, 08 Nov 2026 18:21:36 GMT",
+          "content-type": "application/json; charset=utf-8",
+          "etag": "W/\"c5bf278759640b80901e4ca9114b1a15d3c94bcddd212be709c3766174a6b8f2\"",
+          "last-modified": "Thu, 30 Apr 2026 05:03:17 GMT",
+          "link": "<https://api.github.com/repositories/458364565/commits?until=2026-05-04T07%3A06%3A40Z&per_page=1&page=2>; rel=\"next\", <https://api.github.com/repositories/458364565/commits?until=2026-05-04T07%3A06%3A40Z&per_page=1&page=114613>; rel=\"last\"",
+          "x-ratelimit-remaining": "45",
+          "x-ratelimit-reset": "1794164960"
+        },
+        "attempt": 1
+      },
+      "download": {
+        "url": "https://codeload.github.com/github/advisory-database/tar.gz/189c2cd4b5fbebfc67fe17fc42882bed189e996e",
+        "fetched_at": "2026-11-08T18:21:36.307Z",
+        "status": 200,
+        "body_sha256": "1f37d47faa7245e0c36ee9d599a67a43f3e2f24139f124ff657c5beafa2efc26",
+        "bytes": 110516512,
+        "headers": {
+          "content-type": "application/x-gzip",
+          "etag": "\"9c16ac2e91599ce1200ad9b7ca7861fe90c9ad2a15125ae8bfd390c0af52463d\"",
+          "date": "Sun, 08 Nov 2026 18:21:38 GMT"
+        },
+        "attempt": 1
+      },
+      "archive_sha256": "1f37d47faa7245e0c36ee9d599a67a43f3e2f24139f124ff657c5beafa2efc26",
+      "bundle_path": "data/raw/release-advisories/8cc609cb2e1844b7dae0e0b1.json.gz",
+      "bundle_sha256": "140d606d9c1a7b0657c215bf99d747237c4804d3198b0b18bcadc99645343924"
+    },
+    "2026-05-09T00:31:21.036Z": {
+      "boundary": "2026-05-09T00:31:21.036Z",
+      "commit": {
+        "sha": "4d8c7cbd45cb8e9ca4c895799091fad98fcdbef1",
+        "committed_at": "2026-05-09T00:30:45Z",
+        "html_url": "https://github.com/github/advisory-database/commit/4d8c7cbd45cb8e9ca4c895799091fad98fcdbef1"
+      },
+      "resolution": {
+        "url": "https://api.github.com/repos/github/advisory-database/commits?until=2026-05-09T00:31:21Z&per_page=1",
+        "fetched_at": "2026-11-08T18:21:51.122Z",
+        "status": 200,
+        "body_sha256": "2f44b11611968c5a10e60d0c0c112503825015cadbb04732692355b966e7f138",
+        "bytes": 3800,
+        "headers": {
+          "date": "Sun, 08 Nov 2026 18:21:51 GMT",
+          "content-type": "application/json; charset=utf-8",
+          "etag": "W/\"46d2503e1ccb6782c3d98cb29cb20986218a8beaf857c18c18c9f5bea1ccb412\"",
+          "last-modified": "Sat, 09 May 2026 00:30:45 GMT",
+          "link": "<https://api.github.com/repositories/458364565/commits?until=2026-05-09T00%3A31%3A21Z&per_page=1&page=2>; rel=\"next\", <https://api.github.com/repositories/458364565/commits?until=2026-05-09T00%3A31%3A21Z&per_page=1&page=114999>; rel=\"last\"",
+          "x-ratelimit-remaining": "43",
+          "x-ratelimit-reset": "1794164960"
+        },
+        "attempt": 1
+      },
+      "download": {
+        "url": "https://codeload.github.com/github/advisory-database/tar.gz/4d8c7cbd45cb8e9ca4c895799091fad98fcdbef1",
+        "fetched_at": "2026-11-08T18:21:51.459Z",
+        "status": 200,
+        "body_sha256": "0a59df5f450f0e5bcaf939cacbb864d66191742b419897b2ed44c8260ff2df41",
+        "bytes": 112683722,
+        "headers": {
+          "content-type": "application/x-gzip",
+          "etag": "\"48de89a4875e454c21f3818dd4f7e6a99984c29b420a8df355deb5ad661bdbb8\"",
+          "date": "Sun, 08 Nov 2026 18:21:53 GMT"
+        },
+        "attempt": 1
+      },
+      "archive_sha256": "0a59df5f450f0e5bcaf939cacbb864d66191742b419897b2ed44c8260ff2df41",
+      "bundle_path": "data/raw/release-advisories/4ef779139b181265b937605b.json.gz",
+      "bundle_sha256": "3a64907c563b5bbe89ebe1d4d5411b2444819fe6311eb99e7d2351a3c073eeeb"
+    },
+    "2026-05-06T10:38:26.287Z": {
+      "boundary": "2026-05-06T10:38:26.287Z",
+      "commit": {
+        "sha": "5c51eb6e4f4be7239b2529e78964b1bf4f7e40a0",
+        "committed_at": "2026-05-06T09:34:02Z",
+        "html_url": "https://github.com/github/advisory-database/commit/5c51eb6e4f4be7239b2529e78964b1bf4f7e40a0"
+      },
+      "resolution": {
+        "url": "https://api.github.com/repos/github/advisory-database/commits?until=2026-05-06T10:38:26Z&per_page=1",
+        "fetched_at": "2026-11-08T18:21:41.292Z",
+        "status": 200,
+        "body_sha256": "d969f315540095999334d86ddc84172d0e1719e91ffc27d49f02ff7f24b90c78",
+        "bytes": 4087,
+        "headers": {
+          "date": "Sun, 08 Nov 2026 18:21:41 GMT",
+          "content-type": "application/json; charset=utf-8",
+          "etag": "W/\"5842f33a000c90ddd4fc531f0ced0d4c567aa2e921441c95e2b197596d1586d4\"",
+          "last-modified": "Wed, 06 May 2026 09:34:02 GMT",
+          "link": "<https://api.github.com/repositories/458364565/commits?until=2026-05-06T10%3A38%3A26Z&per_page=1&page=2>; rel=\"next\", <https://api.github.com/repositories/458364565/commits?until=2026-05-06T10%3A38%3A26Z&per_page=1&page=114699>; rel=\"last\"",
+          "x-ratelimit-remaining": "44",
+          "x-ratelimit-reset": "1794164960"
+        },
+        "attempt": 1
+      },
+      "download": {
+        "url": "https://codeload.github.com/github/advisory-database/tar.gz/5c51eb6e4f4be7239b2529e78964b1bf4f7e40a0",
+        "fetched_at": "2026-11-08T18:21:41.631Z",
+        "status": 200,
+        "body_sha256": "85e82551660f2e7c125f6aa36d6389a16c73c5bb74cb718c319ab591a69fdbb1",
+        "bytes": 111678257,
+        "headers": {
+          "content-type": "application/x-gzip",
+          "etag": "\"7dd97e1b3e744a10fb283cdbab29504c7f228a7e20c609ce4d3e767cf1050adf\"",
+          "date": "Sun, 08 Nov 2026 18:21:44 GMT"
+        },
+        "attempt": 1
+      },
+      "archive_sha256": "85e82551660f2e7c125f6aa36d6389a16c73c5bb74cb718c319ab591a69fdbb1",
+      "bundle_path": "data/raw/release-advisories/9cf974a00227211deea8d20a.json.gz",
+      "bundle_sha256": "e188cb4debb7fcc1966a3177021ca73c995eeb3dfd37ea81c28b67c2df0d8b24"
+    },
+    "2026-05-11T10:16:24.045Z": {
+      "boundary": "2026-05-11T10:16:24.045Z",
+      "commit": {
+        "sha": "86f2a7ffce7e126eb89deacbe28a047f3639a4fe",
+        "committed_at": "2026-05-11T09:33:26Z",
+        "html_url": "https://github.com/github/advisory-database/commit/86f2a7ffce7e126eb89deacbe28a047f3639a4fe"
+      },
+      "resolution": {
+        "url": "https://api.github.com/repos/github/advisory-database/commits?until=2026-05-11T10:16:24Z&per_page=1",
+        "fetched_at": "2026-11-08T18:22:25.283Z",
+        "status": 200,
+        "body_sha256": "0aa6e3f09e4a0384419036fcebb68ea421183fc5f813c9924a412512bb34a6b0",
+        "bytes": 3795,
+        "headers": {
+          "date": "Sun, 08 Nov 2026 18:22:25 GMT",
+          "content-type": "application/json; charset=utf-8",
+          "etag": "W/\"22afe304d7a5249021ef75fd2b03620acf573a3e1393ef2b92aa383303beeca0\"",
+          "last-modified": "Mon, 11 May 2026 09:33:26 GMT",
+          "link": "<https://api.github.com/repositories/458364565/commits?until=2026-05-11T10%3A16%3A24Z&per_page=1&page=2>; rel=\"next\", <https://api.github.com/repositories/458364565/commits?until=2026-05-11T10%3A16%3A24Z&per_page=1&page=115022>; rel=\"last\"",
+          "x-ratelimit-remaining": "42",
+          "x-ratelimit-reset": "1794164960"
+        },
+        "attempt": 1
+      },
+      "download": {
+        "url": "https://codeload.github.com/github/advisory-database/tar.gz/86f2a7ffce7e126eb89deacbe28a047f3639a4fe",
+        "fetched_at": "2026-11-08T18:22:25.692Z",
+        "status": 200,
+        "body_sha256": "8dfcfd7115fea01a195396b763258ba5d0b28a8b76c770a0e1922d8969c168bf",
+        "bytes": 112731342,
+        "headers": {
+          "content-type": "application/x-gzip",
+          "etag": "\"2a5240c54ed51d9c4c3dd7451cd8f1bae7ab0a71c701bed6ae5dd396c66dc8b4\"",
+          "date": "Sun, 08 Nov 2026 18:22:28 GMT"
+        },
+        "attempt": 1
+      },
+      "archive_sha256": "8dfcfd7115fea01a195396b763258ba5d0b28a8b76c770a0e1922d8969c168bf",
+      "bundle_path": "data/raw/release-advisories/433703e9960c118bbb0c267e.json.gz",
+      "bundle_sha256": "5de3c5727957a9df811001248772216c20e6febfc5c2d5ddd130e30a47fdcfb1"
+    },
+    "2026-05-21T07:25:34.368Z": {
+      "boundary": "2026-05-21T07:25:34.368Z",
+      "commit": {
+        "sha": "f74ba8ef1bbe16b7b41a9579615184484c80e7ce",
+        "committed_at": "2026-05-21T06:33:46Z",
+        "html_url": "https://github.com/github/advisory-database/commit/f74ba8ef1bbe16b7b41a9579615184484c80e7ce"
+      },
+      "resolution": {
+        "url": "https://api.github.com/repos/github/advisory-database/commits?until=2026-05-21T07:25:34Z&per_page=1",
+        "fetched_at": "2026-11-08T18:23:37.649Z",
+        "status": 200,
+        "body_sha256": "30c8b4c1fd1db3d1d9b1e78a942e2ae6a8608a48d77f03477dabc739b5df76de",
+        "bytes": 3940,
+        "headers": {
+          "date": "Sun, 08 Nov 2026 18:23:37 GMT",
+          "content-type": "application/json; charset=utf-8",
+          "etag": "W/\"de0dec3dfb4bccf1f648ca24dbfd3d21535ff9290b61310a282cd2331ee19506\"",
+          "last-modified": "Thu, 21 May 2026 06:33:46 GMT",
+          "link": "<https://api.github.com/repositories/458364565/commits?until=2026-05-21T07%3A25%3A34Z&per_page=1&page=2>; rel=\"next\", <https://api.github.com/repositories/458364565/commits?until=2026-05-21T07%3A25%3A34Z&per_page=1&page=115350>; rel=\"last\"",
+          "x-ratelimit-remaining": "41",
+          "x-ratelimit-reset": "1794164960"
+        },
+        "attempt": 1
+      },
+      "download": {
+        "url": "https://codeload.github.com/github/advisory-database/tar.gz/f74ba8ef1bbe16b7b41a9579615184484c80e7ce",
+        "fetched_at": "2026-11-08T18:23:38.038Z",
+        "status": 200,
+        "body_sha256": "11fa2842b14b84d8b431807fd676a2757ef4cfb714ff0fd4e8b361950cc93e30",
+        "bytes": 114144121,
+        "headers": {
+          "content-type": "application/x-gzip",
+          "etag": "\"907874849b257f1c18dcc93ca9fb69cfff2a29e29cdf3a945affeddc93fb541a\"",
+          "date": "Sun, 08 Nov 2026 18:23:40 GMT"
+        },
+        "attempt": 1
+      },
+      "archive_sha256": "11fa2842b14b84d8b431807fd676a2757ef4cfb714ff0fd4e8b361950cc93e30",
+      "bundle_path": "data/raw/release-advisories/a7cf4c4660fbb08a6a21c97d.json.gz",
+      "bundle_sha256": "e59738d2e42410b675f6bd1ead10f5b7794f92423c7f54cba9d5acc02a37df8d"
+    },
+    "2026-05-22T17:59:59.453Z": {
+      "boundary": "2026-05-22T17:59:59.453Z",
+      "commit": {
+        "sha": "c46bcf61f9d19576a81e7bc7b30d1615109eae29",
+        "committed_at": "2026-05-22T17:50:57Z",
+        "html_url": "https://github.com/github/advisory-database/commit/c46bcf61f9d19576a81e7bc7b30d1615109eae29"
+      },
+      "resolution": {
+        "url": "https://api.github.com/repos/github/advisory-database/commits?until=2026-05-22T17:59:59Z&per_page=1",
+        "fetched_at": "2026-11-08T18:23:52.266Z",
+        "status": 200,
+        "body_sha256": "63c7cebc07c1fd58ca91f13125af3a7820496839f9300c883a5c3c4f0b4a8538",
+        "bytes": 3800,
+        "headers": {
+          "date": "Sun, 08 Nov 2026 18:23:52 GMT",
+          "content-type": "application/json; charset=utf-8",
+          "etag": "W/\"af464b4b96f3b8cbad4f8032fb2d966a3c000fd8fb2ad598dd316138346dcf6e\"",
+          "last-modified": "Fri, 22 May 2026 17:50:57 GMT",
+          "link": "<https://api.github.com/repositories/458364565/commits?until=2026-05-22T17%3A59%3A59Z&per_page=1&page=2>; rel=\"next\", <https://api.github.com/repositories/458364565/commits?until=2026-05-22T17%3A59%3A59Z&per_page=1&page=115418>; rel=\"last\"",
+          "x-ratelimit-remaining": "39",
+          "x-ratelimit-reset": "1794164960"
+        },
+        "attempt": 1
+      },
+      "download": {
+        "url": "https://codeload.github.com/github/advisory-database/tar.gz/c46bcf61f9d19576a81e7bc7b30d1615109eae29",
+        "fetched_at": "2026-11-08T18:23:52.642Z",
+        "status": 200,
+        "body_sha256": "c4de4d89a7c75465bd7407fca4b6171f993e7ec0cd6cab69b1f97300caaf1e79",
+        "bytes": 114343206,
+        "headers": {
+          "content-type": "application/x-gzip",
+          "etag": "\"8b43f89b5ebecbd2d6a005afb962c550ada3f6903a607e50bec5c2ab5315c036\"",
+          "date": "Sun, 08 Nov 2026 18:23:54 GMT"
+        },
+        "attempt": 1
+      },
+      "archive_sha256": "c4de4d89a7c75465bd7407fca4b6171f993e7ec0cd6cab69b1f97300caaf1e79",
+      "bundle_path": "data/raw/release-advisories/1e2d253f4faccb9ce44192b9.json.gz",
+      "bundle_sha256": "441a3e43c7ae948ab99017516b5a7a60f7fb74842030ef7759ca96293998b224"
+    },
+    "2026-05-21T11:11:59.551Z": {
+      "boundary": "2026-05-21T11:11:59.551Z",
+      "commit": {
+        "sha": "aa3b80d3746f02a5556628b14eb1ff0b96f62024",
+        "committed_at": "2026-05-21T09:34:22Z",
+        "html_url": "https://github.com/github/advisory-database/commit/aa3b80d3746f02a5556628b14eb1ff0b96f62024"
+      },
+      "resolution": {
+        "url": "https://api.github.com/repos/github/advisory-database/commits?until=2026-05-21T11:11:59Z&per_page=1",
+        "fetched_at": "2026-11-08T18:23:47.008Z",
+        "status": 200,
+        "body_sha256": "88331f23605c510b69f65f10494fb5e8a6bc822681adab895efa0290a195d241",
+        "bytes": 3795,
+        "headers": {
+          "date": "Sun, 08 Nov 2026 18:23:47 GMT",
+          "content-type": "application/json; charset=utf-8",
+          "etag": "W/\"28f59049d972e8e696b6049e2851c0be5b1104e406ed00fa7a1c6c3df1a5b94f\"",
+          "last-modified": "Thu, 21 May 2026 09:34:22 GMT",
+          "link": "<https://api.github.com/repositories/458364565/commits?until=2026-05-21T11%3A11%3A59Z&per_page=1&page=2>; rel=\"next\", <https://api.github.com/repositories/458364565/commits?until=2026-05-21T11%3A11%3A59Z&per_page=1&page=115351>; rel=\"last\"",
+          "x-ratelimit-remaining": "40",
+          "x-ratelimit-reset": "1794164960"
+        },
+        "attempt": 1
+      },
+      "download": {
+        "url": "https://codeload.github.com/github/advisory-database/tar.gz/aa3b80d3746f02a5556628b14eb1ff0b96f62024",
+        "fetched_at": "2026-11-08T18:23:47.502Z",
+        "status": 200,
+        "body_sha256": "b5e2c01f18e661becb81d2c01645a23bc7a818c6a9fe84fe02bddac08854ab6f",
+        "bytes": 114207121,
+        "headers": {
+          "content-type": "application/x-gzip",
+          "etag": "\"1e9cdb273168bab8d30fee2717efe7be1786dbbf59dbf43abd19fc7d4fa62eaf\"",
+          "date": "Sun, 08 Nov 2026 18:23:49 GMT"
+        },
+        "attempt": 1
+      },
+      "archive_sha256": "b5e2c01f18e661becb81d2c01645a23bc7a818c6a9fe84fe02bddac08854ab6f",
+      "bundle_path": "data/raw/release-advisories/90a11f034155d66e48f26b53.json.gz",
+      "bundle_sha256": "30bb1121cf1d9ad7a715ee074b1142ddb1697388d0d2f763a279797ae21dfaa5"
+    },
+    "2026-06-01T18:00:48.323Z": {
+      "boundary": "2026-06-01T18:00:48.323Z",
+      "commit": {
+        "sha": "885c1cebcff2e5e26487e667f67d26109011cd1f",
+        "committed_at": "2026-06-01T15:56:23Z",
+        "html_url": "https://github.com/github/advisory-database/commit/885c1cebcff2e5e26487e667f67d26109011cd1f"
+      },
+      "resolution": {
+        "url": "https://api.github.com/repos/github/advisory-database/commits?until=2026-06-01T18:00:48Z&per_page=1",
+        "fetched_at": "2026-11-08T18:24:47.391Z",
+        "status": 200,
+        "body_sha256": "4782c713546d96f5fa388ddb575372e18724049e1ad7d0a756175363d0a80917",
+        "bytes": 3835,
+        "headers": {
+          "date": "Sun, 08 Nov 2026 18:24:47 GMT",
+          "content-type": "application/json; charset=utf-8",
+          "etag": "W/\"7db37d0c51327f72fcbbd669d35ec14b7234153e129a890f0850f3cf1cf6ace6\"",
+          "last-modified": "Mon, 01 Jun 2026 15:56:23 GMT",
+          "link": "<https://api.github.com/repositories/458364565/commits?until=2026-06-01T18%3A00%3A48Z&per_page=1&page=2>; rel=\"next\", <https://api.github.com/repositories/458364565/commits?until=2026-06-01T18%3A00%3A48Z&per_page=1&page=115653>; rel=\"last\"",
+          "x-ratelimit-remaining": "37",
+          "x-ratelimit-reset": "1794164960"
+        },
+        "attempt": 1
+      },
+      "download": {
+        "url": "https://codeload.github.com/github/advisory-database/tar.gz/885c1cebcff2e5e26487e667f67d26109011cd1f",
+        "fetched_at": "2026-11-08T18:24:47.736Z",
+        "status": 200,
+        "body_sha256": "7b7663f1a53d35c6ca45125e9a553752601958196a78ef6fa0cc11eaa79f2e52",
+        "bytes": 115531942,
+        "headers": {
+          "content-type": "application/x-gzip",
+          "etag": "\"8efa763e9fd343b597835eb3992b70e890629f6f26f5f8127d02dd05326dfb07\"",
+          "date": "Sun, 08 Nov 2026 18:24:49 GMT"
+        },
+        "attempt": 1
+      },
+      "archive_sha256": "7b7663f1a53d35c6ca45125e9a553752601958196a78ef6fa0cc11eaa79f2e52",
+      "bundle_path": "data/raw/release-advisories/6f99bb205572577019759da0.json.gz",
+      "bundle_sha256": "ce5acf7fb4659833e920a3152c0f774b40a87ba800c3eba842e2a49e76f7a776"
+    },
+    "2026-05-29T09:16:23.076Z": {
+      "boundary": "2026-05-29T09:16:23.076Z",
+      "commit": {
+        "sha": "e72c401d80d2d11d06d425047f54bd2e7068b88c",
+        "committed_at": "2026-05-29T07:22:16Z",
+        "html_url": "https://github.com/github/advisory-database/commit/e72c401d80d2d11d06d425047f54bd2e7068b88c"
+      },
+      "resolution": {
+        "url": "https://api.github.com/repos/github/advisory-database/commits?until=2026-05-29T09:16:23Z&per_page=1",
+        "fetched_at": "2026-11-08T18:24:37.642Z",
+        "status": 200,
+        "body_sha256": "c453b72b2b5670ed67c196bed6515e4ad466d0b319a21b78e6a52d792d51f2f0",
+        "bytes": 4024,
+        "headers": {
+          "date": "Sun, 08 Nov 2026 18:24:38 GMT",
+          "content-type": "application/json; charset=utf-8",
+          "etag": "W/\"85a62fc840cc8354f0dcd6c560afea9a41b630ced8599474d523e3a12de7b8bd\"",
+          "last-modified": "Fri, 29 May 2026 07:22:16 GMT",
+          "link": "<https://api.github.com/repositories/458364565/commits?until=2026-05-29T09%3A16%3A23Z&per_page=1&page=2>; rel=\"next\", <https://api.github.com/repositories/458364565/commits?until=2026-05-29T09%3A16%3A23Z&per_page=1&page=115534>; rel=\"last\"",
+          "x-ratelimit-remaining": "38",
+          "x-ratelimit-reset": "1794164960"
+        },
+        "attempt": 1
+      },
+      "download": {
+        "url": "https://codeload.github.com/github/advisory-database/tar.gz/e72c401d80d2d11d06d425047f54bd2e7068b88c",
+        "fetched_at": "2026-11-08T18:24:38.294Z",
+        "status": 200,
+        "body_sha256": "f1a1f73cd72f45fc5c342c8caf752d707dcd9a625808c97be7ce61fdced07faf",
+        "bytes": 115225391,
+        "headers": {
+          "content-type": "application/x-gzip",
+          "etag": "\"bb61d15fd5c89fbaa809e9659f9b303c256b813c02ecf33e3f79249b7fc66621\"",
+          "date": "Sun, 08 Nov 2026 18:24:40 GMT"
+        },
+        "attempt": 1
+      },
+      "archive_sha256": "f1a1f73cd72f45fc5c342c8caf752d707dcd9a625808c97be7ce61fdced07faf",
+      "bundle_path": "data/raw/release-advisories/e3259766d2044239132a21f5.json.gz",
+      "bundle_sha256": "3619b2abb7026197d11edd1b7f79953296f2736bf92afd9607054c9ab9924b57"
+    },
+    "2026-06-04T14:17:47.684Z": {
+      "boundary": "2026-06-04T14:17:47.684Z",
+      "commit": {
+        "sha": "73a59eb8337dce14fc0c6935807ace30c0f72135",
+        "committed_at": "2026-06-04T14:17:35Z",
+        "html_url": "https://github.com/github/advisory-database/commit/73a59eb8337dce14fc0c6935807ace30c0f72135"
+      },
+      "resolution": {
+        "url": "https://api.github.com/repos/github/advisory-database/commits?until=2026-06-04T14:17:47Z&per_page=1",
+        "fetched_at": "2026-11-08T18:26:12.279Z",
+        "status": 200,
+        "body_sha256": "99d632936a89a93c31d4629ed52f1dd9a2fe498e2f9c3773afb9502420df35ff",
+        "bytes": 3800,
+        "headers": {
+          "date": "Sun, 08 Nov 2026 18:26:12 GMT",
+          "content-type": "application/json; charset=utf-8",
+          "etag": "W/\"0a470e649ff9e6e53b485b44897d287ba75614cef28246cb69cc4e6731e15114\"",
+          "last-modified": "Thu, 04 Jun 2026 14:17:35 GMT",
+          "link": "<https://api.github.com/repositories/458364565/commits?until=2026-06-04T14%3A17%3A47Z&per_page=1&page=2>; rel=\"next\", <https://api.github.com/repositories/458364565/commits?until=2026-06-04T14%3A17%3A47Z&per_page=1&page=115703>; rel=\"last\"",
+          "x-ratelimit-remaining": "36",
+          "x-ratelimit-reset": "1794164960"
+        },
+        "attempt": 1
+      },
+      "download": {
+        "url": "https://codeload.github.com/github/advisory-database/tar.gz/73a59eb8337dce14fc0c6935807ace30c0f72135",
+        "fetched_at": "2026-11-08T18:26:12.678Z",
+        "status": 200,
+        "body_sha256": "790c5e897e906355a3f8a250b7982004478dc1d7ef955e06437f7b8f0d8d9cc4",
+        "bytes": 115836283,
+        "headers": {
+          "content-type": "application/x-gzip",
+          "etag": "\"44db1f7b06b6798f5894834346e19ad7d13b16148ccfff5625835b9f5799f1d0\"",
+          "date": "Sun, 08 Nov 2026 18:26:15 GMT"
+        },
+        "attempt": 1
+      },
+      "archive_sha256": "790c5e897e906355a3f8a250b7982004478dc1d7ef955e06437f7b8f0d8d9cc4",
+      "bundle_path": "data/raw/release-advisories/4bfd06d68d8f32f553d9692a.json.gz",
+      "bundle_sha256": "03ef348ba3341ac143a6845736fc5a6fcfdf231931033d428d11b4cecbfd4d85"
+    },
+    "2026-06-09T23:02:22.464Z": {
+      "boundary": "2026-06-09T23:02:22.464Z",
+      "commit": {
+        "sha": "66a4b9e448c7b339c0899b4397fe86f3c55b5ff1",
+        "committed_at": "2026-06-09T22:02:48Z",
+        "html_url": "https://github.com/github/advisory-database/commit/66a4b9e448c7b339c0899b4397fe86f3c55b5ff1"
+      },
+      "resolution": {
+        "url": "https://api.github.com/repos/github/advisory-database/commits?until=2026-06-09T23:02:22Z&per_page=1",
+        "fetched_at": "2026-11-08T18:26:12.570Z",
+        "status": 200,
+        "body_sha256": "2baa087f92522ee688ad1e51beb3c10e006e0a0d2b5c6a9b5e5f5850fc5a3a03",
+        "bytes": 3898,
+        "headers": {
+          "date": "Sun, 08 Nov 2026 18:26:12 GMT",
+          "content-type": "application/json; charset=utf-8",
+          "etag": "W/\"35f452bbac15b4866ead601cf8efec5ca6b7337e9a4c039bde36b38a0ce6a384\"",
+          "last-modified": "Tue, 09 Jun 2026 22:02:48 GMT",
+          "link": "<https://api.github.com/repositories/458364565/commits?until=2026-06-09T23%3A02%3A22Z&per_page=1&page=2>; rel=\"next\", <https://api.github.com/repositories/458364565/commits?until=2026-06-09T23%3A02%3A22Z&per_page=1&page=115931>; rel=\"last\"",
+          "x-ratelimit-remaining": "35",
+          "x-ratelimit-reset": "1794164960"
+        },
+        "attempt": 1
+      },
+      "download": {
+        "url": "https://codeload.github.com/github/advisory-database/tar.gz/66a4b9e448c7b339c0899b4397fe86f3c55b5ff1",
+        "fetched_at": "2026-11-08T18:26:12.943Z",
+        "status": 200,
+        "body_sha256": "99ad2d7f3f601d21cd760ad156d53944d2cfc92cc04f67a7fb3e9e150807fc4b",
+        "bytes": 116526374,
+        "headers": {
+          "content-type": "application/x-gzip",
+          "etag": "\"39890fa76d62c9578c57a43e71341d9bfeb4e8342b06fe8a95d144d59013eadd\"",
+          "date": "Sun, 08 Nov 2026 18:26:15 GMT"
+        },
+        "attempt": 1
+      },
+      "archive_sha256": "99ad2d7f3f601d21cd760ad156d53944d2cfc92cc04f67a7fb3e9e150807fc4b",
+      "bundle_path": "data/raw/release-advisories/d665b016b95df56b70d30df0.json.gz",
+      "bundle_sha256": "cb424747a24c530319138809dcae8afafc83447ae6445f3529383fe6ff2be398"
+    },
+    "2026-06-11T22:47:05.085Z": {
+      "boundary": "2026-06-11T22:47:05.085Z",
+      "commit": {
+        "sha": "3c810e2fcccd4432b6304b016af29c5f81a540d2",
+        "committed_at": "2026-06-11T21:34:25Z",
+        "html_url": "https://github.com/github/advisory-database/commit/3c810e2fcccd4432b6304b016af29c5f81a540d2"
+      },
+      "resolution": {
+        "url": "https://api.github.com/repos/github/advisory-database/commits?until=2026-06-11T22:47:05Z&per_page=1",
+        "fetched_at": "2026-11-08T18:26:38.218Z",
+        "status": 200,
+        "body_sha256": "dded9cf8a360d79a46230401bd72d85ab0491278ed764e82400c9e3e79c1a19e",
+        "bytes": 3795,
+        "headers": {
+          "date": "Sun, 08 Nov 2026 18:26:38 GMT",
+          "content-type": "application/json; charset=utf-8",
+          "etag": "W/\"4c3e5e52bb1f9f1663e522c692044016a31ec8738466491b39128798b5b311dc\"",
+          "last-modified": "Thu, 11 Jun 2026 21:34:25 GMT",
+          "link": "<https://api.github.com/repositories/458364565/commits?until=2026-06-11T22%3A47%3A05Z&per_page=1&page=2>; rel=\"next\", <https://api.github.com/repositories/458364565/commits?until=2026-06-11T22%3A47%3A05Z&per_page=1&page=115987>; rel=\"last\"",
+          "x-ratelimit-remaining": "34",
+          "x-ratelimit-reset": "1794164960"
+        },
+        "attempt": 1
+      },
+      "download": {
+        "url": "https://codeload.github.com/github/advisory-database/tar.gz/3c810e2fcccd4432b6304b016af29c5f81a540d2",
+        "fetched_at": "2026-11-08T18:26:38.595Z",
+        "status": 200,
+        "body_sha256": "7813b7ce891a3434963634a30cd523249b0c599f6db23788fbe82078cb032b73",
+        "bytes": 116713136,
+        "headers": {
+          "content-type": "application/x-gzip",
+          "etag": "\"787051723ba0ae4ba2146e149e76ade7fdd320d2c6a0c1537fa90fd9bc50dda2\"",
+          "date": "Sun, 08 Nov 2026 18:26:40 GMT"
+        },
+        "attempt": 1
+      },
+      "archive_sha256": "7813b7ce891a3434963634a30cd523249b0c599f6db23788fbe82078cb032b73",
+      "bundle_path": "data/raw/release-advisories/c372c4068a80f6f78f4fe7a4.json.gz",
+      "bundle_sha256": "7c417fb6dc63a8f724da36178df943b565a73d2980a4ebfa2e32b24a7f3c7e7d"
+    },
+    "2026-06-15T07:23:00.326Z": {
+      "boundary": "2026-06-15T07:23:00.326Z",
+      "commit": {
+        "sha": "fae78c24ab0f2dd6a5e78fc0f37d0eec96594db9",
+        "committed_at": "2026-06-15T06:34:14Z",
+        "html_url": "https://github.com/github/advisory-database/commit/fae78c24ab0f2dd6a5e78fc0f37d0eec96594db9"
+      },
+      "resolution": {
+        "url": "https://api.github.com/repos/github/advisory-database/commits?until=2026-06-15T07:23:00Z&per_page=1",
+        "fetched_at": "2026-11-08T18:27:22.397Z",
+        "status": 200,
+        "body_sha256": "7cce31d2a8adb343bd93ba61f6be3c8b32c782f86c34924115a2c3c40181502d",
+        "bytes": 4024,
+        "headers": {
+          "date": "Sun, 08 Nov 2026 18:27:22 GMT",
+          "content-type": "application/json; charset=utf-8",
+          "etag": "W/\"25ade043086950d5e46149d5fe290d9f8c8f62d23ffc386d75784c47cd9d5522\"",
+          "last-modified": "Mon, 15 Jun 2026 06:34:14 GMT",
+          "link": "<https://api.github.com/repositories/458364565/commits?until=2026-06-15T07%3A23%3A00Z&per_page=1&page=2>; rel=\"next\", <https://api.github.com/repositories/458364565/commits?until=2026-06-15T07%3A23%3A00Z&per_page=1&page=116039>; rel=\"last\"",
+          "x-ratelimit-remaining": "59",
+          "x-ratelimit-reset": "1794166042"
+        },
+        "attempt": 1
+      },
+      "download": {
+        "url": "https://codeload.github.com/github/advisory-database/tar.gz/fae78c24ab0f2dd6a5e78fc0f37d0eec96594db9",
+        "fetched_at": "2026-11-08T18:27:22.840Z",
+        "status": 200,
+        "body_sha256": "88f7ee77cdb83f4f21ca4b7a9193de99f30a5661fc3f62c39d9d1fa46c1f8bb4",
+        "bytes": 116846049,
+        "headers": {
+          "content-type": "application/x-gzip",
+          "etag": "\"904cbcee1b3c11630593a1d1629dfcbaca4a770b9bd0b4f29e44cd8037d54b5d\"",
+          "date": "Sun, 08 Nov 2026 18:27:26 GMT"
+        },
+        "attempt": 1
+      },
+      "archive_sha256": "88f7ee77cdb83f4f21ca4b7a9193de99f30a5661fc3f62c39d9d1fa46c1f8bb4",
+      "bundle_path": "data/raw/release-advisories/ebe80d281f4e6b38522b9e5d.json.gz",
+      "bundle_sha256": "52aeb5264c9af66edf2641be78fc691dec9833e2f941f85fc66ca1d861c64706"
+    },
+    "2026-06-15T09:16:25.179Z": {
+      "boundary": "2026-06-15T09:16:25.179Z",
+      "commit": {
+        "sha": "fae78c24ab0f2dd6a5e78fc0f37d0eec96594db9",
+        "committed_at": "2026-06-15T06:34:14Z",
+        "html_url": "https://github.com/github/advisory-database/commit/fae78c24ab0f2dd6a5e78fc0f37d0eec96594db9"
+      },
+      "resolution": {
+        "url": "https://api.github.com/repos/github/advisory-database/commits?until=2026-06-15T09:16:25Z&per_page=1",
+        "fetched_at": "2026-11-08T18:28:11.059Z",
+        "status": 200,
+        "body_sha256": "7cce31d2a8adb343bd93ba61f6be3c8b32c782f86c34924115a2c3c40181502d",
+        "bytes": 4024,
+        "headers": {
+          "date": "Sun, 08 Nov 2026 18:28:11 GMT",
+          "content-type": "application/json; charset=utf-8",
+          "etag": "W/\"25ade043086950d5e46149d5fe290d9f8c8f62d23ffc386d75784c47cd9d5522\"",
+          "last-modified": "Mon, 15 Jun 2026 06:34:14 GMT",
+          "link": "<https://api.github.com/repositories/458364565/commits?until=2026-06-15T09%3A16%3A25Z&per_page=1&page=2>; rel=\"next\", <https://api.github.com/repositories/458364565/commits?until=2026-06-15T09%3A16%3A25Z&per_page=1&page=116039>; rel=\"last\"",
+          "x-ratelimit-remaining": "33",
+          "x-ratelimit-reset": "1794164960"
+        },
+        "attempt": 1
+      },
+      "download": {
+        "url": "https://codeload.github.com/github/advisory-database/tar.gz/fae78c24ab0f2dd6a5e78fc0f37d0eec96594db9",
+        "fetched_at": "2026-11-08T18:28:11.433Z",
+        "status": 200,
+        "body_sha256": "88f7ee77cdb83f4f21ca4b7a9193de99f30a5661fc3f62c39d9d1fa46c1f8bb4",
+        "bytes": 116846049,
+        "headers": {
+          "content-type": "application/x-gzip",
+          "etag": "\"904cbcee1b3c11630593a1d1629dfcbaca4a770b9bd0b4f29e44cd8037d54b5d\"",
+          "date": "Sun, 08 Nov 2026 18:28:13 GMT"
+        },
+        "attempt": 1
+      },
+      "archive_sha256": "88f7ee77cdb83f4f21ca4b7a9193de99f30a5661fc3f62c39d9d1fa46c1f8bb4",
+      "bundle_path": "data/raw/release-advisories/467cb98160afecde99f34ba8.json.gz",
+      "bundle_sha256": "2a1d44113a16313abd1b706c7c4d0853167ccf6cb4918cd1fd00944b518e9385"
+    },
+    "2026-06-17T09:44:07.576Z": {
+      "boundary": "2026-06-17T09:44:07.576Z",
+      "commit": {
+        "sha": "dc5dada0259ad27c5f2a4f77baeb4fe307705ca7",
+        "committed_at": "2026-06-17T05:09:37Z",
+        "html_url": "https://github.com/github/advisory-database/commit/dc5dada0259ad27c5f2a4f77baeb4fe307705ca7"
+      },
+      "resolution": {
+        "url": "https://api.github.com/repos/github/advisory-database/commits?until=2026-06-17T09:44:07Z&per_page=1",
+        "fetched_at": "2026-11-08T18:28:22.475Z",
+        "status": 200,
+        "body_sha256": "55e718f71afa693bbce6102fcb498baa92efe4288a8504ddbd3d71b5217b7aa8",
+        "bytes": 3835,
+        "headers": {
+          "date": "Sun, 08 Nov 2026 18:28:22 GMT",
+          "content-type": "application/json; charset=utf-8",
+          "etag": "W/\"0e962c66c4093d52472ce76e6d548d773b95c3ad8a9163d851eedb0ccd08c43d\"",
+          "last-modified": "Wed, 17 Jun 2026 05:09:37 GMT",
+          "link": "<https://api.github.com/repositories/458364565/commits?until=2026-06-17T09%3A44%3A07Z&per_page=1&page=2>; rel=\"next\", <https://api.github.com/repositories/458364565/commits?until=2026-06-17T09%3A44%3A07Z&per_page=1&page=116115>; rel=\"last\"",
+          "x-ratelimit-remaining": "31",
+          "x-ratelimit-reset": "1794164960"
+        },
+        "attempt": 1
+      },
+      "download": {
+        "url": "https://codeload.github.com/github/advisory-database/tar.gz/dc5dada0259ad27c5f2a4f77baeb4fe307705ca7",
+        "fetched_at": "2026-11-08T18:28:22.837Z",
+        "status": 200,
+        "body_sha256": "d4269a5d3eff76a8b1ddce47397d2d26584267512003df01848912e4b1be1192",
+        "bytes": 117222800,
+        "headers": {
+          "content-type": "application/x-gzip",
+          "etag": "\"6cf5de3d0e24c2a8bce8de98171e4eda9af22f4bc7f0f2cd5214fed2ae549f69\"",
+          "date": "Sun, 08 Nov 2026 18:28:25 GMT"
+        },
+        "attempt": 1
+      },
+      "archive_sha256": "d4269a5d3eff76a8b1ddce47397d2d26584267512003df01848912e4b1be1192",
+      "bundle_path": "data/raw/release-advisories/245ba62549ee95a41e4dc390.json.gz",
+      "bundle_sha256": "a6edb5cb9b9f59d27277da6f0a32e758194e1fe92d5257316635a5c7e04130b8"
+    },
+    "2026-06-15T15:50:42.140Z": {
+      "boundary": "2026-06-15T15:50:42.140Z",
+      "commit": {
+        "sha": "b7cc3189af173373e50ae9e72aab2daca67c1921",
+        "committed_at": "2026-06-15T15:33:57Z",
+        "html_url": "https://github.com/github/advisory-database/commit/b7cc3189af173373e50ae9e72aab2daca67c1921"
+      },
+      "resolution": {
+        "url": "https://api.github.com/repos/github/advisory-database/commits?until=2026-06-15T15:50:42Z&per_page=1",
+        "fetched_at": "2026-11-08T18:28:13.303Z",
+        "status": 200,
+        "body_sha256": "4ac3be3ebc41bd7091f5a010004df0092e3c0ec976fcb8ec4119e63766c7bbff",
+        "bytes": 3795,
+        "headers": {
+          "date": "Sun, 08 Nov 2026 18:28:13 GMT",
+          "content-type": "application/json; charset=utf-8",
+          "etag": "W/\"d506ef2cb90d0e01413203f66ca291c7d9fbb976e18476499927f29bc3bbd407\"",
+          "last-modified": "Mon, 15 Jun 2026 15:33:57 GMT",
+          "link": "<https://api.github.com/repositories/458364565/commits?until=2026-06-15T15%3A50%3A42Z&per_page=1&page=2>; rel=\"next\", <https://api.github.com/repositories/458364565/commits?until=2026-06-15T15%3A50%3A42Z&per_page=1&page=116043>; rel=\"last\"",
+          "x-ratelimit-remaining": "32",
+          "x-ratelimit-reset": "1794164960"
+        },
+        "attempt": 1
+      },
+      "download": {
+        "url": "https://codeload.github.com/github/advisory-database/tar.gz/b7cc3189af173373e50ae9e72aab2daca67c1921",
+        "fetched_at": "2026-11-08T18:28:13.667Z",
+        "status": 200,
+        "body_sha256": "a65bae320a1e699ad86b53f0dde1ccaa4cbef8f2c2cf8ee4e8a4f80a85ea0fa1",
+        "bytes": 116850917,
+        "headers": {
+          "content-type": "application/x-gzip",
+          "etag": "\"56473f2da8d6fdedea055f453453ce63b4bd9b1e5e5b1e96367de51457c71e8d\"",
+          "date": "Sun, 08 Nov 2026 18:28:15 GMT"
+        },
+        "attempt": 1
+      },
+      "archive_sha256": "a65bae320a1e699ad86b53f0dde1ccaa4cbef8f2c2cf8ee4e8a4f80a85ea0fa1",
+      "bundle_path": "data/raw/release-advisories/3cfa49e5143ebca7a525ad48.json.gz",
+      "bundle_sha256": "5035b028c910a151be905c611dfd06dc490c88dd68b536eea8097edb0cc76282"
+    },
+    "2026-06-19T14:57:23.529Z": {
+      "boundary": "2026-06-19T14:57:23.529Z",
+      "commit": {
+        "sha": "74a4713012b5087fe40868290b0f3c27ba5c2815",
+        "committed_at": "2026-06-19T14:57:20Z",
+        "html_url": "https://github.com/github/advisory-database/commit/74a4713012b5087fe40868290b0f3c27ba5c2815"
+      },
+      "resolution": {
+        "url": "https://api.github.com/repos/github/advisory-database/commits?until=2026-06-19T14:57:23Z&per_page=1",
+        "fetched_at": "2026-11-08T18:29:52.618Z",
+        "status": 200,
+        "body_sha256": "ec8f2e907735ce026cf07c2a6d86d4ef9f14db7c7a13d54f0d1964e2714cc81c",
+        "bytes": 3800,
+        "headers": {
+          "date": "Sun, 08 Nov 2026 18:29:52 GMT",
+          "content-type": "application/json; charset=utf-8",
+          "etag": "W/\"ab3171e95e7a7f27d37471b4f2da6a2504d80e8f9740277cf95d9357105f5603\"",
+          "last-modified": "Fri, 19 Jun 2026 14:57:20 GMT",
+          "link": "<https://api.github.com/repositories/458364565/commits?until=2026-06-19T14%3A57%3A23Z&per_page=1&page=2>; rel=\"next\", <https://api.github.com/repositories/458364565/commits?until=2026-06-19T14%3A57%3A23Z&per_page=1&page=116215>; rel=\"last\"",
+          "x-ratelimit-remaining": "29",
+          "x-ratelimit-reset": "1794164960"
+        },
+        "attempt": 1
+      },
+      "download": {
+        "url": "https://codeload.github.com/github/advisory-database/tar.gz/74a4713012b5087fe40868290b0f3c27ba5c2815",
+        "fetched_at": "2026-11-08T18:29:52.999Z",
+        "status": 200,
+        "body_sha256": "2066b134c2f8ecbd0a2156344acfdcc50eeda7222ca6e7054bd6126943af236a",
+        "bytes": 117899963,
+        "headers": {
+          "content-type": "application/x-gzip",
+          "etag": "\"7aeccf27c6c6f2a9637c89ccc9266e8386b089712830af57ce9a600b58a47c8d\"",
+          "date": "Sun, 08 Nov 2026 18:29:55 GMT"
+        },
+        "attempt": 1
+      },
+      "archive_sha256": "2066b134c2f8ecbd0a2156344acfdcc50eeda7222ca6e7054bd6126943af236a",
+      "bundle_path": "data/raw/release-advisories/cd1121bed64d36a2617d1821.json.gz",
+      "bundle_sha256": "0a451ee53a7b8e82ea7b9e3ea9417bb33e9502c25f0877657345f543106da241"
+    },
+    "2026-06-17T16:54:59.526Z": {
+      "boundary": "2026-06-17T16:54:59.526Z",
+      "commit": {
+        "sha": "3c623a99eacf15aa9818003099b1ddd8277b1207",
+        "committed_at": "2026-06-17T14:33:16Z",
+        "html_url": "https://github.com/github/advisory-database/commit/3c623a99eacf15aa9818003099b1ddd8277b1207"
+      },
+      "resolution": {
+        "url": "https://api.github.com/repos/github/advisory-database/commits?until=2026-06-17T16:54:59Z&per_page=1",
+        "fetched_at": "2026-11-08T18:29:32.362Z",
+        "status": 200,
+        "body_sha256": "07d0cb971048a7315b9546e480fc0f1ed20b2e7af5b39ffd0feb61921a2dcdc3",
+        "bytes": 3800,
+        "headers": {
+          "date": "Sun, 08 Nov 2026 18:29:32 GMT",
+          "content-type": "application/json; charset=utf-8",
+          "etag": "W/\"9cca3c03f1ec44565db43e2821e6f81e0832f134cade2bf6fde8da643a280605\"",
+          "last-modified": "Wed, 17 Jun 2026 14:33:16 GMT",
+          "link": "<https://api.github.com/repositories/458364565/commits?until=2026-06-17T16%3A54%3A59Z&per_page=1&page=2>; rel=\"next\", <https://api.github.com/repositories/458364565/commits?until=2026-06-17T16%3A54%3A59Z&per_page=1&page=116125>; rel=\"last\"",
+          "x-ratelimit-remaining": "30",
+          "x-ratelimit-reset": "1794164960"
+        },
+        "attempt": 1
+      },
+      "download": {
+        "url": "https://codeload.github.com/github/advisory-database/tar.gz/3c623a99eacf15aa9818003099b1ddd8277b1207",
+        "fetched_at": "2026-11-08T18:29:32.786Z",
+        "status": 200,
+        "body_sha256": "e48b1fcbd7b1972ff93917521ab33934fe229b24b545ee53455776d1276fe52b",
+        "bytes": 117373849,
+        "headers": {
+          "content-type": "application/x-gzip",
+          "etag": "\"921180caa80f1d65d8ade7531eee0b9c65f4cfca52654a85d5b361c6867bd9af\"",
+          "date": "Sun, 08 Nov 2026 18:29:35 GMT"
+        },
+        "attempt": 1
+      },
+      "archive_sha256": "e48b1fcbd7b1972ff93917521ab33934fe229b24b545ee53455776d1276fe52b",
+      "bundle_path": "data/raw/release-advisories/74fb14f18c26bffa8e8826b4.json.gz",
+      "bundle_sha256": "e6aa6bf84ba07e373c05006e8dce6c6bf6b79669552f6174466657ec2e9d72ab"
+    },
+    "2026-06-22T18:28:17.985Z": {
+      "boundary": "2026-06-22T18:28:17.985Z",
+      "commit": {
+        "sha": "edd99ac12c3a769e2a1a3d14519d3e6c99aa9b4e",
+        "committed_at": "2026-06-22T17:27:02Z",
+        "html_url": "https://github.com/github/advisory-database/commit/edd99ac12c3a769e2a1a3d14519d3e6c99aa9b4e"
+      },
+      "resolution": {
+        "url": "https://api.github.com/repos/github/advisory-database/commits?until=2026-06-22T18:28:17Z&per_page=1",
+        "fetched_at": "2026-11-08T18:30:34.920Z",
+        "status": 200,
+        "body_sha256": "9594a744608b845e09bec5969ead6d03b6fcc97943aa3ec581c936f767ca43c1",
+        "bytes": 3800,
+        "headers": {
+          "date": "Sun, 08 Nov 2026 18:30:35 GMT",
+          "content-type": "application/json; charset=utf-8",
+          "etag": "W/\"77c6233a2a6aac177874201db4094cf2ba37506f9d22f97c362faf0036716633\"",
+          "last-modified": "Mon, 22 Jun 2026 17:27:02 GMT",
+          "link": "<https://api.github.com/repositories/458364565/commits?until=2026-06-22T18%3A28%3A17Z&per_page=1&page=2>; rel=\"next\", <https://api.github.com/repositories/458364565/commits?until=2026-06-22T18%3A28%3A17Z&per_page=1&page=116271>; rel=\"last\"",
+          "x-ratelimit-remaining": "27",
+          "x-ratelimit-reset": "1794164960"
+        },
+        "attempt": 1
+      },
+      "download": {
+        "url": "https://codeload.github.com/github/advisory-database/tar.gz/edd99ac12c3a769e2a1a3d14519d3e6c99aa9b4e",
+        "fetched_at": "2026-11-08T18:30:35.320Z",
+        "status": 200,
+        "body_sha256": "b1b5be50512e65808888eba2b22ad145b036fca6eaa581051cf4d8aff225ea57",
+        "bytes": 118233170,
+        "headers": {
+          "content-type": "application/x-gzip",
+          "etag": "\"399f5d5e202ec16f26e029294e32d5d511df20522c01cc505bad8ede9edd6d93\"",
+          "date": "Sun, 08 Nov 2026 18:30:38 GMT"
+        },
+        "attempt": 1
+      },
+      "archive_sha256": "b1b5be50512e65808888eba2b22ad145b036fca6eaa581051cf4d8aff225ea57",
+      "bundle_path": "data/raw/release-advisories/370c3f4647b505c685c93aca.json.gz",
+      "bundle_sha256": "a5732581a49740cb7671ee4ec334ab615c25899a699e9a19ae959f40dc3d414a"
+    },
+    "2026-06-19T18:32:48.972Z": {
+      "boundary": "2026-06-19T18:32:48.972Z",
+      "commit": {
+        "sha": "c92ea51f8f3d2a3381822508daef4f8d3fdb0a43",
+        "committed_at": "2026-06-19T17:49:55Z",
+        "html_url": "https://github.com/github/advisory-database/commit/c92ea51f8f3d2a3381822508daef4f8d3fdb0a43"
+      },
+      "resolution": {
+        "url": "https://api.github.com/repos/github/advisory-database/commits?until=2026-06-19T18:32:48Z&per_page=1",
+        "fetched_at": "2026-11-08T18:30:18.192Z",
+        "status": 200,
+        "body_sha256": "576163f9037f47c4304bcee52f6220a3f43ed85991761b2eedf825016dfcf9af",
+        "bytes": 3800,
+        "headers": {
+          "date": "Sun, 08 Nov 2026 18:30:18 GMT",
+          "content-type": "application/json; charset=utf-8",
+          "etag": "W/\"0f6da38c55b078541718af85dfb4fea97a88217d0e234824ad8d7750b9a04e9a\"",
+          "last-modified": "Fri, 19 Jun 2026 17:49:55 GMT",
+          "link": "<https://api.github.com/repositories/458364565/commits?until=2026-06-19T18%3A32%3A48Z&per_page=1&page=2>; rel=\"next\", <https://api.github.com/repositories/458364565/commits?until=2026-06-19T18%3A32%3A48Z&per_page=1&page=116226>; rel=\"last\"",
+          "x-ratelimit-remaining": "28",
+          "x-ratelimit-reset": "1794164960"
+        },
+        "attempt": 1
+      },
+      "download": {
+        "url": "https://codeload.github.com/github/advisory-database/tar.gz/c92ea51f8f3d2a3381822508daef4f8d3fdb0a43",
+        "fetched_at": "2026-11-08T18:30:18.532Z",
+        "status": 200,
+        "body_sha256": "d9007b3ca89f1eb21f913a386b63e5287d2b0217d3c30e1b6d24070f0929bd8f",
+        "bytes": 117937756,
+        "headers": {
+          "content-type": "application/x-gzip",
+          "etag": "\"796cc1460efc35834685387e5faa039e6418771f04e0af66ef0770e22f52e65e\"",
+          "date": "Sun, 08 Nov 2026 18:30:21 GMT"
+        },
+        "attempt": 1
+      },
+      "archive_sha256": "d9007b3ca89f1eb21f913a386b63e5287d2b0217d3c30e1b6d24070f0929bd8f",
+      "bundle_path": "data/raw/release-advisories/963dabed056de33ae65d77c2.json.gz",
+      "bundle_sha256": "4b614bc5f7900aac2265569e58992f212c965f04ccb4322d632c325f6ec3a951"
+    },
+    "2026-06-23T18:48:39.984Z": {
+      "boundary": "2026-06-23T18:48:39.984Z",
+      "commit": {
+        "sha": "ac14095409a1d63f613e7a532b5a6056c0cca90f",
+        "committed_at": "2026-06-23T18:39:53Z",
+        "html_url": "https://github.com/github/advisory-database/commit/ac14095409a1d63f613e7a532b5a6056c0cca90f"
+      },
+      "resolution": {
+        "url": "https://api.github.com/repos/github/advisory-database/commits?until=2026-06-23T18:48:39Z&per_page=1",
+        "fetched_at": "2026-11-08T18:31:42.484Z",
+        "status": 200,
+        "body_sha256": "dd6d9605631dc3c7d9dd1e456ea540de03335087865d80170fb63dd5ca6c2410",
+        "bytes": 3800,
+        "headers": {
+          "date": "Sun, 08 Nov 2026 18:31:42 GMT",
+          "content-type": "application/json; charset=utf-8",
+          "etag": "W/\"2ab2b5f544c99f08eb509f9647097ce9b794f15b033e5f6d92a2ca32e26d35b5\"",
+          "last-modified": "Tue, 23 Jun 2026 18:39:53 GMT",
+          "link": "<https://api.github.com/repositories/458364565/commits?until=2026-06-23T18%3A48%3A39Z&per_page=1&page=2>; rel=\"next\", <https://api.github.com/repositories/458364565/commits?until=2026-06-23T18%3A48%3A39Z&per_page=1&page=116324>; rel=\"last\"",
+          "x-ratelimit-remaining": "26",
+          "x-ratelimit-reset": "1794164960"
+        },
+        "attempt": 1
+      },
+      "download": {
+        "url": "https://codeload.github.com/github/advisory-database/tar.gz/ac14095409a1d63f613e7a532b5a6056c0cca90f",
+        "fetched_at": "2026-11-08T18:31:42.909Z",
+        "status": 200,
+        "body_sha256": "82b25e72d261897c43faae77b534192b94eecdfc4b14e838a7851504c09fe17e",
+        "bytes": 118512683,
+        "headers": {
+          "content-type": "application/x-gzip",
+          "etag": "\"522cc5313b613c3aa856ec00ee02a33645c1a0ed9b75c9937b3927679ec3fc66\"",
+          "date": "Sun, 08 Nov 2026 18:31:45 GMT"
+        },
+        "attempt": 1
+      },
+      "archive_sha256": "82b25e72d261897c43faae77b534192b94eecdfc4b14e838a7851504c09fe17e",
+      "bundle_path": "data/raw/release-advisories/4a4ae7c84b556af6fa7dc27c.json.gz",
+      "bundle_sha256": "941db57aee8a2d13b3211da9735ab4322e430a536d75d85309e8e7f35a6d4964"
+    },
+    "2026-06-24T18:37:08.221Z": {
+      "boundary": "2026-06-24T18:37:08.221Z",
+      "commit": {
+        "sha": "d1a230d970d41eb3f013071b670152aff4d31fcb",
+        "committed_at": "2026-06-24T18:34:45Z",
+        "html_url": "https://github.com/github/advisory-database/commit/d1a230d970d41eb3f013071b670152aff4d31fcb"
+      },
+      "resolution": {
+        "url": "https://api.github.com/repos/github/advisory-database/commits?until=2026-06-24T18:37:08Z&per_page=1",
+        "fetched_at": "2026-11-08T18:31:57.898Z",
+        "status": 200,
+        "body_sha256": "87099509999396d8ce91ce11e62b44b60457b6cb2a650de85bcb29c7521f96b9",
+        "bytes": 3795,
+        "headers": {
+          "date": "Sun, 08 Nov 2026 18:31:58 GMT",
+          "content-type": "application/json; charset=utf-8",
+          "etag": "W/\"58ece6c116694bd6bbbd72e335ef78fbdeabe294d770d0e68f1b206cd1edb059\"",
+          "last-modified": "Wed, 24 Jun 2026 18:34:45 GMT",
+          "link": "<https://api.github.com/repositories/458364565/commits?until=2026-06-24T18%3A37%3A08Z&per_page=1&page=2>; rel=\"next\", <https://api.github.com/repositories/458364565/commits?until=2026-06-24T18%3A37%3A08Z&per_page=1&page=116371>; rel=\"last\"",
+          "x-ratelimit-remaining": "25",
+          "x-ratelimit-reset": "1794164960"
+        },
+        "attempt": 1
+      },
+      "download": {
+        "url": "https://codeload.github.com/github/advisory-database/tar.gz/d1a230d970d41eb3f013071b670152aff4d31fcb",
+        "fetched_at": "2026-11-08T18:31:58.275Z",
+        "status": 200,
+        "body_sha256": "8ca6b1cd75b0a8b30256277025ad24ee6d059879d0fa265051593f2e09bf99c5",
+        "bytes": 118770403,
+        "headers": {
+          "content-type": "application/x-gzip",
+          "etag": "\"6c828b6114cc585d77be7cb0e6ef943e3641b9f73cd091cd46d4f295b8f30d85\"",
+          "date": "Sun, 08 Nov 2026 18:32:00 GMT"
+        },
+        "attempt": 1
+      },
+      "archive_sha256": "8ca6b1cd75b0a8b30256277025ad24ee6d059879d0fa265051593f2e09bf99c5",
+      "bundle_path": "data/raw/release-advisories/df840c6c037cd77e4c06c084.json.gz",
+      "bundle_sha256": "f1cc6906a36b3b4cb8c8b7327f5aca4f03abcd9574b90e1c17c66d94fa4d03f5"
+    },
+    "2026-06-26T20:09:18.001Z": {
+      "boundary": "2026-06-26T20:09:18.001Z",
+      "commit": {
+        "sha": "46993e5ee0ab1a227b643d2ab9e5c9ad930775ff",
+        "committed_at": "2026-06-26T20:06:50Z",
+        "html_url": "https://github.com/github/advisory-database/commit/46993e5ee0ab1a227b643d2ab9e5c9ad930775ff"
+      },
+      "resolution": {
+        "url": "https://api.github.com/repos/github/advisory-database/commits?until=2026-06-26T20:09:18Z&per_page=1",
+        "retrieved_via": "GitHub connector",
+        "fetched_at": "2026-11-08T18:18:55.563Z",
+        "response_sha256": "9fc4fd33362ddd80aa25816e33e8e08e6d819cf30b285967c947e0f768852dd8"
+      },
+      "download": {
+        "url": "https://codeload.github.com/github/advisory-database/tar.gz/46993e5ee0ab1a227b643d2ab9e5c9ad930775ff",
+        "fetched_at": "2026-11-08T18:34:59.537Z",
+        "status": 200,
+        "body_sha256": "b06168359a5ecad246293038f3749ea7cebefe74f680f1c9a862dcac419b5b3f",
+        "bytes": 119082233,
+        "headers": {
+          "content-type": "application/x-gzip",
+          "etag": "\"b40edfc65ad2ff33e427087f30de54af82e047cb4a9e05fd76c758f1243181fb\"",
+          "date": "Sun, 08 Nov 2026 18:35:01 GMT"
+        },
+        "attempt": 1
+      },
+      "archive_sha256": "b06168359a5ecad246293038f3749ea7cebefe74f680f1c9a862dcac419b5b3f",
+      "bundle_path": "data/raw/release-advisories/49ba9818454d6a29257306be.json.gz",
+      "bundle_sha256": "ffd45059dcaecc6e758bd6fb9ca3767c7c670dab6eeb5db4c24eaeeb1f4e3003"
+    },
+    "2026-06-26T17:04:45.416Z": {
+      "boundary": "2026-06-26T17:04:45.416Z",
+      "commit": {
+        "sha": "63dd066f3b06b7d32e2c0fb120fd968aa63d0aa0",
+        "committed_at": "2026-06-26T17:04:16Z",
+        "html_url": "https://github.com/github/advisory-database/commit/63dd066f3b06b7d32e2c0fb120fd968aa63d0aa0"
+      },
+      "resolution": {
+        "url": "https://api.github.com/repos/github/advisory-database/commits?until=2026-06-26T17:04:45Z&per_page=1",
+        "retrieved_via": "GitHub connector",
+        "fetched_at": "2026-11-08T18:18:55.570Z",
+        "response_sha256": "449b35dcc26c80da84898c27a61292d87952d1c7638902f41d9597e16a9aee1b"
+      },
+      "download": {
+        "url": "https://codeload.github.com/github/advisory-database/tar.gz/63dd066f3b06b7d32e2c0fb120fd968aa63d0aa0",
+        "fetched_at": "2026-11-08T18:34:59.535Z",
+        "status": 200,
+        "body_sha256": "9c514a111062b120cc04011ac4262e88e92bb4002ab750a6e031f683783ea9d8",
+        "bytes": 119050272,
+        "headers": {
+          "content-type": "application/x-gzip",
+          "etag": "\"75f647856659a31f853439570f18852bf4382f8cbde1e5be68c14bc97da96fe1\"",
+          "date": "Sun, 08 Nov 2026 18:35:01 GMT"
+        },
+        "attempt": 1
+      },
+      "archive_sha256": "9c514a111062b120cc04011ac4262e88e92bb4002ab750a6e031f683783ea9d8",
+      "bundle_path": "data/raw/release-advisories/61dc25689e6b76a8c2ddc339.json.gz",
+      "bundle_sha256": "32ef61b303a5c6c1aee470cc6552cd3134ee2484f0adacdeb25b562e095e9d9f"
+    },
+    "2026-06-25T09:44:00.706Z": {
+      "boundary": "2026-06-25T09:44:00.706Z",
+      "commit": {
+        "sha": "24575328695dd4ce28f1fdbcc2f5eac235d8aef9",
+        "committed_at": "2026-06-25T09:33:14Z",
+        "html_url": "https://github.com/github/advisory-database/commit/24575328695dd4ce28f1fdbcc2f5eac235d8aef9"
+      },
+      "resolution": {
+        "url": "https://api.github.com/repos/github/advisory-database/commits?until=2026-06-25T09:44:00Z&per_page=1",
+        "retrieved_via": "GitHub connector",
+        "fetched_at": "2026-11-08T18:18:55.561Z",
+        "response_sha256": "56fab6284e4ec317555d2ace8e78d31ebc865a4fcf9619eed77806be294fa799"
+      },
+      "download": {
+        "url": "https://codeload.github.com/github/advisory-database/tar.gz/24575328695dd4ce28f1fdbcc2f5eac235d8aef9",
+        "fetched_at": "2026-11-08T18:34:59.533Z",
+        "status": 200,
+        "body_sha256": "92e9be01f5d3ddf80f972411035f8f88259bfd6a909e360009c4d44ca8a90495",
+        "bytes": 118833876,
+        "headers": {
+          "content-type": "application/x-gzip",
+          "etag": "\"30ac7f0fcccb0530d4abfc5fd98c67176688880513ed65efb2478e7b1dd100a7\"",
+          "date": "Sun, 08 Nov 2026 18:35:01 GMT"
+        },
+        "attempt": 1
+      },
+      "archive_sha256": "92e9be01f5d3ddf80f972411035f8f88259bfd6a909e360009c4d44ca8a90495",
+      "bundle_path": "data/raw/release-advisories/6b2805a316e516c1dfcadee6.json.gz",
+      "bundle_sha256": "182bed16dd851d03ba61703490193f6171f3aa72c3eb020dcd40574dd8d84b85"
+    },
+    "2026-06-24T20:03:49.752Z": {
+      "boundary": "2026-06-24T20:03:49.752Z",
+      "commit": {
+        "sha": "c8f5fbd1f334b56cb433cac664ace1cfb1213a0e",
+        "committed_at": "2026-06-24T18:52:37Z",
+        "html_url": "https://github.com/github/advisory-database/commit/c8f5fbd1f334b56cb433cac664ace1cfb1213a0e"
+      },
+      "resolution": {
+        "url": "https://api.github.com/repos/github/advisory-database/commits?until=2026-06-24T20:03:49Z&per_page=1",
+        "retrieved_via": "GitHub connector",
+        "fetched_at": "2026-11-08T18:18:55.565Z",
+        "response_sha256": "ff80323b0f6eee18bb8930eab6c65e257f524e7337aa663a73d3f674941f6e9a"
+      },
+      "download": {
+        "url": "https://codeload.github.com/github/advisory-database/tar.gz/c8f5fbd1f334b56cb433cac664ace1cfb1213a0e",
+        "fetched_at": "2026-11-08T18:34:59.508Z",
+        "status": 200,
+        "body_sha256": "4a7d86fe52460f3ec203dd5972a79cac965be6314bda05a3c5b057e89426d3b0",
+        "bytes": 118701496,
+        "headers": {
+          "content-type": "application/x-gzip",
+          "etag": "\"c81b30c13b23d6f6def0c7e3aa2d5ad9e998d1e9aa8917260657aaa4d1dcbdc2\"",
+          "date": "Sun, 08 Nov 2026 18:35:02 GMT"
+        },
+        "attempt": 1
+      },
+      "archive_sha256": "4a7d86fe52460f3ec203dd5972a79cac965be6314bda05a3c5b057e89426d3b0",
+      "bundle_path": "data/raw/release-advisories/9305fb74781212bb70fedb18.json.gz",
+      "bundle_sha256": "24d65578737532c58ca824ce423d0440bee02c4f8b0803328210c6b8176f6a98"
+    },
+    "2026-06-28T08:13:34.555Z": {
+      "boundary": "2026-06-28T08:13:34.555Z",
+      "commit": {
+        "sha": "2914f07e78d925fdb56f6d577a9c7b09c48b3b8e",
+        "committed_at": "2026-06-28T06:32:19Z",
+        "html_url": "https://github.com/github/advisory-database/commit/2914f07e78d925fdb56f6d577a9c7b09c48b3b8e"
+      },
+      "resolution": {
+        "url": "https://api.github.com/repos/github/advisory-database/commits?until=2026-06-28T08:13:34Z&per_page=1",
+        "retrieved_via": "GitHub connector",
+        "fetched_at": "2026-11-08T18:18:55.568Z",
+        "response_sha256": "e527be392b9a3a095d32a40fd152eeb0c60cfa5c0194b193a0e9f803b09d3051"
+      },
+      "download": {
+        "url": "https://codeload.github.com/github/advisory-database/tar.gz/2914f07e78d925fdb56f6d577a9c7b09c48b3b8e",
+        "fetched_at": "2026-11-08T18:35:47.295Z",
+        "status": 200,
+        "body_sha256": "a5fcc7dfaf5531619580f595d90500f535bbdaf8b69f19d5789c539f3327de1a",
+        "bytes": 119323719,
+        "headers": {
+          "content-type": "application/x-gzip",
+          "etag": "\"35caeebd3812082e6b9575e4df1995820dfdf59975d0ac9633e9280364cd595a\"",
+          "date": "Sun, 08 Nov 2026 18:35:49 GMT"
+        },
+        "attempt": 1
+      },
+      "archive_sha256": "a5fcc7dfaf5531619580f595d90500f535bbdaf8b69f19d5789c539f3327de1a",
+      "bundle_path": "data/raw/release-advisories/d375544606bf58798c48826e.json.gz",
+      "bundle_sha256": "c2bd70ef0619d7ca839d56775db52c06e2df9a5b5056a72b1bde8a99d9b3d6a9"
+    },
+    "2026-06-27T22:59:56.668Z": {
+      "boundary": "2026-06-27T22:59:56.668Z",
+      "commit": {
+        "sha": "9c495a76cd670dd1fcddf0224eb11422112f10d8",
+        "committed_at": "2026-06-27T21:32:12Z",
+        "html_url": "https://github.com/github/advisory-database/commit/9c495a76cd670dd1fcddf0224eb11422112f10d8"
+      },
+      "resolution": {
+        "url": "https://api.github.com/repos/github/advisory-database/commits?until=2026-06-27T22:59:56Z&per_page=1",
+        "retrieved_via": "GitHub connector",
+        "fetched_at": "2026-11-08T18:18:55.566Z",
+        "response_sha256": "96a96f501c78731ccb35d1e4d63c30291fe13cf1d147928997a3d6d9e9d3a347"
+      },
+      "download": {
+        "url": "https://codeload.github.com/github/advisory-database/tar.gz/9c495a76cd670dd1fcddf0224eb11422112f10d8",
+        "fetched_at": "2026-11-08T18:35:44.420Z",
+        "status": 200,
+        "body_sha256": "f4ce97a0449582eec5e5d89fb14f72b1f8fd89372b3045fc7494dada3e3e4d59",
+        "bytes": 119357733,
+        "headers": {
+          "content-type": "application/x-gzip",
+          "etag": "\"75fec0339c79f3d24f36f4c95cc36666d7fb0b48ec2d271534930066300cf9a8\"",
+          "date": "Sun, 08 Nov 2026 18:35:47 GMT"
+        },
+        "attempt": 1
+      },
+      "archive_sha256": "f4ce97a0449582eec5e5d89fb14f72b1f8fd89372b3045fc7494dada3e3e4d59",
+      "bundle_path": "data/raw/release-advisories/b4b68a74e4f922340aebc063.json.gz",
+      "bundle_sha256": "f59762b0b9d240390d51527e7a4c513954f24fb5564664128270096433374789"
+    },
+    "2026-06-28T09:47:50.776Z": {
+      "boundary": "2026-06-28T09:47:50.776Z",
+      "commit": {
+        "sha": "29408f5e394aca6e420338a5a6c87ca9708ba8dc",
+        "committed_at": "2026-06-28T09:33:19Z",
+        "html_url": "https://github.com/github/advisory-database/commit/29408f5e394aca6e420338a5a6c87ca9708ba8dc"
+      },
+      "resolution": {
+        "url": "https://api.github.com/repos/github/advisory-database/commits?until=2026-06-28T09:47:50Z&per_page=1",
+        "retrieved_via": "GitHub connector",
+        "fetched_at": "2026-11-08T18:18:56.602Z",
+        "response_sha256": "7aa774719d195b1193cc2fe80b8831a62ae2def2fba9d589e112a35f2bc0e852"
+      },
+      "download": {
+        "url": "https://codeload.github.com/github/advisory-database/tar.gz/29408f5e394aca6e420338a5a6c87ca9708ba8dc",
+        "fetched_at": "2026-11-08T18:35:56.682Z",
+        "status": 200,
+        "body_sha256": "cf8d7018701dd3c1ff98bbb5cdee612f177755d68e985f9d115538f3dd55ff2e",
+        "bytes": 119348814,
+        "headers": {
+          "content-type": "application/x-gzip",
+          "etag": "\"dcee4127bb7b67b0ac1a4c15db284a91b6b0318de65867e7442dca4ed8c347ed\"",
+          "date": "Sun, 08 Nov 2026 18:35:58 GMT"
+        },
+        "attempt": 1
+      },
+      "archive_sha256": "cf8d7018701dd3c1ff98bbb5cdee612f177755d68e985f9d115538f3dd55ff2e",
+      "bundle_path": "data/raw/release-advisories/b2cc4d0b96cdcfe08b78668c.json.gz",
+      "bundle_sha256": "65ba8857fd4ddfbd37e9616fdfbc8fbda1f70674e74dc6f12ddc8d6ec63403a9"
+    },
+    "2026-06-29T22:00:19.579Z": {
+      "boundary": "2026-06-29T22:00:19.579Z",
+      "commit": {
+        "sha": "d6708315da2c904768fa81699f021de0820f74aa",
+        "committed_at": "2026-06-29T21:33:32Z",
+        "html_url": "https://github.com/github/advisory-database/commit/d6708315da2c904768fa81699f021de0820f74aa"
+      },
+      "resolution": {
+        "url": "https://api.github.com/repos/github/advisory-database/commits?until=2026-06-29T22:00:19Z&per_page=1",
+        "retrieved_via": "GitHub connector",
+        "fetched_at": "2026-11-08T18:18:56.568Z",
+        "response_sha256": "20d8947a8f8466d4ca2698e0c61f44bce571cd54bd3e99640d2aea8e7b89fb3a"
+      },
+      "download": {
+        "url": "https://codeload.github.com/github/advisory-database/tar.gz/d6708315da2c904768fa81699f021de0820f74aa",
+        "fetched_at": "2026-11-08T18:36:02.218Z",
+        "status": 200,
+        "body_sha256": "b20489b8e6b2534254950e0272c1d7a0d62ae722fda46eff71319828a1923c6b",
+        "bytes": 119472280,
+        "headers": {
+          "content-type": "application/x-gzip",
+          "etag": "\"f9a0c8e5d042a415b5beaa2f5cf962a4acdadb45123a2f7798da87b3e4120e29\"",
+          "date": "Sun, 08 Nov 2026 18:36:04 GMT"
+        },
+        "attempt": 1
+      },
+      "archive_sha256": "b20489b8e6b2534254950e0272c1d7a0d62ae722fda46eff71319828a1923c6b",
+      "bundle_path": "data/raw/release-advisories/2db4eedc553a9b80ee59f15d.json.gz",
+      "bundle_sha256": "44de979021b33841a93cd7c406195cb4486c37fb618e973c955fd541088094a7"
+    },
+    "2026-06-30T01:11:17.630Z": {
+      "boundary": "2026-06-30T01:11:17.630Z",
+      "commit": {
+        "sha": "b6956404719db32175252df991435efbd7fb5bbb",
+        "committed_at": "2026-06-30T00:32:54Z",
+        "html_url": "https://github.com/github/advisory-database/commit/b6956404719db32175252df991435efbd7fb5bbb"
+      },
+      "resolution": {
+        "url": "https://api.github.com/repos/github/advisory-database/commits?until=2026-06-30T01:11:17Z&per_page=1",
+        "retrieved_via": "GitHub connector",
+        "fetched_at": "2026-11-08T18:18:56.852Z",
+        "response_sha256": "38fbb75d7df7ec76b186f626ad50f5919df4e515f4a2ba2dc6414ae440dc24fd"
+      },
+      "download": {
+        "url": "https://codeload.github.com/github/advisory-database/tar.gz/b6956404719db32175252df991435efbd7fb5bbb",
+        "fetched_at": "2026-11-08T18:36:30.425Z",
+        "status": 200,
+        "body_sha256": "5cd0783b013ef342e0737b12088e777a500d498b15fe834989589d83535b8e6e",
+        "bytes": 119457889,
+        "headers": {
+          "content-type": "application/x-gzip",
+          "etag": "\"995e771c6256d1fe9acc202f647deb02fb06c91ef7f04712dd77a5159292f4c8\"",
+          "date": "Sun, 08 Nov 2026 18:36:32 GMT"
+        },
+        "attempt": 1
+      },
+      "archive_sha256": "5cd0783b013ef342e0737b12088e777a500d498b15fe834989589d83535b8e6e",
+      "bundle_path": "data/raw/release-advisories/e2679bfac81bc3c01c509931.json.gz",
+      "bundle_sha256": "7ce0f9f0c36647d5f6079068e4297c3b7c2498260c3ad2cd6967294cb2fd25db"
+    },
+    "2026-06-30T16:46:39.800Z": {
+      "boundary": "2026-06-30T16:46:39.800Z",
+      "commit": {
+        "sha": "4930b3d07dc5ebb4e530743da46e3eb2ef024f20",
+        "committed_at": "2026-06-30T16:44:56Z",
+        "html_url": "https://github.com/github/advisory-database/commit/4930b3d07dc5ebb4e530743da46e3eb2ef024f20"
+      },
+      "resolution": {
+        "url": "https://api.github.com/repos/github/advisory-database/commits?until=2026-06-30T16:46:39Z&per_page=1",
+        "retrieved_via": "GitHub connector",
+        "fetched_at": "2026-11-08T18:18:56.570Z",
+        "response_sha256": "cce6b2b65203d09418814cb4bb4fab6b432026f5f0638d872b03c239ba0529ea"
+      },
+      "download": {
+        "url": "https://codeload.github.com/github/advisory-database/tar.gz/4930b3d07dc5ebb4e530743da46e3eb2ef024f20",
+        "fetched_at": "2026-11-08T18:36:31.326Z",
+        "status": 200,
+        "body_sha256": "767a843f6c1f8f1edf21db068dddb773acecc03ecfc37e07304bd19c6dee36c3",
+        "bytes": 119540980,
+        "headers": {
+          "content-type": "application/x-gzip",
+          "etag": "\"77c62182dbad81fecc3287e3bc5b349601f3186e287316e9d9b337ee4c1996a8\"",
+          "date": "Sun, 08 Nov 2026 18:36:33 GMT"
+        },
+        "attempt": 1
+      },
+      "archive_sha256": "767a843f6c1f8f1edf21db068dddb773acecc03ecfc37e07304bd19c6dee36c3",
+      "bundle_path": "data/raw/release-advisories/3a42b383ba75bbd1b64550b8.json.gz",
+      "bundle_sha256": "8ee4abd20ef232f82f89d71242aca2e46e1a138e9e1c87b6a112c0f5f82568de"
+    },
+    "2026-06-30T21:01:20.458Z": {
+      "boundary": "2026-06-30T21:01:20.458Z",
+      "commit": {
+        "sha": "e11737edc0054449c5424b3ca5cd02f6aec7f04c",
+        "committed_at": "2026-06-30T19:54:54Z",
+        "html_url": "https://github.com/github/advisory-database/commit/e11737edc0054449c5424b3ca5cd02f6aec7f04c"
+      },
+      "resolution": {
+        "url": "https://api.github.com/repos/github/advisory-database/commits?until=2026-06-30T21:01:20Z&per_page=1",
+        "retrieved_via": "GitHub connector",
+        "fetched_at": "2026-11-08T18:18:56.565Z",
+        "response_sha256": "c8f94c921ec092cb41e8684f196bc08886a3dbf0de98b41d1e9ff47667d08810"
+      },
+      "download": {
+        "url": "https://codeload.github.com/github/advisory-database/tar.gz/e11737edc0054449c5424b3ca5cd02f6aec7f04c",
+        "fetched_at": "2026-11-08T18:36:38.715Z",
+        "status": 200,
+        "body_sha256": "147bc6e63d475f3d643efe971da10e69ecd49d11df33e21010578485a083008d",
+        "bytes": 119588823,
+        "headers": {
+          "content-type": "application/x-gzip",
+          "etag": "\"e0516ee41f72817c6d9d7d364b3844e7c10f11b397c449fb452df320f07eb3cf\"",
+          "date": "Sun, 08 Nov 2026 18:36:41 GMT"
+        },
+        "attempt": 1
+      },
+      "archive_sha256": "147bc6e63d475f3d643efe971da10e69ecd49d11df33e21010578485a083008d",
+      "bundle_path": "data/raw/release-advisories/7aa6bf680e77d07c1db893a4.json.gz",
+      "bundle_sha256": "08d9693ac54fffe7010c9b7863bb705d1317b127243d7a5fe3b061d38921eb29"
+    },
+    "2026-07-15T23:38:27.905Z": {
+      "boundary": "2026-07-15T23:38:27.905Z",
+      "commit": {
+        "sha": "5db74df4398057685d929582db73d089fd04717a",
+        "committed_at": "2026-07-15T23:31:57Z",
+        "html_url": "https://github.com/github/advisory-database/commit/5db74df4398057685d929582db73d089fd04717a"
+      },
+      "resolution": {
+        "url": "https://api.github.com/repos/github/advisory-database/commits?until=2026-07-15T23:38:27Z&per_page=1",
+        "retrieved_via": "GitHub connector",
+        "fetched_at": "2026-11-08T18:18:56.564Z",
+        "response_sha256": "b72cbd3ecb828963504a0203d19c700080cebf30aedc87552905ae50884e5930"
+      },
+      "download": {
+        "url": "https://codeload.github.com/github/advisory-database/tar.gz/5db74df4398057685d929582db73d089fd04717a",
+        "fetched_at": "2026-11-08T18:36:45.251Z",
+        "status": 200,
+        "body_sha256": "3b13e9fd7042489c4570120993e5106ed161eb5f0ad69c02961a329879226f36",
+        "bytes": 121709238,
+        "headers": {
+          "content-type": "application/x-gzip",
+          "etag": "\"eb75decdc3a80135022cdf74a9e2d1adb5f2b302a97ce0749cab479e477c7def\"",
+          "date": "Sun, 08 Nov 2026 18:36:47 GMT"
+        },
+        "attempt": 1
+      },
+      "archive_sha256": "3b13e9fd7042489c4570120993e5106ed161eb5f0ad69c02961a329879226f36",
+      "bundle_path": "data/raw/release-advisories/1a20bd9daec689791bf3fff3.json.gz",
+      "bundle_sha256": "8a18e84ebc9e93c9c953648f8ab9fbb7eadf205be7763c8b803405efeccde568"
+    },
+    "2026-07-23T15:22:16.529Z": {
+      "boundary": "2026-07-23T15:22:16.529Z",
+      "commit": {
+        "sha": "a1f79da7d9ace94965a4a6372e679be3d02ffe25",
+        "committed_at": "2026-07-23T15:08:27Z",
+        "html_url": "https://github.com/github/advisory-database/commit/a1f79da7d9ace94965a4a6372e679be3d02ffe25"
+      },
+      "resolution": {
+        "url": "https://api.github.com/repos/github/advisory-database/commits?until=2026-07-23T15:22:16Z&per_page=1",
+        "retrieved_via": "GitHub connector",
+        "fetched_at": "2026-11-08T18:18:56.567Z",
+        "response_sha256": "3eb9df413f63e96dc5368c956202ffffc10d9b58d4946b56ad766a5143cf2993"
+      },
+      "download": {
+        "url": "https://codeload.github.com/github/advisory-database/tar.gz/a1f79da7d9ace94965a4a6372e679be3d02ffe25",
+        "fetched_at": "2026-11-08T18:37:14.176Z",
+        "status": 200,
+        "body_sha256": "d7261370601eeafbf5d91cbde813845b0fc9f1847ceedc57f6afc7dc88aac687",
+        "bytes": 123412064,
+        "headers": {
+          "content-type": "application/x-gzip",
+          "etag": "\"c6390f034eb8577d625465c33d29fb1a4b9c2f1982f35dac3804c6d3c291d91e\"",
+          "date": "Sun, 08 Nov 2026 18:37:17 GMT"
+        },
+        "attempt": 1
+      },
+      "archive_sha256": "d7261370601eeafbf5d91cbde813845b0fc9f1847ceedc57f6afc7dc88aac687",
+      "bundle_path": "data/raw/release-advisories/ed51ab7a152de0e38129cffb.json.gz",
+      "bundle_sha256": "8321ba9399938347f8cdacc0c66a3326f64bf72b5e277ffc4c5c7332139dbd9e"
+    },
+    "2026-08-02T07:06:40.819Z": {
+      "boundary": "2026-08-02T07:06:40.819Z",
+      "commit": {
+        "sha": "1a199016f3b0066d4ef48ab0ba37a264a22f82cc",
+        "committed_at": "2026-08-02T06:32:21Z",
+        "html_url": "https://github.com/github/advisory-database/commit/1a199016f3b0066d4ef48ab0ba37a264a22f82cc"
+      },
+      "resolution": {
+        "url": "https://api.github.com/repos/github/advisory-database/commits?until=2026-08-02T07:06:40Z&per_page=1",
+        "retrieved_via": "GitHub connector",
+        "fetched_at": "2026-11-08T18:18:56.564Z",
+        "response_sha256": "530fdc44d2a3b84e84f1f39ec287d210027f1381276a768eaba984ef777f3f4f"
+      },
+      "download": {
+        "url": "https://codeload.github.com/github/advisory-database/tar.gz/1a199016f3b0066d4ef48ab0ba37a264a22f82cc",
+        "fetched_at": "2026-11-08T18:37:24.115Z",
+        "status": 200,
+        "body_sha256": "5eaf00821e0f86f3f111ca298109f6e44e308b133566ba29f797f9eed822b851",
+        "bytes": 125052709,
+        "headers": {
+          "content-type": "application/x-gzip",
+          "etag": "\"082447bdf433d5bd102c8553f7e2db925983b2dbe309db357f3b6b3610c78fbd\"",
+          "date": "Sun, 08 Nov 2026 18:37:26 GMT"
+        },
+        "attempt": 1
+      },
+      "archive_sha256": "5eaf00821e0f86f3f111ca298109f6e44e308b133566ba29f797f9eed822b851",
+      "bundle_path": "data/raw/release-advisories/49071cb5c43a0bc0816e57a9.json.gz",
+      "bundle_sha256": "604de7fdc06b44feac8a049ba07aa8d936841828ab27e7afa64f83436805d4b2"
+    },
+    "2026-08-04T10:38:26.287Z": {
+      "boundary": "2026-08-04T10:38:26.287Z",
+      "commit": {
+        "sha": "a3ea46cb73693ccecdddc79fb0bfeeab6d6814fd",
+        "committed_at": "2026-08-04T09:33:57Z",
+        "html_url": "https://github.com/github/advisory-database/commit/a3ea46cb73693ccecdddc79fb0bfeeab6d6814fd"
+      },
+      "resolution": {
+        "url": "https://api.github.com/repos/github/advisory-database/commits?until=2026-08-04T10:38:26Z&per_page=1",
+        "retrieved_via": "GitHub connector",
+        "fetched_at": "2026-11-08T18:18:57.605Z",
+        "response_sha256": "f76dd515b05dbbbc16b0422501950ddd62773cf095243532cbdb03f6e7b28605"
+      },
+      "download": {
+        "url": "https://codeload.github.com/github/advisory-database/tar.gz/a3ea46cb73693ccecdddc79fb0bfeeab6d6814fd",
+        "fetched_at": "2026-11-08T18:37:27.800Z",
+        "status": 200,
+        "body_sha256": "1846ba23e832c97703ddc418242c3f3c3143d9b685b96af90da8b30d0328f7a2",
+        "bytes": 125257171,
+        "headers": {
+          "content-type": "application/x-gzip",
+          "etag": "\"1613755c41c3f5c0f4e9081e041e2e3751c7fca098b60503966262f9c4e7af5b\"",
+          "date": "Sun, 08 Nov 2026 18:37:30 GMT"
+        },
+        "attempt": 1
+      },
+      "archive_sha256": "1846ba23e832c97703ddc418242c3f3c3143d9b685b96af90da8b30d0328f7a2",
+      "bundle_path": "data/raw/release-advisories/0bb4786b7d060ad3f41be390.json.gz",
+      "bundle_sha256": "afa10be4ec8fbc969dfaf2a4323535f974d0dfe1e595f812e15faf502d85adb7"
+    },
+    "2026-08-07T00:31:21.036Z": {
+      "boundary": "2026-08-07T00:31:21.036Z",
+      "commit": {
+        "sha": "36200027e9b9b4b1ce8313bd5c5bd3b7d5120a33",
+        "committed_at": "2026-08-06T22:16:03Z",
+        "html_url": "https://github.com/github/advisory-database/commit/36200027e9b9b4b1ce8313bd5c5bd3b7d5120a33"
+      },
+      "resolution": {
+        "url": "https://api.github.com/repos/github/advisory-database/commits?until=2026-08-07T00:31:21Z&per_page=1",
+        "retrieved_via": "GitHub connector",
+        "fetched_at": "2026-11-08T18:18:57.604Z",
+        "response_sha256": "05c45febf3ec59a2f8aeaacb07b87066ef211151969e0f5759baaf492b9b7aa1"
+      },
+      "download": {
+        "url": "https://codeload.github.com/github/advisory-database/tar.gz/36200027e9b9b4b1ce8313bd5c5bd3b7d5120a33",
+        "fetched_at": "2026-11-08T18:37:52.998Z",
+        "status": 200,
+        "body_sha256": "7e9e010922a1882aa78d723f2ba59ebe0342cdc2bce3dae06ad023ae6200e7e2",
+        "bytes": 125832659,
+        "headers": {
+          "content-type": "application/x-gzip",
+          "etag": "\"e241221c8232bfd0c7f82e673ccb4da022b1e1f7baaae55184030adff3c539c0\"",
+          "date": "Sun, 08 Nov 2026 18:37:55 GMT"
+        },
+        "attempt": 1
+      },
+      "archive_sha256": "7e9e010922a1882aa78d723f2ba59ebe0342cdc2bce3dae06ad023ae6200e7e2",
+      "bundle_path": "data/raw/release-advisories/529384da0ecc2822b6ae0ad6.json.gz",
+      "bundle_sha256": "3255f88aa7a832e1a62733a31131a1db5a243ae83df9b307ee4d6cbdf56a1cc5"
+    },
+    "2026-08-09T10:16:24.045Z": {
+      "boundary": "2026-08-09T10:16:24.045Z",
+      "commit": {
+        "sha": "71ca7b6916b1fb164168b4bb6050d2676e5a8d6a",
+        "committed_at": "2026-08-09T09:32:33Z",
+        "html_url": "https://github.com/github/advisory-database/commit/71ca7b6916b1fb164168b4bb6050d2676e5a8d6a"
+      },
+      "resolution": {
+        "url": "https://api.github.com/repos/github/advisory-database/commits?until=2026-08-09T10:16:24Z&per_page=1",
+        "retrieved_via": "GitHub connector",
+        "fetched_at": "2026-11-08T18:18:57.514Z",
+        "response_sha256": "3706cc60cb0e913cecebb472166ff42913abac4cb7c30ff51142d08c6157cd73"
+      },
+      "download": {
+        "url": "https://codeload.github.com/github/advisory-database/tar.gz/71ca7b6916b1fb164168b4bb6050d2676e5a8d6a",
+        "fetched_at": "2026-11-08T18:38:42.711Z",
+        "status": 200,
+        "body_sha256": "b2ac6bce543373cb32a580fd53ce5597c82645063e04d798723876b0d6596c1a",
+        "bytes": 126016634,
+        "headers": {
+          "content-type": "application/x-gzip",
+          "etag": "\"0086e0368f88a98684e0e12d7418d295583ceac73fdafdf00d4bcde07b2d2c72\"",
+          "date": "Sun, 08 Nov 2026 18:38:45 GMT"
+        },
+        "attempt": 1
+      },
+      "archive_sha256": "b2ac6bce543373cb32a580fd53ce5597c82645063e04d798723876b0d6596c1a",
+      "bundle_path": "data/raw/release-advisories/e72e048dbff8e8cec136b170.json.gz",
+      "bundle_sha256": "fb81bfe4f9e419367aae2552d0f8347657a4bdbfc3205d1237f157e9321fa46d"
+    },
+    "2026-08-19T07:25:34.368Z": {
+      "boundary": "2026-08-19T07:25:34.368Z",
+      "commit": {
+        "sha": "80aa4beb5103d2d970b69688101eddf8ce75afa2",
+        "committed_at": "2026-08-19T06:33:22Z",
+        "html_url": "https://github.com/github/advisory-database/commit/80aa4beb5103d2d970b69688101eddf8ce75afa2"
+      },
+      "resolution": {
+        "url": "https://api.github.com/repos/github/advisory-database/commits?until=2026-08-19T07:25:34Z&per_page=1",
+        "retrieved_via": "GitHub connector",
+        "fetched_at": "2026-11-08T18:18:57.513Z",
+        "response_sha256": "93a4cb36acca81b80b264a6c98446ba0e772b557fd89fc74d3cc5cbc2ba8169a"
+      },
+      "download": {
+        "url": "https://codeload.github.com/github/advisory-database/tar.gz/80aa4beb5103d2d970b69688101eddf8ce75afa2",
+        "fetched_at": "2026-11-08T18:38:48.437Z",
+        "status": 200,
+        "body_sha256": "062245b0577fe7cbe8b67357d2b2971dc50a0191f66e489bd2e61ff51256c092",
+        "bytes": 128241720,
+        "headers": {
+          "content-type": "application/x-gzip",
+          "etag": "\"6850158c63b0c48512d7add16003df2b4b4151eccdb008acb327a884bf7508b6\"",
+          "date": "Sun, 08 Nov 2026 18:38:51 GMT"
+        },
+        "attempt": 1
+      },
+      "archive_sha256": "062245b0577fe7cbe8b67357d2b2971dc50a0191f66e489bd2e61ff51256c092",
+      "bundle_path": "data/raw/release-advisories/bd632f23f400599e66d2663a.json.gz",
+      "bundle_sha256": "63fe5370a5fe0e98fec5644da997977c52aa354d2bd3f6c456c7b96751989807"
+    },
+    "2026-08-19T11:11:59.551Z": {
+      "boundary": "2026-08-19T11:11:59.551Z",
+      "commit": {
+        "sha": "ef9d0628795e5067c1040d276be26bc9adfe896c",
+        "committed_at": "2026-08-19T09:33:31Z",
+        "html_url": "https://github.com/github/advisory-database/commit/ef9d0628795e5067c1040d276be26bc9adfe896c"
+      },
+      "resolution": {
+        "url": "https://api.github.com/repos/github/advisory-database/commits?until=2026-08-19T11:11:59Z&per_page=1",
+        "retrieved_via": "GitHub connector",
+        "fetched_at": "2026-11-08T18:18:57.601Z",
+        "response_sha256": "ef8880178eb7095c885d0535ef648255e5b21b2105fbef5dd452cf0b917322fd"
+      },
+      "download": {
+        "url": "https://codeload.github.com/github/advisory-database/tar.gz/ef9d0628795e5067c1040d276be26bc9adfe896c",
+        "fetched_at": "2026-11-08T18:38:54.599Z",
+        "status": 200,
+        "body_sha256": "53a75641e9143b8bd7c384e746765f9045b883b3e97dd78b5e4ede47065c2bfa",
+        "bytes": 128282238,
+        "headers": {
+          "content-type": "application/x-gzip",
+          "etag": "\"f73cb4eb9ac47c4ad3167b06c45028f984a88a863327a0d59c649a637d79a71f\"",
+          "date": "Sun, 08 Nov 2026 18:38:56 GMT"
+        },
+        "attempt": 1
+      },
+      "archive_sha256": "53a75641e9143b8bd7c384e746765f9045b883b3e97dd78b5e4ede47065c2bfa",
+      "bundle_path": "data/raw/release-advisories/e5d9c3150fe9899a901449dc.json.gz",
+      "bundle_sha256": "dda2fac8952146cc1d203f4e1b668a194527a5be9225804475adab9fa3c10836"
+    },
+    "2026-08-20T17:59:59.453Z": {
+      "boundary": "2026-08-20T17:59:59.453Z",
+      "commit": {
+        "sha": "a0e3200d5fa5d45cc5c7b3788b3789e609878c84",
+        "committed_at": "2026-08-20T17:31:44Z",
+        "html_url": "https://github.com/github/advisory-database/commit/a0e3200d5fa5d45cc5c7b3788b3789e609878c84"
+      },
+      "resolution": {
+        "url": "https://api.github.com/repos/github/advisory-database/commits?until=2026-08-20T17:59:59Z&per_page=1",
+        "retrieved_via": "GitHub connector",
+        "fetched_at": "2026-11-08T18:18:57.600Z",
+        "response_sha256": "3eda37d3d047b381894a70b502cd07f63eb6ed8fe632d9197a16d87b63396527"
+      },
+      "download": {
+        "url": "https://codeload.github.com/github/advisory-database/tar.gz/a0e3200d5fa5d45cc5c7b3788b3789e609878c84",
+        "fetched_at": "2026-11-08T18:39:18.019Z",
+        "status": 200,
+        "body_sha256": "9460344e8c216d7a0dbf070b5fc97760d4e63ce7d39c775a721892a80a3dff70",
+        "bytes": 128655151,
+        "headers": {
+          "content-type": "application/x-gzip",
+          "etag": "\"a026a0a33a8a364db70a4da3b3a7613a8fe2ca3dc09ecc74c8a289e194082ea4\"",
+          "date": "Sun, 08 Nov 2026 18:39:20 GMT"
+        },
+        "attempt": 1
+      },
+      "archive_sha256": "9460344e8c216d7a0dbf070b5fc97760d4e63ce7d39c775a721892a80a3dff70",
+      "bundle_path": "data/raw/release-advisories/0474375a2d4c265eb36985c5.json.gz",
+      "bundle_sha256": "e24c9ed6db32cdf653f6c62cf41fbf756bbd0c0dbf61488a1570e2bd03f5d373"
+    },
+    "2026-08-27T09:16:23.076Z": {
+      "boundary": "2026-08-27T09:16:23.076Z",
+      "commit": {
+        "sha": "0aeadf48e20cf67d3b6083f8947e3a85acb66e09",
+        "committed_at": "2026-08-27T06:33:42Z",
+        "html_url": "https://github.com/github/advisory-database/commit/0aeadf48e20cf67d3b6083f8947e3a85acb66e09"
+      },
+      "resolution": {
+        "url": "https://api.github.com/repos/github/advisory-database/commits?until=2026-08-27T09:16:23Z&per_page=1",
+        "retrieved_via": "GitHub connector",
+        "fetched_at": "2026-11-08T18:18:57.494Z",
+        "response_sha256": "54001a2ab652a244fad3c6dfbbaeaecf1033a017f72d3b883ba0862aaf4c1472"
+      },
+      "download": {
+        "url": "https://codeload.github.com/github/advisory-database/tar.gz/0aeadf48e20cf67d3b6083f8947e3a85acb66e09",
+        "fetched_at": "2026-11-08T18:40:13.444Z",
+        "status": 200,
+        "body_sha256": "ad764d4568db9cbc8871ed712c48f4fe093c39d0be51e4072a1a2285caed1f04",
+        "bytes": 129712221,
+        "headers": {
+          "content-type": "application/x-gzip",
+          "etag": "\"063bc6e49f53f4241fc9a95cfd9a5b437df443f50629bc47b17f8a70c1dd85ff\"",
+          "date": "Sun, 08 Nov 2026 18:40:15 GMT"
+        },
+        "attempt": 1
+      },
+      "archive_sha256": "ad764d4568db9cbc8871ed712c48f4fe093c39d0be51e4072a1a2285caed1f04",
+      "bundle_path": "data/raw/release-advisories/6e6fd7ae69cc864e2e06c49e.json.gz",
+      "bundle_sha256": "2309129d8c0f534fe16a0792e1885f7d8252070732ca01f3f13d1abe59db54d0"
+    },
+    "2026-08-30T18:00:48.323Z": {
+      "boundary": "2026-08-30T18:00:48.323Z",
+      "commit": {
+        "sha": "b695d547ec7cbc0be623463706ee0ac6c3290c92",
+        "committed_at": "2026-08-30T15:32:22Z",
+        "html_url": "https://github.com/github/advisory-database/commit/b695d547ec7cbc0be623463706ee0ac6c3290c92"
+      },
+      "resolution": {
+        "url": "https://api.github.com/repos/github/advisory-database/commits?until=2026-08-30T18:00:48Z&per_page=1",
+        "retrieved_via": "GitHub connector",
+        "fetched_at": "2026-11-08T18:18:57.602Z",
+        "response_sha256": "1e6d88655901448a84fb381def1ce8e7e041e00dda87727a9d882f320579c909"
+      },
+      "download": {
+        "url": "https://codeload.github.com/github/advisory-database/tar.gz/b695d547ec7cbc0be623463706ee0ac6c3290c92",
+        "fetched_at": "2026-11-08T18:40:17.477Z",
+        "status": 200,
+        "body_sha256": "ea1735519957136d24b756eccd9f233ef435b96df8598ef6f3f98e72a8699dcc",
+        "bytes": 130379389,
+        "headers": {
+          "content-type": "application/x-gzip",
+          "etag": "\"d7f508bd13d6181067d6723303be05385d83e6e0438a2fcd08d69c378ea3a86f\"",
+          "date": "Sun, 08 Nov 2026 18:40:19 GMT"
+        },
+        "attempt": 1
+      },
+      "archive_sha256": "ea1735519957136d24b756eccd9f233ef435b96df8598ef6f3f98e72a8699dcc",
+      "bundle_path": "data/raw/release-advisories/b88020e8fd8f83f0314012bb.json.gz",
+      "bundle_sha256": "0732f3e63e5045c9d5aeb1906e8191c411c384ba8e7e4d624e16e54b388e226b"
+    },
+    "2026-09-02T14:17:47.684Z": {
+      "boundary": "2026-09-02T14:17:47.684Z",
+      "commit": {
+        "sha": "9f30e2ca59b4843a0ecb4e079c51d1ea282c9146",
+        "committed_at": "2026-09-02T13:38:53Z",
+        "html_url": "https://github.com/github/advisory-database/commit/9f30e2ca59b4843a0ecb4e079c51d1ea282c9146"
+      },
+      "resolution": {
+        "url": "https://api.github.com/repos/github/advisory-database/commits?until=2026-09-02T14:17:47Z&per_page=1",
+        "retrieved_via": "GitHub connector",
+        "fetched_at": "2026-11-08T18:18:58.416Z",
+        "response_sha256": "93d5583fc741721d4c5d12ba02a1d34eadc5696627bfd29fcbf04d131b11c8d3"
+      },
+      "download": {
+        "url": "https://codeload.github.com/github/advisory-database/tar.gz/9f30e2ca59b4843a0ecb4e079c51d1ea282c9146",
+        "fetched_at": "2026-11-08T18:40:23.739Z",
+        "status": 200,
+        "body_sha256": "edc0010bee294b01caaf9fe03fc4c254b11c8246497b236ff756be4baa2aaf7a",
+        "bytes": 130725031,
+        "headers": {
+          "content-type": "application/x-gzip",
+          "etag": "\"49507da4b4087da55a4ca27b8638a4890c4adbca0a1e6ad1bc60b42495d7afa3\"",
+          "date": "Sun, 08 Nov 2026 18:40:26 GMT"
+        },
+        "attempt": 1
+      },
+      "archive_sha256": "edc0010bee294b01caaf9fe03fc4c254b11c8246497b236ff756be4baa2aaf7a",
+      "bundle_path": "data/raw/release-advisories/6d4350fbc715c520b5db67e2.json.gz",
+      "bundle_sha256": "7ae0822fb4a5d184c5395c936cee1c71becf28b07230871e2de11f8c7f54cd2a"
+    },
+    "2026-09-07T23:02:22.464Z": {
+      "boundary": "2026-09-07T23:02:22.464Z",
+      "commit": {
+        "sha": "874969aaff2617a26e039ea4f42490fd14ae3752",
+        "committed_at": "2026-09-07T21:35:22Z",
+        "html_url": "https://github.com/github/advisory-database/commit/874969aaff2617a26e039ea4f42490fd14ae3752"
+      },
+      "resolution": {
+        "url": "https://api.github.com/repos/github/advisory-database/commits?until=2026-09-07T23:02:22Z&per_page=1",
+        "retrieved_via": "GitHub connector",
+        "fetched_at": "2026-11-08T18:18:58.308Z",
+        "response_sha256": "51ebd7e6e5e945034e036efcac75147c4b4f1f0b2399981dd01dc9859c69f686"
+      },
+      "download": {
+        "url": "https://codeload.github.com/github/advisory-database/tar.gz/874969aaff2617a26e039ea4f42490fd14ae3752",
+        "fetched_at": "2026-11-08T18:40:41.993Z",
+        "status": 200,
+        "body_sha256": "be28e0bc0fe0989e62f7b1b6142139dd793a6a1ddc7c5522be9c38313fe9d804",
+        "bytes": 131651385,
+        "headers": {
+          "content-type": "application/x-gzip",
+          "etag": "\"6af12e2b52d738bcf3841fbbbd0253d8450fba605e3b3493c9d0b1b140db2b6e\"",
+          "date": "Sun, 08 Nov 2026 18:40:44 GMT"
+        },
+        "attempt": 1
+      },
+      "archive_sha256": "be28e0bc0fe0989e62f7b1b6142139dd793a6a1ddc7c5522be9c38313fe9d804",
+      "bundle_path": "data/raw/release-advisories/7d30a6136ce35c1d516dc1b9.json.gz",
+      "bundle_sha256": "42df82c9c9af1895744230d78b4d69ed2382545da21967d800ad2cfc70fcbf35"
+    },
+    "2026-09-09T22:47:05.085Z": {
+      "boundary": "2026-09-09T22:47:05.085Z",
+      "commit": {
+        "sha": "d36b7137037a2f10eb2b5f55f19e4f21161a437a",
+        "committed_at": "2026-09-09T21:37:04Z",
+        "html_url": "https://github.com/github/advisory-database/commit/d36b7137037a2f10eb2b5f55f19e4f21161a437a"
+      },
+      "resolution": {
+        "url": "https://api.github.com/repos/github/advisory-database/commits?until=2026-09-09T22:47:05Z&per_page=1",
+        "retrieved_via": "GitHub connector",
+        "fetched_at": "2026-11-08T18:18:58.309Z",
+        "response_sha256": "c2640a98ab9f34470216ef2e3e821519407e78b002626a1f8a7ca47f3b3fea71"
+      },
+      "download": {
+        "url": "https://codeload.github.com/github/advisory-database/tar.gz/d36b7137037a2f10eb2b5f55f19e4f21161a437a",
+        "fetched_at": "2026-11-08T18:41:45.229Z",
+        "status": 200,
+        "body_sha256": "a8a43410caa464cd8125ee2a6480b8e8771177ef0a766fcc4344a28ea2d24842",
+        "bytes": 132368770,
+        "headers": {
+          "content-type": "application/x-gzip",
+          "etag": "\"5b9144e30b8f55e65e8dd981cd7dc978c80cd1674c205ae6c86d52c9f050f8fc\"",
+          "date": "Sun, 08 Nov 2026 18:41:47 GMT"
+        },
+        "attempt": 1
+      },
+      "archive_sha256": "a8a43410caa464cd8125ee2a6480b8e8771177ef0a766fcc4344a28ea2d24842",
+      "bundle_path": "data/raw/release-advisories/856538306d972faf1d072a31.json.gz",
+      "bundle_sha256": "bd7622c594e82a9d002e1070c219b6a187874d56409d1dce9c7699ca62871087"
+    },
+    "2026-09-13T07:23:00.326Z": {
+      "boundary": "2026-09-13T07:23:00.326Z",
+      "commit": {
+        "sha": "d9d5fbda5e2afa6df16ceeaa3ce976fe7bdadcb6",
+        "committed_at": "2026-09-13T06:38:02Z",
+        "html_url": "https://github.com/github/advisory-database/commit/d9d5fbda5e2afa6df16ceeaa3ce976fe7bdadcb6"
+      },
+      "resolution": {
+        "url": "https://api.github.com/repos/github/advisory-database/commits?until=2026-09-13T07:23:00Z&per_page=1",
+        "retrieved_via": "GitHub connector",
+        "fetched_at": "2026-11-08T18:18:58.414Z",
+        "response_sha256": "8a318108eca4d37bd73159952682866c732a2df73d01f6fc7cf474ad05dba751"
+      },
+      "download": {
+        "url": "https://codeload.github.com/github/advisory-database/tar.gz/d9d5fbda5e2afa6df16ceeaa3ce976fe7bdadcb6",
+        "fetched_at": "2026-11-08T18:41:46.116Z",
+        "status": 200,
+        "body_sha256": "b1f4d8a0e314c26f95def72d406b74000165fd4255d1eebce2f1021b59a6fb02",
+        "bytes": 133110628,
+        "headers": {
+          "content-type": "application/x-gzip",
+          "etag": "\"e27764216c8494a27ccd09ba0223de539c95b9fa7310b09cb7162dc814513a09\"",
+          "date": "Sun, 08 Nov 2026 18:41:48 GMT"
+        },
+        "attempt": 1
+      },
+      "archive_sha256": "b1f4d8a0e314c26f95def72d406b74000165fd4255d1eebce2f1021b59a6fb02",
+      "bundle_path": "data/raw/release-advisories/d190f28566d4a003caea60f8.json.gz",
+      "bundle_sha256": "80335e52f1aa9d1e5646374a525b684a1bf0dddbd88be19104b3c0991513ecf3"
+    },
+    "2026-09-13T09:16:25.179Z": {
+      "boundary": "2026-09-13T09:16:25.179Z",
+      "commit": {
+        "sha": "d9d5fbda5e2afa6df16ceeaa3ce976fe7bdadcb6",
+        "committed_at": "2026-09-13T06:38:02Z",
+        "html_url": "https://github.com/github/advisory-database/commit/d9d5fbda5e2afa6df16ceeaa3ce976fe7bdadcb6"
+      },
+      "resolution": {
+        "url": "https://api.github.com/repos/github/advisory-database/commits?until=2026-09-13T09:16:25Z&per_page=1",
+        "retrieved_via": "GitHub connector",
+        "fetched_at": "2026-11-08T18:18:58.373Z",
+        "response_sha256": "8a318108eca4d37bd73159952682866c732a2df73d01f6fc7cf474ad05dba751"
+      },
+      "download": {
+        "url": "https://codeload.github.com/github/advisory-database/tar.gz/d9d5fbda5e2afa6df16ceeaa3ce976fe7bdadcb6",
+        "fetched_at": "2026-11-08T18:41:54.599Z",
+        "status": 200,
+        "body_sha256": "b1f4d8a0e314c26f95def72d406b74000165fd4255d1eebce2f1021b59a6fb02",
+        "bytes": 133110628,
+        "headers": {
+          "content-type": "application/x-gzip",
+          "etag": "\"e27764216c8494a27ccd09ba0223de539c95b9fa7310b09cb7162dc814513a09\"",
+          "date": "Sun, 08 Nov 2026 18:41:57 GMT"
+        },
+        "attempt": 1
+      },
+      "archive_sha256": "b1f4d8a0e314c26f95def72d406b74000165fd4255d1eebce2f1021b59a6fb02",
+      "bundle_path": "data/raw/release-advisories/d7bab14508fcc686193ea66b.json.gz",
+      "bundle_sha256": "d2a398da411e9a1124c1b310d94791b3bc4c4df9449cadcdc0b7a4bef8d15e1b"
+    },
+    "2026-09-13T15:50:42.140Z": {
+      "boundary": "2026-09-13T15:50:42.140Z",
+      "commit": {
+        "sha": "3a8e856b736ec20bc971630bb9ca4b5c98a28257",
+        "committed_at": "2026-09-13T15:35:16Z",
+        "html_url": "https://github.com/github/advisory-database/commit/3a8e856b736ec20bc971630bb9ca4b5c98a28257"
+      },
+      "resolution": {
+        "url": "https://api.github.com/repos/github/advisory-database/commits?until=2026-09-13T15:50:42Z&per_page=1",
+        "retrieved_via": "GitHub connector",
+        "fetched_at": "2026-11-08T18:18:58.365Z",
+        "response_sha256": "a3d4e195d4a950d45dbe639144778c41d97451368e65e34a4e0e8d3578e708fd"
+      },
+      "download": {
+        "url": "https://codeload.github.com/github/advisory-database/tar.gz/3a8e856b736ec20bc971630bb9ca4b5c98a28257",
+        "fetched_at": "2026-11-08T18:42:11.021Z",
+        "status": 200,
+        "body_sha256": "df7ceaaa6d8e25dffe745470b66d7556e07a411bf3f7a5b926063b93e01f9cac",
+        "bytes": 133179989,
+        "headers": {
+          "content-type": "application/x-gzip",
+          "etag": "\"0f04db81f3707b14f417507d36bd1ca2ca09e65972aa12bd132453a499a40be5\"",
+          "date": "Sun, 08 Nov 2026 18:42:13 GMT"
+        },
+        "attempt": 1
+      },
+      "archive_sha256": "df7ceaaa6d8e25dffe745470b66d7556e07a411bf3f7a5b926063b93e01f9cac",
+      "bundle_path": "data/raw/release-advisories/65544270a8236bea6d6ede82.json.gz",
+      "bundle_sha256": "75afd54e8bc18edf6000ece6696591a42853c975b2596167da6c471e31383d1a"
+    },
+    "2026-09-15T09:44:07.576Z": {
+      "boundary": "2026-09-15T09:44:07.576Z",
+      "commit": {
+        "sha": "6f4744cb422131f1acef9e3054d3955e5658ed44",
+        "committed_at": "2026-09-15T09:35:41Z",
+        "html_url": "https://github.com/github/advisory-database/commit/6f4744cb422131f1acef9e3054d3955e5658ed44"
+      },
+      "resolution": {
+        "url": "https://api.github.com/repos/github/advisory-database/commits?until=2026-09-15T09:44:07Z&per_page=1",
+        "retrieved_via": "GitHub connector",
+        "fetched_at": "2026-11-08T18:18:58.230Z",
+        "response_sha256": "901e32071814b51d2fcd046d9b1c59f841681ada73c855aa6897f225a52b47f4"
+      },
+      "download": {
+        "url": "https://codeload.github.com/github/advisory-database/tar.gz/6f4744cb422131f1acef9e3054d3955e5658ed44",
+        "fetched_at": "2026-11-08T18:43:12.468Z",
+        "status": 200,
+        "body_sha256": "de33e79395736384443faeee70ebbb7bb3b3641850f2b4f10dbbf83795896f7c",
+        "bytes": 133511477,
+        "headers": {
+          "content-type": "application/x-gzip",
+          "etag": "\"21cb93e7ea5a2d20aa52a20713c186c321458250b6e4a1a166fd4ea596ef8792\"",
+          "date": "Sun, 08 Nov 2026 18:43:14 GMT"
+        },
+        "attempt": 1
+      },
+      "archive_sha256": "de33e79395736384443faeee70ebbb7bb3b3641850f2b4f10dbbf83795896f7c",
+      "bundle_path": "data/raw/release-advisories/25cc34b796de91bbd6adf43d.json.gz",
+      "bundle_sha256": "eae7c9b67fa4825d650fb1c00594c683e70d35f28e0fcef31c161dc295517c2b"
+    },
+    "2026-09-15T16:54:59.526Z": {
+      "boundary": "2026-09-15T16:54:59.526Z",
+      "commit": {
+        "sha": "71fd93a5d531fe0a3d8a7a125fab3b39a8e676cf",
+        "committed_at": "2026-09-15T15:37:32Z",
+        "html_url": "https://github.com/github/advisory-database/commit/71fd93a5d531fe0a3d8a7a125fab3b39a8e676cf"
+      },
+      "resolution": {
+        "url": "https://api.github.com/repos/github/advisory-database/commits?until=2026-09-15T16:54:59Z&per_page=1",
+        "retrieved_via": "GitHub connector",
+        "fetched_at": "2026-11-08T18:18:58.344Z",
+        "response_sha256": "1558d17b6e4974b4dbe8001b4444ac952debe5a0bdb863212e465f6e368a37b0"
+      },
+      "download": {
+        "url": "https://codeload.github.com/github/advisory-database/tar.gz/71fd93a5d531fe0a3d8a7a125fab3b39a8e676cf",
+        "fetched_at": "2026-11-08T18:43:13.613Z",
+        "status": 200,
+        "body_sha256": "a5be2abe08fe85f609205b56275abd89089f842c64f59e8d16b33a8aa5ee9c00",
+        "bytes": 133440805,
+        "headers": {
+          "content-type": "application/x-gzip",
+          "etag": "\"e7250e269dc086256205fbd5dd665f11952658ee5a256564c0fd52dd28386a33\"",
+          "date": "Sun, 08 Nov 2026 18:43:16 GMT"
+        },
+        "attempt": 1
+      },
+      "archive_sha256": "a5be2abe08fe85f609205b56275abd89089f842c64f59e8d16b33a8aa5ee9c00",
+      "bundle_path": "data/raw/release-advisories/af640ced15e0ba14ef3dfb2b.json.gz",
+      "bundle_sha256": "970b59e643b9624b901fadf5aa209c7cd6872c696b3a763b9c131b7644eb4873"
+    },
+    "2026-09-17T14:57:23.529Z": {
+      "boundary": "2026-09-17T14:57:23.529Z",
+      "commit": {
+        "sha": "110711f8250be206e34aac8c22f4a06fabb96124",
+        "committed_at": "2026-09-17T14:55:04Z",
+        "html_url": "https://github.com/github/advisory-database/commit/110711f8250be206e34aac8c22f4a06fabb96124"
+      },
+      "resolution": {
+        "url": "https://api.github.com/repos/github/advisory-database/commits?until=2026-09-17T14:57:23Z&per_page=1",
+        "retrieved_via": "GitHub connector",
+        "fetched_at": "2026-11-08T18:18:59.262Z",
+        "response_sha256": "a8ed1d407cb68a26f699fe442cd1475bb0496a52a962dcae246416cabe507c25"
+      },
+      "download": {
+        "url": "https://codeload.github.com/github/advisory-database/tar.gz/110711f8250be206e34aac8c22f4a06fabb96124",
+        "fetched_at": "2026-11-08T18:43:20.172Z",
+        "status": 200,
+        "body_sha256": "526c2a7741dcf146cc82f7c0ba46b50a04951c34da754377dd8b2e8b0e55a4bc",
+        "bytes": 134414522,
+        "headers": {
+          "content-type": "application/x-gzip",
+          "etag": "\"5175f6dfcc6f44496aa1edb200fbbaadfa4c46612a9c23ebe30a3b9e74046c8d\"",
+          "date": "Sun, 08 Nov 2026 18:43:22 GMT"
+        },
+        "attempt": 1
+      },
+      "archive_sha256": "526c2a7741dcf146cc82f7c0ba46b50a04951c34da754377dd8b2e8b0e55a4bc",
+      "bundle_path": "data/raw/release-advisories/7295e93ff9ad23d59a269189.json.gz",
+      "bundle_sha256": "fe58a3f253412c1a6348f007be4ea6d230130c1dbc22e2a9671c47fa25b763f5"
+    },
+    "2026-09-17T18:32:48.972Z": {
+      "boundary": "2026-09-17T18:32:48.972Z",
+      "commit": {
+        "sha": "4283f78bbac1bccf83c1ca53c3022d0ee200ca83",
+        "committed_at": "2026-09-17T18:08:06Z",
+        "html_url": "https://github.com/github/advisory-database/commit/4283f78bbac1bccf83c1ca53c3022d0ee200ca83"
+      },
+      "resolution": {
+        "url": "https://api.github.com/repos/github/advisory-database/commits?until=2026-09-17T18:32:48Z&per_page=1",
+        "retrieved_via": "GitHub connector",
+        "fetched_at": "2026-11-08T18:18:59.257Z",
+        "response_sha256": "1377d13d78b8a87a216bf44be2ee464126fd1f97f6fe328ae4fc871ca1346b25"
+      },
+      "download": {
+        "url": "https://codeload.github.com/github/advisory-database/tar.gz/4283f78bbac1bccf83c1ca53c3022d0ee200ca83",
+        "fetched_at": "2026-11-08T18:43:35.866Z",
+        "status": 200,
+        "body_sha256": "cd6ba5a129703864f5a470ecd0eb02e1bf22235b2d487e7823b9805f4c413ad9",
+        "bytes": 134425973,
+        "headers": {
+          "content-type": "application/x-gzip",
+          "etag": "\"51602a71abbfa1c2a5f469af4e0899ead1c4b4233761803a22257ef45b5d7ec1\"",
+          "date": "Sun, 08 Nov 2026 18:43:38 GMT"
+        },
+        "attempt": 1
+      },
+      "archive_sha256": "cd6ba5a129703864f5a470ecd0eb02e1bf22235b2d487e7823b9805f4c413ad9",
+      "bundle_path": "data/raw/release-advisories/6bba7c781eb49e2695f1c694.json.gz",
+      "bundle_sha256": "beca61c4ccfbaa527bfe90284789bf2f58624df920b047f31d41b2e612f95a88"
+    },
+    "2026-09-20T18:28:17.985Z": {
+      "boundary": "2026-09-20T18:28:17.985Z",
+      "commit": {
+        "sha": "5d516e5fc55e4fdda2214753c7209eab5630b4b0",
+        "committed_at": "2026-09-20T15:35:18Z",
+        "html_url": "https://github.com/github/advisory-database/commit/5d516e5fc55e4fdda2214753c7209eab5630b4b0"
+      },
+      "resolution": {
+        "url": "https://api.github.com/repos/github/advisory-database/commits?until=2026-09-20T18:28:17Z&per_page=1",
+        "retrieved_via": "GitHub connector",
+        "fetched_at": "2026-11-08T18:18:59.256Z",
+        "response_sha256": "80cc4d3e1cc73a103096cff3f2c4b11b664aae4df566f11532bfdee849927c2d"
+      },
+      "download": {
+        "url": "https://codeload.github.com/github/advisory-database/tar.gz/5d516e5fc55e4fdda2214753c7209eab5630b4b0",
+        "fetched_at": "2026-11-08T18:44:40.227Z",
+        "status": 200,
+        "body_sha256": "90d677e871fad6b10b31d1f5b3b0ea0a14f3f2042ff605726d36340f19b56608",
+        "bytes": 135297560,
+        "headers": {
+          "content-type": "application/x-gzip",
+          "etag": "\"2dfff5bab2366f408d04779b9c047491c7443ded0a8ee301c6087420b15dc375\"",
+          "date": "Sun, 08 Nov 2026 18:44:42 GMT"
+        },
+        "attempt": 1
+      },
+      "archive_sha256": "90d677e871fad6b10b31d1f5b3b0ea0a14f3f2042ff605726d36340f19b56608",
+      "bundle_path": "data/raw/release-advisories/a3379039641e54aa2ce5586c.json.gz",
+      "bundle_sha256": "1142a575497861714d11f514dc37af3255ea06969ba6b6c17be6cbdb54c34e25"
+    },
+    "2026-09-21T18:48:39.984Z": {
+      "boundary": "2026-09-21T18:48:39.984Z",
+      "commit": {
+        "sha": "884815939d066a40f354eb58eb2033d800d92207",
+        "committed_at": "2026-09-21T18:36:40Z",
+        "html_url": "https://github.com/github/advisory-database/commit/884815939d066a40f354eb58eb2033d800d92207"
+      },
+      "resolution": {
+        "url": "https://api.github.com/repos/github/advisory-database/commits?until=2026-09-21T18:48:39Z&per_page=1",
+        "retrieved_via": "GitHub connector",
+        "fetched_at": "2026-11-08T18:19:00.150Z",
+        "response_sha256": "21e760123babbf9bd7083c0de29b73f4d031024f790f3f6427e258d179537c40"
+      },
+      "download": {
+        "url": "https://codeload.github.com/github/advisory-database/tar.gz/884815939d066a40f354eb58eb2033d800d92207",
+        "fetched_at": "2026-11-08T18:44:43.586Z",
+        "status": 200,
+        "body_sha256": "c97299be008607e21a6b3bc3ecb8003d2979e4f62cfefea3d5bf6ddc4617d61f",
+        "bytes": 135309415,
+        "headers": {
+          "content-type": "application/x-gzip",
+          "etag": "\"3bbc1eaab9cd3b0ec1a0d46ddd670296872b31884369352fb7d8f38460b9de7f\"",
+          "date": "Sun, 08 Nov 2026 18:44:45 GMT"
+        },
+        "attempt": 1
+      },
+      "archive_sha256": "c97299be008607e21a6b3bc3ecb8003d2979e4f62cfefea3d5bf6ddc4617d61f",
+      "bundle_path": "data/raw/release-advisories/5bcf1e82e6cb0e9e702cbd18.json.gz",
+      "bundle_sha256": "db5a7992832d0934c7d52f2e3c70243e0d87896b6ae620fe191e958dbb340e3d"
+    },
+    "2026-09-22T18:37:08.221Z": {
+      "boundary": "2026-09-22T18:37:08.221Z",
+      "commit": {
+        "sha": "c501de4279060b1d0afacec86da9c7abe21db583",
+        "committed_at": "2026-09-22T18:35:35Z",
+        "html_url": "https://github.com/github/advisory-database/commit/c501de4279060b1d0afacec86da9c7abe21db583"
+      },
+      "resolution": {
+        "url": "https://api.github.com/repos/github/advisory-database/commits?until=2026-09-22T18:37:08Z&per_page=1",
+        "retrieved_via": "GitHub connector",
+        "fetched_at": "2026-11-08T18:18:59.258Z",
+        "response_sha256": "ac5104c3ca4678ab9450b93895310d59bc4d1968bc9be900876cea73f5ca2f7a"
+      },
+      "download": {
+        "url": "https://codeload.github.com/github/advisory-database/tar.gz/c501de4279060b1d0afacec86da9c7abe21db583",
+        "fetched_at": "2026-11-08T18:44:51.856Z",
+        "status": 200,
+        "body_sha256": "1abe647a28d93d23fba61a3205e488460a6461611e36c306104bf9caad567c47",
+        "bytes": 135407002,
+        "headers": {
+          "content-type": "application/x-gzip",
+          "etag": "\"c6d8d9b1041e39dcca20c192a43e8218999a391dec0821c68eb1d95a7402d763\"",
+          "date": "Sun, 08 Nov 2026 18:44:54 GMT"
+        },
+        "attempt": 1
+      },
+      "archive_sha256": "1abe647a28d93d23fba61a3205e488460a6461611e36c306104bf9caad567c47",
+      "bundle_path": "data/raw/release-advisories/f622254237bf4584c634ce6e.json.gz",
+      "bundle_sha256": "3950ac2f06ac1196d10992d79db9acf275f5c54001ad2381b8bc21fe0c9e841b"
+    },
+    "2026-09-22T20:03:49.752Z": {
+      "boundary": "2026-09-22T20:03:49.752Z",
+      "commit": {
+        "sha": "04be707955df07dad12286e5a7c7671308c29f7f",
+        "committed_at": "2026-09-22T20:01:17Z",
+        "html_url": "https://github.com/github/advisory-database/commit/04be707955df07dad12286e5a7c7671308c29f7f"
+      },
+      "resolution": {
+        "url": "https://api.github.com/repos/github/advisory-database/commits?until=2026-09-22T20:03:49Z&per_page=1",
+        "retrieved_via": "GitHub connector",
+        "fetched_at": "2026-11-08T18:18:59.263Z",
+        "response_sha256": "c753956f306b40448a2e447e51018088d68644ba1a6f13617d39aec456f3381e"
+      },
+      "download": {
+        "url": "https://codeload.github.com/github/advisory-database/tar.gz/04be707955df07dad12286e5a7c7671308c29f7f",
+        "fetched_at": "2026-11-08T18:45:06.722Z",
+        "status": 200,
+        "body_sha256": "3f082b69a1dae944a2bc0b4f62d234cb9569d7069f44abb8e785228e9f9a3062",
+        "bytes": 135554044,
+        "headers": {
+          "content-type": "application/x-gzip",
+          "etag": "\"2c0bf09c454f0651b6de19f95d9e9cb970b197b126044ddaa582352c83d043a8\"",
+          "date": "Sun, 08 Nov 2026 18:45:09 GMT"
+        },
+        "attempt": 1
+      },
+      "archive_sha256": "3f082b69a1dae944a2bc0b4f62d234cb9569d7069f44abb8e785228e9f9a3062",
+      "bundle_path": "data/raw/release-advisories/42eb45768c07d1474dc41d3d.json.gz",
+      "bundle_sha256": "c8bf122782221c8d455ed0ad65ba7137522ff3bbeab10f3599948642b1945bc4"
+    },
+    "2026-09-23T09:44:00.706Z": {
+      "boundary": "2026-09-23T09:44:00.706Z",
+      "commit": {
+        "sha": "995f1620dab619dd5a4166c63d8273792709102a",
+        "committed_at": "2026-09-23T09:35:47Z",
+        "html_url": "https://github.com/github/advisory-database/commit/995f1620dab619dd5a4166c63d8273792709102a"
+      },
+      "resolution": {
+        "url": "https://api.github.com/repos/github/advisory-database/commits?until=2026-09-23T09:44:00Z&per_page=1",
+        "retrieved_via": "GitHub connector",
+        "fetched_at": "2026-11-08T18:18:59.257Z",
+        "response_sha256": "4fddebdea1fb1cf2c5b5b7e85ba148826d644ca0564c2ebef994253085efab2e"
+      },
+      "download": {
+        "url": "https://codeload.github.com/github/advisory-database/tar.gz/995f1620dab619dd5a4166c63d8273792709102a",
+        "fetched_at": "2026-11-08T18:46:12.755Z",
+        "status": 200,
+        "body_sha256": "b9ff52521dc05ff1e7fb577690ba84a2c0525f11afbfebd6011742cfff7cd19d",
+        "bytes": 135711085,
+        "headers": {
+          "content-type": "application/x-gzip",
+          "etag": "\"6f255dfcb210b5b56eb46fa0313cc1504b677682d277078770de12b0b087c2e2\"",
+          "date": "Sun, 08 Nov 2026 18:46:15 GMT"
+        },
+        "attempt": 1
+      },
+      "archive_sha256": "b9ff52521dc05ff1e7fb577690ba84a2c0525f11afbfebd6011742cfff7cd19d",
+      "bundle_path": "data/raw/release-advisories/196ece95f55f7a2ef5854249.json.gz",
+      "bundle_sha256": "22ff230dc6401022eccb8e6883076d9b8f469d17a77566dacb7a87db71c30144"
+    },
+    "2026-09-24T17:04:45.416Z": {
+      "boundary": "2026-09-24T17:04:45.416Z",
+      "commit": {
+        "sha": "4c1e7774d8107f90c9ae91e8755b63257ec81d9a",
+        "committed_at": "2026-09-24T16:40:39Z",
+        "html_url": "https://github.com/github/advisory-database/commit/4c1e7774d8107f90c9ae91e8755b63257ec81d9a"
+      },
+      "resolution": {
+        "url": "https://api.github.com/repos/github/advisory-database/commits?until=2026-09-24T17:04:45Z&per_page=1",
+        "retrieved_via": "GitHub connector",
+        "fetched_at": "2026-11-08T18:19:00.887Z",
+        "response_sha256": "a01035d323b6771382a544c2c056704d1717abc6f84541734d162bf445f18879"
+      },
+      "download": {
+        "url": "https://codeload.github.com/github/advisory-database/tar.gz/4c1e7774d8107f90c9ae91e8755b63257ec81d9a",
+        "fetched_at": "2026-11-08T18:46:16.970Z",
+        "status": 200,
+        "body_sha256": "0c7e6d964e00ed366371759b8dc714be145cdb18d14a71fa45b921c11992bdff",
+        "bytes": 136013152,
+        "headers": {
+          "content-type": "application/x-gzip",
+          "etag": "\"175ad5f7f25859f15d80584f890c11dbcc57330a24026ddbca16d456c0c36450\"",
+          "date": "Sun, 08 Nov 2026 18:46:19 GMT"
+        },
+        "attempt": 1
+      },
+      "archive_sha256": "0c7e6d964e00ed366371759b8dc714be145cdb18d14a71fa45b921c11992bdff",
+      "bundle_path": "data/raw/release-advisories/0f1fb354320c92559eafb6f7.json.gz",
+      "bundle_sha256": "c48f278069ee4e2b82324f8ddfe1c3ba7f55fbc8f3a0204f892355b11e43db2f"
+    },
+    "2026-09-24T20:09:18.001Z": {
+      "boundary": "2026-09-24T20:09:18.001Z",
+      "commit": {
+        "sha": "4d9c664d5781d67b4be4238094de5f05fe74a628",
+        "committed_at": "2026-09-24T20:08:28Z",
+        "html_url": "https://github.com/github/advisory-database/commit/4d9c664d5781d67b4be4238094de5f05fe74a628"
+      },
+      "resolution": {
+        "url": "https://api.github.com/repos/github/advisory-database/commits?until=2026-09-24T20:09:18Z&per_page=1",
+        "retrieved_via": "GitHub connector",
+        "fetched_at": "2026-11-08T18:19:00.919Z",
+        "response_sha256": "0d48a2137374e057a1e2a7ba00b4f522386211db361d0688d027dad2c4a32df8"
+      },
+      "download": {
+        "url": "https://codeload.github.com/github/advisory-database/tar.gz/4d9c664d5781d67b4be4238094de5f05fe74a628",
+        "fetched_at": "2026-11-08T18:46:24.379Z",
+        "status": 200,
+        "body_sha256": "46344100efa0d037ea9980354d362eef2ca97957ebea3acf4330144c9d519937",
+        "bytes": 136254560,
+        "headers": {
+          "content-type": "application/x-gzip",
+          "etag": "\"0b10f611f9417a0e3851f2f4e07dee6f2f06159aa36a81fcd19f2b22823e4fbf\"",
+          "date": "Sun, 08 Nov 2026 18:46:27 GMT"
+        },
+        "attempt": 1
+      },
+      "archive_sha256": "46344100efa0d037ea9980354d362eef2ca97957ebea3acf4330144c9d519937",
+      "bundle_path": "data/raw/release-advisories/17f8684577f34c7b35e12959.json.gz",
+      "bundle_sha256": "5b1ccdc3424d2ac9426796dcbdb2f2f61898ddbb5263d3465a615797d86ef9de"
+    },
+    "2026-09-25T22:59:56.668Z": {
+      "boundary": "2026-09-25T22:59:56.668Z",
+      "commit": {
+        "sha": "1ca4105fa7d447e4168edec50a2610b5617b1410",
+        "committed_at": "2026-09-25T22:53:49Z",
+        "html_url": "https://github.com/github/advisory-database/commit/1ca4105fa7d447e4168edec50a2610b5617b1410"
+      },
+      "resolution": {
+        "url": "https://api.github.com/repos/github/advisory-database/commits?until=2026-09-25T22:59:56Z&per_page=1",
+        "retrieved_via": "GitHub connector",
+        "fetched_at": "2026-11-08T18:19:00.891Z",
+        "response_sha256": "480e003a61bcdad95cd7e2a1e97c5c7fffd4cb91522484c203e26d5785e5b6dc"
+      },
+      "download": {
+        "url": "https://codeload.github.com/github/advisory-database/tar.gz/1ca4105fa7d447e4168edec50a2610b5617b1410",
+        "fetched_at": "2026-11-08T18:46:40.274Z",
+        "status": 200,
+        "body_sha256": "45e7bd243230b9ec51e4b20737fa0784f33752e54f1124aec7992e7d11731310",
+        "bytes": 136668676,
+        "headers": {
+          "content-type": "application/x-gzip",
+          "etag": "\"47f4ae36f5b39fce1c886d6fadf62c1474f437fab02fe1b7d57d83cce290ea83\"",
+          "date": "Sun, 08 Nov 2026 18:46:42 GMT"
+        },
+        "attempt": 1
+      },
+      "archive_sha256": "45e7bd243230b9ec51e4b20737fa0784f33752e54f1124aec7992e7d11731310",
+      "bundle_path": "data/raw/release-advisories/c5d6093ab0179cba33e78a37.json.gz",
+      "bundle_sha256": "f0da9d4ef6fd7a95854cd22cd18de81df89ab48bbcd87f70a6a4edeabf658167"
+    },
+    "2026-09-26T08:13:34.555Z": {
+      "boundary": "2026-09-26T08:13:34.555Z",
+      "commit": {
+        "sha": "47defad7e4b635a959df28bfa4c58571dfd6522f",
+        "committed_at": "2026-09-26T03:36:50Z",
+        "html_url": "https://github.com/github/advisory-database/commit/47defad7e4b635a959df28bfa4c58571dfd6522f"
+      },
+      "resolution": {
+        "url": "https://api.github.com/repos/github/advisory-database/commits?until=2026-09-26T08:13:34Z&per_page=1",
+        "retrieved_via": "GitHub connector",
+        "fetched_at": "2026-11-08T18:19:00.893Z",
+        "response_sha256": "7503dc44d4e3f14a148607d135ba068bd73a23dc3285f0cb26f9e7984ee5bf09"
+      },
+      "download": {
+        "url": "https://codeload.github.com/github/advisory-database/tar.gz/47defad7e4b635a959df28bfa4c58571dfd6522f",
+        "fetched_at": "2026-11-08T18:47:46.609Z",
+        "status": 200,
+        "body_sha256": "e4c17507d060f70c697f601c65e4e9e42dfe68a66e37a981edb7fd6fd28592be",
+        "bytes": 136599683,
+        "headers": {
+          "content-type": "application/x-gzip",
+          "etag": "\"fd07adfec2e0f80988d41334288c2419a605a67458446e38ad56ec13aad9bf75\"",
+          "date": "Sun, 08 Nov 2026 18:47:49 GMT"
+        },
+        "attempt": 1
+      },
+      "archive_sha256": "e4c17507d060f70c697f601c65e4e9e42dfe68a66e37a981edb7fd6fd28592be",
+      "bundle_path": "data/raw/release-advisories/53caa7894c572266bee648e1.json.gz",
+      "bundle_sha256": "bb4cb5f066048242b0f381135d282531997757a2d024544d7fd9bbab9793964c"
+    },
+    "2026-09-26T09:47:50.776Z": {
+      "boundary": "2026-09-26T09:47:50.776Z",
+      "commit": {
+        "sha": "056594a4b9b4df1173956579618e9ce24f94619d",
+        "committed_at": "2026-09-26T09:37:03Z",
+        "html_url": "https://github.com/github/advisory-database/commit/056594a4b9b4df1173956579618e9ce24f94619d"
+      },
+      "resolution": {
+        "url": "https://api.github.com/repos/github/advisory-database/commits?until=2026-09-26T09:47:50Z&per_page=1",
+        "retrieved_via": "GitHub connector",
+        "fetched_at": "2026-11-08T18:19:00.893Z",
+        "response_sha256": "8587fd6ea9b7cc11f2adc841449aa10f01815805a63e564b3c10faf4d3082d0c"
+      },
+      "download": {
+        "url": "https://codeload.github.com/github/advisory-database/tar.gz/056594a4b9b4df1173956579618e9ce24f94619d",
+        "fetched_at": "2026-11-08T18:47:51.352Z",
+        "status": 200,
+        "body_sha256": "aa3e993b6b4e7d98e8678b91fd5d8b62f0675b53d914e6517d5bb83c7e28cae9",
+        "bytes": 136676474,
+        "headers": {
+          "content-type": "application/x-gzip",
+          "etag": "\"60f656757a1fbdc60282c872728e3eb270a6ec45f15f71cd3999ac728c7a6adb\"",
+          "date": "Sun, 08 Nov 2026 18:47:53 GMT"
+        },
+        "attempt": 1
+      },
+      "archive_sha256": "aa3e993b6b4e7d98e8678b91fd5d8b62f0675b53d914e6517d5bb83c7e28cae9",
+      "bundle_path": "data/raw/release-advisories/cb362577c34985d59c95949c.json.gz",
+      "bundle_sha256": "be8f499fa3ef0777420026812f59bc08a3c0c27f45bf048260d6fb4ffb572b06"
+    },
+    "2026-09-27T22:00:19.579Z": {
+      "boundary": "2026-09-27T22:00:19.579Z",
+      "commit": {
+        "sha": "520c0daa73d1d79498e09aad782954f7d98bda6a",
+        "committed_at": "2026-09-27T21:37:15Z",
+        "html_url": "https://github.com/github/advisory-database/commit/520c0daa73d1d79498e09aad782954f7d98bda6a"
+      },
+      "resolution": {
+        "url": "https://api.github.com/repos/github/advisory-database/commits?until=2026-09-27T22:00:19Z&per_page=1",
+        "retrieved_via": "GitHub connector",
+        "fetched_at": "2026-11-08T18:19:01.029Z",
+        "response_sha256": "0386fb3d68176b684672e93a2a7c24215a0a3ab198fb79b6ad24dfb2a75cfc00"
+      },
+      "download": {
+        "url": "https://codeload.github.com/github/advisory-database/tar.gz/520c0daa73d1d79498e09aad782954f7d98bda6a",
+        "fetched_at": "2026-11-08T18:47:58.772Z",
+        "status": 200,
+        "body_sha256": "aa5f71a28abbf84c37edd3b63b5a9643394a8a585a73bff0a09f881e6650699b",
+        "bytes": 136773371,
+        "headers": {
+          "content-type": "application/x-gzip",
+          "etag": "\"0dcf9f3e074f0539aca526700b6072c9d717a4d35c2a2c64da738708f9bd708a\"",
+          "date": "Sun, 08 Nov 2026 18:48:01 GMT"
+        },
+        "attempt": 1
+      },
+      "archive_sha256": "aa5f71a28abbf84c37edd3b63b5a9643394a8a585a73bff0a09f881e6650699b",
+      "bundle_path": "data/raw/release-advisories/0d754bea760709086cbf1244.json.gz",
+      "bundle_sha256": "ae1e76027f284a6fde65535556f29508241da30d01eace35669b2a74fe6f441f"
+    },
+    "2026-09-28T01:11:17.630Z": {
+      "boundary": "2026-09-28T01:11:17.630Z",
+      "commit": {
+        "sha": "3e0fa556b23298af7deed2be1936937ca3c87e9b",
+        "committed_at": "2026-09-28T00:36:18Z",
+        "html_url": "https://github.com/github/advisory-database/commit/3e0fa556b23298af7deed2be1936937ca3c87e9b"
+      },
+      "resolution": {
+        "url": "https://api.github.com/repos/github/advisory-database/commits?until=2026-09-28T01:11:17Z&per_page=1",
+        "retrieved_via": "GitHub connector",
+        "fetched_at": "2026-11-08T18:19:00.894Z",
+        "response_sha256": "eb3d1e3c5c5b049383d0a23eb3ac43ea9bd31a48a1d660f7a127451388cc7b25"
+      },
+      "download": {
+        "url": "https://codeload.github.com/github/advisory-database/tar.gz/3e0fa556b23298af7deed2be1936937ca3c87e9b",
+        "fetched_at": "2026-11-08T18:48:12.186Z",
+        "status": 200,
+        "body_sha256": "72c59db39d23887703e2b94cc5a9e6dce94a99a1bcb2e5fbabbd4455a4c77d90",
+        "bytes": 136759548,
+        "headers": {
+          "content-type": "application/x-gzip",
+          "etag": "\"ec973c516a485b5b3200d679b7301f4ef384355e342cb0ca293d095e7f73db29\"",
+          "date": "Sun, 08 Nov 2026 18:48:14 GMT"
+        },
+        "attempt": 1
+      },
+      "archive_sha256": "72c59db39d23887703e2b94cc5a9e6dce94a99a1bcb2e5fbabbd4455a4c77d90",
+      "bundle_path": "data/raw/release-advisories/73503bc866f02c7d483abdd3.json.gz",
+      "bundle_sha256": "0976c712c0e5a79267b0762e6c10d7383c51a2b15f55826131aae784f435986f"
+    },
+    "2026-09-28T16:46:39.800Z": {
+      "boundary": "2026-09-28T16:46:39.800Z",
+      "commit": {
+        "sha": "66975d745323ec6770fbbfe20a5687affb89b93f",
+        "committed_at": "2026-09-28T15:52:38Z",
+        "html_url": "https://github.com/github/advisory-database/commit/66975d745323ec6770fbbfe20a5687affb89b93f"
+      },
+      "resolution": {
+        "url": "https://api.github.com/repos/github/advisory-database/commits?until=2026-09-28T16:46:39Z&per_page=1",
+        "retrieved_via": "GitHub connector",
+        "fetched_at": "2026-11-08T18:19:01.276Z",
+        "response_sha256": "b0eace65f53fd7436bb1339a78dc172bfd95d0995ade1bc1ad2ef9646e21215e"
+      },
+      "download": {
+        "url": "https://codeload.github.com/github/advisory-database/tar.gz/66975d745323ec6770fbbfe20a5687affb89b93f",
+        "fetched_at": "2026-11-08T18:49:20.411Z",
+        "status": 200,
+        "body_sha256": "3e6c40b6e14d3096de0646b4fa59670efdb13e67af30774ee20ce4a9b6730e45",
+        "bytes": 136850629,
+        "headers": {
+          "content-type": "application/x-gzip",
+          "etag": "\"e4d5a9475a268be3d9af964ab1987198db769e6567a5237959af609502927bb5\"",
+          "date": "Sun, 08 Nov 2026 18:49:23 GMT"
+        },
+        "attempt": 1
+      },
+      "archive_sha256": "3e6c40b6e14d3096de0646b4fa59670efdb13e67af30774ee20ce4a9b6730e45",
+      "bundle_path": "data/raw/release-advisories/bf5b31128c55d409c3c8cfe4.json.gz",
+      "bundle_sha256": "ec7640ddc6fabd9bba55647af0bcc4bc6e292b9f31e28146d147c7572b78638e"
+    }
+  },
+  "failures": [],
+  "claim": "Historical Git mirror evidence, not an exact historical GitHub service export.",
+  "requested_scopes": [
+    "all-precutoff",
+    "supplied"
+  ],
+  "requested_boundaries": [
+    "2025-05-27T14:27:19.495Z",
+    "2025-08-25T14:27:19.495Z",
+    "2025-09-08T14:47:54.486Z",
+    "2025-12-01T20:49:43.268Z",
+    "2025-12-07T14:47:54.486Z",
+    "2025-12-23T16:42:13.022Z",
+    "2026-03-01T20:49:43.268Z",
+    "2026-03-23T16:42:13.022Z",
+    "2026-04-01T21:01:20.458Z",
+    "2026-04-16T23:38:27.905Z",
+    "2026-04-24T15:22:16.529Z",
+    "2026-05-04T07:06:40.819Z",
+    "2026-05-06T10:38:26.287Z",
+    "2026-05-09T00:31:21.036Z",
+    "2026-05-11T10:16:24.045Z",
+    "2026-05-21T07:25:34.368Z",
+    "2026-05-21T11:11:59.551Z",
+    "2026-05-22T17:59:59.453Z",
+    "2026-05-29T09:16:23.076Z",
+    "2026-06-01T18:00:48.323Z",
+    "2026-06-04T14:17:47.684Z",
+    "2026-06-09T23:02:22.464Z",
+    "2026-06-11T22:47:05.085Z",
+    "2026-06-15T07:23:00.326Z",
+    "2026-06-15T09:16:25.179Z",
+    "2026-06-15T15:50:42.140Z",
+    "2026-06-17T09:44:07.576Z",
+    "2026-06-17T16:54:59.526Z",
+    "2026-06-19T02:08:41.275Z",
+    "2026-06-19T14:57:23.529Z",
+    "2026-06-19T18:32:48.972Z",
+    "2026-06-22T18:28:17.985Z",
+    "2026-06-23T18:48:39.984Z",
+    "2026-06-24T18:37:08.221Z",
+    "2026-06-24T20:03:49.752Z",
+    "2026-06-25T09:44:00.706Z",
+    "2026-06-26T17:04:45.416Z",
+    "2026-06-26T20:09:18.001Z",
+    "2026-06-27T22:59:56.668Z",
+    "2026-06-28T08:13:34.555Z",
+    "2026-06-28T09:47:50.776Z",
+    "2026-06-29T22:00:19.579Z",
+    "2026-06-30T01:11:17.630Z",
+    "2026-06-30T16:46:39.800Z",
+    "2026-06-30T21:01:20.458Z",
+    "2026-07-15T23:38:27.905Z",
+    "2026-07-23T15:22:16.529Z",
+    "2026-08-02T07:06:40.819Z",
+    "2026-08-04T10:38:26.287Z",
+    "2026-08-07T00:31:21.036Z",
+    "2026-08-09T10:16:24.045Z",
+    "2026-08-19T07:25:34.368Z",
+    "2026-08-19T11:11:59.551Z",
+    "2026-08-20T17:59:59.453Z",
+    "2026-08-27T09:16:23.076Z",
+    "2026-08-30T18:00:48.323Z",
+    "2026-09-02T14:17:47.684Z",
+    "2026-09-07T23:02:22.464Z",
+    "2026-09-09T22:47:05.085Z",
+    "2026-09-13T07:23:00.326Z",
+    "2026-09-13T09:16:25.179Z",
+    "2026-09-13T15:50:42.140Z",
+    "2026-09-15T09:44:07.576Z",
+    "2026-09-15T16:54:59.526Z",
+    "2026-09-17T02:08:41.275Z",
+    "2026-09-17T14:57:23.529Z",
+    "2026-09-17T18:32:48.972Z",
+    "2026-09-20T18:28:17.985Z",
+    "2026-09-21T18:48:39.984Z",
+    "2026-09-22T18:37:08.221Z",
+    "2026-09-22T20:03:49.752Z",
+    "2026-09-23T09:44:00.706Z",
+    "2026-09-24T17:04:45.416Z",
+    "2026-09-24T20:09:18.001Z",
+    "2026-09-25T22:59:56.668Z",
+    "2026-09-26T08:13:34.555Z",
+    "2026-09-26T09:47:50.776Z",
+    "2026-09-27T22:00:19.579Z",
+    "2026-09-28T01:11:17.630Z",
+    "2026-09-28T16:46:39.800Z"
+  ],
+  "last_attempt_at": "2026-11-08T18:50:43.621Z",
+  "missing_requested_boundaries": [],
+  "requested_sources_complete": true,
+  "execution_events": [
+    {
+      "at": "2026-11-08T18:34:36.702Z",
+      "event": "collector_restart",
+      "reason": "Interrupted thread-based collector to resume with bounded process workers; retained bundles are reverified, missing boundaries reacquired. Interruption is not evidence of upstream source failure."
+    }
+  ],
+  "admission_stop_requested": false,
+  "workers": 4,
+  "worker_mode": "processes",
+  "invalid_recorded_boundaries": []
+}

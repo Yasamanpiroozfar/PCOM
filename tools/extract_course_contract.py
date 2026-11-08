@@ -1,7 +1,6 @@
-"""Read the original course workbooks without altering them; emit a schema contract.
+"""Extract the schema contract from XLSX XML using the standard library.
 
-This intentionally uses only Python's standard library and reads XLSX XML in memory.
-It never evaluates formulas or exports/re-saves the source workbooks.
+Reads cached formula results without evaluating formulas or saving workbooks.
 """
 from __future__ import annotations
 

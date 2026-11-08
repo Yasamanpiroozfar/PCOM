@@ -66,11 +66,9 @@ class AcquisitionError(RuntimeError):
 
 
 class PublicClient:
-    """GET only; bounded retries; credentials never appear in provenance.
+    """GET client with bounded retries and credential-free request provenance.
 
-    Complete npm documents and complete Git archives need no pagination.
-    ``pages`` implements GitHub Link-header pagination for list endpoints.
-    GitHub commit resolution deliberately requests the one most recent commit.
+    ``pages`` follows GitHub Link headers for paginated list endpoints.
     """
     def __init__(self, *, attempts=5, timeout=90, sleeper=time.sleep):
         self.attempts, self.timeout, self.sleep = attempts, timeout, sleeper
