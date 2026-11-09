@@ -1,4 +1,6 @@
-# PCOM-01 Homework 3: npm vulnerability training data
+# PCOM-01 — Homework 3: Updated npm Vulnerability Training Dataset
+
+This README documents the **updated Homework 3 dataset on the `main` branch** (November 9, 2026). The update preserves the official record schema and provides the corrected release-based prediction windows.
 
 **14,840 version records from 685 verified packages**, in the
 **224-column official record schema**, plus 20 separately defined numeric features.
