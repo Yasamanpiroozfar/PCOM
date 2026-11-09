@@ -6,7 +6,7 @@ from pathlib import Path
 import tempfile
 import unittest
 
-from pcom01.corrected import build_corrected, verify_corrected
+from pcom01.dataset_export import build_corrected, verify_corrected
 from pcom01.io import read_json, save_json, sha256
 from pcom01.release import build_release
 from tools.audit_release import audit

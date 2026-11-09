@@ -58,7 +58,7 @@ class SchemaTests(unittest.TestCase):
         self.assertEqual(correction["schema_delta"]["original_source_sha256"], old_hash)
         self.assertEqual(correction["schema_delta"]["current_source_sha256"], CONTRACT["source_sha256"])
         self.assertEqual(correction["original_release"]["commit_sha"],
-                         "7f3606886865302cbcb25a3151a299ea113c2b59")
+                         "ad0dd1f0762ef29ddfedd14d2e3ef639f4e93c67")
 
 
 if __name__ == "__main__":

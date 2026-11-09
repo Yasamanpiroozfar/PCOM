@@ -1,0 +1,30 @@
+{
+  "valid": true,
+  "records": 14840,
+  "packages": 685,
+  "official_columns": 224,
+  "missing_required_values": 0,
+  "duplicate_purls": 0,
+  "optional_numeric_features": 20,
+  "source_field_comparisons": 3324160,
+  "feature_field_comparisons": 326480,
+  "packages_with_positive_outcomes": 28,
+  "package_advisory_counts_by_severity": {
+    "low": 7,
+    "moderate": 46,
+    "high": 36,
+    "critical": 3,
+    "unknown": 0
+  },
+  "original_records_preserved": 989,
+  "reproduced_artifacts": 14,
+  "tests_passed": 250,
+  "dataset_sha256": "19c486852aa9052e895adfe93dbc1a721816527d3ac48b86f12d12f1ff6fccec",
+  "evidence_sha256": {
+    "datasets/training/data/corrected/manifest.json": "26e2ab23bf1ed3346f249d06947aaa59e40ba333d3bd1e25f8ed00eb50066b14",
+    "datasets/training/data/corrected/source-audit.json": "44596193fe1b69b5442976266aeda1fd325543d86577c65ac9365267451dabe9",
+    "reports/expanded-integrity.json": "604f9b8f59124601cb7512722e8b236288466d7bc422b79039a794ceb2432561",
+    "reports/expanded-reproducibility.json": "ac81399c124c613f6502091465d6edb2fffca24785234b72b7985466fc917b24",
+    "reports/correction-tests.json": "e9676ef0d394589beaf8e32bb40a1f0e07aede49b6ddfac8e674a46c82ecde1b"
+  }
+}

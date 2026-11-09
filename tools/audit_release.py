@@ -20,6 +20,7 @@ ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "src"))
 from pcom01.io import read_json, save_json, sha256
 from pcom01.schema import CONTRACT, COLUMNS, FIELDS, MONTHS, REQUIRED_COLUMNS, SEVERITIES
+from pcom01.git_evidence import verification_session
 
 STABLE = re.compile(r"(0|[1-9][0-9]*)\.(0|[1-9][0-9]*)\.(0|[1-9][0-9]*)(?:\+[0-9A-Za-z-]+(?:\.[0-9A-Za-z-]+)*)?\Z")
 HISTORY_START = datetime(2025, 7, 1, tzinfo=timezone.utc)
@@ -194,6 +195,16 @@ def load_snapshot(root, acquisition, boundary, package):
         return None
     bundle = read_bound(root, info, "bundle_path", "bundle_sha256")
     proof = bundle["provenance"]
+    kinds = {acquisition.get("source_kind"), info.get("source_kind"), proof.get("source_kind")}
+    if "git_reviewed_tree" in kinds:
+        if kinds != {"git_reviewed_tree"}:
+            raise ValueError("Inconsistent historical Git source transport")
+        if acquisition.get("final_source_binding_sealed") is not True:
+            return None
+        from pcom01.git_evidence import verify_git_source
+        verify_git_source(root, info, bundle)
+    elif kinds != {None} or not info.get("archive_sha256"):
+        raise ValueError("Unknown or archive-less historical source transport")
     edge = stamp(boundary)
     if not (stamp(info["boundary"]) == stamp(proof["observed_before"]) == edge
             and proof["commit_sha"] == info["commit"]["sha"]
@@ -281,6 +292,7 @@ def structurally_valid(row):
     return True
 
 
+@verification_session
 def audit(root=ROOT, scopes=("supplied", "all-precutoff")):
     root = Path(root)
     original_path = root / "data/provenance/acquisition.json"

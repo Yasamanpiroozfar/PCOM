@@ -1,0 +1,1544 @@
+{
+  "schema_version": 1,
+  "source_kind": "original_git_blob_objects",
+  "source": "https://github.com/github/advisory-database.git",
+  "shards": {
+    "00": {
+      "path": "data/raw/git-blob-shards/00.json.gz",
+      "sha256": "1f3c5638615482bb80bf5e48386e78c0dc05eb379fbeb82a25604833cc2ad5f0",
+      "objects": 173,
+      "bytes": 216536
+    },
+    "01": {
+      "path": "data/raw/git-blob-shards/01.json.gz",
+      "sha256": "0db40d662972217ab11b4f52fafe203df6f7c415872a34f8c64ad88a9e117ede",
+      "objects": 168,
+      "bytes": 225349
+    },
+    "02": {
+      "path": "data/raw/git-blob-shards/02.json.gz",
+      "sha256": "f4eabc6b480e9f803f8d2513e5ec7c0163a4030e8e5e9e9fd566169c3993234e",
+      "objects": 195,
+      "bytes": 269941
+    },
+    "03": {
+      "path": "data/raw/git-blob-shards/03.json.gz",
+      "sha256": "0bff0a7ff4a617b319ee495cc9a18df0ab4ff08cec3944078caa8dca1b88b3bc",
+      "objects": 167,
+      "bytes": 212455
+    },
+    "04": {
+      "path": "data/raw/git-blob-shards/04.json.gz",
+      "sha256": "7d1674e94e3d5667873394b3dba10ff2d7693c03eb18cbfc8576bb3d31f3ee25",
+      "objects": 192,
+      "bytes": 303465
+    },
+    "05": {
+      "path": "data/raw/git-blob-shards/05.json.gz",
+      "sha256": "c1c386f3766d925ffaf28667f45746d6cc109b60ca497ae21a6a1ed7d2eace2a",
+      "objects": 160,
+      "bytes": 202135
+    },
+    "06": {
+      "path": "data/raw/git-blob-shards/06.json.gz",
+      "sha256": "c81d94fef056b07118f0a0e470b1cc4961597c605160f353ce1fd2ca79c2e474",
+      "objects": 171,
+      "bytes": 221383
+    },
+    "07": {
+      "path": "data/raw/git-blob-shards/07.json.gz",
+      "sha256": "6dc7c7533bebd788452a356779fa987df670070d7c19d5fc233cbb6e87b11014",
+      "objects": 138,
+      "bytes": 214285
+    },
+    "08": {
+      "path": "data/raw/git-blob-shards/08.json.gz",
+      "sha256": "5c1dea2558a1e39957dbd93640dfbe7ec47e54b2343acbd813d156b83439b999",
+      "objects": 176,
+      "bytes": 224569
+    },
+    "09": {
+      "path": "data/raw/git-blob-shards/09.json.gz",
+      "sha256": "f088bac551de057d4a92cafefa32479a08cb57d4a2eb9db2d5098d7fae83c4e2",
+      "objects": 171,
+      "bytes": 231002
+    },
+    "0a": {
+      "path": "data/raw/git-blob-shards/0a.json.gz",
+      "sha256": "1d55dd48d5ec5c5c2429f7c819ed9068ee2918a48d41f027c97bb0f7a65fea9d",
+      "objects": 177,
+      "bytes": 240491
+    },
+    "0b": {
+      "path": "data/raw/git-blob-shards/0b.json.gz",
+      "sha256": "687853e1f2efacf050e3c9ae006ea9bb0e3725555aa45ad489f1ec8f3be017cb",
+      "objects": 168,
+      "bytes": 198189
+    },
+    "0c": {
+      "path": "data/raw/git-blob-shards/0c.json.gz",
+      "sha256": "8a10b8fbe7e194ea74c6c8c8b01ae6c31299a86c6b7f46668e97a9b3c48f1534",
+      "objects": 163,
+      "bytes": 207586
+    },
+    "0d": {
+      "path": "data/raw/git-blob-shards/0d.json.gz",
+      "sha256": "5fa336b5c6059d8f254651c9d55f8be1f4c62d59624e6ec0839b8e5a1cc2272b",
+      "objects": 156,
+      "bytes": 232200
+    },
+    "0e": {
+      "path": "data/raw/git-blob-shards/0e.json.gz",
+      "sha256": "385b2fbdd6b8a06bafaf360fc0ff45c47ea9d5eb7360f443671f567b553f2c7d",
+      "objects": 172,
+      "bytes": 211919
+    },
+    "0f": {
+      "path": "data/raw/git-blob-shards/0f.json.gz",
+      "sha256": "af322aabfd3f8af5669ab76fd94999e0298d8dc8cbfde909e56b1b8cb3623666",
+      "objects": 180,
+      "bytes": 230056
+    },
+    "10": {
+      "path": "data/raw/git-blob-shards/10.json.gz",
+      "sha256": "78d11582c9f6a61346013609c1e73d85cf4f35b7f6df6242af60dab81f2a8c5e",
+      "objects": 156,
+      "bytes": 205655
+    },
+    "11": {
+      "path": "data/raw/git-blob-shards/11.json.gz",
+      "sha256": "2d494c3c21f81436a63d5ce45d6924f365d3a0810c18168f2b19672ccda4ca23",
+      "objects": 148,
+      "bytes": 210539
+    },
+    "12": {
+      "path": "data/raw/git-blob-shards/12.json.gz",
+      "sha256": "33fb9d58e0e0dd8ef819a09dbf01a6fab18b774402e5ac34d0191f910eb4c034",
+      "objects": 165,
+      "bytes": 237952
+    },
+    "13": {
+      "path": "data/raw/git-blob-shards/13.json.gz",
+      "sha256": "cd9da9d62d481ec2148e167d0a8ccb8e5258ad1937b418dbc925c788153cc58a",
+      "objects": 179,
+      "bytes": 216933
+    },
+    "14": {
+      "path": "data/raw/git-blob-shards/14.json.gz",
+      "sha256": "af1f3062bdd6e9e96552f436917716c583e73d0707d9c52475b0da82028fff2d",
+      "objects": 184,
+      "bytes": 230802
+    },
+    "15": {
+      "path": "data/raw/git-blob-shards/15.json.gz",
+      "sha256": "88a0cc671c912a57f66efd50e296767a200334ed6fac8eccc90bcec21c93b9d0",
+      "objects": 173,
+      "bytes": 257740
+    },
+    "16": {
+      "path": "data/raw/git-blob-shards/16.json.gz",
+      "sha256": "2174b48379040ab04d7d223073c0c21ad4827112e726ee6ed7209a62733f8d9a",
+      "objects": 198,
+      "bytes": 260112
+    },
+    "17": {
+      "path": "data/raw/git-blob-shards/17.json.gz",
+      "sha256": "2c1c091a300240d8effe38b80ea1415bdd2f87169e18157fe81ed00da851cd66",
+      "objects": 161,
+      "bytes": 230942
+    },
+    "18": {
+      "path": "data/raw/git-blob-shards/18.json.gz",
+      "sha256": "f26968cd8d263a6d437103563999f57df3c6e36df140834bcda259cab55a4a15",
+      "objects": 166,
+      "bytes": 255619
+    },
+    "19": {
+      "path": "data/raw/git-blob-shards/19.json.gz",
+      "sha256": "3f3dbc71e2833e8eb51187e591458bb96a70ac3774428c3adfb185b8663383d2",
+      "objects": 173,
+      "bytes": 229120
+    },
+    "1a": {
+      "path": "data/raw/git-blob-shards/1a.json.gz",
+      "sha256": "47d17b858034f30abe33cc8a44b525a458a44f1eaa3d34250c992b4aba5a5b3c",
+      "objects": 154,
+      "bytes": 214019
+    },
+    "1b": {
+      "path": "data/raw/git-blob-shards/1b.json.gz",
+      "sha256": "d62956cf05277b2314b2cf3da52da60b99f11e877d155070a23c22bdfa25ed7a",
+      "objects": 189,
+      "bytes": 252043
+    },
+    "1c": {
+      "path": "data/raw/git-blob-shards/1c.json.gz",
+      "sha256": "dfa85b35830ed144018329ded3d3e8a10a26270325bd659c1809e94f5f51d4ba",
+      "objects": 198,
+      "bytes": 277700
+    },
+    "1d": {
+      "path": "data/raw/git-blob-shards/1d.json.gz",
+      "sha256": "2cd4b662d1d42ac6e9b3be9b8f068ccf5e3a139481f0f091716ba9a5274ed31f",
+      "objects": 178,
+      "bytes": 241940
+    },
+    "1e": {
+      "path": "data/raw/git-blob-shards/1e.json.gz",
+      "sha256": "c8422f7f78274ed33665491176758e30b5b607253504a699ccd78e101bdaaf64",
+      "objects": 176,
+      "bytes": 248785
+    },
+    "1f": {
+      "path": "data/raw/git-blob-shards/1f.json.gz",
+      "sha256": "5a817af34e2bc4423cdb71ad5e7d9f7ac737bf7f2b486d23316832e7a55b7eda",
+      "objects": 151,
+      "bytes": 186997
+    },
+    "20": {
+      "path": "data/raw/git-blob-shards/20.json.gz",
+      "sha256": "9ed840f9f9186240117e8d9247ff618f9e4a46625e2514bee32afb97dafa4b50",
+      "objects": 177,
+      "bytes": 265183
+    },
+    "21": {
+      "path": "data/raw/git-blob-shards/21.json.gz",
+      "sha256": "d965e45f47b2cb615607d76402afd37392eef9881b30228d96c37c1bffa827ae",
+      "objects": 163,
+      "bytes": 208370
+    },
+    "22": {
+      "path": "data/raw/git-blob-shards/22.json.gz",
+      "sha256": "732b57384d6495990fefd36d389ae309f6534ad52fa4d28255f67a9fbe9fa694",
+      "objects": 163,
+      "bytes": 239953
+    },
+    "23": {
+      "path": "data/raw/git-blob-shards/23.json.gz",
+      "sha256": "0c0a9feb85a23d2ba53ce117f5cfc1c5329f7a4243dc72e6b14fd22282364292",
+      "objects": 170,
+      "bytes": 228095
+    },
+    "24": {
+      "path": "data/raw/git-blob-shards/24.json.gz",
+      "sha256": "958fed021547aecc038cb34b3c6034e40b9be902689b7d5d419c5b0abade3206",
+      "objects": 174,
+      "bytes": 219538
+    },
+    "25": {
+      "path": "data/raw/git-blob-shards/25.json.gz",
+      "sha256": "cb6f085e76527d179f0e2387aa45d69b1d14bf82cc8a8b9a796561686020004e",
+      "objects": 165,
+      "bytes": 243956
+    },
+    "26": {
+      "path": "data/raw/git-blob-shards/26.json.gz",
+      "sha256": "4882cce9209d8aa27e5cd3f4392e467f26b6836aab22a98973c3b51e3c780ce8",
+      "objects": 191,
+      "bytes": 243320
+    },
+    "27": {
+      "path": "data/raw/git-blob-shards/27.json.gz",
+      "sha256": "450d6c97f9f1c340ee0515a6e9b6e2a5357ddea3ac8ed7ad8da14b64acb4bc6a",
+      "objects": 170,
+      "bytes": 241587
+    },
+    "28": {
+      "path": "data/raw/git-blob-shards/28.json.gz",
+      "sha256": "4069ac6f81af81f023738b480307c9984f76197b917c54708af793c98f18c71c",
+      "objects": 196,
+      "bytes": 231031
+    },
+    "29": {
+      "path": "data/raw/git-blob-shards/29.json.gz",
+      "sha256": "c1b828d1d5e2a50176ee07bc8cecdef88ad9a666afe0eb6b106e50bde0d98bba",
+      "objects": 176,
+      "bytes": 223690
+    },
+    "2a": {
+      "path": "data/raw/git-blob-shards/2a.json.gz",
+      "sha256": "7d70322561813839c65fb146f8e0c9b3532e7eff3e466a0736b929f37e3055eb",
+      "objects": 184,
+      "bytes": 244444
+    },
+    "2b": {
+      "path": "data/raw/git-blob-shards/2b.json.gz",
+      "sha256": "e57f3a45191ced7dd1cebec948bc28cc2453c98a3ea8e273e2542c679a606d8d",
+      "objects": 152,
+      "bytes": 199439
+    },
+    "2c": {
+      "path": "data/raw/git-blob-shards/2c.json.gz",
+      "sha256": "4ccace255b1c89cd434d3521ee65348ae4ddbddda4d11ad62eca1915cfd7ea86",
+      "objects": 193,
+      "bytes": 262873
+    },
+    "2d": {
+      "path": "data/raw/git-blob-shards/2d.json.gz",
+      "sha256": "65fc2a05c5bc1cafd7c9243ab68d00ec43c94fcd34b250e7180abcaf9f670cbd",
+      "objects": 171,
+      "bytes": 223954
+    },
+    "2e": {
+      "path": "data/raw/git-blob-shards/2e.json.gz",
+      "sha256": "b086f55f1e06535770e8ec63ccad47bbe32d0d42d640a175784523bfd7c321dc",
+      "objects": 186,
+      "bytes": 241623
+    },
+    "2f": {
+      "path": "data/raw/git-blob-shards/2f.json.gz",
+      "sha256": "a7e0068b94583a470a35b12f3bf6f8ebeb82193ef42b724aa8ee535609558c0e",
+      "objects": 168,
+      "bytes": 235300
+    },
+    "30": {
+      "path": "data/raw/git-blob-shards/30.json.gz",
+      "sha256": "4ef780164ef19c4ab9edb349f108fec16bf379d0af0dccf1e278e2907c293791",
+      "objects": 187,
+      "bytes": 234159
+    },
+    "31": {
+      "path": "data/raw/git-blob-shards/31.json.gz",
+      "sha256": "0266e4a1e0172c0e5b05508790a016a9ee5dc39eed44a2d5fef3f12923a7ba5e",
+      "objects": 176,
+      "bytes": 229993
+    },
+    "32": {
+      "path": "data/raw/git-blob-shards/32.json.gz",
+      "sha256": "d37e42f6aafd832681bbd5962fb48c65cb49ad6cd7644d8dde1ded9913d8185c",
+      "objects": 181,
+      "bytes": 224413
+    },
+    "33": {
+      "path": "data/raw/git-blob-shards/33.json.gz",
+      "sha256": "ad5f24d6dc5187e1dda9dd1ce7da8b507f8e8ad2ae116fd2f8200dfe6c031b74",
+      "objects": 166,
+      "bytes": 201473
+    },
+    "34": {
+      "path": "data/raw/git-blob-shards/34.json.gz",
+      "sha256": "75e860f54732b3dc59116906bbcacd7df7931b108ec60a4ec5bc3c0e665f87d3",
+      "objects": 170,
+      "bytes": 232863
+    },
+    "35": {
+      "path": "data/raw/git-blob-shards/35.json.gz",
+      "sha256": "2cf52dadb2c52873ec706f808a7796f0f2a6f38294433b2de8b44757c635f1fe",
+      "objects": 182,
+      "bytes": 226023
+    },
+    "36": {
+      "path": "data/raw/git-blob-shards/36.json.gz",
+      "sha256": "2a2569646c4a9c06b566d695b5b809624097e3b54464e8ca9e78075bf09cb9be",
+      "objects": 176,
+      "bytes": 218181
+    },
+    "37": {
+      "path": "data/raw/git-blob-shards/37.json.gz",
+      "sha256": "683ec138f1a0310643e063e41affcc352ca756b3184793d060e798fba6d98948",
+      "objects": 180,
+      "bytes": 247953
+    },
+    "38": {
+      "path": "data/raw/git-blob-shards/38.json.gz",
+      "sha256": "387600116cea09e2992c1771c790c2d54ddcea51630530e4d6e68061be5d3929",
+      "objects": 183,
+      "bytes": 249329
+    },
+    "39": {
+      "path": "data/raw/git-blob-shards/39.json.gz",
+      "sha256": "ad38bbcca47c2530119591664b42d1dc2b0d9a4a01a14a967f8134984621ebbf",
+      "objects": 166,
+      "bytes": 237914
+    },
+    "3a": {
+      "path": "data/raw/git-blob-shards/3a.json.gz",
+      "sha256": "83cc0801dabb9fa8e5bb74adfd1e73df1c6d6a0a8f8203dc0d5e9a9bf6403545",
+      "objects": 180,
+      "bytes": 242276
+    },
+    "3b": {
+      "path": "data/raw/git-blob-shards/3b.json.gz",
+      "sha256": "b898b5cdc4e623832324daf2c3d7f4d2c54f2790dcadc5480f8afa36779b5b45",
+      "objects": 181,
+      "bytes": 242072
+    },
+    "3c": {
+      "path": "data/raw/git-blob-shards/3c.json.gz",
+      "sha256": "afebc9b3b23c4fff9f5ed833e262e0cc8f8931d2e33ee8474f02d2198b0b13b6",
+      "objects": 172,
+      "bytes": 248107
+    },
+    "3d": {
+      "path": "data/raw/git-blob-shards/3d.json.gz",
+      "sha256": "dcc6eae9847acc930b1ab2ea3a2fe9d3d851be9455eaf670b2df89b8b48aa407",
+      "objects": 190,
+      "bytes": 286690
+    },
+    "3e": {
+      "path": "data/raw/git-blob-shards/3e.json.gz",
+      "sha256": "e08b351cef4c95bcce07617e24883c7ac82a1a4a36da7653fc4337bf568e33f4",
+      "objects": 195,
+      "bytes": 215157
+    },
+    "3f": {
+      "path": "data/raw/git-blob-shards/3f.json.gz",
+      "sha256": "a3ebd37e0f8090ab80aafd54d113ffef8e4906cf7bb579c2418ac30250abe182",
+      "objects": 177,
+      "bytes": 231460
+    },
+    "40": {
+      "path": "data/raw/git-blob-shards/40.json.gz",
+      "sha256": "394ad08bbbd08cf6bed17a29ce26dcbd60f66b5a4a51da2b548b834bdae302c1",
+      "objects": 179,
+      "bytes": 234910
+    },
+    "41": {
+      "path": "data/raw/git-blob-shards/41.json.gz",
+      "sha256": "708b96c66cb7848caa4bd584685d263637b548807986b218ee7d5486055b7569",
+      "objects": 164,
+      "bytes": 204888
+    },
+    "42": {
+      "path": "data/raw/git-blob-shards/42.json.gz",
+      "sha256": "9591adf1e3bf95b5e788a94c9b6f3ca6130ade9af55d28ae051e12932672062b",
+      "objects": 162,
+      "bytes": 223786
+    },
+    "43": {
+      "path": "data/raw/git-blob-shards/43.json.gz",
+      "sha256": "72abc0df3b17509758341f8c954785c2f08a3c00131610e3ee3459aae80e2e6d",
+      "objects": 175,
+      "bytes": 265386
+    },
+    "44": {
+      "path": "data/raw/git-blob-shards/44.json.gz",
+      "sha256": "653f2b628e51ef643d22f2f6f79d1dcd41b6da498c1800c439e18da498b1428e",
+      "objects": 141,
+      "bytes": 179144
+    },
+    "45": {
+      "path": "data/raw/git-blob-shards/45.json.gz",
+      "sha256": "dc913cc01713f1e0ea8f7b5681f18c239c72fab5b4b92608bed0d26afb2d66a6",
+      "objects": 150,
+      "bytes": 229903
+    },
+    "46": {
+      "path": "data/raw/git-blob-shards/46.json.gz",
+      "sha256": "73a1ce178110ff8cf125437cdb7544e979ce82d92e86dceb0bcb495110e91e6d",
+      "objects": 171,
+      "bytes": 240737
+    },
+    "47": {
+      "path": "data/raw/git-blob-shards/47.json.gz",
+      "sha256": "7b61a786f2281eb241697350d7318b31039b7b99353382aecfa92704068a3201",
+      "objects": 167,
+      "bytes": 201640
+    },
+    "48": {
+      "path": "data/raw/git-blob-shards/48.json.gz",
+      "sha256": "f8b75409c8f110bee735bae44bfe0943e672d5a4c22599ede3233658eb48c50f",
+      "objects": 177,
+      "bytes": 268906
+    },
+    "49": {
+      "path": "data/raw/git-blob-shards/49.json.gz",
+      "sha256": "d5fa825696189cda0d9b42773a1c2e231cb2e3e01bca013d9ea47e8b66cbe82b",
+      "objects": 170,
+      "bytes": 233912
+    },
+    "4a": {
+      "path": "data/raw/git-blob-shards/4a.json.gz",
+      "sha256": "b1a7778da04d7468ccd6ade69f0a9ca1c0b5adf7821caaf4537de4484735550a",
+      "objects": 159,
+      "bytes": 198789
+    },
+    "4b": {
+      "path": "data/raw/git-blob-shards/4b.json.gz",
+      "sha256": "960fe01c5446d65dfd6f285d8171df783e50d96f773f40ec5efa6c28243b115d",
+      "objects": 175,
+      "bytes": 213151
+    },
+    "4c": {
+      "path": "data/raw/git-blob-shards/4c.json.gz",
+      "sha256": "d472216ad4b4afa950e366a5d2e17ff9a29f70bf76fdfd0991669ddd4f9fbe8e",
+      "objects": 165,
+      "bytes": 234690
+    },
+    "4d": {
+      "path": "data/raw/git-blob-shards/4d.json.gz",
+      "sha256": "5964964353a22e0e7c808cc730abf06a3d9d08cf1cd41a3d95cfaf704ce4c164",
+      "objects": 168,
+      "bytes": 214808
+    },
+    "4e": {
+      "path": "data/raw/git-blob-shards/4e.json.gz",
+      "sha256": "3c01433709d36d373c1daa75d50aaaefda46159ab1015b7102659040acc99a85",
+      "objects": 161,
+      "bytes": 193940
+    },
+    "4f": {
+      "path": "data/raw/git-blob-shards/4f.json.gz",
+      "sha256": "f4f8611e273080861c8ff7234f500c80022493545441bc0c0a5d398f963eb308",
+      "objects": 177,
+      "bytes": 232284
+    },
+    "50": {
+      "path": "data/raw/git-blob-shards/50.json.gz",
+      "sha256": "39f592534d0b79795805d8c8a5147c2c6e85f90d213b5ae7a391bc250754b6ef",
+      "objects": 175,
+      "bytes": 230507
+    },
+    "51": {
+      "path": "data/raw/git-blob-shards/51.json.gz",
+      "sha256": "907e10bc2037afff56529daa501c1fd53baf6d27f4ba25d66633704e9c3189eb",
+      "objects": 186,
+      "bytes": 240665
+    },
+    "52": {
+      "path": "data/raw/git-blob-shards/52.json.gz",
+      "sha256": "b61f26c72ac716df5baccd2bc112a0587a796058ee90331b5002b2efa505a5c9",
+      "objects": 185,
+      "bytes": 263943
+    },
+    "53": {
+      "path": "data/raw/git-blob-shards/53.json.gz",
+      "sha256": "155f3fefa3c4dda40884f43fdfb93d6c6d206e6a12298b5de6ccbf0ff58ec6b8",
+      "objects": 179,
+      "bytes": 228082
+    },
+    "54": {
+      "path": "data/raw/git-blob-shards/54.json.gz",
+      "sha256": "4b00c44c6b1ce0c1bb424a0725c7971e47f06c220ed9bc00261d1fa4d86f0ae4",
+      "objects": 163,
+      "bytes": 222959
+    },
+    "55": {
+      "path": "data/raw/git-blob-shards/55.json.gz",
+      "sha256": "a0a541168e8bc38bb3c0714b1f8e6fc5c8ae6c7d3a17164053fa8630f553e76f",
+      "objects": 173,
+      "bytes": 242771
+    },
+    "56": {
+      "path": "data/raw/git-blob-shards/56.json.gz",
+      "sha256": "ce42ba8af71ef5a3c5ccf17644f0b56ad16e21f7042b232ffc987df493349eea",
+      "objects": 181,
+      "bytes": 247219
+    },
+    "57": {
+      "path": "data/raw/git-blob-shards/57.json.gz",
+      "sha256": "937e0566e7b42e1cc6d035f159e3b03848b525a4becaec2fc2566aeb8b38ef4c",
+      "objects": 171,
+      "bytes": 232642
+    },
+    "58": {
+      "path": "data/raw/git-blob-shards/58.json.gz",
+      "sha256": "d11ac00728c9aafaf0b23814a12b3a5e0431c263b1b73f845851d80e01844ca3",
+      "objects": 158,
+      "bytes": 211873
+    },
+    "59": {
+      "path": "data/raw/git-blob-shards/59.json.gz",
+      "sha256": "cc1518314a67b4d4088d3f37e8da25ae8f8f7278c2d25754159ac709bf991d6e",
+      "objects": 177,
+      "bytes": 249469
+    },
+    "5a": {
+      "path": "data/raw/git-blob-shards/5a.json.gz",
+      "sha256": "53ae228b502b1b45c1ba319172d1f4cd6e3bd4a65e19d8c16085196a00a8a847",
+      "objects": 161,
+      "bytes": 211769
+    },
+    "5b": {
+      "path": "data/raw/git-blob-shards/5b.json.gz",
+      "sha256": "6e27a9c65a0e4654fb26690fe23287c61bc4fdd3861d81d62ef4a9cde392427c",
+      "objects": 162,
+      "bytes": 231291
+    },
+    "5c": {
+      "path": "data/raw/git-blob-shards/5c.json.gz",
+      "sha256": "a65286f9bccc66d6a97c2f4d6fd9a0fdcb6d46b83e8b8dc0ae708f5e2525ad8c",
+      "objects": 173,
+      "bytes": 183971
+    },
+    "5d": {
+      "path": "data/raw/git-blob-shards/5d.json.gz",
+      "sha256": "b797d346dc7e49783c0673a7d652eb9f804e6e859d1be218587da31fd69768db",
+      "objects": 174,
+      "bytes": 201813
+    },
+    "5e": {
+      "path": "data/raw/git-blob-shards/5e.json.gz",
+      "sha256": "b054ce9872b1dc271b5db9e918d373162849230db9056df076f580f04b9972c3",
+      "objects": 158,
+      "bytes": 196270
+    },
+    "5f": {
+      "path": "data/raw/git-blob-shards/5f.json.gz",
+      "sha256": "3217883f07826459c03f0f298a8e7921316158e109c7bfa06b741bbae3b88b28",
+      "objects": 178,
+      "bytes": 232138
+    },
+    "60": {
+      "path": "data/raw/git-blob-shards/60.json.gz",
+      "sha256": "6aca8b03c83bd1342261781316884e9de68a20f821f8d1bdcb0ab416f5be4611",
+      "objects": 179,
+      "bytes": 242653
+    },
+    "61": {
+      "path": "data/raw/git-blob-shards/61.json.gz",
+      "sha256": "8ab768b8edd2ac1e518c4ec4cce0a05fe1ff3f3f354ba4d2ecbc0c38b15f7f16",
+      "objects": 186,
+      "bytes": 250581
+    },
+    "62": {
+      "path": "data/raw/git-blob-shards/62.json.gz",
+      "sha256": "82a312c1f40df62da57b7c3b0fd7a1b6b8777c5dadc2d7c6a05f4bd71d4c5b67",
+      "objects": 182,
+      "bytes": 229113
+    },
+    "63": {
+      "path": "data/raw/git-blob-shards/63.json.gz",
+      "sha256": "c8242305a2066cee2f1026162b04822f4430bfb6b9f6d68d690157ae97d6af48",
+      "objects": 176,
+      "bytes": 222284
+    },
+    "64": {
+      "path": "data/raw/git-blob-shards/64.json.gz",
+      "sha256": "8de107bf33a9ab25d00413ac586b1a8a58bfcbe6e5b39a5a5c1297a5dc4f2a20",
+      "objects": 143,
+      "bytes": 194965
+    },
+    "65": {
+      "path": "data/raw/git-blob-shards/65.json.gz",
+      "sha256": "cb9144867e7e9e3b36a75abbda9de76f0d010c2cf8a22d801686e4fdecb7e058",
+      "objects": 183,
+      "bytes": 213060
+    },
+    "66": {
+      "path": "data/raw/git-blob-shards/66.json.gz",
+      "sha256": "ff7d8c5f7d1b9f20fbb3406fab6ee21bfd498b5660b09cd9674210c94ac37b53",
+      "objects": 193,
+      "bytes": 249820
+    },
+    "67": {
+      "path": "data/raw/git-blob-shards/67.json.gz",
+      "sha256": "d6ad33ff66f98782b8f4c2b6275cbd2d5c3de2c1e9544b95411fa83f8939eccd",
+      "objects": 195,
+      "bytes": 261362
+    },
+    "68": {
+      "path": "data/raw/git-blob-shards/68.json.gz",
+      "sha256": "aab20beb2d367fd0674fcc0d1a610fd1847bf97c5b7027727461b05687e73b67",
+      "objects": 157,
+      "bytes": 220219
+    },
+    "69": {
+      "path": "data/raw/git-blob-shards/69.json.gz",
+      "sha256": "41049b0f9dd0d052ce21bfaadb7948c11b4849e341800ae66298d1c56c19a221",
+      "objects": 165,
+      "bytes": 235929
+    },
+    "6a": {
+      "path": "data/raw/git-blob-shards/6a.json.gz",
+      "sha256": "bacde85e58030fccd75236e72e089382d11e9f2d2c359522d9430d899806dd79",
+      "objects": 173,
+      "bytes": 233369
+    },
+    "6b": {
+      "path": "data/raw/git-blob-shards/6b.json.gz",
+      "sha256": "8f7567fe8b1debc6271ae175aec2f26db62b1339a7a48da14290145622ee5ff2",
+      "objects": 190,
+      "bytes": 236279
+    },
+    "6c": {
+      "path": "data/raw/git-blob-shards/6c.json.gz",
+      "sha256": "e48245c591d18438e07a4bc03c8c7d89dfda816bda62d57bf47d1b3e22e1f605",
+      "objects": 165,
+      "bytes": 230864
+    },
+    "6d": {
+      "path": "data/raw/git-blob-shards/6d.json.gz",
+      "sha256": "7b338d71d6fdc7febed68f0e6ab330737410fcb278b234e143d2098eb1674442",
+      "objects": 200,
+      "bytes": 293545
+    },
+    "6e": {
+      "path": "data/raw/git-blob-shards/6e.json.gz",
+      "sha256": "b2da47e0ad5414f19be0d11e06f67440ecfc35dc520998b08533d7748ef7288c",
+      "objects": 155,
+      "bytes": 216283
+    },
+    "6f": {
+      "path": "data/raw/git-blob-shards/6f.json.gz",
+      "sha256": "6cb30164a9e4f1debdd18616438c7c09756858f74ceb442b5a6c1ad80cee3076",
+      "objects": 170,
+      "bytes": 219882
+    },
+    "70": {
+      "path": "data/raw/git-blob-shards/70.json.gz",
+      "sha256": "816e6cc30e2cddd95686b3f490776cf53b03c1613c1dedda7ab43343b76efebe",
+      "objects": 181,
+      "bytes": 204384
+    },
+    "71": {
+      "path": "data/raw/git-blob-shards/71.json.gz",
+      "sha256": "099a39b8942bc832ea3eecb6f6a660d16ee65ac7b098de8a7b329cd793ab9825",
+      "objects": 153,
+      "bytes": 185877
+    },
+    "72": {
+      "path": "data/raw/git-blob-shards/72.json.gz",
+      "sha256": "b7fb170f5fb6921f32817fb92e349045c750d257bfbb18c9e7fc245b7274f65c",
+      "objects": 177,
+      "bytes": 229805
+    },
+    "73": {
+      "path": "data/raw/git-blob-shards/73.json.gz",
+      "sha256": "0b986f96054ed9d4e57ce0262c0c87316368bdd5c55ee94d244077d60474a953",
+      "objects": 163,
+      "bytes": 226083
+    },
+    "74": {
+      "path": "data/raw/git-blob-shards/74.json.gz",
+      "sha256": "e04b89f56d5732d21662bce371bd81f9821932e8489a0877274619b39bdbbe40",
+      "objects": 186,
+      "bytes": 241776
+    },
+    "75": {
+      "path": "data/raw/git-blob-shards/75.json.gz",
+      "sha256": "f0df963d1fc94ebb68905fad0bca4868ba506b452b39f4eeb76ad470ef316327",
+      "objects": 155,
+      "bytes": 196171
+    },
+    "76": {
+      "path": "data/raw/git-blob-shards/76.json.gz",
+      "sha256": "ddca5de0403353ff38ef09fa28cd69caa96026b238b8a9114d6b46a2cb6ab7f7",
+      "objects": 182,
+      "bytes": 229322
+    },
+    "77": {
+      "path": "data/raw/git-blob-shards/77.json.gz",
+      "sha256": "d4df65c44a674b225fbc67d57456bc01f16053be47d77d3aa1098f92861224b5",
+      "objects": 193,
+      "bytes": 216846
+    },
+    "78": {
+      "path": "data/raw/git-blob-shards/78.json.gz",
+      "sha256": "fbe3ce83dccd2b5c0449cebbdded3ec8f21fd7b1878973d8bc0374104d834746",
+      "objects": 186,
+      "bytes": 270349
+    },
+    "79": {
+      "path": "data/raw/git-blob-shards/79.json.gz",
+      "sha256": "56a2a44e36e097148a6ed75ee61527e026d96328bd0da0306683442d1f18dfb6",
+      "objects": 185,
+      "bytes": 275572
+    },
+    "7a": {
+      "path": "data/raw/git-blob-shards/7a.json.gz",
+      "sha256": "ee07cd20bab413a48b36d0ab3487df9db85794b5aea98cff743f675578b567ad",
+      "objects": 198,
+      "bytes": 277307
+    },
+    "7b": {
+      "path": "data/raw/git-blob-shards/7b.json.gz",
+      "sha256": "b104feebc8de80502a1e6dcde6a87be8d6ef3d4d60a63e0e964918c1c01220a8",
+      "objects": 191,
+      "bytes": 240476
+    },
+    "7c": {
+      "path": "data/raw/git-blob-shards/7c.json.gz",
+      "sha256": "e3c561771c5d8f93ec89cf25ff09d86421b0a3fc4d283d10507fdeb32e2784fa",
+      "objects": 184,
+      "bytes": 251164
+    },
+    "7d": {
+      "path": "data/raw/git-blob-shards/7d.json.gz",
+      "sha256": "10a7f3ccbe116a39d8749dccae072c85c4a452c02598baa8daa04c6925652bcc",
+      "objects": 167,
+      "bytes": 225030
+    },
+    "7e": {
+      "path": "data/raw/git-blob-shards/7e.json.gz",
+      "sha256": "7e1a6152ed394e16da3799f06a97a88d564fe331a84239c1172c88723a924d92",
+      "objects": 172,
+      "bytes": 235896
+    },
+    "7f": {
+      "path": "data/raw/git-blob-shards/7f.json.gz",
+      "sha256": "5df3a6c88ac7363823b73f5eaf8d7fc05f34e060bd31c039cde9b9a3c2529c62",
+      "objects": 173,
+      "bytes": 249392
+    },
+    "80": {
+      "path": "data/raw/git-blob-shards/80.json.gz",
+      "sha256": "1e2bcb712a9d5328f98e5541e2430877f4707467dc67d025dafd2768e3ac7c79",
+      "objects": 157,
+      "bytes": 185923
+    },
+    "81": {
+      "path": "data/raw/git-blob-shards/81.json.gz",
+      "sha256": "86c224b5e448b26973f8f10796ef68b3f9707dd85c04190b5a4671c9e9b31474",
+      "objects": 148,
+      "bytes": 196930
+    },
+    "82": {
+      "path": "data/raw/git-blob-shards/82.json.gz",
+      "sha256": "beae19726e2640ee191c98108d8da69b4773d6164287f82183493a0f92fa18c7",
+      "objects": 153,
+      "bytes": 183797
+    },
+    "83": {
+      "path": "data/raw/git-blob-shards/83.json.gz",
+      "sha256": "c0ec1fd5dbcf08372422b0ea8754a3c59efc277274651b6ee2199f2a8d1f14eb",
+      "objects": 162,
+      "bytes": 219581
+    },
+    "84": {
+      "path": "data/raw/git-blob-shards/84.json.gz",
+      "sha256": "5413788903b7e3e3c6d611a001fe6ef411627e3acccd25388888b349748dd8e9",
+      "objects": 167,
+      "bytes": 222714
+    },
+    "85": {
+      "path": "data/raw/git-blob-shards/85.json.gz",
+      "sha256": "f15e23a78e0b03d86ee1e4361faef400b3d8cc05f1d54abca20237ee708102e1",
+      "objects": 186,
+      "bytes": 257278
+    },
+    "86": {
+      "path": "data/raw/git-blob-shards/86.json.gz",
+      "sha256": "0ca4510624393483589a457b30a4ed8b3b876ba66c812745a61d140454a7c82f",
+      "objects": 181,
+      "bytes": 245132
+    },
+    "87": {
+      "path": "data/raw/git-blob-shards/87.json.gz",
+      "sha256": "3e1566a59538bb071d01139c234acf305c09a697c9e3e74be2206d1e69cd5faf",
+      "objects": 176,
+      "bytes": 252646
+    },
+    "88": {
+      "path": "data/raw/git-blob-shards/88.json.gz",
+      "sha256": "5d7834837274cdcd20544606a927ff3d5c7407b3dfcd1b2a604935bbce6ae18f",
+      "objects": 149,
+      "bytes": 180298
+    },
+    "89": {
+      "path": "data/raw/git-blob-shards/89.json.gz",
+      "sha256": "6cb1f903d642f08e05354050906b1724845f124f8d830f4705d4b231b4b9b306",
+      "objects": 161,
+      "bytes": 204927
+    },
+    "8a": {
+      "path": "data/raw/git-blob-shards/8a.json.gz",
+      "sha256": "54bffdcb89659b963f02ee23b03ca11abe6594e5b1dca56df23ac5eee4e47fe0",
+      "objects": 161,
+      "bytes": 243173
+    },
+    "8b": {
+      "path": "data/raw/git-blob-shards/8b.json.gz",
+      "sha256": "d45abee2eadaa48f7d63cb63add6221aad36b740d9c69c56690ff8674e318f62",
+      "objects": 157,
+      "bytes": 193658
+    },
+    "8c": {
+      "path": "data/raw/git-blob-shards/8c.json.gz",
+      "sha256": "21da33d423b14da9306cff10ec91e2f824a20c0f79d37da9db3b36df4f4fe8dd",
+      "objects": 169,
+      "bytes": 217632
+    },
+    "8d": {
+      "path": "data/raw/git-blob-shards/8d.json.gz",
+      "sha256": "3c1f04a6fdc44279b34012e2041da393da3703014a5fa5a8f6590b5b943a2bd3",
+      "objects": 184,
+      "bytes": 278488
+    },
+    "8e": {
+      "path": "data/raw/git-blob-shards/8e.json.gz",
+      "sha256": "0e318af67e30642c47c0b6e2339a27ea39e555da4f0a13c7c1f439dc2344edc9",
+      "objects": 174,
+      "bytes": 246292
+    },
+    "8f": {
+      "path": "data/raw/git-blob-shards/8f.json.gz",
+      "sha256": "3dafa270aa0de39fd0ab17864158368f0e8cd9601a9734b89f95fa8d9789057c",
+      "objects": 184,
+      "bytes": 216510
+    },
+    "90": {
+      "path": "data/raw/git-blob-shards/90.json.gz",
+      "sha256": "862b010352987df2ac8b5047beacc8c1fd6b33adc229dcd4b4834d33aa41e903",
+      "objects": 185,
+      "bytes": 261073
+    },
+    "91": {
+      "path": "data/raw/git-blob-shards/91.json.gz",
+      "sha256": "0e4d41e53d68049fae04ba510f7b49f0a7e6f8273b253264fa0446c46d345f35",
+      "objects": 185,
+      "bytes": 255239
+    },
+    "92": {
+      "path": "data/raw/git-blob-shards/92.json.gz",
+      "sha256": "6f7dfcf71fe7f9566b61847b18bdd49d8bd51d04041309c32331c34557b3eff8",
+      "objects": 178,
+      "bytes": 209951
+    },
+    "93": {
+      "path": "data/raw/git-blob-shards/93.json.gz",
+      "sha256": "10ea6624b0826bf0b3e5978965406c90f997e3fec4991681089116c46bdcf817",
+      "objects": 166,
+      "bytes": 198276
+    },
+    "94": {
+      "path": "data/raw/git-blob-shards/94.json.gz",
+      "sha256": "35f1a698a7a46af0dbb485792f8774af45468fb06aecdd0b1d9b07337a4e4045",
+      "objects": 168,
+      "bytes": 224399
+    },
+    "95": {
+      "path": "data/raw/git-blob-shards/95.json.gz",
+      "sha256": "8bafe65efef0acfeca36103772a7925cc39376317685392750a968652047ec23",
+      "objects": 172,
+      "bytes": 242114
+    },
+    "96": {
+      "path": "data/raw/git-blob-shards/96.json.gz",
+      "sha256": "e416f02cfdda1c043505209227b646200d337da525becedf6bd26bbe82ad0b31",
+      "objects": 190,
+      "bytes": 283939
+    },
+    "97": {
+      "path": "data/raw/git-blob-shards/97.json.gz",
+      "sha256": "4575ac4c688af82c6c2a4cd9a426aba3fb66b4be8c19a7fd4fc6bfdde6c79690",
+      "objects": 185,
+      "bytes": 239017
+    },
+    "98": {
+      "path": "data/raw/git-blob-shards/98.json.gz",
+      "sha256": "baa5dfeb0ca7ae00b8cc0425cbc70c50e8a9be4f66e78df2855d044a74ea0510",
+      "objects": 181,
+      "bytes": 242142
+    },
+    "99": {
+      "path": "data/raw/git-blob-shards/99.json.gz",
+      "sha256": "2f80966a2fb7ab6f74a1bb373e39091c4523daa11cd8dd84e2fe2d785a7f3036",
+      "objects": 173,
+      "bytes": 243511
+    },
+    "9a": {
+      "path": "data/raw/git-blob-shards/9a.json.gz",
+      "sha256": "1f39a30497dc7ae634243e18ff1cd5f0dce40ee44808c3adcb61fe657f35d43d",
+      "objects": 183,
+      "bytes": 245538
+    },
+    "9b": {
+      "path": "data/raw/git-blob-shards/9b.json.gz",
+      "sha256": "6f49267578fffd0be1b211ed7ad059926f871f142db7fea0fce4797b95a393bc",
+      "objects": 150,
+      "bytes": 181043
+    },
+    "9c": {
+      "path": "data/raw/git-blob-shards/9c.json.gz",
+      "sha256": "60206824e2f2760cb50def01a46ebc19356ee7536e0903186bd05a083feaa253",
+      "objects": 196,
+      "bytes": 254460
+    },
+    "9d": {
+      "path": "data/raw/git-blob-shards/9d.json.gz",
+      "sha256": "a4697ebca24e00166a880dd21d4b08333636e0857f93fcb5459d5a4d1312130e",
+      "objects": 160,
+      "bytes": 241359
+    },
+    "9e": {
+      "path": "data/raw/git-blob-shards/9e.json.gz",
+      "sha256": "3697cf2aa4cfd5babf92587489d505f05dd7b8b92fb164dcb4ec84c64a69d584",
+      "objects": 152,
+      "bytes": 200369
+    },
+    "9f": {
+      "path": "data/raw/git-blob-shards/9f.json.gz",
+      "sha256": "7a486f93ce809792b9e8c8e6dd0c842b2dba65a8b0abd32a715470032302ce42",
+      "objects": 167,
+      "bytes": 230345
+    },
+    "a0": {
+      "path": "data/raw/git-blob-shards/a0.json.gz",
+      "sha256": "b0cde18a565bcec8b0804b217693fbe17a0fae8037b6cbf18c0f22254effa1c3",
+      "objects": 190,
+      "bytes": 243083
+    },
+    "a1": {
+      "path": "data/raw/git-blob-shards/a1.json.gz",
+      "sha256": "f6364ae8f61caccc5bcc84008dee4e82cdb6a7673b9f7f3fc7acd641415b3303",
+      "objects": 171,
+      "bytes": 223503
+    },
+    "a2": {
+      "path": "data/raw/git-blob-shards/a2.json.gz",
+      "sha256": "711a645f84c98999c092b5b68765dba2b4d4d14cb2cf02a972fa5c5c255109e1",
+      "objects": 182,
+      "bytes": 249986
+    },
+    "a3": {
+      "path": "data/raw/git-blob-shards/a3.json.gz",
+      "sha256": "60a2441e054f46fa4c7335e1ff929c60ba29305a33a9ed09cd2c1137692f6466",
+      "objects": 167,
+      "bytes": 190126
+    },
+    "a4": {
+      "path": "data/raw/git-blob-shards/a4.json.gz",
+      "sha256": "c5c1342a2d9bb53002e9500f597e30a770c97b977d6b4d0e50b1ffdb691b4f06",
+      "objects": 186,
+      "bytes": 257612
+    },
+    "a5": {
+      "path": "data/raw/git-blob-shards/a5.json.gz",
+      "sha256": "00f8b5ef4b2b5b3e3d68f95b091889a48c70880eab64ecfc27c44ac481914265",
+      "objects": 164,
+      "bytes": 248163
+    },
+    "a6": {
+      "path": "data/raw/git-blob-shards/a6.json.gz",
+      "sha256": "242d5c6eb949d8fa1b5bec5366920b59af86597088b458ced2a7ecf4eed1ebdc",
+      "objects": 179,
+      "bytes": 234418
+    },
+    "a7": {
+      "path": "data/raw/git-blob-shards/a7.json.gz",
+      "sha256": "883dcace7297c54d62b0eb931da5a2d0062133419f654db18a8a1cbdf626845c",
+      "objects": 175,
+      "bytes": 216981
+    },
+    "a8": {
+      "path": "data/raw/git-blob-shards/a8.json.gz",
+      "sha256": "98548665bc9f3c25044f05c2ca3c9690bad8baaa52ff96d2f7ce66f22198f9b8",
+      "objects": 193,
+      "bytes": 263628
+    },
+    "a9": {
+      "path": "data/raw/git-blob-shards/a9.json.gz",
+      "sha256": "9d4689505303b4c2e9884ea62ba754d0504def5deacdf7c5455b94dc0a8f4f37",
+      "objects": 190,
+      "bytes": 244851
+    },
+    "aa": {
+      "path": "data/raw/git-blob-shards/aa.json.gz",
+      "sha256": "21d361eaf4e36f9f74456f68a6e3468f31963ceac1f307477ce6927fbf68def2",
+      "objects": 158,
+      "bytes": 215899
+    },
+    "ab": {
+      "path": "data/raw/git-blob-shards/ab.json.gz",
+      "sha256": "1e43bf5c2157f020b7bbf7eabf93763f2a957946c2ef21cadfb5550777636641",
+      "objects": 176,
+      "bytes": 244983
+    },
+    "ac": {
+      "path": "data/raw/git-blob-shards/ac.json.gz",
+      "sha256": "1658c17956f1c7932b766e70962697ba2d6f1baafd70c1dcdb1c9ba235274ca9",
+      "objects": 161,
+      "bytes": 186200
+    },
+    "ad": {
+      "path": "data/raw/git-blob-shards/ad.json.gz",
+      "sha256": "4e27892ebe2074ae01447451c43d1fe225da63d19af583f0eccf0fd78686d95b",
+      "objects": 202,
+      "bytes": 246597
+    },
+    "ae": {
+      "path": "data/raw/git-blob-shards/ae.json.gz",
+      "sha256": "ee20e5e221b17cbecc3512f69cc2388c95ea8db10b40bc90ef61e01aa0552f55",
+      "objects": 165,
+      "bytes": 222267
+    },
+    "af": {
+      "path": "data/raw/git-blob-shards/af.json.gz",
+      "sha256": "56be384373a8280ee1ccace4d6bf5022d7a5d0978173331842f23db2afa9a812",
+      "objects": 151,
+      "bytes": 193623
+    },
+    "b0": {
+      "path": "data/raw/git-blob-shards/b0.json.gz",
+      "sha256": "d40a1fa35eb04072b0e5a165e5108c2a1e17800a250b6ef472adbe611133951a",
+      "objects": 169,
+      "bytes": 239240
+    },
+    "b1": {
+      "path": "data/raw/git-blob-shards/b1.json.gz",
+      "sha256": "4ee722d558a601641e709e2fd695dd9f9782d847965ea4cc4fac509f6b78b2ee",
+      "objects": 175,
+      "bytes": 208539
+    },
+    "b2": {
+      "path": "data/raw/git-blob-shards/b2.json.gz",
+      "sha256": "25a659fcbf07831f0e1d3c986890c2ca8a1dceebbe703ef9fd6605c42448593c",
+      "objects": 168,
+      "bytes": 220711
+    },
+    "b3": {
+      "path": "data/raw/git-blob-shards/b3.json.gz",
+      "sha256": "55b5b4b3bb433d7037ba6c8044387eb12fd33bfa93bc0c6b9372774aac700e58",
+      "objects": 187,
+      "bytes": 223574
+    },
+    "b4": {
+      "path": "data/raw/git-blob-shards/b4.json.gz",
+      "sha256": "3bda9dcdc63fe195dcdd6929435c7cd6894548d909cfbe269570d49470edfc18",
+      "objects": 194,
+      "bytes": 271049
+    },
+    "b5": {
+      "path": "data/raw/git-blob-shards/b5.json.gz",
+      "sha256": "51dec70a69a4035e752c5823ff55aa04ad02fdbbab0ada16eead44b7fd4b0c7a",
+      "objects": 167,
+      "bytes": 203067
+    },
+    "b6": {
+      "path": "data/raw/git-blob-shards/b6.json.gz",
+      "sha256": "5c2529f19f1ae5c2f46cc81cd328f38695938bf1d922b2360dd74855e0043d16",
+      "objects": 185,
+      "bytes": 226933
+    },
+    "b7": {
+      "path": "data/raw/git-blob-shards/b7.json.gz",
+      "sha256": "6c44dfb4c8ef757dc92e03d405c395ca7e562a8ef911759f8b3f57c38230b67e",
+      "objects": 162,
+      "bytes": 236536
+    },
+    "b8": {
+      "path": "data/raw/git-blob-shards/b8.json.gz",
+      "sha256": "9010e8040a33711624d5da56666071b1bfd085c2ecffccc0d4284f204bc82d10",
+      "objects": 174,
+      "bytes": 240493
+    },
+    "b9": {
+      "path": "data/raw/git-blob-shards/b9.json.gz",
+      "sha256": "dbfe041e2194a0dac1f3f3e56f932f94b26a57d6c5434f64ea4e116dc179c488",
+      "objects": 164,
+      "bytes": 192136
+    },
+    "ba": {
+      "path": "data/raw/git-blob-shards/ba.json.gz",
+      "sha256": "d47410d91b1e049409744c2989c3f22a281dd2f90eff7520f40666c707ca59ce",
+      "objects": 157,
+      "bytes": 202730
+    },
+    "bb": {
+      "path": "data/raw/git-blob-shards/bb.json.gz",
+      "sha256": "00f5a1bb2ba1b7c35a631b709ca749ff2734a5c866a938091a8009bc824d2aeb",
+      "objects": 175,
+      "bytes": 283352
+    },
+    "bc": {
+      "path": "data/raw/git-blob-shards/bc.json.gz",
+      "sha256": "928ddf6d453a83f60ba305118a85934045f3b8bc14c72ea46e9ef8061c4e2c8f",
+      "objects": 177,
+      "bytes": 223910
+    },
+    "bd": {
+      "path": "data/raw/git-blob-shards/bd.json.gz",
+      "sha256": "277647798e89edd512b4708dcab866ad2217e82cec78c403c481755e1836c3f6",
+      "objects": 172,
+      "bytes": 184710
+    },
+    "be": {
+      "path": "data/raw/git-blob-shards/be.json.gz",
+      "sha256": "e350a65d026b07eed636da98c9f02ec781c971853595fc6e02f91f72d872cefe",
+      "objects": 160,
+      "bytes": 217167
+    },
+    "bf": {
+      "path": "data/raw/git-blob-shards/bf.json.gz",
+      "sha256": "a124c5f9b3d01bae4f08b159a445150d0cb35dd47396a1162dc1280eb850cb9d",
+      "objects": 194,
+      "bytes": 274065
+    },
+    "c0": {
+      "path": "data/raw/git-blob-shards/c0.json.gz",
+      "sha256": "962f1b89516bd5a16996dc756ab56387b15ef135eef5b272bd0485c51d3c3573",
+      "objects": 163,
+      "bytes": 230143
+    },
+    "c1": {
+      "path": "data/raw/git-blob-shards/c1.json.gz",
+      "sha256": "3fb1f80ad9189a8fe061c72e1ce475390d05bb1787f9ae4d5b416f3e075a6a08",
+      "objects": 186,
+      "bytes": 229264
+    },
+    "c2": {
+      "path": "data/raw/git-blob-shards/c2.json.gz",
+      "sha256": "d7e5046133bdcf2f4a9f86f6a01d7da01605bae8b2b32cbcfbf9e292b95c187a",
+      "objects": 182,
+      "bytes": 226771
+    },
+    "c3": {
+      "path": "data/raw/git-blob-shards/c3.json.gz",
+      "sha256": "a98523ef1c973641e0326653766d61590f432cdd09565e4748aa1ac494f75219",
+      "objects": 159,
+      "bytes": 236119
+    },
+    "c4": {
+      "path": "data/raw/git-blob-shards/c4.json.gz",
+      "sha256": "9c5e8f316e5c74725e281ae4f3503d4747d73e9e39e07e7b0b437ee2b44bf315",
+      "objects": 186,
+      "bytes": 267165
+    },
+    "c5": {
+      "path": "data/raw/git-blob-shards/c5.json.gz",
+      "sha256": "5647c9cdd3816e2831d5a1a6a9ccf988af478ce0e65989548bf1cfbb0da8c4e8",
+      "objects": 154,
+      "bytes": 222334
+    },
+    "c6": {
+      "path": "data/raw/git-blob-shards/c6.json.gz",
+      "sha256": "4fdc7b960107412f0642ee08b9b7030f81b6f0b625201f4c45c1b21323fdb724",
+      "objects": 200,
+      "bytes": 262677
+    },
+    "c7": {
+      "path": "data/raw/git-blob-shards/c7.json.gz",
+      "sha256": "a7a7e7363e5f56d6d8c07483b902290734ecd22080606d00a9dac32b905705e8",
+      "objects": 180,
+      "bytes": 230583
+    },
+    "c8": {
+      "path": "data/raw/git-blob-shards/c8.json.gz",
+      "sha256": "105b8d32da91bc7edce8864875dca211e26069020fc42615b383782b44413645",
+      "objects": 153,
+      "bytes": 200714
+    },
+    "c9": {
+      "path": "data/raw/git-blob-shards/c9.json.gz",
+      "sha256": "29347af89aa184adb3ea78ba42f409e2cc6c9cdcfe2ddb6abf79b2519564820c",
+      "objects": 165,
+      "bytes": 223438
+    },
+    "ca": {
+      "path": "data/raw/git-blob-shards/ca.json.gz",
+      "sha256": "576ab1387fb89e1198d3f4df3cf05b24d6f65ce9a24bb8e685ee677a77a42d86",
+      "objects": 166,
+      "bytes": 255999
+    },
+    "cb": {
+      "path": "data/raw/git-blob-shards/cb.json.gz",
+      "sha256": "28f2320232b9534ea6ba7f2c50bf6dfa6182a8aa9a4c5ad93f61c682693ec3d8",
+      "objects": 164,
+      "bytes": 196392
+    },
+    "cc": {
+      "path": "data/raw/git-blob-shards/cc.json.gz",
+      "sha256": "64c0554fd0356b67af19265d17ceec9c9ec1a801c0c642ad33793af187d1e2dd",
+      "objects": 174,
+      "bytes": 246072
+    },
+    "cd": {
+      "path": "data/raw/git-blob-shards/cd.json.gz",
+      "sha256": "a87cb3169512cdb438a8b5c2d535a403c49231e408d9e2d40349138745f058b5",
+      "objects": 164,
+      "bytes": 202200
+    },
+    "ce": {
+      "path": "data/raw/git-blob-shards/ce.json.gz",
+      "sha256": "5785bba6e521ff7676b93b30846a40a120ec3e093f35314a1c566203c6d1c44f",
+      "objects": 180,
+      "bytes": 221249
+    },
+    "cf": {
+      "path": "data/raw/git-blob-shards/cf.json.gz",
+      "sha256": "d32ad272c949f7063a04b0608533418ddfcbdca5c43d3ba5fdeac037de478788",
+      "objects": 179,
+      "bytes": 245630
+    },
+    "d0": {
+      "path": "data/raw/git-blob-shards/d0.json.gz",
+      "sha256": "a7a31a30fcb4a2a44256f194206b4e2107368d9b8ab525d84750e341dbde9f03",
+      "objects": 187,
+      "bytes": 226667
+    },
+    "d1": {
+      "path": "data/raw/git-blob-shards/d1.json.gz",
+      "sha256": "25dd993e69d63eb8a41aedcc65b33e517f0dacee5a14f3338c93b3e81e3b9864",
+      "objects": 166,
+      "bytes": 222449
+    },
+    "d2": {
+      "path": "data/raw/git-blob-shards/d2.json.gz",
+      "sha256": "9dfcb492c18c46010cf83995924a604ec74e0b58f128d6280a0423009eb75eb4",
+      "objects": 163,
+      "bytes": 207770
+    },
+    "d3": {
+      "path": "data/raw/git-blob-shards/d3.json.gz",
+      "sha256": "70ad6826f2e510509b4138959e54483319ff808be56bcfe1082ab9aff248b568",
+      "objects": 168,
+      "bytes": 199579
+    },
+    "d4": {
+      "path": "data/raw/git-blob-shards/d4.json.gz",
+      "sha256": "f44a0cce9e5a3fbb1cfd26955ad5e0df6926fb3ef18f3d675dc6d2ea06af9bcb",
+      "objects": 182,
+      "bytes": 227880
+    },
+    "d5": {
+      "path": "data/raw/git-blob-shards/d5.json.gz",
+      "sha256": "edcd698c34e3885e5adae04ac23436a76933d25046d9b8df520c36150e4c53ae",
+      "objects": 157,
+      "bytes": 194023
+    },
+    "d6": {
+      "path": "data/raw/git-blob-shards/d6.json.gz",
+      "sha256": "1188fb42a75043827c1682a70c6b089dbdeebe7d32e7c36707512cea2bda0997",
+      "objects": 174,
+      "bytes": 272702
+    },
+    "d7": {
+      "path": "data/raw/git-blob-shards/d7.json.gz",
+      "sha256": "e9383a6df236d77db36d66dc98a37ff2f0b301388b0644c4860d4355364a7cf1",
+      "objects": 153,
+      "bytes": 218718
+    },
+    "d8": {
+      "path": "data/raw/git-blob-shards/d8.json.gz",
+      "sha256": "28a4107272666f14df42e6c8aa64243ea8331bcb4699e063697d1e2803c4efa0",
+      "objects": 160,
+      "bytes": 228258
+    },
+    "d9": {
+      "path": "data/raw/git-blob-shards/d9.json.gz",
+      "sha256": "793ef584e3e3a4e82c0a95392185cb0dd05add9167e464464d22a7fe9f987035",
+      "objects": 174,
+      "bytes": 226067
+    },
+    "da": {
+      "path": "data/raw/git-blob-shards/da.json.gz",
+      "sha256": "ffb3e73f71d17d81259404311bf6812b317487caff8bf87568abdb6e31f02d1a",
+      "objects": 155,
+      "bytes": 214207
+    },
+    "db": {
+      "path": "data/raw/git-blob-shards/db.json.gz",
+      "sha256": "5471b8dd88211b5f7a4e7e0c45f0ebb51090da63283a3d190c90c53038e50c00",
+      "objects": 190,
+      "bytes": 282682
+    },
+    "dc": {
+      "path": "data/raw/git-blob-shards/dc.json.gz",
+      "sha256": "b2b7b73e404920c9cf6ff65c50adefa6f8fbac22b92a76a706e5aaa073258fb2",
+      "objects": 171,
+      "bytes": 245135
+    },
+    "dd": {
+      "path": "data/raw/git-blob-shards/dd.json.gz",
+      "sha256": "b896ecb65f7b410c82a43d58e04f225fffd8d1ed5405458d11e801f75bb4e1e2",
+      "objects": 160,
+      "bytes": 193669
+    },
+    "de": {
+      "path": "data/raw/git-blob-shards/de.json.gz",
+      "sha256": "efeb1af693ba4d7cb2ddb7b34182b9ca31ae153cbd35959b44c7957784ea7109",
+      "objects": 168,
+      "bytes": 220155
+    },
+    "df": {
+      "path": "data/raw/git-blob-shards/df.json.gz",
+      "sha256": "042e48e85dda1991a52b8291fa4172973c22c65c2bf4336965af484ae855236c",
+      "objects": 172,
+      "bytes": 231269
+    },
+    "e0": {
+      "path": "data/raw/git-blob-shards/e0.json.gz",
+      "sha256": "6584055e18b6213e5d73e1323d2bfcf1136f4f0cfcd0baaab0af930f29d09e2b",
+      "objects": 187,
+      "bytes": 201875
+    },
+    "e1": {
+      "path": "data/raw/git-blob-shards/e1.json.gz",
+      "sha256": "36c1ee9cb65cf58def8bfd2e4e2d7ced66d15afeed1762b240533063b01ad704",
+      "objects": 171,
+      "bytes": 210181
+    },
+    "e2": {
+      "path": "data/raw/git-blob-shards/e2.json.gz",
+      "sha256": "73bf5da1707e62457483253fb177cf0b742d08e790692da4924e0efc470b80e4",
+      "objects": 174,
+      "bytes": 224589
+    },
+    "e3": {
+      "path": "data/raw/git-blob-shards/e3.json.gz",
+      "sha256": "1767ce74df38475e730e2db1ee10e4ba32899494d3aa51efdf4d605ef3b93e0a",
+      "objects": 168,
+      "bytes": 214814
+    },
+    "e4": {
+      "path": "data/raw/git-blob-shards/e4.json.gz",
+      "sha256": "0a3d0862e9d75c6ef0c8455e3f1f68681308cb6c7286d34fdfd21d5e48a4792a",
+      "objects": 188,
+      "bytes": 236869
+    },
+    "e5": {
+      "path": "data/raw/git-blob-shards/e5.json.gz",
+      "sha256": "dc6d74be80e68986e237214c26b461044976ca36e4222355560ab26e3b6c4514",
+      "objects": 167,
+      "bytes": 206844
+    },
+    "e6": {
+      "path": "data/raw/git-blob-shards/e6.json.gz",
+      "sha256": "c1d4a07251281915cc4d1f316873f683bb3afe1bcf8f8bca798fbe0cebff6df0",
+      "objects": 172,
+      "bytes": 214888
+    },
+    "e7": {
+      "path": "data/raw/git-blob-shards/e7.json.gz",
+      "sha256": "c888cc9871b286a6de7e663a8a5b33d9aa64318e2292fdd68bf4877461af1e9c",
+      "objects": 166,
+      "bytes": 241790
+    },
+    "e8": {
+      "path": "data/raw/git-blob-shards/e8.json.gz",
+      "sha256": "6071ed50e585031e2137901822984dd0049ee84613b5d360bc094bd78997c649",
+      "objects": 145,
+      "bytes": 198804
+    },
+    "e9": {
+      "path": "data/raw/git-blob-shards/e9.json.gz",
+      "sha256": "d29d2de9056e2d9aab0f1cec80f6315965b2bfa0d96e32e97eb3ff4aa5284fbf",
+      "objects": 199,
+      "bytes": 280230
+    },
+    "ea": {
+      "path": "data/raw/git-blob-shards/ea.json.gz",
+      "sha256": "5c9568504ab5e4e912db5d0176b1631aeef865c89a8e8cc38ad5b98e080e0b7f",
+      "objects": 187,
+      "bytes": 275211
+    },
+    "eb": {
+      "path": "data/raw/git-blob-shards/eb.json.gz",
+      "sha256": "8153bfa3ff9a3b38ff3a9cfea3f3b1057f2f26c8f9acc8a7830fe1d62e5e6f01",
+      "objects": 169,
+      "bytes": 213101
+    },
+    "ec": {
+      "path": "data/raw/git-blob-shards/ec.json.gz",
+      "sha256": "30a2168d160ca7306d2bfb517f86f3648b5974550839dc0c2614e3807160ad5f",
+      "objects": 177,
+      "bytes": 248259
+    },
+    "ed": {
+      "path": "data/raw/git-blob-shards/ed.json.gz",
+      "sha256": "43eaefb2fecc30d16d9f0f5c39472a3c5842625da4e1ec828904ff27de5621b5",
+      "objects": 185,
+      "bytes": 208190
+    },
+    "ee": {
+      "path": "data/raw/git-blob-shards/ee.json.gz",
+      "sha256": "7d623a449c142d9b8a8825a5cd5c0f11bec446dd0c009c6f1bee8dd8d28c0f42",
+      "objects": 190,
+      "bytes": 239465
+    },
+    "ef": {
+      "path": "data/raw/git-blob-shards/ef.json.gz",
+      "sha256": "3bd83ce772505c2ec80e0d3d5ef7ae484608adda85088967bd60518c925ca41b",
+      "objects": 167,
+      "bytes": 211185
+    },
+    "f0": {
+      "path": "data/raw/git-blob-shards/f0.json.gz",
+      "sha256": "d7e7b334a5413a965432f2ec05f79de513d15430176d0c97b7739e82641fe2f8",
+      "objects": 164,
+      "bytes": 219190
+    },
+    "f1": {
+      "path": "data/raw/git-blob-shards/f1.json.gz",
+      "sha256": "919d7fcbae30f02ee3c280e93a634befae87b1aea5aa12c3c1617541deb9aed0",
+      "objects": 181,
+      "bytes": 212458
+    },
+    "f2": {
+      "path": "data/raw/git-blob-shards/f2.json.gz",
+      "sha256": "19560c092fe93ba81073ebc5d8122fa436bf275dffc151b6897657b5c76ef7a7",
+      "objects": 167,
+      "bytes": 237916
+    },
+    "f3": {
+      "path": "data/raw/git-blob-shards/f3.json.gz",
+      "sha256": "1cd6107b7d9fe1e03d03d1d3e9b972ec0d50469df3168ac330a64cb489cac125",
+      "objects": 164,
+      "bytes": 221292
+    },
+    "f4": {
+      "path": "data/raw/git-blob-shards/f4.json.gz",
+      "sha256": "f72132f275773e31ba181c65f36290aa7b28004c5216b8b6c9cbb520bd492270",
+      "objects": 156,
+      "bytes": 212535
+    },
+    "f5": {
+      "path": "data/raw/git-blob-shards/f5.json.gz",
+      "sha256": "cbb8d6c19b4826d33794c0742f9b21fe6edd76bc9e9e11768aac39ff067ab6c4",
+      "objects": 175,
+      "bytes": 214419
+    },
+    "f6": {
+      "path": "data/raw/git-blob-shards/f6.json.gz",
+      "sha256": "83a682ba995fe1f01d33b774a0179a8240b60c10b0bb07c27e85cf69a2778598",
+      "objects": 188,
+      "bytes": 262019
+    },
+    "f7": {
+      "path": "data/raw/git-blob-shards/f7.json.gz",
+      "sha256": "16de8d520df2df1bc70cf3df350728486ab20b22dafb8a757a5b3a2110dff67c",
+      "objects": 157,
+      "bytes": 207881
+    },
+    "f8": {
+      "path": "data/raw/git-blob-shards/f8.json.gz",
+      "sha256": "3fa0f73314c7123373e97b2845891938d11c61e7474ba8dd1ea11fe3126a1bf9",
+      "objects": 183,
+      "bytes": 263409
+    },
+    "f9": {
+      "path": "data/raw/git-blob-shards/f9.json.gz",
+      "sha256": "bac225f165cf1920e716e67345fe990d6725219a243b260952d816da111fa9d3",
+      "objects": 186,
+      "bytes": 226058
+    },
+    "fa": {
+      "path": "data/raw/git-blob-shards/fa.json.gz",
+      "sha256": "f8304a3bece2db87b42cbca593517c0d5cfb050da1544294f0a6b0bb4a71495b",
+      "objects": 171,
+      "bytes": 235295
+    },
+    "fb": {
+      "path": "data/raw/git-blob-shards/fb.json.gz",
+      "sha256": "ecf04c9363a879098d80f680998b7d79b0972e3a36f15553c13743e02e0aefe3",
+      "objects": 176,
+      "bytes": 215883
+    },
+    "fc": {
+      "path": "data/raw/git-blob-shards/fc.json.gz",
+      "sha256": "9933467fff9b0ccf5b3f5210d93bed6734abd083a9989f5f8ee00b566b75be39",
+      "objects": 187,
+      "bytes": 233773
+    },
+    "fd": {
+      "path": "data/raw/git-blob-shards/fd.json.gz",
+      "sha256": "06d75ab1deff246685acdc4458c45a76cc4c2de4979215a0af4eb85d3e4ac78c",
+      "objects": 192,
+      "bytes": 251928
+    },
+    "fe": {
+      "path": "data/raw/git-blob-shards/fe.json.gz",
+      "sha256": "f0d52fd48bed489b350c8bb1d9a2424bc99899d045d2e2f2bc5752c9c80bc7b3",
+      "objects": 172,
+      "bytes": 230470
+    },
+    "ff": {
+      "path": "data/raw/git-blob-shards/ff.json.gz",
+      "sha256": "ef2b5b2f00860c7599a22bb9ba504e0654a04891860d2e2d039b516fbb224e10",
+      "objects": 190,
+      "bytes": 275462
+    }
+  },
+  "unique_objects": 44336
+}

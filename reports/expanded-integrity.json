@@ -1,0 +1,26 @@
+{
+  "valid": true,
+  "cohort": {
+    "candidate_packages": 1214,
+    "selected_packages": 685,
+    "candidate_inventory_sha256": "538e17cf86ee902d91d299c03e7ec8c50db5d907ffe48acd7949f20cf8cc1de7",
+    "search_responses_verified": 20
+  },
+  "original_cohort": {
+    "records_checked": 989,
+    "all_identical": true,
+    "dataset_sha256": "ca796670ce7a4953e9e82feb46c356a678334826ac98cbc7246a246b28909462"
+  },
+  "records": 14840,
+  "packages": 685,
+  "official_columns": 224,
+  "dataset_sha256": "19c486852aa9052e895adfe93dbc1a721816527d3ac48b86f12d12f1ff6fccec",
+  "optional_numeric_features": 20,
+  "feature_manifest_sha256": "896c35b2ba85cbfe025e5b09ae3604062586c47696efb852d5f5f9520936bd81",
+  "feature_audit": {
+    "valid": true,
+    "records": 14840,
+    "field_comparisons": 326480,
+    "errors": []
+  }
+}

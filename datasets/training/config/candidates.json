@@ -1,0 +1,8911 @@
+{
+  "frozen_at": "2026-11-09T00:12:12.821Z",
+  "search_terms": [
+    "framework",
+    "http",
+    "cli",
+    "build",
+    "testing",
+    "validation",
+    "parser",
+    "database",
+    "stream",
+    "logging",
+    "template",
+    "filesystem",
+    "cryptography",
+    "utilities",
+    "authentication",
+    "serialization",
+    "network",
+    "markdown",
+    "image",
+    "compression"
+  ],
+  "results_per_term": 60,
+  "selection_method": "Original package sample plus the first 60 public npm search results for each fixed software-role term. Candidate names are frozen before historical advisory acquisition; admission depends on source and release-window completeness, never target values. This is a retrospective purposive cohort, not a random or release-time popularity sample.",
+  "requests": [
+    {
+      "term": "framework",
+      "url": "https://registry.npmjs.org/-/v1/search?text=framework&size=60&from=0",
+      "path": "data/raw/search/framework.json.gz",
+      "stored_sha256": "c3c4937a43b05a4ace529e47bf57b8bf0cdb511d7c412aae9c8ba545870a1f2a",
+      "http": {
+        "url": "https://registry.npmjs.org/-/v1/search?text=framework&size=60&from=0",
+        "fetched_at": "2026-11-09T00:11:56.057Z",
+        "status": 200,
+        "body_sha256": "24b60301608a79ec17ea5cad9b2b2746a42f5820d93e7da5c686241d3dd9ed1e",
+        "bytes": 64828,
+        "headers": {
+          "date": "Mon, 09 Nov 2026 00:11:55 GMT",
+          "content-type": "application/json"
+        },
+        "attempt": 1
+      }
+    },
+    {
+      "term": "http",
+      "url": "https://registry.npmjs.org/-/v1/search?text=http&size=60&from=0",
+      "path": "data/raw/search/http.json.gz",
+      "stored_sha256": "be4bc24176b051b7d6eef5a5582e6b5debfba94e842c708ead123412d3ddf178",
+      "http": {
+        "url": "https://registry.npmjs.org/-/v1/search?text=http&size=60&from=0",
+        "fetched_at": "2026-11-09T00:11:56.661Z",
+        "status": 200,
+        "body_sha256": "b9eb1a69d55adf0aecaf08be168fb336a3f02100a22877952ce73445d034ea6d",
+        "bytes": 59705,
+        "headers": {
+          "date": "Mon, 09 Nov 2026 00:11:56 GMT",
+          "content-type": "application/json"
+        },
+        "attempt": 1
+      }
+    },
+    {
+      "term": "cli",
+      "url": "https://registry.npmjs.org/-/v1/search?text=cli&size=60&from=0",
+      "path": "data/raw/search/cli.json.gz",
+      "stored_sha256": "0dd24d9f96016ac3da5ea3eb1948deeb388e4d779c39648cfc4f37ef65174949",
+      "http": {
+        "url": "https://registry.npmjs.org/-/v1/search?text=cli&size=60&from=0",
+        "fetched_at": "2026-11-09T00:11:56.980Z",
+        "status": 200,
+        "body_sha256": "86e79b0374ba39e13d788202282892b25b090017ed4ab529bbd1cbe4dbc38fc9",
+        "bytes": 63384,
+        "headers": {
+          "date": "Mon, 09 Nov 2026 00:11:56 GMT",
+          "content-type": "application/json"
+        },
+        "attempt": 1
+      }
+    },
+    {
+      "term": "build",
+      "url": "https://registry.npmjs.org/-/v1/search?text=build&size=60&from=0",
+      "path": "data/raw/search/build.json.gz",
+      "stored_sha256": "f87940b7e745572baa8f703b8366d4c60b6e0d980283255474353ae0b986612a",
+      "http": {
+        "url": "https://registry.npmjs.org/-/v1/search?text=build&size=60&from=0",
+        "fetched_at": "2026-11-09T00:11:57.498Z",
+        "status": 200,
+        "body_sha256": "4aa6e41ae441e0c10bfc16d50f10467c69c8cb182adebe56583b9bcd3532f5ea",
+        "bytes": 70474,
+        "headers": {
+          "date": "Mon, 09 Nov 2026 00:11:57 GMT",
+          "content-type": "application/json"
+        },
+        "attempt": 1
+      }
+    },
+    {
+      "term": "testing",
+      "url": "https://registry.npmjs.org/-/v1/search?text=testing&size=60&from=0",
+      "path": "data/raw/search/testing.json.gz",
+      "stored_sha256": "e0b256829aa315965c810e0898d96790a4645a1ccabcfd2d130d288ea31ebfd5",
+      "http": {
+        "url": "https://registry.npmjs.org/-/v1/search?text=testing&size=60&from=0",
+        "fetched_at": "2026-11-09T00:11:57.882Z",
+        "status": 200,
+        "body_sha256": "e8d7a3f69ef427a3f623f798a677f6cb38d53cb6d7abfa64736dac5607cbefa8",
+        "bytes": 77830,
+        "headers": {
+          "date": "Mon, 09 Nov 2026 00:11:57 GMT",
+          "content-type": "application/json"
+        },
+        "attempt": 1
+      }
+    },
+    {
+      "term": "validation",
+      "url": "https://registry.npmjs.org/-/v1/search?text=validation&size=60&from=0",
+      "path": "data/raw/search/validation.json.gz",
+      "stored_sha256": "c7706b6ae700827d5478a9bb899018f3298a70809be6e5205964572e5911cd87",
+      "http": {
+        "url": "https://registry.npmjs.org/-/v1/search?text=validation&size=60&from=0",
+        "fetched_at": "2026-11-09T00:11:58.281Z",
+        "status": 200,
+        "body_sha256": "96811e6bb8a16064001f7a9ac21b21d136ed48f00a77a534375e80bdef074323",
+        "bytes": 62056,
+        "headers": {
+          "date": "Mon, 09 Nov 2026 00:11:57 GMT",
+          "content-type": "application/json"
+        },
+        "attempt": 1
+      }
+    },
+    {
+      "term": "parser",
+      "url": "https://registry.npmjs.org/-/v1/search?text=parser&size=60&from=0",
+      "path": "data/raw/search/parser.json.gz",
+      "stored_sha256": "37f257643274bdcd5f44e3fa4b64d899ac04c2bdf2ada9a0ce08f5d6c24a9830",
+      "http": {
+        "url": "https://registry.npmjs.org/-/v1/search?text=parser&size=60&from=0",
+        "fetched_at": "2026-11-09T00:11:58.624Z",
+        "status": 200,
+        "body_sha256": "9da3cd5c4d4c1eb3252048f538c4c3a7b92c3da7f7594cc2d979e8a9bf0ded39",
+        "bytes": 62599,
+        "headers": {
+          "date": "Mon, 09 Nov 2026 00:11:58 GMT",
+          "content-type": "application/json"
+        },
+        "attempt": 1
+      }
+    },
+    {
+      "term": "database",
+      "url": "https://registry.npmjs.org/-/v1/search?text=database&size=60&from=0",
+      "path": "data/raw/search/database.json.gz",
+      "stored_sha256": "b1de852f1729a50107e26020ad5a29be65343a37aca7c6018c5e3769b1139606",
+      "http": {
+        "url": "https://registry.npmjs.org/-/v1/search?text=database&size=60&from=0",
+        "fetched_at": "2026-11-09T00:11:59.132Z",
+        "status": 200,
+        "body_sha256": "c6715b8228d8b344cbfbbe1a1b6728ae4fdf4028ab3772095eb6436925da39af",
+        "bytes": 71449,
+        "headers": {
+          "date": "Mon, 09 Nov 2026 00:11:58 GMT",
+          "content-type": "application/json"
+        },
+        "attempt": 1
+      }
+    },
+    {
+      "term": "stream",
+      "url": "https://registry.npmjs.org/-/v1/search?text=stream&size=60&from=0",
+      "path": "data/raw/search/stream.json.gz",
+      "stored_sha256": "2511fe13730504d46ff137293c5b7451de1812dbeb399c934dd2c624dd3f27e2",
+      "http": {
+        "url": "https://registry.npmjs.org/-/v1/search?text=stream&size=60&from=0",
+        "fetched_at": "2026-11-09T00:11:59.472Z",
+        "status": 200,
+        "body_sha256": "cf5362c38dc54569b4e18e035f9d9028796ebc5ec95416a7d3613b6d68f34408",
+        "bytes": 59094,
+        "headers": {
+          "date": "Mon, 09 Nov 2026 00:11:59 GMT",
+          "content-type": "application/json"
+        },
+        "attempt": 1
+      }
+    },
+    {
+      "term": "logging",
+      "url": "https://registry.npmjs.org/-/v1/search?text=logging&size=60&from=0",
+      "path": "data/raw/search/logging.json.gz",
+      "stored_sha256": "1e54c84a42bced47641b8436e065f409e33c74c63023fe45f860c793e3c0bc9f",
+      "http": {
+        "url": "https://registry.npmjs.org/-/v1/search?text=logging&size=60&from=0",
+        "fetched_at": "2026-11-09T00:11:59.799Z",
+        "status": 200,
+        "body_sha256": "c3ac304977558fa25a95fc013c50d334e7d17cb93ef7c46c1ae9a981832143c9",
+        "bytes": 65092,
+        "headers": {
+          "date": "Mon, 09 Nov 2026 00:11:59 GMT",
+          "content-type": "application/json"
+        },
+        "attempt": 1
+      }
+    },
+    {
+      "term": "template",
+      "url": "https://registry.npmjs.org/-/v1/search?text=template&size=60&from=0",
+      "path": "data/raw/search/template.json.gz",
+      "stored_sha256": "31b987af08af51712465131cb7b18310e34cf86157e247ed564212feb7d5674b",
+      "http": {
+        "url": "https://registry.npmjs.org/-/v1/search?text=template&size=60&from=0",
+        "fetched_at": "2026-11-09T00:12:02.277Z",
+        "status": 200,
+        "body_sha256": "9d55372f0fc0add0102b06ad1699a9c335f7d90c0667d1a8d88dd04e8e6d4cca",
+        "bytes": 64536,
+        "headers": {
+          "date": "Mon, 09 Nov 2026 00:12:01 GMT",
+          "content-type": "application/json"
+        },
+        "attempt": 2
+      }
+    },
+    {
+      "term": "filesystem",
+      "url": "https://registry.npmjs.org/-/v1/search?text=filesystem&size=60&from=0",
+      "path": "data/raw/search/filesystem.json.gz",
+      "stored_sha256": "7255021bf58074c350f05c7d5c2e92adc1be601a31a94414746357da2ada0afd",
+      "http": {
+        "url": "https://registry.npmjs.org/-/v1/search?text=filesystem&size=60&from=0",
+        "fetched_at": "2026-11-09T00:12:02.631Z",
+        "status": 200,
+        "body_sha256": "f45419c6701a3334cc365a08000c47d90e1e5d574870061f4569d0812242ea68",
+        "bytes": 61361,
+        "headers": {
+          "date": "Mon, 09 Nov 2026 00:12:02 GMT",
+          "content-type": "application/json"
+        },
+        "attempt": 1
+      }
+    },
+    {
+      "term": "cryptography",
+      "url": "https://registry.npmjs.org/-/v1/search?text=cryptography&size=60&from=0",
+      "path": "data/raw/search/cryptography.json.gz",
+      "stored_sha256": "7e47e242d3fc5b55ea1654f6aecbe02a92dd37111ea39a3b11eb4a66aad97efe",
+      "http": {
+        "url": "https://registry.npmjs.org/-/v1/search?text=cryptography&size=60&from=0",
+        "fetched_at": "2026-11-09T00:12:05.036Z",
+        "status": 200,
+        "body_sha256": "9f5efc1300962cfd260903c99e026f2cfce09c64804a0f2c97231cd3bf6e588b",
+        "bytes": 61540,
+        "headers": {
+          "date": "Mon, 09 Nov 2026 00:12:04 GMT",
+          "content-type": "application/json"
+        },
+        "attempt": 2
+      }
+    },
+    {
+      "term": "utilities",
+      "url": "https://registry.npmjs.org/-/v1/search?text=utilities&size=60&from=0",
+      "path": "data/raw/search/utilities.json.gz",
+      "stored_sha256": "4562c89eb2737676e7a73428472a181dd58fb9beec4809e26f5b3423a34a5e3d",
+      "http": {
+        "url": "https://registry.npmjs.org/-/v1/search?text=utilities&size=60&from=0",
+        "fetched_at": "2026-11-09T00:12:05.349Z",
+        "status": 200,
+        "body_sha256": "8da6784865c5d3809502c5413bf003c26bc9a1a466babe3d903ef8d949e124e1",
+        "bytes": 61155,
+        "headers": {
+          "date": "Mon, 09 Nov 2026 00:12:05 GMT",
+          "content-type": "application/json"
+        },
+        "attempt": 1
+      }
+    },
+    {
+      "term": "authentication",
+      "url": "https://registry.npmjs.org/-/v1/search?text=authentication&size=60&from=0",
+      "path": "data/raw/search/authentication.json.gz",
+      "stored_sha256": "98652864995f1328f1d63ce9134d5f9ed3b727c8fa836370aefd70432f677df5",
+      "http": {
+        "url": "https://registry.npmjs.org/-/v1/search?text=authentication&size=60&from=0",
+        "fetched_at": "2026-11-09T00:12:05.681Z",
+        "status": 200,
+        "body_sha256": "b6d88c5628909414f9229c0a7081cb06e3c04bb978ce160ac4a2bbd716b79a12",
+        "bytes": 67560,
+        "headers": {
+          "date": "Mon, 09 Nov 2026 00:12:05 GMT",
+          "content-type": "application/json"
+        },
+        "attempt": 1
+      }
+    },
+    {
+      "term": "serialization",
+      "url": "https://registry.npmjs.org/-/v1/search?text=serialization&size=60&from=0",
+      "path": "data/raw/search/serialization.json.gz",
+      "stored_sha256": "375c5db0d2fd1ecd272c6e167d2d12b39512aeb8114e19648886dd88b85c1672",
+      "http": {
+        "url": "https://registry.npmjs.org/-/v1/search?text=serialization&size=60&from=0",
+        "fetched_at": "2026-11-09T00:12:08.090Z",
+        "status": 200,
+        "body_sha256": "15eb3bd569d8ea2696a17363cdfa145e23869fa5189451efd17ada153513ae3a",
+        "bytes": 62923,
+        "headers": {
+          "date": "Mon, 09 Nov 2026 00:12:07 GMT",
+          "content-type": "application/json"
+        },
+        "attempt": 2
+      }
+    },
+    {
+      "term": "network",
+      "url": "https://registry.npmjs.org/-/v1/search?text=network&size=60&from=0",
+      "path": "data/raw/search/network.json.gz",
+      "stored_sha256": "89d3636167af20cd7677b03a4b2ea3622912a42828e1db23cb691bd9c247d172",
+      "http": {
+        "url": "https://registry.npmjs.org/-/v1/search?text=network&size=60&from=0",
+        "fetched_at": "2026-11-09T00:12:08.432Z",
+        "status": 200,
+        "body_sha256": "1a7bbd1940cbe9bf3df2b4d3daea68e9fa53c43119fcdc4c57bbd71a72a22356",
+        "bytes": 67905,
+        "headers": {
+          "date": "Mon, 09 Nov 2026 00:12:08 GMT",
+          "content-type": "application/json"
+        },
+        "attempt": 1
+      }
+    },
+    {
+      "term": "markdown",
+      "url": "https://registry.npmjs.org/-/v1/search?text=markdown&size=60&from=0",
+      "path": "data/raw/search/markdown.json.gz",
+      "stored_sha256": "e11ef57ad0fcc0e4c0da604cb78131e1409987a215bfbc2902b4e3a180708162",
+      "http": {
+        "url": "https://registry.npmjs.org/-/v1/search?text=markdown&size=60&from=0",
+        "fetched_at": "2026-11-09T00:12:08.802Z",
+        "status": 200,
+        "body_sha256": "16244342c4e2cf6dd70e821541f8de3b8462edd226cc14355113c7eafb31c636",
+        "bytes": 61573,
+        "headers": {
+          "date": "Mon, 09 Nov 2026 00:12:09 GMT",
+          "content-type": "application/json"
+        },
+        "attempt": 1
+      }
+    },
+    {
+      "term": "image",
+      "url": "https://registry.npmjs.org/-/v1/search?text=image&size=60&from=0",
+      "path": "data/raw/search/image.json.gz",
+      "stored_sha256": "7091110332a55f809fafae91dd25fde0e606c5a81171653a3b34c068dfc700c8",
+      "http": {
+        "url": "https://registry.npmjs.org/-/v1/search?text=image&size=60&from=0",
+        "fetched_at": "2026-11-09T00:12:09.765Z",
+        "status": 200,
+        "body_sha256": "f0b0ff30ec0041c6f4133608d646cbc2ce2fb149a0e243cc8b33191ac2969db0",
+        "bytes": 63321,
+        "headers": {
+          "date": "Mon, 09 Nov 2026 00:12:09 GMT",
+          "content-type": "application/json"
+        },
+        "attempt": 1
+      }
+    },
+    {
+      "term": "compression",
+      "url": "https://registry.npmjs.org/-/v1/search?text=compression&size=60&from=0",
+      "path": "data/raw/search/compression.json.gz",
+      "stored_sha256": "d304c851ee33e217f640097da3dae79b3d9b3f2d511bac41c7cce6d229203b38",
+      "http": {
+        "url": "https://registry.npmjs.org/-/v1/search?text=compression&size=60&from=0",
+        "fetched_at": "2026-11-09T00:12:12.515Z",
+        "status": 200,
+        "body_sha256": "ea36bb5c3d569b90f898d44ede40ad4eb38982d55a75a0f80235cfa14e477ccd",
+        "bytes": 59058,
+        "headers": {
+          "date": "Mon, 09 Nov 2026 00:12:12 GMT",
+          "content-type": "application/json"
+        },
+        "attempt": 2
+      }
+    }
+  ],
+  "packages": [
+    {
+      "name": "@-xun/fs",
+      "roles": [
+        "filesystem"
+      ],
+      "original": false
+    },
+    {
+      "name": "@0xsequence/network",
+      "roles": [
+        "network"
+      ],
+      "original": false
+    },
+    {
+      "name": "@a2ui/markdown-it",
+      "roles": [
+        "markdown"
+      ],
+      "original": false
+    },
+    {
+      "name": "@acala-network/type-definitions",
+      "roles": [
+        "network"
+      ],
+      "original": false
+    },
+    {
+      "name": "@account-kit/logging",
+      "roles": [
+        "logging"
+      ],
+      "original": false
+    },
+    {
+      "name": "@actions/http-client",
+      "roles": [
+        "http"
+      ],
+      "original": false
+    },
+    {
+      "name": "@angular-devkit/architect",
+      "roles": [
+        "build"
+      ],
+      "original": false
+    },
+    {
+      "name": "@angular-devkit/build-ng-packagr",
+      "roles": [
+        "build"
+      ],
+      "original": false
+    },
+    {
+      "name": "@angular-devkit/schematics-cli",
+      "roles": [
+        "cli"
+      ],
+      "original": false
+    },
+    {
+      "name": "@angular-eslint/template-parser",
+      "roles": [
+        "parser",
+        "template"
+      ],
+      "original": false
+    },
+    {
+      "name": "@angular/build",
+      "roles": [
+        "build"
+      ],
+      "original": false
+    },
+    {
+      "name": "@angular/cli",
+      "roles": [
+        "cli"
+      ],
+      "original": false
+    },
+    {
+      "name": "@angular/core",
+      "roles": [
+        "UI framework",
+        "framework"
+      ],
+      "original": true
+    },
+    {
+      "name": "@apideck/better-ajv-errors",
+      "roles": [
+        "validation"
+      ],
+      "original": false
+    },
+    {
+      "name": "@apimatic/authentication-adapters",
+      "roles": [
+        "authentication"
+      ],
+      "original": false
+    },
+    {
+      "name": "@apimatic/schema",
+      "roles": [
+        "serialization"
+      ],
+      "original": false
+    },
+    {
+      "name": "@apollo/react-testing",
+      "roles": [
+        "testing"
+      ],
+      "original": false
+    },
+    {
+      "name": "@app-config/logging",
+      "roles": [
+        "logging"
+      ],
+      "original": false
+    },
+    {
+      "name": "@aps_sdk/authentication",
+      "roles": [
+        "authentication"
+      ],
+      "original": false
+    },
+    {
+      "name": "@arethetypeswrong/cli",
+      "roles": [
+        "cli"
+      ],
+      "original": false
+    },
+    {
+      "name": "@ariakit/utils",
+      "roles": [
+        "utilities"
+      ],
+      "original": false
+    },
+    {
+      "name": "@arkstack/filesystem",
+      "roles": [
+        "filesystem"
+      ],
+      "original": false
+    },
+    {
+      "name": "@assistant-ui/react-markdown",
+      "roles": [
+        "markdown"
+      ],
+      "original": false
+    },
+    {
+      "name": "@astryxdesign/build",
+      "roles": [
+        "build"
+      ],
+      "original": false
+    },
+    {
+      "name": "@asyncapi/html-template",
+      "roles": [
+        "template"
+      ],
+      "original": false
+    },
+    {
+      "name": "@auth/core",
+      "roles": [
+        "authentication"
+      ],
+      "original": false
+    },
+    {
+      "name": "@auth0/auth0-auth-js",
+      "roles": [
+        "authentication"
+      ],
+      "original": false
+    },
+    {
+      "name": "@automerge/automerge-repo-network-messagechannel",
+      "roles": [
+        "network"
+      ],
+      "original": false
+    },
+    {
+      "name": "@avro/types",
+      "roles": [
+        "serialization"
+      ],
+      "original": false
+    },
+    {
+      "name": "@awesome-cordova-plugins/network",
+      "roles": [
+        "network"
+      ],
+      "original": false
+    },
+    {
+      "name": "@aws-lambda-powertools/logger",
+      "roles": [
+        "logging"
+      ],
+      "original": false
+    },
+    {
+      "name": "@aws-sdk/client-database-migration-service",
+      "roles": [
+        "database"
+      ],
+      "original": false
+    },
+    {
+      "name": "@aws-sdk/client-payment-cryptography",
+      "roles": [
+        "cryptography"
+      ],
+      "original": false
+    },
+    {
+      "name": "@aws-sdk/client-payment-cryptography-data",
+      "roles": [
+        "cryptography"
+      ],
+      "original": false
+    },
+    {
+      "name": "@aws-sdk/credential-provider-http",
+      "roles": [
+        "http"
+      ],
+      "original": false
+    },
+    {
+      "name": "@aws-sdk/util-arn-parser",
+      "roles": [
+        "parser"
+      ],
+      "original": false
+    },
+    {
+      "name": "@aws/durable-execution-sdk-js-testing",
+      "roles": [
+        "testing"
+      ],
+      "original": false
+    },
+    {
+      "name": "@axiomhq/logging",
+      "roles": [
+        "logging"
+      ],
+      "original": false
+    },
+    {
+      "name": "@azure/core-auth",
+      "roles": [
+        "authentication"
+      ],
+      "original": false
+    },
+    {
+      "name": "@azure/core-http-compat",
+      "roles": [
+        "http"
+      ],
+      "original": false
+    },
+    {
+      "name": "@azure/msal-angular",
+      "roles": [
+        "authentication"
+      ],
+      "original": false
+    },
+    {
+      "name": "@azure/msal-browser",
+      "roles": [
+        "authentication"
+      ],
+      "original": false
+    },
+    {
+      "name": "@azure/msal-common",
+      "roles": [
+        "authentication"
+      ],
+      "original": false
+    },
+    {
+      "name": "@azure/msal-node",
+      "roles": [
+        "authentication"
+      ],
+      "original": false
+    },
+    {
+      "name": "@azure/msal-react",
+      "roles": [
+        "authentication"
+      ],
+      "original": false
+    },
+    {
+      "name": "@babel/core",
+      "roles": [
+        "build tooling"
+      ],
+      "original": true
+    },
+    {
+      "name": "@babel/helper-plugin-utils",
+      "roles": [
+        "utilities"
+      ],
+      "original": false
+    },
+    {
+      "name": "@babel/parser",
+      "roles": [
+        "parser"
+      ],
+      "original": false
+    },
+    {
+      "name": "@babel/plugin-transform-template-literals",
+      "roles": [
+        "template"
+      ],
+      "original": false
+    },
+    {
+      "name": "@babel/template",
+      "roles": [
+        "template"
+      ],
+      "original": false
+    },
+    {
+      "name": "@backstage/cli-module-auth",
+      "roles": [
+        "cli"
+      ],
+      "original": false
+    },
+    {
+      "name": "@backstage/cli-module-info",
+      "roles": [
+        "cli"
+      ],
+      "original": false
+    },
+    {
+      "name": "@backstage/cli-module-new",
+      "roles": [
+        "cli"
+      ],
+      "original": false
+    },
+    {
+      "name": "@better-auth/core",
+      "roles": [
+        "framework",
+        "authentication"
+      ],
+      "original": false
+    },
+    {
+      "name": "@better-auth/utils",
+      "roles": [
+        "utilities"
+      ],
+      "original": false
+    },
+    {
+      "name": "@blakeembrey/template",
+      "roles": [
+        "template"
+      ],
+      "original": false
+    },
+    {
+      "name": "@bytecodealliance/jco-node-fs",
+      "roles": [
+        "filesystem"
+      ],
+      "original": false
+    },
+    {
+      "name": "@bytecodealliance/jco-node-fs-linux-x64-gnu",
+      "roles": [
+        "filesystem"
+      ],
+      "original": false
+    },
+    {
+      "name": "@canton-network/wallet-sdk",
+      "roles": [
+        "network"
+      ],
+      "original": false
+    },
+    {
+      "name": "@cap-js/db-service",
+      "roles": [
+        "database"
+      ],
+      "original": false
+    },
+    {
+      "name": "@cap-js/hana",
+      "roles": [
+        "database"
+      ],
+      "original": false
+    },
+    {
+      "name": "@cap-js/sqlite",
+      "roles": [
+        "database"
+      ],
+      "original": false
+    },
+    {
+      "name": "@capacitor-firebase/authentication",
+      "roles": [
+        "authentication"
+      ],
+      "original": false
+    },
+    {
+      "name": "@capacitor/filesystem",
+      "roles": [
+        "filesystem"
+      ],
+      "original": false
+    },
+    {
+      "name": "@capacitor/network",
+      "roles": [
+        "network"
+      ],
+      "original": false
+    },
+    {
+      "name": "@capgo/capacitor-network-diagnostics",
+      "roles": [
+        "network"
+      ],
+      "original": false
+    },
+    {
+      "name": "@carbon/utilities",
+      "roles": [
+        "utilities"
+      ],
+      "original": false
+    },
+    {
+      "name": "@cedarjs/testing",
+      "roles": [
+        "testing"
+      ],
+      "original": false
+    },
+    {
+      "name": "@chakra-ui/image",
+      "roles": [
+        "image"
+      ],
+      "original": false
+    },
+    {
+      "name": "@cichol/cryptography",
+      "roles": [
+        "cryptography"
+      ],
+      "original": false
+    },
+    {
+      "name": "@ckeditor/ckeditor5-easy-image",
+      "roles": [
+        "image"
+      ],
+      "original": false
+    },
+    {
+      "name": "@ckeditor/ckeditor5-image",
+      "roles": [
+        "image"
+      ],
+      "original": false
+    },
+    {
+      "name": "@ckeditor/ckeditor5-template",
+      "roles": [
+        "template"
+      ],
+      "original": false
+    },
+    {
+      "name": "@closeio/backbone-testing-library",
+      "roles": [
+        "testing"
+      ],
+      "original": false
+    },
+    {
+      "name": "@cloudbase/database",
+      "roles": [
+        "database"
+      ],
+      "original": false
+    },
+    {
+      "name": "@cloudflare/speedtest",
+      "roles": [
+        "network"
+      ],
+      "original": false
+    },
+    {
+      "name": "@codaco/network-query",
+      "roles": [
+        "network"
+      ],
+      "original": false
+    },
+    {
+      "name": "@codemirror/lang-markdown",
+      "roles": [
+        "markdown"
+      ],
+      "original": false
+    },
+    {
+      "name": "@comark/markdown-it",
+      "roles": [
+        "markdown"
+      ],
+      "original": false
+    },
+    {
+      "name": "@conventional-changelog/template",
+      "roles": [
+        "template"
+      ],
+      "original": false
+    },
+    {
+      "name": "@convex-dev/auth",
+      "roles": [
+        "authentication"
+      ],
+      "original": false
+    },
+    {
+      "name": "@cosmjs/crypto",
+      "roles": [
+        "cryptography"
+      ],
+      "original": false
+    },
+    {
+      "name": "@cropper/element-image",
+      "roles": [
+        "image"
+      ],
+      "original": false
+    },
+    {
+      "name": "@cryptography/aes",
+      "roles": [
+        "cryptography"
+      ],
+      "original": false
+    },
+    {
+      "name": "@cspell/dict-markdown",
+      "roles": [
+        "markdown"
+      ],
+      "original": false
+    },
+    {
+      "name": "@csstools/postcss-image-function",
+      "roles": [
+        "image"
+      ],
+      "original": false
+    },
+    {
+      "name": "@csstools/utilities",
+      "roles": [
+        "utilities"
+      ],
+      "original": false
+    },
+    {
+      "name": "@cubejs-backend/postgres-driver",
+      "roles": [
+        "database"
+      ],
+      "original": false
+    },
+    {
+      "name": "@daml/types",
+      "roles": [
+        "serialization"
+      ],
+      "original": false
+    },
+    {
+      "name": "@dannycoates/elliptic",
+      "roles": [
+        "cryptography"
+      ],
+      "original": false
+    },
+    {
+      "name": "@data-forge/serialization",
+      "roles": [
+        "serialization"
+      ],
+      "original": false
+    },
+    {
+      "name": "@datadog/browser-core",
+      "roles": [
+        "utilities"
+      ],
+      "original": false
+    },
+    {
+      "name": "@datadog/browser-rum-core",
+      "roles": [
+        "utilities"
+      ],
+      "original": false
+    },
+    {
+      "name": "@ddd-framework/core",
+      "roles": [
+        "framework"
+      ],
+      "original": false
+    },
+    {
+      "name": "@deepkit/filesystem",
+      "roles": [
+        "filesystem"
+      ],
+      "original": false
+    },
+    {
+      "name": "@deepseek-ai/dsh-compaction-image-offload",
+      "roles": [
+        "image"
+      ],
+      "original": false
+    },
+    {
+      "name": "@deepseek-ai/dsh-file-reference-local",
+      "roles": [
+        "filesystem"
+      ],
+      "original": false
+    },
+    {
+      "name": "@deepseek-ai/dsh-fs",
+      "roles": [
+        "filesystem"
+      ],
+      "original": false
+    },
+    {
+      "name": "@deepseek-ai/dsh-fs-local",
+      "roles": [
+        "filesystem"
+      ],
+      "original": false
+    },
+    {
+      "name": "@deepseek-ai/dsh-home-paths",
+      "roles": [
+        "filesystem"
+      ],
+      "original": false
+    },
+    {
+      "name": "@deepseek-ai/dsh-llm-deepseek-account",
+      "roles": [
+        "authentication"
+      ],
+      "original": false
+    },
+    {
+      "name": "@deepseek-ai/dsh-skill-filesystem",
+      "roles": [
+        "filesystem"
+      ],
+      "original": false
+    },
+    {
+      "name": "@deepseek-ai/dsh-tool-fs",
+      "roles": [
+        "filesystem"
+      ],
+      "original": false
+    },
+    {
+      "name": "@depot/cli",
+      "roles": [
+        "cli"
+      ],
+      "original": false
+    },
+    {
+      "name": "@descope/escape-markdown",
+      "roles": [
+        "markdown"
+      ],
+      "original": false
+    },
+    {
+      "name": "@devcontainers/cli",
+      "roles": [
+        "cli"
+      ],
+      "original": false
+    },
+    {
+      "name": "@develar/schema-utils",
+      "roles": [
+        "validation"
+      ],
+      "original": false
+    },
+    {
+      "name": "@digitalbazaar/http-client",
+      "roles": [
+        "http"
+      ],
+      "original": false
+    },
+    {
+      "name": "@dnd-kit/utilities",
+      "roles": [
+        "utilities"
+      ],
+      "original": false
+    },
+    {
+      "name": "@docusaurus/utils-validation",
+      "roles": [
+        "validation"
+      ],
+      "original": false
+    },
+    {
+      "name": "@dprint/markdown",
+      "roles": [
+        "markdown"
+      ],
+      "original": false
+    },
+    {
+      "name": "@editorjs/image",
+      "roles": [
+        "image"
+      ],
+      "original": false
+    },
+    {
+      "name": "@effectful/serialization",
+      "roles": [
+        "serialization"
+      ],
+      "original": false
+    },
+    {
+      "name": "@elastic/ecs-helpers",
+      "roles": [
+        "logging"
+      ],
+      "original": false
+    },
+    {
+      "name": "@elastic/request-crypto",
+      "roles": [
+        "cryptography"
+      ],
+      "original": false
+    },
+    {
+      "name": "@electron-forge/template-base",
+      "roles": [
+        "template"
+      ],
+      "original": false
+    },
+    {
+      "name": "@electron-forge/template-webpack-typescript",
+      "roles": [
+        "template"
+      ],
+      "original": false
+    },
+    {
+      "name": "@emmetio/stream-reader",
+      "roles": [
+        "stream"
+      ],
+      "original": false
+    },
+    {
+      "name": "@emotion/serialize",
+      "roles": [
+        "serialization"
+      ],
+      "original": false
+    },
+    {
+      "name": "@emotion/stylis",
+      "roles": [
+        "build"
+      ],
+      "original": false
+    },
+    {
+      "name": "@emurgo/cardano-serialization-lib-asmjs",
+      "roles": [
+        "serialization"
+      ],
+      "original": false
+    },
+    {
+      "name": "@emurgo/cardano-serialization-lib-browser",
+      "roles": [
+        "serialization"
+      ],
+      "original": false
+    },
+    {
+      "name": "@emurgo/cardano-serialization-lib-nodejs",
+      "roles": [
+        "serialization"
+      ],
+      "original": false
+    },
+    {
+      "name": "@envelop/extended-validation",
+      "roles": [
+        "validation"
+      ],
+      "original": false
+    },
+    {
+      "name": "@envelop/validation-cache",
+      "roles": [
+        "validation"
+      ],
+      "original": false
+    },
+    {
+      "name": "@eslint-community/eslint-utils",
+      "roles": [
+        "utilities"
+      ],
+      "original": false
+    },
+    {
+      "name": "@eslint/compat",
+      "roles": [
+        "utilities"
+      ],
+      "original": false
+    },
+    {
+      "name": "@eslint/config-helpers",
+      "roles": [
+        "utilities"
+      ],
+      "original": false
+    },
+    {
+      "name": "@eslint/markdown",
+      "roles": [
+        "markdown"
+      ],
+      "original": false
+    },
+    {
+      "name": "@eslint/plugin-kit",
+      "roles": [
+        "utilities"
+      ],
+      "original": false
+    },
+    {
+      "name": "@ethereumjs/block",
+      "roles": [
+        "serialization"
+      ],
+      "original": false
+    },
+    {
+      "name": "@ethersproject/networks",
+      "roles": [
+        "network"
+      ],
+      "original": false
+    },
+    {
+      "name": "@excalidraw/markdown-to-text",
+      "roles": [
+        "markdown"
+      ],
+      "original": false
+    },
+    {
+      "name": "@exodus/bitcoin-lib",
+      "roles": [
+        "cryptography"
+      ],
+      "original": false
+    },
+    {
+      "name": "@exodus/crypto",
+      "roles": [
+        "cryptography"
+      ],
+      "original": false
+    },
+    {
+      "name": "@exodus/ethereum-lib",
+      "roles": [
+        "cryptography"
+      ],
+      "original": false
+    },
+    {
+      "name": "@exodus/filesystem",
+      "roles": [
+        "filesystem"
+      ],
+      "original": false
+    },
+    {
+      "name": "@exodus/serialization",
+      "roles": [
+        "serialization"
+      ],
+      "original": false
+    },
+    {
+      "name": "@expo/build-tools",
+      "roles": [
+        "build"
+      ],
+      "original": false
+    },
+    {
+      "name": "@expo/bunyan",
+      "roles": [
+        "logging"
+      ],
+      "original": false
+    },
+    {
+      "name": "@expo/cli",
+      "roles": [
+        "cli"
+      ],
+      "original": false
+    },
+    {
+      "name": "@expo/eas-build-job",
+      "roles": [
+        "build"
+      ],
+      "original": false
+    },
+    {
+      "name": "@expo/local-build-cache-provider",
+      "roles": [
+        "build"
+      ],
+      "original": false
+    },
+    {
+      "name": "@expo/schema-utils",
+      "roles": [
+        "validation"
+      ],
+      "original": false
+    },
+    {
+      "name": "@expo/template-file",
+      "roles": [
+        "template"
+      ],
+      "original": false
+    },
+    {
+      "name": "@expressots/cli",
+      "roles": [
+        "cli"
+      ],
+      "original": false
+    },
+    {
+      "name": "@fastify/compress",
+      "roles": [
+        "compression"
+      ],
+      "original": false
+    },
+    {
+      "name": "@fastify/http-proxy",
+      "roles": [
+        "http"
+      ],
+      "original": false
+    },
+    {
+      "name": "@fastify/view",
+      "roles": [
+        "template"
+      ],
+      "original": false
+    },
+    {
+      "name": "@feathersjs/authentication",
+      "roles": [
+        "authentication"
+      ],
+      "original": false
+    },
+    {
+      "name": "@feathersjs/authentication-client",
+      "roles": [
+        "authentication"
+      ],
+      "original": false
+    },
+    {
+      "name": "@feathersjs/authentication-jwt",
+      "roles": [
+        "authentication"
+      ],
+      "original": false
+    },
+    {
+      "name": "@feathersjs/authentication-local",
+      "roles": [
+        "authentication"
+      ],
+      "original": false
+    },
+    {
+      "name": "@feathersjs/authentication-oauth",
+      "roles": [
+        "authentication"
+      ],
+      "original": false
+    },
+    {
+      "name": "@firebase/database",
+      "roles": [
+        "database"
+      ],
+      "original": false
+    },
+    {
+      "name": "@firebase/database-compat",
+      "roles": [
+        "database"
+      ],
+      "original": false
+    },
+    {
+      "name": "@firebase/database-types",
+      "roles": [
+        "database"
+      ],
+      "original": false
+    },
+    {
+      "name": "@firebase/rules-unit-testing",
+      "roles": [
+        "testing"
+      ],
+      "original": false
+    },
+    {
+      "name": "@floating-ui/utils",
+      "roles": [
+        "utilities"
+      ],
+      "original": false
+    },
+    {
+      "name": "@fluentui/chart-utilities",
+      "roles": [
+        "utilities"
+      ],
+      "original": false
+    },
+    {
+      "name": "@fluentui/date-time-utilities",
+      "roles": [
+        "utilities"
+      ],
+      "original": false
+    },
+    {
+      "name": "@fluentui/dom-utilities",
+      "roles": [
+        "utilities"
+      ],
+      "original": false
+    },
+    {
+      "name": "@fluentui/react-image",
+      "roles": [
+        "image"
+      ],
+      "original": false
+    },
+    {
+      "name": "@fluentui/react-utilities",
+      "roles": [
+        "utilities"
+      ],
+      "original": false
+    },
+    {
+      "name": "@fluentui/utilities",
+      "roles": [
+        "utilities"
+      ],
+      "original": false
+    },
+    {
+      "name": "@formatjs/cli",
+      "roles": [
+        "cli"
+      ],
+      "original": false
+    },
+    {
+      "name": "@formatjs/cli-lib",
+      "roles": [
+        "cli"
+      ],
+      "original": false
+    },
+    {
+      "name": "@formatjs/icu-messageformat-parser",
+      "roles": [
+        "parser"
+      ],
+      "original": false
+    },
+    {
+      "name": "@formkit/validation",
+      "roles": [
+        "validation"
+      ],
+      "original": false
+    },
+    {
+      "name": "@foxglove/cdr",
+      "roles": [
+        "serialization"
+      ],
+      "original": false
+    },
+    {
+      "name": "@foxglove/omgidl-parser",
+      "roles": [
+        "serialization"
+      ],
+      "original": false
+    },
+    {
+      "name": "@foxglove/rosmsg-serialization",
+      "roles": [
+        "serialization"
+      ],
+      "original": false
+    },
+    {
+      "name": "@foxglove/rosmsg2-serialization",
+      "roles": [
+        "serialization"
+      ],
+      "original": false
+    },
+    {
+      "name": "@freedomofpress/crypto-browser",
+      "roles": [
+        "cryptography"
+      ],
+      "original": false
+    },
+    {
+      "name": "@fumari/image-size",
+      "roles": [
+        "image"
+      ],
+      "original": false
+    },
+    {
+      "name": "@genesislcap/build-kit",
+      "roles": [
+        "build"
+      ],
+      "original": false
+    },
+    {
+      "name": "@gjsify/compression-streams",
+      "roles": [
+        "compression"
+      ],
+      "original": false
+    },
+    {
+      "name": "@google-cloud/functions-framework",
+      "roles": [
+        "framework"
+      ],
+      "original": false
+    },
+    {
+      "name": "@google-cloud/logging",
+      "roles": [
+        "logging"
+      ],
+      "original": false
+    },
+    {
+      "name": "@google-cloud/logging-api",
+      "roles": [
+        "logging"
+      ],
+      "original": false
+    },
+    {
+      "name": "@google-cloud/logging-bunyan",
+      "roles": [
+        "logging"
+      ],
+      "original": false
+    },
+    {
+      "name": "@google-cloud/logging-min",
+      "roles": [
+        "logging"
+      ],
+      "original": false
+    },
+    {
+      "name": "@google-cloud/logging-winston",
+      "roles": [
+        "logging"
+      ],
+      "original": false
+    },
+    {
+      "name": "@google-cloud/pino-logging-gcp-config",
+      "roles": [
+        "logging"
+      ],
+      "original": false
+    },
+    {
+      "name": "@google/gemini-cli",
+      "roles": [
+        "cli"
+      ],
+      "original": false
+    },
+    {
+      "name": "@googleapis/logging",
+      "roles": [
+        "logging"
+      ],
+      "original": false
+    },
+    {
+      "name": "@graphql-tools/graphql-tag-pluck",
+      "roles": [
+        "template"
+      ],
+      "original": false
+    },
+    {
+      "name": "@hapi/address",
+      "roles": [
+        "validation"
+      ],
+      "original": false
+    },
+    {
+      "name": "@hapi/ammo",
+      "roles": [
+        "utilities"
+      ],
+      "original": false
+    },
+    {
+      "name": "@hapi/cookie",
+      "roles": [
+        "authentication"
+      ],
+      "original": false
+    },
+    {
+      "name": "@hapi/file",
+      "roles": [
+        "utilities"
+      ],
+      "original": false
+    },
+    {
+      "name": "@hapi/hapi",
+      "roles": [
+        "server framework",
+        "framework"
+      ],
+      "original": true
+    },
+    {
+      "name": "@hapi/hoek",
+      "roles": [
+        "utilities"
+      ],
+      "original": false
+    },
+    {
+      "name": "@hapi/mimos",
+      "roles": [
+        "database"
+      ],
+      "original": false
+    },
+    {
+      "name": "@hapi/tlds",
+      "roles": [
+        "validation"
+      ],
+      "original": false
+    },
+    {
+      "name": "@hapi/validate",
+      "roles": [
+        "validation"
+      ],
+      "original": false
+    },
+    {
+      "name": "@hapi/wreck",
+      "roles": [
+        "utilities"
+      ],
+      "original": false
+    },
+    {
+      "name": "@heroui/image",
+      "roles": [
+        "image"
+      ],
+      "original": false
+    },
+    {
+      "name": "@heroui/use-image",
+      "roles": [
+        "image"
+      ],
+      "original": false
+    },
+    {
+      "name": "@hey-api/codegen-core",
+      "roles": [
+        "framework"
+      ],
+      "original": false
+    },
+    {
+      "name": "@hint/hint-http-compression",
+      "roles": [
+        "compression"
+      ],
+      "original": false
+    },
+    {
+      "name": "@hint/utils-fs",
+      "roles": [
+        "filesystem"
+      ],
+      "original": false
+    },
+    {
+      "name": "@hint/utils-network",
+      "roles": [
+        "network"
+      ],
+      "original": false
+    },
+    {
+      "name": "@hocuspocus/extension-database",
+      "roles": [
+        "database"
+      ],
+      "original": false
+    },
+    {
+      "name": "@hocuspocus/extension-logger",
+      "roles": [
+        "logging"
+      ],
+      "original": false
+    },
+    {
+      "name": "@hono/vite-build",
+      "roles": [
+        "build"
+      ],
+      "original": false
+    },
+    {
+      "name": "@html-eslint/template-parser",
+      "roles": [
+        "template"
+      ],
+      "original": false
+    },
+    {
+      "name": "@html-eslint/template-syntax-parser",
+      "roles": [
+        "template"
+      ],
+      "original": false
+    },
+    {
+      "name": "@hugerte/framework-integration-shared",
+      "roles": [
+        "framework"
+      ],
+      "original": false
+    },
+    {
+      "name": "@inngest/middleware-validation",
+      "roles": [
+        "validation"
+      ],
+      "original": false
+    },
+    {
+      "name": "@inquirer/testing",
+      "roles": [
+        "testing"
+      ],
+      "original": false
+    },
+    {
+      "name": "@interchainjs/crypto",
+      "roles": [
+        "cryptography"
+      ],
+      "original": false
+    },
+    {
+      "name": "@interfere/build",
+      "roles": [
+        "build"
+      ],
+      "original": false
+    },
+    {
+      "name": "@inversifyjs/framework-core",
+      "roles": [
+        "framework"
+      ],
+      "original": false
+    },
+    {
+      "name": "@invertase/react-native-apple-authentication",
+      "roles": [
+        "authentication"
+      ],
+      "original": false
+    },
+    {
+      "name": "@ionic/cli-framework",
+      "roles": [
+        "framework"
+      ],
+      "original": false
+    },
+    {
+      "name": "@ionic/cli-framework-output",
+      "roles": [
+        "framework"
+      ],
+      "original": false
+    },
+    {
+      "name": "@ionic/cli-framework-prompts",
+      "roles": [
+        "framework"
+      ],
+      "original": false
+    },
+    {
+      "name": "@ionic/utils-fs",
+      "roles": [
+        "filesystem"
+      ],
+      "original": false
+    },
+    {
+      "name": "@ionic/utils-network",
+      "roles": [
+        "network"
+      ],
+      "original": false
+    },
+    {
+      "name": "@ionic/utils-stream",
+      "roles": [
+        "stream"
+      ],
+      "original": false
+    },
+    {
+      "name": "@iota/bcs",
+      "roles": [
+        "serialization"
+      ],
+      "original": false
+    },
+    {
+      "name": "@iov/crypto",
+      "roles": [
+        "cryptography"
+      ],
+      "original": false
+    },
+    {
+      "name": "@itwin/build-tools",
+      "roles": [
+        "build"
+      ],
+      "original": false
+    },
+    {
+      "name": "@jest/core",
+      "roles": [
+        "testing"
+      ],
+      "original": false
+    },
+    {
+      "name": "@jimp/plugin-scale",
+      "roles": [
+        "image"
+      ],
+      "original": false
+    },
+    {
+      "name": "@jm18457/kafkajs-msk-iam-authentication-mechanism",
+      "roles": [
+        "authentication"
+      ],
+      "original": false
+    },
+    {
+      "name": "@jsep-plugin/template",
+      "roles": [
+        "template"
+      ],
+      "original": false
+    },
+    {
+      "name": "@jsonjoy.com/fs-core",
+      "roles": [
+        "filesystem"
+      ],
+      "original": false
+    },
+    {
+      "name": "@jsonjoy.com/fs-fsa",
+      "roles": [
+        "filesystem"
+      ],
+      "original": false
+    },
+    {
+      "name": "@jsonjoy.com/fs-node",
+      "roles": [
+        "filesystem"
+      ],
+      "original": false
+    },
+    {
+      "name": "@jsonjoy.com/json-pack",
+      "roles": [
+        "serialization"
+      ],
+      "original": false
+    },
+    {
+      "name": "@jsonjoy.com/util",
+      "roles": [
+        "utilities"
+      ],
+      "original": false
+    },
+    {
+      "name": "@kadena/cryptography-utils",
+      "roles": [
+        "cryptography"
+      ],
+      "original": false
+    },
+    {
+      "name": "@keyv/compress-gzip",
+      "roles": [
+        "compression"
+      ],
+      "original": false
+    },
+    {
+      "name": "@keyv/serialize",
+      "roles": [
+        "serialization"
+      ],
+      "original": false
+    },
+    {
+      "name": "@ledgerhq/live-network",
+      "roles": [
+        "network"
+      ],
+      "original": false
+    },
+    {
+      "name": "@lexical/markdown",
+      "roles": [
+        "markdown"
+      ],
+      "original": false
+    },
+    {
+      "name": "@lezer/markdown",
+      "roles": [
+        "markdown"
+      ],
+      "original": false
+    },
+    {
+      "name": "@lichtblick/rosmsg-serialization",
+      "roles": [
+        "serialization"
+      ],
+      "original": false
+    },
+    {
+      "name": "@lichtblick/rosmsg2-serialization",
+      "roles": [
+        "serialization"
+      ],
+      "original": false
+    },
+    {
+      "name": "@loaders.gl/compression",
+      "roles": [
+        "compression"
+      ],
+      "original": false
+    },
+    {
+      "name": "@loglayer/transport-google-cloud-logging",
+      "roles": [
+        "logging"
+      ],
+      "original": false
+    },
+    {
+      "name": "@logtail/core",
+      "roles": [
+        "logging"
+      ],
+      "original": false
+    },
+    {
+      "name": "@loopback/authentication",
+      "roles": [
+        "authentication"
+      ],
+      "original": false
+    },
+    {
+      "name": "@loopback/authentication-jwt",
+      "roles": [
+        "authentication"
+      ],
+      "original": false
+    },
+    {
+      "name": "@lvce-editor/network-process",
+      "roles": [
+        "network"
+      ],
+      "original": false
+    },
+    {
+      "name": "@lwc/template-compiler",
+      "roles": [
+        "template"
+      ],
+      "original": false
+    },
+    {
+      "name": "@maizzle/framework",
+      "roles": [
+        "framework"
+      ],
+      "original": false
+    },
+    {
+      "name": "@mapped/elliptic",
+      "roles": [
+        "cryptography"
+      ],
+      "original": false
+    },
+    {
+      "name": "@marionebl/sander",
+      "roles": [
+        "filesystem"
+      ],
+      "original": false
+    },
+    {
+      "name": "@maroonedsoftware/authentication",
+      "roles": [
+        "authentication"
+      ],
+      "original": false
+    },
+    {
+      "name": "@material/image-list",
+      "roles": [
+        "image"
+      ],
+      "original": false
+    },
+    {
+      "name": "@matrix42/cli-cryptography",
+      "roles": [
+        "cryptography"
+      ],
+      "original": false
+    },
+    {
+      "name": "@medusajs/file-local",
+      "roles": [
+        "filesystem"
+      ],
+      "original": false
+    },
+    {
+      "name": "@medusajs/framework",
+      "roles": [
+        "framework"
+      ],
+      "original": false
+    },
+    {
+      "name": "@mermaid-js/parser",
+      "roles": [
+        "parser"
+      ],
+      "original": false
+    },
+    {
+      "name": "@messageformat/parser",
+      "roles": [
+        "parser"
+      ],
+      "original": false
+    },
+    {
+      "name": "@metamask-previews/cryptography",
+      "roles": [
+        "cryptography"
+      ],
+      "original": false
+    },
+    {
+      "name": "@metamask/auth-network-utils",
+      "roles": [
+        "network"
+      ],
+      "original": false
+    },
+    {
+      "name": "@metamask/cryptography",
+      "roles": [
+        "cryptography"
+      ],
+      "original": false
+    },
+    {
+      "name": "@metamask/logging-controller",
+      "roles": [
+        "logging"
+      ],
+      "original": false
+    },
+    {
+      "name": "@metamask/multichain-network-controller",
+      "roles": [
+        "network"
+      ],
+      "original": false
+    },
+    {
+      "name": "@metamask/network-controller",
+      "roles": [
+        "network"
+      ],
+      "original": false
+    },
+    {
+      "name": "@metamask/network-enablement-controller",
+      "roles": [
+        "network"
+      ],
+      "original": false
+    },
+    {
+      "name": "@metaverse-network-sdk/type-definitions",
+      "roles": [
+        "network"
+      ],
+      "original": false
+    },
+    {
+      "name": "@microsoft/fast-web-utilities",
+      "roles": [
+        "utilities"
+      ],
+      "original": false
+    },
+    {
+      "name": "@microsoft/kiota-authentication-azure",
+      "roles": [
+        "authentication"
+      ],
+      "original": false
+    },
+    {
+      "name": "@microsoft/kiota-serialization-form",
+      "roles": [
+        "serialization"
+      ],
+      "original": false
+    },
+    {
+      "name": "@microsoft/kiota-serialization-json",
+      "roles": [
+        "serialization"
+      ],
+      "original": false
+    },
+    {
+      "name": "@microsoft/kiota-serialization-multipart",
+      "roles": [
+        "serialization"
+      ],
+      "original": false
+    },
+    {
+      "name": "@microsoft/kiota-serialization-text",
+      "roles": [
+        "serialization"
+      ],
+      "original": false
+    },
+    {
+      "name": "@mintlify/cli",
+      "roles": [
+        "cli"
+      ],
+      "original": false
+    },
+    {
+      "name": "@modelcontextprotocol/server-filesystem",
+      "roles": [
+        "filesystem"
+      ],
+      "original": false
+    },
+    {
+      "name": "@module-federation/cli",
+      "roles": [
+        "cli"
+      ],
+      "original": false
+    },
+    {
+      "name": "@mojotech/json-type-validation",
+      "roles": [
+        "validation"
+      ],
+      "original": false
+    },
+    {
+      "name": "@mongosh/logging",
+      "roles": [
+        "logging"
+      ],
+      "original": false
+    },
+    {
+      "name": "@mswjs/interceptors",
+      "roles": [
+        "network"
+      ],
+      "original": false
+    },
+    {
+      "name": "@mysten/bcs",
+      "roles": [
+        "serialization"
+      ],
+      "original": false
+    },
+    {
+      "name": "@n8n/ai-utilities",
+      "roles": [
+        "utilities"
+      ],
+      "original": false
+    },
+    {
+      "name": "@n8n/backend-network",
+      "roles": [
+        "network"
+      ],
+      "original": false
+    },
+    {
+      "name": "@napi-rs/cli",
+      "roles": [
+        "cli"
+      ],
+      "original": false
+    },
+    {
+      "name": "@napi-rs/snappy-linux-arm64-gnu",
+      "roles": [
+        "compression"
+      ],
+      "original": false
+    },
+    {
+      "name": "@napi-rs/snappy-linux-arm64-musl",
+      "roles": [
+        "compression"
+      ],
+      "original": false
+    },
+    {
+      "name": "@napi-rs/snappy-linux-x64-gnu",
+      "roles": [
+        "compression"
+      ],
+      "original": false
+    },
+    {
+      "name": "@napi-rs/snappy-linux-x64-musl",
+      "roles": [
+        "compression"
+      ],
+      "original": false
+    },
+    {
+      "name": "@nestjs/core",
+      "roles": [
+        "server framework"
+      ],
+      "original": true
+    },
+    {
+      "name": "@nestjs/testing",
+      "roles": [
+        "testing"
+      ],
+      "original": false
+    },
+    {
+      "name": "@netlify/build",
+      "roles": [
+        "build"
+      ],
+      "original": false
+    },
+    {
+      "name": "@netlify/build-info",
+      "roles": [
+        "build"
+      ],
+      "original": false
+    },
+    {
+      "name": "@netlify/database",
+      "roles": [
+        "database"
+      ],
+      "original": false
+    },
+    {
+      "name": "@netlify/database-dev",
+      "roles": [
+        "database"
+      ],
+      "original": false
+    },
+    {
+      "name": "@netlify/framework-info",
+      "roles": [
+        "framework"
+      ],
+      "original": false
+    },
+    {
+      "name": "@nexrender/database-redis",
+      "roles": [
+        "database"
+      ],
+      "original": false
+    },
+    {
+      "name": "@ngriffin_uk/auth-crypto",
+      "roles": [
+        "cryptography"
+      ],
+      "original": false
+    },
+    {
+      "name": "@nightwatch/html-reporter-template",
+      "roles": [
+        "template"
+      ],
+      "original": false
+    },
+    {
+      "name": "@noble/curves",
+      "roles": [
+        "cryptography"
+      ],
+      "original": false
+    },
+    {
+      "name": "@noble/post-quantum",
+      "roles": [
+        "cryptography"
+      ],
+      "original": false
+    },
+    {
+      "name": "@nodetool-ai/security-core",
+      "roles": [
+        "cryptography"
+      ],
+      "original": false
+    },
+    {
+      "name": "@npmcli/fs",
+      "roles": [
+        "filesystem"
+      ],
+      "original": false
+    },
+    {
+      "name": "@nuxt-modules/compression",
+      "roles": [
+        "compression"
+      ],
+      "original": false
+    },
+    {
+      "name": "@nuxt/cli",
+      "roles": [
+        "cli"
+      ],
+      "original": false
+    },
+    {
+      "name": "@nuxt/image",
+      "roles": [
+        "image"
+      ],
+      "original": false
+    },
+    {
+      "name": "@observablehq/framework",
+      "roles": [
+        "framework"
+      ],
+      "original": false
+    },
+    {
+      "name": "@octokit/auth-app",
+      "roles": [
+        "authentication"
+      ],
+      "original": false
+    },
+    {
+      "name": "@octokit/auth-oauth-app",
+      "roles": [
+        "authentication"
+      ],
+      "original": false
+    },
+    {
+      "name": "@octokit/auth-oauth-device",
+      "roles": [
+        "authentication"
+      ],
+      "original": false
+    },
+    {
+      "name": "@octokit/auth-oauth-user",
+      "roles": [
+        "authentication"
+      ],
+      "original": false
+    },
+    {
+      "name": "@octokit/auth-token",
+      "roles": [
+        "authentication"
+      ],
+      "original": false
+    },
+    {
+      "name": "@octokit/auth-unauthenticated",
+      "roles": [
+        "authentication"
+      ],
+      "original": false
+    },
+    {
+      "name": "@octokit/graphql-schema",
+      "roles": [
+        "validation"
+      ],
+      "original": false
+    },
+    {
+      "name": "@oh-my-pi/snapcompact",
+      "roles": [
+        "compression"
+      ],
+      "original": false
+    },
+    {
+      "name": "@okta/configuration-validation",
+      "roles": [
+        "validation"
+      ],
+      "original": false
+    },
+    {
+      "name": "@onekeyfe/react-native-network-info",
+      "roles": [
+        "network"
+      ],
+      "original": false
+    },
+    {
+      "name": "@onekeyfe/react-native-network-throttle",
+      "roles": [
+        "network"
+      ],
+      "original": false
+    },
+    {
+      "name": "@open-wc/testing",
+      "roles": [
+        "testing"
+      ],
+      "original": false
+    },
+    {
+      "name": "@open-wc/testing-helpers",
+      "roles": [
+        "testing"
+      ],
+      "original": false
+    },
+    {
+      "name": "@openclaw/fs-safe",
+      "roles": [
+        "filesystem"
+      ],
+      "original": false
+    },
+    {
+      "name": "@opentelemetry/instrumentation-http",
+      "roles": [
+        "http"
+      ],
+      "original": false
+    },
+    {
+      "name": "@opentelemetry/instrumentation-ioredis",
+      "roles": [
+        "database"
+      ],
+      "original": false
+    },
+    {
+      "name": "@opentelemetry/instrumentation-knex",
+      "roles": [
+        "database"
+      ],
+      "original": false
+    },
+    {
+      "name": "@opentelemetry/instrumentation-memcached",
+      "roles": [
+        "database"
+      ],
+      "original": false
+    },
+    {
+      "name": "@opentelemetry/instrumentation-mongodb",
+      "roles": [
+        "database"
+      ],
+      "original": false
+    },
+    {
+      "name": "@opentelemetry/instrumentation-mysql",
+      "roles": [
+        "database"
+      ],
+      "original": false
+    },
+    {
+      "name": "@opentelemetry/instrumentation-mysql2",
+      "roles": [
+        "database"
+      ],
+      "original": false
+    },
+    {
+      "name": "@opentelemetry/instrumentation-net",
+      "roles": [
+        "network"
+      ],
+      "original": false
+    },
+    {
+      "name": "@opentelemetry/instrumentation-oracledb",
+      "roles": [
+        "database"
+      ],
+      "original": false
+    },
+    {
+      "name": "@opentelemetry/instrumentation-pg",
+      "roles": [
+        "database"
+      ],
+      "original": false
+    },
+    {
+      "name": "@opentelemetry/instrumentation-redis",
+      "roles": [
+        "database"
+      ],
+      "original": false
+    },
+    {
+      "name": "@opentelemetry/instrumentation-tedious",
+      "roles": [
+        "database"
+      ],
+      "original": false
+    },
+    {
+      "name": "@optimizely/js-sdk-logging",
+      "roles": [
+        "logging"
+      ],
+      "original": false
+    },
+    {
+      "name": "@osaas/logging",
+      "roles": [
+        "logging"
+      ],
+      "original": false
+    },
+    {
+      "name": "@oxc-parser/binding-darwin-arm64",
+      "roles": [
+        "parser"
+      ],
+      "original": false
+    },
+    {
+      "name": "@oxc-parser/binding-darwin-x64",
+      "roles": [
+        "parser"
+      ],
+      "original": false
+    },
+    {
+      "name": "@oxc-parser/binding-linux-arm64-gnu",
+      "roles": [
+        "parser"
+      ],
+      "original": false
+    },
+    {
+      "name": "@oxc-parser/binding-linux-arm64-musl",
+      "roles": [
+        "parser"
+      ],
+      "original": false
+    },
+    {
+      "name": "@oxc-parser/binding-linux-x64-gnu",
+      "roles": [
+        "parser"
+      ],
+      "original": false
+    },
+    {
+      "name": "@oxc-parser/binding-linux-x64-musl",
+      "roles": [
+        "parser"
+      ],
+      "original": false
+    },
+    {
+      "name": "@oxc-parser/binding-win32-arm64-msvc",
+      "roles": [
+        "parser"
+      ],
+      "original": false
+    },
+    {
+      "name": "@oxc-parser/binding-win32-x64-msvc",
+      "roles": [
+        "parser"
+      ],
+      "original": false
+    },
+    {
+      "name": "@parcel/watcher",
+      "roles": [
+        "filesystem"
+      ],
+      "original": false
+    },
+    {
+      "name": "@parcel/watcher-wasm",
+      "roles": [
+        "filesystem"
+      ],
+      "original": false
+    },
+    {
+      "name": "@pedrouid/iso-crypto",
+      "roles": [
+        "cryptography"
+      ],
+      "original": false
+    },
+    {
+      "name": "@percy/cli",
+      "roles": [
+        "cli"
+      ],
+      "original": false
+    },
+    {
+      "name": "@php-wasm/stream-compression",
+      "roles": [
+        "compression"
+      ],
+      "original": false
+    },
+    {
+      "name": "@pinia/testing",
+      "roles": [
+        "testing"
+      ],
+      "original": false
+    },
+    {
+      "name": "@planetscale/database",
+      "roles": [
+        "database"
+      ],
+      "original": false
+    },
+    {
+      "name": "@plasmohq/consolidate",
+      "roles": [
+        "template"
+      ],
+      "original": false
+    },
+    {
+      "name": "@platejs/markdown",
+      "roles": [
+        "markdown"
+      ],
+      "original": false
+    },
+    {
+      "name": "@playwright-testing-library/test",
+      "roles": [
+        "testing"
+      ],
+      "original": false
+    },
+    {
+      "name": "@playwright/cli",
+      "roles": [
+        "cli"
+      ],
+      "original": false
+    },
+    {
+      "name": "@pnp/logging",
+      "roles": [
+        "logging"
+      ],
+      "original": false
+    },
+    {
+      "name": "@pnpm/build-modules",
+      "roles": [
+        "build"
+      ],
+      "original": false
+    },
+    {
+      "name": "@pnpm/store.cafs",
+      "roles": [
+        "filesystem"
+      ],
+      "original": false
+    },
+    {
+      "name": "@polka/compression",
+      "roles": [
+        "compression"
+      ],
+      "original": false
+    },
+    {
+      "name": "@poppinss/validator-lite",
+      "roles": [
+        "validation"
+      ],
+      "original": false
+    },
+    {
+      "name": "@portabletext/markdown",
+      "roles": [
+        "markdown"
+      ],
+      "original": false
+    },
+    {
+      "name": "@portabletext/plugin-markdown-shortcuts",
+      "roles": [
+        "markdown"
+      ],
+      "original": false
+    },
+    {
+      "name": "@pothos/plugin-validation",
+      "roles": [
+        "validation"
+      ],
+      "original": false
+    },
+    {
+      "name": "@prisma/dev",
+      "roles": [
+        "testing"
+      ],
+      "original": false
+    },
+    {
+      "name": "@privy-io/chains",
+      "roles": [
+        "network"
+      ],
+      "original": false
+    },
+    {
+      "name": "@probe.gl/log",
+      "roles": [
+        "logging"
+      ],
+      "original": false
+    },
+    {
+      "name": "@protobuf-ts/plugin-framework",
+      "roles": [
+        "framework"
+      ],
+      "original": false
+    },
+    {
+      "name": "@putout/cli-filesystem",
+      "roles": [
+        "filesystem"
+      ],
+      "original": false
+    },
+    {
+      "name": "@putout/operator-filesystem",
+      "roles": [
+        "filesystem"
+      ],
+      "original": false
+    },
+    {
+      "name": "@putout/plugin-filesystem",
+      "roles": [
+        "filesystem"
+      ],
+      "original": false
+    },
+    {
+      "name": "@putout/processor-filesystem",
+      "roles": [
+        "filesystem"
+      ],
+      "original": false
+    },
+    {
+      "name": "@quansync/fs",
+      "roles": [
+        "filesystem"
+      ],
+      "original": false
+    },
+    {
+      "name": "@qvac/logging",
+      "roles": [
+        "logging"
+      ],
+      "original": false
+    },
+    {
+      "name": "@radix-ui/react-portal",
+      "roles": [
+        "utilities"
+      ],
+      "original": false
+    },
+    {
+      "name": "@radix-ui/react-slot",
+      "roles": [
+        "utilities"
+      ],
+      "original": false
+    },
+    {
+      "name": "@rails/actioncable",
+      "roles": [
+        "framework"
+      ],
+      "original": false
+    },
+    {
+      "name": "@rbxts/cryptography",
+      "roles": [
+        "cryptography"
+      ],
+      "original": false
+    },
+    {
+      "name": "@rc-component/image",
+      "roles": [
+        "image"
+      ],
+      "original": false
+    },
+    {
+      "name": "@rcompat/fs",
+      "roles": [
+        "filesystem"
+      ],
+      "original": false
+    },
+    {
+      "name": "@react-native-community/cli",
+      "roles": [
+        "cli"
+      ],
+      "original": false
+    },
+    {
+      "name": "@react-native-community/netinfo",
+      "roles": [
+        "network"
+      ],
+      "original": false
+    },
+    {
+      "name": "@react-native-firebase/database",
+      "roles": [
+        "database"
+      ],
+      "original": false
+    },
+    {
+      "name": "@react-native/community-cli-plugin",
+      "roles": [
+        "cli"
+      ],
+      "original": false
+    },
+    {
+      "name": "@react-navigation/routers",
+      "roles": [
+        "build"
+      ],
+      "original": false
+    },
+    {
+      "name": "@react-pdf/textkit",
+      "roles": [
+        "framework"
+      ],
+      "original": false
+    },
+    {
+      "name": "@redocly/respect-core",
+      "roles": [
+        "testing"
+      ],
+      "original": false
+    },
+    {
+      "name": "@remix-run/fs",
+      "roles": [
+        "filesystem"
+      ],
+      "original": false
+    },
+    {
+      "name": "@remix-run/router",
+      "roles": [
+        "framework"
+      ],
+      "original": false
+    },
+    {
+      "name": "@remix-run/testing",
+      "roles": [
+        "testing"
+      ],
+      "original": false
+    },
+    {
+      "name": "@replit/database",
+      "roles": [
+        "database"
+      ],
+      "original": false
+    },
+    {
+      "name": "@rnx-kit/tools-filesystem",
+      "roles": [
+        "filesystem"
+      ],
+      "original": false
+    },
+    {
+      "name": "@rocicorp/logger",
+      "roles": [
+        "logging"
+      ],
+      "original": false
+    },
+    {
+      "name": "@rolldown/pluginutils",
+      "roles": [
+        "utilities"
+      ],
+      "original": false
+    },
+    {
+      "name": "@roots/filesystem",
+      "roles": [
+        "filesystem"
+      ],
+      "original": false
+    },
+    {
+      "name": "@rozenite/network-activity-plugin",
+      "roles": [
+        "network"
+      ],
+      "original": false
+    },
+    {
+      "name": "@rsbuild/core",
+      "roles": [
+        "build"
+      ],
+      "original": false
+    },
+    {
+      "name": "@rspack/cli",
+      "roles": [
+        "cli"
+      ],
+      "original": false
+    },
+    {
+      "name": "@rushstack/rush-amazon-s3-build-cache-plugin",
+      "roles": [
+        "build"
+      ],
+      "original": false
+    },
+    {
+      "name": "@rushstack/rush-azure-storage-build-cache-plugin",
+      "roles": [
+        "build"
+      ],
+      "original": false
+    },
+    {
+      "name": "@rushstack/rush-http-build-cache-plugin",
+      "roles": [
+        "build"
+      ],
+      "original": false
+    },
+    {
+      "name": "@rx-angular/template",
+      "roles": [
+        "template"
+      ],
+      "original": false
+    },
+    {
+      "name": "@salesforce/cli",
+      "roles": [
+        "cli"
+      ],
+      "original": false
+    },
+    {
+      "name": "@sanity/cli",
+      "roles": [
+        "cli"
+      ],
+      "original": false
+    },
+    {
+      "name": "@sanity/cli-core",
+      "roles": [
+        "cli"
+      ],
+      "original": false
+    },
+    {
+      "name": "@sanity/image-url",
+      "roles": [
+        "image"
+      ],
+      "original": false
+    },
+    {
+      "name": "@sanity/template-validator",
+      "roles": [
+        "template"
+      ],
+      "original": false
+    },
+    {
+      "name": "@sanity/validation",
+      "roles": [
+        "validation"
+      ],
+      "original": false
+    },
+    {
+      "name": "@sap-ux/logger",
+      "roles": [
+        "logging"
+      ],
+      "original": false
+    },
+    {
+      "name": "@sap/audit-logging",
+      "roles": [
+        "logging"
+      ],
+      "original": false
+    },
+    {
+      "name": "@sap/di.code-validation.core",
+      "roles": [
+        "validation"
+      ],
+      "original": false
+    },
+    {
+      "name": "@sap/generator-add-hdb-module",
+      "roles": [
+        "database"
+      ],
+      "original": false
+    },
+    {
+      "name": "@sap/hana-database-explorer",
+      "roles": [
+        "database"
+      ],
+      "original": false
+    },
+    {
+      "name": "@sap/logging",
+      "roles": [
+        "logging"
+      ],
+      "original": false
+    },
+    {
+      "name": "@sapphire/shapeshift",
+      "roles": [
+        "validation"
+      ],
+      "original": false
+    },
+    {
+      "name": "@scalar/api-client",
+      "roles": [
+        "testing"
+      ],
+      "original": false
+    },
+    {
+      "name": "@scalar/openapi-parser",
+      "roles": [
+        "parser"
+      ],
+      "original": false
+    },
+    {
+      "name": "@scalar/validation",
+      "roles": [
+        "validation"
+      ],
+      "original": false
+    },
+    {
+      "name": "@scayle/unstorage-compression-driver",
+      "roles": [
+        "compression"
+      ],
+      "original": false
+    },
+    {
+      "name": "@scure/sr25519",
+      "roles": [
+        "cryptography"
+      ],
+      "original": false
+    },
+    {
+      "name": "@scure/starknet",
+      "roles": [
+        "cryptography"
+      ],
+      "original": false
+    },
+    {
+      "name": "@sentry-internal/browser-utils",
+      "roles": [
+        "utilities"
+      ],
+      "original": false
+    },
+    {
+      "name": "@sentry/browser-utils",
+      "roles": [
+        "utilities"
+      ],
+      "original": false
+    },
+    {
+      "name": "@sentry/cli",
+      "roles": [
+        "cli"
+      ],
+      "original": false
+    },
+    {
+      "name": "@sentry/cli-darwin",
+      "roles": [
+        "cli"
+      ],
+      "original": false
+    },
+    {
+      "name": "@sentry/cli-linux-x64",
+      "roles": [
+        "cli"
+      ],
+      "original": false
+    },
+    {
+      "name": "@sentry/server-utils",
+      "roles": [
+        "utilities"
+      ],
+      "original": false
+    },
+    {
+      "name": "@sentry/utils",
+      "roles": [
+        "utilities"
+      ],
+      "original": false
+    },
+    {
+      "name": "@serverless/utils",
+      "roles": [
+        "utilities"
+      ],
+      "original": false
+    },
+    {
+      "name": "@serwist/build",
+      "roles": [
+        "build"
+      ],
+      "original": false
+    },
+    {
+      "name": "@shikijs/markdown-it",
+      "roles": [
+        "markdown"
+      ],
+      "original": false
+    },
+    {
+      "name": "@shopify/cli",
+      "roles": [
+        "cli"
+      ],
+      "original": false
+    },
+    {
+      "name": "@sideway/address",
+      "roles": [
+        "validation"
+      ],
+      "original": false
+    },
+    {
+      "name": "@simonsmith/cypress-image-snapshot",
+      "roles": [
+        "image"
+      ],
+      "original": false
+    },
+    {
+      "name": "@sindresorhus/merge-streams",
+      "roles": [
+        "stream"
+      ],
+      "original": false
+    },
+    {
+      "name": "@slack/logger",
+      "roles": [
+        "logging"
+      ],
+      "original": false
+    },
+    {
+      "name": "@smithy/middleware-compression",
+      "roles": [
+        "compression"
+      ],
+      "original": false
+    },
+    {
+      "name": "@smithy/protocol-http",
+      "roles": [
+        "http"
+      ],
+      "original": false
+    },
+    {
+      "name": "@smithy/util-stream",
+      "roles": [
+        "stream"
+      ],
+      "original": false
+    },
+    {
+      "name": "@solana/rpc-transport-http",
+      "roles": [
+        "http"
+      ],
+      "original": false
+    },
+    {
+      "name": "@solana/spl-account-compression",
+      "roles": [
+        "compression"
+      ],
+      "original": false
+    },
+    {
+      "name": "@solidjs/testing-library",
+      "roles": [
+        "testing"
+      ],
+      "original": false
+    },
+    {
+      "name": "@sorokchat-messenger/cryptography-client",
+      "roles": [
+        "cryptography"
+      ],
+      "original": false
+    },
+    {
+      "name": "@spinajs/validation",
+      "roles": [
+        "validation"
+      ],
+      "original": false
+    },
+    {
+      "name": "@stablelib/nacl",
+      "roles": [
+        "cryptography"
+      ],
+      "original": false
+    },
+    {
+      "name": "@stacks/auth",
+      "roles": [
+        "authentication"
+      ],
+      "original": false
+    },
+    {
+      "name": "@stacks/network",
+      "roles": [
+        "network"
+      ],
+      "original": false
+    },
+    {
+      "name": "@stacksjs/build",
+      "roles": [
+        "build"
+      ],
+      "original": false
+    },
+    {
+      "name": "@stacksjs/database",
+      "roles": [
+        "database"
+      ],
+      "original": false
+    },
+    {
+      "name": "@stacksjs/logging",
+      "roles": [
+        "logging"
+      ],
+      "original": false
+    },
+    {
+      "name": "@stacksjs/testing",
+      "roles": [
+        "testing"
+      ],
+      "original": false
+    },
+    {
+      "name": "@stacksjs/validation",
+      "roles": [
+        "validation"
+      ],
+      "original": false
+    },
+    {
+      "name": "@stardazed/streams-compression",
+      "roles": [
+        "compression"
+      ],
+      "original": false
+    },
+    {
+      "name": "@statoscope/stats-extension-stats-validation-result",
+      "roles": [
+        "validation"
+      ],
+      "original": false
+    },
+    {
+      "name": "@stdlib/fs",
+      "roles": [
+        "filesystem"
+      ],
+      "original": false
+    },
+    {
+      "name": "@stdlib/fs-exists",
+      "roles": [
+        "filesystem"
+      ],
+      "original": false
+    },
+    {
+      "name": "@stoplight/better-ajv-errors",
+      "roles": [
+        "validation"
+      ],
+      "original": false
+    },
+    {
+      "name": "@storybook-astro/framework",
+      "roles": [
+        "framework"
+      ],
+      "original": false
+    },
+    {
+      "name": "@storybook/cli",
+      "roles": [
+        "cli"
+      ],
+      "original": false
+    },
+    {
+      "name": "@storybook/core-webpack",
+      "roles": [
+        "framework"
+      ],
+      "original": false
+    },
+    {
+      "name": "@strapi/database",
+      "roles": [
+        "database"
+      ],
+      "original": false
+    },
+    {
+      "name": "@stripe/formspec-build",
+      "roles": [
+        "build"
+      ],
+      "original": false
+    },
+    {
+      "name": "@stryker-mutator/core",
+      "roles": [
+        "testing"
+      ],
+      "original": false
+    },
+    {
+      "name": "@subsquid/util-internal-validation",
+      "roles": [
+        "validation"
+      ],
+      "original": false
+    },
+    {
+      "name": "@supabase/phoenix",
+      "roles": [
+        "framework"
+      ],
+      "original": false
+    },
+    {
+      "name": "@supabase/realtime-js",
+      "roles": [
+        "database"
+      ],
+      "original": false
+    },
+    {
+      "name": "@swc/cli",
+      "roles": [
+        "cli"
+      ],
+      "original": false
+    },
+    {
+      "name": "@syncfusion/ej2-compression",
+      "roles": [
+        "compression"
+      ],
+      "original": false
+    },
+    {
+      "name": "@szmarczak/http-timer",
+      "roles": [
+        "http"
+      ],
+      "original": false
+    },
+    {
+      "name": "@tailwindcss/node",
+      "roles": [
+        "framework"
+      ],
+      "original": false
+    },
+    {
+      "name": "@tanstack/react-store",
+      "roles": [
+        "framework"
+      ],
+      "original": false
+    },
+    {
+      "name": "@tanstack/store",
+      "roles": [
+        "framework"
+      ],
+      "original": false
+    },
+    {
+      "name": "@taxbit/utilities",
+      "roles": [
+        "utilities"
+      ],
+      "original": false
+    },
+    {
+      "name": "@temporalio/testing",
+      "roles": [
+        "testing"
+      ],
+      "original": false
+    },
+    {
+      "name": "@testing-library/angular",
+      "roles": [
+        "testing"
+      ],
+      "original": false
+    },
+    {
+      "name": "@testing-library/cypress",
+      "roles": [
+        "testing"
+      ],
+      "original": false
+    },
+    {
+      "name": "@testing-library/dom",
+      "roles": [
+        "testing"
+      ],
+      "original": false
+    },
+    {
+      "name": "@testing-library/preact",
+      "roles": [
+        "testing"
+      ],
+      "original": false
+    },
+    {
+      "name": "@testing-library/preact-hooks",
+      "roles": [
+        "testing"
+      ],
+      "original": false
+    },
+    {
+      "name": "@testing-library/react",
+      "roles": [
+        "testing"
+      ],
+      "original": false
+    },
+    {
+      "name": "@testing-library/react-hooks",
+      "roles": [
+        "testing"
+      ],
+      "original": false
+    },
+    {
+      "name": "@testing-library/react-native",
+      "roles": [
+        "testing"
+      ],
+      "original": false
+    },
+    {
+      "name": "@testing-library/svelte",
+      "roles": [
+        "testing"
+      ],
+      "original": false
+    },
+    {
+      "name": "@testing-library/svelte-core",
+      "roles": [
+        "testing"
+      ],
+      "original": false
+    },
+    {
+      "name": "@testing-library/testcafe",
+      "roles": [
+        "testing"
+      ],
+      "original": false
+    },
+    {
+      "name": "@testing-library/vue",
+      "roles": [
+        "testing"
+      ],
+      "original": false
+    },
+    {
+      "name": "@textlint/textlint-plugin-markdown",
+      "roles": [
+        "markdown"
+      ],
+      "original": false
+    },
+    {
+      "name": "@theia/filesystem",
+      "roles": [
+        "filesystem"
+      ],
+      "original": false
+    },
+    {
+      "name": "@tiptap/extension-image",
+      "roles": [
+        "image"
+      ],
+      "original": false
+    },
+    {
+      "name": "@tiptap/markdown",
+      "roles": [
+        "markdown"
+      ],
+      "original": false
+    },
+    {
+      "name": "@tkey/share-serialization",
+      "roles": [
+        "serialization"
+      ],
+      "original": false
+    },
+    {
+      "name": "@tmcp/transport-http",
+      "roles": [
+        "http"
+      ],
+      "original": false
+    },
+    {
+      "name": "@toruslabs/eccrypto",
+      "roles": [
+        "cryptography"
+      ],
+      "original": false
+    },
+    {
+      "name": "@toruslabs/http-helpers",
+      "roles": [
+        "http"
+      ],
+      "original": false
+    },
+    {
+      "name": "@trigger.dev/build",
+      "roles": [
+        "build"
+      ],
+      "original": false
+    },
+    {
+      "name": "@tryghost/logging",
+      "roles": [
+        "logging"
+      ],
+      "original": false
+    },
+    {
+      "name": "@tsparticles/shape-image",
+      "roles": [
+        "image"
+      ],
+      "original": false
+    },
+    {
+      "name": "@turbo/linux-64",
+      "roles": [
+        "build"
+      ],
+      "original": false
+    },
+    {
+      "name": "@tursodatabase/database",
+      "roles": [
+        "database"
+      ],
+      "original": false
+    },
+    {
+      "name": "@tursodatabase/database-common",
+      "roles": [
+        "database"
+      ],
+      "original": false
+    },
+    {
+      "name": "@tursodatabase/database-linux-x64-gnu",
+      "roles": [
+        "database"
+      ],
+      "original": false
+    },
+    {
+      "name": "@typedorm/testing",
+      "roles": [
+        "testing"
+      ],
+      "original": false
+    },
+    {
+      "name": "@types/babel-template",
+      "roles": [
+        "template"
+      ],
+      "original": false
+    },
+    {
+      "name": "@types/babel__template",
+      "roles": [
+        "template"
+      ],
+      "original": false
+    },
+    {
+      "name": "@types/base64-stream",
+      "roles": [
+        "stream"
+      ],
+      "original": false
+    },
+    {
+      "name": "@types/body-parser",
+      "roles": [
+        "parser"
+      ],
+      "original": false
+    },
+    {
+      "name": "@types/cli-progress",
+      "roles": [
+        "cli"
+      ],
+      "original": false
+    },
+    {
+      "name": "@types/compression",
+      "roles": [
+        "compression"
+      ],
+      "original": false
+    },
+    {
+      "name": "@types/compression-next",
+      "roles": [
+        "compression"
+      ],
+      "original": false
+    },
+    {
+      "name": "@types/concat-stream",
+      "roles": [
+        "stream"
+      ],
+      "original": false
+    },
+    {
+      "name": "@types/cookie-parser",
+      "roles": [
+        "parser"
+      ],
+      "original": false
+    },
+    {
+      "name": "@types/event-stream",
+      "roles": [
+        "stream"
+      ],
+      "original": false
+    },
+    {
+      "name": "@types/filesystem",
+      "roles": [
+        "filesystem"
+      ],
+      "original": false
+    },
+    {
+      "name": "@types/geojson-validation",
+      "roles": [
+        "validation"
+      ],
+      "original": false
+    },
+    {
+      "name": "@types/http-assert",
+      "roles": [
+        "http"
+      ],
+      "original": false
+    },
+    {
+      "name": "@types/http-cache-semantics",
+      "roles": [
+        "http"
+      ],
+      "original": false
+    },
+    {
+      "name": "@types/http-errors",
+      "roles": [
+        "http"
+      ],
+      "original": false
+    },
+    {
+      "name": "@types/http-proxy",
+      "roles": [
+        "http"
+      ],
+      "original": false
+    },
+    {
+      "name": "@types/jest-image-snapshot",
+      "roles": [
+        "image"
+      ],
+      "original": false
+    },
+    {
+      "name": "@types/jquery-validation-unobtrusive",
+      "roles": [
+        "validation"
+      ],
+      "original": false
+    },
+    {
+      "name": "@types/markdown-escape",
+      "roles": [
+        "markdown"
+      ],
+      "original": false
+    },
+    {
+      "name": "@types/markdown-it",
+      "roles": [
+        "markdown"
+      ],
+      "original": false
+    },
+    {
+      "name": "@types/mute-stream",
+      "roles": [
+        "stream"
+      ],
+      "original": false
+    },
+    {
+      "name": "@types/probe-image-size",
+      "roles": [
+        "image"
+      ],
+      "original": false
+    },
+    {
+      "name": "@types/range-parser",
+      "roles": [
+        "parser"
+      ],
+      "original": false
+    },
+    {
+      "name": "@types/readable-stream",
+      "roles": [
+        "stream"
+      ],
+      "original": false
+    },
+    {
+      "name": "@types/splunk-logging",
+      "roles": [
+        "logging"
+      ],
+      "original": false
+    },
+    {
+      "name": "@types/stream-buffers",
+      "roles": [
+        "stream"
+      ],
+      "original": false
+    },
+    {
+      "name": "@types/stream-chain",
+      "roles": [
+        "stream"
+      ],
+      "original": false
+    },
+    {
+      "name": "@types/stream-json",
+      "roles": [
+        "stream"
+      ],
+      "original": false
+    },
+    {
+      "name": "@types/string-template",
+      "roles": [
+        "template"
+      ],
+      "original": false
+    },
+    {
+      "name": "@types/tar-stream",
+      "roles": [
+        "stream"
+      ],
+      "original": false
+    },
+    {
+      "name": "@types/wordpress__block-serialization-spec-parser",
+      "roles": [
+        "serialization"
+      ],
+      "original": false
+    },
+    {
+      "name": "@types/yargs-parser",
+      "roles": [
+        "parser"
+      ],
+      "original": false
+    },
+    {
+      "name": "@typescript-eslint/parser",
+      "roles": [
+        "parser"
+      ],
+      "original": false
+    },
+    {
+      "name": "@typescript-eslint/tsconfig-utils",
+      "roles": [
+        "utilities"
+      ],
+      "original": false
+    },
+    {
+      "name": "@typescript-eslint/type-utils",
+      "roles": [
+        "utilities"
+      ],
+      "original": false
+    },
+    {
+      "name": "@typescript-eslint/utils",
+      "roles": [
+        "utilities"
+      ],
+      "original": false
+    },
+    {
+      "name": "@typespec/http",
+      "roles": [
+        "http"
+      ],
+      "original": false
+    },
+    {
+      "name": "@typespec/ts-http-runtime",
+      "roles": [
+        "http"
+      ],
+      "original": false
+    },
+    {
+      "name": "@ui5/cli",
+      "roles": [
+        "cli"
+      ],
+      "original": false
+    },
+    {
+      "name": "@uifabric/utilities",
+      "roles": [
+        "utilities"
+      ],
+      "original": false
+    },
+    {
+      "name": "@univerjs/data-validation",
+      "roles": [
+        "validation"
+      ],
+      "original": false
+    },
+    {
+      "name": "@univerjs/network",
+      "roles": [
+        "network"
+      ],
+      "original": false
+    },
+    {
+      "name": "@univerjs/preset-sheets-data-validation",
+      "roles": [
+        "validation"
+      ],
+      "original": false
+    },
+    {
+      "name": "@univerjs/sheets-data-validation",
+      "roles": [
+        "validation"
+      ],
+      "original": false
+    },
+    {
+      "name": "@univerjs/sheets-data-validation-ui",
+      "roles": [
+        "validation"
+      ],
+      "original": false
+    },
+    {
+      "name": "@unocss/cli",
+      "roles": [
+        "cli"
+      ],
+      "original": false
+    },
+    {
+      "name": "@uppy/image-editor",
+      "roles": [
+        "image"
+      ],
+      "original": false
+    },
+    {
+      "name": "@usewaypoint/block-image",
+      "roles": [
+        "image"
+      ],
+      "original": false
+    },
+    {
+      "name": "@vaadin/markdown",
+      "roles": [
+        "markdown"
+      ],
+      "original": false
+    },
+    {
+      "name": "@vechain/sdk-logging",
+      "roles": [
+        "logging"
+      ],
+      "original": false
+    },
+    {
+      "name": "@vercel/cli-auth",
+      "roles": [
+        "authentication"
+      ],
+      "original": false
+    },
+    {
+      "name": "@vercel/cli-exec",
+      "roles": [
+        "cli"
+      ],
+      "original": false
+    },
+    {
+      "name": "@vercel/fs-detectors",
+      "roles": [
+        "filesystem"
+      ],
+      "original": false
+    },
+    {
+      "name": "@vercel/gatsby-plugin-vercel-builder",
+      "roles": [
+        "build"
+      ],
+      "original": false
+    },
+    {
+      "name": "@verdaccio/auth",
+      "roles": [
+        "authentication"
+      ],
+      "original": false
+    },
+    {
+      "name": "@verdaccio/utils",
+      "roles": [
+        "utilities"
+      ],
+      "original": false
+    },
+    {
+      "name": "@vilic/node-forge",
+      "roles": [
+        "cryptography"
+      ],
+      "original": false
+    },
+    {
+      "name": "@vinejs/vine",
+      "roles": [
+        "validation"
+      ],
+      "original": false
+    },
+    {
+      "name": "@visx/network",
+      "roles": [
+        "network"
+      ],
+      "original": false
+    },
+    {
+      "name": "@vite-hub/database",
+      "roles": [
+        "database"
+      ],
+      "original": false
+    },
+    {
+      "name": "@vltpkg/cache",
+      "roles": [
+        "filesystem"
+      ],
+      "original": false
+    },
+    {
+      "name": "@vouchington/csv",
+      "roles": [
+        "serialization"
+      ],
+      "original": false
+    },
+    {
+      "name": "@vouchington/frontmatter",
+      "roles": [
+        "serialization"
+      ],
+      "original": false
+    },
+    {
+      "name": "@vouchington/phone-validation",
+      "roles": [
+        "validation"
+      ],
+      "original": false
+    },
+    {
+      "name": "@vouchington/request-contract-validation",
+      "roles": [
+        "validation"
+      ],
+      "original": false
+    },
+    {
+      "name": "@vscode-logging/types",
+      "roles": [
+        "logging"
+      ],
+      "original": false
+    },
+    {
+      "name": "@vue/cli-plugin-router",
+      "roles": [
+        "cli"
+      ],
+      "original": false
+    },
+    {
+      "name": "@vue/cli-plugin-vuex",
+      "roles": [
+        "cli"
+      ],
+      "original": false
+    },
+    {
+      "name": "@vue/cli-service",
+      "roles": [
+        "cli"
+      ],
+      "original": false
+    },
+    {
+      "name": "@vue/cli-shared-utils",
+      "roles": [
+        "cli"
+      ],
+      "original": false
+    },
+    {
+      "name": "@vue/compiler-vue2",
+      "roles": [
+        "template"
+      ],
+      "original": false
+    },
+    {
+      "name": "@vuedx/template-ast-types",
+      "roles": [
+        "template"
+      ],
+      "original": false
+    },
+    {
+      "name": "@vuepress/markdown",
+      "roles": [
+        "markdown"
+      ],
+      "original": false
+    },
+    {
+      "name": "@walletconnect/crypto",
+      "roles": [
+        "cryptography"
+      ],
+      "original": false
+    },
+    {
+      "name": "@walletconnect/environment",
+      "roles": [
+        "utilities"
+      ],
+      "original": false
+    },
+    {
+      "name": "@walletconnect/relay-auth",
+      "roles": [
+        "authentication"
+      ],
+      "original": false
+    },
+    {
+      "name": "@walletconnect/utils",
+      "roles": [
+        "utilities"
+      ],
+      "original": false
+    },
+    {
+      "name": "@warp-drive/build-config",
+      "roles": [
+        "build"
+      ],
+      "original": false
+    },
+    {
+      "name": "@wdio/cucumber-framework",
+      "roles": [
+        "framework"
+      ],
+      "original": false
+    },
+    {
+      "name": "@wdio/jasmine-framework",
+      "roles": [
+        "framework"
+      ],
+      "original": false
+    },
+    {
+      "name": "@wdio/logger",
+      "roles": [
+        "logging"
+      ],
+      "original": false
+    },
+    {
+      "name": "@wdio/mocha-framework",
+      "roles": [
+        "framework"
+      ],
+      "original": false
+    },
+    {
+      "name": "@webassemblyjs/wasm-parser",
+      "roles": [
+        "parser"
+      ],
+      "original": false
+    },
+    {
+      "name": "@webassemblyjs/wast-parser",
+      "roles": [
+        "parser"
+      ],
+      "original": false
+    },
+    {
+      "name": "@webcomponents/template",
+      "roles": [
+        "template"
+      ],
+      "original": false
+    },
+    {
+      "name": "@williamthorsen/toolbelt.filesystem",
+      "roles": [
+        "filesystem"
+      ],
+      "original": false
+    },
+    {
+      "name": "@wix/authentication",
+      "roles": [
+        "authentication"
+      ],
+      "original": false
+    },
+    {
+      "name": "@wordpress/block-serialization-default-parser",
+      "roles": [
+        "serialization"
+      ],
+      "original": false
+    },
+    {
+      "name": "@wordpress/block-serialization-spec-parser",
+      "roles": [
+        "serialization"
+      ],
+      "original": false
+    },
+    {
+      "name": "@wordpress/build",
+      "roles": [
+        "build"
+      ],
+      "original": false
+    },
+    {
+      "name": "@wordpress/image-cropper",
+      "roles": [
+        "image"
+      ],
+      "original": false
+    },
+    {
+      "name": "@workflow/serde",
+      "roles": [
+        "serialization"
+      ],
+      "original": false
+    },
+    {
+      "name": "@workleap/logging",
+      "roles": [
+        "logging"
+      ],
+      "original": false
+    },
+    {
+      "name": "@xml-tools/parser",
+      "roles": [
+        "parser"
+      ],
+      "original": false
+    },
+    {
+      "name": "@xml-tools/validation",
+      "roles": [
+        "validation"
+      ],
+      "original": false
+    },
+    {
+      "name": "@xterm/addon-image",
+      "roles": [
+        "image"
+      ],
+      "original": false
+    },
+    {
+      "name": "@zag-js/image-cropper",
+      "roles": [
+        "image"
+      ],
+      "original": false
+    },
+    {
+      "name": "@zendeskgarden/container-utilities",
+      "roles": [
+        "utilities"
+      ],
+      "original": false
+    },
+    {
+      "name": "@zenfs/core",
+      "roles": [
+        "filesystem"
+      ],
+      "original": false
+    },
+    {
+      "name": "@zxcvbn-ts/dictionary-compression",
+      "roles": [
+        "compression"
+      ],
+      "original": false
+    },
+    {
+      "name": "abstract-logging",
+      "roles": [
+        "logging"
+      ],
+      "original": false
+    },
+    {
+      "name": "acorn",
+      "roles": [
+        "parser"
+      ],
+      "original": false
+    },
+    {
+      "name": "add-stream",
+      "roles": [
+        "stream"
+      ],
+      "original": false
+    },
+    {
+      "name": "agent-cli-detector",
+      "roles": [
+        "cli"
+      ],
+      "original": false
+    },
+    {
+      "name": "ajv",
+      "roles": [
+        "validation"
+      ],
+      "original": true
+    },
+    {
+      "name": "ajv-formats",
+      "roles": [
+        "validation"
+      ],
+      "original": false
+    },
+    {
+      "name": "akamai-edgegrid",
+      "roles": [
+        "authentication"
+      ],
+      "original": false
+    },
+    {
+      "name": "amplify-velocity-template",
+      "roles": [
+        "template"
+      ],
+      "original": false
+    },
+    {
+      "name": "apollo-link-error",
+      "roles": [
+        "network"
+      ],
+      "original": false
+    },
+    {
+      "name": "apollo-link-http",
+      "roles": [
+        "http"
+      ],
+      "original": false
+    },
+    {
+      "name": "apollo-link-http-common",
+      "roles": [
+        "http"
+      ],
+      "original": false
+    },
+    {
+      "name": "apollo-utilities",
+      "roles": [
+        "utilities"
+      ],
+      "original": false
+    },
+    {
+      "name": "apple-data-compression",
+      "roles": [
+        "compression"
+      ],
+      "original": false
+    },
+    {
+      "name": "argue-cli",
+      "roles": [
+        "cli"
+      ],
+      "original": false
+    },
+    {
+      "name": "art-template",
+      "roles": [
+        "template"
+      ],
+      "original": false
+    },
+    {
+      "name": "aurelia-logging",
+      "roles": [
+        "logging"
+      ],
+      "original": false
+    },
+    {
+      "name": "aurelia-logging-console",
+      "roles": [
+        "logging"
+      ],
+      "original": false
+    },
+    {
+      "name": "aurelia-validation",
+      "roles": [
+        "validation"
+      ],
+      "original": false
+    },
+    {
+      "name": "authentication",
+      "roles": [
+        "authentication"
+      ],
+      "original": false
+    },
+    {
+      "name": "availity-reactstrap-validation",
+      "roles": [
+        "validation"
+      ],
+      "original": false
+    },
+    {
+      "name": "axe-core",
+      "roles": [
+        "testing"
+      ],
+      "original": false
+    },
+    {
+      "name": "axios",
+      "roles": [
+        "HTTP client"
+      ],
+      "original": true
+    },
+    {
+      "name": "axios-logger",
+      "roles": [
+        "logging"
+      ],
+      "original": false
+    },
+    {
+      "name": "babel-plugin-ember-template-compilation",
+      "roles": [
+        "template"
+      ],
+      "original": false
+    },
+    {
+      "name": "babel-plugin-macros",
+      "roles": [
+        "build"
+      ],
+      "original": false
+    },
+    {
+      "name": "babel-plugin-transform-es2015-template-literals",
+      "roles": [
+        "template"
+      ],
+      "original": false
+    },
+    {
+      "name": "babel-template",
+      "roles": [
+        "template"
+      ],
+      "original": false
+    },
+    {
+      "name": "bats",
+      "roles": [
+        "testing"
+      ],
+      "original": false
+    },
+    {
+      "name": "beeai-framework",
+      "roles": [
+        "framework"
+      ],
+      "original": false
+    },
+    {
+      "name": "better-auth",
+      "roles": [
+        "framework",
+        "authentication"
+      ],
+      "original": false
+    },
+    {
+      "name": "billion-context",
+      "roles": [
+        "compression"
+      ],
+      "original": false
+    },
+    {
+      "name": "bin-build",
+      "roles": [
+        "build"
+      ],
+      "original": false
+    },
+    {
+      "name": "bitcoin-elliptic",
+      "roles": [
+        "cryptography"
+      ],
+      "original": false
+    },
+    {
+      "name": "block-stream",
+      "roles": [
+        "stream"
+      ],
+      "original": false
+    },
+    {
+      "name": "borsher",
+      "roles": [
+        "serialization"
+      ],
+      "original": false
+    },
+    {
+      "name": "bplist-parser",
+      "roles": [
+        "parser"
+      ],
+      "original": false
+    },
+    {
+      "name": "brotli",
+      "roles": [
+        "compression"
+      ],
+      "original": false
+    },
+    {
+      "name": "browser-image-hash",
+      "roles": [
+        "image"
+      ],
+      "original": false
+    },
+    {
+      "name": "browserify-fs",
+      "roles": [
+        "filesystem"
+      ],
+      "original": false
+    },
+    {
+      "name": "bser",
+      "roles": [
+        "serialization"
+      ],
+      "original": false
+    },
+    {
+      "name": "buffer-image-size",
+      "roles": [
+        "image"
+      ],
+      "original": false
+    },
+    {
+      "name": "bufio",
+      "roles": [
+        "serialization"
+      ],
+      "original": false
+    },
+    {
+      "name": "build",
+      "roles": [
+        "build"
+      ],
+      "original": false
+    },
+    {
+      "name": "buildcheck",
+      "roles": [
+        "build"
+      ],
+      "original": false
+    },
+    {
+      "name": "bunyan",
+      "roles": [
+        "logging"
+      ],
+      "original": false
+    },
+    {
+      "name": "bytewise",
+      "roles": [
+        "serialization"
+      ],
+      "original": false
+    },
+    {
+      "name": "bytewise-core",
+      "roles": [
+        "serialization"
+      ],
+      "original": false
+    },
+    {
+      "name": "cache-point",
+      "roles": [
+        "filesystem"
+      ],
+      "original": false
+    },
+    {
+      "name": "capnp-es",
+      "roles": [
+        "serialization"
+      ],
+      "original": false
+    },
+    {
+      "name": "cf-nodejs-logging-support",
+      "roles": [
+        "logging"
+      ],
+      "original": false
+    },
+    {
+      "name": "chai",
+      "roles": [
+        "framework"
+      ],
+      "original": false
+    },
+    {
+      "name": "chalk",
+      "roles": [
+        "command-line tooling"
+      ],
+      "original": true
+    },
+    {
+      "name": "chalk-template",
+      "roles": [
+        "template"
+      ],
+      "original": false
+    },
+    {
+      "name": "charenc",
+      "roles": [
+        "utilities"
+      ],
+      "original": false
+    },
+    {
+      "name": "cifrante",
+      "roles": [
+        "cryptography"
+      ],
+      "original": false
+    },
+    {
+      "name": "citty",
+      "roles": [
+        "cli"
+      ],
+      "original": false
+    },
+    {
+      "name": "class-transformer",
+      "roles": [
+        "serialization"
+      ],
+      "original": false
+    },
+    {
+      "name": "class-validator",
+      "roles": [
+        "validation"
+      ],
+      "original": false
+    },
+    {
+      "name": "classcat",
+      "roles": [
+        "build"
+      ],
+      "original": false
+    },
+    {
+      "name": "clean-yaml-object",
+      "roles": [
+        "serialization"
+      ],
+      "original": false
+    },
+    {
+      "name": "cli",
+      "roles": [
+        "cli"
+      ],
+      "original": false
+    },
+    {
+      "name": "cli-columns",
+      "roles": [
+        "cli"
+      ],
+      "original": false
+    },
+    {
+      "name": "cli-cursor",
+      "roles": [
+        "cli"
+      ],
+      "original": false
+    },
+    {
+      "name": "cli-list",
+      "roles": [
+        "cli"
+      ],
+      "original": false
+    },
+    {
+      "name": "cli-sprintf-format",
+      "roles": [
+        "cli"
+      ],
+      "original": false
+    },
+    {
+      "name": "cli-table",
+      "roles": [
+        "cli"
+      ],
+      "original": false
+    },
+    {
+      "name": "cli-table3",
+      "roles": [
+        "cli"
+      ],
+      "original": false
+    },
+    {
+      "name": "cli-tableau",
+      "roles": [
+        "cli"
+      ],
+      "original": false
+    },
+    {
+      "name": "cli-testing-library",
+      "roles": [
+        "testing"
+      ],
+      "original": false
+    },
+    {
+      "name": "combined-stream",
+      "roles": [
+        "stream"
+      ],
+      "original": false
+    },
+    {
+      "name": "commander",
+      "roles": [
+        "command-line tooling"
+      ],
+      "original": true
+    },
+    {
+      "name": "comment-parser",
+      "roles": [
+        "parser"
+      ],
+      "original": false
+    },
+    {
+      "name": "commist",
+      "roles": [
+        "build"
+      ],
+      "original": false
+    },
+    {
+      "name": "common-tags",
+      "roles": [
+        "template"
+      ],
+      "original": false
+    },
+    {
+      "name": "compresion",
+      "roles": [
+        "compression"
+      ],
+      "original": false
+    },
+    {
+      "name": "compress.js",
+      "roles": [
+        "compression"
+      ],
+      "original": false
+    },
+    {
+      "name": "compression",
+      "roles": [
+        "compression"
+      ],
+      "original": false
+    },
+    {
+      "name": "compression-next",
+      "roles": [
+        "compression"
+      ],
+      "original": false
+    },
+    {
+      "name": "compression-rspack-plugin",
+      "roles": [
+        "compression"
+      ],
+      "original": false
+    },
+    {
+      "name": "compression-streams-polyfill",
+      "roles": [
+        "compression"
+      ],
+      "original": false
+    },
+    {
+      "name": "compression-with-brotli",
+      "roles": [
+        "compression"
+      ],
+      "original": false
+    },
+    {
+      "name": "compressjs",
+      "roles": [
+        "compression"
+      ],
+      "original": false
+    },
+    {
+      "name": "concat-stream",
+      "roles": [
+        "stream"
+      ],
+      "original": false
+    },
+    {
+      "name": "connect",
+      "roles": [
+        "framework"
+      ],
+      "original": false
+    },
+    {
+      "name": "content-type",
+      "roles": [
+        "http"
+      ],
+      "original": false
+    },
+    {
+      "name": "cookie",
+      "roles": [
+        "http",
+        "serialization"
+      ],
+      "original": false
+    },
+    {
+      "name": "copy-template-dir",
+      "roles": [
+        "template"
+      ],
+      "original": false
+    },
+    {
+      "name": "cordova-plugin-network-information",
+      "roles": [
+        "network"
+      ],
+      "original": false
+    },
+    {
+      "name": "cra-template",
+      "roles": [
+        "template"
+      ],
+      "original": false
+    },
+    {
+      "name": "cropperjs",
+      "roles": [
+        "image"
+      ],
+      "original": false
+    },
+    {
+      "name": "crypt",
+      "roles": [
+        "utilities"
+      ],
+      "original": false
+    },
+    {
+      "name": "crypto-es",
+      "roles": [
+        "cryptography"
+      ],
+      "original": false
+    },
+    {
+      "name": "crypto-toolkit-ts",
+      "roles": [
+        "cryptography"
+      ],
+      "original": false
+    },
+    {
+      "name": "cryptography",
+      "roles": [
+        "cryptography"
+      ],
+      "original": false
+    },
+    {
+      "name": "css-gradient-parser",
+      "roles": [
+        "parser"
+      ],
+      "original": false
+    },
+    {
+      "name": "css-selector-parser",
+      "roles": [
+        "parser"
+      ],
+      "original": false
+    },
+    {
+      "name": "cypress-fail-on-network-error",
+      "roles": [
+        "network"
+      ],
+      "original": false
+    },
+    {
+      "name": "cypress-network-idle",
+      "roles": [
+        "network"
+      ],
+      "original": false
+    },
+    {
+      "name": "cytoscape",
+      "roles": [
+        "network"
+      ],
+      "original": false
+    },
+    {
+      "name": "d3-chord",
+      "roles": [
+        "network"
+      ],
+      "original": false
+    },
+    {
+      "name": "d3-sankey",
+      "roles": [
+        "network"
+      ],
+      "original": false
+    },
+    {
+      "name": "database",
+      "roles": [
+        "database"
+      ],
+      "original": false
+    },
+    {
+      "name": "database-cleaner",
+      "roles": [
+        "database"
+      ],
+      "original": false
+    },
+    {
+      "name": "date-holidays-parser",
+      "roles": [
+        "parser"
+      ],
+      "original": false
+    },
+    {
+      "name": "db-migrate",
+      "roles": [
+        "database"
+      ],
+      "original": false
+    },
+    {
+      "name": "dbmate",
+      "roles": [
+        "database"
+      ],
+      "original": false
+    },
+    {
+      "name": "decompress-response",
+      "roles": [
+        "http"
+      ],
+      "original": false
+    },
+    {
+      "name": "deep-eql",
+      "roles": [
+        "testing"
+      ],
+      "original": false
+    },
+    {
+      "name": "default-gateway",
+      "roles": [
+        "network"
+      ],
+      "original": false
+    },
+    {
+      "name": "delayed-stream",
+      "roles": [
+        "stream"
+      ],
+      "original": false
+    },
+    {
+      "name": "destroy",
+      "roles": [
+        "stream"
+      ],
+      "original": false
+    },
+    {
+      "name": "docker-modem",
+      "roles": [
+        "network"
+      ],
+      "original": false
+    },
+    {
+      "name": "dofs",
+      "roles": [
+        "filesystem"
+      ],
+      "original": false
+    },
+    {
+      "name": "domutils",
+      "roles": [
+        "utilities"
+      ],
+      "original": false
+    },
+    {
+      "name": "draco3dgltf",
+      "roles": [
+        "compression"
+      ],
+      "original": false
+    },
+    {
+      "name": "duplexer",
+      "roles": [
+        "stream"
+      ],
+      "original": false
+    },
+    {
+      "name": "eas-build-cache-provider",
+      "roles": [
+        "build"
+      ],
+      "original": false
+    },
+    {
+      "name": "eccrypto",
+      "roles": [
+        "cryptography"
+      ],
+      "original": false
+    },
+    {
+      "name": "eccrypto-js",
+      "roles": [
+        "cryptography"
+      ],
+      "original": false
+    },
+    {
+      "name": "ecdsa",
+      "roles": [
+        "cryptography"
+      ],
+      "original": false
+    },
+    {
+      "name": "ecies-25519",
+      "roles": [
+        "cryptography"
+      ],
+      "original": false
+    },
+    {
+      "name": "ecurve",
+      "roles": [
+        "cryptography"
+      ],
+      "original": false
+    },
+    {
+      "name": "ecurve-names",
+      "roles": [
+        "cryptography"
+      ],
+      "original": false
+    },
+    {
+      "name": "ed25519",
+      "roles": [
+        "cryptography"
+      ],
+      "original": false
+    },
+    {
+      "name": "efrt",
+      "roles": [
+        "compression"
+      ],
+      "original": false
+    },
+    {
+      "name": "electron-log",
+      "roles": [
+        "logging"
+      ],
+      "original": false
+    },
+    {
+      "name": "electron-vite",
+      "roles": [
+        "build"
+      ],
+      "original": false
+    },
+    {
+      "name": "elementtree",
+      "roles": [
+        "serialization"
+      ],
+      "original": false
+    },
+    {
+      "name": "elliptic",
+      "roles": [
+        "cryptography"
+      ],
+      "original": false
+    },
+    {
+      "name": "elysia",
+      "roles": [
+        "framework"
+      ],
+      "original": false
+    },
+    {
+      "name": "ember-a11y-testing",
+      "roles": [
+        "testing"
+      ],
+      "original": false
+    },
+    {
+      "name": "ember-cli-babel",
+      "roles": [
+        "cli"
+      ],
+      "original": false
+    },
+    {
+      "name": "ember-cli-deploy-build",
+      "roles": [
+        "build"
+      ],
+      "original": false
+    },
+    {
+      "name": "ember-template-recast",
+      "roles": [
+        "template"
+      ],
+      "original": false
+    },
+    {
+      "name": "end-of-stream",
+      "roles": [
+        "stream"
+      ],
+      "original": false
+    },
+    {
+      "name": "engine.io-parser",
+      "roles": [
+        "parser"
+      ],
+      "original": false
+    },
+    {
+      "name": "eosjs-ecc",
+      "roles": [
+        "cryptography"
+      ],
+      "original": false
+    },
+    {
+      "name": "errio",
+      "roles": [
+        "serialization"
+      ],
+      "original": false
+    },
+    {
+      "name": "error-stack-parser-es",
+      "roles": [
+        "parser"
+      ],
+      "original": false
+    },
+    {
+      "name": "esbuild",
+      "roles": [
+        "build tooling"
+      ],
+      "original": true
+    },
+    {
+      "name": "eslint",
+      "roles": [
+        "quality tooling"
+      ],
+      "original": true
+    },
+    {
+      "name": "eslint-plugin-no-snapshot-testing",
+      "roles": [
+        "testing"
+      ],
+      "original": false
+    },
+    {
+      "name": "eslint-plugin-testing-library",
+      "roles": [
+        "testing"
+      ],
+      "original": false
+    },
+    {
+      "name": "eslint-template-visitor",
+      "roles": [
+        "template"
+      ],
+      "original": false
+    },
+    {
+      "name": "eslint-visitor-keys",
+      "roles": [
+        "utilities"
+      ],
+      "original": false
+    },
+    {
+      "name": "eta",
+      "roles": [
+        "template"
+      ],
+      "original": false
+    },
+    {
+      "name": "etag",
+      "roles": [
+        "http"
+      ],
+      "original": false
+    },
+    {
+      "name": "ethereum-cryptography",
+      "roles": [
+        "cryptography"
+      ],
+      "original": false
+    },
+    {
+      "name": "eve",
+      "roles": [
+        "filesystem"
+      ],
+      "original": false
+    },
+    {
+      "name": "eventsource-parser",
+      "roles": [
+        "parser"
+      ],
+      "original": false
+    },
+    {
+      "name": "expand-template",
+      "roles": [
+        "template"
+      ],
+      "original": false
+    },
+    {
+      "name": "expo-auth-session",
+      "roles": [
+        "authentication"
+      ],
+      "original": false
+    },
+    {
+      "name": "expo-build-properties",
+      "roles": [
+        "build"
+      ],
+      "original": false
+    },
+    {
+      "name": "expo-crypto",
+      "roles": [
+        "cryptography"
+      ],
+      "original": false
+    },
+    {
+      "name": "expo-image",
+      "roles": [
+        "image"
+      ],
+      "original": false
+    },
+    {
+      "name": "expo-image-loader",
+      "roles": [
+        "image"
+      ],
+      "original": false
+    },
+    {
+      "name": "expo-network",
+      "roles": [
+        "network"
+      ],
+      "original": false
+    },
+    {
+      "name": "expo-sqlite",
+      "roles": [
+        "database"
+      ],
+      "original": false
+    },
+    {
+      "name": "express",
+      "roles": [
+        "server framework",
+        "framework"
+      ],
+      "original": true
+    },
+    {
+      "name": "express-http-proxy",
+      "roles": [
+        "http"
+      ],
+      "original": false
+    },
+    {
+      "name": "express-jwt",
+      "roles": [
+        "authentication"
+      ],
+      "original": false
+    },
+    {
+      "name": "ext",
+      "roles": [
+        "utilities"
+      ],
+      "original": false
+    },
+    {
+      "name": "fast-check",
+      "roles": [
+        "framework",
+        "testing"
+      ],
+      "original": false
+    },
+    {
+      "name": "fast-xml-builder",
+      "roles": [
+        "build"
+      ],
+      "original": false
+    },
+    {
+      "name": "fast-xml-parser",
+      "roles": [
+        "build"
+      ],
+      "original": false
+    },
+    {
+      "name": "fast-zlib",
+      "roles": [
+        "compression"
+      ],
+      "original": false
+    },
+    {
+      "name": "fastify",
+      "roles": [
+        "server framework",
+        "framework"
+      ],
+      "original": true
+    },
+    {
+      "name": "fflate",
+      "roles": [
+        "compression"
+      ],
+      "original": false
+    },
+    {
+      "name": "file-stream-rotator",
+      "roles": [
+        "stream"
+      ],
+      "original": false
+    },
+    {
+      "name": "filepond-plugin-image-preview",
+      "roles": [
+        "image"
+      ],
+      "original": false
+    },
+    {
+      "name": "filesystem",
+      "roles": [
+        "filesystem"
+      ],
+      "original": false
+    },
+    {
+      "name": "finalhandler",
+      "roles": [
+        "http"
+      ],
+      "original": false
+    },
+    {
+      "name": "first-chunk-stream",
+      "roles": [
+        "stream"
+      ],
+      "original": false
+    },
+    {
+      "name": "flatbuffers",
+      "roles": [
+        "serialization"
+      ],
+      "original": false
+    },
+    {
+      "name": "flow-parser",
+      "roles": [
+        "parser"
+      ],
+      "original": false
+    },
+    {
+      "name": "follow-redirects",
+      "roles": [
+        "http"
+      ],
+      "original": false
+    },
+    {
+      "name": "formik",
+      "roles": [
+        "build"
+      ],
+      "original": false
+    },
+    {
+      "name": "forwarded",
+      "roles": [
+        "http"
+      ],
+      "original": false
+    },
+    {
+      "name": "fossil-delta",
+      "roles": [
+        "compression"
+      ],
+      "original": false
+    },
+    {
+      "name": "framework",
+      "roles": [
+        "framework"
+      ],
+      "original": false
+    },
+    {
+      "name": "framework-utils",
+      "roles": [
+        "framework"
+      ],
+      "original": false
+    },
+    {
+      "name": "fresh",
+      "roles": [
+        "http",
+        "testing"
+      ],
+      "original": false
+    },
+    {
+      "name": "fs-routes",
+      "roles": [
+        "filesystem"
+      ],
+      "original": false
+    },
+    {
+      "name": "fs-tree-structure",
+      "roles": [
+        "filesystem"
+      ],
+      "original": false
+    },
+    {
+      "name": "fwd-stream",
+      "roles": [
+        "stream"
+      ],
+      "original": false
+    },
+    {
+      "name": "fzstd",
+      "roles": [
+        "compression"
+      ],
+      "original": false
+    },
+    {
+      "name": "generative-bayesian-network",
+      "roles": [
+        "network"
+      ],
+      "original": false
+    },
+    {
+      "name": "geojson-validation",
+      "roles": [
+        "validation"
+      ],
+      "original": false
+    },
+    {
+      "name": "get-stream",
+      "roles": [
+        "stream"
+      ],
+      "original": false
+    },
+    {
+      "name": "git-log-parser",
+      "roles": [
+        "parser"
+      ],
+      "original": false
+    },
+    {
+      "name": "glogg",
+      "roles": [
+        "logging"
+      ],
+      "original": false
+    },
+    {
+      "name": "google-auth-library",
+      "roles": [
+        "authentication"
+      ],
+      "original": false
+    },
+    {
+      "name": "got",
+      "roles": [
+        "HTTP client"
+      ],
+      "original": true
+    },
+    {
+      "name": "grammy",
+      "roles": [
+        "framework"
+      ],
+      "original": false
+    },
+    {
+      "name": "graphile-build",
+      "roles": [
+        "build"
+      ],
+      "original": false
+    },
+    {
+      "name": "graphile-build-pg",
+      "roles": [
+        "build"
+      ],
+      "original": false
+    },
+    {
+      "name": "graphql-tag",
+      "roles": [
+        "template"
+      ],
+      "original": false
+    },
+    {
+      "name": "graphql-validation-complexity",
+      "roles": [
+        "validation"
+      ],
+      "original": false
+    },
+    {
+      "name": "grid-template-parser",
+      "roles": [
+        "template"
+      ],
+      "original": false
+    },
+    {
+      "name": "groq",
+      "roles": [
+        "template"
+      ],
+      "original": false
+    },
+    {
+      "name": "gtoken",
+      "roles": [
+        "authentication"
+      ],
+      "original": false
+    },
+    {
+      "name": "gulp",
+      "roles": [
+        "build"
+      ],
+      "original": false
+    },
+    {
+      "name": "h3",
+      "roles": [
+        "framework"
+      ],
+      "original": false
+    },
+    {
+      "name": "h3-compression",
+      "roles": [
+        "compression"
+      ],
+      "original": false
+    },
+    {
+      "name": "hawk",
+      "roles": [
+        "authentication"
+      ],
+      "original": false
+    },
+    {
+      "name": "hdb",
+      "roles": [
+        "database"
+      ],
+      "original": false
+    },
+    {
+      "name": "heimdalljs-logger",
+      "roles": [
+        "logging"
+      ],
+      "original": false
+    },
+    {
+      "name": "hermes-parser",
+      "roles": [
+        "parser"
+      ],
+      "original": false
+    },
+    {
+      "name": "highcharts",
+      "roles": [
+        "framework"
+      ],
+      "original": false
+    },
+    {
+      "name": "hono",
+      "roles": [
+        "framework"
+      ],
+      "original": false
+    },
+    {
+      "name": "html-dom-parser",
+      "roles": [
+        "parser"
+      ],
+      "original": false
+    },
+    {
+      "name": "html-react-parser",
+      "roles": [
+        "parser"
+      ],
+      "original": false
+    },
+    {
+      "name": "html-template-tag",
+      "roles": [
+        "template"
+      ],
+      "original": false
+    },
+    {
+      "name": "html-to-image",
+      "roles": [
+        "image"
+      ],
+      "original": false
+    },
+    {
+      "name": "http-auth",
+      "roles": [
+        "http"
+      ],
+      "original": false
+    },
+    {
+      "name": "http-auth-connect",
+      "roles": [
+        "http"
+      ],
+      "original": false
+    },
+    {
+      "name": "http-cache-semantics",
+      "roles": [
+        "http"
+      ],
+      "original": false
+    },
+    {
+      "name": "http-cookie-agent",
+      "roles": [
+        "http"
+      ],
+      "original": false
+    },
+    {
+      "name": "http-deceiver",
+      "roles": [
+        "http"
+      ],
+      "original": false
+    },
+    {
+      "name": "http-errors",
+      "roles": [
+        "http"
+      ],
+      "original": false
+    },
+    {
+      "name": "http-graceful-shutdown",
+      "roles": [
+        "http"
+      ],
+      "original": false
+    },
+    {
+      "name": "http-headers",
+      "roles": [
+        "http"
+      ],
+      "original": false
+    },
+    {
+      "name": "http-link-header",
+      "roles": [
+        "http"
+      ],
+      "original": false
+    },
+    {
+      "name": "http-parser-js",
+      "roles": [
+        "http",
+        "parser"
+      ],
+      "original": false
+    },
+    {
+      "name": "http-proxy",
+      "roles": [
+        "http"
+      ],
+      "original": false
+    },
+    {
+      "name": "http-proxy-3",
+      "roles": [
+        "http"
+      ],
+      "original": false
+    },
+    {
+      "name": "http-proxy-agent",
+      "roles": [
+        "http"
+      ],
+      "original": false
+    },
+    {
+      "name": "http-reasons",
+      "roles": [
+        "http"
+      ],
+      "original": false
+    },
+    {
+      "name": "http-response-object",
+      "roles": [
+        "http"
+      ],
+      "original": false
+    },
+    {
+      "name": "http-server",
+      "roles": [
+        "http"
+      ],
+      "original": false
+    },
+    {
+      "name": "http-shutdown",
+      "roles": [
+        "http"
+      ],
+      "original": false
+    },
+    {
+      "name": "http-signature",
+      "roles": [
+        "http"
+      ],
+      "original": false
+    },
+    {
+      "name": "http-status",
+      "roles": [
+        "http"
+      ],
+      "original": false
+    },
+    {
+      "name": "http-status-codes",
+      "roles": [
+        "http"
+      ],
+      "original": false
+    },
+    {
+      "name": "http-terminator",
+      "roles": [
+        "http"
+      ],
+      "original": false
+    },
+    {
+      "name": "http-z",
+      "roles": [
+        "http"
+      ],
+      "original": false
+    },
+    {
+      "name": "hysnappy",
+      "roles": [
+        "compression"
+      ],
+      "original": false
+    },
+    {
+      "name": "i18next",
+      "roles": [
+        "framework"
+      ],
+      "original": false
+    },
+    {
+      "name": "i18next-cli",
+      "roles": [
+        "cli"
+      ],
+      "original": false
+    },
+    {
+      "name": "image",
+      "roles": [
+        "image"
+      ],
+      "original": false
+    },
+    {
+      "name": "image-blob-reduce",
+      "roles": [
+        "image"
+      ],
+      "original": false
+    },
+    {
+      "name": "image-dimensions",
+      "roles": [
+        "image"
+      ],
+      "original": false
+    },
+    {
+      "name": "image-extensions",
+      "roles": [
+        "image"
+      ],
+      "original": false
+    },
+    {
+      "name": "image-meta",
+      "roles": [
+        "image"
+      ],
+      "original": false
+    },
+    {
+      "name": "image-q",
+      "roles": [
+        "image"
+      ],
+      "original": false
+    },
+    {
+      "name": "image-size",
+      "roles": [
+        "image"
+      ],
+      "original": false
+    },
+    {
+      "name": "image-ssim",
+      "roles": [
+        "image"
+      ],
+      "original": false
+    },
+    {
+      "name": "image-to-base64",
+      "roles": [
+        "image"
+      ],
+      "original": false
+    },
+    {
+      "name": "image-type",
+      "roles": [
+        "image"
+      ],
+      "original": false
+    },
+    {
+      "name": "ink-testing-library",
+      "roles": [
+        "testing"
+      ],
+      "original": false
+    },
+    {
+      "name": "inline-style-parser",
+      "roles": [
+        "parser"
+      ],
+      "original": false
+    },
+    {
+      "name": "int53",
+      "roles": [
+        "serialization"
+      ],
+      "original": false
+    },
+    {
+      "name": "into-stream",
+      "roles": [
+        "stream"
+      ],
+      "original": false
+    },
+    {
+      "name": "is-network-error",
+      "roles": [
+        "network"
+      ],
+      "original": false
+    },
+    {
+      "name": "is-stream",
+      "roles": [
+        "stream"
+      ],
+      "original": false
+    },
+    {
+      "name": "is-stream-ended",
+      "roles": [
+        "stream"
+      ],
+      "original": false
+    },
+    {
+      "name": "jake",
+      "roles": [
+        "build"
+      ],
+      "original": false
+    },
+    {
+      "name": "jasmine-core",
+      "roles": [
+        "framework",
+        "testing"
+      ],
+      "original": false
+    },
+    {
+      "name": "jest",
+      "roles": [
+        "testing"
+      ],
+      "original": true
+    },
+    {
+      "name": "jest-cli",
+      "roles": [
+        "testing"
+      ],
+      "original": false
+    },
+    {
+      "name": "jest-image-snapshot",
+      "roles": [
+        "image"
+      ],
+      "original": false
+    },
+    {
+      "name": "jest-watcher",
+      "roles": [
+        "testing"
+      ],
+      "original": false
+    },
+    {
+      "name": "jkurwa",
+      "roles": [
+        "cryptography"
+      ],
+      "original": false
+    },
+    {
+      "name": "jodid25519",
+      "roles": [
+        "cryptography"
+      ],
+      "original": false
+    },
+    {
+      "name": "joi",
+      "roles": [
+        "validation"
+      ],
+      "original": true
+    },
+    {
+      "name": "jquery-validation",
+      "roles": [
+        "validation"
+      ],
+      "original": false
+    },
+    {
+      "name": "jquery-validation-unobtrusive",
+      "roles": [
+        "validation"
+      ],
+      "original": false
+    },
+    {
+      "name": "js-crypto-ec",
+      "roles": [
+        "cryptography"
+      ],
+      "original": false
+    },
+    {
+      "name": "js-crypto-rsa",
+      "roles": [
+        "cryptography"
+      ],
+      "original": false
+    },
+    {
+      "name": "js-image-generator",
+      "roles": [
+        "image"
+      ],
+      "original": false
+    },
+    {
+      "name": "js-object-utilities",
+      "roles": [
+        "utilities"
+      ],
+      "original": false
+    },
+    {
+      "name": "js-string-compression",
+      "roles": [
+        "compression"
+      ],
+      "original": false
+    },
+    {
+      "name": "jsdoc-type-pratt-parser",
+      "roles": [
+        "parser"
+      ],
+      "original": false
+    },
+    {
+      "name": "json-schema",
+      "roles": [
+        "validation"
+      ],
+      "original": false
+    },
+    {
+      "name": "json-stream-stringify",
+      "roles": [
+        "stream"
+      ],
+      "original": false
+    },
+    {
+      "name": "jsonc-parser",
+      "roles": [
+        "parser"
+      ],
+      "original": false
+    },
+    {
+      "name": "jsonpack",
+      "roles": [
+        "compression"
+      ],
+      "original": false
+    },
+    {
+      "name": "jsprim",
+      "roles": [
+        "utilities"
+      ],
+      "original": false
+    },
+    {
+      "name": "just-bash",
+      "roles": [
+        "filesystem"
+      ],
+      "original": false
+    },
+    {
+      "name": "kafkajs-lz4",
+      "roles": [
+        "compression"
+      ],
+      "original": false
+    },
+    {
+      "name": "kaiser",
+      "roles": [
+        "serialization"
+      ],
+      "original": false
+    },
+    {
+      "name": "karma-mocha-reporter",
+      "roles": [
+        "logging"
+      ],
+      "original": false
+    },
+    {
+      "name": "kerium",
+      "roles": [
+        "logging"
+      ],
+      "original": false
+    },
+    {
+      "name": "keybase-ecurve",
+      "roles": [
+        "cryptography"
+      ],
+      "original": false
+    },
+    {
+      "name": "koa",
+      "roles": [
+        "server framework",
+        "framework"
+      ],
+      "original": true
+    },
+    {
+      "name": "koa-logger",
+      "roles": [
+        "logging"
+      ],
+      "original": false
+    },
+    {
+      "name": "kysely-codegen",
+      "roles": [
+        "database"
+      ],
+      "original": false
+    },
+    {
+      "name": "labeled-stream-splicer",
+      "roles": [
+        "stream"
+      ],
+      "original": false
+    },
+    {
+      "name": "lambdafs",
+      "roles": [
+        "compression"
+      ],
+      "original": false
+    },
+    {
+      "name": "lan-network",
+      "roles": [
+        "network"
+      ],
+      "original": false
+    },
+    {
+      "name": "ldap-authentication",
+      "roles": [
+        "authentication"
+      ],
+      "original": false
+    },
+    {
+      "name": "level",
+      "roles": [
+        "database"
+      ],
+      "original": false
+    },
+    {
+      "name": "level-supports",
+      "roles": [
+        "database"
+      ],
+      "original": false
+    },
+    {
+      "name": "light-my-request",
+      "roles": [
+        "http"
+      ],
+      "original": false
+    },
+    {
+      "name": "lighthouse-logger",
+      "roles": [
+        "logging"
+      ],
+      "original": false
+    },
+    {
+      "name": "linkfs",
+      "roles": [
+        "filesystem"
+      ],
+      "original": false
+    },
+    {
+      "name": "lodash",
+      "roles": [
+        "utility",
+        "utilities"
+      ],
+      "original": true
+    },
+    {
+      "name": "lodash.isundefined",
+      "roles": [
+        "build"
+      ],
+      "original": false
+    },
+    {
+      "name": "log",
+      "roles": [
+        "logging"
+      ],
+      "original": false
+    },
+    {
+      "name": "log-driver",
+      "roles": [
+        "logging"
+      ],
+      "original": false
+    },
+    {
+      "name": "logging",
+      "roles": [
+        "logging"
+      ],
+      "original": false
+    },
+    {
+      "name": "loglevel",
+      "roles": [
+        "logging"
+      ],
+      "original": false
+    },
+    {
+      "name": "lokijs",
+      "roles": [
+        "database"
+      ],
+      "original": false
+    },
+    {
+      "name": "lowdb",
+      "roles": [
+        "database"
+      ],
+      "original": false
+    },
+    {
+      "name": "lws-compress",
+      "roles": [
+        "compression"
+      ],
+      "original": false
+    },
+    {
+      "name": "lws-log",
+      "roles": [
+        "logging"
+      ],
+      "original": false
+    },
+    {
+      "name": "lz-string",
+      "roles": [
+        "compression"
+      ],
+      "original": false
+    },
+    {
+      "name": "lz-utils",
+      "roles": [
+        "compression"
+      ],
+      "original": false
+    },
+    {
+      "name": "lz4",
+      "roles": [
+        "compression"
+      ],
+      "original": false
+    },
+    {
+      "name": "lzo",
+      "roles": [
+        "compression"
+      ],
+      "original": false
+    },
+    {
+      "name": "lzutf8",
+      "roles": [
+        "compression"
+      ],
+      "original": false
+    },
+    {
+      "name": "m3u8-parser",
+      "roles": [
+        "parser"
+      ],
+      "original": false
+    },
+    {
+      "name": "mailauth",
+      "roles": [
+        "authentication"
+      ],
+      "original": false
+    },
+    {
+      "name": "markdown",
+      "roles": [
+        "markdown"
+      ],
+      "original": false
+    },
+    {
+      "name": "markdown-escape",
+      "roles": [
+        "markdown"
+      ],
+      "original": false
+    },
+    {
+      "name": "markdown-escapes",
+      "roles": [
+        "markdown"
+      ],
+      "original": false
+    },
+    {
+      "name": "markdown-exit",
+      "roles": [
+        "markdown"
+      ],
+      "original": false
+    },
+    {
+      "name": "markdown-extensions",
+      "roles": [
+        "markdown"
+      ],
+      "original": false
+    },
+    {
+      "name": "markdown-it",
+      "roles": [
+        "markdown"
+      ],
+      "original": false
+    },
+    {
+      "name": "markdown-it-abbr",
+      "roles": [
+        "markdown"
+      ],
+      "original": false
+    },
+    {
+      "name": "markdown-it-anchor",
+      "roles": [
+        "markdown"
+      ],
+      "original": false
+    },
+    {
+      "name": "markdown-it-container",
+      "roles": [
+        "markdown"
+      ],
+      "original": false
+    },
+    {
+      "name": "markdown-it-deflist",
+      "roles": [
+        "markdown"
+      ],
+      "original": false
+    },
+    {
+      "name": "markdown-it-emoji",
+      "roles": [
+        "markdown"
+      ],
+      "original": false
+    },
+    {
+      "name": "markdown-it-footnote",
+      "roles": [
+        "markdown"
+      ],
+      "original": false
+    },
+    {
+      "name": "markdown-it-ins",
+      "roles": [
+        "markdown"
+      ],
+      "original": false
+    },
+    {
+      "name": "markdown-it-mark",
+      "roles": [
+        "markdown"
+      ],
+      "original": false
+    },
+    {
+      "name": "markdown-it-sub",
+      "roles": [
+        "markdown"
+      ],
+      "original": false
+    },
+    {
+      "name": "markdown-it-sup",
+      "roles": [
+        "markdown"
+      ],
+      "original": false
+    },
+    {
+      "name": "markdown-it-task-lists",
+      "roles": [
+        "markdown"
+      ],
+      "original": false
+    },
+    {
+      "name": "markdown-it-terminal",
+      "roles": [
+        "markdown"
+      ],
+      "original": false
+    },
+    {
+      "name": "markdown-link-extractor",
+      "roles": [
+        "markdown"
+      ],
+      "original": false
+    },
+    {
+      "name": "markdown-loader",
+      "roles": [
+        "markdown"
+      ],
+      "original": false
+    },
+    {
+      "name": "markdown-table",
+      "roles": [
+        "markdown"
+      ],
+      "original": false
+    },
+    {
+      "name": "markdown-to-jsx",
+      "roles": [
+        "markdown"
+      ],
+      "original": false
+    },
+    {
+      "name": "marked",
+      "roles": [
+        "text processing",
+        "markdown"
+      ],
+      "original": true
+    },
+    {
+      "name": "maxstache-stream",
+      "roles": [
+        "stream"
+      ],
+      "original": false
+    },
+    {
+      "name": "mcl-wasm",
+      "roles": [
+        "cryptography"
+      ],
+      "original": false
+    },
+    {
+      "name": "mcp-framework",
+      "roles": [
+        "framework"
+      ],
+      "original": false
+    },
+    {
+      "name": "mdast-util-from-markdown",
+      "roles": [
+        "markdown"
+      ],
+      "original": false
+    },
+    {
+      "name": "mdast-util-to-markdown",
+      "roles": [
+        "markdown"
+      ],
+      "original": false
+    },
+    {
+      "name": "mdast-util-to-markdown-cjk-friendly",
+      "roles": [
+        "markdown"
+      ],
+      "original": false
+    },
+    {
+      "name": "mdast-util-to-markdown-cjk-friendly-gfm-strikethrough",
+      "roles": [
+        "serialization"
+      ],
+      "original": false
+    },
+    {
+      "name": "mdn-data",
+      "roles": [
+        "network"
+      ],
+      "original": false
+    },
+    {
+      "name": "mdurl",
+      "roles": [
+        "utilities"
+      ],
+      "original": false
+    },
+    {
+      "name": "memory-fs",
+      "roles": [
+        "filesystem"
+      ],
+      "original": false
+    },
+    {
+      "name": "meow",
+      "roles": [
+        "cli"
+      ],
+      "original": false
+    },
+    {
+      "name": "mercurius-validation",
+      "roles": [
+        "validation"
+      ],
+      "original": false
+    },
+    {
+      "name": "merge-stream",
+      "roles": [
+        "stream"
+      ],
+      "original": false
+    },
+    {
+      "name": "methods",
+      "roles": [
+        "http"
+      ],
+      "original": false
+    },
+    {
+      "name": "micro-rsa-dsa-dh",
+      "roles": [
+        "cryptography"
+      ],
+      "original": false
+    },
+    {
+      "name": "micromark-core-commonmark",
+      "roles": [
+        "markdown"
+      ],
+      "original": false
+    },
+    {
+      "name": "migrate-mongo",
+      "roles": [
+        "database"
+      ],
+      "original": false
+    },
+    {
+      "name": "mime-db",
+      "roles": [
+        "database"
+      ],
+      "original": false
+    },
+    {
+      "name": "minimist",
+      "roles": [
+        "argument parsing"
+      ],
+      "original": true
+    },
+    {
+      "name": "minipass",
+      "roles": [
+        "stream"
+      ],
+      "original": false
+    },
+    {
+      "name": "mjml-image",
+      "roles": [
+        "image"
+      ],
+      "original": false
+    },
+    {
+      "name": "mocha",
+      "roles": [
+        "testing"
+      ],
+      "original": true
+    },
+    {
+      "name": "mpd-parser",
+      "roles": [
+        "parser"
+      ],
+      "original": false
+    },
+    {
+      "name": "msrcrypto",
+      "roles": [
+        "cryptography"
+      ],
+      "original": false
+    },
+    {
+      "name": "mutation-testing-elements",
+      "roles": [
+        "testing"
+      ],
+      "original": false
+    },
+    {
+      "name": "mutation-testing-metrics",
+      "roles": [
+        "testing"
+      ],
+      "original": false
+    },
+    {
+      "name": "mutation-testing-report-schema",
+      "roles": [
+        "testing"
+      ],
+      "original": false
+    },
+    {
+      "name": "mysql2",
+      "roles": [
+        "compression"
+      ],
+      "original": false
+    },
+    {
+      "name": "nanoid",
+      "roles": [
+        "identifier generation"
+      ],
+      "original": true
+    },
+    {
+      "name": "napi-build-utils",
+      "roles": [
+        "build"
+      ],
+      "original": false
+    },
+    {
+      "name": "negotiator",
+      "roles": [
+        "http"
+      ],
+      "original": false
+    },
+    {
+      "name": "nest-commander-testing",
+      "roles": [
+        "testing"
+      ],
+      "original": false
+    },
+    {
+      "name": "netmask",
+      "roles": [
+        "network"
+      ],
+      "original": false
+    },
+    {
+      "name": "network",
+      "roles": [
+        "network"
+      ],
+      "original": false
+    },
+    {
+      "name": "network-address",
+      "roles": [
+        "network"
+      ],
+      "original": false
+    },
+    {
+      "name": "network-information-types",
+      "roles": [
+        "network"
+      ],
+      "original": false
+    },
+    {
+      "name": "network-interfaces",
+      "roles": [
+        "network"
+      ],
+      "original": false
+    },
+    {
+      "name": "network-viewer",
+      "roles": [
+        "network"
+      ],
+      "original": false
+    },
+    {
+      "name": "next",
+      "roles": [
+        "application framework",
+        "framework"
+      ],
+      "original": true
+    },
+    {
+      "name": "next-auth",
+      "roles": [
+        "authentication"
+      ],
+      "original": false
+    },
+    {
+      "name": "next-build-id",
+      "roles": [
+        "build"
+      ],
+      "original": false
+    },
+    {
+      "name": "next-logger",
+      "roles": [
+        "logging"
+      ],
+      "original": false
+    },
+    {
+      "name": "next-rest-framework",
+      "roles": [
+        "framework"
+      ],
+      "original": false
+    },
+    {
+      "name": "ng2-validation",
+      "roles": [
+        "validation"
+      ],
+      "original": false
+    },
+    {
+      "name": "ngx-build-plus",
+      "roles": [
+        "build"
+      ],
+      "original": false
+    },
+    {
+      "name": "ngx-image-cropper",
+      "roles": [
+        "image"
+      ],
+      "original": false
+    },
+    {
+      "name": "node-forge",
+      "roles": [
+        "cryptography",
+        "network"
+      ],
+      "original": false
+    },
+    {
+      "name": "node-gyp",
+      "roles": [
+        "build"
+      ],
+      "original": false
+    },
+    {
+      "name": "node-gyp-build",
+      "roles": [
+        "build"
+      ],
+      "original": false
+    },
+    {
+      "name": "node-gyp-build-optional-packages",
+      "roles": [
+        "build"
+      ],
+      "original": false
+    },
+    {
+      "name": "node-mocks-http",
+      "roles": [
+        "http"
+      ],
+      "original": false
+    },
+    {
+      "name": "node-network-devtools",
+      "roles": [
+        "network"
+      ],
+      "original": false
+    },
+    {
+      "name": "node-pg-migrate",
+      "roles": [
+        "database"
+      ],
+      "original": false
+    },
+    {
+      "name": "node-sql-parser",
+      "roles": [
+        "parser"
+      ],
+      "original": false
+    },
+    {
+      "name": "nodemailer-build-attachment",
+      "roles": [
+        "build"
+      ],
+      "original": false
+    },
+    {
+      "name": "numcodecs",
+      "roles": [
+        "compression"
+      ],
+      "original": false
+    },
+    {
+      "name": "nuxt-og-image",
+      "roles": [
+        "image"
+      ],
+      "original": false
+    },
+    {
+      "name": "oc-generic-template-compiler",
+      "roles": [
+        "template"
+      ],
+      "original": false
+    },
+    {
+      "name": "oc-generic-template-renderer",
+      "roles": [
+        "template"
+      ],
+      "original": false
+    },
+    {
+      "name": "oc-template-es6",
+      "roles": [
+        "template"
+      ],
+      "original": false
+    },
+    {
+      "name": "oc-template-esm",
+      "roles": [
+        "template"
+      ],
+      "original": false
+    },
+    {
+      "name": "oc-template-handlebars",
+      "roles": [
+        "template"
+      ],
+      "original": false
+    },
+    {
+      "name": "oc-template-jade",
+      "roles": [
+        "template"
+      ],
+      "original": false
+    },
+    {
+      "name": "oci-database",
+      "roles": [
+        "database"
+      ],
+      "original": false
+    },
+    {
+      "name": "oci-databasemigration",
+      "roles": [
+        "database"
+      ],
+      "original": false
+    },
+    {
+      "name": "oci-distributeddatabase",
+      "roles": [
+        "database"
+      ],
+      "original": false
+    },
+    {
+      "name": "oci-logging",
+      "roles": [
+        "logging"
+      ],
+      "original": false
+    },
+    {
+      "name": "ohash",
+      "roles": [
+        "serialization"
+      ],
+      "original": false
+    },
+    {
+      "name": "one-validation",
+      "roles": [
+        "validation"
+      ],
+      "original": false
+    },
+    {
+      "name": "openapi-framework",
+      "roles": [
+        "framework"
+      ],
+      "original": false
+    },
+    {
+      "name": "opentok-network-test-js",
+      "roles": [
+        "network"
+      ],
+      "original": false
+    },
+    {
+      "name": "opentok-solutions-logging",
+      "roles": [
+        "logging"
+      ],
+      "original": false
+    },
+    {
+      "name": "oracledb",
+      "roles": [
+        "database"
+      ],
+      "original": false
+    },
+    {
+      "name": "outdent",
+      "roles": [
+        "template"
+      ],
+      "original": false
+    },
+    {
+      "name": "ow",
+      "roles": [
+        "validation"
+      ],
+      "original": false
+    },
+    {
+      "name": "oxc-parser",
+      "roles": [
+        "parser"
+      ],
+      "original": false
+    },
+    {
+      "name": "p-locate",
+      "roles": [
+        "testing"
+      ],
+      "original": false
+    },
+    {
+      "name": "parse-database-url",
+      "roles": [
+        "database"
+      ],
+      "original": false
+    },
+    {
+      "name": "parse5-parser-stream",
+      "roles": [
+        "parser"
+      ],
+      "original": false
+    },
+    {
+      "name": "parse5-sax-parser",
+      "roles": [
+        "parser"
+      ],
+      "original": false
+    },
+    {
+      "name": "parser",
+      "roles": [
+        "parser"
+      ],
+      "original": false
+    },
+    {
+      "name": "passport",
+      "roles": [
+        "authentication"
+      ],
+      "original": false
+    },
+    {
+      "name": "passport-custom",
+      "roles": [
+        "authentication"
+      ],
+      "original": false
+    },
+    {
+      "name": "passport-github2",
+      "roles": [
+        "authentication"
+      ],
+      "original": false
+    },
+    {
+      "name": "passport-google-oauth20",
+      "roles": [
+        "authentication"
+      ],
+      "original": false
+    },
+    {
+      "name": "passport-http-bearer",
+      "roles": [
+        "http",
+        "authentication"
+      ],
+      "original": false
+    },
+    {
+      "name": "passport-jwt",
+      "roles": [
+        "authentication"
+      ],
+      "original": false
+    },
+    {
+      "name": "passport-local",
+      "roles": [
+        "authentication"
+      ],
+      "original": false
+    },
+    {
+      "name": "passport-oauth1",
+      "roles": [
+        "authentication"
+      ],
+      "original": false
+    },
+    {
+      "name": "passport-oauth2",
+      "roles": [
+        "authentication"
+      ],
+      "original": false
+    },
+    {
+      "name": "path-data-parser",
+      "roles": [
+        "parser"
+      ],
+      "original": false
+    },
+    {
+      "name": "pathe",
+      "roles": [
+        "filesystem"
+      ],
+      "original": false
+    },
+    {
+      "name": "pdfjs-dist",
+      "roles": [
+        "build"
+      ],
+      "original": false
+    },
+    {
+      "name": "peerjs-js-binarypack",
+      "roles": [
+        "serialization"
+      ],
+      "original": false
+    },
+    {
+      "name": "permessage-deflate",
+      "roles": [
+        "compression"
+      ],
+      "original": false
+    },
+    {
+      "name": "pg-query-stream",
+      "roles": [
+        "stream"
+      ],
+      "original": false
+    },
+    {
+      "name": "pino-cloud-logging",
+      "roles": [
+        "logging"
+      ],
+      "original": false
+    },
+    {
+      "name": "pino-http",
+      "roles": [
+        "http"
+      ],
+      "original": false
+    },
+    {
+      "name": "plasmo",
+      "roles": [
+        "framework"
+      ],
+      "original": false
+    },
+    {
+      "name": "playwright-network-cache",
+      "roles": [
+        "network"
+      ],
+      "original": false
+    },
+    {
+      "name": "playwright-testing-library",
+      "roles": [
+        "testing"
+      ],
+      "original": false
+    },
+    {
+      "name": "polymer-build",
+      "roles": [
+        "build"
+      ],
+      "original": false
+    },
+    {
+      "name": "popsicle-content-encoding",
+      "roles": [
+        "compression"
+      ],
+      "original": false
+    },
+    {
+      "name": "postcss-cli",
+      "roles": [
+        "cli"
+      ],
+      "original": false
+    },
+    {
+      "name": "postcss-image-set-function",
+      "roles": [
+        "image"
+      ],
+      "original": false
+    },
+    {
+      "name": "postcss-markdown",
+      "roles": [
+        "markdown"
+      ],
+      "original": false
+    },
+    {
+      "name": "postcss-safe-parser",
+      "roles": [
+        "parser"
+      ],
+      "original": false
+    },
+    {
+      "name": "postcss-selector-parser",
+      "roles": [
+        "parser"
+      ],
+      "original": false
+    },
+    {
+      "name": "pouchdb-authentication",
+      "roles": [
+        "authentication"
+      ],
+      "original": false
+    },
+    {
+      "name": "powershell-utils",
+      "roles": [
+        "utilities"
+      ],
+      "original": false
+    },
+    {
+      "name": "pptr-testing-library",
+      "roles": [
+        "testing"
+      ],
+      "original": false
+    },
+    {
+      "name": "pqcrypto",
+      "roles": [
+        "cryptography"
+      ],
+      "original": false
+    },
+    {
+      "name": "prettier",
+      "roles": [
+        "quality tooling"
+      ],
+      "original": true
+    },
+    {
+      "name": "prettier-plugin-ember-template-tag",
+      "roles": [
+        "template"
+      ],
+      "original": false
+    },
+    {
+      "name": "probe-image-size",
+      "roles": [
+        "image"
+      ],
+      "original": false
+    },
+    {
+      "name": "progress-stream",
+      "roles": [
+        "stream"
+      ],
+      "original": false
+    },
+    {
+      "name": "prosemirror-markdown",
+      "roles": [
+        "markdown"
+      ],
+      "original": false
+    },
+    {
+      "name": "protractor-cucumber-framework",
+      "roles": [
+        "framework"
+      ],
+      "original": false
+    },
+    {
+      "name": "proxy-agent-negotiate",
+      "roles": [
+        "authentication"
+      ],
+      "original": false
+    },
+    {
+      "name": "qdd-framework",
+      "roles": [
+        "framework"
+      ],
+      "original": false
+    },
+    {
+      "name": "qs",
+      "roles": [
+        "query parsing"
+      ],
+      "original": true
+    },
+    {
+      "name": "quote-stream",
+      "roles": [
+        "stream"
+      ],
+      "original": false
+    },
+    {
+      "name": "range-parser",
+      "roles": [
+        "parser"
+      ],
+      "original": false
+    },
+    {
+      "name": "rc-image",
+      "roles": [
+        "image"
+      ],
+      "original": false
+    },
+    {
+      "name": "rdf-parse",
+      "roles": [
+        "serialization"
+      ],
+      "original": false
+    },
+    {
+      "name": "react",
+      "roles": [
+        "UI framework"
+      ],
+      "original": true
+    },
+    {
+      "name": "react-image",
+      "roles": [
+        "image"
+      ],
+      "original": false
+    },
+    {
+      "name": "react-image-crop",
+      "roles": [
+        "image"
+      ],
+      "original": false
+    },
+    {
+      "name": "react-image-gallery",
+      "roles": [
+        "image"
+      ],
+      "original": false
+    },
+    {
+      "name": "react-markdown",
+      "roles": [
+        "markdown"
+      ],
+      "original": false
+    },
+    {
+      "name": "react-medium-image-zoom",
+      "roles": [
+        "image"
+      ],
+      "original": false
+    },
+    {
+      "name": "react-native-fast-image",
+      "roles": [
+        "image"
+      ],
+      "original": false
+    },
+    {
+      "name": "react-native-file-access",
+      "roles": [
+        "filesystem"
+      ],
+      "original": false
+    },
+    {
+      "name": "react-native-fit-image",
+      "roles": [
+        "image"
+      ],
+      "original": false
+    },
+    {
+      "name": "react-native-fs",
+      "roles": [
+        "filesystem"
+      ],
+      "original": false
+    },
+    {
+      "name": "react-native-network-info",
+      "roles": [
+        "network"
+      ],
+      "original": false
+    },
+    {
+      "name": "react-relay-network-modern",
+      "roles": [
+        "network"
+      ],
+      "original": false
+    },
+    {
+      "name": "react-relay-network-modern-ssr",
+      "roles": [
+        "network"
+      ],
+      "original": false
+    },
+    {
+      "name": "react-test-renderer",
+      "roles": [
+        "testing"
+      ],
+      "original": false
+    },
+    {
+      "name": "readable-stream",
+      "roles": [
+        "stream"
+      ],
+      "original": false
+    },
+    {
+      "name": "readable-stream-clone",
+      "roles": [
+        "stream"
+      ],
+      "original": false
+    },
+    {
+      "name": "readable-web-to-node-stream",
+      "roles": [
+        "stream"
+      ],
+      "original": false
+    },
+    {
+      "name": "redis-parser",
+      "roles": [
+        "parser"
+      ],
+      "original": false
+    },
+    {
+      "name": "redux-persist-filesystem-storage",
+      "roles": [
+        "filesystem"
+      ],
+      "original": false
+    },
+    {
+      "name": "redux-saga-testing",
+      "roles": [
+        "testing"
+      ],
+      "original": false
+    },
+    {
+      "name": "remark-cli",
+      "roles": [
+        "cli"
+      ],
+      "original": false
+    },
+    {
+      "name": "remend",
+      "roles": [
+        "markdown"
+      ],
+      "original": false
+    },
+    {
+      "name": "remove-markdown",
+      "roles": [
+        "markdown"
+      ],
+      "original": false
+    },
+    {
+      "name": "replicator",
+      "roles": [
+        "serialization"
+      ],
+      "original": false
+    },
+    {
+      "name": "restore-cursor",
+      "roles": [
+        "cli"
+      ],
+      "original": false
+    },
+    {
+      "name": "rison-node",
+      "roles": [
+        "serialization"
+      ],
+      "original": false
+    },
+    {
+      "name": "robots-parser",
+      "roles": [
+        "parser"
+      ],
+      "original": false
+    },
+    {
+      "name": "rollup",
+      "roles": [
+        "build tooling"
+      ],
+      "original": true
+    },
+    {
+      "name": "safe-json-value",
+      "roles": [
+        "serialization"
+      ],
+      "original": false
+    },
+    {
+      "name": "sandbox-cli-detector",
+      "roles": [
+        "cli"
+      ],
+      "original": false
+    },
+    {
+      "name": "sander",
+      "roles": [
+        "filesystem"
+      ],
+      "original": false
+    },
+    {
+      "name": "schema-utils",
+      "roles": [
+        "validation"
+      ],
+      "original": false
+    },
+    {
+      "name": "sdp",
+      "roles": [
+        "serialization"
+      ],
+      "original": false
+    },
+    {
+      "name": "secure-password-utilities",
+      "roles": [
+        "utilities"
+      ],
+      "original": false
+    },
+    {
+      "name": "semver",
+      "roles": [
+        "version parsing"
+      ],
+      "original": true
+    },
+    {
+      "name": "sequelize-cli",
+      "roles": [
+        "cli"
+      ],
+      "original": false
+    },
+    {
+      "name": "serialization",
+      "roles": [
+        "serialization"
+      ],
+      "original": false
+    },
+    {
+      "name": "serverless-api-compression",
+      "roles": [
+        "compression"
+      ],
+      "original": false
+    },
+    {
+      "name": "serverless-logging-config",
+      "roles": [
+        "logging"
+      ],
+      "original": false
+    },
+    {
+      "name": "should",
+      "roles": [
+        "framework"
+      ],
+      "original": false
+    },
+    {
+      "name": "shrink-ray-current",
+      "roles": [
+        "compression"
+      ],
+      "original": false
+    },
+    {
+      "name": "simple-markdown",
+      "roles": [
+        "markdown"
+      ],
+      "original": false
+    },
+    {
+      "name": "slackify-markdown",
+      "roles": [
+        "markdown"
+      ],
+      "original": false
+    },
+    {
+      "name": "snappy",
+      "roles": [
+        "compression"
+      ],
+      "original": false
+    },
+    {
+      "name": "snappyjs",
+      "roles": [
+        "compression"
+      ],
+      "original": false
+    },
+    {
+      "name": "socket.io",
+      "roles": [
+        "networking",
+        "framework"
+      ],
+      "original": true
+    },
+    {
+      "name": "socket.io-client",
+      "roles": [
+        "framework"
+      ],
+      "original": false
+    },
+    {
+      "name": "socket.io-parser",
+      "roles": [
+        "parser"
+      ],
+      "original": false
+    },
+    {
+      "name": "sodium-plus",
+      "roles": [
+        "cryptography"
+      ],
+      "original": false
+    },
+    {
+      "name": "split2",
+      "roles": [
+        "stream"
+      ],
+      "original": false
+    },
+    {
+      "name": "splunk-logging",
+      "roles": [
+        "logging"
+      ],
+      "original": false
+    },
+    {
+      "name": "sql-template-strings",
+      "roles": [
+        "template"
+      ],
+      "original": false
+    },
+    {
+      "name": "sscrypto",
+      "roles": [
+        "cryptography"
+      ],
+      "original": false
+    },
+    {
+      "name": "statuses",
+      "roles": [
+        "http"
+      ],
+      "original": false
+    },
+    {
+      "name": "stdout-stream",
+      "roles": [
+        "stream"
+      ],
+      "original": false
+    },
+    {
+      "name": "stream",
+      "roles": [
+        "stream"
+      ],
+      "original": false
+    },
+    {
+      "name": "stream-browserify",
+      "roles": [
+        "stream"
+      ],
+      "original": false
+    },
+    {
+      "name": "stream-chat",
+      "roles": [
+        "stream"
+      ],
+      "original": false
+    },
+    {
+      "name": "stream-combiner",
+      "roles": [
+        "stream"
+      ],
+      "original": false
+    },
+    {
+      "name": "stream-combiner2",
+      "roles": [
+        "stream"
+      ],
+      "original": false
+    },
+    {
+      "name": "stream-composer",
+      "roles": [
+        "stream"
+      ],
+      "original": false
+    },
+    {
+      "name": "stream-each",
+      "roles": [
+        "stream"
+      ],
+      "original": false
+    },
+    {
+      "name": "stream-http",
+      "roles": [
+        "http"
+      ],
+      "original": false
+    },
+    {
+      "name": "stream-parser",
+      "roles": [
+        "parser"
+      ],
+      "original": false
+    },
+    {
+      "name": "stream-promise",
+      "roles": [
+        "stream"
+      ],
+      "original": false
+    },
+    {
+      "name": "stream-replace-string",
+      "roles": [
+        "stream"
+      ],
+      "original": false
+    },
+    {
+      "name": "stream-slice",
+      "roles": [
+        "stream"
+      ],
+      "original": false
+    },
+    {
+      "name": "stream-slicer",
+      "roles": [
+        "stream"
+      ],
+      "original": false
+    },
+    {
+      "name": "stream-to",
+      "roles": [
+        "stream"
+      ],
+      "original": false
+    },
+    {
+      "name": "stream-via",
+      "roles": [
+        "stream"
+      ],
+      "original": false
+    },
+    {
+      "name": "strfy-js",
+      "roles": [
+        "serialization"
+      ],
+      "original": false
+    },
+    {
+      "name": "string-template",
+      "roles": [
+        "template"
+      ],
+      "original": false
+    },
+    {
+      "name": "string-to-stream",
+      "roles": [
+        "stream"
+      ],
+      "original": false
+    },
+    {
+      "name": "strip-markdown",
+      "roles": [
+        "markdown"
+      ],
+      "original": false
+    },
+    {
+      "name": "supabase",
+      "roles": [
+        "cli"
+      ],
+      "original": false
+    },
+    {
+      "name": "supertest",
+      "roles": [
+        "testing"
+      ],
+      "original": false
+    },
+    {
+      "name": "svelte",
+      "roles": [
+        "UI framework"
+      ],
+      "original": true
+    },
+    {
+      "name": "svelte-eslint-parser",
+      "roles": [
+        "parser"
+      ],
+      "original": false
+    },
+    {
+      "name": "tailwindcss",
+      "roles": [
+        "framework"
+      ],
+      "original": false
+    },
+    {
+      "name": "tar",
+      "roles": [
+        "archive processing"
+      ],
+      "original": true
+    },
+    {
+      "name": "tar-fs",
+      "roles": [
+        "stream",
+        "filesystem"
+      ],
+      "original": false
+    },
+    {
+      "name": "tcomb-validation",
+      "roles": [
+        "validation"
+      ],
+      "original": false
+    },
+    {
+      "name": "teleport-javascript",
+      "roles": [
+        "serialization"
+      ],
+      "original": false
+    },
+    {
+      "name": "template",
+      "roles": [
+        "template"
+      ],
+      "original": false
+    },
+    {
+      "name": "ternary-stream",
+      "roles": [
+        "stream"
+      ],
+      "original": false
+    },
+    {
+      "name": "testing",
+      "roles": [
+        "testing"
+      ],
+      "original": false
+    },
+    {
+      "name": "testing-library-selector",
+      "roles": [
+        "testing"
+      ],
+      "original": false
+    },
+    {
+      "name": "thai-address-database",
+      "roles": [
+        "database"
+      ],
+      "original": false
+    },
+    {
+      "name": "thingies",
+      "roles": [
+        "utilities"
+      ],
+      "original": false
+    },
+    {
+      "name": "through",
+      "roles": [
+        "stream"
+      ],
+      "original": false
+    },
+    {
+      "name": "tinyduration",
+      "roles": [
+        "serialization"
+      ],
+      "original": false
+    },
+    {
+      "name": "tiptap-extension-resize-image",
+      "roles": [
+        "image"
+      ],
+      "original": false
+    },
+    {
+      "name": "tiptap-markdown",
+      "roles": [
+        "markdown"
+      ],
+      "original": false
+    },
+    {
+      "name": "triple-beam",
+      "roles": [
+        "logging"
+      ],
+      "original": false
+    },
+    {
+      "name": "troika-three-utils",
+      "roles": [
+        "utilities"
+      ],
+      "original": false
+    },
+    {
+      "name": "true-case-path",
+      "roles": [
+        "filesystem"
+      ],
+      "original": false
+    },
+    {
+      "name": "ts-parse-database-url",
+      "roles": [
+        "database"
+      ],
+      "original": false
+    },
+    {
+      "name": "tsutils",
+      "roles": [
+        "utilities"
+      ],
+      "original": false
+    },
+    {
+      "name": "turbo",
+      "roles": [
+        "build"
+      ],
+      "original": false
+    },
+    {
+      "name": "type",
+      "roles": [
+        "validation"
+      ],
+      "original": false
+    },
+    {
+      "name": "typedoc-plugin-markdown",
+      "roles": [
+        "markdown"
+      ],
+      "original": false
+    },
+    {
+      "name": "typescript",
+      "roles": [
+        "language tooling"
+      ],
+      "original": true
+    },
+    {
+      "name": "undici",
+      "roles": [
+        "HTTP client"
+      ],
+      "original": true
+    },
+    {
+      "name": "unhead",
+      "roles": [
+        "framework"
+      ],
+      "original": false
+    },
+    {
+      "name": "unicorn-magic",
+      "roles": [
+        "utilities"
+      ],
+      "original": false
+    },
+    {
+      "name": "unique-stream",
+      "roles": [
+        "stream"
+      ],
+      "original": false
+    },
+    {
+      "name": "unpic",
+      "roles": [
+        "image"
+      ],
+      "original": false
+    },
+    {
+      "name": "unpipe",
+      "roles": [
+        "stream"
+      ],
+      "original": false
+    },
+    {
+      "name": "unplugin",
+      "roles": [
+        "build"
+      ],
+      "original": false
+    },
+    {
+      "name": "unplugin-vue-markdown",
+      "roles": [
+        "markdown"
+      ],
+      "original": false
+    },
+    {
+      "name": "uri-template-lite",
+      "roles": [
+        "template"
+      ],
+      "original": false
+    },
+    {
+      "name": "uri-template-matcher",
+      "roles": [
+        "template"
+      ],
+      "original": false
+    },
+    {
+      "name": "url-template",
+      "roles": [
+        "template"
+      ],
+      "original": false
+    },
+    {
+      "name": "use-query-params",
+      "roles": [
+        "serialization"
+      ],
+      "original": false
+    },
+    {
+      "name": "utilium",
+      "roles": [
+        "utilities"
+      ],
+      "original": false
+    },
+    {
+      "name": "v-network-graph",
+      "roles": [
+        "network"
+      ],
+      "original": false
+    },
+    {
+      "name": "v8n",
+      "roles": [
+        "validation"
+      ],
+      "original": false
+    },
+    {
+      "name": "valid-url",
+      "roles": [
+        "validation"
+      ],
+      "original": false
+    },
+    {
+      "name": "validation",
+      "roles": [
+        "validation"
+      ],
+      "original": false
+    },
+    {
+      "name": "validator",
+      "roles": [
+        "validation"
+      ],
+      "original": false
+    },
+    {
+      "name": "vanilla-framework",
+      "roles": [
+        "framework"
+      ],
+      "original": false
+    },
+    {
+      "name": "vary",
+      "roles": [
+        "http"
+      ],
+      "original": false
+    },
+    {
+      "name": "vega-canvas",
+      "roles": [
+        "image"
+      ],
+      "original": false
+    },
+    {
+      "name": "vega-loader",
+      "roles": [
+        "network"
+      ],
+      "original": false
+    },
+    {
+      "name": "velocityjs",
+      "roles": [
+        "template"
+      ],
+      "original": false
+    },
+    {
+      "name": "verdaccio-htpasswd",
+      "roles": [
+        "authentication"
+      ],
+      "original": false
+    },
+    {
+      "name": "visjs-network",
+      "roles": [
+        "network"
+      ],
+      "original": false
+    },
+    {
+      "name": "vite",
+      "roles": [
+        "build tooling",
+        "build"
+      ],
+      "original": true
+    },
+    {
+      "name": "vite-plugin-compression2",
+      "roles": [
+        "compression"
+      ],
+      "original": false
+    },
+    {
+      "name": "vitefu",
+      "roles": [
+        "utilities"
+      ],
+      "original": false
+    },
+    {
+      "name": "vitest",
+      "roles": [
+        "testing",
+        "framework"
+      ],
+      "original": true
+    },
+    {
+      "name": "vscode-markdown-languageservice",
+      "roles": [
+        "markdown"
+      ],
+      "original": false
+    },
+    {
+      "name": "vue",
+      "roles": [
+        "UI framework"
+      ],
+      "original": true
+    },
+    {
+      "name": "vue-eslint-parser",
+      "roles": [
+        "parser"
+      ],
+      "original": false
+    },
+    {
+      "name": "vue-template-compiler",
+      "roles": [
+        "template"
+      ],
+      "original": false
+    },
+    {
+      "name": "vue-template-es2015-compiler",
+      "roles": [
+        "template"
+      ],
+      "original": false
+    },
+    {
+      "name": "web3-providers-http",
+      "roles": [
+        "http"
+      ],
+      "original": false
+    },
+    {
+      "name": "webcrypto-shim",
+      "roles": [
+        "cryptography"
+      ],
+      "original": false
+    },
+    {
+      "name": "webpack",
+      "roles": [
+        "build tooling"
+      ],
+      "original": true
+    },
+    {
+      "name": "webpack-build-utils",
+      "roles": [
+        "build"
+      ],
+      "original": false
+    },
+    {
+      "name": "webpack-cli",
+      "roles": [
+        "cli"
+      ],
+      "original": false
+    },
+    {
+      "name": "wkt-parser",
+      "roles": [
+        "parser"
+      ],
+      "original": false
+    },
+    {
+      "name": "wordnet-db",
+      "roles": [
+        "database"
+      ],
+      "original": false
+    },
+    {
+      "name": "workbox-build",
+      "roles": [
+        "build"
+      ],
+      "original": false
+    },
+    {
+      "name": "ws",
+      "roles": [
+        "networking"
+      ],
+      "original": true
+    },
+    {
+      "name": "wxt",
+      "roles": [
+        "framework"
+      ],
+      "original": false
+    },
+    {
+      "name": "y-indexeddb",
+      "roles": [
+        "database"
+      ],
+      "original": false
+    },
+    {
+      "name": "y-leveldb",
+      "roles": [
+        "database"
+      ],
+      "original": false
+    },
+    {
+      "name": "yaml",
+      "roles": [
+        "structured data parsing"
+      ],
+      "original": true
+    },
+    {
+      "name": "yargs",
+      "roles": [
+        "command-line tooling"
+      ],
+      "original": true
+    },
+    {
+      "name": "yargs-parser",
+      "roles": [
+        "parser"
+      ],
+      "original": false
+    },
+    {
+      "name": "yup",
+      "roles": [
+        "validation"
+      ],
+      "original": false
+    },
+    {
+      "name": "zod",
+      "roles": [
+        "validation"
+      ],
+      "original": true
+    },
+    {
+      "name": "zod-validation-error",
+      "roles": [
+        "validation"
+      ],
+      "original": false
+    },
+    {
+      "name": "zodex",
+      "roles": [
+        "serialization"
+      ],
+      "original": false
+    },
+    {
+      "name": "zstd-napi",
+      "roles": [
+        "compression"
+      ],
+      "original": false
+    }
+  ]
+}

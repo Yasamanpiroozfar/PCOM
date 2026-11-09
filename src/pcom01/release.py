@@ -8,6 +8,7 @@ from __future__ import annotations
 from collections import Counter
 import csv
 from datetime import timedelta
+from functools import lru_cache
 import gzip
 import hashlib
 import json
@@ -20,6 +21,7 @@ from .io import read_json, save_json, sha256
 from .npm import MetadataError, exact_purl, format_timestamp, parse_timestamp, stable_semver_key, transform
 from .schema import CONTRACT, COLUMNS, MONTHS, MONTH_WINDOWS, REQUIRED_COLUMNS, SEVERITIES, blank_record
 from .validation import parse_npm_purl, validate_record
+from .git_evidence import verification_session
 
 SCOPES = ("supplied", "all-precutoff")
 SELECTION_CUTOFF = "2026-07-01T00:00:00.000Z"
@@ -334,9 +336,20 @@ def _snapshot(root, manifest, boundary):
             or provenance.get("archive_sha256") != info.get("archive_sha256")
             or utc(provenance["observed_before"]) != utc(boundary)):
         raise HistoricalEvidenceError("Snapshot manifest and recorded provenance disagree")
+    kinds = {manifest.get("source_kind"), info.get("source_kind"), provenance.get("source_kind")}
+    if "git_reviewed_tree" in kinds:
+        if kinds != {"git_reviewed_tree"}:
+            raise HistoricalEvidenceError("Inconsistent historical Git source transport")
+        if manifest.get("final_source_binding_sealed") is not True:
+            raise HistoricalEvidenceError("Expanded Git source acquisition is not finally sealed")
+        from .git_evidence import verify_git_source
+        verify_git_source(root, info, bundle)
+    elif kinds != {None} or not info.get("archive_sha256"):
+        raise HistoricalEvidenceError("Unknown or archive-less historical source transport")
     return restore_snapshot(bundle["records"], provenance)
 
 
+@verification_session
 def build_release(root=ROOT, scope=None, output=None):
     """Build source-bound records for the primary or sensitivity scope.
 
@@ -375,12 +388,9 @@ def build_release(root=ROOT, scope=None, output=None):
         schema_valid = False
     if not schema_valid:
         raise ValueError("Schema contract is missing or differs from the loaded official field contract")
-    snapshot_cache = {}
-
+    @lru_cache(maxsize=4)
     def snapshot(boundary):
-        if boundary not in snapshot_cache:
-            snapshot_cache[boundary] = _snapshot(root, acquired, boundary)
-        return snapshot_cache[boundary]
+        return _snapshot(root, acquired, boundary)
 
     for package in packages:
         decision = decisions[package]

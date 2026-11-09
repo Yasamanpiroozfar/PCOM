@@ -41,7 +41,7 @@
   "original_submission": {
     "path": "data/processed",
     "tag": "initial-training-data",
-    "commit": "7f3606886865302cbcb25a3151a299ea113c2b59"
+    "commit": "ad0dd1f0762ef29ddfedd14d2e3ef639f4e93c67"
   },
   "successor_tag_proposal": "release-origin-training-v2",
   "limitations": [

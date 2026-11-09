@@ -1,20 +1,19 @@
 {
-  "checked_at": "2026-11-08T23:46:07.925Z",
+  "checked_at": "2026-11-09T07:44:31.539Z",
   "branch": "correction/release-origin-audit",
   "verification_passed": true,
   "errors": [],
   "ready_for_submission": true,
-  "remote_ref_check_performed": true,
   "corrected_export": {
     "manifest_path": "data/corrected/manifest.json",
-    "manifest_sha256": "756caa01822690fcc15791684a33520f049956e2cae788942f51da4b5d7c9c6d",
+    "manifest_sha256": "06918d8cdbcd109b6def3e60568f08dfdd7edc12dfaa4854db89eb0b9b2d7b50",
     "dataset_sha256": "ca796670ce7a4953e9e82feb46c356a678334826ac98cbc7246a246b28909462",
     "records": 989,
     "packages": 39
   },
   "original_tag": {
-    "commit": "7f3606886865302cbcb25a3151a299ea113c2b59",
-    "annotation": "ef8ff18c9fdc8116de8f2e080e12f15140dc80c0",
+    "commit": "ad0dd1f0762ef29ddfedd14d2e3ef639f4e93c67",
+    "annotation": "92ce3f99bd52f8e9e4fbef95e5571569d3962d71",
     "object_type": "tag"
   },
   "protected_original_files": [
@@ -754,10 +753,9 @@
       "owner_authorized_documentation_revision": false
     }
   ],
-  "remote_evidence_checked_at": "2026-11-08 23:37:58 UTC",
   "checks": {
     "correction-tests.json": {
-      "sha256": "654b4d9946d1b13bab3228f11f34f697c1272dd76ce04944f41c817dead9af8d",
+      "sha256": "024bdcfd9215424fefef93bad0882b3515765f16fb804d494079324255b4849d",
       "check": "successful",
       "passed": true
     },
@@ -777,7 +775,7 @@
       "passed": true
     },
     "correction-reproducibility-primary.json": {
-      "sha256": "d3eaeb7512a53ae1eb54e0eecb6822b435c77b088fcc293d4b42175dea5334a2",
+      "sha256": "56ab3b82c4d76b9c2b938cce63b79e757283e65a9f70552604a1c89fb7157ee6",
       "check": "all_identical",
       "passed": true
     },

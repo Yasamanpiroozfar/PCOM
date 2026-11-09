@@ -11,11 +11,12 @@ permissions:
 jobs:
   offline-validation:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 120
     steps:
       - uses: actions/checkout@v7
         with:
           persist-credentials: false
+          lfs: true
       - uses: actions/setup-python@v7
         with:
           python-version: '3.12'
@@ -37,3 +38,5 @@ jobs:
         run: python -B run.py reproduce-corrected
       - name: Independently audit release-origin candidates
         run: python -B tools/audit_release.py
+      - name: Validate and reproduce expanded cohort offline
+        run: python -B run.py reproduce-expanded

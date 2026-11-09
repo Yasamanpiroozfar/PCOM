@@ -238,18 +238,31 @@ def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("command", choices=("acquire", "build", "validate", "reproduce", "test",
                                            "release-plan", "build-release", "reproduce-release", "validate-release",
-                                           "build-corrected", "validate-corrected", "reproduce-corrected"))
+                                           "build-corrected", "validate-corrected", "reproduce-corrected",
+                                           "build-expanded", "validate-expanded", "reproduce-expanded"))
     parser.add_argument("--refresh", action="store_true", help="Explicitly start a new acquisition; keep existing project as archival release")
     parser.add_argument("--legacy-cutoff", action="store_true", help="Explicitly reproduce the original unconfirmed July 1 experiment")
     parser.add_argument("--scope", choices=("supplied", "all-precutoff"), default="supplied",
                         help="Primary: supplied stable input versions (default); all-precutoff is sensitivity analysis")
     args = parser.parse_args()
+    if args.command.endswith("-expanded"):
+        if args.scope != "supplied":
+            parser.error("Expanded deliverables use the supplied-version interpretation")
+        from pcom01.training_dataset import build_expanded, verify_expanded, reproduce_expanded
+        if args.command == "reproduce-expanded":
+            report = reproduce_expanded(ROOT)
+            print(json.dumps({"all_identical": report["all_identical"], "files": len(report["files"])}, indent=2))
+            return 0 if report["all_identical"] else 1
+        manifest = build_expanded(ROOT) if args.command == "build-expanded" else verify_expanded(ROOT)
+        print(json.dumps({key: manifest[key] for key in ("complete", "records", "packages", "schema_columns",
+                                                        "dataset_sha256", "ready_for_submission")}, indent=2))
+        return 0
     if args.command in ("acquire", "build", "validate", "reproduce") and not args.legacy_cutoff:
         parser.error("The common July 1 experiment is superseded for release-origin use. Use release-plan / build-release --scope, or explicitly --legacy-cutoff for archival reproduction.")
     if args.command.endswith("-corrected"):
         if args.scope != "supplied":
             parser.error("Corrected deliverables use supplied versions; all-precutoff is sensitivity analysis only")
-        from pcom01.corrected import build_corrected, verify_corrected
+        from pcom01.dataset_export import build_corrected, verify_corrected
         if args.command == "build-corrected":
             manifest = build_corrected(ROOT)
         elif args.command == "validate-corrected":

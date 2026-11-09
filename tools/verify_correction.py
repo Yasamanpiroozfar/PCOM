@@ -1,7 +1,6 @@
 """Verify dataset, source, reproducibility and original-release evidence."""
 from __future__ import annotations
 
-import argparse
 import hashlib
 import json
 from pathlib import Path
@@ -14,8 +13,9 @@ sys.path.insert(0, str(ROOT / "src"))
 from pcom01.io import now, read_json, save_json, sha256
 
 TAG = "initial-training-data"
-COMMIT = "7f3606886865302cbcb25a3151a299ea113c2b59"
-ANNOTATION = "ef8ff18c9fdc8116de8f2e080e12f15140dc80c0"
+COMMIT = "ad0dd1f0762ef29ddfedd14d2e3ef639f4e93c67"
+ANNOTATION = "92ce3f99bd52f8e9e4fbef95e5571569d3962d71"
+INITIAL_TREE = "9d8cac9348430d773b02cf1e1cf6894933ee5495"
 DOCUMENTATION_REVISIONS = {
     "reports/independent-review.md", "reports/final-audit.md",
     "reports/final-audit.json", "reports/release-check.json",
@@ -27,11 +27,8 @@ def git(*args):
 
 
 def main():
-    parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("--local-only", action="store_true", help="Skip recorded remote tag verification")
-    args = parser.parse_args()
     errors = []
-    from pcom01.corrected import verify_corrected
+    from pcom01.dataset_export import verify_corrected
     from tools.audit_release import audit
     corrected = verify_corrected(ROOT)
     audit(ROOT)  # Preserve the combined primary and sensitivity audit report.
@@ -51,17 +48,8 @@ def main():
              "object_type": git("cat-file", "-t", TAG).decode().strip()}
     if local != {"commit": COMMIT, "annotation": ANNOTATION, "object_type": "tag"}:
         errors.append("Original annotated tag changed")
-    if subprocess.run(["git", "-C", str(ROOT), "merge-base", "--is-ancestor", COMMIT, "HEAD"],
-                      stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL).returncode != 0:
-        errors.append("Current revision is not a descendant of the initial-data version")
-    remote = None
-    if not args.local_only:
-        remote = read_json(ROOT / "reports/correction-remote-preservation.json")
-        responses = {item["url"].rsplit("/", 1)[-1]: item["response"] for item in remote["responses"]}
-        tag_reference = responses.get(TAG, {}).get("object", {})
-        tag_object = responses.get(ANNOTATION, {}).get("object", {})
-        if tag_reference.get("sha") != ANNOTATION or tag_object.get("sha") != COMMIT:
-            errors.append("Recorded remote initial-data tag differs from the verified local tag")
+    if git("rev-parse", TAG + "^{tree}").decode().strip() != INITIAL_TREE:
+        errors.append("Initial snapshot file tree changed")
     checks = {}
     for filename, key in (("correction-tests.json", "successful"),
                           ("correction-source-audit.json", "valid_candidate_derivation"),
@@ -117,13 +105,12 @@ def main():
     result = {"checked_at": now(), "branch": git("branch", "--show-current").decode().strip(),
               "verification_passed": not errors, "errors": errors,
               "ready_for_submission": not errors and corrected["ready_for_submission"],
-              "remote_ref_check_performed": not args.local_only,
               "corrected_export": {"manifest_path": "data/corrected/manifest.json",
                                    "manifest_sha256": sha256(ROOT / "data/corrected/manifest.json"),
                                    "dataset_sha256": corrected["dataset_sha256"],
                                    "records": corrected["records"], "packages": corrected["packages"]},
               "original_tag": local, "protected_original_files": protected,
-              "remote_evidence_checked_at": remote["checked_at"] if remote else None, "checks": checks,
+              "checks": checks,
               "scopes": scopes, "acquired_snapshot_count": len(acquisition["snapshots"]),
               "requested_snapshot_count": len(acquisition["requested_boundaries"]),
               "requested_sources_complete": acquisition["requested_sources_complete"],

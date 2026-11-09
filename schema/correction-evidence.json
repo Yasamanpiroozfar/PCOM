@@ -280,10 +280,11 @@
   "online_currentness_verified": false,
   "original_release": {
     "tag": "initial-training-data",
-    "tag_object_sha": "ef8ff18c9fdc8116de8f2e080e12f15140dc80c0",
-    "commit_sha": "7f3606886865302cbcb25a3151a299ea113c2b59",
+    "tag_object_sha": "92ce3f99bd52f8e9e4fbef95e5571569d3962d71",
+    "commit_sha": "ad0dd1f0762ef29ddfedd14d2e3ef639f4e93c67",
     "original_data_preserved_unchanged": true,
-    "reference_scope": "Canonical annotated initial-data release as of 2026-11-09"
+    "reference_scope": "Annotated initial submission snapshot; original file contents preserved",
+    "tree_sha": "9d8cac9348430d773b02cf1e1cf6894933ee5495"
   },
   "schema_delta": {
     "original_source_sha256": "243a32bcd9e9b6d23cbde133a790f8e81ef518ece6e1e408adbb39815f033413",
@@ -1862,11 +1863,12 @@
       "data/corrected/training-records.csv",
       "data/corrected/manifest.json"
     ],
-    "validation_status_source": "data/corrected/manifest.json and reports/correction-source-audit.json"
+    "validation_status_source": "data/corrected/manifest.json and reports/correction-source-audit.json",
+    "dataset_scope": "Reference cohort in data/corrected; the expanded primary export is datasets/training/data/corrected."
   },
   "executed_verification": {
-    "verification_date": "2026-11-08",
-    "tests_passed": 197,
+    "verification_date": "2026-11-09",
+    "tests_passed": 250,
     "test_failures": 0,
     "test_errors": 0,
     "test_skips": 0,
@@ -1888,7 +1890,8 @@
       "reports/correction-reproducibility-supplied.json",
       "reports/correction-reproducibility-all-precutoff.json",
       "reports/correction-audit.json"
-    ]
+    ],
+    "scope": "Reference cohort source and replay counts; current repository test suite."
   },
   "supplemental_manifest_recovery": {
     "versions": [
@@ -1922,7 +1925,7 @@
   "calendar_semantics": {
     "explicit_month_identity": "M0 is June 2026; M11 is July 2025",
     "complete_eventual_monthly_observations_explicitly_required": false,
-    "overlap_finding": "All 39 represented packages have an origin before the end of June 2026.",
+    "overlap_finding": "All 39 represented reference-cohort packages have an origin before the end of June 2026.",
     "source_basis": "Workbook H18 permits observed daily download sums, H21 records coverage, and H56/H62 define GHSA state at prediction.",
     "conditional_incompatibility": "Complete eventual July2025-June2026 aggregates cannot all be known at an earlier release origin. Origin-known partial observations in those same calendar buckets can coexist with that origin.",
     "ghsa_monthly_meaning": "Distinct qualifying origin-snapshot IDs published before the origin, partitioned by fixed publication calendar month, with severity at prediction",

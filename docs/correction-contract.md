@@ -96,17 +96,39 @@ The half-open target interval is the implementation's explicit boundary conventi
 
 ## Sources and coverage
 
-The npm captures contain timestamps but omit manifests for `axios@0.30.4`,
-`axios@1.14.1` and `chalk@5.6.1`. Retained public npm mirror responses supply these
-manifests after direct npm lookup failures. Timestamps remain sourced from the
-captures. The [inventory](../data/provenance/release-manifests.json)
-records source responses and hashes.
+The [candidate inventory](../datasets/training/config/candidates.json) freezes
+1,214 package names from the first 60 results of each of 20 software-role npm
+searches, plus the reference sample. All retained search responses are hashed.
+Admission requires a resolvable stable release origin, complete manifests for
+the input versions, valid download observations and historical advisory evidence.
+Vulnerability outcomes do not determine admission. This is a retrospective
+purposive cohort, not a random or release-time popularity sample.
 
-The reconstructed cohort has 993 records. Four later manifests are excluded:
-`express@4.22.1`, `express@4.22.2`, `undici@6.27.0` and `undici@7.28.0`.
-The primary export has **989 records / 39 packages / 224 columns**; sensitivity
-has **987 records / 38 packages**. All 80 requested historical boundaries were
-captured from 78 distinct Git trees.
+All 989 release-based records in the 39-package reference cohort are required to
+remain identical in the expanded export. Its three recovered manifests,
+`axios@0.30.4`, `axios@1.14.1` and `chalk@5.6.1`, use retained public npm mirror
+responses; publication timestamps come from the original npm captures. The
+[inventory](../datasets/training/data/provenance/release-manifests.json) records
+these sources separately.
+
+The expanded sources cover 1,370 historical boundaries, 826 commits and 529
+distinct reviewed subtrees of the public GitHub advisory database. Retained
+commit and tree objects, complete subtree inventories and 44,336 original
+advisory blob versions establish the selected projections, including packages
+with no matching advisories. Source and export hashes are bound in the
+[manifest](../datasets/training/data/corrected/manifest.json).
+
+## Additional input features
+
+The [feature sidecar](../datasets/training/data/features/features.csv) joins to
+the official records by `purl`. It contains the forecast origin and 20 numeric
+attributes: package/version ages, SemVer components, stable release activity,
+time since the preceding release, observed download means and coverage, a
+coverage-qualified download trend, and recent GHSA counts. All windows end at
+the release origin; downloads include complete UTC days only. Unknown values
+remain NULL. Definitions and units are in the
+[feature specification](../datasets/training/data/features/feature-spec.json).
+The official 224-column table is unchanged.
 
 ## Evidence limits
 

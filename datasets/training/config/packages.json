@@ -1,0 +1,2747 @@
+{
+  "selection_version": 1,
+  "selection_method": "Original package sample plus the first 60 public npm search results for each fixed software-role term. Candidate names are frozen before historical advisory acquisition; admission depends on source and release-window completeness, never target values. This is a retrospective purposive cohort, not a random or release-time popularity sample.",
+  "candidate_sha256": "538e17cf86ee902d91d299c03e7ec8c50db5d907ffe48acd7949f20cf8cc1de7",
+  "packages": [
+    {
+      "name": "@0xsequence/network",
+      "role": "network"
+    },
+    {
+      "name": "@a2ui/markdown-it",
+      "role": "markdown"
+    },
+    {
+      "name": "@account-kit/logging",
+      "role": "logging"
+    },
+    {
+      "name": "@actions/http-client",
+      "role": "http"
+    },
+    {
+      "name": "@angular-devkit/architect",
+      "role": "build"
+    },
+    {
+      "name": "@angular-devkit/schematics-cli",
+      "role": "cli"
+    },
+    {
+      "name": "@angular-eslint/template-parser",
+      "role": "parser, template"
+    },
+    {
+      "name": "@angular/build",
+      "role": "build"
+    },
+    {
+      "name": "@angular/cli",
+      "role": "cli"
+    },
+    {
+      "name": "@angular/core",
+      "role": "UI framework, framework"
+    },
+    {
+      "name": "@apideck/better-ajv-errors",
+      "role": "validation"
+    },
+    {
+      "name": "@apimatic/authentication-adapters",
+      "role": "authentication"
+    },
+    {
+      "name": "@apimatic/schema",
+      "role": "serialization"
+    },
+    {
+      "name": "@aps_sdk/authentication",
+      "role": "authentication"
+    },
+    {
+      "name": "@assistant-ui/react-markdown",
+      "role": "markdown"
+    },
+    {
+      "name": "@astryxdesign/build",
+      "role": "build"
+    },
+    {
+      "name": "@auth/core",
+      "role": "authentication"
+    },
+    {
+      "name": "@auth0/auth0-auth-js",
+      "role": "authentication"
+    },
+    {
+      "name": "@automerge/automerge-repo-network-messagechannel",
+      "role": "network"
+    },
+    {
+      "name": "@avro/types",
+      "role": "serialization"
+    },
+    {
+      "name": "@awesome-cordova-plugins/network",
+      "role": "network"
+    },
+    {
+      "name": "@aws-lambda-powertools/logger",
+      "role": "logging"
+    },
+    {
+      "name": "@aws-sdk/client-database-migration-service",
+      "role": "database"
+    },
+    {
+      "name": "@aws-sdk/client-payment-cryptography",
+      "role": "cryptography"
+    },
+    {
+      "name": "@aws-sdk/client-payment-cryptography-data",
+      "role": "cryptography"
+    },
+    {
+      "name": "@aws-sdk/credential-provider-http",
+      "role": "http"
+    },
+    {
+      "name": "@aws-sdk/util-arn-parser",
+      "role": "parser"
+    },
+    {
+      "name": "@aws/durable-execution-sdk-js-testing",
+      "role": "testing"
+    },
+    {
+      "name": "@axiomhq/logging",
+      "role": "logging"
+    },
+    {
+      "name": "@azure/core-auth",
+      "role": "authentication"
+    },
+    {
+      "name": "@azure/core-http-compat",
+      "role": "http"
+    },
+    {
+      "name": "@azure/msal-angular",
+      "role": "authentication"
+    },
+    {
+      "name": "@azure/msal-browser",
+      "role": "authentication"
+    },
+    {
+      "name": "@azure/msal-common",
+      "role": "authentication"
+    },
+    {
+      "name": "@azure/msal-node",
+      "role": "authentication"
+    },
+    {
+      "name": "@azure/msal-react",
+      "role": "authentication"
+    },
+    {
+      "name": "@babel/core",
+      "role": "build tooling"
+    },
+    {
+      "name": "@babel/helper-plugin-utils",
+      "role": "utilities"
+    },
+    {
+      "name": "@babel/parser",
+      "role": "parser"
+    },
+    {
+      "name": "@babel/plugin-transform-template-literals",
+      "role": "template"
+    },
+    {
+      "name": "@babel/template",
+      "role": "template"
+    },
+    {
+      "name": "@backstage/cli-module-auth",
+      "role": "cli"
+    },
+    {
+      "name": "@backstage/cli-module-info",
+      "role": "cli"
+    },
+    {
+      "name": "@backstage/cli-module-new",
+      "role": "cli"
+    },
+    {
+      "name": "@better-auth/core",
+      "role": "framework, authentication"
+    },
+    {
+      "name": "@better-auth/utils",
+      "role": "utilities"
+    },
+    {
+      "name": "@canton-network/wallet-sdk",
+      "role": "network"
+    },
+    {
+      "name": "@cap-js/hana",
+      "role": "database"
+    },
+    {
+      "name": "@capacitor-firebase/authentication",
+      "role": "authentication"
+    },
+    {
+      "name": "@capacitor/filesystem",
+      "role": "filesystem"
+    },
+    {
+      "name": "@capacitor/network",
+      "role": "network"
+    },
+    {
+      "name": "@capgo/capacitor-network-diagnostics",
+      "role": "network"
+    },
+    {
+      "name": "@carbon/utilities",
+      "role": "utilities"
+    },
+    {
+      "name": "@cedarjs/testing",
+      "role": "testing"
+    },
+    {
+      "name": "@cichol/cryptography",
+      "role": "cryptography"
+    },
+    {
+      "name": "@ckeditor/ckeditor5-easy-image",
+      "role": "image"
+    },
+    {
+      "name": "@ckeditor/ckeditor5-image",
+      "role": "image"
+    },
+    {
+      "name": "@ckeditor/ckeditor5-template",
+      "role": "template"
+    },
+    {
+      "name": "@cloudbase/database",
+      "role": "database"
+    },
+    {
+      "name": "@cloudflare/speedtest",
+      "role": "network"
+    },
+    {
+      "name": "@codaco/network-query",
+      "role": "network"
+    },
+    {
+      "name": "@codemirror/lang-markdown",
+      "role": "markdown"
+    },
+    {
+      "name": "@comark/markdown-it",
+      "role": "markdown"
+    },
+    {
+      "name": "@conventional-changelog/template",
+      "role": "template"
+    },
+    {
+      "name": "@convex-dev/auth",
+      "role": "authentication"
+    },
+    {
+      "name": "@cosmjs/crypto",
+      "role": "cryptography"
+    },
+    {
+      "name": "@cropper/element-image",
+      "role": "image"
+    },
+    {
+      "name": "@cspell/dict-markdown",
+      "role": "markdown"
+    },
+    {
+      "name": "@csstools/postcss-image-function",
+      "role": "image"
+    },
+    {
+      "name": "@csstools/utilities",
+      "role": "utilities"
+    },
+    {
+      "name": "@cubejs-backend/postgres-driver",
+      "role": "database"
+    },
+    {
+      "name": "@daml/types",
+      "role": "serialization"
+    },
+    {
+      "name": "@datadog/browser-core",
+      "role": "utilities"
+    },
+    {
+      "name": "@datadog/browser-rum-core",
+      "role": "utilities"
+    },
+    {
+      "name": "@deepkit/filesystem",
+      "role": "filesystem"
+    },
+    {
+      "name": "@descope/escape-markdown",
+      "role": "markdown"
+    },
+    {
+      "name": "@devcontainers/cli",
+      "role": "cli"
+    },
+    {
+      "name": "@digitalbazaar/http-client",
+      "role": "http"
+    },
+    {
+      "name": "@docusaurus/utils-validation",
+      "role": "validation"
+    },
+    {
+      "name": "@dprint/markdown",
+      "role": "markdown"
+    },
+    {
+      "name": "@editorjs/image",
+      "role": "image"
+    },
+    {
+      "name": "@effectful/serialization",
+      "role": "serialization"
+    },
+    {
+      "name": "@electron-forge/template-base",
+      "role": "template"
+    },
+    {
+      "name": "@electron-forge/template-webpack-typescript",
+      "role": "template"
+    },
+    {
+      "name": "@emurgo/cardano-serialization-lib-asmjs",
+      "role": "serialization"
+    },
+    {
+      "name": "@emurgo/cardano-serialization-lib-browser",
+      "role": "serialization"
+    },
+    {
+      "name": "@emurgo/cardano-serialization-lib-nodejs",
+      "role": "serialization"
+    },
+    {
+      "name": "@envelop/extended-validation",
+      "role": "validation"
+    },
+    {
+      "name": "@envelop/validation-cache",
+      "role": "validation"
+    },
+    {
+      "name": "@eslint-community/eslint-utils",
+      "role": "utilities"
+    },
+    {
+      "name": "@eslint/compat",
+      "role": "utilities"
+    },
+    {
+      "name": "@eslint/config-helpers",
+      "role": "utilities"
+    },
+    {
+      "name": "@eslint/markdown",
+      "role": "markdown"
+    },
+    {
+      "name": "@eslint/plugin-kit",
+      "role": "utilities"
+    },
+    {
+      "name": "@exodus/ethereum-lib",
+      "role": "cryptography"
+    },
+    {
+      "name": "@exodus/filesystem",
+      "role": "filesystem"
+    },
+    {
+      "name": "@exodus/serialization",
+      "role": "serialization"
+    },
+    {
+      "name": "@expo/build-tools",
+      "role": "build"
+    },
+    {
+      "name": "@expo/cli",
+      "role": "cli"
+    },
+    {
+      "name": "@expo/eas-build-job",
+      "role": "build"
+    },
+    {
+      "name": "@expo/local-build-cache-provider",
+      "role": "build"
+    },
+    {
+      "name": "@expo/schema-utils",
+      "role": "validation"
+    },
+    {
+      "name": "@expo/template-file",
+      "role": "template"
+    },
+    {
+      "name": "@fastify/compress",
+      "role": "compression"
+    },
+    {
+      "name": "@fastify/http-proxy",
+      "role": "http"
+    },
+    {
+      "name": "@fastify/view",
+      "role": "template"
+    },
+    {
+      "name": "@feathersjs/authentication",
+      "role": "authentication"
+    },
+    {
+      "name": "@feathersjs/authentication-client",
+      "role": "authentication"
+    },
+    {
+      "name": "@feathersjs/authentication-local",
+      "role": "authentication"
+    },
+    {
+      "name": "@feathersjs/authentication-oauth",
+      "role": "authentication"
+    },
+    {
+      "name": "@firebase/database",
+      "role": "database"
+    },
+    {
+      "name": "@firebase/database-compat",
+      "role": "database"
+    },
+    {
+      "name": "@firebase/database-types",
+      "role": "database"
+    },
+    {
+      "name": "@firebase/rules-unit-testing",
+      "role": "testing"
+    },
+    {
+      "name": "@floating-ui/utils",
+      "role": "utilities"
+    },
+    {
+      "name": "@fluentui/chart-utilities",
+      "role": "utilities"
+    },
+    {
+      "name": "@fluentui/date-time-utilities",
+      "role": "utilities"
+    },
+    {
+      "name": "@fluentui/react-image",
+      "role": "image"
+    },
+    {
+      "name": "@fluentui/react-utilities",
+      "role": "utilities"
+    },
+    {
+      "name": "@fluentui/utilities",
+      "role": "utilities"
+    },
+    {
+      "name": "@formatjs/cli",
+      "role": "cli"
+    },
+    {
+      "name": "@formatjs/cli-lib",
+      "role": "cli"
+    },
+    {
+      "name": "@formatjs/icu-messageformat-parser",
+      "role": "parser"
+    },
+    {
+      "name": "@formkit/validation",
+      "role": "validation"
+    },
+    {
+      "name": "@foxglove/cdr",
+      "role": "serialization"
+    },
+    {
+      "name": "@foxglove/omgidl-parser",
+      "role": "serialization"
+    },
+    {
+      "name": "@foxglove/rosmsg-serialization",
+      "role": "serialization"
+    },
+    {
+      "name": "@foxglove/rosmsg2-serialization",
+      "role": "serialization"
+    },
+    {
+      "name": "@freedomofpress/crypto-browser",
+      "role": "cryptography"
+    },
+    {
+      "name": "@genesislcap/build-kit",
+      "role": "build"
+    },
+    {
+      "name": "@gjsify/compression-streams",
+      "role": "compression"
+    },
+    {
+      "name": "@google-cloud/functions-framework",
+      "role": "framework"
+    },
+    {
+      "name": "@google-cloud/logging",
+      "role": "logging"
+    },
+    {
+      "name": "@google-cloud/logging-bunyan",
+      "role": "logging"
+    },
+    {
+      "name": "@google-cloud/logging-min",
+      "role": "logging"
+    },
+    {
+      "name": "@google-cloud/logging-winston",
+      "role": "logging"
+    },
+    {
+      "name": "@google-cloud/pino-logging-gcp-config",
+      "role": "logging"
+    },
+    {
+      "name": "@google/gemini-cli",
+      "role": "cli"
+    },
+    {
+      "name": "@googleapis/logging",
+      "role": "logging"
+    },
+    {
+      "name": "@graphql-tools/graphql-tag-pluck",
+      "role": "template"
+    },
+    {
+      "name": "@hapi/hapi",
+      "role": "server framework, framework"
+    },
+    {
+      "name": "@hapi/tlds",
+      "role": "validation"
+    },
+    {
+      "name": "@hapi/wreck",
+      "role": "utilities"
+    },
+    {
+      "name": "@heroui/image",
+      "role": "image"
+    },
+    {
+      "name": "@heroui/use-image",
+      "role": "image"
+    },
+    {
+      "name": "@hey-api/codegen-core",
+      "role": "framework"
+    },
+    {
+      "name": "@hocuspocus/extension-database",
+      "role": "database"
+    },
+    {
+      "name": "@hocuspocus/extension-logger",
+      "role": "logging"
+    },
+    {
+      "name": "@hono/vite-build",
+      "role": "build"
+    },
+    {
+      "name": "@html-eslint/template-parser",
+      "role": "template"
+    },
+    {
+      "name": "@html-eslint/template-syntax-parser",
+      "role": "template"
+    },
+    {
+      "name": "@hugerte/framework-integration-shared",
+      "role": "framework"
+    },
+    {
+      "name": "@inngest/middleware-validation",
+      "role": "validation"
+    },
+    {
+      "name": "@inquirer/testing",
+      "role": "testing"
+    },
+    {
+      "name": "@interchainjs/crypto",
+      "role": "cryptography"
+    },
+    {
+      "name": "@inversifyjs/framework-core",
+      "role": "framework"
+    },
+    {
+      "name": "@invertase/react-native-apple-authentication",
+      "role": "authentication"
+    },
+    {
+      "name": "@iota/bcs",
+      "role": "serialization"
+    },
+    {
+      "name": "@itwin/build-tools",
+      "role": "build"
+    },
+    {
+      "name": "@jest/core",
+      "role": "testing"
+    },
+    {
+      "name": "@jm18457/kafkajs-msk-iam-authentication-mechanism",
+      "role": "authentication"
+    },
+    {
+      "name": "@jsonjoy.com/fs-core",
+      "role": "filesystem"
+    },
+    {
+      "name": "@jsonjoy.com/fs-fsa",
+      "role": "filesystem"
+    },
+    {
+      "name": "@jsonjoy.com/fs-node",
+      "role": "filesystem"
+    },
+    {
+      "name": "@jsonjoy.com/json-pack",
+      "role": "serialization"
+    },
+    {
+      "name": "@jsonjoy.com/util",
+      "role": "utilities"
+    },
+    {
+      "name": "@keyv/serialize",
+      "role": "serialization"
+    },
+    {
+      "name": "@ledgerhq/live-network",
+      "role": "network"
+    },
+    {
+      "name": "@lexical/markdown",
+      "role": "markdown"
+    },
+    {
+      "name": "@lezer/markdown",
+      "role": "markdown"
+    },
+    {
+      "name": "@loaders.gl/compression",
+      "role": "compression"
+    },
+    {
+      "name": "@loglayer/transport-google-cloud-logging",
+      "role": "logging"
+    },
+    {
+      "name": "@logtail/core",
+      "role": "logging"
+    },
+    {
+      "name": "@loopback/authentication",
+      "role": "authentication"
+    },
+    {
+      "name": "@loopback/authentication-jwt",
+      "role": "authentication"
+    },
+    {
+      "name": "@lwc/template-compiler",
+      "role": "template"
+    },
+    {
+      "name": "@maizzle/framework",
+      "role": "framework"
+    },
+    {
+      "name": "@mapped/elliptic",
+      "role": "cryptography"
+    },
+    {
+      "name": "@maroonedsoftware/authentication",
+      "role": "authentication"
+    },
+    {
+      "name": "@medusajs/file-local",
+      "role": "filesystem"
+    },
+    {
+      "name": "@medusajs/framework",
+      "role": "framework"
+    },
+    {
+      "name": "@mermaid-js/parser",
+      "role": "parser"
+    },
+    {
+      "name": "@metamask/auth-network-utils",
+      "role": "network"
+    },
+    {
+      "name": "@metamask/logging-controller",
+      "role": "logging"
+    },
+    {
+      "name": "@metamask/multichain-network-controller",
+      "role": "network"
+    },
+    {
+      "name": "@metamask/network-controller",
+      "role": "network"
+    },
+    {
+      "name": "@metamask/network-enablement-controller",
+      "role": "network"
+    },
+    {
+      "name": "@mintlify/cli",
+      "role": "cli"
+    },
+    {
+      "name": "@modelcontextprotocol/server-filesystem",
+      "role": "filesystem"
+    },
+    {
+      "name": "@module-federation/cli",
+      "role": "cli"
+    },
+    {
+      "name": "@mongosh/logging",
+      "role": "logging"
+    },
+    {
+      "name": "@mswjs/interceptors",
+      "role": "network"
+    },
+    {
+      "name": "@mysten/bcs",
+      "role": "serialization"
+    },
+    {
+      "name": "@n8n/ai-utilities",
+      "role": "utilities"
+    },
+    {
+      "name": "@n8n/backend-network",
+      "role": "network"
+    },
+    {
+      "name": "@napi-rs/cli",
+      "role": "cli"
+    },
+    {
+      "name": "@napi-rs/snappy-linux-arm64-gnu",
+      "role": "compression"
+    },
+    {
+      "name": "@napi-rs/snappy-linux-arm64-musl",
+      "role": "compression"
+    },
+    {
+      "name": "@napi-rs/snappy-linux-x64-gnu",
+      "role": "compression"
+    },
+    {
+      "name": "@napi-rs/snappy-linux-x64-musl",
+      "role": "compression"
+    },
+    {
+      "name": "@nestjs/core",
+      "role": "server framework"
+    },
+    {
+      "name": "@nestjs/testing",
+      "role": "testing"
+    },
+    {
+      "name": "@netlify/build",
+      "role": "build"
+    },
+    {
+      "name": "@netlify/build-info",
+      "role": "build"
+    },
+    {
+      "name": "@netlify/database",
+      "role": "database"
+    },
+    {
+      "name": "@netlify/database-dev",
+      "role": "database"
+    },
+    {
+      "name": "@noble/curves",
+      "role": "cryptography"
+    },
+    {
+      "name": "@noble/post-quantum",
+      "role": "cryptography"
+    },
+    {
+      "name": "@npmcli/fs",
+      "role": "filesystem"
+    },
+    {
+      "name": "@nuxt/cli",
+      "role": "cli"
+    },
+    {
+      "name": "@nuxt/image",
+      "role": "image"
+    },
+    {
+      "name": "@observablehq/framework",
+      "role": "framework"
+    },
+    {
+      "name": "@octokit/auth-app",
+      "role": "authentication"
+    },
+    {
+      "name": "@octokit/auth-oauth-app",
+      "role": "authentication"
+    },
+    {
+      "name": "@octokit/auth-oauth-device",
+      "role": "authentication"
+    },
+    {
+      "name": "@octokit/auth-oauth-user",
+      "role": "authentication"
+    },
+    {
+      "name": "@octokit/auth-unauthenticated",
+      "role": "authentication"
+    },
+    {
+      "name": "@octokit/graphql-schema",
+      "role": "validation"
+    },
+    {
+      "name": "@oh-my-pi/snapcompact",
+      "role": "compression"
+    },
+    {
+      "name": "@onekeyfe/react-native-network-info",
+      "role": "network"
+    },
+    {
+      "name": "@onekeyfe/react-native-network-throttle",
+      "role": "network"
+    },
+    {
+      "name": "@openclaw/fs-safe",
+      "role": "filesystem"
+    },
+    {
+      "name": "@opentelemetry/instrumentation-http",
+      "role": "http"
+    },
+    {
+      "name": "@opentelemetry/instrumentation-ioredis",
+      "role": "database"
+    },
+    {
+      "name": "@opentelemetry/instrumentation-knex",
+      "role": "database"
+    },
+    {
+      "name": "@opentelemetry/instrumentation-memcached",
+      "role": "database"
+    },
+    {
+      "name": "@opentelemetry/instrumentation-mongodb",
+      "role": "database"
+    },
+    {
+      "name": "@opentelemetry/instrumentation-mysql",
+      "role": "database"
+    },
+    {
+      "name": "@opentelemetry/instrumentation-mysql2",
+      "role": "database"
+    },
+    {
+      "name": "@opentelemetry/instrumentation-net",
+      "role": "network"
+    },
+    {
+      "name": "@opentelemetry/instrumentation-oracledb",
+      "role": "database"
+    },
+    {
+      "name": "@opentelemetry/instrumentation-pg",
+      "role": "database"
+    },
+    {
+      "name": "@opentelemetry/instrumentation-redis",
+      "role": "database"
+    },
+    {
+      "name": "@opentelemetry/instrumentation-tedious",
+      "role": "database"
+    },
+    {
+      "name": "@oxc-parser/binding-darwin-arm64",
+      "role": "parser"
+    },
+    {
+      "name": "@oxc-parser/binding-darwin-x64",
+      "role": "parser"
+    },
+    {
+      "name": "@oxc-parser/binding-linux-arm64-gnu",
+      "role": "parser"
+    },
+    {
+      "name": "@oxc-parser/binding-linux-arm64-musl",
+      "role": "parser"
+    },
+    {
+      "name": "@oxc-parser/binding-linux-x64-gnu",
+      "role": "parser"
+    },
+    {
+      "name": "@oxc-parser/binding-linux-x64-musl",
+      "role": "parser"
+    },
+    {
+      "name": "@oxc-parser/binding-win32-arm64-msvc",
+      "role": "parser"
+    },
+    {
+      "name": "@oxc-parser/binding-win32-x64-msvc",
+      "role": "parser"
+    },
+    {
+      "name": "@parcel/watcher",
+      "role": "filesystem"
+    },
+    {
+      "name": "@parcel/watcher-wasm",
+      "role": "filesystem"
+    },
+    {
+      "name": "@percy/cli",
+      "role": "cli"
+    },
+    {
+      "name": "@php-wasm/stream-compression",
+      "role": "compression"
+    },
+    {
+      "name": "@pinia/testing",
+      "role": "testing"
+    },
+    {
+      "name": "@planetscale/database",
+      "role": "database"
+    },
+    {
+      "name": "@platejs/markdown",
+      "role": "markdown"
+    },
+    {
+      "name": "@playwright/cli",
+      "role": "cli"
+    },
+    {
+      "name": "@pnp/logging",
+      "role": "logging"
+    },
+    {
+      "name": "@pnpm/build-modules",
+      "role": "build"
+    },
+    {
+      "name": "@pnpm/store.cafs",
+      "role": "filesystem"
+    },
+    {
+      "name": "@poppinss/validator-lite",
+      "role": "validation"
+    },
+    {
+      "name": "@portabletext/markdown",
+      "role": "markdown"
+    },
+    {
+      "name": "@portabletext/plugin-markdown-shortcuts",
+      "role": "markdown"
+    },
+    {
+      "name": "@pothos/plugin-validation",
+      "role": "validation"
+    },
+    {
+      "name": "@prisma/dev",
+      "role": "testing"
+    },
+    {
+      "name": "@privy-io/chains",
+      "role": "network"
+    },
+    {
+      "name": "@probe.gl/log",
+      "role": "logging"
+    },
+    {
+      "name": "@putout/cli-filesystem",
+      "role": "filesystem"
+    },
+    {
+      "name": "@putout/operator-filesystem",
+      "role": "filesystem"
+    },
+    {
+      "name": "@putout/plugin-filesystem",
+      "role": "filesystem"
+    },
+    {
+      "name": "@putout/processor-filesystem",
+      "role": "filesystem"
+    },
+    {
+      "name": "@quansync/fs",
+      "role": "filesystem"
+    },
+    {
+      "name": "@qvac/logging",
+      "role": "logging"
+    },
+    {
+      "name": "@radix-ui/react-portal",
+      "role": "utilities"
+    },
+    {
+      "name": "@radix-ui/react-slot",
+      "role": "utilities"
+    },
+    {
+      "name": "@rails/actioncable",
+      "role": "framework"
+    },
+    {
+      "name": "@rbxts/cryptography",
+      "role": "cryptography"
+    },
+    {
+      "name": "@rc-component/image",
+      "role": "image"
+    },
+    {
+      "name": "@rcompat/fs",
+      "role": "filesystem"
+    },
+    {
+      "name": "@react-native-community/cli",
+      "role": "cli"
+    },
+    {
+      "name": "@react-native-community/netinfo",
+      "role": "network"
+    },
+    {
+      "name": "@react-native-firebase/database",
+      "role": "database"
+    },
+    {
+      "name": "@react-native/community-cli-plugin",
+      "role": "cli"
+    },
+    {
+      "name": "@react-navigation/routers",
+      "role": "build"
+    },
+    {
+      "name": "@react-pdf/textkit",
+      "role": "framework"
+    },
+    {
+      "name": "@redocly/respect-core",
+      "role": "testing"
+    },
+    {
+      "name": "@remix-run/fs",
+      "role": "filesystem"
+    },
+    {
+      "name": "@remix-run/router",
+      "role": "framework"
+    },
+    {
+      "name": "@remix-run/testing",
+      "role": "testing"
+    },
+    {
+      "name": "@rnx-kit/tools-filesystem",
+      "role": "filesystem"
+    },
+    {
+      "name": "@rocicorp/logger",
+      "role": "logging"
+    },
+    {
+      "name": "@rolldown/pluginutils",
+      "role": "utilities"
+    },
+    {
+      "name": "@rozenite/network-activity-plugin",
+      "role": "network"
+    },
+    {
+      "name": "@rsbuild/core",
+      "role": "build"
+    },
+    {
+      "name": "@rspack/cli",
+      "role": "cli"
+    },
+    {
+      "name": "@rushstack/rush-amazon-s3-build-cache-plugin",
+      "role": "build"
+    },
+    {
+      "name": "@rushstack/rush-azure-storage-build-cache-plugin",
+      "role": "build"
+    },
+    {
+      "name": "@rushstack/rush-http-build-cache-plugin",
+      "role": "build"
+    },
+    {
+      "name": "@rx-angular/template",
+      "role": "template"
+    },
+    {
+      "name": "@salesforce/cli",
+      "role": "cli"
+    },
+    {
+      "name": "@sanity/cli",
+      "role": "cli"
+    },
+    {
+      "name": "@sanity/cli-core",
+      "role": "cli"
+    },
+    {
+      "name": "@sanity/image-url",
+      "role": "image"
+    },
+    {
+      "name": "@sanity/template-validator",
+      "role": "template"
+    },
+    {
+      "name": "@sap-ux/logger",
+      "role": "logging"
+    },
+    {
+      "name": "@sap/audit-logging",
+      "role": "logging"
+    },
+    {
+      "name": "@sap/di.code-validation.core",
+      "role": "validation"
+    },
+    {
+      "name": "@sap/generator-add-hdb-module",
+      "role": "database"
+    },
+    {
+      "name": "@sap/hana-database-explorer",
+      "role": "database"
+    },
+    {
+      "name": "@sap/logging",
+      "role": "logging"
+    },
+    {
+      "name": "@scalar/api-client",
+      "role": "testing"
+    },
+    {
+      "name": "@scalar/openapi-parser",
+      "role": "parser"
+    },
+    {
+      "name": "@scalar/validation",
+      "role": "validation"
+    },
+    {
+      "name": "@scayle/unstorage-compression-driver",
+      "role": "compression"
+    },
+    {
+      "name": "@scure/sr25519",
+      "role": "cryptography"
+    },
+    {
+      "name": "@scure/starknet",
+      "role": "cryptography"
+    },
+    {
+      "name": "@sentry-internal/browser-utils",
+      "role": "utilities"
+    },
+    {
+      "name": "@sentry/browser-utils",
+      "role": "utilities"
+    },
+    {
+      "name": "@sentry/cli",
+      "role": "cli"
+    },
+    {
+      "name": "@sentry/cli-darwin",
+      "role": "cli"
+    },
+    {
+      "name": "@sentry/cli-linux-x64",
+      "role": "cli"
+    },
+    {
+      "name": "@sentry/server-utils",
+      "role": "utilities"
+    },
+    {
+      "name": "@sentry/utils",
+      "role": "utilities"
+    },
+    {
+      "name": "@serwist/build",
+      "role": "build"
+    },
+    {
+      "name": "@shikijs/markdown-it",
+      "role": "markdown"
+    },
+    {
+      "name": "@shopify/cli",
+      "role": "cli"
+    },
+    {
+      "name": "@simonsmith/cypress-image-snapshot",
+      "role": "image"
+    },
+    {
+      "name": "@slack/logger",
+      "role": "logging"
+    },
+    {
+      "name": "@smithy/middleware-compression",
+      "role": "compression"
+    },
+    {
+      "name": "@smithy/util-stream",
+      "role": "stream"
+    },
+    {
+      "name": "@solana/rpc-transport-http",
+      "role": "http"
+    },
+    {
+      "name": "@spinajs/validation",
+      "role": "validation"
+    },
+    {
+      "name": "@stacks/auth",
+      "role": "authentication"
+    },
+    {
+      "name": "@stacks/network",
+      "role": "network"
+    },
+    {
+      "name": "@stacksjs/build",
+      "role": "build"
+    },
+    {
+      "name": "@stacksjs/database",
+      "role": "database"
+    },
+    {
+      "name": "@stacksjs/logging",
+      "role": "logging"
+    },
+    {
+      "name": "@stacksjs/testing",
+      "role": "testing"
+    },
+    {
+      "name": "@stacksjs/validation",
+      "role": "validation"
+    },
+    {
+      "name": "@stdlib/fs",
+      "role": "filesystem"
+    },
+    {
+      "name": "@stdlib/fs-exists",
+      "role": "filesystem"
+    },
+    {
+      "name": "@storybook-astro/framework",
+      "role": "framework"
+    },
+    {
+      "name": "@storybook/cli",
+      "role": "cli"
+    },
+    {
+      "name": "@storybook/core-webpack",
+      "role": "framework"
+    },
+    {
+      "name": "@strapi/database",
+      "role": "database"
+    },
+    {
+      "name": "@stryker-mutator/core",
+      "role": "testing"
+    },
+    {
+      "name": "@subsquid/util-internal-validation",
+      "role": "validation"
+    },
+    {
+      "name": "@supabase/phoenix",
+      "role": "framework"
+    },
+    {
+      "name": "@supabase/realtime-js",
+      "role": "database"
+    },
+    {
+      "name": "@swc/cli",
+      "role": "cli"
+    },
+    {
+      "name": "@syncfusion/ej2-compression",
+      "role": "compression"
+    },
+    {
+      "name": "@tailwindcss/node",
+      "role": "framework"
+    },
+    {
+      "name": "@tanstack/react-store",
+      "role": "framework"
+    },
+    {
+      "name": "@tanstack/store",
+      "role": "framework"
+    },
+    {
+      "name": "@taxbit/utilities",
+      "role": "utilities"
+    },
+    {
+      "name": "@temporalio/testing",
+      "role": "testing"
+    },
+    {
+      "name": "@testing-library/angular",
+      "role": "testing"
+    },
+    {
+      "name": "@testing-library/cypress",
+      "role": "testing"
+    },
+    {
+      "name": "@testing-library/dom",
+      "role": "testing"
+    },
+    {
+      "name": "@testing-library/react",
+      "role": "testing"
+    },
+    {
+      "name": "@testing-library/react-native",
+      "role": "testing"
+    },
+    {
+      "name": "@testing-library/svelte",
+      "role": "testing"
+    },
+    {
+      "name": "@testing-library/svelte-core",
+      "role": "testing"
+    },
+    {
+      "name": "@textlint/textlint-plugin-markdown",
+      "role": "markdown"
+    },
+    {
+      "name": "@theia/filesystem",
+      "role": "filesystem"
+    },
+    {
+      "name": "@tiptap/extension-image",
+      "role": "image"
+    },
+    {
+      "name": "@tiptap/markdown",
+      "role": "markdown"
+    },
+    {
+      "name": "@tkey/share-serialization",
+      "role": "serialization"
+    },
+    {
+      "name": "@tmcp/transport-http",
+      "role": "http"
+    },
+    {
+      "name": "@toruslabs/eccrypto",
+      "role": "cryptography"
+    },
+    {
+      "name": "@toruslabs/http-helpers",
+      "role": "http"
+    },
+    {
+      "name": "@trigger.dev/build",
+      "role": "build"
+    },
+    {
+      "name": "@tryghost/logging",
+      "role": "logging"
+    },
+    {
+      "name": "@tsparticles/shape-image",
+      "role": "image"
+    },
+    {
+      "name": "@turbo/linux-64",
+      "role": "build"
+    },
+    {
+      "name": "@tursodatabase/database",
+      "role": "database"
+    },
+    {
+      "name": "@tursodatabase/database-common",
+      "role": "database"
+    },
+    {
+      "name": "@tursodatabase/database-linux-x64-gnu",
+      "role": "database"
+    },
+    {
+      "name": "@types/cookie-parser",
+      "role": "parser"
+    },
+    {
+      "name": "@types/event-stream",
+      "role": "stream"
+    },
+    {
+      "name": "@types/http-cache-semantics",
+      "role": "http"
+    },
+    {
+      "name": "@types/http-proxy",
+      "role": "http"
+    },
+    {
+      "name": "@types/jest-image-snapshot",
+      "role": "image"
+    },
+    {
+      "name": "@types/readable-stream",
+      "role": "stream"
+    },
+    {
+      "name": "@types/stream-buffers",
+      "role": "stream"
+    },
+    {
+      "name": "@types/string-template",
+      "role": "template"
+    },
+    {
+      "name": "@typescript-eslint/parser",
+      "role": "parser"
+    },
+    {
+      "name": "@typescript-eslint/tsconfig-utils",
+      "role": "utilities"
+    },
+    {
+      "name": "@typescript-eslint/type-utils",
+      "role": "utilities"
+    },
+    {
+      "name": "@typescript-eslint/utils",
+      "role": "utilities"
+    },
+    {
+      "name": "@typespec/http",
+      "role": "http"
+    },
+    {
+      "name": "@typespec/ts-http-runtime",
+      "role": "http"
+    },
+    {
+      "name": "@ui5/cli",
+      "role": "cli"
+    },
+    {
+      "name": "@univerjs/data-validation",
+      "role": "validation"
+    },
+    {
+      "name": "@univerjs/network",
+      "role": "network"
+    },
+    {
+      "name": "@univerjs/preset-sheets-data-validation",
+      "role": "validation"
+    },
+    {
+      "name": "@univerjs/sheets-data-validation",
+      "role": "validation"
+    },
+    {
+      "name": "@univerjs/sheets-data-validation-ui",
+      "role": "validation"
+    },
+    {
+      "name": "@unocss/cli",
+      "role": "cli"
+    },
+    {
+      "name": "@uppy/image-editor",
+      "role": "image"
+    },
+    {
+      "name": "@vaadin/markdown",
+      "role": "markdown"
+    },
+    {
+      "name": "@vechain/sdk-logging",
+      "role": "logging"
+    },
+    {
+      "name": "@vercel/cli-auth",
+      "role": "authentication"
+    },
+    {
+      "name": "@vercel/cli-exec",
+      "role": "cli"
+    },
+    {
+      "name": "@vercel/fs-detectors",
+      "role": "filesystem"
+    },
+    {
+      "name": "@vercel/gatsby-plugin-vercel-builder",
+      "role": "build"
+    },
+    {
+      "name": "@verdaccio/auth",
+      "role": "authentication"
+    },
+    {
+      "name": "@verdaccio/utils",
+      "role": "utilities"
+    },
+    {
+      "name": "@vinejs/vine",
+      "role": "validation"
+    },
+    {
+      "name": "@visx/network",
+      "role": "network"
+    },
+    {
+      "name": "@vite-hub/database",
+      "role": "database"
+    },
+    {
+      "name": "@vscode-logging/types",
+      "role": "logging"
+    },
+    {
+      "name": "@vue/cli-plugin-router",
+      "role": "cli"
+    },
+    {
+      "name": "@vue/cli-plugin-vuex",
+      "role": "cli"
+    },
+    {
+      "name": "@vue/cli-service",
+      "role": "cli"
+    },
+    {
+      "name": "@vue/cli-shared-utils",
+      "role": "cli"
+    },
+    {
+      "name": "@walletconnect/utils",
+      "role": "utilities"
+    },
+    {
+      "name": "@warp-drive/build-config",
+      "role": "build"
+    },
+    {
+      "name": "@wdio/cucumber-framework",
+      "role": "framework"
+    },
+    {
+      "name": "@wdio/jasmine-framework",
+      "role": "framework"
+    },
+    {
+      "name": "@wdio/logger",
+      "role": "logging"
+    },
+    {
+      "name": "@wdio/mocha-framework",
+      "role": "framework"
+    },
+    {
+      "name": "@wix/authentication",
+      "role": "authentication"
+    },
+    {
+      "name": "@wordpress/block-serialization-default-parser",
+      "role": "serialization"
+    },
+    {
+      "name": "@wordpress/block-serialization-spec-parser",
+      "role": "serialization"
+    },
+    {
+      "name": "@wordpress/build",
+      "role": "build"
+    },
+    {
+      "name": "@wordpress/image-cropper",
+      "role": "image"
+    },
+    {
+      "name": "@workflow/serde",
+      "role": "serialization"
+    },
+    {
+      "name": "@workleap/logging",
+      "role": "logging"
+    },
+    {
+      "name": "@xterm/addon-image",
+      "role": "image"
+    },
+    {
+      "name": "@zag-js/image-cropper",
+      "role": "image"
+    },
+    {
+      "name": "@zendeskgarden/container-utilities",
+      "role": "utilities"
+    },
+    {
+      "name": "@zenfs/core",
+      "role": "filesystem"
+    },
+    {
+      "name": "acorn",
+      "role": "parser"
+    },
+    {
+      "name": "agent-cli-detector",
+      "role": "cli"
+    },
+    {
+      "name": "ajv",
+      "role": "validation"
+    },
+    {
+      "name": "akamai-edgegrid",
+      "role": "authentication"
+    },
+    {
+      "name": "amplify-velocity-template",
+      "role": "template"
+    },
+    {
+      "name": "axe-core",
+      "role": "testing"
+    },
+    {
+      "name": "axios",
+      "role": "HTTP client"
+    },
+    {
+      "name": "babel-plugin-ember-template-compilation",
+      "role": "template"
+    },
+    {
+      "name": "bats",
+      "role": "testing"
+    },
+    {
+      "name": "better-auth",
+      "role": "framework, authentication"
+    },
+    {
+      "name": "buildcheck",
+      "role": "build"
+    },
+    {
+      "name": "capnp-es",
+      "role": "serialization"
+    },
+    {
+      "name": "cf-nodejs-logging-support",
+      "role": "logging"
+    },
+    {
+      "name": "chai",
+      "role": "framework"
+    },
+    {
+      "name": "chalk",
+      "role": "command-line tooling"
+    },
+    {
+      "name": "citty",
+      "role": "cli"
+    },
+    {
+      "name": "class-validator",
+      "role": "validation"
+    },
+    {
+      "name": "clean-yaml-object",
+      "role": "serialization"
+    },
+    {
+      "name": "commander",
+      "role": "command-line tooling"
+    },
+    {
+      "name": "comment-parser",
+      "role": "parser"
+    },
+    {
+      "name": "compression",
+      "role": "compression"
+    },
+    {
+      "name": "compression-rspack-plugin",
+      "role": "compression"
+    },
+    {
+      "name": "content-type",
+      "role": "http"
+    },
+    {
+      "name": "cookie",
+      "role": "http, serialization"
+    },
+    {
+      "name": "cordova-plugin-network-information",
+      "role": "network"
+    },
+    {
+      "name": "cropperjs",
+      "role": "image"
+    },
+    {
+      "name": "css-gradient-parser",
+      "role": "parser"
+    },
+    {
+      "name": "css-selector-parser",
+      "role": "parser"
+    },
+    {
+      "name": "cypress-fail-on-network-error",
+      "role": "network"
+    },
+    {
+      "name": "cypress-network-idle",
+      "role": "network"
+    },
+    {
+      "name": "cytoscape",
+      "role": "network"
+    },
+    {
+      "name": "dbmate",
+      "role": "database"
+    },
+    {
+      "name": "decompress-response",
+      "role": "http"
+    },
+    {
+      "name": "docker-modem",
+      "role": "network"
+    },
+    {
+      "name": "domutils",
+      "role": "utilities"
+    },
+    {
+      "name": "eas-build-cache-provider",
+      "role": "build"
+    },
+    {
+      "name": "electron-log",
+      "role": "logging"
+    },
+    {
+      "name": "electron-vite",
+      "role": "build"
+    },
+    {
+      "name": "elysia",
+      "role": "framework"
+    },
+    {
+      "name": "ember-a11y-testing",
+      "role": "testing"
+    },
+    {
+      "name": "ember-cli-babel",
+      "role": "cli"
+    },
+    {
+      "name": "esbuild",
+      "role": "build tooling"
+    },
+    {
+      "name": "eslint",
+      "role": "quality tooling"
+    },
+    {
+      "name": "eslint-plugin-testing-library",
+      "role": "testing"
+    },
+    {
+      "name": "eslint-visitor-keys",
+      "role": "utilities"
+    },
+    {
+      "name": "eta",
+      "role": "template"
+    },
+    {
+      "name": "eve",
+      "role": "filesystem"
+    },
+    {
+      "name": "eventsource-parser",
+      "role": "parser"
+    },
+    {
+      "name": "expo-auth-session",
+      "role": "authentication"
+    },
+    {
+      "name": "expo-build-properties",
+      "role": "build"
+    },
+    {
+      "name": "expo-crypto",
+      "role": "cryptography"
+    },
+    {
+      "name": "expo-image",
+      "role": "image"
+    },
+    {
+      "name": "expo-image-loader",
+      "role": "image"
+    },
+    {
+      "name": "expo-network",
+      "role": "network"
+    },
+    {
+      "name": "expo-sqlite",
+      "role": "database"
+    },
+    {
+      "name": "express",
+      "role": "server framework, framework"
+    },
+    {
+      "name": "express-http-proxy",
+      "role": "http"
+    },
+    {
+      "name": "fast-check",
+      "role": "framework, testing"
+    },
+    {
+      "name": "fast-xml-builder",
+      "role": "build"
+    },
+    {
+      "name": "fast-xml-parser",
+      "role": "build"
+    },
+    {
+      "name": "fastify",
+      "role": "server framework, framework"
+    },
+    {
+      "name": "fflate",
+      "role": "compression"
+    },
+    {
+      "name": "finalhandler",
+      "role": "http"
+    },
+    {
+      "name": "flatbuffers",
+      "role": "serialization"
+    },
+    {
+      "name": "flow-parser",
+      "role": "parser"
+    },
+    {
+      "name": "follow-redirects",
+      "role": "http"
+    },
+    {
+      "name": "formik",
+      "role": "build"
+    },
+    {
+      "name": "generative-bayesian-network",
+      "role": "network"
+    },
+    {
+      "name": "google-auth-library",
+      "role": "authentication"
+    },
+    {
+      "name": "got",
+      "role": "HTTP client"
+    },
+    {
+      "name": "grammy",
+      "role": "framework"
+    },
+    {
+      "name": "graphile-build",
+      "role": "build"
+    },
+    {
+      "name": "graphile-build-pg",
+      "role": "build"
+    },
+    {
+      "name": "graphql-tag",
+      "role": "template"
+    },
+    {
+      "name": "groq",
+      "role": "template"
+    },
+    {
+      "name": "h3",
+      "role": "framework"
+    },
+    {
+      "name": "h3-compression",
+      "role": "compression"
+    },
+    {
+      "name": "hdb",
+      "role": "database"
+    },
+    {
+      "name": "hermes-parser",
+      "role": "parser"
+    },
+    {
+      "name": "highcharts",
+      "role": "framework"
+    },
+    {
+      "name": "hono",
+      "role": "framework"
+    },
+    {
+      "name": "html-dom-parser",
+      "role": "parser"
+    },
+    {
+      "name": "html-react-parser",
+      "role": "parser"
+    },
+    {
+      "name": "html-template-tag",
+      "role": "template"
+    },
+    {
+      "name": "http-cookie-agent",
+      "role": "http"
+    },
+    {
+      "name": "http-errors",
+      "role": "http"
+    },
+    {
+      "name": "http-graceful-shutdown",
+      "role": "http"
+    },
+    {
+      "name": "http-proxy-3",
+      "role": "http"
+    },
+    {
+      "name": "http-proxy-agent",
+      "role": "http"
+    },
+    {
+      "name": "hysnappy",
+      "role": "compression"
+    },
+    {
+      "name": "i18next",
+      "role": "framework"
+    },
+    {
+      "name": "i18next-cli",
+      "role": "cli"
+    },
+    {
+      "name": "image-blob-reduce",
+      "role": "image"
+    },
+    {
+      "name": "image-dimensions",
+      "role": "image"
+    },
+    {
+      "name": "image-meta",
+      "role": "image"
+    },
+    {
+      "name": "image-type",
+      "role": "image"
+    },
+    {
+      "name": "inline-style-parser",
+      "role": "parser"
+    },
+    {
+      "name": "into-stream",
+      "role": "stream"
+    },
+    {
+      "name": "is-network-error",
+      "role": "network"
+    },
+    {
+      "name": "jake",
+      "role": "build"
+    },
+    {
+      "name": "jasmine-core",
+      "role": "framework, testing"
+    },
+    {
+      "name": "jest",
+      "role": "testing"
+    },
+    {
+      "name": "jest-cli",
+      "role": "testing"
+    },
+    {
+      "name": "jest-image-snapshot",
+      "role": "image"
+    },
+    {
+      "name": "jest-watcher",
+      "role": "testing"
+    },
+    {
+      "name": "jkurwa",
+      "role": "cryptography"
+    },
+    {
+      "name": "joi",
+      "role": "validation"
+    },
+    {
+      "name": "jquery-validation",
+      "role": "validation"
+    },
+    {
+      "name": "jsdoc-type-pratt-parser",
+      "role": "parser"
+    },
+    {
+      "name": "json-stream-stringify",
+      "role": "stream"
+    },
+    {
+      "name": "jsonpack",
+      "role": "compression"
+    },
+    {
+      "name": "just-bash",
+      "role": "filesystem"
+    },
+    {
+      "name": "kerium",
+      "role": "logging"
+    },
+    {
+      "name": "koa",
+      "role": "server framework, framework"
+    },
+    {
+      "name": "kysely-codegen",
+      "role": "database"
+    },
+    {
+      "name": "lan-network",
+      "role": "network"
+    },
+    {
+      "name": "ldap-authentication",
+      "role": "authentication"
+    },
+    {
+      "name": "lighthouse-logger",
+      "role": "logging"
+    },
+    {
+      "name": "lodash",
+      "role": "utility, utilities"
+    },
+    {
+      "name": "lz-utils",
+      "role": "compression"
+    },
+    {
+      "name": "mailauth",
+      "role": "authentication"
+    },
+    {
+      "name": "markdown-exit",
+      "role": "markdown"
+    },
+    {
+      "name": "markdown-it",
+      "role": "markdown"
+    },
+    {
+      "name": "markdown-it-deflist",
+      "role": "markdown"
+    },
+    {
+      "name": "markdown-link-extractor",
+      "role": "markdown"
+    },
+    {
+      "name": "markdown-to-jsx",
+      "role": "markdown"
+    },
+    {
+      "name": "marked",
+      "role": "text processing, markdown"
+    },
+    {
+      "name": "mcl-wasm",
+      "role": "cryptography"
+    },
+    {
+      "name": "mcp-framework",
+      "role": "framework"
+    },
+    {
+      "name": "mdast-util-from-markdown",
+      "role": "markdown"
+    },
+    {
+      "name": "mdast-util-to-markdown-cjk-friendly",
+      "role": "markdown"
+    },
+    {
+      "name": "mdast-util-to-markdown-cjk-friendly-gfm-strikethrough",
+      "role": "serialization"
+    },
+    {
+      "name": "mdn-data",
+      "role": "network"
+    },
+    {
+      "name": "meow",
+      "role": "cli"
+    },
+    {
+      "name": "mercurius-validation",
+      "role": "validation"
+    },
+    {
+      "name": "micro-rsa-dsa-dh",
+      "role": "cryptography"
+    },
+    {
+      "name": "migrate-mongo",
+      "role": "database"
+    },
+    {
+      "name": "minipass",
+      "role": "stream"
+    },
+    {
+      "name": "mjml-image",
+      "role": "image"
+    },
+    {
+      "name": "mocha",
+      "role": "testing"
+    },
+    {
+      "name": "mpd-parser",
+      "role": "parser"
+    },
+    {
+      "name": "mutation-testing-elements",
+      "role": "testing"
+    },
+    {
+      "name": "mutation-testing-metrics",
+      "role": "testing"
+    },
+    {
+      "name": "mutation-testing-report-schema",
+      "role": "testing"
+    },
+    {
+      "name": "mysql2",
+      "role": "compression"
+    },
+    {
+      "name": "nanoid",
+      "role": "identifier generation"
+    },
+    {
+      "name": "nest-commander-testing",
+      "role": "testing"
+    },
+    {
+      "name": "netmask",
+      "role": "network"
+    },
+    {
+      "name": "network-viewer",
+      "role": "network"
+    },
+    {
+      "name": "next",
+      "role": "application framework, framework"
+    },
+    {
+      "name": "next-auth",
+      "role": "authentication"
+    },
+    {
+      "name": "next-logger",
+      "role": "logging"
+    },
+    {
+      "name": "ngx-image-cropper",
+      "role": "image"
+    },
+    {
+      "name": "node-forge",
+      "role": "cryptography, network"
+    },
+    {
+      "name": "node-gyp",
+      "role": "build"
+    },
+    {
+      "name": "node-network-devtools",
+      "role": "network"
+    },
+    {
+      "name": "node-pg-migrate",
+      "role": "database"
+    },
+    {
+      "name": "node-sql-parser",
+      "role": "parser"
+    },
+    {
+      "name": "nuxt-og-image",
+      "role": "image"
+    },
+    {
+      "name": "oc-template-es6",
+      "role": "template"
+    },
+    {
+      "name": "oc-template-esm",
+      "role": "template"
+    },
+    {
+      "name": "oc-template-handlebars",
+      "role": "template"
+    },
+    {
+      "name": "oci-database",
+      "role": "database"
+    },
+    {
+      "name": "oci-databasemigration",
+      "role": "database"
+    },
+    {
+      "name": "oci-distributeddatabase",
+      "role": "database"
+    },
+    {
+      "name": "oci-logging",
+      "role": "logging"
+    },
+    {
+      "name": "opentok-network-test-js",
+      "role": "network"
+    },
+    {
+      "name": "oracledb",
+      "role": "database"
+    },
+    {
+      "name": "ow",
+      "role": "validation"
+    },
+    {
+      "name": "oxc-parser",
+      "role": "parser"
+    },
+    {
+      "name": "p-locate",
+      "role": "testing"
+    },
+    {
+      "name": "parse5-parser-stream",
+      "role": "parser"
+    },
+    {
+      "name": "parse5-sax-parser",
+      "role": "parser"
+    },
+    {
+      "name": "pdfjs-dist",
+      "role": "build"
+    },
+    {
+      "name": "pg-query-stream",
+      "role": "stream"
+    },
+    {
+      "name": "pino-http",
+      "role": "http"
+    },
+    {
+      "name": "playwright-network-cache",
+      "role": "network"
+    },
+    {
+      "name": "postcss-image-set-function",
+      "role": "image"
+    },
+    {
+      "name": "postcss-markdown",
+      "role": "markdown"
+    },
+    {
+      "name": "postcss-selector-parser",
+      "role": "parser"
+    },
+    {
+      "name": "powershell-utils",
+      "role": "utilities"
+    },
+    {
+      "name": "prettier",
+      "role": "quality tooling"
+    },
+    {
+      "name": "prettier-plugin-ember-template-tag",
+      "role": "template"
+    },
+    {
+      "name": "probe-image-size",
+      "role": "image"
+    },
+    {
+      "name": "prosemirror-markdown",
+      "role": "markdown"
+    },
+    {
+      "name": "protractor-cucumber-framework",
+      "role": "framework"
+    },
+    {
+      "name": "proxy-agent-negotiate",
+      "role": "authentication"
+    },
+    {
+      "name": "qs",
+      "role": "query parsing"
+    },
+    {
+      "name": "range-parser",
+      "role": "parser"
+    },
+    {
+      "name": "rdf-parse",
+      "role": "serialization"
+    },
+    {
+      "name": "react",
+      "role": "UI framework"
+    },
+    {
+      "name": "react-image-crop",
+      "role": "image"
+    },
+    {
+      "name": "react-image-gallery",
+      "role": "image"
+    },
+    {
+      "name": "react-medium-image-zoom",
+      "role": "image"
+    },
+    {
+      "name": "react-native-file-access",
+      "role": "filesystem"
+    },
+    {
+      "name": "react-native-network-info",
+      "role": "network"
+    },
+    {
+      "name": "react-test-renderer",
+      "role": "testing"
+    },
+    {
+      "name": "remend",
+      "role": "markdown"
+    },
+    {
+      "name": "remove-markdown",
+      "role": "markdown"
+    },
+    {
+      "name": "rollup",
+      "role": "build tooling"
+    },
+    {
+      "name": "schema-utils",
+      "role": "validation"
+    },
+    {
+      "name": "sdp",
+      "role": "serialization"
+    },
+    {
+      "name": "semver",
+      "role": "version parsing"
+    },
+    {
+      "name": "sequelize-cli",
+      "role": "cli"
+    },
+    {
+      "name": "slackify-markdown",
+      "role": "markdown"
+    },
+    {
+      "name": "snappy",
+      "role": "compression"
+    },
+    {
+      "name": "socket.io",
+      "role": "networking, framework"
+    },
+    {
+      "name": "socket.io-client",
+      "role": "framework"
+    },
+    {
+      "name": "socket.io-parser",
+      "role": "parser"
+    },
+    {
+      "name": "sscrypto",
+      "role": "cryptography"
+    },
+    {
+      "name": "stream-chat",
+      "role": "stream"
+    },
+    {
+      "name": "strfy-js",
+      "role": "serialization"
+    },
+    {
+      "name": "supabase",
+      "role": "cli"
+    },
+    {
+      "name": "supertest",
+      "role": "testing"
+    },
+    {
+      "name": "svelte",
+      "role": "UI framework"
+    },
+    {
+      "name": "svelte-eslint-parser",
+      "role": "parser"
+    },
+    {
+      "name": "tailwindcss",
+      "role": "framework"
+    },
+    {
+      "name": "tar",
+      "role": "archive processing"
+    },
+    {
+      "name": "tar-fs",
+      "role": "stream, filesystem"
+    },
+    {
+      "name": "thingies",
+      "role": "utilities"
+    },
+    {
+      "name": "tiptap-markdown",
+      "role": "markdown"
+    },
+    {
+      "name": "turbo",
+      "role": "build"
+    },
+    {
+      "name": "typedoc-plugin-markdown",
+      "role": "markdown"
+    },
+    {
+      "name": "typescript",
+      "role": "language tooling"
+    },
+    {
+      "name": "undici",
+      "role": "HTTP client"
+    },
+    {
+      "name": "unhead",
+      "role": "framework"
+    },
+    {
+      "name": "unicorn-magic",
+      "role": "utilities"
+    },
+    {
+      "name": "unique-stream",
+      "role": "stream"
+    },
+    {
+      "name": "unpic",
+      "role": "image"
+    },
+    {
+      "name": "unplugin",
+      "role": "build"
+    },
+    {
+      "name": "unplugin-vue-markdown",
+      "role": "markdown"
+    },
+    {
+      "name": "uri-template-matcher",
+      "role": "template"
+    },
+    {
+      "name": "use-query-params",
+      "role": "serialization"
+    },
+    {
+      "name": "utilium",
+      "role": "utilities"
+    },
+    {
+      "name": "v-network-graph",
+      "role": "network"
+    },
+    {
+      "name": "validator",
+      "role": "validation"
+    },
+    {
+      "name": "vanilla-framework",
+      "role": "framework"
+    },
+    {
+      "name": "vega-loader",
+      "role": "network"
+    },
+    {
+      "name": "velocityjs",
+      "role": "template"
+    },
+    {
+      "name": "verdaccio-htpasswd",
+      "role": "authentication"
+    },
+    {
+      "name": "vite",
+      "role": "build tooling, build"
+    },
+    {
+      "name": "vite-plugin-compression2",
+      "role": "compression"
+    },
+    {
+      "name": "vitefu",
+      "role": "utilities"
+    },
+    {
+      "name": "vitest",
+      "role": "testing, framework"
+    },
+    {
+      "name": "vscode-markdown-languageservice",
+      "role": "markdown"
+    },
+    {
+      "name": "vue",
+      "role": "UI framework"
+    },
+    {
+      "name": "vue-eslint-parser",
+      "role": "parser"
+    },
+    {
+      "name": "webpack",
+      "role": "build tooling"
+    },
+    {
+      "name": "webpack-cli",
+      "role": "cli"
+    },
+    {
+      "name": "wkt-parser",
+      "role": "parser"
+    },
+    {
+      "name": "workbox-build",
+      "role": "build"
+    },
+    {
+      "name": "ws",
+      "role": "networking"
+    },
+    {
+      "name": "wxt",
+      "role": "framework"
+    },
+    {
+      "name": "yaml",
+      "role": "structured data parsing"
+    },
+    {
+      "name": "yargs",
+      "role": "command-line tooling"
+    },
+    {
+      "name": "yup",
+      "role": "validation"
+    },
+    {
+      "name": "zod",
+      "role": "validation"
+    },
+    {
+      "name": "zod-validation-error",
+      "role": "validation"
+    },
+    {
+      "name": "zodex",
+      "role": "serialization"
+    }
+  ]
+}

@@ -13,8 +13,8 @@
       "identical": true
     },
     "manifest.json": {
-      "original_sha256": "756caa01822690fcc15791684a33520f049956e2cae788942f51da4b5d7c9c6d",
-      "replayed_sha256": "756caa01822690fcc15791684a33520f049956e2cae788942f51da4b5d7c9c6d",
+      "original_sha256": "06918d8cdbcd109b6def3e60568f08dfdd7edc12dfaa4854db89eb0b9b2d7b50",
+      "replayed_sha256": "06918d8cdbcd109b6def3e60568f08dfdd7edc12dfaa4854db89eb0b9b2d7b50",
       "identical": true
     },
     "package-decisions.json": {

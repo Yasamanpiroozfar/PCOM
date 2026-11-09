@@ -1,0 +1,491 @@
+{
+  "method": "first pre-boundary commit in local git log traversal of official main",
+  "source": "https://github.com/github/advisory-database.git",
+  "head_commit": "3289ea8f5e920717145f003662ac317807f11beb",
+  "history_lower_filter": "2025-05-01T00:00:00Z",
+  "strict_boundary": true,
+  "known_api_comparisons": [
+    {
+      "boundary": "2025-05-27T14:27:19.495Z",
+      "local_commit": "6f38b4133d8d067c59f444ac3afc9674bca78e7d",
+      "api_commit": "6f38b4133d8d067c59f444ac3afc9674bca78e7d",
+      "matched": true
+    },
+    {
+      "boundary": "2025-08-25T14:27:19.495Z",
+      "local_commit": "aac347d1224a84beb6f55186464a00a4abdf17e4",
+      "api_commit": "aac347d1224a84beb6f55186464a00a4abdf17e4",
+      "matched": true
+    },
+    {
+      "boundary": "2025-09-08T14:47:54.486Z",
+      "local_commit": "2ab8b10053927626d4c022898463b91331fb3288",
+      "api_commit": "2ab8b10053927626d4c022898463b91331fb3288",
+      "matched": true
+    },
+    {
+      "boundary": "2025-12-01T20:49:43.268Z",
+      "local_commit": "898bfffe533704cbc990a727879d108691b71a5c",
+      "api_commit": "898bfffe533704cbc990a727879d108691b71a5c",
+      "matched": true
+    },
+    {
+      "boundary": "2025-12-07T14:47:54.486Z",
+      "local_commit": "c57280b35848d35aeed7ed1e98f6ba170c3ad062",
+      "api_commit": "c57280b35848d35aeed7ed1e98f6ba170c3ad062",
+      "matched": true
+    },
+    {
+      "boundary": "2025-12-23T16:42:13.022Z",
+      "local_commit": "afd1f956a8d89bf40081caf17d16ac2fe8e2cbc1",
+      "api_commit": "afd1f956a8d89bf40081caf17d16ac2fe8e2cbc1",
+      "matched": true
+    },
+    {
+      "boundary": "2026-03-01T20:49:43.268Z",
+      "local_commit": "2e029c9fe0db0339ae7ebc3e1aeae33acb8f9201",
+      "api_commit": "2e029c9fe0db0339ae7ebc3e1aeae33acb8f9201",
+      "matched": true
+    },
+    {
+      "boundary": "2026-03-23T16:42:13.022Z",
+      "local_commit": "e37f0f2237a925be050dfd7fe7a30b3b9765e668",
+      "api_commit": "e37f0f2237a925be050dfd7fe7a30b3b9765e668",
+      "matched": true
+    },
+    {
+      "boundary": "2026-04-01T21:01:20.458Z",
+      "local_commit": "2b959372cfeebf62db51704a80f1179c31a422dc",
+      "api_commit": "2b959372cfeebf62db51704a80f1179c31a422dc",
+      "matched": true
+    },
+    {
+      "boundary": "2026-04-16T23:38:27.905Z",
+      "local_commit": "e669840a3c688dbdc33d628dd76c12be3ae82ef6",
+      "api_commit": "e669840a3c688dbdc33d628dd76c12be3ae82ef6",
+      "matched": true
+    },
+    {
+      "boundary": "2026-04-24T15:22:16.529Z",
+      "local_commit": "439cff0e0515e9e3fa6abd2eb6c420171d12e228",
+      "api_commit": "439cff0e0515e9e3fa6abd2eb6c420171d12e228",
+      "matched": true
+    },
+    {
+      "boundary": "2026-05-04T07:06:40.819Z",
+      "local_commit": "189c2cd4b5fbebfc67fe17fc42882bed189e996e",
+      "api_commit": "189c2cd4b5fbebfc67fe17fc42882bed189e996e",
+      "matched": true
+    },
+    {
+      "boundary": "2026-05-06T10:38:26.287Z",
+      "local_commit": "5c51eb6e4f4be7239b2529e78964b1bf4f7e40a0",
+      "api_commit": "5c51eb6e4f4be7239b2529e78964b1bf4f7e40a0",
+      "matched": true
+    },
+    {
+      "boundary": "2026-05-09T00:31:21.036Z",
+      "local_commit": "4d8c7cbd45cb8e9ca4c895799091fad98fcdbef1",
+      "api_commit": "4d8c7cbd45cb8e9ca4c895799091fad98fcdbef1",
+      "matched": true
+    },
+    {
+      "boundary": "2026-05-11T10:16:24.045Z",
+      "local_commit": "86f2a7ffce7e126eb89deacbe28a047f3639a4fe",
+      "api_commit": "86f2a7ffce7e126eb89deacbe28a047f3639a4fe",
+      "matched": true
+    },
+    {
+      "boundary": "2026-05-21T07:25:34.368Z",
+      "local_commit": "f74ba8ef1bbe16b7b41a9579615184484c80e7ce",
+      "api_commit": "f74ba8ef1bbe16b7b41a9579615184484c80e7ce",
+      "matched": true
+    },
+    {
+      "boundary": "2026-05-21T11:11:59.551Z",
+      "local_commit": "aa3b80d3746f02a5556628b14eb1ff0b96f62024",
+      "api_commit": "aa3b80d3746f02a5556628b14eb1ff0b96f62024",
+      "matched": true
+    },
+    {
+      "boundary": "2026-05-22T17:59:59.453Z",
+      "local_commit": "c46bcf61f9d19576a81e7bc7b30d1615109eae29",
+      "api_commit": "c46bcf61f9d19576a81e7bc7b30d1615109eae29",
+      "matched": true
+    },
+    {
+      "boundary": "2026-05-29T09:16:23.076Z",
+      "local_commit": "e72c401d80d2d11d06d425047f54bd2e7068b88c",
+      "api_commit": "e72c401d80d2d11d06d425047f54bd2e7068b88c",
+      "matched": true
+    },
+    {
+      "boundary": "2026-06-01T18:00:48.323Z",
+      "local_commit": "885c1cebcff2e5e26487e667f67d26109011cd1f",
+      "api_commit": "885c1cebcff2e5e26487e667f67d26109011cd1f",
+      "matched": true
+    },
+    {
+      "boundary": "2026-06-04T14:17:47.684Z",
+      "local_commit": "73a59eb8337dce14fc0c6935807ace30c0f72135",
+      "api_commit": "73a59eb8337dce14fc0c6935807ace30c0f72135",
+      "matched": true
+    },
+    {
+      "boundary": "2026-06-09T23:02:22.464Z",
+      "local_commit": "66a4b9e448c7b339c0899b4397fe86f3c55b5ff1",
+      "api_commit": "66a4b9e448c7b339c0899b4397fe86f3c55b5ff1",
+      "matched": true
+    },
+    {
+      "boundary": "2026-06-11T22:47:05.085Z",
+      "local_commit": "3c810e2fcccd4432b6304b016af29c5f81a540d2",
+      "api_commit": "3c810e2fcccd4432b6304b016af29c5f81a540d2",
+      "matched": true
+    },
+    {
+      "boundary": "2026-06-15T07:23:00.326Z",
+      "local_commit": "fae78c24ab0f2dd6a5e78fc0f37d0eec96594db9",
+      "api_commit": "fae78c24ab0f2dd6a5e78fc0f37d0eec96594db9",
+      "matched": true
+    },
+    {
+      "boundary": "2026-06-15T09:16:25.179Z",
+      "local_commit": "fae78c24ab0f2dd6a5e78fc0f37d0eec96594db9",
+      "api_commit": "fae78c24ab0f2dd6a5e78fc0f37d0eec96594db9",
+      "matched": true
+    },
+    {
+      "boundary": "2026-06-15T15:50:42.140Z",
+      "local_commit": "b7cc3189af173373e50ae9e72aab2daca67c1921",
+      "api_commit": "b7cc3189af173373e50ae9e72aab2daca67c1921",
+      "matched": true
+    },
+    {
+      "boundary": "2026-06-17T09:44:07.576Z",
+      "local_commit": "dc5dada0259ad27c5f2a4f77baeb4fe307705ca7",
+      "api_commit": "dc5dada0259ad27c5f2a4f77baeb4fe307705ca7",
+      "matched": true
+    },
+    {
+      "boundary": "2026-06-17T16:54:59.526Z",
+      "local_commit": "3c623a99eacf15aa9818003099b1ddd8277b1207",
+      "api_commit": "3c623a99eacf15aa9818003099b1ddd8277b1207",
+      "matched": true
+    },
+    {
+      "boundary": "2026-06-19T02:08:41.275Z",
+      "local_commit": "f84ebcaa9f4670e1622d7068cbbe48df458e794f",
+      "api_commit": "f84ebcaa9f4670e1622d7068cbbe48df458e794f",
+      "matched": true
+    },
+    {
+      "boundary": "2026-06-19T14:57:23.529Z",
+      "local_commit": "74a4713012b5087fe40868290b0f3c27ba5c2815",
+      "api_commit": "74a4713012b5087fe40868290b0f3c27ba5c2815",
+      "matched": true
+    },
+    {
+      "boundary": "2026-06-19T18:32:48.972Z",
+      "local_commit": "c92ea51f8f3d2a3381822508daef4f8d3fdb0a43",
+      "api_commit": "c92ea51f8f3d2a3381822508daef4f8d3fdb0a43",
+      "matched": true
+    },
+    {
+      "boundary": "2026-06-22T18:28:17.985Z",
+      "local_commit": "edd99ac12c3a769e2a1a3d14519d3e6c99aa9b4e",
+      "api_commit": "edd99ac12c3a769e2a1a3d14519d3e6c99aa9b4e",
+      "matched": true
+    },
+    {
+      "boundary": "2026-06-23T18:48:39.984Z",
+      "local_commit": "ac14095409a1d63f613e7a532b5a6056c0cca90f",
+      "api_commit": "ac14095409a1d63f613e7a532b5a6056c0cca90f",
+      "matched": true
+    },
+    {
+      "boundary": "2026-06-24T18:37:08.221Z",
+      "local_commit": "d1a230d970d41eb3f013071b670152aff4d31fcb",
+      "api_commit": "d1a230d970d41eb3f013071b670152aff4d31fcb",
+      "matched": true
+    },
+    {
+      "boundary": "2026-06-24T20:03:49.752Z",
+      "local_commit": "c8f5fbd1f334b56cb433cac664ace1cfb1213a0e",
+      "api_commit": "c8f5fbd1f334b56cb433cac664ace1cfb1213a0e",
+      "matched": true
+    },
+    {
+      "boundary": "2026-06-25T09:44:00.706Z",
+      "local_commit": "24575328695dd4ce28f1fdbcc2f5eac235d8aef9",
+      "api_commit": "24575328695dd4ce28f1fdbcc2f5eac235d8aef9",
+      "matched": true
+    },
+    {
+      "boundary": "2026-06-26T17:04:45.416Z",
+      "local_commit": "63dd066f3b06b7d32e2c0fb120fd968aa63d0aa0",
+      "api_commit": "63dd066f3b06b7d32e2c0fb120fd968aa63d0aa0",
+      "matched": true
+    },
+    {
+      "boundary": "2026-06-26T20:09:18.001Z",
+      "local_commit": "46993e5ee0ab1a227b643d2ab9e5c9ad930775ff",
+      "api_commit": "46993e5ee0ab1a227b643d2ab9e5c9ad930775ff",
+      "matched": true
+    },
+    {
+      "boundary": "2026-06-27T22:59:56.668Z",
+      "local_commit": "9c495a76cd670dd1fcddf0224eb11422112f10d8",
+      "api_commit": "9c495a76cd670dd1fcddf0224eb11422112f10d8",
+      "matched": true
+    },
+    {
+      "boundary": "2026-06-28T08:13:34.555Z",
+      "local_commit": "2914f07e78d925fdb56f6d577a9c7b09c48b3b8e",
+      "api_commit": "2914f07e78d925fdb56f6d577a9c7b09c48b3b8e",
+      "matched": true
+    },
+    {
+      "boundary": "2026-06-28T09:47:50.776Z",
+      "local_commit": "29408f5e394aca6e420338a5a6c87ca9708ba8dc",
+      "api_commit": "29408f5e394aca6e420338a5a6c87ca9708ba8dc",
+      "matched": true
+    },
+    {
+      "boundary": "2026-06-29T22:00:19.579Z",
+      "local_commit": "d6708315da2c904768fa81699f021de0820f74aa",
+      "api_commit": "d6708315da2c904768fa81699f021de0820f74aa",
+      "matched": true
+    },
+    {
+      "boundary": "2026-06-30T01:11:17.630Z",
+      "local_commit": "b6956404719db32175252df991435efbd7fb5bbb",
+      "api_commit": "b6956404719db32175252df991435efbd7fb5bbb",
+      "matched": true
+    },
+    {
+      "boundary": "2026-06-30T16:46:39.800Z",
+      "local_commit": "4930b3d07dc5ebb4e530743da46e3eb2ef024f20",
+      "api_commit": "4930b3d07dc5ebb4e530743da46e3eb2ef024f20",
+      "matched": true
+    },
+    {
+      "boundary": "2026-06-30T21:01:20.458Z",
+      "local_commit": "e11737edc0054449c5424b3ca5cd02f6aec7f04c",
+      "api_commit": "e11737edc0054449c5424b3ca5cd02f6aec7f04c",
+      "matched": true
+    },
+    {
+      "boundary": "2026-07-15T23:38:27.905Z",
+      "local_commit": "5db74df4398057685d929582db73d089fd04717a",
+      "api_commit": "5db74df4398057685d929582db73d089fd04717a",
+      "matched": true
+    },
+    {
+      "boundary": "2026-07-23T15:22:16.529Z",
+      "local_commit": "a1f79da7d9ace94965a4a6372e679be3d02ffe25",
+      "api_commit": "a1f79da7d9ace94965a4a6372e679be3d02ffe25",
+      "matched": true
+    },
+    {
+      "boundary": "2026-08-02T07:06:40.819Z",
+      "local_commit": "1a199016f3b0066d4ef48ab0ba37a264a22f82cc",
+      "api_commit": "1a199016f3b0066d4ef48ab0ba37a264a22f82cc",
+      "matched": true
+    },
+    {
+      "boundary": "2026-08-04T10:38:26.287Z",
+      "local_commit": "a3ea46cb73693ccecdddc79fb0bfeeab6d6814fd",
+      "api_commit": "a3ea46cb73693ccecdddc79fb0bfeeab6d6814fd",
+      "matched": true
+    },
+    {
+      "boundary": "2026-08-07T00:31:21.036Z",
+      "local_commit": "36200027e9b9b4b1ce8313bd5c5bd3b7d5120a33",
+      "api_commit": "36200027e9b9b4b1ce8313bd5c5bd3b7d5120a33",
+      "matched": true
+    },
+    {
+      "boundary": "2026-08-09T10:16:24.045Z",
+      "local_commit": "71ca7b6916b1fb164168b4bb6050d2676e5a8d6a",
+      "api_commit": "71ca7b6916b1fb164168b4bb6050d2676e5a8d6a",
+      "matched": true
+    },
+    {
+      "boundary": "2026-08-19T07:25:34.368Z",
+      "local_commit": "80aa4beb5103d2d970b69688101eddf8ce75afa2",
+      "api_commit": "80aa4beb5103d2d970b69688101eddf8ce75afa2",
+      "matched": true
+    },
+    {
+      "boundary": "2026-08-19T11:11:59.551Z",
+      "local_commit": "ef9d0628795e5067c1040d276be26bc9adfe896c",
+      "api_commit": "ef9d0628795e5067c1040d276be26bc9adfe896c",
+      "matched": true
+    },
+    {
+      "boundary": "2026-08-20T17:59:59.453Z",
+      "local_commit": "a0e3200d5fa5d45cc5c7b3788b3789e609878c84",
+      "api_commit": "a0e3200d5fa5d45cc5c7b3788b3789e609878c84",
+      "matched": true
+    },
+    {
+      "boundary": "2026-08-27T09:16:23.076Z",
+      "local_commit": "0aeadf48e20cf67d3b6083f8947e3a85acb66e09",
+      "api_commit": "0aeadf48e20cf67d3b6083f8947e3a85acb66e09",
+      "matched": true
+    },
+    {
+      "boundary": "2026-08-30T18:00:48.323Z",
+      "local_commit": "b695d547ec7cbc0be623463706ee0ac6c3290c92",
+      "api_commit": "b695d547ec7cbc0be623463706ee0ac6c3290c92",
+      "matched": true
+    },
+    {
+      "boundary": "2026-09-02T14:17:47.684Z",
+      "local_commit": "9f30e2ca59b4843a0ecb4e079c51d1ea282c9146",
+      "api_commit": "9f30e2ca59b4843a0ecb4e079c51d1ea282c9146",
+      "matched": true
+    },
+    {
+      "boundary": "2026-09-07T23:02:22.464Z",
+      "local_commit": "874969aaff2617a26e039ea4f42490fd14ae3752",
+      "api_commit": "874969aaff2617a26e039ea4f42490fd14ae3752",
+      "matched": true
+    },
+    {
+      "boundary": "2026-09-09T22:47:05.085Z",
+      "local_commit": "d36b7137037a2f10eb2b5f55f19e4f21161a437a",
+      "api_commit": "d36b7137037a2f10eb2b5f55f19e4f21161a437a",
+      "matched": true
+    },
+    {
+      "boundary": "2026-09-13T07:23:00.326Z",
+      "local_commit": "d9d5fbda5e2afa6df16ceeaa3ce976fe7bdadcb6",
+      "api_commit": "d9d5fbda5e2afa6df16ceeaa3ce976fe7bdadcb6",
+      "matched": true
+    },
+    {
+      "boundary": "2026-09-13T09:16:25.179Z",
+      "local_commit": "d9d5fbda5e2afa6df16ceeaa3ce976fe7bdadcb6",
+      "api_commit": "d9d5fbda5e2afa6df16ceeaa3ce976fe7bdadcb6",
+      "matched": true
+    },
+    {
+      "boundary": "2026-09-13T15:50:42.140Z",
+      "local_commit": "3a8e856b736ec20bc971630bb9ca4b5c98a28257",
+      "api_commit": "3a8e856b736ec20bc971630bb9ca4b5c98a28257",
+      "matched": true
+    },
+    {
+      "boundary": "2026-09-15T09:44:07.576Z",
+      "local_commit": "6f4744cb422131f1acef9e3054d3955e5658ed44",
+      "api_commit": "6f4744cb422131f1acef9e3054d3955e5658ed44",
+      "matched": true
+    },
+    {
+      "boundary": "2026-09-15T16:54:59.526Z",
+      "local_commit": "71fd93a5d531fe0a3d8a7a125fab3b39a8e676cf",
+      "api_commit": "71fd93a5d531fe0a3d8a7a125fab3b39a8e676cf",
+      "matched": true
+    },
+    {
+      "boundary": "2026-09-17T02:08:41.275Z",
+      "local_commit": "05b74b54fe8c965f68daadc42228362b56ac5524",
+      "api_commit": "05b74b54fe8c965f68daadc42228362b56ac5524",
+      "matched": true
+    },
+    {
+      "boundary": "2026-09-17T14:57:23.529Z",
+      "local_commit": "110711f8250be206e34aac8c22f4a06fabb96124",
+      "api_commit": "110711f8250be206e34aac8c22f4a06fabb96124",
+      "matched": true
+    },
+    {
+      "boundary": "2026-09-17T18:32:48.972Z",
+      "local_commit": "4283f78bbac1bccf83c1ca53c3022d0ee200ca83",
+      "api_commit": "4283f78bbac1bccf83c1ca53c3022d0ee200ca83",
+      "matched": true
+    },
+    {
+      "boundary": "2026-09-20T18:28:17.985Z",
+      "local_commit": "5d516e5fc55e4fdda2214753c7209eab5630b4b0",
+      "api_commit": "5d516e5fc55e4fdda2214753c7209eab5630b4b0",
+      "matched": true
+    },
+    {
+      "boundary": "2026-09-21T18:48:39.984Z",
+      "local_commit": "884815939d066a40f354eb58eb2033d800d92207",
+      "api_commit": "884815939d066a40f354eb58eb2033d800d92207",
+      "matched": true
+    },
+    {
+      "boundary": "2026-09-22T18:37:08.221Z",
+      "local_commit": "c501de4279060b1d0afacec86da9c7abe21db583",
+      "api_commit": "c501de4279060b1d0afacec86da9c7abe21db583",
+      "matched": true
+    },
+    {
+      "boundary": "2026-09-22T20:03:49.752Z",
+      "local_commit": "04be707955df07dad12286e5a7c7671308c29f7f",
+      "api_commit": "04be707955df07dad12286e5a7c7671308c29f7f",
+      "matched": true
+    },
+    {
+      "boundary": "2026-09-23T09:44:00.706Z",
+      "local_commit": "995f1620dab619dd5a4166c63d8273792709102a",
+      "api_commit": "995f1620dab619dd5a4166c63d8273792709102a",
+      "matched": true
+    },
+    {
+      "boundary": "2026-09-24T17:04:45.416Z",
+      "local_commit": "4c1e7774d8107f90c9ae91e8755b63257ec81d9a",
+      "api_commit": "4c1e7774d8107f90c9ae91e8755b63257ec81d9a",
+      "matched": true
+    },
+    {
+      "boundary": "2026-09-24T20:09:18.001Z",
+      "local_commit": "4d9c664d5781d67b4be4238094de5f05fe74a628",
+      "api_commit": "4d9c664d5781d67b4be4238094de5f05fe74a628",
+      "matched": true
+    },
+    {
+      "boundary": "2026-09-25T22:59:56.668Z",
+      "local_commit": "1ca4105fa7d447e4168edec50a2610b5617b1410",
+      "api_commit": "1ca4105fa7d447e4168edec50a2610b5617b1410",
+      "matched": true
+    },
+    {
+      "boundary": "2026-09-26T08:13:34.555Z",
+      "local_commit": "47defad7e4b635a959df28bfa4c58571dfd6522f",
+      "api_commit": "47defad7e4b635a959df28bfa4c58571dfd6522f",
+      "matched": true
+    },
+    {
+      "boundary": "2026-09-26T09:47:50.776Z",
+      "local_commit": "056594a4b9b4df1173956579618e9ce24f94619d",
+      "api_commit": "056594a4b9b4df1173956579618e9ce24f94619d",
+      "matched": true
+    },
+    {
+      "boundary": "2026-09-27T22:00:19.579Z",
+      "local_commit": "520c0daa73d1d79498e09aad782954f7d98bda6a",
+      "api_commit": "520c0daa73d1d79498e09aad782954f7d98bda6a",
+      "matched": true
+    },
+    {
+      "boundary": "2026-09-28T01:11:17.630Z",
+      "local_commit": "3e0fa556b23298af7deed2be1936937ca3c87e9b",
+      "api_commit": "3e0fa556b23298af7deed2be1936937ca3c87e9b",
+      "matched": true
+    },
+    {
+      "boundary": "2026-09-28T16:46:39.800Z",
+      "local_commit": "66975d745323ec6770fbbfe20a5687affb89b93f",
+      "api_commit": "66975d745323ec6770fbbfe20a5687affb89b93f",
+      "matched": true
+    }
+  ],
+  "all_known_api_comparisons_match": true,
+  "new_boundary_resolution": "Local official Git mirror; not a new GitHub API observation."
+}

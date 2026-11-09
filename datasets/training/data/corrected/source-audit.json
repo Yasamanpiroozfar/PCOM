@@ -1,0 +1,31 @@
+{
+  "valid_candidate_derivation": true,
+  "ready_for_submission": true,
+  "publication_permitted": false,
+  "scopes": {
+    "supplied": {
+      "valid_candidate_derivation": true,
+      "role": "primary_corrected",
+      "ready_for_submission": true,
+      "publication_permitted": false,
+      "eligible_records": 14840,
+      "corrected_training_records": 14840,
+      "schema_contract_verified": true,
+      "required_sources_complete": true,
+      "candidate_records_audited": 14840,
+      "source_value_comparisons": 3324160,
+      "errors": [],
+      "candidate_sha256": "19c486852aa9052e895adfe93dbc1a721816527d3ac48b86f12d12f1ff6fccec",
+      "structurally_valid_candidates": 14840,
+      "complete_ghsa_evidence_packages": 685,
+      "history_ghsa_evidence_packages": 685,
+      "evidence_count_scope": "All source-inspected packages; includes diagnostics for packages with zero surviving rows.",
+      "represented_complete_ghsa_evidence_packages": 685
+    }
+  },
+  "original_acquisition_sha256": "ffeb9451810c2027e3c0202c2ec4e53d2bcaff2ae80b79d034e4c125b137c9b7",
+  "supplemental_source_sha256": "3931ad5ed062c4e4c601fa3cf85a7d9e6e7d7f169f4744e2535fa9300e1f020f",
+  "release_acquisition_sha256": "43333492d415a44653fd216b62c1dfe3a3658446f2ef6e8e78fda72174eee7d5",
+  "scope": "Independent raw-source recount of every candidate field, anchor selection, exact publication timing, GHSA ID membership, CSV parity, source bindings and quarantine status; no calls to build/transform/derive.",
+  "limitations": "Authenticity is bounded by recorded hashes and historical Git mirror provenance; this does not certify exact historical GitHub service state or immutable npm metadata. Known-ID exclusion covers the earlier reviewed corpus, not all review statuses or independent first-publication history. Readiness refers to the documented supplied-version interpretation, not instructor endorsement or permission to publish."
+}

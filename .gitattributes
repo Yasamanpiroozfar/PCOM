@@ -2,3 +2,5 @@
 *.gz -text
 *.png -text
 *.zip -text
+datasets/training/data/corrected/training-records.jsonl filter=lfs diff=lfs merge=lfs -text
+datasets/training/data/corrections/supplied/candidate-records.jsonl filter=lfs diff=lfs merge=lfs -text
