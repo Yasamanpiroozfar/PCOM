@@ -1,0 +1,93 @@
+{
+  "source": "datasets/training/data/corrected/training-records.csv",
+  "dataset_sha256": "88c6ca36762ce24079e2d01718be0e9308abaaf71026d406be933fa1d2d0ce09",
+  "github_blob_sha": "cac73493a1b5c327f8bf2ad9894bbfd148235694",
+  "version_records": 14840,
+  "packages": 685,
+  "split_sizes": [
+    480,
+    102,
+    103
+  ],
+  "positive_packages": [
+    20,
+    4,
+    4
+  ],
+  "target_totals": [
+    [
+      3,
+      33,
+      34,
+      2,
+      0
+    ],
+    [
+      2,
+      11,
+      1,
+      1,
+      0
+    ],
+    [
+      2,
+      2,
+      1,
+      0,
+      0
+    ]
+  ],
+  "features": [
+    "prior_ghsa",
+    "prior_high_critical",
+    "recent_ghsa_M0_M2",
+    "stable_releases",
+    "dependencies",
+    "log_daily_downloads",
+    "log_age_days"
+  ],
+  "feature_sums_before_transform": [
+    [
+      324,
+      145,
+      60,
+      10249,
+      2232,
+      518918,
+      346361
+    ],
+    [
+      72,
+      19,
+      24,
+      2423,
+      493,
+      104706,
+      71185
+    ],
+    [
+      38,
+      14,
+      9,
+      2168,
+      450,
+      110479,
+      73391
+    ]
+  ],
+  "feature_sums_note": "Last two columns multiplied by 100 and rounded to integers; missing values omitted. Extracted from exact GitHub CSV blob; counts and sums verified after transfer.",
+  "experiment": "Compact feature experiment executed with scikit-learn 1.8.0, XGBoost 3.1.3 and NumPy 2.3.5. Full feature competitor comparison not yet executed. Original 15-feature Poisson model results are separately recorded in evaluation.json.",
+  "selection": "Integer validation RMSE, provisional; official scoring not confirmed. No new test evaluation used in challenger comparison.",
+  "inference_tests": {
+    "passed": 5,
+    "runtime_seconds": [
+      0.595680985,
+      0.580395709,
+      0.57722033,
+      0.557815664,
+      0.654462093
+    ],
+    "sample": "example_input.csv",
+    "note": "Wall-clock subprocess measurements in execution environment, not a guarantee on other systems."
+  }
+}

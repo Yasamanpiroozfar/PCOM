@@ -1,0 +1,24 @@
+{
+  "dataset_sha256": "88c6ca36762ce24079e2d01718be0e9308abaaf71026d406be933fa1d2d0ce09",
+  "dataset": "datasets/training/data/corrected/training-records.csv",
+  "version_records": 14840,
+  "splits": [
+    {"packages":480,"positive":20,"target_totals":[3,33,34,2,0]},
+    {"packages":102,"positive":4,"target_totals":[2,11,1,1,0]},
+    {"packages":103,"positive":4,"target_totals":[2,2,1,0,0]}
+  ],
+  "validation": [
+    {"alpha":0.01,"raw":{"mae":0.040783074133224066,"rmse":0.25571275100189117},"rounded":{"mae":0.029411764705882353,"rmse":0.24253562503633297}},
+    {"alpha":0.1,"raw":{"mae":0.04130586339681951,"rmse":0.20069674452418337},"rounded":{"mae":0.02696078431372549,"rmse":0.2041241452319315}},
+    {"alpha":1.0,"raw":{"mae":0.05660659046357555,"rmse":0.3158583097079828},"rounded":{"mae":0.03431372549019608,"rmse":0.342997170285019}},
+    {"alpha":10.0,"raw":{"mae":0.07211334556070718,"rmse":0.4579124262791631},"rounded":{"mae":0.03676470588235294,"rmse":0.46705166191970754}}
+  ],
+  "validation_zero":{"mae":0.03676470588235294,"rmse":0.46705166191970754},
+  "selected_alpha":0.1,
+  "test":{
+    "poisson":{"mae":0.03498829944164237,"rmse":0.20598692176704905},
+    "rounded":{"mae":0.021844660194174758,"rmse":0.2031308344942493},
+    "zero":{"mae":0.012135922330097087,"rmse":0.13034681147667526}
+  },
+  "notes":"Metrics averaged over all four requested severity counts. Unknown is retained in the model contract but has no positive training examples. The provided model was fitted directly on the GitHub CSV using Newton optimization of the L2-regularized Poisson objective. train.py reproduces that objective using scikit-learn; exact floating-point coefficients may differ."
+}

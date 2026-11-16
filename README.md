@@ -61,3 +61,22 @@ share package-level outcomes; evaluation should split by package.
 [GitHub Actions](https://github.com/Yasamanpiroozfar/PCOM/actions) runs the checks.
 The annotated [`initial-training-data`](https://github.com/Yasamanpiroozfar/PCOM/tree/initial-training-data)
 tag retains the initial submission files.
+
+## Homework 5 – Implement Prediction Function
+
+The prediction function forecasts the number of new GitHub-reviewed npm vulnerability advisories within the next 90 days, using L2-regularized Poisson regression.
+
+- Implementation: [`prediction/`](prediction/)
+- Documentation and usage instructions: [`prediction/README.md`](prediction/README.md)
+- Trained model: [`prediction/model.json`](prediction/model.json)
+- Evaluation results: [`prediction/evaluation.json`](prediction/evaluation.json)
+
+**Submission tag:** `pcom-entry-1`
+
+Run the prediction function:
+
+```bash
+python prediction/predict.py input.csv result.csv --fractional
+```
+
+The output contains five nonnegative floating-point predictions for low, moderate, high, critical, and unknown severity vulnerabilities.
